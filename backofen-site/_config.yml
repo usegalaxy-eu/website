@@ -29,12 +29,27 @@ markdown: kramdown
 #theme: minima
 plugins:
   - jekyll-feed
+  - jekyll/scholar
+
+scholar:
+  style: bioinformatics
+  group_by: year
+
+citation:
+    citation_style: apa
+    citation_locale: en
 
 header_links:
     - name: News
       url: /news/
-    - name: About
-      url: /about/
+    - name: Events
+      url: /events/
+    - name: People
+      url: /people/
+    - name: Services
+      url: /services/
+    - name: Publications
+      url: /publications/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

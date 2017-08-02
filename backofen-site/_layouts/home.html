@@ -4,22 +4,53 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-  
+
   {{ content }}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="flexbox-container" flex-direction="row" flex-wrap="nowrap">
+    <div class='info-box'>
+      <div class='info-box-title'>
+        <a href="/news/"><h2>News</h2></a>
+      </div>
+      <ul class="post-list">
+        {% assign events = site.posts | where:"layout", "news" %}
+        {% for post in events limit:5 %}
+          <li>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h2>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {% if post.tags contains "update" %}
+                <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                {% elsif post.tags contains "tools" %}
+                <i class="fa fa-wrench" aria-hidden="true"></i>
+                {% endif %}
+                {{ post.title | escape }}
+              </a>
+            </h2>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class='info-box'>
+      <div class='info-box-title'>
+        <a href="/events/"><h2>Events</h2></a>
+      </div>
+      <ul class="post-list">
+        {% assign events = site.posts | where:"layout", "event" %}
+        {% for post in events limit:5 %}
+          <li>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h2>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+            {{ post.tags }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 

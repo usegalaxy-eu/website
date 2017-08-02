@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="home">
+	<h1 class="page-heading">People</h1>
+	{{ content }}
+	<table class="tbl">
+		<tbody>
+		{% for person in site.data.people %}
+			<tr id={{person[0]}}>
+				<td width="120px">
+					<img src="{{ person[1].image }}" width="120">
+				</td>
+				<td>
+					<h2>{{ person[1].name }}</h2>
+					<h3>{{ person[1].title }}</h3>
+					<div>
+						{{ person[1].bio }}
+					</div>
+				</td>
+			</tr>
+		{% endfor %}
+		</tbody>
+	</table>
+
+	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+</div>
