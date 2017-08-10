@@ -20,7 +20,7 @@
 
         <div class="trigger">
           {% for path in site.header_links %}
-            <a class="page-link" href="{{ path.url }}">{{ path.name | escape }}</a>
+            <a class="page-link" href="{{ path.url | relative_url }}">{{ path.name | escape }}</a>
           {% endfor %}
         </div>
       </nav>
