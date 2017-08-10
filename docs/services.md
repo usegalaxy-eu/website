@@ -1,6 +1,6 @@
 ---
-# intentionally blank. Please edit _data/people.yml
 layout: default
+permalink: /services/
 ---
 
 # Services we Offer
