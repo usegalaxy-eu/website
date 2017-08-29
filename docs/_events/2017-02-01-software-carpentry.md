@@ -3,6 +3,10 @@ tags:
 title: "Bioinformatics Galaxy workshop, September 2017"
 starts: 2017-03-09
 ends: 2017-03-10
+organiser:
+  name: Freiburg Galaxy Team
+  email: galaxy@informatik.uni-freiburg.de
+location: Georges-Köhler-Allee, Freiburg im Breisgau, Tyskland
 ---
 
 We are happy to announce the first Software Carpentry workshop in Freiburg.

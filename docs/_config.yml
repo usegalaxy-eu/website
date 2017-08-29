@@ -78,6 +78,9 @@ collections:
   events:
     permalink: /events/:path/
     output: true
+  events_ical:
+    permalink: /events/:path/event.ics
+    output: true
   events_plain:
     permalink: /events/:path/plain.html
     output: true
@@ -98,6 +101,11 @@ defaults:
       path: "_events"
     values:
       layout: event
+  -
+    scope:
+      path: "_events_ical"
+    values:
+      layout: event-ical
   -
     scope:
       path: "_events_plain"

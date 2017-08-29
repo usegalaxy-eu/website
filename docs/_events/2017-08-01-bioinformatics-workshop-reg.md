@@ -3,6 +3,10 @@ tags:
 title: "Bioinformatics Galaxy workshop, September 2017"
 starts: 2017-09-18
 ends: 2017-09-22
+organiser:
+  name: Freiburg Galaxy Team
+  email: galaxy@informatik.uni-freiburg.de
+location: Georges-Köhler-Allee, Freiburg im Breisgau, Tyskland
 ---
 
 Registration is open! Apply [here](https://goo.gl/forms/HsTektuQE6e6lsoC2).
