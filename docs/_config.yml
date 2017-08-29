@@ -69,3 +69,16 @@ header_links:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
+# This will simultaneously render all collection items as "plain" pages
+collections:
+  collection_plain:
+    permalink: /posts/:path/plain.html
+    output: true
+
+defaults:
+  -
+    scope:
+      path: "_collection_plain"
+    values:
+      layout: default-galaxy

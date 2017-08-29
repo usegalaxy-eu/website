@@ -1,0 +1,40 @@
+---
+layout: default-galaxy
+---
+
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+<div class="home">
+
+	<h1 class="page-heading">Events</h1>
+	{{ content }}
+	<table class="tbl">
+		<thead>
+			<tr>
+				<th>Event</th>
+				<th>Starts</th>
+				<th>Ends</th>
+			</tr>
+		</thead>
+		<tbody>
+		{% for post in site.collection_plain %}
+			{% if post.layout == "event" %}
+			<tr>
+				<td>
+				<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+				<div>{{ post.excerpt }}</div>
+				</td>
+				<td>
+				<span class="post-meta">{{ post.starts | date: date_format }}</span>
+				</td>
+				<td>
+				<span class="post-meta">{{ post.ends   | date: date_format }}</span>
+				</td>
+			</tr>
+			{% endif %}
+		{% endfor %}
+		</tbody>
+	</table>
+
+	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+</div>
