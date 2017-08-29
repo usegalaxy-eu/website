@@ -10,10 +10,10 @@ layout: default
   <div class="flexbox-container" flex-direction="row" flex-wrap="nowrap">
     <div class='info-box'>
       <div class='info-box-title'>
-        <a href="/news/"><h2>News</h2></a>
+        <a href="../news/"><h2>News</h2></a>
       </div>
       <ul class="post-list">
-        {% assign events = site.posts | where:"layout", "news" %}
+        {% assign events = site.posts | reverse %}
         {% for post in events limit:5 %}
           <li>
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -34,10 +34,10 @@ layout: default
     </div>
     <div class='info-box'>
       <div class='info-box-title'>
-        <a href="/events/"><h2>Events</h2></a>
+        <a href="../events/"><h2>Events</h2></a>
       </div>
       <ul class="post-list">
-        {% assign events = site.posts | where:"layout", "event" %}
+        {% assign events = site.events | reverse %}
         {% for post in events limit:5 %}
           <li>
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}

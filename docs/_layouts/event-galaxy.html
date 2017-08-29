@@ -6,7 +6,8 @@ layout: default-galaxy
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
-    <span>From <span class='date'>{{ page.starts }}</span> to <span class='date'>{{ page.ends }}</span></span>
+	<span>From <span class='date'>{{ page.starts }}</span> to <span class='date'>{{ page.ends }}</span></span><br/>
+	<a href="{{ 'event.ics.html' | absolute_url | replace:'http://', 'webcal://'}}"><i class="fa fa-calendar" aria-hidden="true"></i> Add to your Calendar</a>
   </header>
 
   <div class="post-content">

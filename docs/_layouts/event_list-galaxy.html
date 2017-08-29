@@ -16,8 +16,8 @@ layout: default-galaxy
 			</tr>
 		</thead>
 		<tbody>
-		{% for post in site.events_plain %}
-			{% if post.layout == "event" %}
+		{% assign posts = site.events_plain | reverse %}
+		{% for post in posts %}
 			<tr>
 				<td>
 				<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -30,7 +30,6 @@ layout: default-galaxy
 				<span class="post-meta">{{ post.ends   | date: date_format }}</span>
 				</td>
 			</tr>
-			{% endif %}
 		{% endfor %}
 		</tbody>
 	</table>

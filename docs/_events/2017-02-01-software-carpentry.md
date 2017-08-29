@@ -1,6 +1,6 @@
 ---
 tags:
-title: "Bioinformatics Galaxy workshop, September 2017"
+title: Software Carpentry workshop
 starts: 2017-03-09
 ends: 2017-03-10
 organiser:

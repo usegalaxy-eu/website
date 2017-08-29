@@ -10,10 +10,10 @@ layout: default-galaxy
   <div class="flexbox-container" flex-direction="row" flex-wrap="nowrap">
     <div class='info-box'>
       <div class='info-box-title'>
-        <a><h2>News</h2></a>
+        <a href="../gxnews/"><h2>News</h2></a>
       </div>
       <ul class="post-list">
-        {% assign events = site.posts_plain %}
+        {% assign events = site.posts_plain | reverse %}
         {% for post in events limit:5 %}
           <li>
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -34,10 +34,10 @@ layout: default-galaxy
     </div>
     <div class='info-box'>
       <div class='info-box-title'>
-        <a><h2>Events</h2></a>
+        <a href="../gxevents/"><h2>Events</h2></a>
       </div>
       <ul class="post-list">
-        {% assign events = site.events_plain %}
+        {% assign events = site.events_plain | reverse %}
         {% for post in events limit:5 %}
           <li>
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
