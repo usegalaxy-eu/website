@@ -1,5 +1,4 @@
 ---
-layout: event
 tags:
 title: "Bioinformatics Galaxy workshop, September 2017"
 starts: 2017-03-09

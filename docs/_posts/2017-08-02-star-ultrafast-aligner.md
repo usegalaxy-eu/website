@@ -1,5 +1,4 @@
 ---
-layout: news
 tags: [galaxy, tools]
 title: "STAR: Ultrafast alignment of RNA-seq data"
 ---

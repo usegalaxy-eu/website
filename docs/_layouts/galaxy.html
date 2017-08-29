@@ -13,7 +13,7 @@ layout: default-galaxy
         <a><h2>News</h2></a>
       </div>
       <ul class="post-list">
-        {% assign events = site.posts | where:"layout", "news" %}
+        {% assign events = site.posts_plain %}
         {% for post in events limit:5 %}
           <li>
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -37,7 +37,7 @@ layout: default-galaxy
         <a><h2>Events</h2></a>
       </div>
       <ul class="post-list">
-        {% assign events = site.posts | where:"layout", "event" %}
+        {% assign events = site.events_plain %}
         {% for post in events limit:5 %}
           <li>
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}

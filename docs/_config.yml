@@ -72,13 +72,34 @@ header_links:
 #
 # This will simultaneously render all collection items as "plain" pages
 collections:
-  collection_plain:
+  posts_plain:
     permalink: /posts/:path/plain.html
+    output: true
+  events:
+    permalink: /events/:path/
+    output: true
+  events_plain:
+    permalink: /events/:path/plain.html
     output: true
 
 defaults:
   -
     scope:
-      path: "_collection_plain"
+      path: "_posts"
     values:
-      layout: default-galaxy
+      layout: news
+  -
+    scope:
+      path: "_posts_plain"
+    values:
+      layout: news-galaxy
+  -
+    scope:
+      path: "_events"
+    values:
+      layout: event
+  -
+    scope:
+      path: "_events_plain"
+    values:
+      layout: event-galaxy
