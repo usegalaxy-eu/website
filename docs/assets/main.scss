@@ -2,19 +2,19 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-#maincontainer {
-    a {
-        color: #2882dc;
-        text-decoration: none;
-    }
-}
-
 body {
     font-size: 14px;
 }
 
 footer {
     font-size: 85%;
+}
+
+#maincontainer {
+    a {
+        color: #2882dc;
+        text-decoration: none;
+    }
 }
 
 .jumbotron {
@@ -25,7 +25,8 @@ footer {
     padding-bottom: 30px;
 }
 
-.contact-info, .people-info {
+.contact-info,
+.people-info {
     .fa {
         margin-right: 5px;
         font-size: 15px;
@@ -37,23 +38,16 @@ footer {
 }
 
 .table {
-    tbody {
-        tr {
-            td {
-                border-top: none;
-            }
-        } 
+    tbody > tr > td,  {
+        border-top: none;
     }
-    thead {
-        tr {
-            th {
-                border-bottom: none;
-            }
-        } 
+    thead > tr > th {
+        border-bottom: none;
     }
 }
 
-.people-title, .people-name {
+.people-title,
+.people-name {
     margin-bottom: 5px;
     margin-top: 0px;
 }
