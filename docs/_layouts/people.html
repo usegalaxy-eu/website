@@ -1,29 +1,42 @@
 ---
 layout: default
 ---
+<div class="row">
 
-<div class="home">
-	<h1 class="page-heading">People</h1>
-	{{ content }}
-	<table class="tbl">
-		<tbody>
-		{% for person in site.data.people %}
-			<tr id={{person[0]}}>
-				<td width="120px">
-					<img src="{{ person[1].image }}" width="120">
+ 	<section class="section-content">
+    	<h1>People</h1>
+
+    	{{ content }}
+
+	    <table class="table">
+	      <tbody>
+	        {% for person in site.data.people %}
+	          <tr id={{person[0]}}>
+	            <td width="80px">
+					<img src="https://github.com/{{ person[0] }}.png?s=400" width="80">
 				</td>
-				<td>
-					<h2>{{ person[1].name }}</h2>
-					<h3>{{ person[1].title }}</h3>
-					<div>
-						{{ person[1].bio }}
-					</div>
-				</td>
-			</tr>
-		{% endfor %}
-		</tbody>
-	</table>
-
-	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+					<td>
+						<h3 class="people-name">
+							{% if person[1].website %}
+								<a href="{{ person[1].website }}">{{ person[1].name }}</a>
+							{% else %}
+								{{ person[1].name }}
+							{% endif %}
+						</h3>
+						<p class="people-title">{{ person[1].title }}</p>
+						{% if person[1].bio %}
+						<div>
+							{{ person[1].bio }}
+						</div>
+						{% endif %}
+						<p class="people-info"><i class="fa fa-envelope"></i><a href="mailto:{{ person[1].email}}">{{ person[1].email }}</a></p>
+						<p class="people-info"> <i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/{{ person[0] }}">{{ person[0] }}</a></p>
+						<p class="people-info"><i class="fa fa-phone" aria-hidden="true"></i>{{ person[1].phone }}</p>
+						<p class="people-info"><i class="fa fa-search" aria-hidden="true"></i>{{ person[1].location }}</p>
+					</td>
+	          </tr>
+	        {% endfor %}
+	      </tbody>
+	  	</table>
+	</section>
 </div>
