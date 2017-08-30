@@ -6,31 +6,34 @@ layout: default
 <div class="row">
 
 	<section class="section-content">
-		<h1>Events</h1>
-		<table class="table table-striped">
-			<thead>
-				<tr>
-					<th>Topic/Event</th>
-					<th>Starts</th>
-					<th>Ends</th>
-				</tr>
-			</thead>
-			<tbody>
-				{% assign posts = site.events | reverse %}
-				{% for post in posts %}
+		<div class="col-md-12">
+			<h1>Events</h1>
+			<table class="table table-striped">
+				<thead>
 					<tr>
-						<td>
-							<h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
-							<p>{{ post.excerpt }}</p>
-						</td>
-						<td>
-						<span class="text-nowrap">{{ post.starts | date: date_format }}</span>
-						</td>
-						<td>
-						<span class="text-nowrap">{{ post.ends   | date: date_format }}</span>
-						</td>
+						<th>Topic/Event</th>
+						<th>Starts</th>
+						<th>Ends</th>
 					</tr>
-				{% endfor %}
-			</tbody>
-	</table>
+				</thead>
+				<tbody>
+					{% assign posts = site.events | reverse %}
+					{% for post in posts %}
+						<tr>
+							<td>
+								<h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+								<p>{{ post.excerpt }}</p>
+							</td>
+							<td>
+							<span class="text-nowrap">{{ post.starts | date: date_format }}</span>
+							</td>
+							<td>
+							<span class="text-nowrap">{{ post.ends   | date: date_format }}</span>
+							</td>
+						</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+	</section>
 </div>
