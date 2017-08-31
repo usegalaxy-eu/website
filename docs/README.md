@@ -1,5 +1,34 @@
 # Backofen Galaxy Page
 
+## Duplication
+
+You will notice there is some duplication in the templates:
+
+Parent                            | Duplicate
+---------------                   | --------------
+`_layout/event.html`              | `_layout/event-galaxy.html`
+`_layout/event_list.html`         | `_layout/event_list-galaxy.html`
+`_layout/news.html`               | `_layout/news-galaxy.html`
+`_layout/news_list.html`          | `_layout/news_list-galaxy.html`
+`_layout/news.md`                 | `_layout/gxnews.md`
+`_layout/events.md`               | `_layout/gxevents.md`
+`_layout/default.md`              | `_layout/default-galaxy.md`
+`_includes/home_news_events.html` | `_includes/home_news_events-galaxy.html`
+
+This duplication is intentional, it is part of the `collections` configuration
+and allows us to produce "two" sites from one set of source documents. This is
+done intentionally in order to allow authors to add posts once, and then on the
+code side we generate both a "normal" site with the full header, and a "galaxy"
+version without the header since a duplicate header looks quite strange in
+Galaxy.
+
+If you need to edit templates, I would recommend editing the parent / normal
+template and then `vimdiff`ing (or other tool of your choice) to compare that
+with its `-galaxy.html` sibling. Most of the templates will be identical except for 
+the template they are inheriting from. The only major differences is that the
+normal templates read `for post in site.posts` (or `site.events`) while the 
+galaxy templates read `for post in site.posts_plain` (`or site.events_plain`)
+
 
 ## Adding Posts
 

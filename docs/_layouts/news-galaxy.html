@@ -1,0 +1,20 @@
+---
+layout: default-galaxy
+---
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+<div class="row">
+  <section class="section-content">
+    <div class="col-md-12">
+        <h1>{{ page.title | escape }}</h1>
+
+        {% for tag in page.tags %}
+          <span class="label label-default">{{ tag }}</span>
+        {% endfor %}
+
+        <p class="small">{{ page.date | date: date_format }}</p>
+
+        <div>
+          {{ content }}
+        </div>
+    </div>
+</div>

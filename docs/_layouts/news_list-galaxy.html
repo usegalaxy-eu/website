@@ -1,0 +1,33 @@
+---
+layout: default-galaxy
+---
+
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+<div class="row">
+  <section class="section-content">
+    <div class="col-md-12">
+      <h1>News</h1>
+
+      <p>The News are also available as an <a href="{{ "/feed.xml" | relative_url }}">RSS feed</a></p>
+
+      <table class="table table-striped">
+        <tbody>
+          {% for post in site.posts_plain %}
+            <tr>
+              <td>
+                <span class="text-nowrap">{{ post.date | date: date_format }}</span>
+              </td>
+              <td>
+                <h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+                <p class="small">{{ post.excerpt }}</p>
+                {% for tag in post.tags %}
+                  <span class="label label-default">{{ tag }}</span>
+                {% endfor %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>
