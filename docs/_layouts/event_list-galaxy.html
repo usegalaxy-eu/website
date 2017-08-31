@@ -1,0 +1,39 @@
+---
+layout: default-galaxy
+---
+
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+<div class="row">
+
+	<section class="section-content">
+		<div class="col-md-12">
+			<h1>Events</h1>
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Topic/Event</th>
+						<th>Starts</th>
+						<th>Ends</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% assign posts = site.events_plain | reverse %}
+					{% for post in posts %}
+						<tr>
+							<td>
+								<h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+								<p>{{ post.excerpt }}</p>
+							</td>
+							<td>
+							<span class="text-nowrap">{{ post.starts | date: date_format }}</span>
+							</td>
+							<td>
+							<span class="text-nowrap">{{ post.ends   | date: date_format }}</span>
+							</td>
+						</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+	</section>
+</div>
