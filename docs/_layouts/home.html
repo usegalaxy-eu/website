@@ -3,55 +3,23 @@ layout: default
 ---
 
 <div class="home">
+  <div class="jumbotron">
+    <p>The Freiburg Galaxy Team offers a framework for scientists on e.g. NGS
+    data analyses (RNA-seq, ChIP-seq, Exome-seq, MethylC-seq), genome
+    annotation analyses for eukaryotic and prokaryotic organisms (from gene
+    prediction to functional description), Proteomics and Metabolomics
+    analysis, and the ChemicalToolBoX for analysis of small compounds.</p>
+    
+    <p>Furthermore, Galaxy has a huge variety of data visualization tools. Galaxy
+    contains more than 800 different single analysis tools and ready-to-use
+    pipelines for different applications.</p> 
 
-
-  {{ content }}
-
-  <div class="flexbox-container" flex-direction="row" flex-wrap="nowrap">
-    <div class='info-box'>
-      <div class='info-box-title'>
-        <a href="../news/"><h2>News</h2></a>
-      </div>
-      <ul class="post-list">
-        {% assign events = site.posts | reverse %}
-        {% for post in events limit:5 %}
-          <li>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h2>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {% if post.tags contains "update" %}
-                <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                {% elsif post.tags contains "tools" %}
-                <i class="fa fa-wrench" aria-hidden="true"></i>
-                {% endif %}
-                {{ post.title | escape }}
-              </a>
-            </h2>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class='info-box'>
-      <div class='info-box-title'>
-        <a href="../events/"><h2>Events</h2></a>
-      </div>
-      <ul class="post-list">
-        {% assign events = site.events | reverse %}
-        {% for post in events limit:5 %}
-          <li>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h2>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h2>
-            {{ post.tags }}
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
+    <p>After registration, all tools and the infrastructure for data analysis are 
+    freely available and can be used for creation of your own workflows for your 
+    specific projects. </p>
   </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+  {% include home_news_events.html %}
+  {% include home_training.html %}
+  {% include home_done.html %}
 </div>

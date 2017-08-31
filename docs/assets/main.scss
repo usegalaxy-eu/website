@@ -2,4 +2,56 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima";
+body {
+    font-size: 14px;
+}
+
+footer {
+    font-size: 85%;
+}
+
+#maincontainer {
+    a {
+        color: #2882dc;
+        text-decoration: none;
+    }
+}
+
+.jumbotron {
+    p {
+        font-size: 14px;
+    }
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-info,
+.people-info {
+    .fa {
+        margin-right: 5px;
+        font-size: 15px;
+    }
+}
+
+.page-heading {
+    font-size: 30px;
+}
+
+.table {
+    tbody > tr > td,  {
+        border-top: none;
+    }
+    thead > tr > th {
+        border-bottom: none;
+    }
+}
+
+.people-title,
+.people-name {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.people-info {
+    margin-bottom: 0px;
+}
