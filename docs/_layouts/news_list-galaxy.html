@@ -12,7 +12,8 @@ layout: default-galaxy
 
       <table class="table table-striped">
         <tbody>
-          {% for post in site.posts_plain %}
+          {% assign posts = site.posts_plain | reverse %}
+          {% for post in posts %}
             <tr>
               <td>
                 <span class="text-nowrap">{{ post.date | date: date_format }}</span>
