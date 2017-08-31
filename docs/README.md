@@ -38,8 +38,7 @@ These are used for tool notices / other server notices. Run:
 jekyll post "My new post"
 ```
 
-The only required metadata are tags and title. If you put `tools` in the tags a
-wrench icon will show with the post.
+The only required metadata are tags and title, you should **remove layout** as that is inherited / specified automatically. If you put `tools` in the tags a wrench icon will show with the post.
 
 ## Adding Events
 
