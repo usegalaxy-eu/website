@@ -1,5 +1,4 @@
 ---
-layout: post
 tags: [galaxy, tools]
 title: Search and get data from ENA with ENASearch
 ---
