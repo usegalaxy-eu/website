@@ -1,56 +1,28 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-    <h2 class="footer-heading">Supported by...</h2>
-    <div class="footer-col-wrapper">
+<footer class="navbar-default navbar-static-bottom">
+  <div class="container">
+    <div class="row">
+      <p class="navbar-brand">{{ site.title }}</p>
     </div>
-
-  </div>
-
-</footer>
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
+    <div class="row">
+      <div class='col-lg-6'>
+        <div class="navbar-text">
+          <div class="contact-info">
             {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+              <p><i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
             {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+            {% if site.github_username %}
+              <p><i class="fa fa-github"></i><a href="https://github.com/backofenlab">{{ site.github_username }}</a></p>
+            {% endif %}
+            {% if site.twitter_username %}
+              <p><i class="fa fa-twitter"></i><a href="https://twitter.com/backofenlab">{{ site.twitter_username }}</a></p>
+            {% endif %}
+              <p><i class="fa fa-rss"></i>Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+          </div>
+        </div>
       </div>
     </div>
-
+    <div class="row">
+      <p class="navbar-text">The Freiburg Galaxy Team is part of the <a href="http://www.bioinf.uni-freiburg.de/">Bionformatics Group Freiburg</a>, headed by the Prof. Dr. Rolf Backofen. The team is supported by <a href="https://www.denbi.de/">de.NBI</a>, ...</p>
+    </div>
   </div>
-
 </footer>

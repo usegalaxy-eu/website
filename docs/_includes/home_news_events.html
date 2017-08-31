@@ -1,0 +1,43 @@
+<div class="row">
+  <div class='col-lg-6'>
+    <h2>News</h2>
+    <div class>
+      <div class="list-group">
+        {% assign events = site.posts | reverse %}
+        {% for post in events limit:5 %}
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <div class="list-group-item">
+            <p class="list-group-item-text">{{ post.date | date: date_format }}</p>
+            <h4 class="list-group-item-heading">
+              {% if post.tags contains "update" %}
+                <i class="fa fa-arrow-up" aria-hidden="true"></i>
+              {% elsif post.tags contains "tools" %}
+                <i class="fa fa-wrench" aria-hidden="true"></i>
+              {% endif %}
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h4>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class='col-lg-6'>
+    <h2>Events</h2>
+    <div class>
+      <div class="list-group">
+        {% assign events = site.events | reverse %}
+        {% for post in events limit:5 %}
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <div class="list-group-item">
+            <p class="list-group-item-text">{{ post.date | date: date_format }}</p>
+            <h4 class="list-group-item-heading">
+              <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h4>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

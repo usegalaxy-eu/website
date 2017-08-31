@@ -3,37 +3,37 @@ layout: default
 ---
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-<div class="home">
+<div class="row">
 
-	<h1 class="page-heading">Events</h1>
-	{{ content }}
-	<table class="tbl">
-		<thead>
-			<tr>
-				<th>Event</th>
-				<th>Starts</th>
-				<th>Ends</th>
-			</tr>
-		</thead>
-		<tbody>
-		{% assign posts = site.events_plain | reverse %}
-		{% for post in posts %}
-			<tr>
-				<td>
-				<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-				<div>{{ post.excerpt }}</div>
-				</td>
-				<td>
-				<span class="post-meta">{{ post.starts | date: date_format }}</span>
-				</td>
-				<td>
-				<span class="post-meta">{{ post.ends   | date: date_format }}</span>
-				</td>
-			</tr>
-		{% endfor %}
-		</tbody>
-	</table>
-
-	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+	<section class="section-content">
+		<div class="col-md-12">
+			<h1>Events</h1>
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Topic/Event</th>
+						<th>Starts</th>
+						<th>Ends</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% assign posts = site.events | reverse %}
+					{% for post in posts %}
+						<tr>
+							<td>
+								<h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+								<p>{{ post.excerpt }}</p>
+							</td>
+							<td>
+							<span class="text-nowrap">{{ post.starts | date: date_format }}</span>
+							</td>
+							<td>
+							<span class="text-nowrap">{{ post.ends   | date: date_format }}</span>
+							</td>
+						</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+	</section>
 </div>

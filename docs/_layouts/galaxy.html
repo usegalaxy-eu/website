@@ -3,89 +3,40 @@ layout: default-galaxy
 ---
 
 <div class="home">
-
-
   {{ content }}
 
-  <div class="flexbox-container" flex-direction="row" flex-wrap="nowrap">
-    <div class='info-box'>
-      <div class='info-box-title'>
-        <a href="../gxnews/"><h2>News</h2></a>
-      </div>
-      <ul class="post-list">
-        {% assign events = site.posts_plain | reverse %}
-        {% for post in events limit:5 %}
-          <li>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h2>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {% if post.tags contains "update" %}
-                <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                {% elsif post.tags contains "tools" %}
-                <i class="fa fa-wrench" aria-hidden="true"></i>
-                {% endif %}
-                {{ post.title | escape }}
-              </a>
-            </h2>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class='info-box'>
-      <div class='info-box-title'>
-        <a href="../gxevents/"><h2>Events</h2></a>
-      </div>
-      <ul class="post-list">
-        {% assign events = site.events_plain | reverse %}
-        {% for post in events limit:5 %}
-          <li>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h2>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h2>
-            {{ post.tags }}
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
+  {% include home_news_events.html %}
+
+  <div class="jumbotron">
+    <h2>Co-Authorship/Acknowledgements</h2>
+    
+	  <p>We want to maintain high competency and provide high quality data analysis 
+    services to all our Galaxy users.</p>
+
+		<p>Therefore we request you to acknowledge this service, by including the 
+    members of the Freiburg Galaxy Team as co-authors if they have made a 
+    significant intellectual and/or organizational contribution to the work 
+    described (conceptualization, design, data analysis, data interpretation 
+    and/or input into drafting, revising or writing any portion of the manuscript).</p>
+		
+    <p>Individuals who have contributed to the project, but whose contributions 
+    do not rise to the level justifying authorship, can be recognized in an 
+    acknowledgements section of the manuscript as follows: </p>
+		
+    <blockquote>
+		  <p>The authors acknowledge the support of the Freiburg Galaxy Team: 
+      Person X and Prof. Rolf Backofen, Bioinformatics, University of Freiburg, 
+      Germany funded by <a href="http://www.sfb992.uni-freiburg.de">Collaborative 
+      Research Centre 992 Medical Epigenetics</a> (<a href="http://www.dfg.de">DFG</a> 
+      grant SFB 992/1 2012) and German Federal Ministry of Education and Research
+      (<a href="http://www.bmbf.de/">BMBF</a> grant 031 A538A RBC (de.NBI)).</p>
+		</blockquote>
+
+		<p>Funding of projects and/or provision of material expenses are welcome to 
+    support our growing Galaxy community in Freiburg.</p>
+	  
   </div>
 
-    <div class='info-box'>
-      <div class='info-box-title'>
-        <a><h2>Co-Authorship/Acknowledgements</h2></a>
-      </div>
-	  <div style="padding: 1em">
-			We want to maintain high competency and provide high quality data
-			analysis services to all our Galaxy users. 
-			<br/>
-			<br/>
-
-			Therefore we request you to acknowledge this service, by including
-			the members of the Freiburg Galaxy Team as co-authors if they have
-			made a significant intellectual and/or organizational contribution
-			to the work described (conceptualization, design, data analysis,
-			data interpretation and/or input into drafting, revising or writing
-			any portion of the manuscript).
-			<br/>
-			<br/>
-			Individuals who have contributed to the project, but whose
-			contributions do not rise to the level justifying authorship, can
-			be recognized in an acknowledgements section of the manuscript as
-			follows:
-			<br/>
-			<br/>
-			<blockquote>
-				The authors acknowledge the support of the Freiburg
-				Galaxy Team: Person X and Prof. Rolf Backofen, Bioinformatics,
-				University of Freiburg, Germany funded by <a href="http://www.sfb992.uni-freiburg.de" target="_blank">Collaborative Research Centre 992 Medical Epigenetics</a>
-				(<a href="http://www.dfg.de" target="_blank">DFG</a> grant SFB 992/1 2012) and German Federal Ministry of Education and Research
-				(<a href="http://www.bmbf.de/" target="_blank">BMBF</a> grant 031 A538A RBC (de.NBI)).
-			</blockquote>
-
-			Funding of projects and/or provision of material expenses are welcome to support our growing Galaxy community in Freiburg.
-	  </div>
-    </div>
-
+  {% include home_training.html %}
+  {% include home_done.html %}
 </div>
