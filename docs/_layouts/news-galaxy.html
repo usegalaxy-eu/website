@@ -5,7 +5,16 @@ layout: default-galaxy
 <div class="row">
   <section class="section-content">
     <div class="col-md-12">
-        <h1>{{ page.title | escape }}</h1>
+        <h1>
+          {% if page.tags contains "update" %}
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+          {% elsif page.tags contains "tools" %}
+            <i class="fa fa-wrench" aria-hidden="true"></i>
+          {% elsif page.tags contains "devops" %}
+            <i class="fa fa-gear" aria-hidden="true"></i>
+          {% endif %}
+          {{ page.title | escape }}
+        </h1>
 
         {% for tag in page.tags %}
           <span class="label label-default">{{ tag }}</span>
