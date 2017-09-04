@@ -8,21 +8,21 @@
         <div class="navbar-text">
           <div class="contact-info">
             {% if site.email %}
-              <p><i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+              <i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a>
             {% endif %}
             {% if site.github_username %}
-              <p><i class="fa fa-github"></i><a href="https://github.com/backofenlab">{{ site.github_username }}</a></p>
+              <i class="fa fa-github"></i><a href="https://github.com/backofenlab">{{ site.github_username }}</a>
             {% endif %}
             {% if site.twitter_username %}
-              <p><i class="fa fa-twitter"></i><a href="https://twitter.com/backofenlab">{{ site.twitter_username }}</a></p>
+              <i class="fa fa-twitter"></i><a href="https://twitter.com/backofenlab">{{ site.twitter_username }}</a>
             {% endif %}
-              <p><i class="fa fa-rss"></i>Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+              <i class="fa fa-rss"></i>Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
           </div>
         </div>
       </div>
     </div>
     <div class="row">
-      <p class="navbar-text">The Freiburg Galaxy Team is part of the <a href="http://www.bioinf.uni-freiburg.de/">Bionformatics Group Freiburg</a>, headed by the Prof. Dr. Rolf Backofen. The team is supported by <a href="https://www.denbi.de/">de.NBI</a>, ...</p>
+      <p class="navbar-text">The Freiburg Galaxy Team is part of the <a href="http://www.bioinf.uni-freiburg.de/">Bionformatics Group Freiburg</a>, headed by the Prof. Dr. Rolf Backofen. The team is supported by <a href="https://www.denbi.de/">de.NBI</a> and <a href="https://www.elixir-europe.org/">ELIXIR</a></p>
     </div>
   </div>
 </footer>

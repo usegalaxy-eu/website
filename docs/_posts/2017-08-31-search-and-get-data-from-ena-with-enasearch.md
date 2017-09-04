@@ -1,5 +1,5 @@
 ---
-tags: [galaxy, tools]
+tags: [tools]
 title: Search and get data from ENA with ENASearch
 ---
 

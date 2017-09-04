@@ -1,5 +1,5 @@
 ---
-tags: [galaxy, devops]
+tags: [devops]
 title: "Fixed: Galaxy Metadata Issue"
 ---
 
