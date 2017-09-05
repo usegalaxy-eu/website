@@ -8,6 +8,8 @@ layout: default
         <h1>
           {% if page.tags contains "update" %}
             <i class="fa fa-arrow-up" aria-hidden="true"></i>
+          {% elsif page.tags contains "downtime" %}
+            <i class="fa fa-exclamation" aria-hidden="true"></i>
           {% elsif page.tags contains "tools" %}
             <i class="fa fa-wrench" aria-hidden="true"></i>
           {% elsif page.tags contains "devops" %}
