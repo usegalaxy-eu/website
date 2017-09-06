@@ -43,10 +43,10 @@ var ends =  {{ site.data.maintenance.ends   | date:"%s" }};
 // current time
 var now = new Date().getTime();
 // make sure it is the same length
-now = ("" + now).substr(0, ("" + start).length);
+now = parseInt(("" + now).substr(0, ("" + start).length));
 // are we in a maintenance period?
 if(start < now && now < ends){
-	var progress = parseInt(100 * (ends - now) / (ends - start));
+	var progress = parseInt(100 - 100 * (ends - now) / (ends - start));
 	var el = document.querySelectorAll("div.progress-bar")[0];
 	el.style.width = progress + '%';
 	el.setAttribute('aria-valuenow', progress);
