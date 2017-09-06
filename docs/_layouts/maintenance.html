@@ -1,0 +1,75 @@
+---
+layout: default-galaxy
+---
+
+<div class="home" style="margin-top: 2em">
+
+{% if site.data.maintenance.starts %}
+	<div class="jumbotron">
+		<h1>Maintenance Period</h1>
+		<div class="progress-container">
+			<div class="progress">
+				<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+			</div>
+			<p>
+			Galaxy Freiburg is currently down for maintenance. We're sorry for any inconvenience this causes.
+			</p>
+		</div>
+
+		<p>
+		{{ site.data.maintenance.message }}
+		</p>
+		<p>
+		Currently running jobs <b>{% if jobs_affected %}will{% else %}will not{% endif %}</b>
+		be affected.
+		</p>
+
+
+		<table class="table">
+			<thead>
+				<tr><th>Planned Event</th><th>Time</th></tr>
+			</thead>
+			<tbody>
+				<tr><td>Starts</td><td>{{ site.data.maintenance.starts }}</td></tr>
+				<tr><td>Ends</td><td>{{ site.data.maintenance.ends }}</td></tr>
+			</tbody>
+		</table>
+
+
+<script type="text/javascript">
+// Update progress bar.
+var start = {{ site.data.maintenance.starts | date:"%s" }};
+var ends =  {{ site.data.maintenance.ends   | date:"%s" }};
+// current time
+var now = new Date().getTime();
+// make sure it is the same length
+now = ("" + now).substr(0, ("" + start).length);
+// are we in a maintenance period?
+if(start < now && now < ends){
+	var progress = parseInt(100 * (ends - now) / (ends - start));
+	var el = document.querySelectorAll("div.progress-bar")[0];
+	el.style.width = progress + '%';
+	el.setAttribute('aria-valuenow', progress);
+} else if( now > ends ){
+	// Maintenance period is over, redirect them to the site.
+	var el = document.querySelectorAll("div.progress-container")[0];
+	console.log('asdf');
+	el.innerHTML = "<p>The maintenance period is over. You will be redirected automatically</p>";
+	window.top.location.href = "https://galaxy.uni-freiburg.de";
+} else if( now < start ){
+	// Maintenance has not started.
+	var el = document.querySelectorAll("div.progress-container")[0];
+	console.log('asdf');
+	console.log('asdf');
+	el.innerHTML = "The maintenance period has not started yet.";
+}
+</script>
+
+	</div>
+{% else %}
+<p>
+	There are no currently scheduled maintenance events.
+</p>
+{% endif %}
+
+</div>

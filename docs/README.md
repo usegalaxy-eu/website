@@ -1,5 +1,10 @@
 # Backofen Galaxy Page
 
+## Server Maintenance
+
+If you need to register a maintenance event, edit `_data/maintenance.yml`. When
+the event is over, you should comment out that file.
+
 ## Duplication
 
 You will notice there is some duplication in the templates:
@@ -66,10 +71,9 @@ and can easily get directions to it.
 
 ## Building
 
-First, run `bundler` to pull down dependencies. Then to serve:
-
 ```console
-jekyll serve --watch
+bundle install --path vendor/bundle
+bundle exec jekyll serve --watch
 ```
 
 Other commands are available under `jekyll --help`
