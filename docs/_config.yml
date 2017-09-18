@@ -25,7 +25,7 @@ description: >
     pipelines for different applications. After registration, all tools and
     the infrastructure for data analysis are freely available and can be used
     for creation of your own workflows for your specific projects. 
-email: galaxy@uni-freiburg.de
+email: galaxy@informatik.uni-freiburg.de
 baseurl: "/galaxy-freiburg" # the subpath of your site, e.g. /blog
 url: "https://backofenlab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: backofenlab
