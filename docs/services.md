@@ -7,28 +7,24 @@ The Freiburg Galaxy Team is offering several services to enable reproducible, ac
 
 # Galaxy Server
 
-Our flagship service is our Galaxy server. With the Galaxy gateway, we do offer access to a lot of compute and storage resourcs.
-But not only this, Galaxy will give you access to more then 1000 of different Bioinformatics tools, all maintained and documented for you.
-Combined with community maintained workflows and our training material we hope to enable everone to analys their own data in a reproducible way.
+Our flagship service is our Galaxy server. With this server we offer access to a lot of compute and storage resources for free.
+Galaxy will give you access to more than 1000 different, documented and maintained, bioinformatics tools.
+When this is combined with our community maintained workflows and our in-depth training materials, it makes for a truly productive work experience. We believe in enabling everyone to do reproducible science.
 
 # Training
 
-The Galaxy team in Freiburg is offering various trainings world wide.
+The Freiburg Galaxy team offers various training events world wide.
 Supporting researchers by training them in big data analysis, programming and data managment is important for us,
-as we beliefe in knowledge sharing and open sciende.
+as we believe in knowledge sharing and open science.
 
-As part of this the Galaxy Freiburg team is maintaining with many other people world-wide the Galaxy training material
-@ https://training.galaxyproject.org. All our material is online and accessible for everyone without restictions. You can 
-use this material on our Galaxy server or you can spin up your own virtualised Galaxy server - as you like!
+As part of this the Freiburg Galaxy team is helping maintain the community-led [Galaxy training materials](https://training.galaxyproject.org). All of our material is online and freely accessible for everyone. You can 
+use this material on our Galaxy server or you can spin up your own Galaxy server!
 
-If you want to offer a training course to other researchers, we do maintain a set of material for "train the trainers" and share our experience as much as we can.
+If you want to offer a training course to other researchers, we do maintain a set of material for "train the trainers" and can share our knowledge and experience in this area.
 
-And we have a special service for Galaxy traininers - Training-infrastructure as a Service!
-You have a planned training? Get in touch with us to get dedicated resources for your training. We will guarantee that for the time of your training, all your
-trainees are using resources dedicated to your training event. No setup, no queing waiting times, no hassle. Just drop us a mail and
-concentrate on the important things during your training.
+## Training Infrastructure-as-as-Service
 
-- Tours?
+We're excited to announce a special service for Galaxy traininers - Training-infrastructure as a Service! If you have a training event planned, [get in touch](mailto:galaxy@informatik.uni-freiburg.de?subject=Galaxy%20TaaS) with us and we will allocate you completely dedicated compute resources for the duration of your training. Your users' jobs will be directed to these resources and be free from the regular job queue. No setup, no queueing times, no hassle. Just [drop us a mail](mailto:galaxy@informatik.uni-freiburg.de?subject=Galaxy%20TaaS) and concentrate on the important things during your training.
 
 
 # Virtualised Deployments
@@ -36,40 +32,26 @@ concentrate on the important things during your training.
 Our aim is to enable all researchers easy access to tools, wherever they need them.
 Spending valuable time in compilation hell or frustating conversations with cluster admins because
 tools are not available should not be a problem nowadays. Therefor, we are leading the BioConda and BioContainers projects,
-which are forming together the best stack for reproducible science which we ever had.
+which together form the best stack for reproducible science ever.
 
-## BioConda & BioContainers
+## Galaxy Flavors
 
-- mulled
-- conda -> containers
-- the entire stack is available in Galaxy, pick which technology your needs fits best.
+We offer access to a wide variety of compute and storage resources through our Galaxy portal.
+The Galaxy server is our way to deliver all our services, like training, tools, data analysis, and our cloud too you.
 
-## Galaxy flavors
-
-We are offering access to a lot of compute and storage resources through our Galaxy portal to everyone.
-The Galaxy server is our way to deliver all our services, like training, tools, data analysis, our cloud too you.
-
-However, we do need to limit the storage capacity for a single user to offer this service to thousands of researchers.
-We don't want to restrict anyone, or make anyone dependent on our service as we beliefe in freedom of research and open access in science.
-
-For this reason we have developed a virtualised Galaxy instance, you can think of this like Galaxy in a Box. Production ready,
-scalable with all goodies included that makes Galaxy so popular. We maintain and offer these Galaxy instance for download in a variaty
-of different flavors. For example the RNA-workbench for all RNA related reserch, or Asaim for metagenomics or a flavor dedicated for epigenetic research.
+However, we don't want to restrict anyone, or make anyone dependent on our service as we believe in freedom of research and open access in science. For this reason we have developed a virtualised Galaxy instance. You can think of this like "Galaxy in a Box." It is a production ready, scalable Galaxy instance, complete with all the goodies included that makes Galaxy so popular. We maintain and offer these Galaxy instance for download in a variaty of different "flavors". For example, the RNA-workbench flavour for all RNA related reserch, or Asaim flavour for metagenomics, or a one dedicated to epigenetic research.
 
 
-# Data analysis
+# Data Analysis
 
-You don't have time to analysis your data or have a very specialized question? Our team consists of expert in different fields and
-we are eager to assist you and solve your scientific question with you!
-If we can not help you, we know many smart bioinformatians around the globe and will redirect you.
+You don't have time to analysis your data or have a very specialized question? Our team consists of expert in different fields and we are eager to assist you and solve your scientific question with you! If we can not help you, we know many top bioinformatians around the globe and can put you in touch with them.
 
-# Tool integration
+# Tool Integration
 
-You have a scientific question and don't find the appropriate tool for it? We can put ideas into code and then in Galaxy, so everyone can use it!
+Do you have a scientific question and can't find the appropriate tool for it? We will put ideas into code, and then the code into Galaxy, so everyone can use it!
 
-
-# Scientific computing cloud
+# Scientific Computing Cloud
 
 As part of the German Network for Bioinformatics Infrastructure we maintain a scientific cloud for our users.
-Do you have special needs needs? Do you need a virtualised computing environment for your research?
-Get in touch with us and we will develop a personalised solution for you!
+If you have special needs or requie virtualised computing environment for your research, 
+[get in touch with us](mailto:galaxy@informatik.uni-freiburg.de?subject=deNBI%20cloud%20collaboration%20request) and we will work with you to develop a personalised solution.
