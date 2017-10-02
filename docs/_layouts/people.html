@@ -2,43 +2,52 @@
 layout: default
 ---
 <div class="row">
+  <div class="col-md-12">
+    <h1>People</h1>
+  </div>
+</div>
 
- 	<section class="section-content">
- 		<div class="col-md-12">
-	    	<h1>People</h1>
+<div class="row">
+  <section class="section-content">
 
-	    	{{ content }}
+     <!-- {{ content }} -->
 
-		    <table class="table">
-		      <tbody>
-		        {% for person in site.data.people %}
-		          <tr id={{person[0]}}>
-		            <td width="80px">
-						<img src="https://github.com/{{ person[0] }}.png?s=80" width="80">
-					</td>
-						<td>
-							<h3 class="people-name">
-								{% if person[1].website %}
-									<a href="{{ person[1].website }}">{{ person[1].name }}</a>
-								{% else %}
-									{{ person[1].name }}
-								{% endif %}
-							</h3>
-							<p class="people-title">{{ person[1].title }}</p>
-							{% if person[1].bio %}
-							<div>
-								{{ person[1].bio }}
-							</div>
-							{% endif %}
-							<p class="people-info"><i class="fa fa-envelope"></i><a href="mailto:{{ person[1].email}}">{{ person[1].email }}</a></p>
-							<p class="people-info"> <i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/{{ person[0] }}">{{ person[0] }}</a></p>
-							<p class="people-info"><i class="fa fa-phone" aria-hidden="true"></i>{{ person[1].phone }}</p>
-							<p class="people-info"><i class="fa fa-search" aria-hidden="true"></i>{{ person[1].location }}</p>
-						</td>
-		          </tr>
-		        {% endfor %}
-		      </tbody>
-		  	</table>
-		</div>
-	</section>
+    <ul class="one">
+      {% for person in site.data.people %}
+        <li class="transition">
+          <div class="wrapper">
+            <img class="transition" src="http://dooreight.com/codepen/people/img_01.png">
+            <!-- <img class="transition" src="https://github.com/{{ person[0] }}.png?s=80"> -->
+
+            <ul class="social">
+              {% if person[1].bio %}
+                <li>{{ person[1].bio }}</li>
+
+                <li>{{ person[1].bio }}</li>
+              {% endif %}
+
+              <!-- <li class="transition">{{ person[1].phone }}<br/> {{ person[1].location }}</li> -->
+
+              {% if person[1].email %}
+                <li class="transition">
+                  <a href="mailto:{{ person[1].email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                </li>
+              {% endif %}
+
+              <li class="transition">
+                <a href="https://github.com/{{ person[0] }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+            <span class="transition">
+              <h3>{{ person[1].name }} <em>{{ person[1].title }}</em></h3>
+              <div class="people-info-more">
+                <i class="fa fa-info-circle" aria-hidden="true"></i>
+              </div>
+            </span>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </section>
 </div>

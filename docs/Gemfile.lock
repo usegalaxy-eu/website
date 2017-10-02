@@ -16,6 +16,8 @@ GEM
     csl-styles (1.0.1.8)
       csl (~> 1.0)
     ffi (1.9.18)
+    font-awesome-sass (4.7.0)
+      sass (>= 3.2)
     forwardable-extended (2.6.0)
     jekyll (3.5.1)
       addressable (~> 2.4)
@@ -69,6 +71,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  font-awesome-sass
   jekyll (= 3.5.1)
   jekyll-compose
   jekyll-feed (~> 0.6)
@@ -76,4 +79,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.15.3
+   1.15.4

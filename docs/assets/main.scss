@@ -2,6 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@import "font-awesome/scss/font-awesome";
+
 $break-mobile-s: 320px;
 $break-mobile-l: 425px;
 
@@ -50,8 +52,6 @@ footer {
     }
 }
 
-
-
 #maincontainer {
     a {
         color: #2882dc;
@@ -78,8 +78,7 @@ ul.contact-info li {
     margin-right: 7px;
 }
 
-.contact-info,
-.people-info {
+.contact-info {
     .fa {
         margin-right: 5px;
         font-size: 15px;
@@ -99,16 +98,6 @@ ul.contact-info li {
     }
 }
 
-.people-title,
-.people-name {
-    margin-bottom: 5px;
-    margin-top: 0px;
-}
-
-.people-info {
-    margin-bottom: 0px;
-}
-
 p {
 	img {
 		max-width: 100%;
@@ -119,5 +108,5 @@ p {
 	 border-radius: 0px;
 }
 
-
+@import "people";
 @import "404";
