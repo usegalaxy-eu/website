@@ -1,0 +1,6 @@
+{% for notice in site.data.notices %}
+<div class="alert alert-{{ notice.class }}" style="margin-top: 0.5em">
+	<h4>{{ notice.title }}</h4>
+	<p>[{{ notice.posted | date: "%-d %B %Y %H:%M %Z" }}] {{ notice.message }}</p>
+</div>
+{% endfor %}

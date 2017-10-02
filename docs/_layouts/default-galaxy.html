@@ -2,8 +2,12 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-    <div class="container" id="maincontainer">
-        {{ content }}
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          {{ content }}
+        </div>
+      </div>
     </div>
     {% include footer.html %}
   </body>
