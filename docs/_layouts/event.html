@@ -12,7 +12,7 @@ layout: default
       {% endfor %}
 
       <p class="small">
-          From {{ page.starts }} to {{ page.ends }} - 
+          From {{ page.starts }} to {{ page.ends }} -
           <a href="{{ page.url | absolute_url | replace:'http://', 'webcal://' | replace:'https://', 'webcal://' }}event.ics.html"><i class="fa fa-calendar" aria-hidden="true"></i> Add to your Calendar</a>
       </p>
 
