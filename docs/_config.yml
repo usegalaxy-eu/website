@@ -24,12 +24,15 @@ description: >
     contains more than 800 different single analysis tools and ready-to-use
     pipelines for different applications. After registration, all tools and
     the infrastructure for data analysis are freely available and can be used
-    for creation of your own workflows for your specific projects. 
+    for creation of your own workflows for your specific projects.
 email: galaxy@informatik.uni-freiburg.de
 baseurl: "/galaxy-freiburg" # the subpath of your site, e.g. /blog
 url: "https://usegalaxy-eu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: backofenlab
 github_username:  backofenlab
+
+sass:
+  sass_dir: assets
 
 # Build settings
 markdown: kramdown
