@@ -1,28 +1,28 @@
-<footer class="navbar-default navbar-static-bottom">
+<footer class="navbar-default">
   <div class="container">
     <div class="row">
       <p class="navbar-brand">{{ site.title }}</p>
     </div>
     <div class="row">
-      <div class='col-lg-6'>
-        <div class="navbar-text">
-          <div class="contact-info">
-            {% if site.email %}
-              <i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a>
-            {% endif %}
-            {% if site.github_username %}
-              <i class="fa fa-github"></i><a href="https://github.com/backofenlab">{{ site.github_username }}</a>
-            {% endif %}
-            {% if site.twitter_username %}
-              <i class="fa fa-twitter"></i><a href="https://twitter.com/backofenlab">{{ site.twitter_username }}</a>
-            {% endif %}
-              <i class="fa fa-rss"></i>Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
-          </div>
-        </div>
+      <div class="col-lg-6">
+        <ul class="contact-info">
+          {% if site.email %}
+            <li><i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% endif %}
+          {% if site.github_username %}
+            <li><i class="fa fa-github"></i><a href="https://github.com/backofenlab">{{ site.github_username }}</a></li>
+          {% endif %}
+          {% if site.twitter_username %}
+            <li><i class="fa fa-twitter"></i><a href="https://twitter.com/backofenlab">{{ site.twitter_username }}</a></li>
+          {% endif %}
+            <li><i class="fa fa-rss"></i>Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></li>
+        </ul>
       </div>
     </div>
     <div class="row">
-      <p class="navbar-text">The Freiburg Galaxy Team is part of the <a href="http://www.bioinf.uni-freiburg.de/">Bionformatics Group Freiburg</a>, headed by the Prof. Dr. Rolf Backofen. The team is supported by <a href="https://www.denbi.de/">de.NBI</a> and <a href="https://www.elixir-europe.org/">ELIXIR</a></p>
+      <div class="col-lg-12">
+        <p>The Freiburg Galaxy Team is part of the <a href="http://www.bioinf.uni-freiburg.de/">Bionformatics Group Freiburg</a>, headed by the Prof. Dr. Rolf Backofen. The team is supported by <a href="https://www.denbi.de/">de.NBI</a> and <a href="https://www.elixir-europe.org/">ELIXIR</a></p>
+      </div>
     </div>
   </div>
 </footer>
