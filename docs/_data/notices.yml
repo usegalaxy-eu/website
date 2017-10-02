@@ -1,4 +1,11 @@
 ---
+- title: New configuration testing.
+  message: |
+    We're re-configuring how Galaxy runs jobs. There may be intermittent
+    interruptions. If your job fails with an error like "Job misconfiguration",
+    please try again later.
+  posted: 2017-10-02 17:23:53+00:00
+  class: warning
 #- title: Interactive Environments Currently Unavailable
   #message: |
     #We are investigating the issue and hope to resolve it shortly. More
