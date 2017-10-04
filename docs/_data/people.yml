@@ -4,7 +4,7 @@ bgruening:
     email: gruening@informatik.uni-freiburg.de
     phone: +49(0) 761 - 203 54130
     location: "Build.: 079, Room: -1006"
-    bio: 
+    bio:
 
 bebatut:
     name: Bérénice Batut
@@ -13,7 +13,7 @@ bebatut:
     email: bebatut@informatik.uni-freiburg.de
     phone: +49(0) 761 - 203 54126
     location: "Build.: 079, Room: -1005a"
-    bio: 
+    bio:
 
 blankclemens:
     name: Clemens Blank
@@ -21,15 +21,15 @@ blankclemens:
     email: blankc@informatik.uni-freiburg.de
     phone: +49(0) 761 - 203 54131
     location: "Build.: 079, Room: -1005"
-    bio: 
+    bio:
 
 erxleben:
-    name: Anika Erxleben 
+    name: Anika Erxleben
     title: Dr. rer. nat., Researcher
     email: erxleben@informatik.uni-freiburg.de
     phone: +49(0) 761 - 203 54129
     location: "Build.: 079, Room: -1006"
-    bio: 
+    bio:
 
 TorHou:
     name: Torsten Houwaart
@@ -37,15 +37,15 @@ TorHou:
     email: houwaart@informatik.uni-freiburg.de
     phone: +49(0) 761 - 203 54133
     location: "Build.: 079, Room: -1005a"
-    bio: 
+    bio:
 
 erasche:
     name: Eric Rasche
     title: B.Sc. Biochem., Technician
-    email: 
+    email: hxr@informatik.uni-freiburg.de
     phone: +49(0) 761 - 203 54128
     location: "Build.: 079, Room: -1005a"
-    bio: 
+    bio:
 
 joachimwolff:
     name: Joachim Wolff
@@ -53,12 +53,4 @@ joachimwolff:
     email: wolffj@informatik.uni-freiburg.de
     phone: +49(0) 761 - 203 54132
     location: "Build.: 079, Room: -1005"
-    bio:   
- 
-
-
-
-
-        
-
-
+    bio:

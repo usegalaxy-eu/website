@@ -13,6 +13,10 @@ body {
     font-size: 14px;
 }
 
+section {
+    padding: 40px 0;
+}
+
 #wrap {
     min-height: 100%;
 }
@@ -50,8 +54,6 @@ footer {
     }
 }
 
-
-
 #maincontainer {
     a {
         color: #2882dc;
@@ -78,8 +80,7 @@ ul.contact-info li {
     margin-right: 7px;
 }
 
-.contact-info,
-.people-info {
+.contact-info {
     .fa {
         margin-right: 5px;
         font-size: 15px;
@@ -99,25 +100,15 @@ ul.contact-info li {
     }
 }
 
-.people-title,
-.people-name {
-    margin-bottom: 5px;
-    margin-top: 0px;
-}
-
-.people-info {
-    margin-bottom: 0px;
-}
-
 p {
-	img {
-		max-width: 100%;
-	}
+    img {
+        max-width: 100%;
+    }
 }
 
 .navbar {
-	 border-radius: 0px;
+     border-radius: 0px;
 }
 
-
+@import "people";
 @import "404";

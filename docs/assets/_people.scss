@@ -1,0 +1,52 @@
+#people {
+    margin-top: 60px;
+}
+
+#people h5 {
+    font-size: 17px;
+}
+
+#people .panel {
+    @media only screen and (max-width: 767px) {
+        height: auto !important;
+    }
+}
+
+#people .panel .bio {
+    color: #757575;
+}
+
+#people .panel ul.info {
+    text-align: left;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 10px auto;
+}
+
+#people .panel ul.info li i.fa {
+    color: #25537b;
+    margin-right: 7px;
+}
+
+#people .panel ul.info li i.fa.fa-envelope {
+    margin-right: 5px;
+}
+
+.panel-default {
+    border-color: #ddd;
+    margin-bottom: 75px;
+}
+
+.panel-profile-img {
+    max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.panel-profile .panel-title {
+    margin-bottom: 5px;
+}
