@@ -1,53 +1,42 @@
 ---
 layout: default
 ---
-<div class="row">
-  <div class="col-md-12">
-    <h1>People</h1>
+
+<section class="page-header">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h1>People</h1>
+    </div>
   </div>
-</div>
+</section>
 
-<div class="row">
-  <section class="section-content">
-
-     <!-- {{ content }} -->
-
-    <ul class="one">
-      {% for person in site.data.people %}
-        <li class="transition">
-          <div class="wrapper">
-            <img class="transition" src="http://dooreight.com/codepen/people/img_01.png">
-            <!-- <img class="transition" src="https://github.com/{{ person[0] }}.png?s=80"> -->
-
-            <ul class="social">
-              {% if person[1].bio %}
-                <li>{{ person[1].bio }}</li>
-
-                <li>{{ person[1].bio }}</li>
-              {% endif %}
-
-              <!-- <li class="transition">{{ person[1].phone }}<br/> {{ person[1].location }}</li> -->
-
+<section id="people">
+  <div class="row">
+    {% for person in site.data.people %}
+      <div class="col-md-4">
+        <div class="panel panel-default panel-profile text-center">
+          <div class="panel-body">
+            <img class="panel-profile-img" src="https://github.com/{{ person[0] }}.png">
+            <h5 class="panel-title">{{ person[1].name }}</h5>
+            <p>{{ person[1].title }}</p>
+            {% if person[1].bio %}
+              <p class="bio">{{ person[1].bio }}</p>
+            {% endif %}
+            <ul class="info">
               {% if person[1].email %}
-                <li class="transition">
-                  <a href="mailto:{{ person[1].email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                </li>
+                <li><a href="mailto:{{ person[1].email }}"><i class="fa fa-envelope"></i></i>{{ person[1].email }}</a></li>
               {% endif %}
-
-              <li class="transition">
-                <a href="https://github.com/{{ person[0] }}"><i class="fa fa-github" aria-hidden="true"></i></a>
-              </li>
+              <li><a href="https://github.com/{{ person[0] }}"><i class="fa fa-github" aria-hidden="true"></i>{{ person[0] }}</a></li>
+              <li><i class="fa fa-phone" aria-hidden="true"></i>{{ person[1].phone }}</li>
+              <li><i class="fa fa-search" aria-hidden="true"></i>{{ person[1].location }}</li>
             </ul>
-            <span class="transition">
-              <h3>{{ person[1].name }} <em>{{ person[1].title }}</em></h3>
-              <div class="people-info-more">
-                <i class="fa fa-info-circle" aria-hidden="true"></i>
-              </div>
-            </span>
           </div>
-        </li>
-      {% endfor %}
-    </ul>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
 
-  </section>
-</div>
+<script>
+  $('.panel').matchHeight();
+</script>

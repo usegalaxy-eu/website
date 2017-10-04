@@ -15,6 +15,10 @@ body {
     font-size: 14px;
 }
 
+section {
+    padding: 40px 0;
+}
+
 #wrap {
     min-height: 100%;
 }
@@ -99,13 +103,13 @@ ul.contact-info li {
 }
 
 p {
-	img {
-		max-width: 100%;
-	}
+    img {
+        max-width: 100%;
+    }
 }
 
 .navbar {
-	 border-radius: 0px;
+     border-radius: 0px;
 }
 
 @import "people";
