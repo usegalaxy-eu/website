@@ -2,30 +2,25 @@
 layout: default
 ---
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-<div class="row">
-  <section class="section-content">
-    <div class="col-md-12">
-        <h1>
-          {% if page.tags contains "update" %}
-            <i class="fa fa-arrow-up" aria-hidden="true"></i>
-          {% elsif page.tags contains "downtime" %}
-            <i class="fa fa-exclamation" aria-hidden="true"></i>
-          {% elsif page.tags contains "tools" %}
-            <i class="fa fa-wrench" aria-hidden="true"></i>
-          {% elsif page.tags contains "devops" %}
-            <i class="fa fa-gear" aria-hidden="true"></i>
-          {% endif %}
-          {{ page.title | escape }}
-        </h1>
-
+<section id="news-page">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="text-center">
         {% for tag in page.tags %}
-          <span class="label label-default">{{ tag }}</span>
+        <span class="label label-primary">{{ tag }}</span>
         {% endfor %}
-
-        <p class="small">{{ page.date | date: date_format }}</p>
-
-        <div>
-          {{ content }}
-        </div>
+        <h3 class="title">{{ page.title | escape }}</h3>
+        <h6 class="title-uppercase date">
+          {{ page.date | date: date_format }}
+        </h6>
+      </div>
     </div>
-</div>
+  </div>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>
