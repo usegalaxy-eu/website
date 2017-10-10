@@ -11,6 +11,7 @@ layout: default
 </section>
 
 <section id="news-list">
+
   {% for post in site.posts %}
     <div class="news">
       <div class="row">
@@ -20,7 +21,7 @@ layout: default
               <h2 class="title">{{ post.title | escape }}</h2>
             </a>
             <span class="title-uppercase date">
-               {{ post.date | date: date_format }}
+              {{ post.date | date: date_format }}
             </span>
             {% for tag in post.tags %}
               <span class="label label-primary">{{ tag }}</span>
