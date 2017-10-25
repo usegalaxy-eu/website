@@ -1,6 +1,6 @@
 ---
 tags: [training, hackathon]
-title: BioContainer Hackathon in Paris
+title: BioContainer Hackathon @ Paris
 ---
 
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">.<a href="https://twitter.com/bjoerngruening?ref_src=twsrc%5Etfw">@bjoerngruening</a> talking about levels of reproducibility at the <a href="https://twitter.com/BioContainers?ref_src=twsrc%5Etfw">@biocontainers</a> hackathon <a href="https://twitter.com/hashtag/biocon17?src=hash&amp;ref_src=twsrc%5Etfw">#biocon17</a> <a href="https://t.co/qAnRHnnZke">pic.twitter.com/qAnRHnnZke</a></p>&mdash; Rafael C Jimenez (@rafajido) <a href="https://twitter.com/rafajido/status/917678393021394945?ref_src=twsrc%5Etfw">10 octobre 2017</a></blockquote>
