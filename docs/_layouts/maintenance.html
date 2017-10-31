@@ -12,7 +12,9 @@ layout: default-galaxy
 				<div class="progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 			</div>
 			<p>
-			Galaxy Freiburg is currently down for maintenance. We're sorry for any inconvenience this causes.
+			If you are seeing this page, Galaxy Freiburg is either temporarily
+			inaccessible or currently down for maintenance. We're sorry for any
+			inconvenience this causes.
 			</p>
 		</div>
 
@@ -53,15 +55,12 @@ if(start < now && now < ends){
 } else if( now > ends ){
 	// Maintenance period is over, redirect them to the site.
 	var el = document.querySelectorAll("div.progress-container")[0];
-	console.log('asdf');
 	el.innerHTML = "<p>The maintenance period is over. You will be redirected automatically</p>";
 	window.top.location.href = "https://galaxy.uni-freiburg.de";
 } else if( now < start ){
 	// Maintenance has not started.
 	var el = document.querySelectorAll("div.progress-container")[0];
-	console.log('asdf');
-	console.log('asdf');
-	el.innerHTML = "The maintenance period has not started yet.";
+	el.innerHTML = "If you are seeing this page, Galaxy is temporarily inaccessible. We're working to get it back online as quickly as possible. Any upcoming maintenance periods have not come into effect yet.";
 }
 </script>
 
