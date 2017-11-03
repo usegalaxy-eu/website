@@ -3,7 +3,3 @@
 #ends: 2017-09-06 14:00:00Z
 #jobs_affected: false
 #message: The hard drives supporting the Galaxy database are being replaced.
-starts: 2017-11-02 10:00:00Z
-ends: 2017-11-02 11:00:00Z
-jobs_affected: false
-message: Updating to latest 17.05 ahead of planned 17.09 upgrade.
