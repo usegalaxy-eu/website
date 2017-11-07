@@ -19,7 +19,7 @@ layout: default-galaxy
 		</div>
 
 		<p>
-		{{ site.data.maintenance.message }}
+		{{ site.data.maintenance.message | markdownify }}
 		</p>
 		<p>
 		Currently running jobs <b>{% if jobs_affected %}will{% else %}will not{% endif %}</b>
