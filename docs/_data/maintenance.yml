@@ -1,6 +1,8 @@
 ---
-#starts: 2017-11-08 17:00:00 CET
-#ends: 2017-11-08 19:00:00 CET
-#jobs_affected: false
-#message: |
-    #We will be upgrading to [Galaxy 17.09](https://docs.galaxyproject.org/en/master/releases/17.09_announce.html). This should dramatically speed up tool building.
+starts: 2017-11-15 11:00:00 CET
+ends: 2017-11-15 11:30:00 CET
+jobs_affected: false
+message: |
+    We are migrating the galaxy database to newer hardware with more resources.
+    This should speed up database access and improve Galaxy's responsiveness
+    under certain circumstances.
