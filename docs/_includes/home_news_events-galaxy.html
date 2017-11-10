@@ -17,6 +17,8 @@
                 <i class="fa fa-wrench" aria-hidden="true"></i>
               {% elsif post.tags contains "devops" %}
                 <i class="fa fa-gear" aria-hidden="true"></i>
+              {% elsif post.tags contains "release" %}
+                <i class="fa fa-bullhorn" aria-hidden="true"></i>
               {% endif %}
               {{ post.title | escape }}
             </h4>
