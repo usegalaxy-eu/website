@@ -3,13 +3,27 @@ layout: default-galaxy
 ---
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 <section id="news-page">
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
+  <div class="row news-header-row">
+    {% if page.previous.url %}
+    <a href="{{ page.previous.url | relative_url }}">
+      <div class="col-xs-1">
+        «
+      </div>
+    </a>
+    {% endif %}
+    <div class="col-xs-10 {% if page.previous.url %}{% else %}col-xs-offset-1{% endif %}">
       <div class="text-center">
         <h2 class="title">{{ page.title | escape }}</h2>
       </div>
       <hr />
     </div>
+    {% if page.next.url %}
+    <a href="{{ page.next.url | relative_url }}">
+      <div class="col-xs-1">
+        »
+      </div>
+    </a>
+    {% endif %}
   </div>
   <div class="row post-metadata">
     <div class="col-md-8 col-md-offset-2">
