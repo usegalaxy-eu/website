@@ -7,15 +7,38 @@ layout: default-galaxy
     <div class="col-md-10 col-md-offset-1">
       <div class="text-center">
         <h2 class="title">{{ page.title | escape }}</h2>
-        <span class="title-uppercase date">
-          {{ page.date | date: date_format }}
-        </span>
-        {% for tag in page.tags %}
-            <span class="label label-primary">{{ tag }}</span>
-        {% endfor %}
+      </div>
+      <hr />
+    </div>
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="text-right">
+        <div>
+          <span class="post-date">
+            {{ page.date | date: date_format }}
+          </span>
+
+          {% if page.location %}
+          <br />
+          <span class="post-location">
+              {{ page.location }}
+          </span>
+          {% endif %}
+
+          {% if page.tags.size > 0 %}
+          <br />
+          <span class="post-tags">
+            {% for tag in page.tags %}
+              <span class="label label-info">{{ tag }}</span>
+            {% endfor %}
+          </span>
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>
+
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
@@ -23,4 +46,6 @@ layout: default-galaxy
       </div>
     </div>
   </div>
+
+  {% include sponsors.html page=page %}
 </section>
