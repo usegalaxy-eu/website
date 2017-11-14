@@ -1,6 +1,6 @@
 ---
 tags: [training,hackathon]
-title: MetaboFlow meeting (training and hackathon) @ Birmingham
+title: MetaboFlow meeting (training and hackathon) in Birmingham, England
 ---
 
 
