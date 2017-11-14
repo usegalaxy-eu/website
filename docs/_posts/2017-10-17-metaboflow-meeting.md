@@ -1,6 +1,12 @@
 ---
 tags: [training,hackathon]
-title: MetaboFlow meeting (training and hackathon) in Birmingham, England
+title: MetaboFlow meeting (training and hackathon)
+location: Birmingham, England
+supporters:
+ - denbi
+ - elixir
+ - ViCE
+ - MetaboFlow
 ---
 
 
