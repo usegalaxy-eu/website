@@ -14,10 +14,3 @@ supporters:
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Björn participated to the Wellcome Trust funded MetaboFlow meeting (training and hackathon) in Birmingham. On the first day, he taught (helped by Gildas Le Corguillé and Ralf Weber) to attendees the basics of Galaxy platform and best practice guidelines for tool and workflow integration. After this training, during the second day, all the participants worked together to Galaxify existing metabolomics tools and workflows. 
-
-
-### Supporters:
-
-|------------------------------|------------------------|-------------------------|-----------------------------|
-|[![de.NBI]({{ "/media/deNBI_Logo_rgb.png" | relative_url }})](http://www.denbi.de) | [![ELIXIR]({{ "/media/elixir_logo_white_background.png" | relative_url }})](https://www.elixir-europe.org) | [![ViCE]({{ "/media/Logo_VICE.png" | relative_url }})](https://www.alwr-bw.de/kooperationen/vice/) | MetaboFlow |
-
