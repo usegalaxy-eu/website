@@ -1,21 +1,58 @@
 ---
 layout: default
 ---
-{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
 <section id="news-page">
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
+  <div class="row news-header-row">
+    {% if page.previous.url %}
+    <a href="{{ page.previous.url | relative_url }}">
+      <div class="col-xs-1">
+        «
+      </div>
+    </a>
+    {% endif %}
+    <div class="col-xs-10 {% if page.previous.url %}{% else %}col-xs-offset-1{% endif %}">
       <div class="text-center">
-        {% for tag in page.tags %}
-        <span class="label label-primary">{{ tag }}</span>
-        {% endfor %}
-        <h3 class="title">{{ page.title | escape }}</h3>
-        <h6 class="title-uppercase date">
-          {{ page.date | date: date_format }}
-        </h6>
+        <h2 class="title">{{ page.title | escape }}</h2>
+      </div>
+      <hr />
+    </div>
+    {% if page.next.url %}
+    <a href="{{ page.next.url | relative_url }}">
+      <div class="col-xs-1">
+        »
+      </div>
+    </a>
+    {% endif %}
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="text-right">
+        <div>
+          <span class="post-date">
+            {{ page.date | date: date_format }}
+          </span>
+
+          {% if page.location %}
+          <br />
+          <span class="post-location">
+              {{ page.location }}
+          </span>
+          {% endif %}
+
+          {% if page.tags.size > 0 %}
+          <br />
+          <span class="post-tags">
+            {% for tag in page.tags %}
+              <span class="label label-info">{{ tag }}</span>
+            {% endfor %}
+          </span>
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>
+
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
@@ -23,4 +60,6 @@ layout: default
       </div>
     </div>
   </div>
+
+  {% include sponsors.html page=page %}
 </section>

@@ -63,3 +63,18 @@
     color: #fff;
     margin-top: 10px;
 }
+
+
+
+
+div.news-header-row {
+    display: flex;
+}
+
+div.news-header-row a {
+    display: flex; flex-direction: column; justify-content: center
+}
+
+div.news-header-row a:hover {
+    background: #eee;
+}
