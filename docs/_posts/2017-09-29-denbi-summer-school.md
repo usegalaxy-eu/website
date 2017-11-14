@@ -1,6 +1,6 @@
 ---
 tags: [training]
-title: deNBI Summer School - Computational genomics and RNA biology
+title: deNBI Summer School - Computational genomics and RNA biology in Berlin, Germany
 ---
 
 Björn was at the deNBI Summer School on [Computational genomics and RNA biology](https://www.denbi.de/22-training-cat/training-courses/278-de-nbi-summer-school-computational-genomics-and-rna-biology) organised by the RNA Bioinformatics center.
