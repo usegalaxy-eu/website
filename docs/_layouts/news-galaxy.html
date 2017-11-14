@@ -6,13 +6,13 @@ layout: default-galaxy
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <div class="text-center">
-        {% for tag in page.tags %}
-        <span class="label label-primary">{{ tag }}</span>
-        {% endfor %}
-        <h3 class="title">{{ page.title | escape }}</h3>
-        <h6 class="title-uppercase date">
+        <h2 class="title">{{ page.title | escape }}</h2>
+        <span class="title-uppercase date">
           {{ page.date | date: date_format }}
-        </h6>
+        </span>
+        {% for tag in page.tags %}
+            <span class="label label-primary">{{ tag }}</span>
+        {% endfor %}
       </div>
     </div>
   </div>
