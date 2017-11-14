@@ -1,6 +1,9 @@
 ---
 tags: [training,talk]
 title: Helping at the Software Carpentry workshop @ EMBL Heidelberg and Talk @ de.NBIer
+supporters:
+ - denbi
+ - elixir
 ---
 
 <p class="multiple-img">

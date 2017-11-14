@@ -1,6 +1,9 @@
 ---
 title: Galaxy Training infrastructure @ de.NBI Symposium
 tags: [poster]
+supporters:
+ - denbi
+ - elixir
 ---
 
 <p class="multiple-img">

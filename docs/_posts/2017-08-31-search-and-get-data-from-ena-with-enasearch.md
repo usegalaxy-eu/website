@@ -1,6 +1,9 @@
 ---
 tags: [tools]
 title: Search and get data from ENA with ENASearch
+supporters:
+ - denbi
+ - elixir
 ---
 
 We added to the instance [ENASearch](https://github.com/bebatut/enasearch), a
