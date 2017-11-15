@@ -7,6 +7,8 @@ organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
 location: Georges-Köhler-Allee, Freiburg im Breisgau, Germany
+supporters:
+- denbi
 ---
 
 Registration is open! Apply [here](https://bit.ly/2eznnwD)

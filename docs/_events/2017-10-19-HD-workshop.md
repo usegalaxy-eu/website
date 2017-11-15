@@ -7,6 +7,8 @@ organiser:
   name: de.NBI, Heidelberg
   email: 
 location: Heidelberg, Germany
+supporters:
+- denbi
 ---
 
-We gave a talk about "User-focused programming / development example of Galaxy" in Heidelberg
+We gave a talk about "User-focused programming / development example of Galaxy" in Heidelberg.

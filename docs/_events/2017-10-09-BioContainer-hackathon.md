@@ -7,6 +7,8 @@ organiser:
   name: ELIXIR Europe
   email: 
 location: Paris, France
+supporters:
+- elixir
 ---
 
 We took part in the BioContainer Hackathon in Paris.

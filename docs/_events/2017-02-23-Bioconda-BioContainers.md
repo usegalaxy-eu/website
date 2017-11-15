@@ -7,6 +7,8 @@ organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
 location: Tübingen
+supporters:
+- denbi
 ---
 
 As we are active contributors to [Bioconda](https://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/), we were invited to give a talk about that in Tübingen.
