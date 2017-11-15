@@ -1,0 +1,18 @@
+---
+tags: [training]
+title: "Software Carpentry Workshop"
+starts: 2017-10-18
+ends: 2017-10-20
+organiser:
+  name: EMBL
+  email: 
+location: Heidelberg, Germany
+---
+
+We participated in the software carpentry workshop. 
+
+Content:
+Computation is an integral part of today's research as data has grown too large or too complex to be analysed by hand. An ever growing fraction of science is performed computationally and many wet-lab biologists spend part of their time on the computer. Many scientists struggle with this aspect of research as they have not been properly trained in the necessary set of skills. The result is that too much time is spent using inefficient tools when progress could be faster.
+
+
+More information you can find [here](https://www.embl.de/training/events/2017/SWC17-01/)
