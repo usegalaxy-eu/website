@@ -1,6 +1,6 @@
 ---
 tags: [talk]
-title: "International de.NBI-Symposium "Bioinformatics for Human Health & Disease"
+title: International de.NBI-Symposium "Bioinformatics for Human Health & Disease"
 starts: 2016-11-07
 ends: 2016-11-09
 organiser:
