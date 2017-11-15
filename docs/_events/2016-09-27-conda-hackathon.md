@@ -1,6 +1,6 @@
 ---
 tags: [training]
-title: "Hackathon on conda packaging"
+title: "GalaxyP & Conda packaging hackathon"
 starts: 2016-09-27
 ends: 2016-09-28
 organiser:
@@ -9,6 +9,6 @@ organiser:
 location: online
 ---
 
-We were contributing to a conda packaging hackathon.
+We were contributing to a Galaxy P and conda packaging hackathon.
 
 More information can be found [here](https://github.com/galaxyproteomics/tools-galaxyp/issues/57)
