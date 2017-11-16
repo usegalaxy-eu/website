@@ -1,11 +1,11 @@
 ---
-starts: 2017-11-15 11:30:00 CET
-ends: 2017-11-15 12:30:00 CET
-jobs_affected: false
-message: |
-    We are migrating the galaxy database to newer hardware with more resources.
-    This should speed up database access and improve Galaxy's responsiveness
-    under certain circumstances.
+#starts: 2017-11-15 11:30:00 CET
+#ends: 2017-11-15 12:30:00 CET
+#jobs_affected: false
+#message: |
+    #We are migrating the galaxy database to newer hardware with more resources.
+    #This should speed up database access and improve Galaxy's responsiveness
+    #under certain circumstances.
 
-    Additionally we are adding more RAM to the galaxy head node which should
-    improve performance overall.
+    #Additionally we are adding more RAM to the galaxy head node which should
+    #improve performance overall.
