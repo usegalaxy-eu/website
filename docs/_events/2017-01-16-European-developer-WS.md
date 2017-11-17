@@ -7,6 +7,8 @@ organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
 location: Strasbourg, France
+supporters:
+- denbi
 ---
 
 The European Galaxy Developer Workshop is about integration and deployment of high-quality tools and visualizations into Galaxy, configuration of a production-ready Galaxy server, Docker, and Conda.

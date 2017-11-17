@@ -7,9 +7,12 @@ organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
 location: Georges-Köhler-Allee, Freiburg im Breisgau, Germany
+supporters:
+- denbi
+- elixir
 ---
 
-We were hosting a hackathon in Freiburg with international guests.
+We will be hosting a hackathon in Freiburg with international guests.
 
 Contents:
 - Federated identity management, SAML, Shibboleth and Co.

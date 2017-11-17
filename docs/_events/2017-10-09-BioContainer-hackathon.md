@@ -7,8 +7,10 @@ organiser:
   name: ELIXIR Europe
   email: 
 location: Paris, France
+supporters:
+- elixir
 ---
 
-We took part in the BioContainer Hackathon in Paris.
+In Paris, there will be the BioContainer hackathon. We will be there and take part.
 
-More information you can find [here](https://www.hackathon.com/event/biocontainers-hackathon--reproducible-bioinformatics-35601135956)
+Find more information to register [here](https://www.hackathon.com/event/biocontainers-hackathon--reproducible-bioinformatics-35601135956).
