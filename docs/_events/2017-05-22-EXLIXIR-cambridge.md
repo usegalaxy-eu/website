@@ -5,7 +5,7 @@ starts: 2017-05-22
 ends: 2017-05-24
 organiser:
   name: ELIXIR, GOBLET, GTN
-  email: 
+  email:
 location: University of Cambridge, UK
 supporters:
 - elixir

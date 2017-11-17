@@ -29,5 +29,4 @@ Learning goals:
 - How does the ELIXIR AAI works?
 - How can I use the ELIXIR AAI for my service?
 
-More information [her](https://docs.google.com/document/d/1-ql5li_vpcrxn6nkwWZn3eMqIlf2qPSwD9k9rfJnXls/edit)
-
+More information [here](https://docs.google.com/document/d/1-ql5li_vpcrxn6nkwWZn3eMqIlf2qPSwD9k9rfJnXls/edit)

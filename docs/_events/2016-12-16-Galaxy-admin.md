@@ -5,7 +5,7 @@ starts: 2016-12-16
 ends: 2016-12-16
 organiser:
   name: usegalaxy.org
-  email: 
+  email:
 location: online
 ---
 

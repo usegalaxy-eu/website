@@ -5,7 +5,7 @@ starts: 2017-10-16
 ends: 2017-10-17
 organiser:
   name: Wellcome Trust
-  email: 
+  email:
 location: Birmingham, UK
 ---
 

@@ -5,7 +5,7 @@ starts: 2017-10-19
 ends: 2017-10-24
 organiser:
   name: de.NBI Heidelberg
-  email: 
+  email:
 location: Heidelberg, Germany
 supporters:
 - denbi

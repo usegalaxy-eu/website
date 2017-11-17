@@ -5,7 +5,7 @@ starts: 2017-10-09
 ends: 2017-10-10
 organiser:
   name: ELIXIR Europe
-  email: 
+  email:
 location: Paris, France
 supporters:
 - elixir

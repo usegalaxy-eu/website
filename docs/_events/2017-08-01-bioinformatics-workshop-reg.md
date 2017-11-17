@@ -1,6 +1,6 @@
 ---
 tags:
-title: "Bioinformatics Galaxy workshop, September 2017"
+title: "Bioinformatics Galaxy workshop"
 starts: 2017-09-18
 ends: 2017-09-22
 organiser:

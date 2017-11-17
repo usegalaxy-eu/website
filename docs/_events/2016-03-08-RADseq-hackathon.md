@@ -5,7 +5,7 @@ starts: 2016-03-08
 ends: 2016-03-08
 organiser:
   name: IUC
-  email: 
+  email:
 location: online
 ---
 
