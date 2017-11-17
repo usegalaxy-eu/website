@@ -11,4 +11,4 @@ supporters:
 - elixir
 ---
 
-We were contributing to the "Galaxy training material hackathon". More information can be found [here](https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3).
+We will contribute to the "Galaxy training material hackathon". More information can be found [here](https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3).

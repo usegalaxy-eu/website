@@ -9,4 +9,4 @@ organiser:
 location: online
 ---
 
-We gave a talk in the webinar for the Galaxy admin meet up.
+We will give a talk in the webinar for the Galaxy admin meet up.

@@ -13,7 +13,7 @@ supporters:
 
 Registration is open! Apply [here](https://bit.ly/2eznnwD)
 
-Because of high demand, we offer an additional workshop only on RNA-seq data analysis. The workshop takes place from 15.-16.12.2016 in Freiburg. It is a two-days hands-on trainings course.
+Because of high demand, we will offer an additional workshop only on RNA-seq data analysis. The workshop takes place from 15.-16.12.2016 in Freiburg. It is a two-days hands-on trainings course.
 
 Topics:
 

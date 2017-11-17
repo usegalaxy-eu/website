@@ -1,6 +1,6 @@
 ---
 tags: [training]
-title: "de.NBI - EDAM Codefest: ELIXIR Tools and Services Registry Resource hackathon"
+title: "de.NBI - EDAM Codefest: ELIXIR Tools and Services Registry" Resource hackathon"
 starts: 2016-01-19
 ends: 2016-01-20
 organiser:
@@ -12,4 +12,4 @@ supporters:
 - elixir
 ---
 
-This hackathon was organized by de.NBI and ELIXIR and took place in Freiburg. It included status talks of the ELIXIR Registry, Tool Sheds and Galaxy.
+This hackathon is organized by de.NBI and ELIXIR and will take place in Freiburg. It will include status talks of the ELIXIR Registry, Tool Sheds and Galaxy.

@@ -12,7 +12,7 @@ supporters:
 - elixir
 ---
 
-We were hosting a hackathon in Freiburg with international guests.
+We will be hosting a hackathon in Freiburg with international guests.
 
 Contents:
 - Federated identity management, SAML, Shibboleth and Co.

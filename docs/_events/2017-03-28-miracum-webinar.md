@@ -9,7 +9,7 @@ organiser:
 location: online
 ---
 
-The University of Freiburg is partner of [MIRACUM](http://www.miracum.org/), a projects which received €32.1 Mio funding for the German Medical Informatics Initiative (MI-I). Björn gave a webinar about Bioconda for all MIRACUM partners. 
+The University of Freiburg is partner of [MIRACUM](http://www.miracum.org/), a projects which received €32.1 Mio funding for the German Medical Informatics Initiative (MI-I). Björn will give a webinar about Bioconda for all MIRACUM partners. 
 
 
 

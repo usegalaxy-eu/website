@@ -11,4 +11,4 @@ supporters:
 - denbi
 ---
 
-As we are active contributors to [Bioconda](https://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/), we were invited to give a talk about that in Tübingen.
+We are active contributors to [Bioconda](https://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/). In Tübingen, we are invited to give a talk about that.

@@ -11,6 +11,6 @@ supporters:
 - denbi
 ---
 
-We gave a talk at the de.NBI symposium in Heidelberg. 
+We will attend the de.NBI symposium with a talk in Heidelberg. 
 
 More information can be found [here](https://www.denbi.de/events/172-international-de-nbi-symposium-bioinformatics-for-human-health-and-disease).

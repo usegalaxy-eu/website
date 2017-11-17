@@ -9,7 +9,6 @@ organiser:
 location: Birmingham, UK
 ---
 
-We participated to the Wellcome Trust funded MetaboFlow meeting (training and hackathon) in Birmingham. On the first day, we taught (helped by Gildas Le Corguillé and Ralf Weber) to attendees the basics of Galaxy platform and best practice guidelines for tool and workflow integration. After this training, during the second day, all the participants worked together to Galaxify existing metabolomics tools and workflows.
-
+We will attend the Wellcome Trust funded MetaboFlow meeting (training and hackathon) in Birmingham and give training courses there on day one, and work together all the participantsto Galaxify existing metabolomics tools and workflows on day two.
 
 More information you can find [here](http://www.metaboflow.org/)

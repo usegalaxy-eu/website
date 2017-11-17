@@ -9,6 +9,6 @@ organiser:
 location: online
 ---
 
-We contributed to a hackathon within the Combined CHARME – EMBnet and NETTAB 2016 Workshop in Rome.
+We will contribute to a hackathon within the Combined CHARME – EMBnet and NETTAB 2016 Workshop in Rome.
 
 More information can be found [here](https://github.com/bioconda/bioconda-recipes/issues/2277).

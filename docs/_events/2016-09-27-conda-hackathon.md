@@ -9,6 +9,4 @@ organiser:
 location: online
 ---
 
-We were contributing to a Galaxy P and conda packaging hackathon.
-
-More information can be found [here](https://github.com/galaxyproteomics/tools-galaxyp/issues/57)
+We will contribute to the Galaxy P and conda packaging hackathon. If you want to contribute as well, find more information [here](https://github.com/galaxyproteomics/tools-galaxyp/issues/57).
