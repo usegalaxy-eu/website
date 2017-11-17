@@ -5,7 +5,7 @@ starts: 2017-02-02
 ends: 2017-02-09
 organiser:
   name: EMBL Australia
-  email: 
+  email:
 location: Melbourne, Australia
 ---
 
