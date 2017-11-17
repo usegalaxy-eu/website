@@ -1,6 +1,6 @@
 ---
 tags:
-title: HTS data analysis with Galaxy 2018/1
+title: Galaxy HTS data analysis workshop 26.02.-02.03.2018 in Freiburg
 starts: 2018-02-26
 ends: 2018-03-02
 organiser:
