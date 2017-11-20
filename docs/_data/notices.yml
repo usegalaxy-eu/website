@@ -1,5 +1,5 @@
 ---
-- title: Uploads, setting metadata, some jobs temporarily unavailable
+- title: Uploads, setting metadata, some jobs were temporarily unavailable
   messages:
       - message: |
           Jobs should be running again. Please let us know if they fail.
@@ -14,7 +14,7 @@
           We have made an emergency patch which should correct this until we can get
           the underlying problem fixed.
         date: 2017-11-20 12:18:02+01:00
-  class: success
+  class: info
 #- title: Interactive Environments Currently Unavailable
   #message: |
     #We are investigating the issue and hope to resolve it shortly. More
