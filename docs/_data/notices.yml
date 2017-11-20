@@ -1,4 +1,13 @@
 ---
+- title: Uploads, setting metadata, some jobs temporarily unavailable
+  message: |
+    We noticed that jobs were unable to be submitted to our condor cluster. We
+    are working on resolving this as quickly as posisble.
+
+    We have made an emergency patch which should correct this until we can get
+    the underlying problem fixed.
+  posted: 2017-11-20 12:18:02+01:00
+  class: error
 #- title: Interactive Environments Currently Unavailable
   #message: |
     #We are investigating the issue and hope to resolve it shortly. More
