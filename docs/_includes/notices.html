@@ -1,9 +1,9 @@
 {% for notice in site.data.notices %}
 <div class="alert alert-{{ notice.class }}" style="margin-top: 0.5em">
 	<h4>{{ notice.title }}</h4>
-	{% assign messages = notice.messages | sort:'posted' | reverse %}
+	{% assign messages = notice.messages | sort:'date' | reverse %}
 	{% for message in messages %}
-	<p>[{{ message.posted | date: "%-d %B %Y %H:%M" }}] {{ message.message }}</p>
+	<p>[{{ message.date | date: "%-d %B %Y %H:%M" }}] {{ message.message }}</p>
 	{% endfor %}
 </div>
 {% endfor %}
