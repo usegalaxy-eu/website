@@ -4,8 +4,13 @@ title: DNA methylation signatures follow preformed chromatin compartments in car
 location: Freiburg, Germany
 ---
 
-Congrats to Stephan Nothjunge, Thomas Nührenberg, Ralf Gilsbach and many more from the Hein group for their new paper 
-entiteled [`DNA methylation signatures follow preformed chromatin compartments in cardiac myocytes`](https://www.nature.com/articles/s41467-017-01724-9).
+Congrats to Stephan Nothjunge, Thomas Nührenberg, Ralf Gilsbach and many more from the [Hein group](https://portal.uni-freiburg.de/pharmakologie/ii)
+for their new paper entiteled
+[`DNA methylation signatures follow preformed chromatin compartments in cardiac myocytes`](https://www.nature.com/articles/s41467-017-01724-9).
+
+<p class="multiple-img">
+    <img src="{{ "/media/nothjunge_2017_natcomm.jpg" | relative_url }}" height="300px" alt="Distinct DNA methylation patterns in A and B compartments in adult CM. Hi-C contact maps uncover topologically associated domains (TADs) and multi-TAD A/B compartments in adult CM." />
+</p>
 
 ```
 Storage of chromatin in restricted nuclear space requires dense packing while ensuring DNA accessibility.
