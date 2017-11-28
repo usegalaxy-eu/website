@@ -1,7 +1,7 @@
 ---
 tags: [paper]
 title: Sex differences in peripheral not central immune responses to paininducing injury
-location: Freiburg, Germany
+location: London, Great Britain
 ---
 
 Congrats to Douglas M. Lopes, et. al from the [Franziska Denk](https://kclpure.kcl.ac.uk/portal/franziska.denk.html)
