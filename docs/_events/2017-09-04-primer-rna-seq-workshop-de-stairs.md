@@ -19,7 +19,8 @@ Linux/Unix and Docker backgrounds, introduce methods for exploration of NGS data
 practical tutorials, workflow development, functional predictions of RNAs (e.g. miRNA target prediction) and
 visualization strategies will be trained.
 
-### Topics:
+### Topics
+
  - Unix Shell how-to
  - Introduction to Galaxy RNA-workbench
  - RNA-Seq data analysis and workflow development
@@ -29,6 +30,7 @@ visualization strategies will be trained.
 
 This workshop is intended for MSc/PhD students and postdocs with background in life science research. After the
 registration please hand over within 14 days:
+
  - A motivation letter for attending the training and
  - A poster which presents a freely chosen topic to a broad range of researchers
 

@@ -35,7 +35,11 @@
         {% for post in events limit:5 %}
           {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
           <a class="list-group-item" href="{{ post.url | relative_url }}">
-            <p class="list-group-item-text">{{ post.date | date: date_format }}</p>
+            {% if post.starts == post.ends %}
+            <p class="list-group-item-text">{{ post.starts | date: date_format }}</p>
+            {% else %}
+            <p class="list-group-item-text">{{ post.starts | date: date_format }} - {{ post.ends | date: date_format }}</p>
+            {% endif %}
             <h4 class="list-group-item-heading">
               <i class="fa fa-calendar" aria-hidden="true"></i>
               {{ post.title | escape }}
