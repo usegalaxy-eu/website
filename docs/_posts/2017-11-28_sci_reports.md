@@ -1,6 +1,6 @@
 ---
 tags: [paper]
-title: DNA methylation signatures follow preformed chromatin compartments in cardiac myocytes
+title: Sex differences in peripheral not central immune responses to paininducing injury
 location: Freiburg, Germany
 ---
 
