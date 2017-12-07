@@ -6,7 +6,11 @@ ends: 2017-10-06
 organiser:
   name: de.STAIR
   email: destair@bioinf.uni-leipzig.de
-location: Schänzlestr. 1, Freiburg im Breisgau, Germany
+location:
+  street: Schänzlestr. 1
+  city: Freiburg im Breisgau
+  region: Baden-Württemberg
+  country: Germany
 ---
 
 A Primer for RNA-Seq Processing, Interpreting and Visualization, October 2017, registration is closed!

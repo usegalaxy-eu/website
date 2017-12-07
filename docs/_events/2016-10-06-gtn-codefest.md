@@ -6,7 +6,12 @@ ends: 2016-10-07
 organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
-location: Georges-Köhler-Allee, Freiburg im Breisgau, Germany
+location:
+  street: Georges-Köhler-Allee
+  postal: 79110
+  city: Freiburg im Breisgau
+  region: Baden-Württemberg
+  country: Germany
 ---
 
 The Galaxy Training Network (GTN) is inviting for a contribution fest to consolidate our training material on 6-7th October 2016.

@@ -6,7 +6,13 @@ ends: 2016-07-27
 organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
-location: Georges-Koehler-Allee 101, 79110 Freiburg, Germany
+location:
+  name: Building 101
+  street: Georges-Köhler-Allee 101
+  postal: 79110
+  city: Freiburg im Breisgau
+  region: Baden-Württemberg
+  country: Germany
 supporters:
 - denbi
 ---

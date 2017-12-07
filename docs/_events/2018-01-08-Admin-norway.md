@@ -6,7 +6,9 @@ ends: 2018-01-12
 organiser:
   name: ELIXIR
   email:
-location: Oslo, Norway
+location:
+  city: Oslo
+  country: Norway
 supporter:
 - elixir
 ---

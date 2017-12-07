@@ -2,6 +2,44 @@
 layout: default
 ---
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "name": "{{ page.title }}",
+  {% if page.location and page.location != "online" %}
+  "location": {
+    "@type": "Place",
+    "name": "{{ page.location.name }}",
+    "address": {
+      {% if page.location.street %}
+      "streetAddress": "{{ page.location.street }}",
+      {% endif %}
+      {% if page.location.city %}
+      "addressLocality": "{{ page.location.city }}",
+      {% endif %}
+      {% if page.location.postal %}
+      "postalCode": "{{ page.location.postal }}",
+      {% endif %}
+      {% if page.location.region %}
+      "addressRegion": "{{ page.location.region }}",
+      {% endif %}
+      {% if page.location.country %}
+      "addressCountry": "{{ page.location.country }}"
+      {% endif %}
+      "@type": "PostalAddress"
+    }
+  },
+  {% endif %}
+  "description": "{{ page.content | strip_html | truncatewords: 20 }}",
+  "startDate": "{{ page.starts }}",
+  "endDate": "{{ page.ends }}"
+}
+</script>
+
+
 <div class="row">
   <section class="section-content">
     <div class="col-md-12">

@@ -6,7 +6,12 @@ ends: 2017-03-10
 organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
-location: Georges-Köhler-Allee, Freiburg im Breisgau, Germany
+location:
+  street: Georges-Köhler-Allee
+  postal: 79110
+  city: Freiburg im Breisgau
+  region: Baden-Württemberg
+  country: Germany
 ---
 
 We are happy to announce the first Software Carpentry workshop in Freiburg.

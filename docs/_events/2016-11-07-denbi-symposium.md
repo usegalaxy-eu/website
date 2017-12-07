@@ -6,7 +6,9 @@ ends: 2016-11-09
 organiser:
   name: de.NBI
   email:
-location: Heidelberg, Germany
+location:
+  city: Heidelberg
+  country: Germany
 supporters:
 - denbi
 ---

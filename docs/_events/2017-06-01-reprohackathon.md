@@ -6,7 +6,9 @@ ends: 2017-06-02
 organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
-location: Université Paris-Saclay, France
+location:
+  name: Université Paris-Saclay
+  country: France
 supporters:
 - elixir
 ---

@@ -6,7 +6,9 @@ ends: 2016-04-07
 organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
-location: Heidelberg, Germany
+location:
+  city: Heidelberg
+  country: Germany
 supporters:
 - denbi
 - elixir

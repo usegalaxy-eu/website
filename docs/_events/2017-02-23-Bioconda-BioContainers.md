@@ -6,7 +6,9 @@ ends: 2017-02-23
 organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
-location: Tübingen
+location:
+  city: Tübingen
+  country: Germany
 supporters:
 - denbi
 ---

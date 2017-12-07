@@ -6,7 +6,13 @@ ends: 2018-03-02
 organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
-location: Institute for Biology II/III, Schaenzlestr.1, 79104, Freiburg im Breisgau, Germany
+location:
+  name: Institute for Biology II/III
+  street: Schaenzlestr.1
+  postal: 79104
+  city: Freiburg im Breisgau
+  region: Baden-Württemberg
+  country: Germany
 supporters:
 - denbi
 ---

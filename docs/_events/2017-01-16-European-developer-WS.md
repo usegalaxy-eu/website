@@ -6,7 +6,9 @@ ends: 2017-01-19
 organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
-location: Strasbourg, France
+location:
+  city: Strasbourg
+  country: France
 supporters:
 - denbi
 ---

@@ -6,7 +6,12 @@ ends: 2017-09-22
 organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
-location: Georges-Köhler-Allee, Freiburg im Breisgau, Germany
+location:
+  street: Georges-Köhler-Allee
+  postal: 79110
+  city: Freiburg im Breisgau
+  region: Baden-Württemberg
+  country: Germany
 ---
 
 Registration is open! Apply [here](https://goo.gl/forms/HsTektuQE6e6lsoC2).
