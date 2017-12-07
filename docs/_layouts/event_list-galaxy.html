@@ -17,7 +17,7 @@ layout: default-galaxy
 					</tr>
 				</thead>
 				<tbody>
-					{% assign posts = site.events_plain | reverse %}
+					{% assign posts = site.events_plain | sort:"starts" | reverse %}
 					{% for post in posts %}
 						<tr>
 							<td>
