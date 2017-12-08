@@ -5,10 +5,8 @@ layout: default-galaxy
 <section id="news-page">
   <div class="row news-header-row">
     {% if page.previous.url %}
-    <a href="{{ page.previous.url | relative_url }}">
-      <div class="col-xs-1">
-        «
-      </div>
+    <a class="col-xs-1 text-center" href="{{ page.previous.url | relative_url }}">
+      «
     </a>
     {% endif %}
     <div class="col-xs-10 {% if page.previous.url %}{% else %}col-xs-offset-1{% endif %}">
@@ -18,10 +16,8 @@ layout: default-galaxy
       <hr />
     </div>
     {% if page.next.url %}
-    <a href="{{ page.next.url | relative_url }}">
-      <div class="col-xs-1">
-        »
-      </div>
+    <a class="col-xs-1 text-center" href="{{ page.next.url | relative_url }}">
+      »
     </a>
     {% endif %}
   </div>
