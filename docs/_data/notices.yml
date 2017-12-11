@@ -1,7 +1,14 @@
 ---
-- title: All jobs failing
-  class: danger
+- title: All jobs were failing
+  class: info # success info warning danger
   messages:
+      - message: |
+          We have verified the patch. While updating the job configuration to a
+          newer and even safer implementation with fewer ways to fail, @erasche
+          failed to install a required dependency. Galaxy refused to load the
+          python module where our configuration was defined, and thus all jobs
+          began to fail.
+        date: 2017-12-11 18:33:10+01:00
       - message: |
           We believe the issue is now patched. Hopefully jobs should return to
           normal very shortly. We're actively monitoring the situation
