@@ -1,6 +1,6 @@
 ---
 title: Our paper about BioConda on bioRXiv
-tags: [article]
+tags: [paper]
 supporters:
  - denbi
  - elixir
