@@ -1,17 +1,20 @@
 ---
-#- title: Uploads, setting metadata, some jobs were temporarily unavailable
-#  messages:
-#      - message: |
-#          Jobs should be running again. Please let us know if they fail.
-#        date: 2017-11-20 13:26:42+01:00
-#      - message: |
-#          The temporary fix we applied contained a bug and necessitated a second patching cycle.
-#        date: 2017-11-20 12:26:31+01:00
-#      - message: |
-#          We noticed that jobs were unable to be submitted to our condor
-#          cluster. We are working on resolving this as quickly as posisble.
-#
-#          We have made an emergency patch which should correct this until we can get
-#          the underlying problem fixed.
-#        date: 2017-11-20 12:18:02+01:00
-#  class: info
+#- title: All jobs were failing
+  #class: info # success info warning danger
+  #messages:
+      #- message: |
+          #We have verified the patch. While updating the job configuration to a
+          #newer and even safer implementation with fewer ways to fail, @erasche
+          #failed to install a required dependency. Galaxy refused to load the
+          #python module where our configuration was defined, and thus all jobs
+          #began to fail.
+        #date: 2017-12-11 18:33:10+01:00
+      #- message: |
+          #We believe the issue is now patched. Hopefully jobs should return to
+          #normal very shortly. We're actively monitoring the situation
+        #date: 2017-12-11 18:27:52+01:00
+      #- message: |
+          #We noticed that jobs were unable to be submitted due to a
+          #misconfiguration on our end. We are currently investigating the
+          #issue.
+        #date: 2017-12-11 16:10:16+01:00

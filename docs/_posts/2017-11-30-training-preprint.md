@@ -1,6 +1,6 @@
 ---
 title: Our paper about the Galaxy Training material and community as a preprint on bioRXiv
-tags: [article]
+tags: [paper]
 supporters:
  - denbi
  - elixir

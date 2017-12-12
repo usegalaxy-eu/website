@@ -1,6 +1,6 @@
 ---
 title: Our paper "Practical computational reproducibility in the life sciences" on bioRXiv
-tags: [article]
+tags: [paper]
 ---
 
 Our paper "Practical computational reproducibility in the life sciences", written with [Johannes Köster](https://johanneskoester.bitbucket.io/), [Ryan Dale](https://github.com/daler) and several members of the US Galaxy team, is now available as preprint on [bioRXiv](https://www.biorxiv.org/content/early/2017/10/11/200683).
