@@ -68,3 +68,15 @@ mtekman:
     phone: +49(0) 761 - 203 54134
     location: "Build.: 079, Room: -1005"
     bio:
+
+rolfbackofen:
+    name: Rolf Backofen
+    title: Prof. Dr., Head of the Lab
+    email: backofen@informatik.uni-freiburg.de
+    phone: +49(0) 761 - 203 7460
+    location: "Build.: 101"
+    twitter: backofenlab
+    orcid: 0000-0001-8231-3323
+    google-scholar: ZCTrqQkAAAAJ
+    researchgate: Rolf_Backofen
+    bio:
