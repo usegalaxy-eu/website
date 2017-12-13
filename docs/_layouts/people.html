@@ -24,11 +24,34 @@ layout: default
             {% endif %}
             <ul class="info">
               {% if person[1].email %}
-                <li><a href="mailto:{{ person[1].email }}"><i class="fa fa-envelope"></i></i>{{ person[1].email }}</a></li>
+                <li><a href="mailto:{{ person[1].email }}" title="Email"><i class="fa fa-envelope"></i></i>{{ person[1].email }}</a></li>
               {% endif %}
-              <li><a href="https://github.com/{{ person[0] }}"><i class="fa fa-github" aria-hidden="true"></i>{{ person[0] }}</a></li>
+              <li><a href="https://github.com/{{ person[0] }}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i>{{ person[0] }}</a></li>
               <li><i class="fa fa-phone" aria-hidden="true"></i>{{ person[1].phone }}</li>
               <li><i class="fa fa-search" aria-hidden="true"></i>{{ person[1].location }}</li>
+              {% if person[1].website %}
+                <li><a href="{{ person[1].website }}" title="Website"><i class="fa fa-home"></i>{{ person[1].website }}</a></li>
+              {% endif %}
+              <li>
+                  {% if person[1].gitter %}
+                    <a href="https://gitter.im/{{ person[1].gitter }}" title="Gitter"><i class="fa fa-comments"></i></a>
+                  {% endif %}
+                  {% if person[1].twitter %}
+                    <a href="https://twitter.com/{{ person[1].twitter }}" title="Twitter"><i class="fa fa-twitter"></i></a>
+                  {% endif %}
+                  {% if person[1].linkedin %}
+                    <a href="https://www.linkedin.com/in/{{ person[1].linkedin }}" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                  {% endif %}
+                  {% if person[1].orcid %}
+                    <a href="https://orcid.org/{{ person[1].orcid }}"><i class="ai ai-orcid"></i></a>
+                  {% endif %}
+                  {% if person[1].google-scholar %}
+                    <a href="https://scholar.google.com/citations?user={{ person[1].google-scholar }}"><i class="ai ai-google-scholar"></i></a>
+                  {% endif %}
+                  {% if person[1].researchgate %}
+                    <a href="https://www.researchgate.net/profile/{{ person[1].researchgate }}"><i class="ai ai-researchgate"></i></a>
+                  {% endif %}
+              </li>
             </ul>
           </div>
         </div>

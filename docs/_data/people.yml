@@ -9,10 +9,16 @@ bgruening:
 bebatut:
     name: Bérénice Batut
     title: Ph.D., Researcher
-    website: http://research.bebatut.fr/
+    website: http://research.bebatut.fr
     email: bebatut@informatik.uni-freiburg.de
     phone: +49(0) 761 - 203 54126
     location: "Build.: 079, Room: -1005a"
+    gitter: bebatut
+    twitter: bebatut
+    linkedin: berenicebatut
+    orcid: 0000-0001-9852-1987
+    google-scholar: q5GpTJYAAAAJ
+    researchgate: Berenice_Batut
     bio:
 
 blankclemens:
