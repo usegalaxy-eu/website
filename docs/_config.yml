@@ -32,7 +32,7 @@ twitter_username: backofenlab
 github_username:  backofenlab
 
 sass:
-  sass_dir: assets
+  sass_dir: assets/css
 
 # Build settings
 markdown: kramdown
