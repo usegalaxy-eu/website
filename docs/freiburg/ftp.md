@@ -1,7 +1,7 @@
 ---
 layout: default-galaxy
 title: FTP Configuration
-permalink: /ftp.html
+permalink: /ftp/
 ---
 
 # UseGalaxy.eu FTP Server

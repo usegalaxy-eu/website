@@ -26,7 +26,7 @@ description: >
     the infrastructure for data analysis are freely available and can be used
     for creation of your own workflows for your specific projects.
 email: galaxy@informatik.uni-freiburg.de
-baseurl: "/galaxy-freiburg" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://usegalaxy-eu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: backofenlab
 github_username:  backofenlab
