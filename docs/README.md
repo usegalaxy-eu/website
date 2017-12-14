@@ -1,4 +1,28 @@
-# Backofen Galaxy Page
+# UseGalaxy.eu Page
+
+## Fancy Redirects
+
+Much content was moved around (in the output site) recently. That is because we're doing a strange and cool hybrid-site approach.
+
+Page       | Use
+---------- | ---
+/          | main galaxy instance
+/about/    | About our galaxy instance
+/freiburg/ | About the freiburg team
+/news/     | news posts
+/events/   | events posts
+
+We'll be doing some fancy proxying to accomplish this. The above mentioned
+pages (other than /) will have the full "chrome", i.e. top bar with
+about/people/pubs links.
+
+Within the main panel we'll be showing an iframe to usegalaxy.github.io/gxhome/
+which will NOT be accessible via usegalaxy.eu/gxhome/.
+
+This is a terrible explanation but basically:
+
+- the site should be fully functional at usegalaxy-eu.github.io. This site can be referenced in communication materials.
+- certain important subpages (/freiburg/, /news/, /events/) will be available from usegalaxy.eu/.../ in order to tie those to our galaxy instance more closely.
 
 ## Server Maintenance
 
