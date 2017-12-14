@@ -76,8 +76,10 @@ exclude:
 #
 # This will simultaneously render all collection items as "plain" pages
 collections:
+  posts:
+    permalink: /posts/:year/:month/:day/:title/
   posts_plain:
-    permalink: /posts/:path/plain.html
+    permalink: /posts/:year/:month/:day/:title/plain.html
     output: true
   events:
     permalink: /events/:path/
