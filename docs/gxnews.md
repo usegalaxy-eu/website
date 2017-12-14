@@ -1,4 +1,4 @@
 ---
 layout: news_list-galaxy
-permalink: /gxnews/
+permalink: /freiburg/gxnews/
 ---
