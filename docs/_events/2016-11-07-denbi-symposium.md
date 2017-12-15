@@ -1,16 +1,20 @@
 ---
-tags: [talk]
-title: International de.NBI-Symposium "Bioinformatics for Human Health & Disease"
-starts: 2016-11-07
 ends: 2016-11-09
-organiser:
-  name: de.NBI
-  email:
 location:
   city: Heidelberg
   country: Germany
+  geo:
+    lat: '49.4093582'
+    lon: '8.694724'
+organiser:
+  email: null
+  name: de.NBI
+starts: 2016-11-07
 supporters:
 - denbi
+tags:
+- talk
+title: International de.NBI-Symposium "Bioinformatics for Human Health & Disease"
 ---
 
 We will attend the de.NBI symposium with a talk in Heidelberg.

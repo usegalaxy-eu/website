@@ -1,16 +1,20 @@
 ---
-tags: [training]
-title: "European Galaxy Developer Workshop"
-starts: 2017-01-16
 ends: 2017-01-19
-organiser:
-  name: Freiburg Galaxy Team
-  email: galaxy@informatik.uni-freiburg.de
 location:
   city: Strasbourg
   country: France
+  geo:
+    lat: '48.584614'
+    lon: '7.7507127'
+organiser:
+  email: galaxy@informatik.uni-freiburg.de
+  name: Freiburg Galaxy Team
+starts: 2017-01-16
 supporters:
 - denbi
+tags:
+- training
+title: European Galaxy Developer Workshop
 ---
 
 The European Galaxy Developer Workshop is about integration and deployment of high-quality tools and visualizations into Galaxy, configuration of a production-ready Galaxy server, Docker, and Conda.

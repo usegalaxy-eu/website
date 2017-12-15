@@ -1,17 +1,21 @@
 ---
-tags: [training]
-title: "ELIXIR/GOBLET/GTN hackathon for Galaxy training material re-use"
-starts: 2017-05-22
 ends: 2017-05-24
-organiser:
-  name: ELIXIR, GOBLET, GTN
-  email:
 location:
-  name: University of Cambridge
   city: Cambridge
   country: UK
+  geo:
+    lat: '52.2033051'
+    lon: '0.124862'
+  name: University of Cambridge
+organiser:
+  email: null
+  name: ELIXIR, GOBLET, GTN
+starts: 2017-05-22
 supporters:
 - elixir
+tags:
+- training
+title: ELIXIR/GOBLET/GTN hackathon for Galaxy training material re-use
 ---
 
 The aim of the [ELIXIR/GOBLET/GTN hackathon](https://tess.elixir-europe.org/events/elixir-goblet-gtn-hackathon-for-galaxy-training-material-re-use-0ee16689-cd8e-4c02-af86-714e1e1e062b) for Galaxy training material re-use is to extend and improve the content of the Galaxy Training material repository
