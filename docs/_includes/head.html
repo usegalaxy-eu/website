@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="{{ "/assets/css/galaxy_bootstrap.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/academicons.min.css" | relative_url }}"/>
+  {% if include.country == "eu" %}
+  <link rel="stylesheet" href="{{ "/assets/css/eu.css" | relative_url }}">
+  {% endif %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 

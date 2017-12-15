@@ -1,1 +1,4 @@
-freiburg/index.md
+---
+layout: home
+country: eu
+---

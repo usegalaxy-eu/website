@@ -1,7 +1,3 @@
 ---
-layout: home
+layout: home-freiburg
 ---
-
-# Training
-
-# Done with our Galaxy server...

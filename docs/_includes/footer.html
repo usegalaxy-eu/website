@@ -4,16 +4,16 @@
       <p class="navbar-brand">{{ site.title }}</p>
     </div>
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-12">
         <ul class="contact-info">
           {% if site.email %}
             <li><i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {% endif %}
           {% if site.github_username %}
-            <li><i class="fa fa-github"></i><a href="https://github.com/backofenlab">{{ site.github_username }}</a></li>
+            <li><i class="fa fa-github"></i><a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></li>
           {% endif %}
           {% if site.twitter_username %}
-            <li><i class="fa fa-twitter"></i><a href="https://twitter.com/backofenlab">{{ site.twitter_username }}</a></li>
+            <li><i class="fa fa-twitter"></i><a href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a></li>
           {% endif %}
             <li><i class="fa fa-rss"></i>Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></li>
         </ul>

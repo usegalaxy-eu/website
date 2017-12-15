@@ -13,23 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Freiburg Galaxy Team
-description: >
-    The Freiburg Galaxy Team offers a framework for scientists on e.g. NGS
-    data analyses (RNA-seq, ChIP-seq, Exome-seq, MethylC-seq), genome
-    annotation analyses for eukaryotic and prokaryotic organisms (from gene
-    prediction to functional description), Proteomics and Metabolomics
-    analysis, and the ChemicalToolBoX for analysis of small compounds.
-    Furthermore, Galaxy has a huge variety of data visualization tools. Galaxy
-    contains more than 800 different single analysis tools and ready-to-use
-    pipelines for different applications. After registration, all tools and
-    the infrastructure for data analysis are freely available and can be used
-    for creation of your own workflows for your specific projects.
-email: galaxy@informatik.uni-freiburg.de
+title: "Galaxy Europe"
+description: The European Galaxy Instance
+email: contact@usegalaxy.eu
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://usegalaxy-eu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: backofenlab
-github_username:  backofenlab
+twitter_username: usegalaxy_eu
+github_username:  usegalaxy-eu
 
 sass:
   sass_dir: assets/css

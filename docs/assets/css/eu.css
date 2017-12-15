@@ -1,0 +1,13 @@
+.navbar-inverse {
+	background-color: #003399 !important;
+	border: 0px !important;
+	color: #ffcc00 !important;
+}
+
+.navbar-inverse .navbar-brand  {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand::before{
+	content: url("/assets/media/Flag_of_Europe2.svg")
+}
