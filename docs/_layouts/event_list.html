@@ -24,11 +24,11 @@ layout: default
 								<h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
 								<p>{{ post.excerpt }}</p>
 							</td>
-							<td class="text-nowrap">
-							{{ post.starts | date: date_format }}
+							<td>
+							<span class="text-nowrap">{{ post.starts | date: date_format }}</span>
 							</td>
-							<td class="text-nowrap">
-							{{ post.ends   | date: date_format }}
+							<td>
+							<span class="text-nowrap">{{ post.ends   | date: date_format }}</span>
 							</td>
 						</tr>
 					{% endfor %}
