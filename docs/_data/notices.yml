@@ -6,7 +6,7 @@
           HiCExplorer 2.0 was released to provide an easy and user-friendly access to
           the analysis of Hi-C data. <a href="../posts/2017-12-30-hicexplorer/plain.html">Learn more about HiCexplorer ...</a>
           <a href="https://galaxy.uni-freiburg.de/u/joachim-wolff/w/workflow-hicexplorer-hicplotmatrix" target="_blank"><img src="https://img.shields.io/badge/HiCExplorer-workflow_HiCPlotMatrix-green.svg"/></a>
-          <a href="https://galaxy.uni-freiburg.de/u/joachim-wolff/w/workflow-hicexplorer-hicsummatrix" target="_blank"><img src="https://img.shields.io/badge/GraphClust-workflow_HiCSumMatrix-green.svg"/></a>
+          <a href="https://galaxy.uni-freiburg.de/u/joachim-wolff/w/workflow-hicexplorer-hicsummatrix" target="_blank"><img src="https://img.shields.io/badge/HiCExplorer-workflow_HiCSumMatrix-green.svg"/></a>
         date: HiCExplorer
       - message: |
           GraphClust is a new workflow for scalable clustering and annotation of structured and functional RNAs.
