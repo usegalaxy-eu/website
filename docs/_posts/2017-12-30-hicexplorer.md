@@ -3,7 +3,7 @@ tags: [tools]
 title: HiCExplorer - a suite of tools for reproducible Hi-C data analysis, quality control and visualization 
 ---
 
-<a href="https://galaxy.uni-freiburg.de/u/joachim-wolff/w/workflow-hicexplorer-hicplotmatrix" target="_blank"><img src="https://img.shields.io/badge/HiCExplorer-HiCPlotMatrix_workflow-green.svg"/></a><a href="https://galaxy.uni-freiburg.de/u/joachim-wolff/w/workflow-hicexplorer-hicsummatrix" target="_blank"><img src="https://img.shields.io/badge/HiCExplorer-HiCSumMatrix_workflow-green.svg"/></a>
+<a href="https://galaxy.uni-freiburg.de/u/joachim-wolff/w/workflow-hicexplorer-hicplotmatrix" target="_blank"><img src="https://img.shields.io/badge/HiCExplorer-HiCPlotMatrix_workflow-green.svg"/></a>&nbsp;&nbsp;<a href="https://galaxy.uni-freiburg.de/u/joachim-wolff/w/workflow-hicexplorer-hicsummatrix" target="_blank"><img src="https://img.shields.io/badge/HiCExplorer-HiCSumMatrix_workflow-green.svg"/></a>
 
 Hi-C has become a standard technique for the genome-wide analysis of
 chromosome conformation. Analysis of Hi-C data provides insights into folding principles of the
