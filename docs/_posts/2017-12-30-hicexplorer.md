@@ -11,7 +11,7 @@ interactions. Integration of Hi-C and other epigenomic datasets has
 helped researchers in understanding of mechanisms of gene regulation and genetic diseases. 
 
 Today we released HiCExplorer 2.0 to provide an easy and user-friendly access to
-the analysis pipeline for Hi-C data. Starting with the mapping of the raw sequence data,
+the analysis of Hi-C data. Starting with the mapping of the raw sequence data,
 creation of the contact matrices, the correction of contact matrices, to the computation of
 topological associated domains (TADs) and A/B compartments. A detailed quality report generated
 during the process, which, using the support of MultiQC, allows users to compare multiple Hi-C
