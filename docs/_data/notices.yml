@@ -9,8 +9,8 @@
       - message: |
           GraphClust is a new workflow for scalable clustering and annotation of structured and functional RNAs.
           <a href="../posts/2017-12-30-GraphClust/plain.html">Read more about GraphClust ...</a><br>
-          <a href="https://galaxy.uni-freiburg.de/u/milad/w/graphclust-published"><img src="https://img.shields.io/badge/GraphClust-workflow-green.svg"/></a>
-          <a href="https://galaxy.uni-freiburg.de/u/milad/h/graphclust-sample-history"><img src="https://img.shields.io/badge/GraphClust-history-green.svg"/></a>
+          <a href="https://galaxy.uni-freiburg.de/u/milad/w/graphclust-published" target="_blank"><img src="https://img.shields.io/badge/GraphClust-workflow-green.svg"/></a>
+          <a href="https://galaxy.uni-freiburg.de/u/milad/h/graphclust-sample-history" target="_blank"><img src="https://img.shields.io/badge/GraphClust-history-green.svg"/></a>
         date: GraphClust
 #- title: All jobs were failing
   #class: info # success info warning danger
