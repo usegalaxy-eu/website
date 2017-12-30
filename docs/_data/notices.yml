@@ -1,4 +1,11 @@
 ---
+- title: Workflow of the month
+  class: info # success info warning danger
+  messages:
+      - message: |
+          Today we released HiCExplorer 2.0 to provide an easy and user-friendly access to
+          the analysis of Hi-C data. <a href="../posts/2017-12-30-hicexplorer/plain.html">Learn more about HiCexplorer ...</a>
+        date: HiCExplorer
 #- title: All jobs were failing
   #class: info # success info warning danger
   #messages:
