@@ -3,6 +3,9 @@ tags: [tools]
 title: GraphClust - Scalable clustering and annotation of structured and functional RNAs in an accessible and interactive fashion
 ---
 
+[![Workflow](https://img.shields.io/badge/GraphClust-workflow-green.svg)](https://galaxy.uni-freiburg.de/u/milad/w/graphclust-published)
+[![Workflow](https://img.shields.io/badge/GraphClust-history-green.svg)](https://galaxy.uni-freiburg.de/u/milad/h/graphclust-sample-history)
+
 There are many non-coding RNAs (ncRNAs) and regulatory elements whose function is still unknown.
 RNA sequences with putative but unknown functionality can appear for example in genome-wide screens or
 experiments such as RNA-seq. Clustering of RNA sequences is currently one of the
