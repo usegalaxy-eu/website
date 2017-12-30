@@ -1,7 +1,6 @@
 ---
 tags: [tools]
-title: HiCExplorer: a suite of tools for reproducible Hi-C data analysis, quality control and visualization 
-
+title: HiCExplorer - a suite of tools for reproducible Hi-C data analysis, quality control and visualization 
 ---
 
 Hi-C has become a standard technique for the genome-wide analysis of
