@@ -45,7 +45,7 @@ Galaxy instance.
 * [Fidel Ramirez](https://github.com/fidelram)
 * [Vivek Bhardwaj](https://github.com/vivekbhr)
 * [Stephan Nothjunge](https://github.com/DonStephano)
-* Ralf Gilsbach
+* [Ralf Gilsbach](https://github.com/rgilsbach)
 * [Thomas Manke](https://github.com/thomasmanke)
 * [Rolf Backofen](https://github.com/rolfbackofen)
 * [Björn Grüning](https://github.com/bgruening)
