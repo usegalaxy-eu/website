@@ -1,11 +1,15 @@
 ---
-- title: Workflow of the month
+- title: Workflows of the month
   class: info # success info warning danger
   messages:
       - message: |
-          Today we released HiCExplorer 2.0 to provide an easy and user-friendly access to
+          HiCExplorer 2.0 was released to provide an easy and user-friendly access to
           the analysis of Hi-C data. <a href="../posts/2017-12-30-hicexplorer/plain.html">Learn more about HiCexplorer ...</a>
         date: HiCExplorer
+      - message: |
+          GraphClust is a new workflow for scalable clustering and annotation of structured and functional RNAs.
+          <a href="../posts/2017-12-30-GraphClust/plain.html">Read more about GraphClust ...</a>
+        date: GraphClust
 #- title: All jobs were failing
   #class: info # success info warning danger
   #messages:
