@@ -6,7 +6,7 @@ supporters:
 ---
 
 ["Combinatorial omics analysis reveals perturbed lysosomal homeostasis in collagen VII-deficient keratinocytes"](http://www.mcponline.org/content/early/2018/01/11/mcp.RA117.000437)
-by Kerstin Thriene et al. was published today in Molecular and Cellular Proteomics. Thanks to Kerstin, Jörg and Collegues for this great collaboration.
+by Kerstin Thriene et al. was published today in Molecular and Cellular Proteomics. Thanks to Kerstin, Jörn and Collegues for this great collaboration.
 
 
 ## Abstract
