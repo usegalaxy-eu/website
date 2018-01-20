@@ -39,7 +39,7 @@ could cancel your registration 2 weeks before if you cannot attend.
 For a better planning on our side, please register for attendance of the 
 conference and let us know if you like to talk about your research:
 
-https://goo.gl/forms/El8re81AqbsTvguj2
+[https://goo.gl/forms/El8re81AqbsTvguj2](https://goo.gl/forms/El8re81AqbsTvguj2)
 
 The program will be send around middle of February.
 Bjoern, on behalf of the Freiburg Galaxy Team
