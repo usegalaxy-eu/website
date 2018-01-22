@@ -1,5 +1,6 @@
 ---
 title: Freiburg Galaxy Team has open positions!
+location: Freiburg, Germany
 ---
 
 The Freiburg Galaxy Team is looking for 2 Postdoctoral researchers
