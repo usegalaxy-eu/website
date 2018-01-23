@@ -17,6 +17,6 @@ We offer the chance to work with leading, cutting edge technologies both in IT a
 
 Positions are for initially 2 years with the possibility of extension. The salary will be determined in accordance with TVL-E13 (100 %).
 
-Further information: [Bioinformatics Uni Freiburg](http://www.bioinf.uni-freiburg.de/), [Freiburg Galaxy Team](https://usegalaxy.eu)
+Further information: [Bioinformatics Uni Freiburg](http://www.bioinf.uni-freiburg.de/), [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/galaxy-freiburg/people/)
 
 Please send your application including a motivation letter, CV, certificates, and 3 references latest until 15.2.2018 via email to Anika Erxleben (bioinf-jobs@informatik.uni-freiburg.de)
