@@ -1,6 +1,6 @@
 ---
 tags: [training]
-title: 'September 2018: Galaxy Workshop on HTS data analysis'
+title: Next Galaxy Workshop on HTS data analysis in September 2018
 location: Freiburg, Germany
 supporters:
  - denbi
