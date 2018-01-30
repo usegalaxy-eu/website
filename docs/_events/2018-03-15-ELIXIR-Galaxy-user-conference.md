@@ -14,8 +14,8 @@ supporter:
 - denbi
 ---
 
-The Freiburg Galaxy team will organize a local Galaxy User Conference 
-next year from 15th to 16th of March 2018, and we would like to invite 
+The Freiburg Galaxy team will organize a local Galaxy User Conference
+from 15th to 16th of March 2018, and we would like to invite 
 you all.
 
 The idea is to gather interesting talks from our community about their 
