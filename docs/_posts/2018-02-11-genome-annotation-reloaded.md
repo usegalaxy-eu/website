@@ -3,7 +3,7 @@ tags: [tools]
 title: Genome Annotation Reloaded
 ---
 
-During the last month the Galaxy team has put a lot of effort into updating the Genome Annotatoin tools and has included new tools that will change how you work with your Genome in silico.
+During the last month the Galaxy team has put a lot of effort into updating the Genome Annotation tools and has included new tools that will change how you work with your Genome in silico.
 
 ## Tool Updates
 
@@ -21,4 +21,4 @@ One tool we would especially like to highlight is new Galaxy wrapper for [Circos
 Saskia Hiltemann from Erasmus MC (Leiden University), in collaboration with our own E. Rasche, have <a target="_top" href="/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/circos/circgraph/0.9-RC2">integrated Circos into Galaxy</a>, finally making it
 possible to create beautiful production quality plots interactively in your browser, or automatically as part of a workflow.
 
-Let's anotate some Genomes -- Any feedback welcome!
+Let's annotate some Genomes -- Any feedback welcome!
