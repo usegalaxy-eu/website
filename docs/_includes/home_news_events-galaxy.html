@@ -1,6 +1,6 @@
 <div class="row">
   <div class='col-sm-6'>
-    <h2><a href="{{ "/gxnews/" | absolute_url }}">News</a></h2>
+    <h2><a href="{{ "/galaxy/gxnews/" | absolute_url }}">News</a></h2>
     <div class>
       <div class="list-group">
         {% assign events = site.posts_plain | reverse %}
@@ -18,7 +18,7 @@
     </div>
   </div>
   <div class='col-sm-6'>
-    <h2><a href="../gxevents/">Events</a></h2>
+    <h2><a href="{{ "/galaxy/gxevents/" | absolute_url }}">Events</a></h2>
     <div class>
       <div class="list-group">
         {% assign events = site.events_plain | sort:"starts" | reverse %}
