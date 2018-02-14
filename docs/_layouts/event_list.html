@@ -1,16 +1,22 @@
 ---
 layout: default
 ---
+{% assign page_dir = page.dir | split:'/' %}
+{% assign key = page_dir[1] %}
+{% assign key_length = key | size %}
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 <div class="row">
 
 	<section class="section-content">
 		<div class="col-md-12">
-			<h1>Events</h1>
+			<h1>{{ key | capitalize }} Events</h1>
 			<table class="table table-striped">
 				<thead>
 					<tr>
+						{% if key_length == 0 %}
+						<th>Site</th>
+						{% endif %}
 						<th>Topic/Event</th>
 						<th>Starts</th>
 						<th>Ends</th>
@@ -20,7 +26,11 @@ layout: default
 				<tbody>
 					{% assign posts = site.events | sort:"starts" | reverse %}
 					{% for post in posts %}
+						{% if post.site == key or key_length == 0 %}
 						<tr>
+							{% if key_length == 0 %}
+							<td>{{ post.site | capitalize }}</td>
+							{% endif %}
 							<td>
 								<h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
 								<p>{{ post.excerpt }}</p>
@@ -38,6 +48,7 @@ layout: default
 								{{ post.location.country }}
 							</td>
 						</tr>
+						{% endif %}
 					{% endfor %}
 				</tbody>
 			</table>

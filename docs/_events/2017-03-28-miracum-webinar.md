@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [training]
 title: "MIRACUM webinar"
 starts: 2017-03-28

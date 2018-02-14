@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [training]
 title: "Galaxy workshop on HTS data analysis"
 starts: 2016-02-22

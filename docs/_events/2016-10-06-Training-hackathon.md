@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [training]
 title: "Galaxy training material hackathon"
 starts: 2016-10-06

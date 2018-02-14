@@ -1,0 +1,24 @@
+<div class="navbar navbar-inverse">
+
+  <div class="container">
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+	{% assign included_paths = include.links | default: page_paths}
+
+    <div class="navbar-header"">
+      <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    </div>
+
+    {% if included_paths %}
+      <div class="navbar-collapse collapse navbar-inverse-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          {% for path in included_paths %}
+            <li>
+              <a class="page-link" href="{{ path.url | relative_url }}">{{ path.name | escape }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  </div>
+</div>

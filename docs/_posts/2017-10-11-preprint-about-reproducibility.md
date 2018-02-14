@@ -1,4 +1,5 @@
 ---
+site: freiburg
 title: Our paper "Practical computational reproducibility in the life sciences" on bioRXiv
 tags: [paper]
 ---

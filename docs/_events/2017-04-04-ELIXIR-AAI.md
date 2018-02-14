@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [training]
 title: "de.NBI - ELIXIR AAI Codefest - Make your services accessible via ELIXIR AAI"
 starts: 2017-04-04

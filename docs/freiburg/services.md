@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: /services/
 ---
 
 The Freiburg Galaxy Team is offering several services to enable reproducible, accessible science for everyone.

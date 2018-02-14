@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags:
 title: Software Carpentry workshop
 starts: 2017-03-09

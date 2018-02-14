@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [training]
 title: Next Galaxy Workshop on HTS data analysis in September 2018
 location: Freiburg, Germany

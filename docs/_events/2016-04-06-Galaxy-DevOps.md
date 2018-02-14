@@ -1,4 +1,5 @@
 ---
+site: freiburg
 ends: 2016-04-07
 location:
   city: Heidelberg

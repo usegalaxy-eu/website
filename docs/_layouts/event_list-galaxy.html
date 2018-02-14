@@ -1,6 +1,8 @@
 ---
 layout: default-galaxy
 ---
+{% assign page_dir = page.dir | split:'/' %}
+{% assign key = page_dir[1] %}
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 <div class="row">
@@ -19,6 +21,7 @@ layout: default-galaxy
 				<tbody>
 					{% assign posts = site.events_plain | sort:"starts" | reverse %}
 					{% for post in posts %}
+						{% if post.site == key %}
 						<tr>
 							<td>
 								<h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
@@ -31,6 +34,7 @@ layout: default-galaxy
 							<span class="text-nowrap">{{ post.ends   | date: date_format }}</span>
 							</td>
 						</tr>
+						{% endif %}
 					{% endfor %}
 				</tbody>
 			</table>

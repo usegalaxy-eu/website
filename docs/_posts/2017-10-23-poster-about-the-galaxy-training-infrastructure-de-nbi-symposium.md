@@ -1,4 +1,5 @@
 ---
+site: freiburg
 title: Galaxy Training infrastructure @ de.NBI Symposium
 tags: [poster]
 supporters:

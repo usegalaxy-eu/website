@@ -1,6 +1,9 @@
 ---
 layout: default-galaxy
 ---
+{% assign page_dir = page.dir | split:'/' %}
+{% assign key = page_dir[1] %}
+
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 <section class="page-header">
   <div class="row">
@@ -13,6 +16,7 @@ layout: default-galaxy
 <section id="news-list">
   {% assign posts = site.posts_plain | reverse %}
   {% for post in posts %}
+    {% if post.site == key %}
     <div class="news">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
@@ -38,5 +42,6 @@ layout: default-galaxy
         </div>
       </div>
     </div>
+    {% endif %}
   {% endfor %}
 </section>

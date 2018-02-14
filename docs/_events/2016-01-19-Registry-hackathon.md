@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [training]
 title: "de.NBI - EDAM Codefest: ELIXIR Tools and Services Registry Resource hackathon"
 starts: 2016-01-19

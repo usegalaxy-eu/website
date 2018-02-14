@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags:
 title: "Bioinformatics Galaxy workshop"
 starts: 2017-09-18

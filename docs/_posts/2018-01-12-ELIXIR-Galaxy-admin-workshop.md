@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [training]
 title: ELIXIR Galxy Admin workshop in Oslo.
 supporters:

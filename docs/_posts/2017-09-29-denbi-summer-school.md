@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [training]
 title: deNBI Summer School - Computational genomics and RNA biology
 location: Berlin, Germany

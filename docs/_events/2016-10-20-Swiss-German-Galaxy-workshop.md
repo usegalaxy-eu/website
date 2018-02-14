@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [training]
 title: "Swiss German Galaxy Workshop"
 starts: 2016-10-20

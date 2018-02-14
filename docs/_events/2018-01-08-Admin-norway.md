@@ -1,4 +1,5 @@
 ---
+site: freiburg
 ends: 2018-01-12
 location:
   city: Oslo

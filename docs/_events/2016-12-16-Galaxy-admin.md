@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags:
 title: "Galaxy admin meet up"
 starts: 2016-12-16

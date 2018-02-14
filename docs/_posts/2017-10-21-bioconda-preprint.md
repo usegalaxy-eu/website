@@ -1,4 +1,5 @@
 ---
+site: freiburg
 title: Our paper about BioConda on bioRXiv
 tags: [paper]
 supporters:

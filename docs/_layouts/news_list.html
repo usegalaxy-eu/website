@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+
+{% assign page_dir = page.dir | split:'/' %}
+{% assign key = page_dir[1] %}
+{% assign key_length = key | size %}
+
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 <section class="page-header">
   <div class="row">
@@ -13,6 +18,7 @@ layout: default
 <section id="news-list">
 
   {% for post in site.posts %}
+    {% if post.site == key or key_length == 0 %}
     <div class="news">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
@@ -20,6 +26,9 @@ layout: default
             <a href="{{ post.url | absolute_url }}">
               <h2 class="title">{{ post.title | escape }}</h2>
             </a>
+            <span class="title-uppercase date">
+              {{ key | capitalize }}
+            </span>
             <span class="title-uppercase date">
               {{ post.date | date: date_format }}
             </span>
@@ -38,5 +47,6 @@ layout: default
         </div>
       </div>
     </div>
+    {% endif %}
   {% endfor %}
 </section>

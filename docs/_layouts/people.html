@@ -1,65 +1,36 @@
 ---
 layout: default
 ---
+{% assign page_dir = page.dir | split:'/' %}
+{% assign key = page_dir[1] %}
+{% assign people = site.data.people %}
 
-<section class="page-header">
-  <div class="row">
-    <div class="col-sm-12 text-center">
-      <h1>Freiburg Galaxy Team</h1>
-    </div>
-  </div>
-</section>
+<!--if we have a subdir name-->
+{% for k in site.data.people %}
+	<!--If the subdir matches the key, assign it.-->
+	{% if k[0] == key or key == '' %}
+		{% assign people = k %}
 
-<section id="people">
-  <div class="row">
-    {% for person in site.data.people %}
-      <div class="col-md-4">
-        <div class="panel panel-default panel-profile text-center">
-          <div class="panel-body">
-            <img class="panel-profile-img" src="https://github.com/{{ person[0] }}.png">
-            <h5 class="panel-title">{{ person[1].name }}</h5>
-            <p>{{ person[1].title }}</p>
-            {% if person[1].bio %}
-              <p class="bio">{{ person[1].bio }}</p>
-            {% endif %}
-            <ul class="info">
-              {% if person[1].email %}
-                <li><a href="mailto:{{ person[1].email }}" title="Email"><i class="fa fa-envelope"></i></i>{{ person[1].email }}</a></li>
-              {% endif %}
-              <li><a href="https://github.com/{{ person[0] }}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i>{{ person[0] }}</a></li>
-              <li><i class="fa fa-phone" aria-hidden="true"></i>{{ person[1].phone }}</li>
-              <li><i class="fa fa-search" aria-hidden="true"></i>{{ person[1].location }}</li>
-              {% if person[1].website %}
-                <li><a href="{{ person[1].website }}" title="Website"><i class="fa fa-home"></i>{{ person[1].website }}</a></li>
-              {% endif %}
-              <li>
-                  {% if person[1].gitter %}
-                    <a href="https://gitter.im/{{ person[1].gitter }}" title="Gitter"><i class="fa fa-comments"></i></a>
-                  {% endif %}
-                  {% if person[1].twitter %}
-                    <a href="https://twitter.com/{{ person[1].twitter }}" title="Twitter"><i class="fa fa-twitter"></i></a>
-                  {% endif %}
-                  {% if person[1].linkedin %}
-                    <a href="https://www.linkedin.com/in/{{ person[1].linkedin }}" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-                  {% endif %}
-                  {% if person[1].orcid %}
-                    <a href="https://orcid.org/{{ person[1].orcid }}"><i class="ai ai-orcid"></i></a>
-                  {% endif %}
-                  {% if person[1].google-scholar %}
-                    <a href="https://scholar.google.com/citations?user={{ person[1].google-scholar }}"><i class="ai ai-google-scholar"></i></a>
-                  {% endif %}
-                  {% if person[1].researchgate %}
-                    <a href="https://www.researchgate.net/profile/{{ person[1].researchgate }}"><i class="ai ai-researchgate"></i></a>
-                  {% endif %}
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</section>
+		<section class="page-header">
+		  <div class="row">
+			<div class="col-sm-12 text-center">
+				<h1>{{ k[0] | capitalize }} Galaxy Team</h1>
+			</div>
+		  </div>
+		</section>
 
-<script>
-  $('.panel').matchHeight();
-</script>
+		<section id="people">
+		  <div class="row">
+			{% for person in people[1] %}
+				{% include person.html data=person %}
+			{% endfor %}
+		  </div>
+		</section>
+
+		<script>
+		  $('.panel').matchHeight();
+		</script>
+
+
+	{% endif %}
+{% endfor %}

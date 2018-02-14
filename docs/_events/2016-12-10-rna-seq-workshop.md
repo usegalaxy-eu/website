@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags:
 title: "Galaxy Workshop specialized on RNA-sequencing data analysis"
 starts: 2016-12-15

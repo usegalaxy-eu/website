@@ -1,4 +1,5 @@
 ---
+site: freiburg
 ends: 2017-10-10
 location:
   city: Paris

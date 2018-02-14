@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [devops]
 title: "Successful Server Hardware Improvements"
 ---

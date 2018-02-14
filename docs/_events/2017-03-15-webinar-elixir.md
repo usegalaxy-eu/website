@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [training]
 title: "ELIXIR webinar Bioconda and BioContainers"
 starts: 2017-03-15

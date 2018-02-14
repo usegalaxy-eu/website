@@ -1,4 +1,5 @@
 ---
+site: freiburg
 ends: 2017-01-27
 location:
   city: Mainz

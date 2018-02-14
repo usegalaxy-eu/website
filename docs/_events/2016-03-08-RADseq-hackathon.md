@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [training]
 title: "Hackathon on RADseq Tools and Workflows"
 starts: 2016-03-08

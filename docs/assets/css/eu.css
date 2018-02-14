@@ -8,6 +8,3 @@
 	color: white;
 }
 
-.navbar-inverse .navbar-brand::before{
-	content: url("/assets/media/Flag_of_Europe2.svg")
-}

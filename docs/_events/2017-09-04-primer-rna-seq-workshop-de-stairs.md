@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags:
 title: A Primer for RNA-Seq Processing, Interpretation and Visualization
 starts: 2017-10-04

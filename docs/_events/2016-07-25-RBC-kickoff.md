@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [training, talk]
 title: "RBC kick-off meeting & hackathon"
 starts: 2016-07-25

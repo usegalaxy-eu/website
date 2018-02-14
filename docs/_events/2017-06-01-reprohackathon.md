@@ -1,4 +1,5 @@
 ---
+site: freiburg
 ends: 2017-06-02
 location:
   country: France

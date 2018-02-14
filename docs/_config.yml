@@ -39,17 +39,36 @@ citation:
     citation_style: apa
     citation_locale: en
 
+
 header_links:
-    - name: News
-      url: /news/
-    - name: Events
-      url: /events/
-    - name: People
-      url: /people/
-    - name: Services
-      url: /services/
-    - name: Publications
-      url: /publications/
+    main:
+        - name: Freiburg
+          url: /freiburg/
+        - name: Paris
+        - name: News
+          url: /news/
+        - name: Events
+          url: /events/
+        - name: People
+          url: /people/
+        - name: About
+          url: /about/
+    freiburg:
+        - name: News
+          url: /freiburg/news/
+        - name: Events
+          url: /freiburg/events/
+        - name: People
+          url: /freiburg/people/
+        - name: Services
+          url: /freiburg/services/
+        #- name: Publications
+          #url: /freiburg/publications/
+    paris:
+        - name: News
+          url: /paris/news/
+        - name: Events
+          url: /paris/events/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -72,13 +91,13 @@ collections:
     permalink: /posts/:year/:month/:day/:title/plain.html
     output: true
   events:
-    permalink: /events/:path/
+    permalink: /event/:path/
     output: true
   events_ical:
-    permalink: /events/:path/event.ics
+    permalink: /event/:path/event.ics
     output: true
   events_plain:
-    permalink: /events/:path/plain.html
+    permalink: /event/:path/plain.html
     output: true
 
 defaults:

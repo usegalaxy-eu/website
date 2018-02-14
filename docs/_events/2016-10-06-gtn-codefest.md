@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags:
 title: "The Galaxy Training Network contribution fest"
 starts: 2016-10-06

@@ -1,4 +1,5 @@
 ---
+site: freiburg
 ends: 2017-02-23
 location:
   city: "T\xFCbingen"

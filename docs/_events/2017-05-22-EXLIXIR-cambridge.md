@@ -1,4 +1,5 @@
 ---
+site: freiburg
 ends: 2017-05-24
 location:
   city: Cambridge

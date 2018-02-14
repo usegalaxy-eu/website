@@ -1,0 +1,44 @@
+<div class="col-md-4">
+  <div class="panel panel-default panel-profile text-center">
+    <div class="panel-body">
+      <img class="panel-profile-img" src="https://github.com/{{ include.data[0] }}.png">
+      <h5 class="panel-title">{{ include.data[1].name }}</h5>
+      <p>{{ include.data[1].title }}</p>
+      {% if include.data[1].bio %}
+        <p class="bio">{{ include.data[1].bio }}</p>
+      {% endif %}
+      <ul class="info">
+        {% if include.data[1].email %}
+          <li><a href="mailto:{{ include.data[1].email }}" title="Email"><i class="fa fa-envelope"></i></i>{{ include.data[1].email }}</a></li>
+        {% endif %}
+        <li><a href="https://github.com/{{ include.id }}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i>{{ include.id }}</a></li>
+        <li><i class="fa fa-phone" aria-hidden="true"></i>{{ include.data[1].phone }}</li>
+        <li><i class="fa fa-search" aria-hidden="true"></i>{{ include.data[1].location }}</li>
+        {% if include.data[1].website %}
+          <li><a href="{{ include.data[1].website }}" title="Website"><i class="fa fa-home"></i>{{ include.data[1].website }}</a></li>
+        {% endif %}
+        <li>
+            {% if include.data[1].gitter %}
+              <a href="https://gitter.im/{{ include.data[1].gitter }}" title="Gitter"><i class="fa fa-comments"></i></a>
+            {% endif %}
+            {% if include.data[1].twitter %}
+              <a href="https://twitter.com/{{ include.data[1].twitter }}" title="Twitter"><i class="fa fa-twitter"></i></a>
+            {% endif %}
+            {% if include.data[1].linkedin %}
+              <a href="https://www.linkedin.com/in/{{ include.data[1].linkedin }}" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+            {% endif %}
+            {% if include.data[1].orcid %}
+              <a href="https://orcid.org/{{ include.data[1].orcid }}"><i class="ai ai-orcid"></i></a>
+            {% endif %}
+            {% if include.data[1].google-scholar %}
+              <a href="https://scholar.google.com/citations?user={{ include.data[1].google-scholar }}"><i class="ai ai-google-scholar"></i></a>
+            {% endif %}
+            {% if include.data[1].researchgate %}
+              <a href="https://www.researchgate.net/profile/{{ include.data[1].researchgate }}"><i class="ai ai-researchgate"></i></a>
+            {% endif %}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+

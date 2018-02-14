@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [tools]
 title: "STAR: Ultrafast alignment of RNA-seq data"
 ---

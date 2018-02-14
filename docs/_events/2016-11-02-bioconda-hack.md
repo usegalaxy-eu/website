@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [training]
 title: "Bioconda Contribution Fest"
 starts: 2016-11-02

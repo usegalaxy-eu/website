@@ -1,4 +1,5 @@
 ---
+site: freiburg
 tags: [poster]
 title: 3 Galaxy related posters @ GCB 2017
 location: Tübingen, Germany

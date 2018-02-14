@@ -1,4 +1,0 @@
----
-layout: maintenance
-permalink: /maintenance/
----

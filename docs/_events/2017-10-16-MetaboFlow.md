@@ -1,4 +1,5 @@
 ---
+site: freiburg
 ends: 2017-10-17
 location:
   city: Birmingham
