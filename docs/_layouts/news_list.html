@@ -27,11 +27,9 @@ layout: default
               <h2 class="title">{{ post.title | escape }}</h2>
             </a>
             <span class="title-uppercase date">
-              {{ key | capitalize }}
-            </span>
-            <span class="title-uppercase date">
               {{ post.date | date: date_format }}
             </span>
+            <span class="label label-success">{{ post.site | capitalize }}</span>
             {% for tag in post.tags %}
               <span class="label label-primary">{{ tag }}</span>
             {% endfor %}
