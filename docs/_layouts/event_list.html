@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign page_dir = page.dir | split:'/' %}
-{% assign key = page_dir[1] %}
+{% assign key = page_dir[1] | default: page.site  %}
 {% assign key_length = key | size %}
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}

@@ -1,6 +1,15 @@
----
-layout: default
-country: eu
-lang: en
----
-
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html country=page.country %}
+  <body>
+    <div id="wrap">
+      <div id="main">
+        {% include header.html %}
+        <div class="container" id="maincontainer">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

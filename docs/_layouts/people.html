@@ -2,13 +2,14 @@
 layout: default
 ---
 {% assign page_dir = page.dir | split:'/' %}
-{% assign key = page_dir[1] %}
+{% assign key = page_dir[1] | default: page.site %}
+{% assign key_length = key | size %}
 {% assign people = site.data.people %}
 
 <!--if we have a subdir name-->
 {% for k in site.data.people %}
 	<!--If the subdir matches the key, assign it.-->
-	{% if k[0] == key or key == '' %}
+	{% if k[0] == key or key_length == 0 %}
 		{% assign people = k %}
 
 		<section class="page-header">

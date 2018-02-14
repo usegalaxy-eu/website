@@ -45,6 +45,7 @@ header_links:
         - name: Freiburg
           url: /freiburg/
         - name: Paris
+          url: /paris/
         - name: News
           url: /news/
         - name: Events
@@ -69,6 +70,8 @@ header_links:
           url: /paris/news/
         - name: Events
           url: /paris/events/
+        - name: People
+          url: /paris/people/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
