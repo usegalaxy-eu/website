@@ -29,7 +29,7 @@ markdown: kramdown
 #theme: minima
 plugins:
   - jekyll-feed
-  #- jekyll/scholar
+  - jekyll/scholar
 
 scholar:
   style: bioinformatics
@@ -63,8 +63,8 @@ header_links:
           url: /freiburg/people/
         - name: Services
           url: /freiburg/services/
-        #- name: Publications
-          #url: /freiburg/publications/
+        - name: Publications
+          url: /freiburg/publications/
     paris:
         - name: News
           url: /paris/news/
