@@ -139,9 +139,19 @@ body {
     left: 5%;
     height: 500px;
 }
+
 .carousel-control {
     width: 5%;
 }
+
 .carousel-control.left, .carousel-control.right {
     background-image: none !important;
+}
+
+.carousel-indicators li.active {
+	background-color: #5a5a5a;
+}
+
+.carousel-indicators li {
+	border: 1px solid #5a5a5a;
 }
