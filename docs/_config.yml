@@ -39,13 +39,14 @@ citation:
     citation_style: apa
     citation_locale: en
 
+team_sites:
+    - name: Freiburg
+      url: /freiburg/
+    #- name: Paris
+      #url: /paris/
 
 header_links:
     main:
-        - name: Freiburg
-          url: /freiburg/
-        - name: Paris
-          url: /paris/
         - name: News
           url: /news/
         - name: Events
@@ -65,13 +66,13 @@ header_links:
           url: /freiburg/services/
         - name: Publications
           url: /freiburg/publications/
-    paris:
-        - name: News
-          url: /paris/news/
-        - name: Events
-          url: /paris/events/
-        - name: People
-          url: /paris/people/
+    #paris:
+        #- name: News
+          #url: /paris/news/
+        #- name: Events
+          #url: /paris/events/
+        #- name: People
+          #url: /paris/people/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

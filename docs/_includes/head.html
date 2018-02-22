@@ -5,9 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | absolute_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/galaxy_bootstrap.css" | absolute_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/academicons.min.css" | relative_url }}"/>
+  <link rel="stylesheet" href="{{ "/assets/css/carousel.css" | absolute_url }}">
 {% assign page_dir = page.dir | split:'/' %}
 {% assign key = page_dir[1] | default: page.site%}
 {% assign key_length = key | size %}
@@ -24,4 +26,5 @@
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
 </head>

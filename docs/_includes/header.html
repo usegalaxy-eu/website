@@ -1,4 +1,4 @@
-<div class="navbar navbar-inverse">
+<div class="navbar">
 
   <div class="container">
     {% assign default_paths = page.header_links %}
@@ -16,7 +16,11 @@
 
     <div class="navbar-header"">
       <div class="navbar-brand">
-        <img src="/assets/media/Flag_of_Europe2.svg" style="height: 16px"/>
+        {% if key_length == 0 %}
+        <img src="/assets/media/galaxy-eu-logo.svg" style="height: 20px"/>
+        {% else %}
+        <img src="/assets/media/galaxy-eu-logo.inv.svg" style="height: 20px"/>
+        {% endif %}
       </div>
 
       <a class="navbar-brand" href="{{ "/" | relative_url }}" style="padding-left: 6px">
@@ -32,16 +36,27 @@
       {% endif %}
     </div>
 
-    {% if included_paths %}
-      <div class="navbar-collapse collapse navbar-inverse-collapse">
+      <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Member Sites <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+              {% for path in site.team_sites %}
+                <li>
+                  <a class="page-link" href="{{ path.url | relative_url }}">{{ path.name | escape }}</a>
+                </li>
+              {% endfor %}
+             </ul>
+           </li>
+
+          {% if included_paths %}
           {% for path in included_paths %}
             <li>
               <a class="page-link" href="{{ path.url | relative_url }}">{{ path.name | escape }}</a>
             </li>
           {% endfor %}
+          {% endif %}
         </ul>
       </div>
-    {% endif %}
   </div>
 </div>
