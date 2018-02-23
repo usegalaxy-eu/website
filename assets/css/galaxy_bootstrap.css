@@ -5727,7 +5727,7 @@ input[type="radio"] {
 
 NOTE: these styles do not currently work.
 
-.modal { 
+.modal {
   position: absolute;
   top: 50px;
   width: 660px;
