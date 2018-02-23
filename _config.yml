@@ -18,7 +18,7 @@ description: The European Galaxy Instance
 email: contact@usegalaxy.eu
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://usegalaxy-eu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: usegalaxy_eu
+twitter_username: galaxyproject
 github_username:  usegalaxy-eu
 
 sass:
@@ -34,6 +34,9 @@ plugins:
 scholar:
   style: bioinformatics
   group_by: year
+  order: descending
+  sort_by: year
+  group_order: descending
 
 citation:
     citation_style: apa
