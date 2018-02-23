@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | absolute_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/galaxy_bootstrap.css" | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/galaxy_bootstrap.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/academicons.min.css" | relative_url }}"/>
-  <link rel="stylesheet" href="{{ "/assets/css/carousel.css" | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/carousel.css" | relative_url }}">
 {% assign page_dir = page.dir | split:'/' %}
 {% assign key = page_dir[1] | default: page.site%}
 {% assign key_length = key | size %}
@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="{{ "/assets/css/" | relative_url }}{{ key }}.css">
   {% endif %}
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
