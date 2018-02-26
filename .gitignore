@@ -1,3 +1,13 @@
 vendor
 .bundle
 _site
+
+# Created by https://www.gitignore.io/api/jekyll
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-metadata
+
+
+# End of https://www.gitignore.io/api/jekyll
