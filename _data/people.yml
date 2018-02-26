@@ -1,8 +1,3 @@
-paris:
-    jane_doe:
-        name: Jane Doe
-        title: PI
-        email: jane.doe@example.com
 freiburg:
     bgruening:
         name: Björn Grüning
