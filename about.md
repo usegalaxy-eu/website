@@ -27,7 +27,7 @@ storage to scale beyond the visual interface and to automate the analyses. Novel
 
 ---
 
-# <i class="fa fa-chart-bar"></i> Visualization & Data Interpretation
+# <i class="fa fa-bar-chart"></i> Visualization & Data Interpretation
 
 Publication-ready visualizations can be instantanously generated inside Galaxy. Charts with bar diagram, line charts, box plots, heatmaps, etc, but also scatterplot, Venn diagrams, and even more.
 
