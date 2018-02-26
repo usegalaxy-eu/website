@@ -51,24 +51,24 @@ team_sites:
 header_links:
     main:
         - name: News
-          url: /news/
+          url: /news
         - name: Events
-          url: /events/
+          url: /events
         - name: People
-          url: /people/
+          url: /people
         - name: About
-          url: /about/
+          url: /about
     freiburg:
         - name: News
-          url: /freiburg/news/
+          url: /freiburg/news
         - name: Events
-          url: /freiburg/events/
+          url: /freiburg/events
         - name: People
-          url: /freiburg/people/
+          url: /freiburg/people
         - name: Services
-          url: /freiburg/services/
+          url: /freiburg/services
         - name: Publications
-          url: /freiburg/publications/
+          url: /freiburg/publications
     #paris:
         #- name: News
           #url: /paris/news/
