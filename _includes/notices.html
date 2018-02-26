@@ -3,7 +3,7 @@
 	<h4>{{ notice.title }}</h4>
 	{% assign messages = notice.messages | sort:'date' | reverse %}
 	{% for message in messages %}
-	<p>[{{ message.date | date: "%-d %B %Y %H:%M" }}] {{ message.message }}</p>
+	<p>{% if message.date %}[{{ message.date | date: "%-d %B %Y %H:%M" }}] {% endif %}{{ message.message | markdownify }}</p>
 	{% endfor %}
 </div>
 {% endfor %}
