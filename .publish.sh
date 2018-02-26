@@ -1,3 +1,6 @@
+#!/bin/bash
+set -ex
+
 TMPREPO=$(mktemp -d);
 git clone --quiet git@github.com:usegalaxy-eu/usegalaxy-eu.github.io.git $TMPREPO;
 mv $TMPREPO/.git _site/;
