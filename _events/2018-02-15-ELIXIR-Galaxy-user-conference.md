@@ -1,7 +1,7 @@
 ---
 site: freiburg
 tags: [training, talk]
-title: "Galaxy User Conference"
+title: Galaxy User Conference
 starts: 2018-03-15
 ends: 2018-03-16
 organiser:

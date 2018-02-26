@@ -1,6 +1,15 @@
 ---
-title: ELIXIR Galaxy kick-off meeting 14.03.2018 in Freiburg
-location: Freiburg, Germany
+site: freiburg
+title: ELIXIR Galaxy kick-off meeting in Freiburg
+location:
+  name: Building 106
+  street: Georges-Köhler-Allee 106
+  postal: 79110
+  city: Freiburg im Breisgau
+  region: Baden-Württemberg
+  country: Germany
+starts: 2018-03-14
+ends: 2018-03-14
 supporters:
  - elixir
 ---
