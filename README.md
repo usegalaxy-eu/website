@@ -102,6 +102,6 @@ bundle exec jekyll serve --watch
 
 Other commands are available under `jekyll --help`
 
-## License
+## Deploying
 
-The site is based off of `minima` which is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+The scripts `.build.sh` and `.deploy.sh` are what are run by our Jenkins bot.
