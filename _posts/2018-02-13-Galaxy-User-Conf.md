@@ -84,8 +84,8 @@ You can fine more information [here](http://bit.ly/2BWpolM) and register [here](
     </tr>
     <tr>
       <td valign="top">16:00-16:30</td>
-       <td valign="top">Microbiota analysis using Galaxy</td>
-       <td valign="top">Saskia Hiltemann (Rotterdam, Netherlands)</td>
+      <td valign="top">The ELIXIR Communities</td>
+      <td valign="top">John Hancock (ELIXIR, UK), Frederik Coppens (Gent, Belgium)</td>
     </tr>
     <tr>
       <td valign="top">16:30</td>
@@ -174,14 +174,14 @@ You can fine more information [here](http://bit.ly/2BWpolM) and register [here](
       <td valign="top">&nbsp;</td>
     </tr>
     <tr>
+      <td valign="top">16:00-16:30</td>
+       <td valign="top">Microbiota analysis using Galaxy</td>
+       <td valign="top">Saskia Hiltemann (Rotterdam, Netherlands)</td>
+    </tr>
+    <tr>
       <td valign="top">15:30-16:00</td>
       <td valign="top">Galaxy Australia/USA communities</td>
       <td valign="top">Simon Gladman (Melbourne, Australia), Anton Nekrutenko (PSU, USA)</td>
-    </tr>
-    <tr>
-      <td valign="top">16:00-16:30</td>
-      <td valign="top">The ELIXIR Communities</td>
-      <td valign="top">John Hancock (ELIXIR, UK), Frederik Coppens (Gent, Belgium)</td>
     </tr>
     <tr>
       <td valign="top">16:30-17:00</td>
