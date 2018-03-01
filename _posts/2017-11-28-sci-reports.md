@@ -11,9 +11,9 @@ group at King’s College London for their new paper
 central immune responses to paininducing
 injury*](https://www.nature.com/articles/s41598-017-16664-z).
 
-<p class="multiple-img">
+<div class="multiple-img">
     <img src="{{ "/assets/media/2017-11-28_nature_reports.jpg" | relative_url }}" height="300px" alt="Transcriptionally, sensory neurons purified from adult male and female mice are very similar." />
-</p>
+</div>
 
 
 > Women suffer chronic pain more frequently than men.

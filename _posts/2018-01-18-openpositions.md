@@ -4,9 +4,9 @@ title: Freiburg Galaxy Team has open positions!
 location: Freiburg, Germany
 ---
 
-<p class="multiple-img">
+<div class="multiple-img">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/" title="Untitled"><img src="https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg" width="512" height="340" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</p>
+</div>
 
 ### The Freiburg Galaxy Team is looking for 2 Postdoctoral researchers.
 
@@ -18,6 +18,6 @@ We offer the chance to work with leading, cutting edge technologies both in IT a
 
 Positions are for initially 2 years with the possibility of extension. The salary will be determined in accordance with TVL-E13 (100 %).
 
-Further information: [Bioinformatics Uni Freiburg](http://www.bioinf.uni-freiburg.de/), [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/galaxy-freiburg/people/)
+Further information: [Bioinformatics Uni Freiburg](http://www.bioinf.uni-freiburg.de/), [Freiburg Galaxy Team](/freiburg/people)
 
 Please send your application including a motivation letter, CV, certificates, and 3 references latest until 15.2.2018 via email to Anika Erxleben (bioinf-jobs@informatik.uni-freiburg.de)

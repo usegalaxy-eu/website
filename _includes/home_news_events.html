@@ -1,6 +1,6 @@
 <div class="row">
   <div class='col-sm-6'>
-    <h2><a href="{{ "/news/" | relative_url }}">News</a></h2>
+    <h2><a href="news">News</a></h2>
     <div class>
       <div class="list-group">
         {% assign events = site.posts %}
@@ -18,7 +18,7 @@
     </div>
   </div>
   <div class='col-sm-6'>
-    <h2><a href="events/">Events</a></h2>
+    <h2><a href="events">Events</a></h2>
     <div class>
       <div class="list-group">
         {% assign events = site.events | sort:"starts" | reverse %}

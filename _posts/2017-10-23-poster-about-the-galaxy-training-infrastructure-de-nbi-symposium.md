@@ -7,9 +7,9 @@ supporters:
  - elixir
 ---
 
-<p class="multiple-img">
+<div class="multiple-img">
     <img src="{{ "/assets/media/2017-10-23_poster_presentation.jpg" | relative_url }}" height="200px" alt="Poster presentation @ de.NBI Symposium"/>
-</p>
+</div>
 
 During the [de.NBI Symposium 2017](https://www.denbi.de/symposium2017), Bérénice presented the poster "Building an open, collaborative, online infrastructure for bioinformatics training".
 

@@ -33,7 +33,7 @@ layout: default
 							{% endif %}
 							<td>
 								<h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
-								<p>{{ post.excerpt }}</p>
+								<div>{{ post.excerpt }}</div>
 							</td>
 							<td>
 							<span class="text-nowrap">{{ post.starts | date: date_format }}</span>

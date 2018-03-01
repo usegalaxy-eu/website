@@ -4,10 +4,10 @@
   messages:
       - message: |
           HiCExplorer 2.0 was released to provide an easy and user-friendly access to
-          the analysis of Hi-C data. [Learn more about HiCExplorer](/posts/2017-12-30-hicexplorer/plain.html)
+          the analysis of Hi-C data. [Learn more about HiCExplorer](/posts/2017/12/30/hicexplorer/plain.html)
 
-          <a href="https://galaxy.uni-freiburg.de/u/joachim-wolff/w/workflow-hicexplorer-hicplotmatrix" target="_blank"><img src="https://img.shields.io/badge/HiCExplorer-HiCPlotMatrix_workflow-green.svg"/></a>
-          <a href="https://galaxy.uni-freiburg.de/u/joachim-wolff/w/workflow-hicexplorer-hicsummatrix" target="_blank"><img src="https://img.shields.io/badge/HiCExplorer-HiCSumMatrix_workflow-green.svg"/></a><br>
+          <a href="https://galaxy.uni-freiburg.de/u/joachim-wolff/w/workflow-hicexplorer-hicplotmatrix" target="_blank"><img alt="HiCPlotMatrix badge" src="https://img.shields.io/badge/HiCExplorer-HiCPlotMatrix_workflow-green.svg"/></a>
+          <a href="https://galaxy.uni-freiburg.de/u/joachim-wolff/w/workflow-hicexplorer-hicsummatrix" target="_blank"><img alt="HiCSubMatrix badge" src="https://img.shields.io/badge/HiCExplorer-HiCSumMatrix_workflow-green.svg"/></a><br>
           HiCExplorer is also available from <a href="https://hicexplorer.usegalaxy.eu" target="_blank">https://hicexplorer.usegalaxy.eu</a> which contains just the tools necessary for your Hi-C analyses.
 
 

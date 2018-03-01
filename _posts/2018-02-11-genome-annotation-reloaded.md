@@ -18,7 +18,7 @@ During the last month the Galaxy team has put a lot of effort into updating the 
 
 ![The circos tool in action, showing a snippet of a plot.]({{ "/media/2018-02-12-circos.png" | relative_url }})
 
-One tool we would especially like to highlight is new Galaxy wrapper for [Circos](http://genome.cshlp.org/content/19/9/1639).
+One tool we would especially like to highlight is new Galaxy wrapper for [Circos](https://genome.cshlp.org/content/19/9/1639).
 Saskia Hiltemann from Erasmus MC (Leiden University), in collaboration with our own E. Rasche, have <a target="_top" href="https://galaxy.uni-freiburg.de/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/circos/circgraph/0.9-RC2">integrated Circos into Galaxy</a>, finally making it
 possible to create beautiful production quality plots interactively in your browser, or automatically as part of a workflow.
 
