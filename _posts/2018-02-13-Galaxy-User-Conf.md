@@ -59,7 +59,8 @@ You can fine more information [here](http://bit.ly/2BWpolM) and register [here](
     </tr>
     <tr>
       <td valign="top">13:30-14:00</td>
-       <td valign="top">tba</td>
+       <td valign="top">Galaxy tools and workflows for metabolomics: A community effort to make data processing
+and analysis accessible, reproducible, and transparent.</td>
        <td valign="top">Ralf Weber (Birmingham, UK)</td>
     </tr>
     <tr>
