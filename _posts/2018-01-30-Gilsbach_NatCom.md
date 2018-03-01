@@ -9,9 +9,9 @@ Congratulation to Ralf Gilsbach et al. from the [Hein group](https://portal.uni-
 for their great new paper entiteled
 [*Distinct epigenetic programs regulate cardiac myocyte development and disease in the human heart in vivo*](https://www.nature.com/articles/s41467-017-02762-z).
 
-<p class="multiple-img">
-    <img src="{{ "/media/2018-01-30-Gilsbach_NatCom.jpg" | relative_url }}" height="300px" alt="Genic CpG demethylation of cardiac myocyte genes." />
-</p>
+<div class="multiple-img">
+    <img src="{{ "/assets/media/2018-01-30-Gilsbach_NatCom.jpg" | relative_url }}" height="300px" alt="Genic CpG demethylation of cardiac myocyte genes." />
+</div>
 
 ## Abstract
 

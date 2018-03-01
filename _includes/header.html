@@ -14,12 +14,12 @@
       {% endif %}
     {% endfor %}
 
-    <div class="navbar-header"">
+    <div class="navbar-header">
       <div class="navbar-brand">
         {% if key_length == 0 %}
-        <img src="/assets/media/galaxy-eu-logo.svg" style="height: 20px"/>
+        <img alt="galaxy eu logo" src="/assets/media/galaxy-eu-logo.svg" style="height: 20px"/>
         {% else %}
-        <img src="/assets/media/galaxy-eu-logo.inv.svg" style="height: 20px"/>
+        <img alt="galaxy eu logo" src="/assets/media/galaxy-eu-logo.inv.svg" style="height: 20px"/>
         {% endif %}
       </div>
 
@@ -43,7 +43,7 @@
              <ul class="dropdown-menu">
               {% for path in site.team_sites %}
                 <li>
-                  <a class="page-link" href="{{ path.url | relative_url }}">{{ path.name | escape }}</a>
+                  <a class="page-link" href="{{ path.url }}">{{ path.name | escape }}</a>
                 </li>
               {% endfor %}
              </ul>
@@ -52,7 +52,7 @@
           {% if included_paths %}
           {% for path in included_paths %}
             <li>
-              <a class="page-link" href="{{ path.url | relative_url }}">{{ path.name | escape }}</a>
+              <a class="page-link" href="{{ path.url }}">{{ path.name | escape }}</a>
             </li>
           {% endfor %}
           {% endif %}

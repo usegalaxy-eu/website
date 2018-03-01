@@ -7,9 +7,9 @@ supporters:
  - elixir
 ---
 
-<p class="multiple-img">
+<div class="multiple-img">
     <img src="{{ "/assets/media/2017-10-19_swc_picture.jpg" | relative_url }}" height="300px" alt="Training poster @ GCB 2017" />
-</p>
+</div>
 
 Bérénice was helping Toby Hodges, Malvika Sharan and the other instructors for the [Software Carpentry workshop](https://www.embl.de/training/events/2017/SWC17-01/) organized at EMBL in Heidelberg. 
 

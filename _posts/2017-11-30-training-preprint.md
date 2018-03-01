@@ -9,9 +9,9 @@ supporters:
 
 Our paper "Community-driven data analysis training for biology" about the [Training material](https://training.galaxyproject.org) we are developing with the [Galaxy Training Network](https://galaxyproject.org/teach/gtn/) is now available as preprint on [bioRXiv](https://www.biorxiv.org/content/early/2017/11/29/225680).
 
-<p class="multiple-img">
+<div class="multiple-img">
     <img src="{{ "/assets/media/2017-11-30-development_process.png" | relative_url }}" width="800px" alt=" Structure and development of content in GitHub" />
-</p>
+</div>
 
 ## Abstract
 

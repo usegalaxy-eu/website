@@ -1,7 +1,7 @@
 <div class="col-md-4">
   <div class="panel panel-default panel-profile text-center">
     <div class="panel-body">
-      <img class="panel-profile-img" src="https://github.com/{{ include.data[0] }}.png">
+      <img alt="{{ include.data[1].name }}'s Picture" class="panel-profile-img" src="https://github.com/{{ include.data[0] }}.png" />
       <h5 class="panel-title">{{ include.data[1].name }}</h5>
       <p>{{ include.data[1].title }}</p>
       {% if include.data[1].bio %}
@@ -9,7 +9,7 @@
       {% endif %}
       <ul class="info">
         {% if include.data[1].email %}
-          <li><a href="mailto:{{ include.data[1].email }}" title="Email"><i class="fa fa-envelope"></i></i>{{ include.data[1].email }}</a></li>
+          <li><a href="mailto:{{ include.data[1].email }}" title="Email"><i class="fa fa-envelope"></i>{{ include.data[1].email }}</a></li>
         {% endif %}
         <li><a href="https://github.com/{{ include.id }}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i>{{ include.id }}</a></li>
         <li><i class="fa fa-phone" aria-hidden="true"></i>{{ include.data[1].phone }}</li>

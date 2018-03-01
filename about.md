@@ -40,9 +40,7 @@ To dig deeper, **interactive visualizations** are available:
 
 # <i class="fa fa-cogs"></i> Tools for any Bioinformatics Analysis
 
-More than 1,000 bioinformatics tools can be accessed via usegalaxy.eu, covering most of the bioinformatics topics:
-
-!["Tools availabe on usegalaxy.eu"](/media/tools.png)
+More than 1,000 bioinformatics tools can be accessed via usegalaxy.eu, covering most of the bioinformatics topics.
 
 The tools and analysis pipelines are regularly updated.
 

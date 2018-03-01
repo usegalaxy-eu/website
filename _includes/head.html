@@ -16,7 +16,9 @@
 
   <link rel="stylesheet" href="{{ "/assets/css/eu.css" | relative_url }}">
   {% if key_length != 0 %}
-  <link rel="stylesheet" href="{{ "/assets/css/" | relative_url }}{{ key }}.css">
+    {% if key == 'freiburg' %}
+    <link rel="stylesheet" href="{{ "/assets/css/" | relative_url }}{{ key }}.css">
+    {% endif %}
   {% endif %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
@@ -25,6 +27,6 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js" integrity="sha256-a/H26zcixe1svu2fYax7ANJMSzGYyJNI52hKKYJTar8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
 </head>

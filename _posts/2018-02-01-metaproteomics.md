@@ -22,9 +22,9 @@ novice metaproteomics researchers, through online resources such as the Galaxy T
 available within these Galaxy-based resources, as well as the process by which they were selected and implemented in our community-based work. We hope this description will increase
 access to and utilization of metaproteomics tools, as well as offer a framework for continued community-based development and dissemination of cutting edge metaproteomics software.
 
-<p class="multiple-img">
-  <img src="{{ "/media/proteomes-06-00007-ag.png" | relative_url }}" width="800px" alt="metaproteomics workflow" />
-</p>
+<div class="multiple-img">
+  <img src="{{ "/assets/media/proteomes-06-00007-ag.png" | relative_url }}" width="800px" alt="metaproteomics workflow" />
+</div>
 
 ## Credit
 

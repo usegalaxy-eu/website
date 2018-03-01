@@ -31,11 +31,11 @@ When this effort is combined with our community-maintained workflows and our in-
 
 Supporting researchers by educating them in *e.g.* big data analysis, programming, data management, and Galaxy server administration, is one of our goals as we believe that **sharing of knowledge** and the **open science** movement are the key points in future. 
 
-<p class="multiple-img" style="text-align: right;">
+<div class="multiple-img" style="text-align: right;">
     <img src="{{ "/assets/media/training_1.jpg" | relative_url }}" width="200px" alt="Workshop picture" />
     <img src="{{ "/assets/media/training_2.jpg" | relative_url }}" width="200px" alt="Workshop picture" />
     <img src="{{ "/assets/media/training_3.jpg" | relative_url }}" width="200px" alt="Workshop picture" />
-</p>
+</div>
 
 ### Workshops
 

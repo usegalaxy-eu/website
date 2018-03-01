@@ -16,4 +16,4 @@ tags:
 title: Galaxy RNAseq and admin workshop
 ---
 
-We are invited to give a 1-day-workshop on RNAseq data analysis followed by a workshop for admins in how to set up a Galaxy instance in [Mainz](www.imbei.uni-mainz.de).
+We are invited to give a 1-day-workshop on RNAseq data analysis followed by a workshop for admins in how to set up a Galaxy instance in [Mainz](http://www.imbei.uni-mainz.de).
