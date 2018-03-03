@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="tools.svg"
+   inkscape:export-filename="/Users/bebatut/Documents/com/misc/flyer/tools.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   enable-background="new">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4218">
+      <feBlend
+         inkscape:collect="always"
+         mode="lighten"
+         in2="BackgroundImage"
+         id="feBlend4220" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497476"
+     inkscape:cx="727.83037"
+     inkscape:cy="430.41779"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1597"
+     inkscape:window-height="1053"
+     inkscape:window-x="1365"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="filter:url(#filter4218)">
+    <g
+       id="g4548"
+       transform="translate(57.732406,98.730981)">
+      <rect
+         rx="17.14287"
+         ry="22.857141"
+         y="172.36221"
+         x="-220"
+         height="239.89847"
+         width="560.18573"
+         id="rect4146"
+         style="opacity:1;fill:#dfe6f9;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.78431373" />
+      <flowRoot
+         transform="translate(21.728906,0)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:55px;line-height:125%;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4138"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4140"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande'"
+             y="192.3622"
+             x="-211.42857"
+             height="437.14285"
+             width="557.14288"
+             id="rect4142" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-family:Exo;-inkscape-font-specification:'Exo Ultra-Light'"
+           id="flowPara4144">File and metatools</flowPara></flowRoot>      <flowRoot
+         style="font-style:normal;font-weight:normal;font-size:55px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4148"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4150"><rect
+             style="text-align:start;text-anchor:start"
+             y="278.07648"
+             x="-187.14285"
+             height="195.71428"
+             width="507.14285"
+             id="rect4152" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start"
+           id="flowPara4160">Get data: USCS, Uniprot</flowPara><flowPara
+           id="flowPara4179"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">Send data: GenomeSpace Exporter</flowPara><flowPara
+           id="flowPara4181"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">Convert</flowPara></flowRoot>    </g>
+    <g
+       id="g4535"
+       transform="translate(170.99208,101.05586)">
+      <rect
+         rx="14.285728"
+         ry="20.000013"
+         y="434.64868"
+         x="-222.14291"
+         height="270.203"
+         width="449.06897"
+         id="rect4146-9"
+         style="opacity:1;fill:#ecd9b2;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.78431373" />
+      <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:55px;line-height:125%;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4138-4"
+         xml:space="preserve"
+         transform="translate(4.7953124,262.42857)"><flowRegion
+           id="flowRegion4140-0"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande'"
+             y="192.3622"
+             x="-211.42857"
+             height="437.14285"
+             width="557.14288"
+             id="rect4142-2" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-family:Exo;-inkscape-font-specification:'Exo Ultra-Light'"
+           id="flowPara4144-5">Text tools</flowPara></flowRoot>      <flowRoot
+         style="font-style:normal;font-weight:normal;font-size:55px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4148-0"
+         xml:space="preserve"
+         transform="translate(4.1601562,254.42857)"><flowRegion
+           id="flowRegion4150-9"><rect
+             style="text-align:start;text-anchor:start"
+             y="278.07648"
+             x="-187.14285"
+             height="195.71428"
+             width="507.14285"
+             id="rect4152-6" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start"
+           id="flowPara4160-8">Text manipulation</flowPara><flowPara
+           id="flowPara4181-7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">Filter and Sort</flowPara><flowPara
+           id="flowPara4230"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">Join, Substract and Group</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start"
+           id="flowPara4211">Statistics</flowPara></flowRoot>    </g>
+    <rect
+       style="opacity:1;fill:#dfe6f9;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.78431373"
+       id="rect4146-1"
+       width="1218.459"
+       height="162.02751"
+       x="-820.54041"
+       y="831.48688"
+       ry="19.999983"
+       rx="14.285728" />
+    <flowRoot
+       transform="translate(21.47748,661.46894)"
+       xml:space="preserve"
+       id="flowRoot4138-5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:55px;line-height:125%;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion4140-8"><rect
+           id="rect4142-6"
+           width="557.14288"
+           height="437.14285"
+           x="-211.42857"
+           y="192.3622"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande'" /></flowRegion><flowPara
+         id="flowPara4144-2"
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-family:Exo;-inkscape-font-specification:'Exo Ultra-Light'">Annotation, ontologies</flowPara></flowRoot>    <flowRoot
+       transform="translate(-606.21334,649.65198)"
+       xml:space="preserve"
+       id="flowRoot4148-07"
+       style="font-style:normal;font-weight:normal;font-size:55px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion4150-1"><rect
+           id="rect4152-7"
+           width="1181.9247"
+           height="187.63307"
+           x="-187.14285"
+           y="278.07648"
+           style="text-align:start;text-anchor:start" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start"
+         id="flowPara4181-74">SortMeRNA, Aragorn, Roary, Prokka, Augustus, KOBAS, Glimmer, antiSMASH, etc</flowPara></flowRoot>    <g
+       id="g4508"
+       transform="translate(0,4.0405711)">
+      <rect
+         rx="14.285728"
+         ry="20.000013"
+         y="25.349112"
+         x="417.55109"
+         height="495.11536"
+         width="952.52814"
+         id="rect4146-9-8"
+         style="opacity:1;fill:#ecd9b2;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.78431373" />
+      <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:55px;line-height:125%;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4138-4-1"
+         xml:space="preserve"
+         transform="translate(569.21713,-143.57145)"><flowRegion
+           id="flowRegion4140-0-7"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande'"
+             y="192.3622"
+             x="-211.42857"
+             height="437.14285"
+             width="557.14288"
+             id="rect4142-2-1" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-family:Exo;-inkscape-font-specification:'Exo Ultra-Light'"
+           id="flowPara4144-5-5">Genomics, HTS</flowPara></flowRoot>      <flowRoot
+         style="font-style:normal;font-weight:normal;font-size:55px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4148-0-4"
+         xml:space="preserve"
+         transform="translate(643.57139,-151.57145)"><flowRegion
+           id="flowRegion4150-9-7"><rect
+             style="text-align:start;text-anchor:start"
+             y="278.07648"
+             x="-187.14285"
+             height="396.2814"
+             width="913.69397"
+             id="rect4152-6-3" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start"
+           id="flowPara4160-8-3">Quality control: FastQC, MultiQC, Trim Galore!, etc</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start"
+           id="flowPara4209">Alignment: BLAST, Diamond, etc</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start"
+           id="flowPara4204">Mapping: Bowtie2, STAR, HISAT2, BWA, segemehl, etc</flowPara><flowPara
+           id="flowPara4181-7-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">Assembly: Unicycler, SPades, Quast, etc</flowPara><flowPara
+           id="flowPara4368"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">Transcriptomics: FeatureCounts, DESeq2, Trinity, Salmon, etc</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start"
+           id="flowPara4215">RNA: LocARNA, RNAfold, RNAz, RNAplot, etc</flowPara><flowPara
+           id="flowPara4366"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">Variant Calling: FreeBayes, Gemini, VCFTools, SnpEff, etc</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start"
+           id="flowPara4213">Peak Calling: MACS2, Piranha, PEAKachu, etc</flowPara><flowPara
+           id="flowPara4230-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">Epigenetics: Bismark, metilene, bwameth, MethylDackel, etc</flowPara><flowPara
+           id="flowPara4374"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">deepTools, SAM Tools, HicExplorer, Picard, EMBOSS, etc</flowPara></flowRoot>    </g>
+    <g
+       id="g4495"
+       transform="translate(0,-7.9339624)">
+      <rect
+         rx="17.14287"
+         ry="22.857141"
+         y="558.79077"
+         x="419.57138"
+         height="239.89847"
+         width="620.79492"
+         id="rect4146-11"
+         style="opacity:1;fill:#dfe6f9;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.78431373" />
+      <flowRoot
+         transform="translate(664.36557,386.42856)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:55px;line-height:125%;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4138-6"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4140-9"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start"
+             y="192.3622"
+             x="-211.42857"
+             height="437.14285"
+             width="557.14288"
+             id="rect4142-7" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-family:Exo;-inkscape-font-specification:'Exo Ultra-Light';text-align:start;text-anchor:start"
+           id="flowPara4144-21">Metagenomics</flowPara></flowRoot>      <flowRoot
+         style="font-style:normal;font-weight:normal;font-size:55px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4148-5"
+         xml:space="preserve"
+         transform="translate(642.29697,386.42856)"><flowRegion
+           id="flowRegion4150-5"><rect
+             style="text-align:start;text-anchor:start"
+             y="278.07648"
+             x="-187.14285"
+             height="204.28572"
+             width="825.71423"
+             id="rect4152-4" /></flowRegion><flowPara
+           id="flowPara4181-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">MetaPhlAn2, HUMAnN2, VSearch, ...</flowPara><flowPara
+           id="flowPara4428"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">QIIME, Mothur</flowPara><flowPara
+           id="flowPara4432"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">MEGAHIT, MetaSpades, ...</flowPara></flowRoot>    </g>
+    <g
+       id="g4344"
+       transform="translate(0,6.0609151)">
+      <rect
+         rx="14.285728"
+         ry="20.000013"
+         y="804.1236"
+         x="419.57138"
+         height="225.75642"
+         width="974.34827"
+         id="rect4146-9-7"
+         style="opacity:1;fill:#ecd9b2;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.78431373" />
+      <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:55px;line-height:125%;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4138-4-9"
+         xml:space="preserve"
+         transform="translate(664.03557,631.76136)"><flowRegion
+           id="flowRegion4140-0-0"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start"
+             y="192.3622"
+             x="-211.42857"
+             height="435.12256"
+             width="967.26483"
+             id="rect4142-2-9" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-family:Exo;-inkscape-font-specification:'Exo Ultra-Light';text-align:start;text-anchor:start"
+           id="flowPara4144-5-1">Proteomics, Metabolomics, Chemistry</flowPara></flowRoot>      <flowRoot
+         style="font-style:normal;font-weight:normal;font-size:55px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4148-0-2"
+         xml:space="preserve"
+         transform="translate(646.51572,623.76136)"><flowRegion
+           id="flowRegion4150-9-2"><rect
+             style="text-align:start;text-anchor:start"
+             y="278.07648"
+             x="-187.14285"
+             height="185.61279"
+             width="838.47284"
+             id="rect4152-6-4" /></flowRegion><flowPara
+           id="flowPara4230-7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">OpenMS, PeptideShaker, SearchGUI, MADLIquant, etc</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start"
+           id="flowPara4207">JMol Editor, Docking, etc</flowPara><flowPara
+           id="flowPara4342"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande';text-align:start;text-anchor:start">OpenBabel, ChemFP, OMG, QED, etc</flowPara></flowRoot>    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:55px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1086.9241"
+       y="224.03714"
+       id="text4338"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4340"
+         x="1086.9241"
+         y="224.03714" /></text>
+  </g>
+</svg>
