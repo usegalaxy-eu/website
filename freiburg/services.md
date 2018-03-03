@@ -8,6 +8,7 @@ The Freiburg Galaxy Team is offering several services to enable **reproducible**
 
 - <i class="fa fa-server"></i> [Galaxy server](#galaxy-server)
 - <i class="fa fa-graduation-cap"></i> [Training](#training)
+- <i class="fa fa-university"></i> [Training Infrastructure-as-a-Service (TIaaS)](#training-infrastructure-as-a-service)
 - <i class="fa fa-cube"></i> [Virtualization for Sensitive Data](#virtualization-for-sensitive-data)
 - <i class="fa fa-table"></i> [Data analysis](#data-analysis)
 - <i class="fa fa-cogs"></i> [Tool integration](#tool-integration)
@@ -57,7 +58,9 @@ Hackathons or contribution fests are short events (usually few days) where peopl
 
 We organize numerous hackathons per year on site or online, in close cooperation with [de.NBI](http://www.denbi.de/), [ELIXIR](https://www.elixir-europe.org/), and the Galaxy community. 
 
-### Training Infrastructure-as-a-Service (TIaaS)
+---
+<a name="training-infrastructure-as-a-service"></a>
+# <i class="fa fa-university"></i> Training Infrastructure-as-a-Service (TIaaS)
 
 We are very excited to offer a special service for Galaxy trainers: Training infrastructure as a Service!
 
