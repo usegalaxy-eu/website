@@ -103,7 +103,9 @@ We are eager to assist you and solve your scientific question with you! We have 
 
 Do you have a scientific question and can't find the appropriate tool for it? We will put ideas into code, and then the code into Galaxy, so everyone can use it!
 
-We are also maintaining, adapting and optimizing of existing Galaxy tools, mostly in collaboration with Galaxy community inside [Intergalactic Utilities Commission](https://github.com/galaxyproject/tools-iuc) for example.
+!["Tools availabe on usegalaxy.eu"](/assets/media/tools.png)
+
+We are also maintaining, adapting and optimizing existing Galaxy tools in collaboration with Galaxy community, for example as part of the [Intergalactic Utilities Commission](https://github.com/galaxyproject/tools-iuc).
 
 ---
 <a name="scientific-computing-cloud"></a>
