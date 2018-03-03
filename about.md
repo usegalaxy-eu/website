@@ -4,7 +4,7 @@ layout: default
 
 # usegalaxy.eu
 
-Our Galaxy server (https://usegalaxy.eu) is the **biggest Galaxy instance in Europe**, and one of the biggest worldwide.
+Our Galaxy server ([https://usegalaxy.eu]((https://usegalaxy.eu))) is the **biggest Galaxy instance in Europe**, and one of the biggest worldwide.
 
 With this server we provide access to:
 - a huge compute and storage resource without any charge
@@ -18,16 +18,16 @@ When this effort is combined with our community-maintained workflows and our in-
 
 # <i class="fa fa-table"></i> Data Analysis for any Scientist
 
-**No programming knowledge** is required to access Galaxy and its tools with a web browser. It provides powerful data analyses and can replace Excel habits. 
+**No programming knowledge** is required to access Galaxy and its tools with a web browser. It provides powerful data analyses and can replace Excel habits.
 
-The computation is automatically performed on a **cluster and on the de.NBI cloud**. Each user can store **250 GB** (500 GB for ELIXIR members) for analyses (and even more on request). 
+The computation is automatically performed on a **cluster and on the de.NBI cloud**. Each user can store **250 GB** (500 GB for ELIXIR members) for analyses (and even more on request).
 
-For advanced users, usegalaxy.eu can be **programmatically accessed** via the API to leverage its cluster and data
+For advanced users, [https://usegalaxy.eu]((https://usegalaxy.eu)) can be **programmatically accessed** via the API to leverage its cluster and data
 storage to scale beyond the visual interface and to automate the analyses. Novel analyses can also be developed right in the interface with **Galaxy Interactive Environments**: Jupyter notebooks, Ethercalc, HiCBrowser, ...
 
 ---
 
-# <i class="fa fa-bar-chart"></i> Visualization & Data Interpretation
+# <i class="fa fa-chart-bar"></i> Visualization & Data Interpretation
 
 Publication-ready visualizations can be instantanously generated inside Galaxy. Charts with bar diagram, line charts, box plots, heatmaps, etc, but also scatterplot, Venn diagrams, and even more.
 
@@ -40,7 +40,7 @@ To dig deeper, **interactive visualizations** are available:
 
 # <i class="fa fa-cogs"></i> Tools for any Bioinformatics Analysis
 
-More than 1,000 bioinformatics tools can be accessed via usegalaxy.eu, covering most of the bioinformatics topics.
+More than 1,000 bioinformatics tools can be accessed via [https://usegalaxy.eu]((https://usegalaxy.eu)), covering most of the bioinformatics topics:
 
 The tools and analysis pipelines are regularly updated.
 
@@ -54,4 +54,4 @@ Galaxy provides also a **powerful workflow system**. Workflows can be created by
 
 The thousands of tools are available with fixed versions and are managed by [Bioconda](http://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/).
 
-4 TB of reference data are available on usegalaxy.eu providing access to hundreds of reference genomes.
+4 TB of reference data are available on [https://usegalaxy.eu]((https://usegalaxy.eu)) providing access to hundreds of reference genomes.
