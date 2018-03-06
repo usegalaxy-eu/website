@@ -103,7 +103,7 @@ We are eager to assist you and solve your scientific question with you! We have 
 
 Do you have a scientific question and can't find the appropriate tool for it? We will put ideas into code, and then the code into Galaxy, so everyone can use it!
 
-!["Tools availabe on usegalaxy.eu"](/assets/media/tools.png)
+!["Tools available on usegalaxy.eu"]({{ "/assets/media/tools.png" | absolute_url }})
 
 We are also maintaining, adapting and optimizing existing Galaxy tools in collaboration with Galaxy community, for example as part of the [Intergalactic Utilities Commission](https://github.com/galaxyproject/tools-iuc).
 

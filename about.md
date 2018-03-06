@@ -42,7 +42,7 @@ To dig deeper, **interactive visualizations** are available:
 
 More than 1,000 bioinformatics tools can be accessed via [https://usegalaxy.eu]((https://usegalaxy.eu)), covering most of the bioinformatics topics:
 
-!["Tools availabe on usegalaxy.eu"](/assets/media/tools.png)
+!["Tools available on usegalaxy.eu"]({{ "/assets/media/tools.png" | absolute_url }})
 
 The tools and analysis pipelines are regularly updated.
 
