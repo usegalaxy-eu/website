@@ -23,14 +23,14 @@
         {% endif %}
       </div>
 
-      <a class="navbar-brand" href="{{ "/" | relative_url }}" style="padding-left: 6px">
+      <a class="navbar-brand" href="{{ "/" | absolute_url }}" style="padding-left: 6px">
         {{ site.title | escape }}
       </a>
       {% if key_length != 0 %}
         <div class="navbar-brand" style="color: white">
         /
         </div>
-        <a class="navbar-brand" href="{{ key | relative_url }}">
+        <a class="navbar-brand" href="{{ key | absolute_url }}">
           {{ key | capitalize }}
         </a>
       {% endif %}

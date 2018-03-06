@@ -32,7 +32,7 @@ layout: default
 							<td>{{ post.site | capitalize }}</td>
 							{% endif %}
 							<td>
-								<h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+								<h4><a href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a></h4>
 								<div>{{ post.excerpt }}</div>
 							</td>
 							<td>

@@ -5,7 +5,7 @@ layout: default
 <section id="news-page">
   <div class="row news-header-row">
     {% if page.previous.url %}
-    <a class="col-xs-1 text-center" href="{{ page.previous.url | relative_url }}">
+    <a class="col-xs-1 text-center" href="{{ page.previous.url | absolute_url }}">
       «
     </a>
     {% endif %}
@@ -16,7 +16,7 @@ layout: default
       <hr />
     </div>
     {% if page.next.url %}
-    <a class="col-xs-1 text-center" href="{{ page.next.url | relative_url }}">
+    <a class="col-xs-1 text-center" href="{{ page.next.url | absolute_url }}">
       »
     </a>
     {% endif %}
