@@ -1,8 +1,14 @@
 ---
-#starts: 2017-11-27 10:30:00 CET
-#ends: 2017-11-27 12:00:00 CET
-#jobs_affected: false
-#message: |
-#    We are upgrading the ZFS pool that stores ~120 TB of our data. We will
-#    simultaneously move our database to a higher memory server allowing us to
-#    be more performant in caching common queries.
+starts: 2018-03-12 10:00:00 CET
+ends:   2018-03-13 18:00:00 CET
+jobs_affected: true
+message: |
+    We have an extended, 2 day downtime for Galaxy. We are re-cabling some of
+    the SGE cluster and parts of the storage. We will keep Galaxy online, but
+    access to data older than ~1 month may fail. We ask that you kindly do not
+    do any analysis of old data.
+
+    On tuesday (2018-03-13) from 0830 to 1130 CET there is a complete power
+    shutdown in the UFR RZ where our servers are located. We will not be able
+    to keep services on during this time so please bear with us as the compute
+    center test their power backups.
