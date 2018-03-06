@@ -6,7 +6,7 @@
 	{% assign included_paths = include.links | default: page_paths}
 
     <div class="navbar-header"">
-      <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <a class="navbar-brand" href="{{ "/" | absolute_url }}">{{ site.title | escape }}</a>
     </div>
 
     {% if included_paths %}
@@ -14,7 +14,7 @@
         <ul class="nav navbar-nav navbar-right">
           {% for path in included_paths %}
             <li>
-              <a class="page-link" href="{{ path.url | relative_url }}">{{ path.name | escape }}</a>
+              <a class="page-link" href="{{ path.url | absolute_url }}">{{ path.name | escape }}</a>
             </li>
           {% endfor %}
         </ul>
