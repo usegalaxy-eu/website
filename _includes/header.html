@@ -17,9 +17,9 @@
     <div class="navbar-header">
       <div class="navbar-brand">
         {% if key_length == 0 %}
-        <img alt="galaxy eu logo" src="/assets/media/galaxy-eu-logo.svg" style="height: 20px"/>
+        <img alt="galaxy eu logo" src="{{ /assets/media/galaxy-eu-logo.svg | absolute_url }}" style="height: 20px"/>
         {% else %}
-        <img alt="galaxy eu logo" src="/assets/media/galaxy-eu-logo.inv.svg" style="height: 20px"/>
+        <img alt="galaxy eu logo" src="{{ /assets/media/galaxy-eu-logo.inv.svg | absolute_url }}" style="height: 20px"/>
         {% endif %}
       </div>
 
