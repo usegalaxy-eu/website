@@ -1,6 +1,10 @@
 {% if site.data.maintenance.starts %}
 <div class="alert alert-warning" style="margin-top: 1em">
 	<h4>Upcoming Maintenance Event</h4>
-	<p>There is an <a href="../maintenance/">upcoming maintenance event</a> from {{ site.data.maintenance.starts }}  to {{ site.data.maintenance.ends }}</p>
+	<p>There is an upcoming maintenance event from {{ site.data.maintenance.starts }}  to {{ site.data.maintenance.ends }}</p>
+	{% if site.data.maintenance.jobs_affected %}
+	<p><b>Jobs will be affected.</b></p>
+	{% endif %}
+	<p>{{ site.data.maintenance.message }}</p>
 </div>
 {% endif %}
