@@ -116,8 +116,8 @@ and analysis accessible, reproducible, and transparent.</td>
   <tbody>
     <tr>
       <td valign="top">09:00-09:30</td>
-      <td valign="top">tba</td>
-      <td valign="top">&nbsp;</td>
+      <td valign="top">The Beerome – Science for the Mind and the Stomach</td>
+      <td valign="top">Teresa Müller (Freiburg, Germany)</td>
     </tr>
     <tr>
       <td valign="top">09:30-10:00</td>
