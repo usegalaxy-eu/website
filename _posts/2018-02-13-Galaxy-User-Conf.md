@@ -136,7 +136,7 @@ and analysis accessible, reproducible, and transparent.</td>
     </tr>
     <tr>
       <td valign="top">11:00-11:30</td>
-      <td valign="top">Proteomic analyses of label-free mass spectrometry data using OpenMS in Galaxy</td>
+      <td valign="top">Proteomic analyses of mass spectrometry data using OpenMS in Galaxy</td>
       <td valign="top">Matthias Fahrner (Freiburg, Germany)</td>
     </tr>
     <tr>
