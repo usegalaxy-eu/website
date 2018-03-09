@@ -11,7 +11,7 @@ To process data using Galaxy, an raw dataset (HDA) is uploaded and few hashtags 
 - Input datasets as parent datasets
 - Derived/generated datasets as child datasets
 
-This script will solve the situations mentioned above, adding any new hashtags to all derived datasets. The script is written considering a Galaxy history as a tree (data structure) with input datasets as its roots and all the generated ones either as nodes or leaves of this tree. An example history ‘tree’ is shown in the figure below.
+This [script](https://github.com/anuprulez/apply_history_tags) will solve the situations mentioned above, adding any new hashtags to all derived datasets. The script is written considering a Galaxy history as a tree (data structure) with input datasets as its roots and all the generated ones either as nodes or leaves of this tree. An example history ‘tree’ is shown in the figure below.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/3022518/37175617-5382eec8-231a-11e8-98b2-d5988dce3bb4.png">
@@ -21,7 +21,7 @@ In the above figure, we can see one input dataset with multiple datasets created
 
 ### How to use the script
 <hr/>
-In order to use the script to propagate hashtags from parents to children, a user should remember the hierarchy of their datasets. Wherever hashtags are added to datasets, they will be propagated to all the children of that dataset.  These new hashtags will be appended to the already existing hashtags for each child dataset. To use this script:
+In order to use the [script](https://github.com/anuprulez/apply_history_tags) to propagate hashtags from parents to children, a user should remember the hierarchy of their datasets. Wherever hashtags are added to datasets, they will be propagated to all the children of that dataset.  These new hashtags will be appended to the already existing hashtags for each child dataset. To use this script:
 
 1. Acquire your API key from your Galaxy.
 2. (Optionally) Get the ID of the history to apply hashtags to. If this id is not supplied, the script will use the most recently updated history.
