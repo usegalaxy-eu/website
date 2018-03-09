@@ -44,6 +44,14 @@ layout: default-galaxy
             {% endfor %}
           </span>
           {% endif %}
+
+          {% if page.repo %}
+          <br />
+          <a href="https://github.com/{{ page.repo }}">
+          <img src="https://img.shields.io/badge/GitHub-{{ page.repo }}-green.svg" />
+          <img src="https://img.shields.io/github/license/{{ page.repo }}.svg" />
+          </a>
+          {% endif %}
         </div>
       </div>
     </div>
