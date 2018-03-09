@@ -36,10 +36,14 @@ Here, <galaxy_url> is the URL of your Galaxy instance. <galaxy_api_key> is the G
 ### Example commands
 
 Propagate hashtags in a specific history
-`python apply_tags.py "https://usegalaxy.org" "*******************" "f2db41e1fa331b3e"`
+```
+python apply_tags.py "https://usegalaxy.org" "*******************" "f2db41e1fa331b3e"
+```
 
 Propagate hashtags in your most recently updated history
-`python apply_tags.py "https://usegalaxy.org" "*******************"`
+```
+python apply_tags.py "https://usegalaxy.org" "*******************"
+```
 
 ### A visual example
 
