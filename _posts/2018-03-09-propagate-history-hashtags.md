@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [history, hashtags, HDA]
+tags: [galaxy,tools,users]
 title: Propagating hashtags in a Galaxy history
 ---
 
