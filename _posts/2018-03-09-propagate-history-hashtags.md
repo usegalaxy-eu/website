@@ -1,8 +1,7 @@
 ---
 site: freiburg
 tags: [galaxy,tools,users,software-release]
-repo: https://github.com/anuprulez/apply_history_tags
-license: MIT
+repo: anuprulez/apply_history_tags
 title: Propagating hashtags in a Galaxy history
 ---
 
