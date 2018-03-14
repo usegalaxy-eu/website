@@ -1,15 +1,4 @@
 ---
-- title: Jobs Failing (Solved)
-  class: info # success info warning danger
-  messages:
-      - message: |
-          Jobs are current not running successfully. We are attempting to
-          triage the situation as quickly as possible. Our apologies for any
-          inconvenience.
-        date: 2018-03-14 09:55:37+01:00
-      - message: |
-          Jobs are now working.
-        date: 2018-03-14 09:10:41+01:00
 - title: Workflows of the month
   class: info # success info warning danger
   messages:
