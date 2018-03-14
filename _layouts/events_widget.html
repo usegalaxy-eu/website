@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
-  <body>
+  <body style="overflow-y: hidden; background: none">
     <div id="wrap">
       <div id="main">
-        {% include widget_events.html %}
+        {% include widget_events.html logo=true %}
       </div>
     </div>
   </body>
