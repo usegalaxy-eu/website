@@ -1,5 +1,5 @@
 ---
-layout: event_widget
+layout: events_widget
 title: Events
 ---
 

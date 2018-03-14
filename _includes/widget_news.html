@@ -1,16 +1,12 @@
 <div class>
   <div class="list-group">
-    {% assign events = site.events_plain | sort:"starts" | reverse %}
+    {% assign events = site.posts_plain | reverse %}
     {% for post in events limit:5 %}
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       <a class="list-group-item" href="{{ post.url | absolute_url }}" target="_blank">
-        {% if post.starts == post.ends %}
-        <p class="list-group-item-text">{{ post.starts | date: date_format }}</p>
-        {% else %}
-        <p class="list-group-item-text">{{ post.starts | date: date_format }} - {{ post.ends | date: date_format }}</p>
-        {% endif %}
+        <p class="list-group-item-text">{{ post.date | date: date_format }}</p>
         <h4 class="list-group-item-heading">
-          <i class="fa fa-calendar" aria-hidden="true"></i>
+          {% include article_icons.html post=post %}
           {{ post.title | escape }}
         </h4>
       </a>
