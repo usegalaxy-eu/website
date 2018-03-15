@@ -9,7 +9,7 @@ supporters:
  - ViCE
 ---
 
-As part of our ongoing growth and development, Freiburg Galaxy is becoming UseGalaxy.eu
+As part of our ongoing growth and development, Freiburg Galaxy is becoming useGalaxy.eu
 
 ## What Changes
 
@@ -45,7 +45,7 @@ Repository                                                                      
 [website](https://github.com/usegalaxy-eu/website)                                 | Our website, https://usegalaxy-eu.github.io
 [vgcn](https://github.com/usegalaxy-eu/vgcn)                                       | The compute images we use for our cloud condor cluster
 [vgcn-infrastructure](https://github.com/usegalaxy-eu/vgcn-infrastructure)         | The yaml description of our cloud cluster. Make a PR here if you think the queue is too slow and that we should add more compute resources.
-[usegalaxy-eu-tools](https://github.com/usegalaxy-eu/usegalaxy-eu-tools)           | The tools installed in our Galaxy instance. Any changes made here are automatically reflected in UseGalaxy.eu every saturday morning.
+[usegalaxy-eu-tools](https://github.com/usegalaxy-eu/usegalaxy-eu-tools)           | The tools installed in our Galaxy instance. Any changes made here are automatically reflected in useGalaxy.eu every saturday morning.
 [infrastructure-playbook](https://github.com/usegalaxy-eu/infrastructure-playbook) | All of our cloud infrastructure, the VMs we run and their configuration.
 [branding](https://github.com/usegalaxy-eu/branding)                               | Branding resources used by useGalaxy.EU
 [operations](https://github.com/usegalaxy-eu/operations)                           | Our useGalaxy.eu operations manual for sysadmins
