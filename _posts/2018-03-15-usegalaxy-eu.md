@@ -1,6 +1,6 @@
 ---
 tags: [devops]
-title: "Freiburg Galaxy becomes useGalaxy.EU"
+title: "Freiburg Galaxy becomes useGalaxy.eu"
 location: Freiburg, Germany
 site: freiburg
 supporters:
@@ -14,13 +14,13 @@ As part of our ongoing growth and development, Freiburg Galaxy is becoming UseGa
 ## What Changes
 
 - You will be able to access the galaxy instance via [`https://usegalaxy.eu`](https://usegalaxy.eu) in addition to the old, `https://galaxy.uni-freiburg.de`.
-- Our website will read "UseGalaxy.eu" in many places where it used to say Freiburg Galaxy. However, this Galaxy is still primarily run and maintained by the Freiburg Galaxy Team.
+- Our website will read "useGalaxy.eu" in many places where it used to say Freiburg Galaxy. However, this Galaxy is still primarily run and maintained by the Freiburg Galaxy Team.
 - You can reach us any time for questions at [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu)
 
 ## What Doesn't Change
 
 - Your data, the tools
-- The Freiburg Galaxy Team maintaing the instance and providing all of the training associated with our Galaxy.
+- The Freiburg Galaxy Team is still maintaing the instance and providing all of the training associated with our Galaxy.
 
 ## The Future
 
@@ -32,11 +32,13 @@ features that are desirable over using a main european one, such as
 localisation, support in your native language, and usage of local resources.
 
 We welcome other groups to join us in maintaining and improving the European
-Galaxy Instance, as part of that we have open sourced most of the tools used in
+Galaxy Instance, as part of that we have [open sourced](https://github.com/usegalaxy-eu)
+most of the tools used in
 maintenance of the repository and all of the supporting infrastructure. Our
 goal is to have a completely open setup which anyone can reproduce on their own
 infrastructure.
 
+Here are some of our repositories and how they can be useful to you:
 
 Repository                                                                         | About
 ---                                                                                | ---
