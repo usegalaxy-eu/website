@@ -14,7 +14,7 @@ The Galaxy User Conference in Freiburg just ended!
 <a href="https://flic.kr/s/aHskxLjQmU" title="Galaxy User Conference"><img src="https://farm1.staticflickr.com/805/25968925177_1abd50e835_k.jpg" width="500" height="333" alt="Galaxy User Conference"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
-After a nice dinner at Martin's Bräu, the second (and last) day with 13 talks from Beer and Proteomics to Imaging started:
+After a nice dinner at Martin's Bräu, the second (and last) day started. We had 13 talks, ranging from Beer and Proteomics to Imaging:
 
 - "The Beerome – Science for the Mind and the Stomach" by Teresa Müller (Freiburg, DE)
 - "Gene discovery with KnetMiner" by Ajit Singh (Hertfordshire, UK)
@@ -29,9 +29,9 @@ After a nice dinner at Martin's Bräu, the second (and last) day with 13 talks f
 - "Galaxy Australia/USA communities" by Simon Gladman (Melbourne, AU) and Anton Nekrutenko (PSU, USA)
 - ["The Galaxy Training Network"](http://bebatut.fr/talks/18/03_16_galaxy_user_conf/#/1) by Bérénice Batut (Freiburg, DE)
 
-We are discussing with the different speakers but we hope to add links to the slides soon. We will keep in touch!
+We are discussing with the different speakers and we hope to add links to the slides soon. We will keep in touch!
 
-Thank a lot to all the speakers and participant! See you all in Freiburg in 2019 for GCC!  
+Thanks a lot to all the speakers and participant! See you all in Freiburg in 2019 for GCC!  
 
 
 <div class="multiple-img">
