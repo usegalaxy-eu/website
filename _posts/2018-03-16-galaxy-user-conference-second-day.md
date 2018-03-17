@@ -14,7 +14,7 @@ The Galaxy User Conference in Freiburg just ended!
 <a href="https://flic.kr/s/aHskxLjQmU" title="Galaxy User Conference"><img src="https://farm1.staticflickr.com/805/25968925177_1abd50e835_k.jpg" width="500" height="333" alt="Galaxy User Conference"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
-After a nice dinner at Martin's Bräu, the second (and last) day started and 13 speakers gave interesting talks:
+After a nice dinner at Martin's Bräu, the second (and last) day with 13 talks from Beer and Proteomics to Imaging started:
 
 - "The Beerome – Science for the Mind and the Stomach" by Teresa Müller (Freiburg, DE)
 - "Gene discovery with KnetMiner" by Ajit Singh (Hertfordshire, UK)
