@@ -1,5 +1,5 @@
 ---
-- title: All jobs are failing
+- title: All jobs were failing
   class: success # success info warning danger
   messages:
       - message: |
