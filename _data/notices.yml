@@ -1,11 +1,16 @@
 ---
 - title: All jobs are failing
-  class: danger # success info warning danger
+  class: success # success info warning danger
   messages:
       - message: |
           We are having some serious issues with network and our jobs. We are
           working on the error and very sorry for the inconvenience..
         date: 2018-03-20 13:55:55+01:00
+      - message: |
+          Things are back to normal as far as we can see. One of our two
+          clusters is offline (and STAR may have issues) but it is otherwise
+          functional. Please report any things you notice.
+        date: 2018-03-21 10:11:03+01:00
 - title: Workflows of the month
   class: info # success info warning danger
   messages:
