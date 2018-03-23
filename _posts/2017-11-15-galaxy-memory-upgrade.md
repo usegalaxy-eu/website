@@ -14,4 +14,4 @@ smoother.
 
 Our server information is available in Grafana if you're curious how Galaxy is adjusting to all of the new RAM:
 
-[![The increased available RAM shown in a Grafana graph]({{ "/assets/media/memory_upgrade_grafana.png" | absolute_url  }})](https://grafana.denbi.uni-freiburg.de/dashboard/db/galaxy-node-detail?orgId=1&from=now-3h&to=now)
+[![The increased available RAM shown in a Grafana graph]({{ "/assets/media/memory_upgrade_grafana.png" | absolute_url  }})](https://stats.usegalaxy.eu/dashboard/db/galaxy-node-detail?orgId=1&from=now-3h&to=now)
