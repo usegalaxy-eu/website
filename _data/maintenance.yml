@@ -1,14 +1,9 @@
 ---
-#starts: 2018-03-12 10:00:00 CET
-#ends:   2018-03-13 18:00:00 CET
-#jobs_affected: true
-#message: |
-    #We have an extended, 2 day downtime for Galaxy. We are re-cabling some of
-    #the SGE cluster and parts of the storage. We will keep Galaxy online, but
-    #access to data older than ~1 month may fail. We ask that you kindly do not
-    #do any analysis of old data.
+starts: 2018-04-19 10:00:00 CET
+ends:   2018-04-19 18:00:00 CET
+jobs_affected: false
+message: |
+    We will take Galaxy offline on Thursday, April 19th in order to upgrade to
+    the latest and greatest Galaxy release.
 
-    #On tuesday (2018-03-13) from 0830 to 1130 CET there is a complete power
-    #shutdown in the UFR RZ where our servers are located. We will not be able
-    #to keep services on during this time so please bear with us as the compute
-    #center test their power backups.
+    You can read about some of the new features in the [release notes](https://docs.galaxyproject.org/en/master/releases/18.01_announce.html)

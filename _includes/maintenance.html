@@ -5,6 +5,6 @@
 	{% if site.data.maintenance.jobs_affected %}
 	<p><b>Jobs will be affected.</b></p>
 	{% endif %}
-	<p>{{ site.data.maintenance.message }}</p>
+	<p>{{ site.data.maintenance.message | markdownify }}</p>
 </div>
 {% endif %}
