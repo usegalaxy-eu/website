@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    <div id="wrap">
+      <div id="main">
+        {% include header.html %}
+        <div class="container" id="maincontainer">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+
+    <div></br>New to Galaxy? Make a guided tour through Galaxy 
+      <a href="https://hicexplorer.usegalaxy.eu/tours/core.galaxy_ui">Galaxy User Interface tour</a>
+    </br>New to Galaxy HiCExplorer? Make a guided tour for an introduction in Galaxy HiCExplorer and Hi-C data analysis. 
+      <a href="https://hicexplorer.usegalaxy.eu/tours/hixexplorer">Galaxy HiCExplorer tour</a>
+    </div>
+    <div>
+      </br>Example data can be found in the shared library: "Shared data" -> "Data Libraries" -> "Galaxy course" -> "Hi-C 2018" or click on this link: 
+      <a href="https://hicexplorer.usegalaxy.eu/library/list#folders/F8607ddb1c5387e36"> Hi-C example data</a>
+    </div>
+  </body>
+</html>
