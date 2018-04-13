@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: home-hic
 ---
 
 <div class="home">
