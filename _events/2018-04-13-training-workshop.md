@@ -16,7 +16,7 @@ supporters:
 
 Following the success of the last year Cambridge hackathon, the Galaxy Training Network organizes a three-day "Workshop for Galaxy training material and skills improvement", hosted in Norwich in May 2018.
 
-The objectives are to further pursue some of the objectives of the ELIXIR Galaxy Use case for training, e.g.:
+The objectives are to further pursue some of the objectives of the [ELIXIR Galaxy Community](https://www.elixir-europe.org/communities/galaxy) for training, e.g.:
 - improve and extend the collection of [Galaxy training materials](https://github.com/galaxy-project/training-material), in particular with the goal of integrating the [admin training slides and tutorials](https://github.com/galaxyproject/dagobah-training)
 - add support for BioSchemas
 - complete the upload on Zenodo of the collection of datasets used for the tutorials, which will provide stable Digital Object Identifiers (DOIs) and reliable data hosting
