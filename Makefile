@@ -1,10 +1,13 @@
-run:
-	bundler exec jekyll serve --incremental
+run: ## Launch jekyll locally
+	bundler exec jekyll serve
 
-build:
+help:
+	@egrep '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+
+build: ## Build the site once and exit
 	bundler exec jekyll build
 
-clean:
+clean: ## Remove any generated URLs
 	bundler exec jekyll clean
 
 check_http_urls:
