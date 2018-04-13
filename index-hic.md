@@ -1,5 +1,5 @@
 ---
-layout: home-hic
+layout: galaxy
 ---
 
 ## New to Galaxy?
