@@ -41,10 +41,43 @@ Galaxy HiCExplorer can process large Hi-C data. In <a target="_parent" href="">t
 
 ## Workflows
 
-To automatize different consecutive steps we provide the following workflows:
+To automatize different consecutive steps we provide the following workflows in three categories: From scratch (FASTQ files), from scratch (FASTQ files) and summing up replicates and if you have already your contact matrix. Many workflows require collections of FASTQ files as an input. It is shown <a href"https://galaxyproject.org/tutorials/collections/">here</a> how to create a collection. 
 
- - <a href="https://usegalaxy.eu/u/joachim-wolff/w/workflow-hicexplorer-hicsummatrix">hicSumMatrixWorkflow</a>
- - <a href="https://usegalaxy.eu/u/joachim-wolff/w/workflow-hicexplorer-hicplotmatrix">hicPlotMatrix</a>
+Please have in mind that all workflows need additional input from the user. All mapping steps are done with BWA-MEM and the correct reference genome need to be defined manual. The correct restriction site and the bin size for hicBuildMatrix needs to be defined too. The correction of the matrix is done with the default paramters of -1.5 and 5, change this is necessary. Furthermore, the correct region and or chromosome needs to be defined for plotting the matrix, TADs or PCA.
+
+### From scratch (FASTQ files) individual
+
+These workflows expect collections of FASTQ files as an input. The first collections needs to have all forward strand FASTQ files and the second one all reverse FASTQ files. Please make sure that the order of the FASTQ files in both collections is equal. The order is important to associate the related forward and reverse read strand files.
+
+The following workflows are provided:
+
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-a-contact-matrix">From scratch to a contact matrix</a>
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-pca">From scratch to PCA</a>
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tad">From scratch to TAD</a>
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-pca-and-plotting">From scratch to PCA and plotting</a>
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tad-and-plotting">From scratch to TAD and plotting</a>
+
+
+### From scratch (FASTQ files) and summing up replicates
+
+These workflows takes collections of FASTQ files for forward and reverse strand as an input, for each pair a contact matrix is build and all created contact matrices are summed up to one contact matrix. Use this workflow if you want to use replicates to increase statistical power of your contact matrix and the replicates are checked to be correct.
+
+- <a href="https://usegalaxy.eu/u/joachim-wolff/w/workflow-hicexplorer-hicsummatrix">From scratch to a contact matrix (summing up replicates)</a>
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-pca-summing-up-replicates">From scratch to PCA (summing up replicates)</a>
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tads-summing-up-replicates">From scratch to TAD (summing up replicates)</a>
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-pca-and-plot-summing-up-replicates">From scratch to PCA and plot (summing up replicates)</a>
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tads-and-plot-summing-up-replicates">From scratch to TAD and plot (summing up replicates)</a>
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tads-pca-and-plot-summing-up-replicates">From scratch to TADs, PCA and plot (summing up replicates)</a>
+
+
+### Contact matrix as a basis
+
+Use the following workflows if you have already created a contact matrix.
+
+ - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/a--b-comparments">Plot Pearson matrix and PC1 / PC2</a>
+ - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads">Plot TADs</a>
+ - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads-and-pc">Plot TADs and PC</a>
+ 
 
 
 
