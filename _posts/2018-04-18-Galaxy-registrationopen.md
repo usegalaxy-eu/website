@@ -8,5 +8,5 @@ supporters:
 ---
 
 The registration for our next Galaxy Workshop on HTS data analysis from 17-21 September 2018 in Freiburg is open. 
-We have 30 places. The application link can be found in our "events" section on our usegalaxy.eu homepage.
-Participants are selected from the applicants. Apply now!
+We have 30 places. More information can be found in our "events" section on our usegalaxy.eu homepage.
+Participants are selected from the applicants. Apply [now](https://drive.google.com/open?id=14sCTr5r1Ca6hGhJTKZVgZRzPAlTtRN1r7xAlNuUtN9k)!
