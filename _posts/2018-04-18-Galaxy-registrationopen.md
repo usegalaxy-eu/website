@@ -2,7 +2,9 @@
 site: Freiburg
 tags: [training]
 title: Galaxy Workshop registration open!
-location: Freiburg, Germany
+location:
+  city: Freiburg
+  country: Germany
 supporters:
  - denbi
 ---
