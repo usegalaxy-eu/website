@@ -18,6 +18,8 @@ The Freiburg Galaxy team is highly involved in many projects of the Galaxy commu
     - [RNA-Workbench](http://bgruening.github.io/galaxy-rna-workbench/) 
     - [ASaiM](http://asaim.readthedocs.io/en/latest/) for metagenomics
 - Jupyter integration into Galaxy
+- [GalaxyP](http://galaxyp.org) - a Galaxy communitity dedicated to develop [tools](https://github.com/galaxyproteomics/tools-galaxyp), workflows and [training material](http://galaxyproject.github.io/training-material/topics/proteomics/) for Proteomic research.
+- [Galaxy Genome Annotation](https://galaxy-genome-annotation.github.io/) (GGA) is a group of projects focused on supporting genome annotation inside Galaxy
 
 ## Bioconda and Biocontainers
 
