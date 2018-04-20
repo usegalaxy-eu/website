@@ -65,6 +65,8 @@ header_links:
           url: /freiburg/events
         - name: People
           url: /freiburg/people
+        - name: Projects
+          url: /freiburg/projects
         - name: Services
           url: /freiburg/services
         - name: Publications
