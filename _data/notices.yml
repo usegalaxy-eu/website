@@ -1,12 +1,4 @@
 ---
-- title: Maintenance Event
-  class: success
-  messages:
-    - message: |
-        The maintenance has been successfully completed and we are now running
-        Galaxy 18.01. If you encounter any bugs or unexpected failures, please
-        don't hesitate to [contact us](mailto:contact@usegalaxy.eu).
-
 #- title: All jobs were failing
   #class: info # success info warning danger
   #messages:

@@ -1,9 +1,9 @@
 ---
-starts: 2018-04-19 10:00:00 CET
-ends:   2018-04-19 18:00:00 CET
-jobs_affected: false
-message: |
-    We will take Galaxy offline on Thursday, April 19th in order to upgrade to
-    the latest and greatest Galaxy release.
+#starts: 2018-04-19 10:00:00 CET
+#ends:   2018-04-19 18:00:00 CET
+#jobs_affected: false
+#message: |
+    #We will take Galaxy offline on Thursday, April 19th in order to upgrade to
+    #the latest and greatest Galaxy release.
 
-    You can read about some of the new features in the [release notes](https://docs.galaxyproject.org/en/master/releases/18.01_announce.html)
+    #You can read about some of the new features in the [release notes](https://docs.galaxyproject.org/en/master/releases/18.01_announce.html)
