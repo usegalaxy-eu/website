@@ -4,6 +4,7 @@ layout: default
 
 # Our services
 
+---
 The Freiburg Galaxy Team is offering several services to enable **reproducible** and **accessible** research for everyone:
 
 - <i class="fa fa-server"></i> [Galaxy server](#galaxy-server)
