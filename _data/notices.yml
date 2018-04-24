@@ -3,6 +3,9 @@
   class: warning
   messages:
     - message: |
+        Uploads are working again.
+      date: 2018-04-24 12:04:56+02:00
+    - message: |
         During debugging of a datatype issue, we unintentionally broke uploads.
         We are waiting on access from a second admin in order to restore
         functionality. Our apologies for the inconvenience.
