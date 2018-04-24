@@ -1,6 +1,6 @@
 ---
-- title: Upload Jobs are not working
-  class: warning
+- title: Upload Jobs are now working
+  class: info
   messages:
     - message: |
         Uploads are working again.
