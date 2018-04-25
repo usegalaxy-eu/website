@@ -16,13 +16,14 @@ Take <a target="_parent" href="https://hicexplorer.usegalaxy.eu/tours/hixexplore
 A precomputed history of the tutorial can be viewed <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/drosophila-melanogaster-hi-c-training">here</a>.
 
 
-A more advanced tutorial is hosted on <a href="http://hicexplorer.readthedocs.io/en/latest/content/mES-HiC_analysis.html">readthedocs.io</a>. It is designed for the shell based version of the HiCExplorer but can be easily adapted to Galaxy HiCExplorer. In this tutorial mouse stems cells from <a href="http://www.genomebiology.com/2015/16/1/149">Marks et al. (2015)</a> are analysed. We provided the input fastq files in our <a href="">data library</a>.
+A more advanced tutorial is hosted on <a href="http://hicexplorer.readthedocs.io/en/latest/content/mES-HiC_analysis.html">readthedocs.io</a>. It is designed for the shell based version of the HiCExplorer but can be easily adapted to Galaxy HiCExplorer. In this tutorial mouse stems cells from <a href="http://www.genomebiology.com/2015/16/1/149">Marks et al. (2015)</a> are analysed. We provided the input fastq files in our <a href="https://hicexplorer.usegalaxy.eu/library/list#folders/F49c63be29eb6cbc1">data library</a>.
 
 ### Example data
 
-The Galaxy Training Network tutorial uses Hi-C data from Drosophila melanogaster and is hosted on zenodo: <a href="https://doi.org/10.5281/zenodo.1183661"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1183661.svg" alt="DOI"></a>
+The Galaxy Training Network tutorial uses Hi-C data from Drosophila melanogaster and is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.1183661"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1183661.svg" alt="DOI"></a>
 
 Additional we provide the data in <a target="_parent" href="https://hicexplorer.usegalaxy.eu/library/list#folders/F8607ddb1c5387e36">the shared data library</a> of the Galaxy HiCExplorer. In comparison to the data hosted on zenodo it contains preprocessed intermediate files.
+
 
 Galaxy HiCExplorer can process large Hi-C data. In <a target="_parent" href="">this</a> history we processed Hi-C data with around 140 million reads. 
 
@@ -35,7 +36,7 @@ Galaxy HiCExplorer can process large Hi-C data. In <a target="_parent" href="">t
 ## Workflows
 
 To automatize different consecutive steps we provide the following workflows in three categories: From scratch (FASTQ files), from scratch (FASTQ files) and summing up replicates and if you have already your contact matrix. Many workflows require collections of FASTQ files as an input, it is shown 
-<a href="https://galaxyproject.org/tutorials/collections/">here</a> how to create a collection. 
+<a href="https://galaxyproject.org/tutorials/collections/">here</a> how to create a collection. Please do not forget to check the quality of the FASTQ files with FastQC. 
 
 Please have in mind that all workflows need additional input from the user. All mapping steps are done with BWA-MEM and the correct reference genome need to be defined by the user. The correct restriction site and the bin size for hicBuildMatrix needs to be defined too. The correction of the matrix is done with the default parameters of -1.5 and 5, change this if necessary. Furthermore, the correct region and or chromosome needs to be defined for plotting the matrix, TADs or PCA.
 
@@ -73,3 +74,9 @@ Use the following workflows if you have already created a contact matrix.
  - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads-and-pc">Plot TADs and PC</a>
  
 
+## Known pitfalls
+
+Preprocssed SAM/BAM files: 
+To build the contact matrix the SAM/BAM files need to generated using the --reorder option from bowtie2 / hisat2 to output the SAM/BAM files in the exact same order as in the fastq files. To cover the identical reason, the SAM/BAM file should not be sorted. Please make sure your preprocessed SAM/BAM files fulfill these requirements, if not the creation of a contact matrix with hicBuildMatrix will fail.
+
+We recommend to use BWA-MEM with the Hi-C specific parameters 
