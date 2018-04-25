@@ -1,5 +1,6 @@
 ---
-layout: default-galaxy
+layout: default
+light_background: true
 ---
 
 <div class="home">
