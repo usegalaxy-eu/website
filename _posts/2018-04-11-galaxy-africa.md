@@ -14,7 +14,7 @@ The first [Galaxy conference](http://galaxyafrica.sanbi.ac.za/) was held last we
 - On the 4th, Bérénice started with the keynote talk (["Welcome to Galaxy"](http://bebatut.fr/talks/18/04_04_galaxy_africa/#/1))
 
     <div class="multiple-img">
-        <embed src="http://bebatut.fr/talks/18/04_04_galaxy_africa/#/1" width="65%" height="300px">
+        <a target="_blank" href="http://bebatut.fr/talks/18/04_04_galaxy_africa/#/1"><img src="{{ "assets/media/galaxy-africa-presentation.png" | absolute_url }}" width="65%" /></a>
     </div>
 
 - On the last day, Björn gave an admin training with Enis Afgan and Bérénice a metagenomic training. 

@@ -72,7 +72,7 @@ Use the following workflows if you have already created a contact matrix.
  - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/a--b-comparments">Plot Pearson matrix and PC1 / PC2</a>
  - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads">Plot TADs</a>
  - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads-and-pc">Plot TADs and PC</a>
- 
+
 
 ## Known pitfalls
 
@@ -80,3 +80,8 @@ Preprocssed SAM/BAM files:
 To build the contact matrix the SAM/BAM files need to generated using the --reorder option from bowtie2 / hisat2 to output the SAM/BAM files in the exact same order as in the fastq files. To cover the identical reason, the SAM/BAM file should not be sorted. Please make sure your preprocessed SAM/BAM files fulfill these requirements, if not the creation of a contact matrix with hicBuildMatrix will fail.
 
 We recommend to use BWA-MEM with the Hi-C specific parameters 
+
+## Our Data Policy
+
+{% include data-policy.html %}
+
