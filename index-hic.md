@@ -26,7 +26,7 @@ The Galaxy Training Network tutorial uses Hi-C data from Drosophila melanogaster
 Additional we provide the data in <a target="_parent" href="https://hicexplorer.usegalaxy.eu/library/list#folders/F8607ddb1c5387e36">the shared data library</a> of the Galaxy HiCExplorer. In comparison to the data hosted on zenodo it contains preprocessed intermediate files.
 
 
-Galaxy HiCExplorer can process large Hi-C data. In <a target="_parent" href="">this</a> history we processed Hi-C data with around 140 million reads. 
+Galaxy HiCExplorer can process large Hi-C data. In <a target="_parent" href="">this</a> history we processed Hi-C data with around 140 million reads from [Rosa-Garrido et al.](http://circ.ahajournals.org/content/136/17/1613.long). 
 
 ## Galaxy HiCExplorer -- many possibilities 
 
