@@ -3,7 +3,7 @@ layout: galaxy-hic
 ---
 # Galaxy Metagenomics
 
-Welcome to the Galaxy Metagenomics (ASaiM) -- a webserver to process, analyse and visualize Metagenomic or in general Microbiota data. 
+Welcome to Galaxy Metagenomics (ASaiM) -- a webserver to process, analyse and visualize Metagenomic or in general Microbiota data. 
 
 ![](/assets/media/asaim_logo.png)
 
