@@ -80,7 +80,7 @@ Use the following workflows if you have already created a contact matrix.
 Preprocssed SAM/BAM files: 
 To build the contact matrix the SAM/BAM files need to generated using the --reorder option from bowtie2 / hisat2 to output the SAM/BAM files in the exact same order as in the fastq files. To cover the identical reason, the SAM/BAM file should not be sorted. Please make sure your preprocessed SAM/BAM files fulfill these requirements, if not the creation of a contact matrix with hicBuildMatrix will fail.
 
-We recommend to use BWA-MEM with the Hi-C specific parameters 
+We recommend to use BWA-MEM with the Hi-C specific parameters, as shown in our tutorials.
 
 ## Our Data Policy
 
