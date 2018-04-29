@@ -1,5 +1,5 @@
 ---
-site: Freiburg
+site: freiburg
 tags:
 title: Galaxy HTS data analysis workshop 17.-21.09.2018 in Freiburg
 starts: 2018-09-17
