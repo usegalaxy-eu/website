@@ -1,9 +1,11 @@
 ---
 site: freiburg
-tags: [devops, outage]
+tags: [devops, downtime]
 title: Fileserver Outage affecting Jobs
 location: Freiburg, Germany
 ---
+
+The university's home directory server went offline affecting numerous Galaxy jobs.
 
 ## Incident Timeline
 
