@@ -1,7 +1,7 @@
 {% if include.post.tags contains "update" %}
 	<i class="fa fa-arrow-up" aria-hidden="true"></i>
 {% endif %}
-{% if include.post.tags contains "downtime" %}
+{% if include.post.tags contains "downtime" or include.posts.tags contains "outage" %}
 	<i class="fa fa-exclamation" aria-hidden="true"></i>
 {% endif %}
 {% if include.post.tags contains "training" %}
