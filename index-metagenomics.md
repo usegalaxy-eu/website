@@ -23,32 +23,32 @@ Check also the standard but customizable [workflows](#workflows) available there
 <a name="tools"></a>
 ## Tools
 
-More than [200 tools](http://asaim.readthedocs.io/en/latest/tools/index.html) are automatically integrated in this custom Galaxy instance. They were chosen for their use in exploitation of microbiota data:
+More than [200 tools](http://asaim.readthedocs.io/en/latest/tools/index.html) are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of microbiota data:
 
 - [**General tools**](http://asaim.readthedocs.io/en/latest/tools/file_meta_tools.html)
     - **Data retrieval**: EBISearch, ENASearch, SRA Tools
     - **BAM/SAM file manipulation**: SAM tools
     - **BIOM file manipulation**: BIOM-Format tools
 - [**Genomics tools**](http://asaim.readthedocs.io/en/latest/tools/genomics.html)
-    - **Quality control**: FastQC, PRINSEQ, Trim Galore!, Trimmomatic, MultiQC
+    - **Quality control**: FastQC, PRINSEQ, Trim Galore! , Trimmomatic, MultiQC 
     - **Clustering**: CD-Hit
-    - **Sorting and prediction**: SortMeRNA, FragGeneScan 
+    - **Sorting and prediction**: SortMeRNA, FragGeneScan
     - **Mapping**: BWA, Bowtie
     - **Similarity search**: NCBI Blast+, Diamond
-    - **Alignment**: HMMER3 
+    - **Alignment**: HMMER3
 - [**Microbiota dedicated tools**](http://asaim.readthedocs.io/en/latest/tools/microbiota.html)
     - **Metagenomics data manipulation**: VSEARCH, Nonpareil
     - **Assembly**: MEGAHIT, metaSPAdes, metaQUAST, VALET
     - **Metataxonomic sequence analysis**: Mothur, QIIME
     - **Taxonomy assignation on WGS sequences**: MetaPhlAn2, Format MetaPhlan2, Kraken
-    - **Metabolism assignation**: HUMAnN2, Group HUMAnN2 to GO slim terms, Compare HUMAnN2 outputs, PICRUST, InterProScan
-    - Combination of functional and taxonomic results
+    - **Metabolism assignation**: HUMAnN2, Group HUMAnN2 to GO slim terms, Compare HUMAnN2 outputs, PICRUST, InterProScan 
+    - **Combination of functional and taxonomic results**
     - **Visualization**: Export2graphlan, GraPhlAn, KRONA
 
 <a name="tutorials"></a>
 ## Tutorials
 
-We are caring about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/) to develop training materials of data analyses based on Galaxy. These materials hosted on the GTN GitHub repository are available online at [http://training.galaxyproject.org](http://training.galaxyproject.org).
+We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/) to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [http://training.galaxyproject.org](http://training.galaxyproject.org).
 
 We then developed [several tutorials](http://galaxyproject.github.io/training-material/topics/metagenomics/) and more will come:
 
@@ -118,11 +118,12 @@ The tools used in the EBI Metagenomics pipeline are also available in ASaiM. We 
 
 ![](http://asaim.readthedocs.io/en/latest/_images/ebi_metagenomics_workflow.png)
 
-Analyses made in EBI Metagenomics website can be then reproduced locally, without having to wait for availability of EBI Metagenomics or to upload any data on EBI Metagenomics. However the parameters must be defined by the user as we can not find them on EBI Metagenomics documentation.
+Analyses made in EBI Metagenomics website can be then done locally, without having to wait for availability of EBI Metagenomics or to upload any data on EBI Metagenomics. However the parameters must be defined by the user as we can not find them on EBI Metagenomics documentation.
 
 ## Our Data Policy
 
 {% include data-policy.html %}
 
-{% include data-policy.html %}
+## References
 
+{% bibliography --cited --prefix index-metagenomics --group_by none %}
