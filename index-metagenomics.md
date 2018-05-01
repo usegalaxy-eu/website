@@ -89,15 +89,15 @@ It is available with 4 versions, given the input
 
 To reconstruct genomes or to get longer sequences for further analysis, microbiota data needs to be assembled, using the recently developed metagenomics assemblers.
 
-To help in this task, two workflows have been developed in ASaiM, each one using one of each of the well-performing assemblers:
+To help in this task, two workflows have been developed using two different well-performing assemblers:
 
 - [MEGAHIT](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-megahit)
 
-    It is currently the most efficent computationally assembler: it has the lowest memory and time consumption. It produced some of the best assemblies (irrespective of sequencing coverage) with the fewest structural errors and outperforms in recovering the genomes of closely related strains, but has a bias towards relatively low coverage genomes leading to a suboptimal assembly of high abundant community member genomes in very large datasets
+    It is currently the most efficent computationally assembler: it has the lowest memory and time consumption {% cite van2017assembling awad2017evaluating sczyrba2017critical %}. It produced some of the best assemblies (irrespective of sequencing coverage) with the fewest structural errors {% cite olson2017metagenomic %} and outperforms in recovering the genomes of closely related strains {% cite awad2017evaluating %}, but has a bias towards relatively low coverage genomes leading to a suboptimal assembly of high abundant community member genomes in very large datasets {% cite vollmers2017comparing %}
 
 - [MetaSPAdes](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-metaspades)
 
-    It is particularly optimal for high-coverage metagenomes with the best contig metrics and produces few under-collapsed/over-collapsed repeats
+    It is particularly optimal for high-coverage metagenomes {% cite van2017assembling %} with the best contig metrics {% cite greenwald2017utilization %} and produces few under-collapsed/over-collapsed repeats {% cite olson2017metagenomic %}
 
 Both workflows consists of
 
@@ -110,15 +110,15 @@ Both workflows consists of
 
 ### Analysis of metataxonomic data
 
-To analyze amplicon data, the **Mothur** and **QIIME** tool suites are available to ASaiM. We integrated the workflows described in tutorials of Mothur and QIIME websites, as example of amplicon data analyses as well as support for the training material. These workflows, as any workflows available in ASaiM, can be adapted for a specific analysis or used as subworkflows by the users.
+To analyze amplicon data, the **Mothur** and **QIIME** tool suites are available there. We integrated the workflows described in tutorials of Mothur and QIIME websites, as example of amplicon data analyses as well as support for the training material. These workflows, as any workflows available in ASaiM, can be adapted for a specific analysis or used as subworkflows by the users.
 
 ### Running as in EBI metagenomics
 
-The tools used in the EBI Metagenomics pipeline are also available in ASaiM. We integrate then also a [workflow](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-ebi-metagenomics-workflow-30) with the same steps as the [EBI Metagenomics pipeline (3.0)](https://www.ebi.ac.uk/metagenomics/pipelines/3.0).
+The tools used in the EBI Metagenomics pipeline are also available in ASaiM. We integrate them also a [workflow](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-ebi-metagenomics-workflow-30) with the same steps as the [EBI Metagenomics pipeline (3.0)](https://www.ebi.ac.uk/metagenomics/pipelines/3.0).
 
 ![](http://asaim.readthedocs.io/en/latest/_images/ebi_metagenomics_workflow.png)
 
-Analyses made in EBI Metagenomics website can be then done locally, without having to wait for availability of EBI Metagenomics or to upload any data on EBI Metagenomics. However the parameters must be defined by the user as we can not find them on EBI Metagenomics documentation.
+However the parameters must be defined by the user as we can not find them on EBI Metagenomics documentation.
 
 ## Our Data Policy
 
