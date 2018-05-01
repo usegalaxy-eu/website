@@ -110,15 +110,15 @@ Both workflows consists of
 
 ### Analysis of metataxonomic data
 
-To analyze amplicon data, the **Mothur** and **QIIME** tool suites are available there. We integrated the workflows described in tutorials of Mothur and QIIME websites, as example of amplicon data analyses as well as support for the training material. These workflows, as any workflows available in ASaiM, can be adapted for a specific analysis or used as subworkflows by the users.
+To analyze amplicon data, the **Mothur** and **QIIME** tool suites are available there. We implemented the workflows described in tutorials of Mothur and QIIME websites, as example of amplicon data analyses as well as support for the training material. These workflows, as any workflows available there, can be adapted for a specific analysis or used as subworkflows by the users.
 
 ### Running as in EBI metagenomics
 
-The tools used in the EBI Metagenomics pipeline are also available in ASaiM. We integrate them also a [workflow](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-ebi-metagenomics-workflow-30) with the same steps as the [EBI Metagenomics pipeline (3.0)](https://www.ebi.ac.uk/metagenomics/pipelines/3.0).
+The tools used in the EBI Metagenomics pipeline are also available here and can be run as a [workflow](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-ebi-metagenomics-workflow-30) with the same steps as the [EBI Metagenomics pipeline (3.0)](https://www.ebi.ac.uk/metagenomics/pipelines/3.0).
 
 ![](http://asaim.readthedocs.io/en/latest/_images/ebi_metagenomics_workflow.png)
 
-However the parameters must be defined by the user as we can not find them on EBI Metagenomics documentation.
+However, the parameters must be adjusted by the user as we could not find them in the EBI Metagenomics documentation.
 
 ## Our Data Policy
 
