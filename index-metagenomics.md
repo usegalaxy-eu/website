@@ -4,39 +4,39 @@ layout: galaxy-hic
 
 <img src="{{ "/assets/media/asaim_logo.png" | absolute_url }}" height="100px" alt="ASaiM logo"/> 
 
-Welcome to **Galaxy Metagenomics** ([ASaiM](http://asaim.readthedocs.io/en/latest/)) -- a webserver to process, analyse and visualize Metagenomic and Microbiota data in general. 
+Welcome to **Galaxy Metagenomics** ([ASaiM](https://asaim.readthedocs.io/en/latest/){:target="_blank"}) -- a webserver to process, analyse and visualize Metagenomic and Microbiota data in general. 
 
 
 
 ## Get started
 
-Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a target="_parent" href="https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui">a guided tour</a> through Galaxy's user interface. 
+Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface. 
 
 Want to learn about metagenomics analyses? Check our [tutorials](#tutorials) or take one of our guided tour:
 
-- <a target="_parent" href="https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-amplicon">Introduction of amplicon data analyses using mothur tool suite</a>
-- <a target="_parent" href="https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-shotgun">Introduction to shotgun metagenomics data analyses</a>
-- <a target="_parent" href="https://metagenomics.usegalaxy.eu/tours/mothur-miseq-sop">16S Microbial Analysis with Mothur MiSeq SOP</a>
+- [Introduction of amplicon data analyses using mothur tool suite](https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-amplicon){:target="_blank"}
+- [Introduction to shotgun metagenomics data analyses](https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-shotgun){:target="_blank"}
+- [16S Microbial Analysis with Mothur MiSeq SOP](https://metagenomics.usegalaxy.eu/tours/mothur-miseq-sop){:target="_blank"}
 
 Check also the standard but customizable [workflows](#workflows) available there. 
 
 <a name="tools"></a>
 ## Tools
 
-More than [200 tools](http://asaim.readthedocs.io/en/latest/tools/index.html) are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of microbiota data:
+More than [200 tools](https://asaim.readthedocs.io/en/latest/tools/index.html){:target="_blank"} are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of microbiota data:
 
-- [**General tools**](http://asaim.readthedocs.io/en/latest/tools/file_meta_tools.html)
+- [**General tools**](https://asaim.readthedocs.io/en/latest/tools/file_meta_tools.html){:target="_blank"}
     - **Data retrieval**: EBISearch, ENASearch, SRA Tools
     - **BAM/SAM file manipulation**: SAM tools
     - **BIOM file manipulation**: BIOM-Format tools
-- [**Genomics tools**](http://asaim.readthedocs.io/en/latest/tools/genomics.html)
+- [**Genomics tools**](https://asaim.readthedocs.io/en/latest/tools/genomics.html){:target="_blank"}
     - **Quality control**: FastQC, PRINSEQ, Trim Galore! , Trimmomatic, MultiQC 
     - **Clustering**: CD-Hit
     - **Sorting and prediction**: SortMeRNA, FragGeneScan
     - **Mapping**: BWA, Bowtie
     - **Similarity search**: NCBI Blast+, Diamond
     - **Alignment**: HMMER3
-- [**Microbiota dedicated tools**](http://asaim.readthedocs.io/en/latest/tools/microbiota.html)
+- [**Microbiota dedicated tools**](https://asaim.readthedocs.io/en/latest/tools/microbiota.html){:target="_blank"}
     - **Metagenomics data manipulation**: VSEARCH, Nonpareil
     - **Assembly**: MEGAHIT, metaSPAdes, metaQUAST, VALET
     - **Metataxonomic sequence analysis**: Mothur, QIIME
@@ -48,22 +48,22 @@ More than [200 tools](http://asaim.readthedocs.io/en/latest/tools/index.html) ar
 <a name="tutorials"></a>
 ## Tutorials
 
-We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/) to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [http://training.galaxyproject.org](http://training.galaxyproject.org).
+We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
 
-We then developed [several tutorials](http://galaxyproject.github.io/training-material/topics/metagenomics/) and more will come:
+We then developed [several tutorials](https://galaxyproject.github.io/training-material/topics/metagenomics/){:target="_blank"} and more will come:
 
-- [Analyses of metagenomics data - The global picture](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html)
+- [Analyses of metagenomics data - The global picture](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html){:target="_blank"}
 
     This tutorial introduces the amplicon and shotgun data analyses with the general principles behind and the differences.
 
-- [16S Microbial Analysis with Mothur](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html)
+- [16S Microbial Analysis with Mothur](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html){:target="_blank"}
 
     In this tutorial the Standard Operating Procedure (SOP) for MiSeq data, developed by the creators of the Mothur software package, is perfomed within Galaxy.
 
 <a name="workflows"></a>
 ## Workflows
 
-To orchestrate tools and help users with their analyses, several [workflows](http://asaim.readthedocs.io/en/latest/workflows.html) are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).
+To orchestrate tools and help users with their analyses, several [workflows](https://asaim.readthedocs.io/en/latest/workflows.html){:target="_blank"} are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).
 
 The workflows are available in the [Shared Workflows](https://metagenomics.usegalaxy.eu/workflows/list_published), with the label "***asaim***".
 
@@ -71,7 +71,7 @@ The workflows are available in the [Shared Workflows](https://metagenomics.usega
 
 The workflow quickly produces, from raw metagenomic or metatranscriptomic shotgun data, accurate and precise taxonomic assignations, wide extended functional results and taxonomically related metabolism information
 
-![](http://asaim.readthedocs.io/en/latest/_images/main_workflow.png)
+![](https://asaim.readthedocs.io/en/latest/_images/main_workflow.png)
 
 This workflow consists of
 
@@ -114,9 +114,9 @@ To analyze amplicon data, the **Mothur** and **QIIME** tool suites are available
 
 ### Running as in EBI metagenomics
 
-The tools used in the EBI Metagenomics pipeline are also available here and can be run as a [workflow](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-ebi-metagenomics-workflow-30) with the same steps as the [EBI Metagenomics pipeline (3.0)](https://www.ebi.ac.uk/metagenomics/pipelines/3.0).
+The tools used in the EBI Metagenomics pipeline are also available here and can be run as a [workflow](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-ebi-metagenomics-workflow-30){:target="_blank"} with the same steps as the [EBI Metagenomics pipeline (3.0)](https://www.ebi.ac.uk/metagenomics/pipelines/3.0){:target="_blank"}.
 
-![](http://asaim.readthedocs.io/en/latest/_images/ebi_metagenomics_workflow.png)
+![](https://asaim.readthedocs.io/en/latest/_images/ebi_metagenomics_workflow.png)
 
 However, the parameters must be adjusted by the user as we could not find them in the EBI Metagenomics documentation.
 
