@@ -1,5 +1,5 @@
 ---
-site: Freiburg
+site: freiburg
 tags: [galaxyteam]
 title: New Galaxy Team member!
 location: Freiburg, Germany
