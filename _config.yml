@@ -90,7 +90,6 @@ exclude:
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
-   - LICENSE.txt
 #
 # This will simultaneously render all collection items as "plain" pages
 collections:
