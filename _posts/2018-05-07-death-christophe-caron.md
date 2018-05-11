@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: Death of Christophe Caron
+title: In memory of Christophe Caron
 location: Freiburg, Germany
 ---
 
