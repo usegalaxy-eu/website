@@ -23,7 +23,6 @@ Want to learn about metagenomics analyses? Check our [tutorials](#tutorials) or 
 
 Check also the standard but customizable [workflows](#workflows) available there. 
 
-<a name="tools"></a>
 # Tools
 
 More than [200 tools](https://asaim.readthedocs.io/en/latest/tools/index.html){:target="_blank"} are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of microbiota data:
@@ -48,7 +47,6 @@ More than [200 tools](https://asaim.readthedocs.io/en/latest/tools/index.html){:
     - **Combination of functional and taxonomic results**
     - **Visualization**: Export2graphlan, GraPhlAn, KRONA
 
-<a name="tutorials"></a>
 # Tutorials
 
 We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
@@ -63,7 +61,6 @@ We then developed [several tutorials](https://galaxyproject.github.io/training-m
 
     In this tutorial the Standard Operating Procedure (SOP) for MiSeq data, developed by the creators of the Mothur software package, is perfomed within Galaxy.
 
-<a name="workflows"></a>
 # Workflows
 
 To orchestrate tools and help users with their analyses, several [workflows](https://asaim.readthedocs.io/en/latest/workflows.html){:target="_blank"} are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).
