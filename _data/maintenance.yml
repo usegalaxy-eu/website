@@ -1,9 +1,1 @@
 ---
-starts: 2018-05-24 10:00:00 CET
-ends:   2018-05-24 18:00:00 CET
-jobs_affected: false
-message: |
-    We will take Galaxy offline on Thursday, May 24th in order to upgrade to
-    the latest Galaxy release and in order to be compliant with GDPR.
-
-    You can read about some of the new features in the [release notes](https://docs.galaxyproject.org/en/master/releases/18.05_announce.html)
