@@ -1,13 +1,11 @@
 ---
 site: freiburg
 tags: [paper]
-title: Distinct epigenetic programs regulate cardiac myocyte development and disease in the human heart in vivo
-location: Freiburg, Germany
+title: The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update 
 ---
 
-Congratulation to Ralf Gilsbach et al. from the [Hein group](https://portal.uni-freiburg.de/pharmakologie/ii)
-for their great new paper entiteled
-[*Distinct epigenetic programs regulate cardiac myocyte development and disease in the human heart in vivo*](https://www.nature.com/articles/s41467-017-02762-z).
+The Galaxy project has published an 2018 update of the core Galaxy framwork with all the new features of the last two years.
+[*The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update*](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky379/5001157).
 
 <div class="multiple-img">
     <img src="{{ "/assets/media/2018-01-30-Gilsbach_NatCom.jpg" | absolute_url }}" height="300px" alt="Genic CpG demethylation of cardiac myocyte genes." />
@@ -15,4 +13,4 @@ for their great new paper entiteled
 
 ## Abstract
 
-Epigenetic mechanisms and transcription factor networks essential for differentiation of cardiac myocytes have been uncovered. However, reshaping of the epigenome of these terminally differentiated cells during fetal development, postnatal maturation, and in disease remains unknown. Here, we investigate the dynamics of the cardiac myocyte epigenome during development and in chronic heart failure. We find that prenatal development and postnatal maturation are characterized by a cooperation of active CpG methylation and histone marks at cis-regulatory and genic regions to shape the cardiac myocyte transcriptome. In contrast, pathological gene expression in terminal heart failure is accompanied by changes in active histone marks without major alterations in CpG methylation and repressive chromatin marks. Notably, cis-regulatory regions in cardiac myocytes are significantly enriched for cardiovascular disease-associated variants. This study uncovers distinct layers of epigenetic regulation not only during prenatal development and postnatal maturation but also in diseased human cardiac myocytes.
+Galaxy (homepage: https://galaxyproject.org, main public server: https://usegalaxy.org) is a web-based scientific analysis platform used by tens of thousands of scientists across the world to analyze large biomedical datasets such as those found in genomics, proteomics, metabolomics and imaging. Started in 2005, Galaxy continues to focus on three key challenges of data-driven biomedical science: making analyses accessible to all researchers, ensuring analyses are completely reproducible, and making it simple to communicate analyses so that they can be reused and extended. During the last two years, the Galaxy team and the open-source community around Galaxy have made substantial improvements to Galaxy's core framework, user interface, tools, and training materials. Framework and user interface improvements now enable Galaxy to be used for analyzing tens of thousands of datasets, and >5500 tools are now available from the Galaxy ToolShed. The Galaxy community has led an effort to create numerous high-quality tutorials focused on common types of genomic analyses. The Galaxy developer and user communities continue to grow and be integral to Galaxy's development. The number of Galaxy public servers, developers contributing to the Galaxy framework and its tools, and users of the main Galaxy server have all increased substantially.
