@@ -2,6 +2,7 @@
 layout: galaxy-hic
 ---
 
+<br/>
 <img src="{{ "/assets/media/asaim_logo.png" | absolute_url }}" height="100px" alt="ASaiM logo"/> 
 
 Welcome to **Galaxy Metagenomics** ([ASaiM](https://asaim.readthedocs.io/en/latest/){:target="_blank"}) -- a webserver to process, analyse and visualize Metagenomic and Microbiota data in general. 
