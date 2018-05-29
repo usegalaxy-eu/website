@@ -1,14 +1,14 @@
 ---
 site: freiburg
 tags: [paper]
-title: The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update 
+title: "The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update"
 ---
 
 The Galaxy project has published an 2018 update of the core Galaxy framwork with all the new features of the last two years.
 [*The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update*](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky379/5001157).
 
 <div class="multiple-img">
-    <img src="{{ "/assets/media/2018-01-30-Gilsbach_NatCom.jpg" | absolute_url }}" height="300px" alt="Genic CpG demethylation of cardiac myocyte genes." />
+    <img src="{{ "/assets/media/2018-05-28-Galaxy-NAR.png" | absolute_url }}" height="400px" alt="Graphical abstract for Galaxy NAR paper" />
 </div>
 
 ## Abstract
