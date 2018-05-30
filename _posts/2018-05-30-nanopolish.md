@@ -4,7 +4,9 @@ tags: [tools]
 title: "Nanopolish tools for signal-level analysis of Oxford Nanopore sequencing data is now available in Galaxy"
 ---
 
-![Nanopolish](https://github.com/jts/nanopolish) is a popular tool suite for working with raw and processed of Nanopore sequencing platform. We are pleased to announce that the demanding tools have been integrated into the Galaxy platform and are available on [our server](https://usegalaxy.eu).
+![Nanopolish](https://github.com/jts/nanopolish) is a popular tool suite for working with data produced by the Nanopore sequencing platform. We are pleased to announce that the demanding tools have been integrated into the Galaxy platform and are available on [our server](https://usegalaxy.eu).
+
+Nanopolish can be used to call SNPs and indels with respect to a reference genome, detect base modifications like methylation or creates an improved consensus sequence for a draft genome assembly. 
 
 * [Nanopolish variants caller and consensus "polishing"](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_variants/nanopolish_variants/0.1.0)
 <div class="multiple-img">
