@@ -30,7 +30,9 @@ Afterwards, the conference was a combination of 1-hour workshops / intensive dis
     <a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/134305289@N03/albums/72157667641880727" title="The Carpentries"><img src="https://farm2.staticflickr.com/1759/40708342840_c064fe495b_z.jpg" width="640" height="427" alt="The Carpentries"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
-This conference was really intense in many ways (discussion, meeting, topics, etc).
+Bérénice was giving a [4' Lightning talk](http://bebatut.fr/talks/18/05_30_carpentry_con/#/1) and presenting a [poster](https://github.com/bebatut/posters/blob/master/18/06_carpentrycon_gtn/poster.png) about the Galaxy Training Network ("Community-Driven Training for Biological Data Analysis with the Galaxy Training Network"). She also co-lead a breakout session on [FAIR science](https://github.com/carpentries/carpentrycon/blob/master/Sessions/2018-05-31/11-Breakout-11-Fostering-FAIR-Data-And-Sustainable-Software-Practices/Abstract.md).
+
+This conference was really intense in many ways (discussion, meeting, topics, ideas, etc).
 
 ### Check out more activity about this event on Twitter
 
