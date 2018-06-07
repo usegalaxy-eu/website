@@ -31,7 +31,7 @@
         /
         </div>
         <a class="navbar-brand" href="{{ key | absolute_url }}">
-          {{ key | capitalize }}
+          {{ site.team_sites[key].name }}
         </a>
       {% endif %}
     </div>
@@ -43,7 +43,7 @@
              <ul class="dropdown-menu">
               {% for path in site.team_sites %}
                 <li>
-                  <a class="page-link" href="{{ path.url }}">{{ path.name | escape }}</a>
+                  <a class="page-link" href="/{{ path[0] }}">{{ path[1].name | escape }}</a>
                 </li>
               {% endfor %}
              </ul>

@@ -6,15 +6,30 @@ layout: default
 {% assign key_length = key | size %}
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+
+{% if key_length == 0 %}
+  {% assign posts = site.events | sort:"starts" | reverse %}
+{% else %}
+  {% if site.team_sites[key].private_news == false %}
+    {% assign posts = site.events | sort:"starts" | reverse %}
+  {% else %}
+    {% assign posts = site.events | where:'site', key | sort:"starts" | reverse %}
+  {% endif %}
+{% endif %}
+
 <div class="row">
 
 	<section class="section-content">
 		<div class="col-md-12">
-			<h1>{{ key | capitalize }} Events</h1>
+			{% if key_length == 0 or site.team_sites[key].private_news == false %}
+			<h1>European Galaxy Events</h1>
+			{% else %}
+			<h1>{{ site.team_sites[key].name }} Events</h1>
+			{% endif %}
 			<table class="table table-striped">
 				<thead>
 					<tr>
-						{% if key_length == 0 %}
+						{% if key_length == 0 or site.team_sites[key].private_news == false %}
 						<th>Site</th>
 						{% endif %}
 						<th>Topic/Event</th>
@@ -24,12 +39,10 @@ layout: default
 					</tr>
 				</thead>
 				<tbody>
-					{% assign posts = site.events | sort:"starts" | reverse %}
 					{% for post in posts %}
-						{% if post.site == key or key_length == 0 %}
 						<tr>
-							{% if key_length == 0 %}
-							<td>{{ post.site | capitalize }}</td>
+							{% if key_length == 0 or site.team_sites[key].private_news == false %}
+							<td>{{ site.team_sites[post.site].name }}</td>
 							{% endif %}
 							<td>
 								<h4><a href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a></h4>
@@ -48,7 +61,6 @@ layout: default
 								{{ post.location.country }}
 							</td>
 						</tr>
-						{% endif %}
 					{% endfor %}
 				</tbody>
 			</table>

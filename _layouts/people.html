@@ -10,12 +10,13 @@ layout: default
 {% for k in site.data.people %}
 	<!--If the subdir matches the key, assign it.-->
 	{% if k[0] == key or key_length == 0 %}
+        {% assign kn = k[0] %}
 		{% assign people = k %}
 
 		<section class="page-header">
 		  <div class="row">
 			<div class="col-sm-12 text-center">
-				<h1>{{ k[0] | capitalize }} Galaxy Team</h1>
+                <h1>{{ site.team_sites[kn].name }} Team</h1>
 			</div>
 		  </div>
 		</section>

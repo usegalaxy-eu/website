@@ -1,27 +1,49 @@
 ---
 layout: default-galaxy
 ---
-{% assign key = "freiburg" %}
+{% assign page_dir = page.dir | split:'/' %}
+{% assign key = page_dir[1] | default: page.site  %}
+{% assign key_length = key | size %}
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+
+{% if key_length == 0 %}
+  {% assign posts = site.events | sort:"starts" | reverse %}
+{% else %}
+  {% if site.team_sites[key].private_news == false %}
+    {% assign posts = site.events | sort:"starts" | reverse %}
+  {% else %}
+    {% assign posts = site.events | where:'site', key | sort:"starts" | reverse %}
+  {% endif %}
+{% endif %}
+
 <div class="row">
 
 	<section class="section-content">
 		<div class="col-md-12">
-			<h1>Events</h1>
+			{% if key_length == 0 or site.team_sites[key].private_news == false %}
+			<h1>European Galaxy Events</h1>
+			{% else %}
+			<h1>{{ site.team_sites[key].name }} Events</h1>
+			{% endif %}
 			<table class="table table-striped">
 				<thead>
 					<tr>
+						{% if key_length == 0 or site.team_sites[key].private_news == false %}
+						<th>Site</th>
+						{% endif %}
 						<th>Topic/Event</th>
 						<th>Starts</th>
 						<th>Ends</th>
+						<th>Location</th>
 					</tr>
 				</thead>
 				<tbody>
-					{% assign posts = site.events_plain | sort:"starts" | reverse %}
 					{% for post in posts %}
-						{% if post.site == key %}
 						<tr>
+							{% if key_length == 0 or site.team_sites[key].private_news == false %}
+							<td>{{ site.team_sites[post.site].name }}</td>
+							{% endif %}
 							<td>
 								<h4><a href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a></h4>
 								<div>{{ post.excerpt }}</div>
@@ -32,8 +54,13 @@ layout: default-galaxy
 							<td>
 							<span class="text-nowrap">{{ post.ends   | date: date_format }}</span>
 							</td>
+							<td>
+								{% if post.location.city %}
+								{{ post.location.city }},
+								{% endif %}
+								{{ post.location.country }}
+							</td>
 						</tr>
-						{% endif %}
 					{% endfor %}
 				</tbody>
 			</table>

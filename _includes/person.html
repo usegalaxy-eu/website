@@ -11,9 +11,15 @@
         {% if include.data[1].email %}
           <li><a href="mailto:{{ include.data[1].email }}" title="Email"><i class="fa fa-envelope"></i>{{ include.data[1].email }}</a></li>
         {% endif %}
-        <li><a href="https://github.com/{{ include.id }}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i>{{ include.id }}</a></li>
+        {% if include.data[0] %}
+        <li><a href="https://github.com/{{ include.data[0] }}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i>{{ include.data[0] }}</a></li>
+        {% endif %}
+        {% if include.data[1].phone %}
         <li><i class="fa fa-phone" aria-hidden="true"></i>{{ include.data[1].phone }}</li>
+        {% endif %}
+        {% if include.data[1].location %}
         <li><i class="fa fa-search" aria-hidden="true"></i>{{ include.data[1].location }}</li>
+        {% endif %}
         {% if include.data[1].website %}
           <li><a href="{{ include.data[1].website }}" title="Website"><i class="fa fa-home"></i>{{ include.data[1].website }}</a></li>
         {% endif %}
