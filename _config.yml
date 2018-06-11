@@ -83,7 +83,12 @@ team_sites:
       private_news: true
       url: "https://www.erasmusmc.nl/bioinformatica/"
       blurb: |
-          asdf
+          The EMC Galaxian server is maintained by the [Bioinformatics group](https://www.erasmusmc.nl/bioinformatica)
+          in the [department of Pathology](https://www.erasmusmc.nl/pathologie) of the
+          [Erasmus Medical Center](https://www.erasmusmc.nl), Rotterdam, The Netherlands.
+
+          To inquire about this Galaxy server, increasing your disk quotum, or possibilities for collaborative
+          projects, please contact one of our [team](/erasmusmc/people)
 
 header_links:
     main:
