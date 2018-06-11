@@ -22,11 +22,14 @@
     {% for post in items limit:5 %}
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       <a class="list-group-item {% if include.site and site.team_sites[include.site].private_news  %}{% else %}border-{{ post.site }}{% endif %}" href="{{ post.url | absolute_url }}{{ url_ext }}" {{ url_target }}>
+        <p class="list-group-item-text">
         {% if post.starts == post.ends %}
-        <p class="list-group-item-text">{{ post.starts | date: date_format }}</p>
+        {{ post.starts | date: date_format }}
         {% else %}
-        <p class="list-group-item-text">{{ post.starts | date: date_format }} - {{ post.ends | date: date_format }}</p>
+        {{ post.starts | date: date_format }} - {{ post.ends | date: date_format }}
         {% endif %}
+        </p>
+
         <h4 class="list-group-item-heading">
           <i class="fa fa-calendar" aria-hidden="true"></i>
           {{ post.title | escape }}

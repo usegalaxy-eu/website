@@ -9,7 +9,7 @@ layout: default
 <!--if we have a subdir name-->
 {% for k in site.data.people %}
 	<!--If the subdir matches the key, assign it.-->
-	{% if k[0] == key or key_length == 0 %}
+	{% if k[0] == key or key_length == 0 or key == "europe" %}
         {% assign kn = k[0] %}
 		{% assign people = k %}
 

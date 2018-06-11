@@ -6,64 +6,67 @@ layout: default-galaxy
 {% assign key_length = key | size %}
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+<section class="page-header">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      {% if key_length == 0 or key == "galaxy" or site.team_sites[key].private_news == false %}
+      <h1>European Galaxy Events</h1>
+      {% else %}
+      <h1>{{ site.team_sites[key].name }} Events</h1>
+      {% endif %}
+    </div>
+  </div>
+</section>
 
 {% if key_length == 0 %}
-  {% assign posts = site.events | sort:"starts" | reverse %}
+  {% assign posts = site.events_plain | sort:"starts" | reverse %}
 {% else %}
-  {% if site.team_sites[key].private_news == false %}
-    {% assign posts = site.events | sort:"starts" | reverse %}
+  {% if site.team_sites[key].private_news == false or key == "galaxy" %}
+    {% assign posts = site.events_plain | sort:"starts" | reverse %}
   {% else %}
-    {% assign posts = site.events | where:'site', key | sort:"starts" | reverse %}
+    {% assign posts = site.events_plain | where:'site', key | sort:"starts" | reverse %}
   {% endif %}
 {% endif %}
 
-<div class="row">
-
-	<section class="section-content">
-		<div class="col-md-12">
-			{% if key_length == 0 or site.team_sites[key].private_news == false %}
-			<h1>European Galaxy Events</h1>
-			{% else %}
-			<h1>{{ site.team_sites[key].name }} Events</h1>
-			{% endif %}
-			<table class="table table-striped">
-				<thead>
-					<tr>
-						{% if key_length == 0 or site.team_sites[key].private_news == false %}
-						<th>Site</th>
-						{% endif %}
-						<th>Topic/Event</th>
-						<th>Starts</th>
-						<th>Ends</th>
-						<th>Location</th>
-					</tr>
-				</thead>
-				<tbody>
-					{% for post in posts %}
-						<tr>
-							{% if key_length == 0 or site.team_sites[key].private_news == false %}
-							<td>{{ site.team_sites[post.site].name }}</td>
-							{% endif %}
-							<td>
-								<h4><a href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a></h4>
-								<div>{{ post.excerpt }}</div>
-							</td>
-							<td>
-							<span class="text-nowrap">{{ post.starts | date: date_format }}</span>
-							</td>
-							<td>
-							<span class="text-nowrap">{{ post.ends   | date: date_format }}</span>
-							</td>
-							<td>
-								{% if post.location.city %}
-								{{ post.location.city }},
-								{% endif %}
-								{{ post.location.country }}
-							</td>
-						</tr>
-					{% endfor %}
-				</tbody>
-			</table>
-		</div>
-	</section>
-</div>
+<section class="section-content">
+  <div class="col-md-12">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          {% if key_length == 0 or site.team_sites[key].private_news == false or key == "galaxy" %}
+          <th>Site</th>
+          {% endif %}
+          <th>Topic/Event</th>
+          <th>Starts</th>
+          <th>Ends</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for post in posts %}
+          <tr>
+            {% if key_length == 0 or site.team_sites[key].private_news == false or key == "galaxy" %}
+            <td>{{ site.team_sites[post.site].name }}</td>
+            {% endif %}
+            <td>
+              <h4><a href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a></h4>
+              <div>{{ post.excerpt }}</div>
+            </td>
+            <td>
+            <span class="text-nowrap">{{ post.starts | date: date_format }}</span>
+            </td>
+            <td>
+            <span class="text-nowrap">{{ post.ends   | date: date_format }}</span>
+            </td>
+            <td>
+              {% if post.location.city %}
+              {{ post.location.city }},
+              {% endif %}
+              {{ post.location.country }}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>

@@ -14,17 +14,17 @@ layout: default-galaxy
   </div>
 </section>
 
-<section id="news-list">
-  {% if key_length == 0 %}
-    {% assign posts = site.posts | sort:'date' | reverse %}
+{% if key_length == 0 %}
+  {% assign posts = site.posts_plain | sort:'date' | reverse %}
+{% else %}
+  {% if site.team_sites[key].private_news == false or key == "galaxy" %}
+    {% assign posts = site.posts_plain | sort:'date' | reverse %}
   {% else %}
-    {% if site.team_sites[key].private_news == false %}
-      {% assign posts = site.posts | sort:'date' | reverse %}
-    {% else %}
-      {% assign posts = site.posts | where:'site', key | sort:'date' | reverse %}
-    {% endif %}
+    {% assign posts = site.posts_plain | where:'site', key | sort:'date' | reverse %}
   {% endif %}
+{% endif %}
 
+<section id="news-list">
   {% for post in posts %}
     <div class="news">
       <div class="row">

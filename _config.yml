@@ -61,9 +61,8 @@ team_sites:
       email: freiburg@usegalaxy.eu
       twitter_username: galaxyproject
       github_username: usegalaxy-eu
-      # We show news events from everyone
-      private_news: false
-      url: "https://usegalaxy-eu.github.io"
+      private_news: true
+      url: "https://usegalaxy.eu/freiburg/"
       blurb: |
         The [Freiburg Galaxy Team](/freiburg/people) is headed by Björn Grüning
         and is part of the [Bioinformatics Group
