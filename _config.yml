@@ -60,7 +60,7 @@ team_sites:
       url: /freiburg/
       email: freiburg@usegalaxy.eu
       twitter_username: galaxyproject
-      github_username: backofenlab
+      github_username: usegalaxy-eu
       # We show news events from everyone
       private_news: false
       url: "https://usegalaxy-eu.github.io"
