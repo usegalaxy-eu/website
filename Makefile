@@ -1,5 +1,5 @@
 run: ## Launch jekyll locally
-	bundler exec jekyll serve
+	bundler exec jekyll serve --incremental
 
 help:
 	@egrep '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'

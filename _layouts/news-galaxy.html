@@ -1,6 +1,10 @@
 ---
 layout: default-galaxy
 ---
+{% assign page_dir = page.dir | split:'/' %}
+{% assign key = page_dir[1] | default: page.site %}
+{% assign key_length = key | size %}
+
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 <section id="news-page">
   <div class="row news-header-row">
@@ -36,14 +40,13 @@ layout: default-galaxy
           </span>
           {% endif %}
 
-          {% if page.tags.size > 0 %}
           <br />
           <span class="post-tags">
+              <span class="label label-success">{{ site.team_sites[key].name }}</span>
             {% for tag in page.tags %}
               <span class="label label-info">{{ tag }}</span>
             {% endfor %}
           </span>
-          {% endif %}
 
           {% if page.repo %}
           <br />

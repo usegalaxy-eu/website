@@ -12,7 +12,7 @@ DTSTART;VALUE=DATE:{{ page.starts | date: date_format }}
 DTEND;VALUE=DATE:{{page.ends | date: date_format}}
 DTSTAMP;VALUE=DATE:{{page.starts | date: date_format}}T000000Z
 CREATED;VALUE=DATE:{{page.date | date: date_format}}T000000Z
-UID:{{ page.starts | date: date_format }}{{ page.ends | date: date_format }}@galaxy.uni-freiburg.de
+UID:{{ page.starts | date: date_format }}{{ page.ends | date: date_format }}@usegalaxy.eu
 DESCRIPTION:{{ content | strip_newlines | replace: '<p>', '' | replace: '</p>', '\\n\\n'}}
 LOCATION:{{ page.location | replace: ',', '\\,'}}
 SEQUENCE:0

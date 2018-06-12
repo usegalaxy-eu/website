@@ -1,24 +1,31 @@
 ---
 layout: default
 ---
-
 {% assign page_dir = page.dir | split:'/' %}
 {% assign key = page_dir[1] | default: page.site %}
 {% assign key_length = key | size %}
 
-{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
 <section class="page-header">
   <div class="row">
     <div class="col-sm-12 text-center">
-      <h1>News</h1>
+      <h1>{{ site.team_sites[key].name }} News</h1>
     </div>
   </div>
 </section>
 
-<section id="news-list">
+{% if key_length == 0 %}
+  {% assign posts = site.posts | sort:'date' | reverse %}
+{% else %}
+  {% if site.team_sites[key].private_news == false or key == "galaxy" %}
+    {% assign posts = site.posts | sort:'date' | reverse %}
+  {% else %}
+    {% assign posts = site.posts | where:'site', key | sort:'date' | reverse %}
+  {% endif %}
+{% endif %}
 
-  {% for post in site.posts %}
-    {% if post.site == key or key_length == 0 %}
+<section id="news-list">
+  {% for post in posts %}
     <div class="news">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
@@ -29,7 +36,7 @@ layout: default
             <span class="title-uppercase date">
               {{ post.date | date: date_format }}
             </span>
-            <span class="label label-success">{{ post.site | capitalize }}</span>
+            <span class="label label-success">{{ site.team_sites[post.site].name }}</span>
             {% for tag in post.tags %}
               <span class="label label-primary">{{ tag }}</span>
             {% endfor %}
@@ -45,6 +52,5 @@ layout: default
         </div>
       </div>
     </div>
-    {% endif %}
   {% endfor %}
 </section>
