@@ -63,6 +63,7 @@ team_sites:
       github_username: usegalaxy-eu
       private_news: true
       url: "https://usegalaxy.eu/freiburg/"
+      galaxy_server: "https://usegalaxy.eu"
       blurb: |
         The [Freiburg Galaxy Team](/freiburg/people) is headed by Björn Grüning
         and is part of the [Bioinformatics Group
@@ -82,6 +83,7 @@ team_sites:
       github_username: erasmusmc-bioinformatics
       private_news: true
       url: "https://www.erasmusmc.nl/bioinformatica/"
+      galaxy_server: "https://bioinf-galaxian.erasmusmc.nl/galaxy/"
       blurb: |
           The EMC Galaxian server is maintained by the [Bioinformatics group](https://www.erasmusmc.nl/bioinformatica)
           in the [department of Pathology](https://www.erasmusmc.nl/pathologie) of the

@@ -1,7 +1,7 @@
 ---
 site: erasmusmc
 tags: [training]
-title: Next Generation Sequencing data analysis, LUMC.
+title: Next Generation Sequencing data analysis, LUMC
 starts: 2018-08-27
 ends: 2018-08-29
 organiser:
