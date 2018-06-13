@@ -128,7 +128,9 @@ p {
 .border-erasmusmc {
 	border-left: 5px solid #f17925 !important;
 }
-
+.border-deNBI, .border-denbi {
+	border-left: 5px solid rgb(0, 174, 236) !important;
+}
 @import "people";
 @import "404";
 @import "news";
