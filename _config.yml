@@ -122,6 +122,8 @@ header_links:
           url: /erasmusmc/events
         - name: People
           url: /erasmusmc/people
+        - name: Publications
+          url: /erasmusmc/publications
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
