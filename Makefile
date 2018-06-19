@@ -1,4 +1,7 @@
 run: ## Launch jekyll locally
+	bundler exec jekyll serve
+
+runi: ## Launch jekyll locally, incremental rebuild
 	bundler exec jekyll serve --incremental
 
 help:

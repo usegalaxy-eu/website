@@ -1,6 +1,10 @@
 ---
-layout: galaxy-hic
+layout: galaxy
 ---
+
+{% include notices.html %}
+{% include maintenance.html %}
+
 
 <br/>
 <img src="{{ "/assets/media/asaim_logo.png" | absolute_url }}" height="100px" alt="ASaiM logo"/> 
@@ -128,3 +132,5 @@ However, the parameters must be adjusted by the user as we could not find them i
 # References
 
 {% bibliography --cited --prefix index-metagenomics --group_by none %}
+
+{% include home_done.html %}

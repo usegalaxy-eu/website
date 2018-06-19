@@ -1,6 +1,10 @@
 ---
-layout: galaxy-hic
+layout: galaxy
 ---
+
+{% include notices.html %}
+{% include maintenance.html %}
+
 # Galaxy HiCExplorer
 
 Welcome to the Galaxy HiCExplorer -- a webserver to process, analyse and visualize Hi-C data. 
@@ -86,4 +90,5 @@ We recommend to use BWA-MEM with the Hi-C specific parameters, as shown in our t
 ## Our Data Policy
 
 {% include data-policy.html %}
-
+{% include jobs_graph.html %}
+{% include home_done.html %}
