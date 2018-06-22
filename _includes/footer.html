@@ -4,6 +4,8 @@
 
 {% if key_length == 0 %}
 {% assign lsite = site %}
+{% elsif key == "galaxy" %}
+{% assign lsite = site %}
 {% else %}
 {% assign lsite = site.team_sites[key] %}
 {% endif %}
