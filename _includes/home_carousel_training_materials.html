@@ -9,14 +9,13 @@
   </p>
   <p>
 
-  <button type="button" class="btn btn-primary btn-lg" onclick="window.open('https://training.galaxyproject.org','_blank')">Visit Training Page</button>
-
-  <button type="button" class="btn btn-primary btn-lg" onclick="window.open('https://www.biorxiv.org/content/early/2018/04/05/225680', '_blank')">View Publication</button>
+  {% include button.html url="https://training.galaxyproject.org" text="Visit the Training Material" %}
+  {% include button.html url="https://www.biorxiv.org/content/early/2018/04/05/225680" text="View Publication" %}
 
   </p>
   </div>
 
   <div class="col-md-6">
-  <img src="https://bioinf-galaxian.erasmusmc.nl/galaxy/static/training.png" alt="Galaxy training materials page" style="max-width: 90%;"/>
+      <img src="{{ "/assets/media/training.png" | absolute_url }}" alt="Galaxy training materials page" style="max-width: 90%;"/>
   </div>
 </div>

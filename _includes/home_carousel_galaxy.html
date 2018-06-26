@@ -1,12 +1,16 @@
 <div class="item carousel-item jumbotron active">
   <h2 class="display-3">Data Driven Reseach for Everyone</h2>
-  <p class="lead"></p>
+  <div class="col-md-6">
   <p>Galaxy is an <strong>open, web-based</strong> platform for accessible, reproducible, and transparent computational biological research.</p>
   <ul>
-    <li><strong>Accessible:</strong> Users can easily configure and run tools without the need to write code, all via an user-friendly web-based interface.</li>
-    <li><strong>Reproducible:</strong> Galaxy captures the full metadata required so that any user can not only understand but also reproduce the complete computational analysis.</li>
-    <li><strong>Transparent:</strong> Users can extract, share and publish analyses via interactive, web-based documents that can enhance analyses with user-supplied annotation.</li>
-    <li><strong>Scalable:</strong> Galaxy scales: it can run on a local computer, on a large cluster or on the cloud</li>
+    <li><strong>Accessible:</strong> Users can easily run tools without writing code or using the CLI; all via a user-friendly web interface.</li>
+    <li><strong>Reproducible:</strong> Galaxy captures all the metadata from an analysis, making it completely reproducible.</li>
+    <li><strong>Transparent:</strong> Users share and publish analyses via interactive pages that can enhance analyses with user annotations.</li>
+    <li><strong>Scalable:</strong> Galaxy can run on anything, from a laptop, to large clusters, to the cloud</li>
   </ul>
-  <button type="button" class="btn btn-primary btn-lg" onclick="window.open('https://usegalaxy.eu','_blank')">Try it on useGalaxy.eu</button>
+  {% include button.html url="https://usegalaxy.eu" text="UseGalaxy.eu" %}
+  </div>
+  <div class="col-md-6">
+    <img src="{{ "/assets/media/usegalaxy-eu-screenshot.png" | absolute_url }}" alt="UseGalaxy.eu home page" style="max-width: 90%;"/>
+  </div>
 </div>
