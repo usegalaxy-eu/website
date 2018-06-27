@@ -1,0 +1,32 @@
+{% assign page_dir = page.dir | split:'/' %}
+{% assign key = page_dir[1] | default: page.site  %}
+{% assign key_length = key | size %}
+
+{%- assign date_format = "%Y%m%d" -%}
+
+{% assign posts = site.events | sort:"starts" | reverse %}
+
+BEGIN:VCALENDAR
+{% for page in site.posts %}
+PRODID:-//jekyll//NONSGML v1.0//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:{{ page.title | escape }}
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VEVENT
+ORGANIZER;CN={{ page.organiser.name }}:MAILTO:{{ page.organiser.email }}?subject={{ page.title | escape | replace: ' ', '%20'}}
+DTSTART;VALUE=DATE:{{ page.starts | date: date_format }}
+DTEND;VALUE=DATE:{{page.ends | date: date_format}}
+DTSTAMP;VALUE=DATE:{{page.starts | date: date_format}}T000000Z
+CREATED;VALUE=DATE:{{page.date | date: date_format}}T000000Z
+UID:{{ page.starts | date: date_format }}{{ page.ends | date: date_format }}@usegalaxy.eu
+DESCRIPTION:{{ content | strip_newlines | replace: '<p>', '' | replace: '</p>', '\\n\\n'}}
+LOCATION:{{ page.location | replace: ',', '\\,'}}
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:{{ page.title | escape }}
+TRANSP:OPAQUE
+END:VEVENT
+{% endfor %}
+END:VCALENDAR
