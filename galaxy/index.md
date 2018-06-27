@@ -18,3 +18,10 @@ layout: galaxy
 {% include carousel_after.html %}
 
 {% include home_done.html %}
+
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'usegalaxy-eu/Lobby'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
