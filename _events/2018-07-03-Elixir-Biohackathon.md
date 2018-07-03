@@ -29,7 +29,7 @@ ommon challenges proposed by the sister BioHackathon organised in Japan.
 
 ### Topics
 
-There will several Galaxy-related hacking topics:
+There will be several Galaxy-related hacking topics:
 
 - Galaxy Training Material improvement and extension
 - CWL support in Galaxy
