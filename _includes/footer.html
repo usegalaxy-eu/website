@@ -7,7 +7,11 @@
 {% elsif key == "galaxy" %}
 {% assign lsite = site %}
 {% else %}
-{% assign lsite = site.team_sites[key] %}
+  {% if site.team_sites[key] %}
+    {% assign lsite = site.team_sites[key] %}
+  {% else %}
+    {% assign lsite = site %}
+  {% endif %}
 {% endif %}
 
 <footer class="navbar-default">
