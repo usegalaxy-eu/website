@@ -90,6 +90,12 @@ erasmusmc:
         email: a.stubbs@erasmusmc.nl
         phone: +31(0) 10 70 44776
         location: Ee-1579a
+    yunleili:
+        name: Yunlei Li
+        title: Dr.ir.
+        email: y.li.1@erasmusmc.nl
+        phone: +31(0) 70 44551
+        location: Ee-1579
     shiltemann:
         name: Saskia Hiltemann
         title: Researcher
@@ -124,10 +130,4 @@ erasmusmc:
         title: Developer
         email: s.horsman@erasmusmc.nl
         phone: +31(0) 70 32460
-        location: Ee-1579
-    yunleili:
-        name: Yunlei Li
-        title: Dr.ir.
-        email: y.li.1@erasmusmc.nl
-        phone: +31(0) 70 44551
         location: Ee-1579
