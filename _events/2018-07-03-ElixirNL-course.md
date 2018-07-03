@@ -38,12 +38,13 @@ A workshop dinner will be organized on Thursday  (at participants’ own expense
 
 ### COURSE SCHEDULE
 
-|                 | Day 1 - Wed Oct 17                       | Day 2 - Thu Oct 18                                        | Day 3 - Fri Oct 19                               |
-|-----------------|------------------------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **Morning**         | Galaxy 101 + Variant detection           | Network analysis with microbiota metatranscriptome &nbsp; | Teaching bioinformatics workflows                |
-| **Keynote**         | I: About bioinformatics workflows &nbsp; | II: About Galaxy and ELIXIR (Björn Grüning)               | III: About bioinformatics teaching (Jaap Heringa)|
-| **Afternoon** &nbsp;| BWA + RNAseq                             | 16S rRNA sequencing with mothur                           | Galaxy training material development             |
-| **Evening**         |                                          | Social dinner                                             |                                                  |
+|                | Day 1 - Wed Oct 17                 | Day 2 - Thu Oct 18                                    | Day 3 - Fri Oct 19                                 |
+| -------------- | ---------------------------------- | ----------------------------------------------------- | -------------------------------------------------- |
+| **Morning**    | Galaxy 101 + Variant detection     | Network analysis with microbiota metatranscriptome    | Teaching bioinformatics workflows                  |
+| **Keynote**    | I: About bioinformatics workflows  | II: About Galaxy and ELIXIR (Björn Grüning)           | III: About bioinformatics teaching (Jaap Heringa)  |
+| **Afternoon**  | BWA + RNAseq                       | 16S rRNA sequencing with mothur                       | Galaxy training material development               |
+| **Evening**    |                                    | Social dinner                                         |                                                    |
+{:.table.table-striped}
 
 
 The course consists of six modules, as the table above shows, covering a list of topics as follows:
