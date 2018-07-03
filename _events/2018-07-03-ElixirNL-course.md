@@ -5,7 +5,7 @@ title: "Bioinformatics for Translational Medicine using Galaxy: see it, do it, t
 starts: 2018-10-17
 ends: 2018-10-19
 organiser:
-  name: [Elixir-NL, VU Amsterdam, Erasmus Medical Center]
+  name: Elixir-NL, VU Amsterdam, Erasmus Medical Center
   email: celia.van.gelder@dtls.nl
 location:
   name: VU
