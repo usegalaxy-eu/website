@@ -6,9 +6,10 @@ starts: 2018-07-27
 ends: 2018-07-27
 organiser:
   name: Appreciative users
-location:
-  country: Everywhere
+location: online
 ---
+
+Copied from [http://sysadminday.com/](http://sysadminday.com/)
 
 Your network is secure, your computer is up and running, your printer is jam-free, and your Galaxy histories are green. Why? Because you’ve got an awesome sysadmin (or maybe a whole IT department) keeping your business up and running. So say IT loud; say IT proud …
 Happy SysAdmin Day!
