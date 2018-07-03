@@ -5,9 +5,9 @@ title: Workshop for Galaxy training material and skills improvement
 location: Norwich, UK
 ---
 
-{% twitter https://twitter.com/bebatut/status/998485131995369472 %}
-
 From 21st to 23rd of May was held a workshop for Galaxy training material and skills improvement at the [Earlham Institut](http://www.earlham.ac.uk/) in Norwich. Bérénice and Björn were there! 
+
+{% twitter https://twitter.com/bebatut/status/998485131995369472 %}
 
 The Monday was dedicated to a Train the Trainer workshop by Sarah Morgan from EBI. We reviewed learning principles and how they apply to training and learned training techniques that can be used to enhance learner engagement and participation. 
 

@@ -5,11 +5,13 @@ title: Data Carpentry workshop and CarpentryCon
 location: Dublin, Ireland
 ---
 
+Last week was [CarpentryCon](http://www.carpentrycon.org/) at [University College Dublin](https://www.ucd.ie/), Ireland.
+
 <div class="multiple-img">
     <a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/134305289@N03/42464629032/in/album-72157667641880727/" title="CarpentryCon2018 @ Dublin"><img src="https://farm2.staticflickr.com/1721/42464629032_9e3a6ffaf1_z.jpg" width="640" height="427" alt="CarpentryCon2018 @ Dublin"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
-Last week was [CarpentryCon](http://www.carpentrycon.org/) at [University College Dublin](https://www.ucd.ie/), Ireland. This event is the key community-building and networking event in [The Carpentries](https://carpentries.org/), an organization teaching foundational computational, coding, and data science skills to researchers worldwide. Bérénice was there to represent Galaxy and the Freiburg Galaxy team.
+This event is the key community-building and networking event in [The Carpentries](https://carpentries.org/), an organization teaching foundational computational, coding, and data science skills to researchers worldwide. Bérénice was there to represent Galaxy and the Freiburg Galaxy team.
 
 The event started with 2 days (May 28-29) of [Computational Skills for Data Analysis (Data Carpentry) workshop](https://malvikasharan.github.io/2018-05-28-Dublin/). Bérénice, with Jason Williams and Malvika Sharan, trained there: Data Organization, Cloud Genomics, Introduction to Command line and R for Genomics. 
 

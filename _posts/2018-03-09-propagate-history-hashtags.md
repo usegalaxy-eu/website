@@ -5,6 +5,8 @@ repo: anuprulez/apply_history_tags
 title: Propagating hashtags in a Galaxy history
 ---
 
+We have written a utility to help you propagate tags through your histories. Did you forget to tag the inputs before running a long workflow? We've now solved this issue.
+
 ### Background
 
 To process data using Galaxy, an raw dataset (HDA) is uploaded and few hashtags are added to make it better searchable and identifiable. Then, using different tools/workflows, this raw/input dataset is transformed into multiple new datasets. What if, after running dozens of tools, generating hundreds or thousands of datasets, you realise that you’ve forgotten to tag your input datasets? In this case, the new hashtags will not be propagated to the generated datasets automatically. We require an easy and automatic solution to assign correct hashtags to all of the downstream datasets generated from our inputs, whenever new hashtags are added to any of the datasets in our history. Before going into the further explanation, let’s assign the following labels to the types/names of datasets we would use:
