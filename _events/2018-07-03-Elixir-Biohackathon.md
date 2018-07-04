@@ -1,5 +1,5 @@
 ---
-site: erasmusmc
+site: main
 tags: [hackathon]
 title: Elixir Biohackathon 2018
 starts: 2018-11-12
@@ -32,6 +32,7 @@ ommon challenges proposed by the sister BioHackathon organised in Japan.
 There will be several Galaxy-related hacking topics:
 
 - Galaxy Training Material improvement and extension
+- Galaxy - BioJS integration
 - CWL support in Galaxy
 
 (view the full list of topics available [here](http://bh2018paris.info/projects))
@@ -39,4 +40,4 @@ There will be several Galaxy-related hacking topics:
 
 ### More information and registration
 
-To propose hacking topics (deadline Jul 12th) or register for Biohackathon, please visit the [website](http://bh2018paris.info/)
+To propose hacking topics (deadline Jul 12th) or register for Biohackathon, please visit the [website](http://bh2018paris.info)
