@@ -5,7 +5,7 @@ title: Tool Usage Graphs
 location: Freiburg, Germany
 ---
 
-We have leveraged the [Galactic Radio Telescope](https://telescope.galaxyproject.org) to produce graphs of [tool usage over time](https://stats.usegalaxy.eu/d-solo/SDduH5Zik/grt-tool-usage). You can embed these anywhere, in websites, in tool forms, etc.
+We have leveraged the [Galactic Radio Telescope](https://telescope.galaxyproject.org) to produce graphs of [tool usage over time](https://stats.usegalaxy.eu/d/SDduH5Zik/grt-tool-usage). You can embed these anywhere, in websites, in tool forms, etc.
 
 # Tool Usage Graphs
 
