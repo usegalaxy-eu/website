@@ -8,6 +8,9 @@ Carolin Rommel, from the Institute of Experimental and Clinical Pharmacology and
 manuscript about ["The Transcription Factor ETV1 Induces Atrial Remodeling and Arrhythmia"](http://circres.ahajournals.org/content/early/2018/06/19/CIRCRESAHA.118.313036).
 Great work, congratulations Carolin!
 
+<div class="multiple-img">
+    <img src="{{ "/assets/media/ETV1.png" | absolute_url }}" height="400px" alt="ETV" />
+</div>
 
 ## Abstract
 
