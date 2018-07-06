@@ -1,1 +1,14 @@
 ---
+starts: 2018-07-11 ??:00:00 CET
+ends:   2018-07-11 ??+2:00:00 CET
+jobs_affected: false
+message: |
+    We have an downtime with an unknown time period on wednesday, June 11th. We
+    were recently informed that the University will perform mainteance
+    affecting the firewall for the entire university.
+
+    This will unfortunately take our services offline, and we have no control
+    over this. We apologise for the late notice, it was not widely announced by
+    the UFR Compute Center.
+
+    We expect the downtime to last anywhere from 30 minutes to 2 hours.
