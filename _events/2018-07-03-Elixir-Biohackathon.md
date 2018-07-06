@@ -1,5 +1,5 @@
 ---
-site: main
+site: erasmusmc
 tags: [hackathon]
 title: Elixir Biohackathon 2018
 starts: 2018-11-12
