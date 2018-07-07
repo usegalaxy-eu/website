@@ -8,14 +8,17 @@ supporters:
 ---
 
 HiCExplorer - a tool suite for reproducible Hi-C data analysis, quality control and visualization
-was [published a few days ago](https://doi.org/10.1093/nar/gky504). We even made it on the Cover of the latest
-Nucleic Acids Research Webserver issue.
+was [published a few days ago](https://doi.org/10.1093/nar/gky504).
 
 Thanks to this amazing team!
 
 <div class="multiple-img">
     <img src="{{ "/assets/media/hic_nar.jpeg" | absolute_url }}" height="400px" alt="Graphical abstract for Galaxy HiC Explorer" />
 </div>
+
+We even made it on the Cover of the latest Nucleic Acids Research Webserver issue.
+
+https://twitter.com/bjoerngruening/status/1015656020985688066
 
 ## Abstract
 
