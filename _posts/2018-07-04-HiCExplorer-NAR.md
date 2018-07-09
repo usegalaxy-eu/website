@@ -18,7 +18,7 @@ Thanks to this amazing team!
 
 We even made it on the Cover of the latest Nucleic Acids Research Webserver issue.
 
-https://twitter.com/bjoerngruening/status/1015656020985688066
+{% twitter https://twitter.com/bjoerngruening/status/1015656020985688066 %}
 
 ## Abstract
 
