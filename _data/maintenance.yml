@@ -1,9 +1,9 @@
 ---
-starts: 2018-07-11 ??:00:00 CET
-ends:   2018-07-11 ??+2:00:00 CET
+starts: 2018-07-11 10:00:00 CET
+ends:   2018-07-11 12:00:00 CET
 jobs_affected: false
 message: |
-    We have an downtime with an unknown time period on wednesday, June 11th. We
+    We have an downtime on wednesday, June 11th. We
     were recently informed that the University will perform mainteance
     affecting the firewall for the entire university.
 
