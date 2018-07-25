@@ -19,7 +19,7 @@
     {% assign url_ext = 'plain.html' %}
     {% endif %}
 
-    {% for post in items limit:5 %}
+    {% for post in items limit:6 %}
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       <a class="list-group-item {% if include.site and site.team_sites[include.site].private_news  %}{% else %}border-{{ post.site }}{% endif %}" href="{{ post.url | absolute_url }}{{ url_ext }}" {{ url_target }}>
         <p class="list-group-item-text">{{ post.date | date: date_format }}</p>
