@@ -4,10 +4,23 @@ title: FTP Configuration
 permalink: /ftp/
 ---
 
-# UseGalaxy.eu FTP Server
+# UseGalaxy.eu FTP Servers
 
-To start using FTP, please see the [official
+## Servers
+
+Server                   | Port | Properties
+-----------------------  | ---- | ----
+`ftp.usegalaxy.eu`       | 21   | TLS connections **only**. Does not support insecure connections
+`galaxy.uni-freiburg.de` | 21   | Insecure connections only, no support for tls.
+
+## Credentials
+
+Use the same email address and password that you use to login to [usegalaxy.eu](https://usegalaxy.eu)
+
+## More Information
+
+For more information on using FTP with Galaxy, please see the [official
 documentation](https://galaxyproject.org/ftp-upload/). As always, don't
 hesitate to send us an
-[Email](mailto:galaxy@informatik.uni-freiburg.de?subject=ftp+problems) if you
+[Email](mailto:contact@usegalaxy.eu?subject=FTP+Issue) if you
 have any issues.
