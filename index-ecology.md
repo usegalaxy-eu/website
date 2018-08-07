@@ -19,7 +19,7 @@ Want to learn about ecology analyses? Check our [tutorials](#tutorials) or take 
 - Introduction to species phenology study and abundance index as trends computation. 
 
 
-# Tools?
+# Tools
 
 Almost 140 tools are proposed in this custom Galaxy instance. They were chosen for their use in exploitation of ecology data:
 
