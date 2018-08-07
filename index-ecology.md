@@ -21,23 +21,23 @@ Want to learn about ecology analyses? Check our [tutorials](#tutorials) or take 
 
 # Tools?
 
-Almost 100 tools are proposed in this custom Galaxy instance. They were chosen for their use in exploitation of ecology data:
+Almost 140 tools are proposed in this custom Galaxy instance. They were chosen for their use in exploitation of ecology data:
 
-- [**General tools**](https://asaim.readthedocs.io/en/latest/tools/file_meta_tools.html){:target="_blank"}
+- **General tools**
     - **Text Manipulation**: JQ process JSON, Replace Text, cast, melt, Subtract, Complement, Cluster, Replace text in a specific column, Replace parts of text, text reformatting, Text transformation, Unfold columns, Replace column, Add input name as column, Create text files, Sort a row, reverse a file, Compute an expression, Regex replace, Subtract Whole Dataset, Merge Columns, Unique occurences, Add column, Merge Columns together, Convert delimiters to TAB, Change Case, Trim characters, Secure Hash
     - **Filter and Sort**: Unique, Unique lines, Sort, Select random lines, Select first lines (head), Select last lines (tail), Remove beginning, Cut columns, Search in textfiles, XPath, Column arrange, Query tabular, Filter data on any column, Sort data, Select lines, Remove columns, Sort Column Order  
-    - **Join, Substract and Group**: Join two files, Multi-Join, Split file, Concatenate datasets, Paste two files side by side, Reverse, Transpose, Datamash, Subtract, Join two Datasets, Compare two Datasets, Group data by a column,
+    - **Join, Substract and Group**: Join two files, Multi-Join, Split file, Concatenate datasets, Paste two files side by side, Reverse, Transpose, Datamash, Subtract, Join two Datasets, Compare two Datasets, Group data by a column
     - **File conversion**: Tabular to CSV, CSV to Tabular, RData parser, RData reader, SQLite to tabular, Netcdf Read, Netcdf Metadata info, GDAL Translate
-    - **Graph / Display Data**: Bar chart, Histogram, Histogram w ggplot2, Scatterplot, Scatterplot w ggplot2, Plotting tool for multiple series, Boxplot, heatmap2, Violin plot w ggplot2, Heatmap w ggplot, PCA w ggplot2, rtsne, Visualize hierarchical data with Krona, Venn Diagram,   
-- [**Statistics tools**](https://asaim.readthedocs.io/en/latest/tools/genomics.html){:target="_blank"}
+    - **Graph / Display Data**: Bar chart, Histogram, Histogram w ggplot2, Scatterplot, Scatterplot w ggplot2, Plotting tool for multiple series, Boxplot, heatmap2, Violin plot w ggplot2, Heatmap w ggplot, PCA w ggplot2, rtsne, Visualize hierarchical data with Krona, Venn Diagram   
+- **Statistics tools**
 	- **Treat Samples**: Generate random samples, Select max values Statistical 
-	- **Pre-process**: Line/Word/Character count, Count, Arithmetic Operations, Feature Selection, Preprocess raw feature vectors, 
+	- **Pre-process**: Line/Word/Character count, Count, Arithmetic Operations, Feature Selection, Preprocess raw feature vectors 
 	- **Descriptive Stats**: Summary Statistics, Hypothesis testing, Correlation  
-	- **Classification**: Numeric Clustering, Calculate metrics for classification, Nearest Neighbors Classification, 
-	- **Multi-dimensional Analysis**: PCA, Kernel CCA, CCA, Generate a Matrix for PCA/LDA, Perform LDA, Draw ROC plot, Multivariate PCA PLS and OPLS,
-	- **Classical Analysis**: Univariate statistics, T Test for Two Samples, ANOVA, Wavelet variance, Evaluate pairwise distance, Sparse Matrix Functions,
+	- **Classification**: Numeric Clustering, Calculate metrics for classification, Nearest Neighbors Classification 
+	- **Multi-dimensional Analysis**: PCA, Kernel CCA, CCA, Generate a Matrix for PCA/LDA, Perform LDA, Draw ROC plot, Multivariate PCA PLS and OPLS
+	- **Classical Analysis**: Univariate statistics, T Test for Two Samples, ANOVA, Wavelet variance, Evaluate pairwise distance, Sparse Matrix Functions
 	- **Model-based**: Perform Best-subsets Regression, Hyperparameter Search, Pipeline Builder, Model validation, Generalized linear models, Discriminant analysis, MINE, Calculate metrics for regression performance, Ensemble methods 
-- [**Ecology tools**](https://asaim.readthedocs.io/en/latest/tools/microbiota.html){:target="_blank"}
+- **Ecology tools**
     - **Get Ecological data**: Get species occurences data, Get protocoled data from Vigie-Nature ,Get climatic data from Worldclim
     - **Graph / Display Ecological data**: Compare sites
     - **Animal Detection on Acoustic Recordings**: Tadarida-d (from wav file to features), Tadarida-c (from features to species), Tadarida data cleaner, Tadarida identification integration, Advanced restitution: raw approach, Advanced restitution: summary
