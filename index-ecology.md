@@ -5,7 +5,9 @@ layout: galaxy
 {% include notices.html %}
 {% include maintenance.html %}
 
-Welcome to **Galaxy for Ecology**
+Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize ecological data
+
+![2018 Concarneau Galaxy-E team](https://github.com/65MO/Galaxy-E/blob/master/galaxy/static/Galaxy-E-concarneau-team-2018-logo.gif)
 
 1. TOC
 {:toc}
@@ -54,7 +56,9 @@ We then developed [several tutorials](https://galaxyproject.github.io/training-m
 - Introduction to species phenology study and abundance index as trends computation
 - Introduction to Species Distribution Modeling (SDM) using Wallace R Shiny app
 
-# Workflows?
+# Workflows
+
+- Phenology study and abundance index as trends computation through regionalGAM
 
 # Our Data Policy
 
