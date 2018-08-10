@@ -7,7 +7,7 @@ layout: galaxy
 
 Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize ecological data
 
-![2018 Concarneau Galaxy-E team](https://github.com/65MO/Galaxy-E/blob/master/galaxy/static/Galaxy-E-concarneau-team-2018-logo.gif)
+![2018 Concarneau Galaxy-E team](https://github.com/usegalaxy-eu/website/tree/master/assets/media/Galaxy-E-concarneau-team-2018-logo.gif)
 
 1. TOC
 {:toc}
