@@ -5,7 +5,7 @@ starts: 2018-08-14 09:30:00 CET
 ends:   2018-08-14 11:00:00 CET
 jobs_affected: true
 message: |
-    We have an unplanned downtime on Wednesday, August 14th. We
+    We have an unplanned downtime on today, August 14th. We
     were recently informed that the University will perform mainteance
     affecting the primary fileserver where we store all of the recently created
     Galaxy datasets.
