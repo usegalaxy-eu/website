@@ -9,7 +9,7 @@ layout: galaxy
 
 Welcome to the Galaxy CLIP-Explorer -- a webserver to process, analyse and visualise CLIP-Seq data.
 
-![](https://github.com/Florian-H-Lab/CLIP-Explorer/raw/master/pictures/cover_design_clipseq.png)
+![](/assets/media/cover_design_clipseq.png)
 
 ## 1. Getting Started with Galaxy CLIP-Explorer
 
@@ -44,8 +44,8 @@ rep2	TGGC </br>
 rep3	TTAA </br>
 The raw data needs to be in FASTA or FASTQ format as a list of dataset pairs.
 
-- <a href="https://github.com/Florian-H-Lab/CLIP-Explorer/blob/master/eCLIP/1_Demultiplex_eCLIP.ga">Workflow to de-multiplex eCLIP read library</a>
-- <a href="https://github.com/Florian-H-Lab/CLIP-Explorer/blob/master/iCLIP/2_Demultiplex_iCLIP.ga">Workflow to de-multiplex iCLIP read library</a>
+- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/1demultiplexeclip">Workflow to de-multiplex eCLIP read library</a>
+- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/2demultiplexiclip">Workflow to de-multiplex iCLIP read library</a>
 
 
 ### 3.2 From scratch with de-multiplexed FASTQ files
@@ -67,28 +67,28 @@ If you used the preceding workflows for de-multiplexing, then remove the steps o
 The workflow for the eCLIP data of [Nostrand et al. (2016)](https://doi.org/10.1038/nmeth.3810) was used to analyse the data of RBFOX2. Beware when using other data of the study of [Nostrand et al. (2016)](https://doi.org/10.1038/nmeth.3810), because the size of the unique molecular identifier (UMI) can be different. The workflow is set to a UMI of five nucleotides. You can change this by importing the workflow into your account and amend the parameter `Cut bases from reads before adapter trimming` of the second `Cutadapt` step for the CLIP and control data.
 
 #### eCLIP
-- <a href="https://github.com/Florian-H-Lab/CLIP-Explorer/blob/master/eCLIP/1_CLIPseq-Explorer_demulti_PEAKachu_Nostrand_eCLIP_hg19_N5.ga">Workflow for the eCLIP data of Nostrand et al. (2016)</a>
-- <a href="https://github.com/Florian-H-Lab/CLIP-Explorer/blob/master/eCLIP/2_CLIPseq-Explorer_demulti_PEAKachu_eCLIP_hg19.ga">Peakcalling with PEAKachu</a>
-- <a href="https://github.com/Florian-H-Lab/CLIP-Explorer/blob/master/eCLIP/3_CLIPseq-Explorer_demulti_PureCLIP_eCLIP_hg19.ga">Peak calling with PureCLIP</a>
-- <a href="https://github.com/Florian-H-Lab/CLIP-Explorer/blob/master/eCLIP/4_CLIPseq-Explorer_demulti_Piranha_eCLIP_hg19.ga">Peak calling with Piranha</a>
+- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/1clipseq-explorerdemultiplexedpeakachuecliphg19n5-1">Workflow for the eCLIP data of Nostrand et al. (2016)</a>
+- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/2clipseq-explorerdemultipeakachuecliphg19">Peakcalling with PEAKachu</a>
+- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/3clipseq-explorerdemultipureclipecliphg19">Peak calling with PureCLIP</a>
+- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/4clipseq-explorerdemultipiranhaecliphg19">Peak calling with Piranha</a>
 
 #### iCLIP
-- <a href="https://github.com/Florian-H-Lab/CLIP-Explorer/blob/master/iCLIP/1_CLIPseq-Explorer_demulti_PEAKachu_iCLIP_hg19.ga">Peak calling with PEAKachu</a>
-- <a href="https://github.com/Florian-H-Lab/CLIP-Explorer/blob/master/iCLIP/2_CLIPseq-Explorer_demulti_PureCLIP_iCLIP_hg19.ga">Peak calling with PureCLIP</a>
-- <a href="https://github.com/Florian-H-Lab/CLIP-Explorer/blob/master/iCLIP/3_CLIPseq-Explorer_demulti_Piranha_iCLIP_hg19.ga">Peak calling with Piranha</a>
+- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/1clipseq-explorerdemultipeakachuicliphg19">Peak calling with PEAKachu</a>
+- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/2clipseq-explorerdemultipureclipicliphg19">Peak calling with PureCLIP</a>
+- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/3clipseq-explorerdemultipiranhaicliphg19">Peak calling with Piranha</a>
 
 ### 3.3 Further optional peak analysis
 
 The following workflow can be used if you have picked a peak calling algorithm that do not support biological replicated data. The workflow finds and analysis robust binding regions shared between different peak files.   
 
-- <a href="https://github.com/Florian-H-Lab/CLIP-Explorer/blob/master/others/RobustPeak_Analysis.ga">Robust peak analysis</a>
+- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/robustpeakanalysis">Robust peak analysis</a>
 
 ## 4. Remarks
 
 Please follow the CLIP-Seq data analysis <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> for a deeper understand of the tools of CLIP-Explorer. Changes to the workflows can be done anytime and without any problems. Simply import the workflow into your account and amend the necessary tools. Therefore, keep the following things in mind:  
 
 ### 4.1 Adapter sequences
-The workflows uses `Cutadapt` to remove standard eCLIP and iCLIP adapter sequences. You need to change `Cutadapt` if your read library covers other adapter seqeunces.
+The workflows uses `Cutadapt` to remove standard eCLIP and iCLIP adapter sequences. You need to change `Cutadapt` parameters if your read library covers other adapter sequences.
 
 ### 4.2 UMI and in-line barcodes
 The workflows uses `Cutadapt` to trim of the length of the UMI (+ barcode) from one site of the read pair. This depends on the iCLIP, eCLIP and your own protocol. Please check or change the parameter in `Cutadapt` based on your UMI and in-line barcode. For more information follow the CLIP-Seq data analysis <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a>.</br>
