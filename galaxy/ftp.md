@@ -14,6 +14,12 @@ Server                   | Port | Properties
 `galaxy.uni-freiburg.de` | 21   | Insecure connections only, no support for tls.
 {:.table.table-striped}
 
+## Upload multiple files via curl
+
+`curl -T {"file1,file2"} ftp://ftp.usegalaxy.eu --user user@name.de --ssl`
+
+The list needs to be comma seperated, without spaces and in quotation: `{"file1,file2"}`
+
 ## Credentials
 
 Use the same email address and password that you use to login to [usegalaxy.eu](https://usegalaxy.eu)
