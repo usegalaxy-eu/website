@@ -80,6 +80,8 @@ layout: default
       </div>
     </div>
 </div>
+{% if page.hidefooter %}
+{% else %}
 <div class="row">
 	<div class="col-md-2 col-sm-6">
 		{% if page.organiser %}
@@ -96,8 +98,8 @@ layout: default
 	</div>
 {% if page.supporters.size > 0 %}
 	<div class="col-md-8 col-sm-12">
-{% include sponsors.html page=page %}
+{% include sponsors.html supporters=page.supporters %}
 	</div>
 {% endif %}
 </div>
-
+{% endif %}
