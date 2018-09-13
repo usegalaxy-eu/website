@@ -24,10 +24,22 @@ supporters:
 hidefooter: true
 ---
 
-Galaxy workshop on RNA-seq data analysis, December 2018, registration is open! For attendance, please apply [here](https://drive.google.com/open?id=14sCTr5r1Ca6hGhJTKZVgZRzPAlTtRN1r7xAlNuUtN9k)
+Galaxy workshop on RNA-seq data analysis, December 2018, registration is open! For attendance, please apply to
 
-The Freiburg Galaxy Team and the DZL Nachwuchs-Academy offer an introductory course to the analysis
-of high-throughput sequencing data using the Galaxy platform.
+```
+Dr. Birgit Teucher
+Translational Lung Research Center (TLRC), Dept. of Translational
+Pulmonology, Heidelberg University Hospital, Universität Heidelberg,
+Im Neuenheimer Feld 156, 69120 Heidelberg
+Tel.: +49 (0)6221-56 4296        Fax: +49 (0)6221-56 4504
+E-Mail: Birgit.Teucher@med.uni-heidelberg.de
+```
+
+The Freiburg Galaxy Team and the [DZL](https://www.dzl.de)
+[Nachwuchs-Academy](https://www.dzl.de/index.php/de/karriere-de/dzl-academy) offer an introductory course
+to the analysis of high-throughput sequencing data using the Galaxy platform.
+DZL Academy Fellows can get a scholarship that will cover travel and
+accommodation costs.
 
 ## Venue
 
