@@ -52,12 +52,8 @@ accommodation costs.
 1. If you are registered but **cannot attend** our workshop, please [contact us
    by email](mailto:contact@usegalaxy.eu) immediately. We have a long waiting
    list and can give your place to others, even on short notice.
-2. Please register at [https://usegalaxy.eu](https://usegalaxy.eu) if you have
-   not done so already. For the MPI people: the European Galaxy server is
-   different from the Galaxy server of MPI: you will need an account on our
-   server, too.
-3. You can bring your *own notebook* or computers will be available. Eduroam is available, ask your institute for how to login.
-4. The workshop is free of charge. No stipends for travel or accommodation are available.
+2. You can bring your *own notebook* or computers will be available. Eduroam is available, ask your institute for how to login.
+3. The workshop is free of charge. No stipends for travel or accommodation are available.
 
 ## Program:
 
@@ -119,7 +115,7 @@ StayInn Hostel und Gästehaus                  | Stühlinger Str.24a | [Website]
 
 ## Organizers
 
-{% assign extra_organizers =  "galaxy-freiburg|galaxy-europe|mpi" | split: "|"  %}
+{% assign extra_organizers =  "galaxy-freiburg|galaxy-europe" | split: "|"  %}
 {% include sponsors.html supporters=extra_organizers hidetitle=true %}
 
 ## Supported By
