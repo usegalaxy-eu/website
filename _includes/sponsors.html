@@ -1,9 +1,12 @@
-{% if include.page.supporters.size > 0 %}
+{% if include.supporters.size > 0 %}
 <div id="supported">
+    {% if include.hidetitle %}
+    {% else %}
   <h3>Supported by</h3>
+    {% endif %}
   <div class="row eu-image-box">
-      {% for supporter in include.page.supporters %}
-
+      {% for supporter in include.supporters %}
+      <div>
       {% assign supporter_lower = supporter | downcase %}
           {% if supporter_lower == "denbi" %}
             <a href="https://www.denbi.de" target="_blank">
@@ -17,10 +20,34 @@
             <a href="https://www.alwr-bw.de/kooperationen/vice/" target="_blank">
               <img alt="ViCE logo" src="{{ '/assets/media/Logo_VICE.png' | absolute_url }}" class="img-responsive eu-image" />
             </a>
+          {% elsif supporter_lower == "unifreiburg" %}
+            <a href="http://uni-freiburg.de/" target="_blank">
+              <img alt="University of Freiburg Logo" src="{{ '/assets/media/Logo_Uni_Freiburg.png' | absolute_url }}" class="img-responsive eu-image" />
+            </a>
+          {% elsif supporter_lower == "backofenlab" %}
+            <a href="http://bioinf.uni-freiburg.de/" target="_blank">
+              <img alt="Backofen Lab Logo" src="{{ '/assets/media/bioinf-fr-logo-blau.jpg' | absolute_url }}" class="img-responsive eu-image" />
+            </a>
+          {% elsif supporter_lower == "crc992" %}
+            <a href="http://www.sfb992.uni-freiburg.de/" target="_blank">
+              <img alt="CRC 992 Logo" src="{{ '/assets/media/crc992.png' | absolute_url }}" class="img-responsive eu-image" />
+            </a>
+          {% elsif supporter_lower == "galaxy-freiburg" %}
+            <a href="https://usegalaxy.eu/freiburg" target="_blank">
+              <img alt="Freiburg Galaxy Team Logo" src="{{ '/assets/media/freiburg-galaxy.svg' | absolute_url }}" class="img-responsive eu-image" />
+            </a>
+          {% elsif supporter_lower == "galaxy-europe" %}
+            <a href="https://usegalaxy-eu.github.io" target="_blank">
+              <img alt="European Galaxy Team Logo" src="{{ '/assets/media/galaxy-eu.png' | absolute_url }}" class="img-responsive eu-image" />
+            </a>
+          {% elsif supporter_lower == "mpi" %}
+            <a href="https://www.ie-freiburg.mpg.de/" target="_blank">
+              <img alt="MPI Logo" src="{{ '/assets/media/mpi.jpg' | absolute_url }}" class="img-responsive eu-image" />
+            </a>
           {% else %}
               {{ supporter }}
           {% endif %}
-
+      </div>
       {% endfor %}
   </div>
 </div>
