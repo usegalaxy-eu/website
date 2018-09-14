@@ -20,6 +20,7 @@ location:
 supporters:
 - unifreiburg
 - denbi
+- dzlacademy
 - dzl
 # special hiding of footer since we want to do it manually.
 hidefooter: true
