@@ -37,7 +37,7 @@ E-Mail: Birgit.Teucher@med.uni-heidelberg.de
 ```
 
 The Freiburg Galaxy Team and the [DZL](https://www.dzl.de)
-[Nachwuchs-Academy](https://www.dzl.de/index.php/de/karriere-de/dzl-academy) offer an introductory course
+[Academy](https://www.dzl.de/index.php/de/karriere-de/dzl-academy) offer an introductory course
 to the analysis of high-throughput sequencing data using the Galaxy platform.
 DZL Academy Fellows can get a scholarship that will cover travel and
 accommodation costs.
@@ -54,6 +54,8 @@ accommodation costs.
    list and can give your place to others, even on short notice.
 2. You can bring your *own notebook* or computers will be available. Eduroam is available, ask your institute for how to login.
 3. The workshop is free of charge. No stipends for travel or accommodation are available.
+4. DZL Academy Fellows will be reimbursed for travel and accommodation by DZL Academy.
+
 
 ## Program:
 
