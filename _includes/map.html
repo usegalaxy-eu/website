@@ -37,8 +37,8 @@ var map = L.map('mapid').setView([
 	{{ include.location.geo.lon }}
 ], {% if include.zoomlevel %}{{ include.zoomlevel }}{% else %}9{% endif %});
 
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+	attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
 var parts = [
