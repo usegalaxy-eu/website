@@ -12,7 +12,7 @@ layout: default-galaxy
       {% endfor %}
 
       <p class="small">
-          From {{ page.starts }} to {{ page.ends }} - 
+          From {{ page.starts }} to {{ page.ends }} -
           <a href="{{ page.url | absolute_url | replace:'http://', 'webcal://' | replace:'https://', 'webcal://' }}event.ics.html"><i class="fa fa-calendar" aria-hidden="true"></i> Add to your Calendar</a>
       </p>
 
@@ -21,6 +21,8 @@ layout: default-galaxy
       </div>
     </div>
 </div>
+{% if page.hidefooter %}
+{% else %}
 <div class="row">
 	<div class="col-md-2 col-sm-6">
 		{% if page.organiser %}
@@ -41,4 +43,4 @@ layout: default-galaxy
 	</div>
 {% endif %}
 </div>
-
+{% endif %}
