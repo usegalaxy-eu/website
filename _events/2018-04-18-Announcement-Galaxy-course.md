@@ -60,6 +60,10 @@ Thu     | HiC data analysis
 Fri     | Exercises & discussion (ending around 13:00)
 {:.table.table-striped}
 
+## Lunch Options
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1Brpw-UguRNDISn4_bVk8ifRkTRG8JIWR" width="100%" height="480"></iframe>
+
 ## Preparation
 
 You must go through two Galaxy interactive tours before beginning the training.
