@@ -51,13 +51,13 @@ The Freiburg Galaxy Team and Deep-Sequencing unit at the MPI-IE Freiburg offer a
 
 Every day the workshop will run from 9:00-17:00 (give or take, depending on questions at the end). If the times will change, it will be announced during the workshop.
 
-Day     | Topics
-------- | --------
-Monday  | **Starts at 10:00 am**,  HTS and Galaxy presentations and introduction
-Tuesday | Quality control, Mapping, ChIP-seq analysis, IGV introduction
-Wed     | RNA-seq analysis
-Thu     | HiC data analysis
-Fri     | Exercises & discussion (ending around 13:00)
+Day | Topics | Material
+--- | --- | ---
+Mon | **Starts at 10:00 am**,  HTS and Galaxy presentations and introduction | [tutorial](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html)
+Tue | Quality control, Mapping, ChIP-seq analysis, IGV introduction | [tutorial](http://galaxyproject.github.io/training-material/topics/chip-seq/tutorials/formation_of_super-structures_on_xi/tutorial.html), [slides](http://galaxyproject.github.io/training-material/topics/chip-seq/tutorials/formation_of_super-structures_on_xi/slides.html#1)
+Wed | RNA-seq analysis | [tutorial](http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html), [slides](http://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html#1)
+Thu | HiC data analysis |
+Fri | Exercises & discussion (ending around 13:00) |
 {:.table.table-striped}
 
 ## Lunch Options
