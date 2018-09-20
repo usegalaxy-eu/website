@@ -49,15 +49,15 @@ The Freiburg Galaxy Team and Deep-Sequencing unit at the MPI-IE Freiburg offer a
 
 ## Program:
 
-Every day the workshop will run from 9:00-17:00 (give or take, depending on questions at the end). If the times will change, it will be announced during the workshop.
+If the times will change, it will be announced during the workshop.
 
-Day       | Topics                                                                 | Material
---------- | ---------------------------------------------------------------------- | -------------
-Monday    | **Starts at 10:00 am**,  HTS and Galaxy presentations and introduction | [tutorial](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html)
-Tueday    | Quality control, Mapping, ChIP-seq analysis, IGV introduction          | [tutorial](http://galaxyproject.github.io/training-material/topics/chip-seq/tutorials/formation_of_super-structures_on_xi/tutorial.html), [slides](http://galaxyproject.github.io/training-material/topics/chip-seq/tutorials/formation_of_super-structures_on_xi/slides.html#1)
-Wednesday | RNA-seq analysis                                                       | [tutorial](http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html), [slides](http://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html#1)
-Thursday  | HiC data analysis                                                      |
-Friday    | Exercises & discussion (ending around 13:00)                           |
+Day       | Start | End   | Topics                                                                 | Material
+--------- | ----- | ----  | ---------------------------------------------------------------------- | -------------
+Monday    | 10:00 | 17:00 | HTS and Galaxy presentations and introduction                          | [tutorial](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html)
+Tueday    | 9:00  | 17:00 | Quality control, Mapping, ChIP-seq analysis, IGV introduction          | [tutorial](http://galaxyproject.github.io/training-material/topics/chip-seq/tutorials/formation_of_super-structures_on_xi/tutorial.html), [slides](http://galaxyproject.github.io/training-material/topics/chip-seq/tutorials/formation_of_super-structures_on_xi/slides.html#1)
+Wednesday | 9:00  | 17:00 | RNA-seq analysis                                                       | [tutorial](http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html), [slides](http://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html#1)
+Thursday  | 9:00  | 17:00 | HiC data analysis                                                      |
+Friday    | 9:00  | 13:00 | Exercises & discussion                                                 |
 {:.table.table-striped}
 
 ## Lunch Options
