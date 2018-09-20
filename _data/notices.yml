@@ -4,9 +4,9 @@
   messages:
       - message: |
           Galaxy is back. We hope it will be stable but we cannot make any
-          guarantees. This was one of the worst failure scenarios we have seen
-          in recent memory. We had plans which would have decreased the impact
-          of this particular incident, but had not yet implemented them.
+          guarantees. This was an unexpectedly bad failure scenario. We had
+          plans which would have decreased the impact of this particular
+          incident, but had not yet implemented them.
         date: 2018-09-20 18:24:00 CEST
       - message: |
             We have had significant unplanned downtime today, due to numerous
