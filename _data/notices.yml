@@ -1,13 +1,23 @@
 ---
-#- title: Jobs which download files from URL currently fail
-  #class: danger # success info warning danger
-  #messages:
-      #- message: |
-          #The freiburg compute center has reconfigured the network. This change
-          #resulted in our VMs that run our jobs losing internet access. As a
-          #result, any job which tries to download data from the internet will
-          #fail. Please download locally and upload via FTP (or browser) in the meantime.
-        #date: 2018-08-24 13:10:28+02:00
+- title: Galaxy Downtime
+  class: danger # success info warning danger
+  messages:
+      - message: |
+          Galaxy is back. We hope it will be stable but we cannot make any
+          guarantees. This was one of the worst failure scenarios we have seen
+          in recent memory. We had plans which would have decreased the impact
+          of this particular incident, but had not yet implemented them.
+        date: 2018-09-20 18:24:00 CEST
+      - message: |
+            We have had significant unplanned downtime today, due to numerous
+            unexpected hardware and software problems spanning multiple machines.
+
+            We are attempting to triage this to the best of our ability. We will keep
+            you updated.
+        date: 2018-09-20 16:21:00 CEST
+      - message: |
+          Galaxy is down
+        date: 2018-09-20 12:00:00 CEST
 
 #- title: All jobs were failing
   #class: info # success info warning danger
