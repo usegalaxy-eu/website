@@ -1,5 +1,8 @@
 <head>
   <title>{{ site.title | escape }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+  <meta property="og:image" content="{{ "/assets/media/galaxy-eu-logo.512.png" | absolute_url }}" />
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">

@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Freiburg
 ---
 
 <div class="home">

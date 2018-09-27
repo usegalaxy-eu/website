@@ -1,5 +1,6 @@
 ---
 layout: home
+title: ErasmusMC
 ---
 
 <div class="home">
