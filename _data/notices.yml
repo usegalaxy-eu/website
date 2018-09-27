@@ -1,13 +1,4 @@
 ---
-- title: Brief downtime
-  class: info # success info warning danger
-  messages:
-      - message: |
-          We are making some changes to our DNS records as part of an ongoing
-          migration to our new cloud. This should not result in more than 10
-          minutes of inaccessibility.
-        date: 2018-09-25 23:00:00+02:00
-
 #- title: All jobs were failing
   #class: info # success info warning danger
   #messages:
