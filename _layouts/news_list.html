@@ -35,7 +35,11 @@ layout: default
     <div class="col-md-4 news">
       <div class="row" style="padding: 1em">
         <div>
-          <a href="{{ post.url | absolute_url }}">
+          {% if post.external %}
+            <a href="{{ post.external }}">
+          {% else %}
+            <a href="{{ post.url | absolute_url }}">
+          {% endif %}
             <h2 class="title">{{ post.title | escape }}</h2>
           </a>
           <span class="date">
