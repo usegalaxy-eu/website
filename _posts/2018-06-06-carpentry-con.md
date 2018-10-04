@@ -5,7 +5,7 @@ title: Data Carpentry workshop and CarpentryCon
 location: Dublin, Ireland
 ---
 
-Last week was [CarpentryCon](http://www.carpentrycon.org/) at [University College Dublin](https://www.ucd.ie/), Ireland.
+Last week was [CarpentryCon](https://www.carpentrycon.org/) at [University College Dublin](https://www.ucd.ie/), Ireland.
 
 <div class="multiple-img">
     <a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/134305289@N03/42464629032/in/album-72157667641880727/" title="CarpentryCon2018 @ Dublin"><img src="https://farm2.staticflickr.com/1721/42464629032_9e3a6ffaf1_z.jpg" width="640" height="427" alt="CarpentryCon2018 @ Dublin"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

@@ -21,7 +21,7 @@ With the advent of high-throughput platforms, life science data analysis is tigh
 
 Data analysis training is particularly challenging without a computational background. The Galaxy framework is addressing this problem by offering a web-based, intuitive and accessible user interface to numerous bioinformatics tools.
 
-Recently, the Galaxy Training Network (GTN) set up a new open, collaborative, online model for delivering high-quality bioinformatics training material: http://training.galaxyproject.org.
+Recently, the Galaxy Training Network (GTN) set up a new open, collaborative, online model for delivering high-quality [bioinformatics training material](https://training.galaxyproject.org).
 
 Each of the current 13 topics provides tutorials with hands-on, slides and interactive tours. Tours are a new way to go through an entire analysis, step by step inside Galaxy in an interactive and explorative way. All material is openly reviewed, and iteratively developed in one central repository by almost 50 contributors. Content is written in Markdown and, similarly to Software/Data Carpentry, the model separates presentation from content. In addition, the technological infrastructure needed to teach is described with a list of needed tools, annotation of public Galaxy instances and Docker images for each topic. The data are also stored in Zenodo and citable via DOI.
 

@@ -15,14 +15,14 @@ Welcome to the Galaxy HiCExplorer -- a webserver to process, analyse and visuali
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a target="_parent" href="https://hicexplorer.usegalaxy.eu/tours/core.galaxy_ui">a guided tour</a> through Galaxy's user interface. 
 
-Take <a target="_parent" href="https://hicexplorer.usegalaxy.eu/tours/hixexplorer">a guided tour</a> for an introduction to Galaxy HiCExplorer and Hi-C data analysis. This tour is guides you through the Hi-C tutorial on the <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/hicexplorer/tutorial.html">Galaxy Training Network</a>  where you can analyse Hi-C data of Drosophila melanogaster. Follow the tutorial to understand the analysis steps better or as a help which parameters are useful.
+Take <a target="_parent" href="https://hicexplorer.usegalaxy.eu/tours/hixexplorer">a guided tour</a> for an introduction to Galaxy HiCExplorer and Hi-C data analysis. This tour is guides you through the Hi-C tutorial on the <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/hicexplorer/tutorial.html">Galaxy Training Network</a>  where you can analyse Hi-C data of Drosophila melanogaster. Follow the tutorial to understand the analysis steps better or as a help which parameters are useful.
 
 A precomputed history of the tutorial can be viewed <a target="_parent" href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/drosophila-melanogaster-hi-c-training">here</a>.
 
 
-A more advanced tutorial is hosted on <a target="_parent" href="http://hicexplorer.readthedocs.io/en/latest/content/mES-HiC_analysis.html">readthedocs.io</a>. It is designed for the shell based version of the HiCExplorer but can be easily adapted to Galaxy HiCExplorer. In this tutorial mouse stems cells from <a target="_parent" href="http://www.genomebiology.com/2015/16/1/149">Marks et al. (2015)</a> are analysed. We provided the input fastq files in our <a target="_parent" href="https://hicexplorer.usegalaxy.eu/library/list#folders/F49c63be29eb6cbc1">data library</a>.
+A more advanced tutorial is hosted on <a target="_parent" href="https://hicexplorer.readthedocs.io/en/latest/content/mES-HiC_analysis.html">readthedocs.io</a>. It is designed for the shell based version of the HiCExplorer but can be easily adapted to Galaxy HiCExplorer. In this tutorial mouse stems cells from <a target="_parent" href="https://www.genomebiology.com/2015/16/1/149">Marks et al. (2015)</a> are analysed. We provided the input fastq files in our <a target="_parent" href="https://hicexplorer.usegalaxy.eu/library/list#folders/F49c63be29eb6cbc1">data library</a>.
 
-We recommend to follow the tutorial on <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html">FASTQC<a/> for quality checks.
+We recommend to follow the tutorial on <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html">FASTQC<a/> for quality checks.
 ### Example data
 
 The Galaxy Training Network tutorial uses Hi-C data from Drosophila melanogaster and is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.1183661"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1183661.svg" alt="DOI"></a>

@@ -9,7 +9,7 @@ supporters:
 ---
 
 Our preliminary program for the Galaxy User Conference is now ready.
-You can fine more information [here](http://bit.ly/2BWpolM) and register [here](https://docs.google.com/forms/d/e/1FAIpQLSfqKqyPwW-s6m64ObleUSv4B8RbGxCRIddBY1cpt3Za7af6XQ/viewform).
+You can fine more information [here](https://bit.ly/2BWpolM) and register [here](https://docs.google.com/forms/d/e/1FAIpQLSfqKqyPwW-s6m64ObleUSv4B8RbGxCRIddBY1cpt3Za7af6XQ/viewform).
 
 **Thursday, 15.03.2018**
 
@@ -95,7 +95,7 @@ and analysis accessible, reproducible, and transparent.</td>
     </tr>
     <tr>
       <td valign="top">19:00</td>
-       <td valign="top">Dinner at <a href="http://www.martinsbräu-freiburg.de/">Martinsbräu</a> (everybody pays by its own)</td>
+       <td valign="top">Dinner at <a href="https://www.martinsbräu-freiburg.de/">Martinsbräu</a> (everybody pays by its own)</td>
        <td valign="top">&nbsp;</td>
     </tr>
   </tbody>

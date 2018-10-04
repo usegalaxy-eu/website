@@ -8,7 +8,7 @@ supporters:
  - ViCE
 ---
 
-Our paper "Bioconda: A sustainable and comprehensive software distribution for the life sciences", written with the **great and *big*** [BioConda](http://bioconda.github.io/) community, is now available as preprint on [bioRXiv](https://www.biorxiv.org/content/early/2017/10/21/207092).
+Our paper "Bioconda: A sustainable and comprehensive software distribution for the life sciences", written with the **great and *big*** [BioConda](https://bioconda.github.io/) community, is now available as preprint on [bioRXiv](https://www.biorxiv.org/content/early/2017/10/21/207092).
 
 ## Abstract
 

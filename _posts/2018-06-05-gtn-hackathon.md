@@ -5,7 +5,7 @@ title: Workshop for Galaxy training material and skills improvement
 location: Norwich, UK
 ---
 
-From 21st to 23rd of May was held a workshop for Galaxy training material and skills improvement at the [Earlham Institut](http://www.earlham.ac.uk/) in Norwich. Bérénice and Björn were there! 
+From 21st to 23rd of May was held a workshop for Galaxy training material and skills improvement at the [Earlham Institut](https://www.earlham.ac.uk/) in Norwich. Bérénice and Björn were there! 
 
 {% twitter https://twitter.com/bebatut/status/998485131995369472 %}
 

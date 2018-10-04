@@ -57,7 +57,7 @@ If you want to offer a training course to other researchers, we do maintain a se
 
 Hackathons or contribution fests are short events (usually few days) where people combine their force and **develop new, or improving existing techniques, tools, training materials, etc.** 
 
-We organize numerous hackathons per year on site or online, in close cooperation with [de.NBI](http://www.denbi.de/), [ELIXIR](https://www.elixir-europe.org/), and the Galaxy community. 
+We organize numerous hackathons per year on site or online, in close cooperation with [de.NBI](https://www.denbi.de/), [ELIXIR](https://www.elixir-europe.org/), and the Galaxy community. 
 
 ---
 <a name="training-infrastructure-as-a-service"></a>
@@ -79,7 +79,7 @@ For sensitive (biomedical) data and users with internet limitations, we offer **
 
 Spending valuable time in compilation hell or frustrating conversations with cluster admins because tools are not available should not be a problem nowadays.
 
-Therefore, we are leading the Bioconda ([http://bioconda.github.io](http://bioconda.github.io)) and BioContainers ([https://biocontainers.pro](https://biocontainers.pro)) projects, which together form the best stack for reproducible science ever.
+Therefore, we are leading the Bioconda ([https://bioconda.github.io](https://bioconda.github.io)) and BioContainers ([https://biocontainers.pro](https://biocontainers.pro)) projects, which together form the best stack for reproducible science ever.
 
 ### Virtualization of Galaxy and customized flavors
 
@@ -87,7 +87,7 @@ With the [Galaxy Docker project](https://github.com/bgruening/docker-galaxy-stab
 
 To meet custom need, we also maintain and offer these Galaxy instance for download in a variety of different "flavors". For example:
 - the [RNA-workbench flavour](https://github.com/bgruening/galaxy-rna-workbench) for all RNA related research
-- [ASaiM](http://asaim.readthedocs.io) flavor for metagenomics
+- [ASaiM](https://asaim.readthedocs.io) flavor for metagenomics
 - A [flavor dedicated to epigenetic research](https://github.com/bgruening/docker-galaxy-epigenetics).
 
 ---

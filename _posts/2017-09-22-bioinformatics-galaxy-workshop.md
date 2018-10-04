@@ -17,4 +17,4 @@ During this workshop, attendees learned:
 - Day 4: Exome-seq, MethylC-seq
 - Day 5: Recap and exercises
 
-This workshop was organized by the [Bioinformatics and Deep-Sequencing Unit at the MPI-IE Freiburg](http://www.ie-freiburg.mpg.de/bioinformaticsfac) and our team.
+This workshop was organized by the [Bioinformatics and Deep-Sequencing Unit at the MPI-IE Freiburg](https://www.ie-freiburg.mpg.de/bioinformaticsfac) and our team.

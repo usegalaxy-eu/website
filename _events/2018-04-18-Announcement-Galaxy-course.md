@@ -53,9 +53,9 @@ If the times will change, it will be announced during the workshop.
 
 Day       | Start | End   | Topics                                                                 | Material
 --------- | ----- | ----  | ---------------------------------------------------------------------- | -------------
-Monday    | 10:00 | 17:00 | HTS and Galaxy presentations and introduction                          | [tutorial](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html)
-Tueday    | 9:00  | 17:00 | Quality control, Mapping, ChIP-seq analysis, IGV introduction          | [tutorial](http://galaxyproject.github.io/training-material/topics/chip-seq/tutorials/formation_of_super-structures_on_xi/tutorial.html), [slides](http://galaxyproject.github.io/training-material/topics/chip-seq/tutorials/formation_of_super-structures_on_xi/slides.html#1)
-Wednesday | 9:00  | 17:00 | RNA-seq analysis                                                       | [tutorial](http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html), [slides](http://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html#1)
+Monday    | 10:00 | 17:00 | HTS and Galaxy presentations and introduction                          | [tutorial](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html)
+Tueday    | 9:00  | 17:00 | Quality control, Mapping, ChIP-seq analysis, IGV introduction          | [tutorial](https://galaxyproject.github.io/training-material/topics/chip-seq/tutorials/formation_of_super-structures_on_xi/tutorial.html), [slides](https://galaxyproject.github.io/training-material/topics/chip-seq/tutorials/formation_of_super-structures_on_xi/slides.html#1)
+Wednesday | 9:00  | 17:00 | RNA-seq analysis                                                       | [tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html), [slides](https://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html#1)
 Thursday  | 9:00  | 17:00 | HiC data analysis                                                      |
 Friday    | 9:00  | 13:00 | Exercises & discussion                                                 |
 {:.table.table-striped}
@@ -81,7 +81,7 @@ If you have any questions, please do not hesitate to [contact us](mailto:contact
 From Basel airport to Freiburg you have two options:
 
 1. Take the train to Freiburg Hauptbahnhof (ICE or EC takes 30 min; Regio 60 min)
-2. Take the airport shuttle bus to Freiburg Hauptbahnhof ([Timetable](http://www.freiburger-reisedienst.de/en/airportbus/timetable.php))
+2. Take the airport shuttle bus to Freiburg Hauptbahnhof ([Timetable](https://www.freiburger-reisedienst.de/en/airportbus/timetable.php))
 
 From Freiburg Hauptbahnhof to Venue you should use local public transport (VAG):
 

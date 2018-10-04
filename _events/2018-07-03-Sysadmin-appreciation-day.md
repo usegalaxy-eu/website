@@ -39,4 +39,4 @@ Consider all the daunting tasks and long hours (weekends too.) Let’s be honest
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/d8/System_Administrator_Appreciation_Day.jpg)
 
-Copied from [http://sysadminday.com/](http://sysadminday.com/)
+Copied from [https://sysadminday.com/](https://sysadminday.com/)

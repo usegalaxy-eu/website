@@ -85,7 +85,7 @@ If you have any questions, please do not hesitate to [contact us](mailto:contact
 From Basel airport to Freiburg you have two options:
 
 1. Take the train to Freiburg Hauptbahnhof (ICE or EC takes 30 min; Regio 60 min)
-2. Take the airport shuttle bus to Freiburg Hauptbahnhof ([Timetable](http://www.freiburger-reisedienst.de/en/airportbus/timetable.php))
+2. Take the airport shuttle bus to Freiburg Hauptbahnhof ([Timetable](https://www.freiburger-reisedienst.de/en/airportbus/timetable.php))
 
 From Freiburg Hauptbahnhof to Venue you should use local public transport (VAG):
 

@@ -54,6 +54,6 @@ The history is the foundation of **reproducibility and transparency** in Galaxy.
 
 Galaxy provides also a **powerful workflow system**. Workflows can be created by extraction of workflows from histories or from scratch with drag-and-drop. They are downloadable and sharable with everyone, no vendor lock-in.
 
-The thousands of tools are available with fixed versions and are managed by [Bioconda](http://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/).
+The thousands of tools are available with fixed versions and are managed by [Bioconda](https://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/).
 
 4 TB of reference data are available on [https://usegalaxy.eu](https://usegalaxy.eu) providing access to hundreds of reference genomes.

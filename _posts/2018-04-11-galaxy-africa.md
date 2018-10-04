@@ -5,7 +5,7 @@ location: Cape Town, South Africa
 site: freiburg
 ---
 
-The first [Galaxy conference](http://galaxyafrica.sanbi.ac.za/) was held last week in Africa, organized by [SANBI](http://www.sanbi.ac.za/) at [University of Wester Cape](https://www.uwc.ac.za/Pages/default.aspx) in Cape Town. Björn and Bérénice participated:
+The first [Galaxy conference](https://galaxyafrica.sanbi.ac.za/) was held last week in Africa, organized by [SANBI](https://www.sanbi.ac.za/) at [University of Wester Cape](https://www.uwc.ac.za/Pages/default.aspx) in Cape Town. Björn and Bérénice participated:
 
 {% twitter https://twitter.com/bebatut/status/981073917187100672 %}
 

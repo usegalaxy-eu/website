@@ -15,11 +15,11 @@ Welcome to the Galaxy CLIP-Explorer -- a webserver to process, analyse and visua
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a target="_parent" href="https://hicexplorer.usegalaxy.eu/tours/core.galaxy_ui">a guided tour</a> through Galaxy's user interface.
 
-Take a look at the CLIP-Seq data analysis tutorial on the <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">Galaxy Training Network</a>  where you can analyse CLIP-Seq data of RBFOX2 from human liver cancer cells (Hep G2). The tutorial will help you to understand the analysis steps and the most important parameters and tools that are used in CLIP-Explorer.
+Take a look at the CLIP-Seq data analysis tutorial on the <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">Galaxy Training Network</a>  where you can analyse CLIP-Seq data of RBFOX2 from human liver cancer cells (Hep G2). The tutorial will help you to understand the analysis steps and the most important parameters and tools that are used in CLIP-Explorer.
 
 The underlying workflow of the tutorial can be found <a target="_parent" href="https://github.com/galaxyproject/training-material/tree/master/topics/transcriptomics/tutorials/clipseq/workflows/">here</a>.
 
-We recommend to follow the tutorial on <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html">FastQC</a> for quality checks and the tutorial for <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/introduction/tutorials/igv-introduction/tutorial.html">IGV</a> for data inspection.
+We recommend to follow the tutorial on <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html">FastQC</a> for quality checks and the tutorial for <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/introduction/tutorials/igv-introduction/tutorial.html">IGV</a> for data inspection.
 
 
 The Galaxy Training Network tutorial uses eCLIP data from human liver cancer cells (Hep G2) and is hosted on zenodo: <a target="_parent" href="https://zenodo.org/record/1327423"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1327423.svg" alt="DOI"></a>
@@ -34,7 +34,7 @@ Galaxy CLIP-Explorer can process large CLIP-Seq data of eCLIP and iCLIP. We proc
 
 ## 3. Workflows
 
-We provide the subsequent workflows to automatize the data analysis for iCLIP and eCLIP data. All workflows can be found [here](https://github.com/Florian-H-Lab/CLIP-Explorer). The data needs to be in FASTA or FASTQ format and can be either multiplexed or de-multiplexed. All workflows, except the robust peak analysis, require the data as a list of dataset pairs. A tutorial to create a list of dataset pairs can be found in the CLIP-Seq data analysis <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> or [here](http://galaxyproject.github.io/training-material/topics/galaxy-data-manipulation/tutorials/collections/tutorial.html). Please have in mind that all workflows need additional input files from the user.
+We provide the subsequent workflows to automatize the data analysis for iCLIP and eCLIP data. All workflows can be found [here](https://github.com/Florian-H-Lab/CLIP-Explorer). The data needs to be in FASTA or FASTQ format and can be either multiplexed or de-multiplexed. All workflows, except the robust peak analysis, require the data as a list of dataset pairs. A tutorial to create a list of dataset pairs can be found in the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> or [here](https://galaxyproject.github.io/training-material/topics/galaxy-data-manipulation/tutorials/collections/tutorial.html). Please have in mind that all workflows need additional input files from the user.
 
 ### 3.1 From scratch for de-multiplexing FASTQ files
 
@@ -85,17 +85,17 @@ The following workflow can be used if you have picked a peak calling algorithm t
 
 ## 4. Remarks
 
-Please follow the CLIP-Seq data analysis <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> for a deeper understand of the tools of CLIP-Explorer. Changes to the workflows can be done anytime and without any problems. Simply import the workflow into your account and amend the necessary tools. Therefore, keep the following things in mind:  
+Please follow the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> for a deeper understand of the tools of CLIP-Explorer. Changes to the workflows can be done anytime and without any problems. Simply import the workflow into your account and amend the necessary tools. Therefore, keep the following things in mind:  
 
 ### 4.1 Adapter sequences
 The workflows uses `Cutadapt` to remove standard eCLIP and iCLIP adapter sequences. You need to change `Cutadapt` parameters if your read library covers other adapter sequences.
 
 ### 4.2 UMI and in-line barcodes
-The workflows uses `Cutadapt` to trim of the length of the UMI (+ barcode) from one site of the read pair. This depends on the iCLIP, eCLIP and your own protocol. Please check or change the parameter in `Cutadapt` based on your UMI and in-line barcode. For more information follow the CLIP-Seq data analysis <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a>.</br>
+The workflows uses `Cutadapt` to trim of the length of the UMI (+ barcode) from one site of the read pair. This depends on the iCLIP, eCLIP and your own protocol. Please check or change the parameter in `Cutadapt` based on your UMI and in-line barcode. For more information follow the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a>.</br>
 CLIP-explorer uses `UMI-tools extract` to find the UMIs inside your reads. Change the pattern of `UMI-tools extract` based on your read library preparation.
 
 ### 4.3 Read alignment
-Read alignment is done with `STAR` which combines genome and transcriptome data. CLIP-Explorer focusses only on uniquely mapped read. Furthermore, `STAR` is executed with soft-clipping turned off. For more information follow the CLIP-Seq data analysis <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a>.
+Read alignment is done with `STAR` which combines genome and transcriptome data. CLIP-Explorer focusses only on uniquely mapped read. Furthermore, `STAR` is executed with soft-clipping turned off. For more information follow the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a>.
 
 
 ### 4.4 Peak calling with PEAKachu
@@ -105,7 +105,7 @@ You need to specific the insert size of your paired-end reads for `PEAKachu`. Fo
 PureCLIP works best with only one site of the paired end reads, where the cross linking event occurs. Thus, CLIP-Explorer filters out the other mate before the peak calling. Remove the `Bam filter` tool to disable this behavior or change `Bam filter` to pick the correct site.
 
 ### 4.6 Extension of the binding regions
-CLIP-Explorer uses `SlopBED` to extend the peaks a few basepairs to the left and right in order to correct for an underestimation of the binding regions of the peak calling algorithms. For more information follow the CLIP-Seq data analysis <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a>. Remove the tool or change the parameter of `SlopBED` to change this behavior.
+CLIP-Explorer uses `SlopBED` to extend the peaks a few basepairs to the left and right in order to correct for an underestimation of the binding regions of the peak calling algorithms. For more information follow the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a>. Remove the tool or change the parameter of `SlopBED` to change this behavior.
 
 ## Our Data Policy
 

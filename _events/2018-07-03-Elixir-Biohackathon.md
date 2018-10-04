@@ -35,9 +35,9 @@ There will be several Galaxy-related hacking topics:
 - Galaxy - BioJS integration
 - CWL support in Galaxy
 
-(view the full list of topics available [here](http://bh2018paris.info/projects))
+(view the full list of topics available [here](https://bh2018paris.info/projects))
 
 
 ### More information and registration
 
-To propose hacking topics (deadline Jul 12th) or register for Biohackathon, please visit the [website](http://bh2018paris.info)
+To propose hacking topics (deadline Jul 12th) or register for Biohackathon, please visit the [website](https://bh2018paris.info)
