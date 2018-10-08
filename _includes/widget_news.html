@@ -24,7 +24,7 @@
         {% if post.external %}
           {% assign url = post.external %}
         {% else %}
-          {% assign url = post.url | absolute_url | append: url_ext%}
+          {% assign url = post.url | append: url_ext%}
         {% endif %}
         <a class="list-group-item {% if include.site and site.team_sites[include.site].private_news  %}{% else %}border-{{ post.site }}{% endif %}" href="{{ url }}" {{ url_target }}>
 

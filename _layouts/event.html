@@ -11,14 +11,14 @@ layout: default
     "@type": "ListItem",
     "position": 1,
     "item": {
-      "@id": "{{ '../events/' | absolute_url | absolute_url }}",
+      "@id": "{{ '../events/' | absolute_url }}",
       "name": "Events"
     }
   },{
     "@type": "ListItem",
     "position": 2,
     "item": {
-      "@id": "{{ page.url | replace:'index.html','' | absolute_url  }}",
+      "@id": "{{ page.url | replace:'index.html',''  }}",
       "name": "{{ page.title }}"
     }
   }]

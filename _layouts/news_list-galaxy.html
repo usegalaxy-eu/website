@@ -30,7 +30,7 @@ layout: default-galaxy
       <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
           <div>
-            <a href="{{ post.url | absolute_url }}">
+            <a href="{{ post.url  }}">
               <h2 class="title">{{ post.title | escape }}</h2>
             </a>
             <span class="title-uppercase date">
@@ -47,7 +47,7 @@ layout: default-galaxy
         <div class="col-md-8 col-md-offset-2">
           <div class="news-content text-center">
             <div>{{ post.excerpt }}</div>
-            <a href="{{ post.url | absolute_url }}" class="btn btn-danger btn-fill btn-sm">Read more</a>
+            <a href="{{ post.url }}" class="btn btn-danger btn-fill btn-sm">Read more</a>
           </div>
         </div>
       </div>
