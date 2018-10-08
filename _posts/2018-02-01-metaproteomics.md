@@ -23,7 +23,7 @@ available within these Galaxy-based resources, as well as the process by which t
 access to and utilization of metaproteomics tools, as well as offer a framework for continued community-based development and dissemination of cutting edge metaproteomics software.
 
 <div class="multiple-img">
-  <img src="{{ "/assets/media/proteomes-06-00007-ag.png" | absolute_url }}" width="800px" alt="metaproteomics workflow" />
+  <img src="/assets/media/proteomes-06-00007-ag.png" width="800px" alt="metaproteomics workflow" />
 </div>
 
 ## Credit

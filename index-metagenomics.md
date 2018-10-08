@@ -7,9 +7,9 @@ layout: galaxy
 
 
 <br/>
-<img src="{{ "/assets/media/asaim_logo.png" | absolute_url }}" height="100px" alt="ASaiM logo"/> 
+<img src="/assets/media/asaim_logo.png" height="100px" alt="ASaiM logo"/>
 
-Welcome to **Galaxy Metagenomics** ([ASaiM](https://asaim.readthedocs.io/en/latest/){:target="_blank"}) -- a webserver to process, analyse and visualize Metagenomic and Microbiota data in general. 
+Welcome to **Galaxy Metagenomics** ([ASaiM](https://asaim.readthedocs.io/en/latest/){:target="_blank"}) -- a webserver to process, analyse and visualize Metagenomic and Microbiota data in general.
 
 
 1. TOC
@@ -18,7 +18,7 @@ Welcome to **Galaxy Metagenomics** ([ASaiM](https://asaim.readthedocs.io/en/late
 
 # Get started
 
-Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface. 
+Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
 Want to learn about metagenomics analyses? Check our [tutorials](#tutorials) or take one of our guided tour:
 
@@ -26,7 +26,7 @@ Want to learn about metagenomics analyses? Check our [tutorials](#tutorials) or 
 - [Introduction to shotgun metagenomics data analyses](https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-shotgun){:target="_blank"}
 - [16S Microbial Analysis with Mothur MiSeq SOP](https://metagenomics.usegalaxy.eu/tours/mothur-miseq-sop){:target="_blank"}
 
-Check also the standard but customizable [workflows](#workflows) available there. 
+Check also the standard but customizable [workflows](#workflows) available there.
 
 # Tools
 
@@ -37,7 +37,7 @@ More than [200 tools](https://asaim.readthedocs.io/en/latest/tools/index.html){:
     - **BAM/SAM file manipulation**: SAM tools
     - **BIOM file manipulation**: BIOM-Format tools
 - [**Genomics tools**](https://asaim.readthedocs.io/en/latest/tools/genomics.html){:target="_blank"}
-    - **Quality control**: FastQC, PRINSEQ, Trim Galore! , Trimmomatic, MultiQC 
+    - **Quality control**: FastQC, PRINSEQ, Trim Galore! , Trimmomatic, MultiQC
     - **Clustering**: CD-Hit
     - **Sorting and prediction**: SortMeRNA, FragGeneScan
     - **Mapping**: BWA, Bowtie
@@ -48,7 +48,7 @@ More than [200 tools](https://asaim.readthedocs.io/en/latest/tools/index.html){:
     - **Assembly**: MEGAHIT, metaSPAdes, metaQUAST, VALET
     - **Metataxonomic sequence analysis**: Mothur, QIIME
     - **Taxonomy assignation on WGS sequences**: MetaPhlAn2, Format MetaPhlan2, Kraken
-    - **Metabolism assignation**: HUMAnN2, Group HUMAnN2 to GO slim terms, Compare HUMAnN2 outputs, PICRUST, InterProScan 
+    - **Metabolism assignation**: HUMAnN2, Group HUMAnN2 to GO slim terms, Compare HUMAnN2 outputs, PICRUST, InterProScan
     - **Combination of functional and taxonomic results**
     - **Visualization**: Export2graphlan, GraPhlAn, KRONA
 

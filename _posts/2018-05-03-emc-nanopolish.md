@@ -10,16 +10,16 @@ Nanopolish can be used to call SNPs and indels with respect to a reference genom
 
 * [Nanopolish variants caller and consensus "polishing"](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_variants/nanopolish_variants/0.1.0)
 <div class="multiple-img">
-    <img src="{{ "/assets/media/2018-05-30-nanopolish-variants.png" | absolute_url }}" width="800px" alt="Nanopolish variants screenshot" />
+    <img src="/assets/media/2018-05-30-nanopolish-variants.png" width="800px" alt="Nanopolish variants screenshot" />
 </div>
 
 * [Nanopolish methylation caller](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_methylation/nanopolish_methylation/0.1.0)
 <div class="multiple-img">
-    <img src="{{ "/assets/media/2018-05-30-nanopolish-methylation.png" | absolute_url }}" width="800px" alt="Nanopolish mathylation caller screenshot" />
+    <img src="/assets/media/2018-05-30-nanopolish-methylation.png" width="800px" alt="Nanopolish mathylation caller screenshot" />
 </div>
 
 * [Nanopolish event/squiggle aligner](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_eventalign/nanopolish_eventalign/0.1.0)
 <div class="multiple-img">
-    <img src="{{ "/assets/media/2018-05-30-nanopolish-eventalign.png" | absolute_url }}" width="800px" alt="Nanopolish eventalign screenshot" />
+    <img src="/assets/media/2018-05-30-nanopolish-eventalign.png" width="800px" alt="Nanopolish eventalign screenshot" />
 </div>
 

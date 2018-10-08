@@ -10,7 +10,7 @@ for their great new paper entiteled
 [*Distinct epigenetic programs regulate cardiac myocyte development and disease in the human heart in vivo*](https://www.nature.com/articles/s41467-017-02762-z).
 
 <div class="multiple-img">
-    <img src="{{ "/assets/media/2018-01-30-Gilsbach_NatCom.jpg" | absolute_url }}" height="300px" alt="Genic CpG demethylation of cardiac myocyte genes." />
+    <img src="/assets/media/2018-01-30-Gilsbach_NatCom.jpg" height="300px" alt="Genic CpG demethylation of cardiac myocyte genes." />
 </div>
 
 ## Abstract

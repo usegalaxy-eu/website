@@ -1,7 +1,7 @@
 <div class>
   <div class="list-group">
     {% if include.logo %}
-    <img src="{{ "/assets/media/galaxy-eu.svg" | absolute_url }}" style="padding: 0.5em; height: 5em;"/>
+    <img src="/assets/media/galaxy-eu.svg" style="padding: 0.5em; height: 5em;"/>
     {% endif %}
     {% assign items1 = site.posts | sort:"date" | reverse %}
 
@@ -27,7 +27,7 @@
           {% assign url = post.url | absolute_url | append: url_ext%}
         {% endif %}
         <a class="list-group-item {% if include.site and site.team_sites[include.site].private_news  %}{% else %}border-{{ post.site }}{% endif %}" href="{{ url }}" {{ url_target }}>
-            
+
         <p class="list-group-item-text">{{ post.date | date: date_format }}</p>
         <h4 class="list-group-item-heading">
           {% include article_icons.html post=post %}

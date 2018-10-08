@@ -2,31 +2,31 @@
   <title>{{ site.title | escape }}{% if page.title %} | {{ page.title }}{% endif %}</title>
   <meta property="og:title" content="{{ page.title | truncate: 60}}" />
   <meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 60}}" />
-  <meta property="og:image" content="{{ "/assets/media/galaxy-eu-logo.512.png" | absolute_url }}" />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | absolute_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/galaxy_bootstrap.css" | absolute_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/academicons.min.css" | absolute_url }}"/>
-  <link rel="stylesheet" href="{{ "/assets/css/carousel.css" | absolute_url }}">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/galaxy_bootstrap.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/academicons.min.css"/>
+  <link rel="stylesheet" href="/assets/css/carousel.css">
 {% assign page_dir = page.dir | split:'/' %}
 {% assign key = page_dir[1] | default: page.site%}
 {% assign key_length = key | size %}
 
-  <link rel="stylesheet" href="{{ "/assets/css/eu.css" | absolute_url }}">
+  <link rel="stylesheet" href="/assets/css/eu.css">
   {% if key_length != 0 %}
-    <link rel="stylesheet" href="{{ "/assets/css/" | absolute_url }}{{ key }}.css">
+    <link rel="stylesheet" href="/assets/css/{{ key }}.css">
   {% endif %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="shortcut icon" href="{{ "/assets/media/galaxy-eu-logo.64.png" | absolute_url }}" type="image/x-icon" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | absolute_url }}">
-  <link href="{{ "/assets/css/font-awesome.min.css" | absolute_url }}" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <script src="{{ "/assets/js/jquery-3.2.1.slim.min.js" | absolute_url }}" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-  <script src="{{ "/assets/js/jquery.matchHeight-min.js" | absolute_url }}" integrity="sha256-a/H26zcixe1svu2fYax7ANJMSzGYyJNI52hKKYJTar8=" crossorigin="anonymous"></script>
-  <script src="{{ "/assets/js/bootstrap.min.js" | absolute_url }}" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="/feed.xml">
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/jquery.matchHeight-min.js" integrity="sha256-a/H26zcixe1svu2fYax7ANJMSzGYyJNI52hKKYJTar8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
 </head>

@@ -18,10 +18,10 @@ Time  | State
 
 ## Resolution
 
-We have added monitoring for this to identify 
+We have added monitoring for this to identify
 
-<a href="{{ "/assets/media/wf-invok-status.png" | absolute_url }}">
-<img src="{{ "/assets/media/wf-invok-status.png" | absolute_url }}" alt="Workflow Invocation Graph" />
+<a href="/assets/media/wf-invok-status.png">
+<img src="/assets/media/wf-invok-status.png" alt="Workflow Invocation Graph" />
 </a>
 
 We have begun monitoring the states of workflows and will receive an alert

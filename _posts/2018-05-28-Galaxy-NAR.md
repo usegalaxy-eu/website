@@ -8,7 +8,7 @@ The Galaxy project has published an 2018 update of the core Galaxy framwork with
 [*The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update*](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky379/5001157).
 
 <div class="multiple-img">
-    <img src="{{ "/assets/media/2018-05-28-Galaxy-NAR.png" | absolute_url }}" height="400px" alt="Graphical abstract for Galaxy NAR paper" />
+    <img src="/assets/media/2018-05-28-Galaxy-NAR.png" height="400px" alt="Graphical abstract for Galaxy NAR paper" />
 </div>
 
 ## Abstract

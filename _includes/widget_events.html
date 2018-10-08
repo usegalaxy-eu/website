@@ -1,7 +1,7 @@
 <div class>
   <div class="list-group">
     {% if include.logo %}
-    <img src="{{ "/assets/media/galaxy-eu.svg" | absolute_url }}" style="padding: 0.5em; height: 5em;"/>
+    <img src="/assets/media/galaxy-eu.svg" style="padding: 0.5em; height: 5em;"/>
     {% endif %}
     {% assign items1 = site.events | sort:"starts" | reverse %}
 

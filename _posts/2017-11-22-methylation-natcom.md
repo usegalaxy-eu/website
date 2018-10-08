@@ -10,7 +10,7 @@ for their new paper entiteled
 [*DNA methylation signatures follow preformed chromatin compartments in cardiac myocytes*](https://www.nature.com/articles/s41467-017-01724-9).
 
 <div class="multiple-img">
-    <img src="{{ "/assets/media/nothjunge_2017_natcomm.jpg" | absolute_url }}" height="300px" alt="Distinct DNA methylation patterns in A and B compartments in adult CM. Hi-C contact maps uncover topologically associated domains (TADs) and multi-TAD A/B compartments in adult CM." />
+    <img src="/assets/media/nothjunge_2017_natcomm.jpg" height="300px" alt="Distinct DNA methylation patterns in A and B compartments in adult CM. Hi-C contact maps uncover topologically associated domains (TADs) and multi-TAD A/B compartments in adult CM." />
 </div>
 
 

@@ -27,7 +27,7 @@ Required qualifications:
 * Basic experience with HTML5 and CSS3
 * Verbal and written communication skills (English)
 
-We offer: 
+We offer:
 
 * A full time position (39.5 h / week), part-time position is possible
 * Flexible working times
@@ -37,6 +37,6 @@ We offer:
 
 Positions are for initially 1 year with the possibility of extension. The salary will be determined in accordance with TVL-E13 (100 %).
 
-Further information: [Bioinformatics Uni Freiburg](http://www.bioinf.uni-freiburg.de/), [Freiburg Galaxy Team]({{ "/freiburg/people" | absolute_url }})
+Further information: [Bioinformatics Uni Freiburg](http://www.bioinf.uni-freiburg.de/), [Freiburg Galaxy Team](/freiburg/people)
 
 Please send your application including a motivation letter, CV, certificates, and 3 references latest until 30.8.2018 via email to Joachim Wolff (wolffj@informatik.uni-freiburg.de)

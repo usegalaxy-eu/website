@@ -9,7 +9,7 @@ manuscript about ["The Transcription Factor ETV1 Induces Atrial Remodeling and A
 Great work, congratulations Carolin!
 
 <div class="multiple-img">
-    <img src="{{ "/assets/media/ETV1.png" | absolute_url }}" height="400px" alt="ETV" />
+    <img src="/assets/media/ETV1.png" height="400px" alt="ETV" />
 </div>
 
 ## Abstract

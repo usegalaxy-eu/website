@@ -12,7 +12,7 @@ central immune responses to paininducing
 injury*](https://www.nature.com/articles/s41598-017-16664-z).
 
 <div class="multiple-img">
-    <img src="{{ "/assets/media/2017-11-28_nature_reports.jpg" | absolute_url }}" height="300px" alt="Transcriptionally, sensory neurons purified from adult male and female mice are very similar." />
+    <img src="/assets/media/2017-11-28_nature_reports.jpg" height="300px" alt="Transcriptionally, sensory neurons purified from adult male and female mice are very similar." />
 </div>
 
 

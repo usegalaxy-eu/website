@@ -31,12 +31,12 @@ When this effort is combined with our community-maintained workflows and our in-
 <a name="training"></a>
 # <i class="fa fa-graduation-cap"></i> Training
 
-Supporting researchers by educating them in *e.g.* big data analysis, programming, data management, and Galaxy server administration, is one of our goals as we believe that **sharing of knowledge** and the **open science** movement are the key points in future. 
+Supporting researchers by educating them in *e.g.* big data analysis, programming, data management, and Galaxy server administration, is one of our goals as we believe that **sharing of knowledge** and the **open science** movement are the key points in future.
 
 <div class="multiple-img" style="text-align: right;">
-    <img src="{{ "/assets/media/training_1.jpg" | absolute_url }}" width="200px" alt="Workshop picture" />
-    <img src="{{ "/assets/media/training_2.jpg" | absolute_url }}" width="200px" alt="Workshop picture" />
-    <img src="{{ "/assets/media/training_3.jpg" | absolute_url }}" width="200px" alt="Workshop picture" />
+    <img src="/assets/media/training_1.jpg" width="200px" alt="Workshop picture" />
+    <img src="/assets/media/training_2.jpg" width="200px" alt="Workshop picture" />
+    <img src="/assets/media/training_3.jpg" width="200px" alt="Workshop picture" />
 </div>
 
 ### Workshops
@@ -55,9 +55,9 @@ If you want to offer a training course to other researchers, we do maintain a se
 
 ### Hackathons
 
-Hackathons or contribution fests are short events (usually few days) where people combine their force and **develop new, or improving existing techniques, tools, training materials, etc.** 
+Hackathons or contribution fests are short events (usually few days) where people combine their force and **develop new, or improving existing techniques, tools, training materials, etc.**
 
-We organize numerous hackathons per year on site or online, in close cooperation with [de.NBI](https://www.denbi.de/), [ELIXIR](https://www.elixir-europe.org/), and the Galaxy community. 
+We organize numerous hackathons per year on site or online, in close cooperation with [de.NBI](https://www.denbi.de/), [ELIXIR](https://www.elixir-europe.org/), and the Galaxy community.
 
 ---
 <a name="training-infrastructure-as-a-service"></a>
@@ -73,7 +73,7 @@ Just drop us a mail and concentrate on the important things during your training
 <a name="virtualization-for-sensitive-data"></a>
 # <i class="fa fa-cube"></i> Virtualization for Sensitive Data
 
-For sensitive (biomedical) data and users with internet limitations, we offer **virtualizations** for Galaxy and many other tools. Our aim is to enable all researchers easy access to tools, wherever they need them. 
+For sensitive (biomedical) data and users with internet limitations, we offer **virtualizations** for Galaxy and many other tools. Our aim is to enable all researchers easy access to tools, wherever they need them.
 
 ### Virtualized deployments
 
@@ -104,7 +104,7 @@ We are eager to assist you and solve your scientific question with you! We have 
 
 Do you have a scientific question and can't find the appropriate tool for it? We will put ideas into code, and then the code into Galaxy, so everyone can use it!
 
-!["Tools available on usegalaxy.eu"]({{ "/assets/media/tools.png" | absolute_url }})
+!["Tools available on usegalaxy.eu"](/assets/media/tools.png)
 
 We are also maintaining, adapting and optimizing existing Galaxy tools in collaboration with Galaxy community, for example as part of the [Intergalactic Utilities Commission](https://github.com/galaxyproject/tools-iuc).
 
