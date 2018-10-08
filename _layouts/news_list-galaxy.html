@@ -26,31 +26,37 @@ layout: default-galaxy
 
 <section id="news-list">
   {% for post in posts %}
-    <div class="news">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 text-center">
-          <div>
-            <a href="{{ post.url  }}">
-              <h2 class="title">{{ post.title | escape }}</h2>
-            </a>
-            <span class="title-uppercase date">
-              {{ post.date | date: date_format }}
-            </span>
-            <span class="label label-success">{{ site.team_sites[post.site].name }}</span>
-            {% for tag in post.tags %}
-              <span class="label label-primary">{{ tag }}</span>
-            {% endfor %}
-          </div>
+    {% assign count = 3 %}
+    {% assign premod = 2 %}
+    {% assign mod = forloop.index0 | modulo:count %}
+{% if mod == premod %}
+    <div class="row">
+{% endif %}
+    <div class="col-md-4 news">
+      <div class="row" style="padding: 1em">
+        <div>
+          {% if post.external %}
+            <a href="{{ post.external }}">
+          {% else %}
+            <a href="{{ post.url }}">
+          {% endif %}
+            <h2 class="title">{{ post.title | escape }}</h2>
+          </a>
+          <span class="date">
+            {{ post.date | date: date_format }}
+          </span>
+          <span class="label label-success">{{ site.team_sites[post.site].name }}</span>
+          {% for tag in post.tags %}
+            <span class="label label-primary">{{ tag }}</span>
+          {% endfor %}
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="news-content text-center">
-            <div>{{ post.excerpt }}</div>
-            <a href="{{ post.url }}" class="btn btn-danger btn-fill btn-sm">Read more</a>
-          </div>
+        <div class="news-content">
+          <div>{{ post.excerpt }}</div>
         </div>
       </div>
     </div>
+{% if mod == premod %}
+    </div>
+{% endif %}
   {% endfor %}
 </section>

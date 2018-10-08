@@ -44,7 +44,7 @@ layout: default
       </thead>
       <tbody>
         {% for post in posts %}
-          <tr>
+          <tr class="{% if key_length == 0 or site.team_sites[key].private_news == false or key == "galaxy" %}border-{{ post.site }}{% endif %}">
             {% if key_length == 0 or site.team_sites[key].private_news == false or key == "galaxy" %}
             <td>{{ site.team_sites[post.site].name }}</td>
             {% endif %}
