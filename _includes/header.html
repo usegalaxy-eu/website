@@ -27,9 +27,9 @@
         {{ site.title | escape }}
       </a>
       {% if key_length != 0 %}
-        <div class="navbar-brand" style="color: white">
+        <span class="navbar-brand" style="color: white">
         /
-        </div>
+        </span>
         <a class="navbar-brand" href="{{ key | absolute_url }}">
           {{ site.team_sites[key].name }}
         </a>
