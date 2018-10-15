@@ -3,6 +3,11 @@
   class: info # success info warning danger
   messages:
       - message: |
+          We have finally been able to allocate a larger compute node, the
+          queue should begin draining over the next few days. Thank you for
+          your patience.
+        date: 2018-10-15 15:14:31+02:00
+      - message: |
           We have noticed many jobs stuck in the queue. We have determined the
           root cause and are attempting to triage the issue.
         date: 2018-10-11 11:32:40+02:00
