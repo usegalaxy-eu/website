@@ -21,9 +21,9 @@ The Galaxy Training Network has developed an infrastructure to deliver interacti
 The Galaxy Training Network is organizing regular online CoFests (Collaboration/Contribution Fests) every 3 months on the 3rd Thursday for a day of the collaborative work on the training content.
 
 **The next one will be on the 15th of November.** We plan to focus on genome annotation training; but anyone who would like to contribute on any other topics is very welcome to join.
-We will coordinate via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.459bpoqjjo780nm56q267ba7i8?authuser=1) (drop-in channel we will keep open the whole day) and [the GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby).
+We will coordinate via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.459bpoqjjo780nm56q267ba7i8) (drop-in channel we will keep open the whole day) and [the GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby).
 
-During the day, we also would like to have a call meeting with the GTN to discuss the recent changes and future directions.
+During the day, we plan to have a GTN meeting to discuss the recent changes and future directions.
 
 ---
 
