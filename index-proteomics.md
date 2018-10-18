@@ -14,6 +14,8 @@ layout: galaxy
 
 **Galaxy Proteomics** is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry-based proteomics. It is hosted by GalaxyEU and maintained by the [GalaxyP team](http://galaxyp.org){:target="_blank"} from the University of Minnesota, MN, USA.
 
+Feel free to check out another server maintained by the GalaxyP team: [Proteogenomics Gateway](http://galaxyp-proteogenomics.duckdns.org){:target="_blank"}.
+
 # Get started
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://proteomics.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
