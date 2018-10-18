@@ -6,11 +6,13 @@ layout: galaxy
 {% include maintenance.html %}
 
 <br/>
-<img src="/assets/media/GalaxyP_logo.png" height="100px" alt="GalaxyP logo"/>
+<img src="/assets/media/GalaxyP_logo.png" height="200px" alt="GalaxyP logo"/>
 
-# Welcome to **Galaxy Proteomics**
+# Welcome to **Galaxy Proteomics Europe**
 
-GalaxyP is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry based proteomics. GalaxyP is developed at the University of Minnesota, deployed at the Minnesota Supercomputing Institute, and is an extension of the popular Galaxy project. The GalaxyP project is supported by a grant from [NSF](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1147079&HistoricalAwards=false){:target="_blank"}).
+*This European Galaxy branches off from the main [usegalaxy.eu](https://usegalaxy.eu){:target="_blank"} server and focuses on one specific domain: Proteomics.*
+
+**Galaxy Proteomics** is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry-based proteomics. It is hosted by GalaxyEU and maintained by the [GalaxyP team](http://galaxyp.org){:target="_blank"} from the University of Minnesota, MN, USA.
 
 
 # Get started
