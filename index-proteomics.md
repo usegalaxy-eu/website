@@ -8,12 +8,11 @@ layout: galaxy
 <br/>
 <img src="/assets/media/GalaxyP_logo.png" height="200px" alt="GalaxyP logo"/>
 
-# Welcome to **Galaxy Proteomics Europe**
+# Welcome to **Galaxy Proteomics**
 
 *This European Galaxy branches off from the main [usegalaxy.eu](https://usegalaxy.eu){:target="_blank"} server and focuses on one specific domain: Proteomics.*
 
 **Galaxy Proteomics** is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry-based proteomics. It is hosted by GalaxyEU and maintained by the [GalaxyP team](http://galaxyp.org){:target="_blank"} from the University of Minnesota, MN, USA.
-
 
 # Get started
 
