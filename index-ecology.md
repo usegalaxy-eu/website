@@ -2,9 +2,6 @@
 layout: galaxy
 ---
 
-{% include notices.html %}
-{% include maintenance.html %}
-
 Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize ecological data
 
 <img src="/assets/media//Galaxy-E-concarneau-team-2018-logo.gif" height="100px" alt="2018 Concarneau Galaxy-E team"/>
@@ -60,12 +57,5 @@ We then developed [several tutorials](https://galaxyproject.github.io/training-m
 
 - Phenology study and abundance index as trends computation through regionalGAM
 
-
-## Our Data Policy
-
-{% include data-policy.html %}
-
 ## References
 {% bibliography --cited --prefix index-metagenomics --group_by none %}
-
-{% include home_done.html %}

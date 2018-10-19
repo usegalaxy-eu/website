@@ -3,5 +3,14 @@ layout: default-galaxy
 ---
 
 <div class="home">
+{% include notices.html %}
+{% include maintenance.html %}
+
   {{ content }}
+
+<h2>Our Data Policy</h2>
+
+{% include data-policy.html %}
+{% include jobs_graph.html %}
+{% include home_done.html %}
 </div>

@@ -2,9 +2,6 @@
 layout: galaxy
 ---
 
-{% include notices.html %}
-{% include maintenance.html %}
-
 
 <br/>
 <img src="/assets/media/asaim_logo.png" height="100px" alt="ASaiM logo"/>
@@ -125,12 +122,6 @@ The tools used in the EBI Metagenomics pipeline are also available here and can 
 
 However, the parameters must be adjusted by the user as we could not find them in the EBI Metagenomics documentation.
 
-# Our Data Policy
-
-{% include data-policy.html %}
-
 # References
 
 {% bibliography --cited --prefix index-metagenomics --group_by none %}
-
-{% include home_done.html %}

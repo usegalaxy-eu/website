@@ -2,9 +2,6 @@
 layout: galaxy
 ---
 
-{% include notices.html %}
-{% include maintenance.html %}
-
 # Galaxy CLIP-Explorer
 
 Welcome to the Galaxy CLIP-Explorer -- a webserver to process, analyse and visualise CLIP-Seq data.
@@ -79,13 +76,13 @@ The workflow for the eCLIP data of [Nostrand et al. (2016)](https://doi.org/10.1
 
 ### 3.3 Further optional peak analysis
 
-The following workflow can be used if you have picked a peak calling algorithm that do not support biological replicated data. The workflow finds and analysis robust binding regions shared between different peak files.   
+The following workflow can be used if you have picked a peak calling algorithm that do not support biological replicated data. The workflow finds and analysis robust binding regions shared between different peak files.
 
 - <a href="https://galaxy.uni-freiburg.de/u/heylf/w/robustpeakanalysis">Robust peak analysis</a>
 
 ## 4. Remarks
 
-Please follow the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> for a deeper understand of the tools of CLIP-Explorer. Changes to the workflows can be done anytime and without any problems. Simply import the workflow into your account and amend the necessary tools. Therefore, keep the following things in mind:  
+Please follow the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> for a deeper understand of the tools of CLIP-Explorer. Changes to the workflows can be done anytime and without any problems. Simply import the workflow into your account and amend the necessary tools. Therefore, keep the following things in mind:
 
 ### 4.1 Adapter sequences
 The workflows uses `Cutadapt` to remove standard eCLIP and iCLIP adapter sequences. You need to change `Cutadapt` parameters if your read library covers other adapter sequences.
@@ -106,9 +103,3 @@ PureCLIP works best with only one site of the paired end reads, where the cross 
 
 ### 4.6 Extension of the binding regions
 CLIP-Explorer uses `SlopBED` to extend the peaks a few basepairs to the left and right in order to correct for an underestimation of the binding regions of the peak calling algorithms. For more information follow the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a>. Remove the tool or change the parameter of `SlopBED` to change this behavior.
-
-## Our Data Policy
-
-{% include data-policy.html %}
-{% include jobs_graph.html %}
-{% include home_done.html %}

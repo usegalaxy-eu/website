@@ -2,9 +2,6 @@
 layout: galaxy
 ---
 
-{% include notices.html %}
-{% include maintenance.html %}
-
 <br/>
 <img src="/assets/media/GalaxyP_logo.png" height="200px" alt="GalaxyP logo"/>
 
@@ -22,9 +19,3 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 {% include home_carousel.html %}
 {% include home_news_events.html %}
-{% include home_done.html %}
-
-# Our Data Policy
-
-{% include data-policy.html %}
-
