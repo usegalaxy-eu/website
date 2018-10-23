@@ -63,7 +63,7 @@ We organize numerous hackathons per year on site or online, in close cooperation
 <a name="training-infrastructure-as-a-service"></a>
 # <i class="fa fa-university"></i> Training Infrastructure-as-a-Service (TIaaS)
 
-We are very excited to offer a special service for Galaxy trainers: Training infrastructure as a Service!
+We are very excited to offer a special service for Galaxy trainers: [Training infrastructure as a Service](https://galaxyproject.eu/tiaas)!
 
 If you have a training event planned, get in touch with us and we will allocate you **completely dedicated compute resources** for the duration of your training. Your users’ jobs on usegalaxy.eu will be directed to these resources and are free from the regular job queue. No setup, no queueing times, no hassle. Apply [here](https://docs.google.com/forms/d/e/1FAIpQLSdoPRDhpYwNFuZSlGRNQj3dDWwfsdemP5yntAdcqhN3YHbqLA/viewform).
 
