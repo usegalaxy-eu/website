@@ -36,12 +36,13 @@ freiburg:
         location: "Build.: 079, Room: -1006"
         bio:
 
-    TorHou:
-        name: Torsten Houwaart
-        title: Ph.D., Researcher
-        email: houwaart@informatik.uni-freiburg.de
+    wm75:
+        name: Wolfgang Maier
+        title: Dr. phil. nat., Researcher
+        email: maierw@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54133
         location: "Build.: 079, Room: -1005a"
+        gitter: wm75
         bio:
 
     erasche:
