@@ -33,7 +33,7 @@ Galaxy CLIP-Explorer can process large CLIP-Seq data of eCLIP and iCLIP. We proc
 
 We provide the subsequent workflows to automatize the data analysis for iCLIP and eCLIP data. All workflows can be found [here](https://github.com/Florian-H-Lab/CLIP-Explorer). The data needs to be in FASTA or FASTQ format and can be either multiplexed or de-multiplexed. All workflows, except the robust peak analysis, require the data as a list of dataset pairs. A tutorial to create a list of dataset pairs can be found in the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> or [here](https://galaxyproject.github.io/training-material/topics/galaxy-data-manipulation/tutorials/collections/tutorial.html). Please have in mind that all workflows need additional input files from the user.
 
-### 3.1 From scratch to de-multiplex FASTQ files
+### 3.1 From scratch to de-multiplexed FASTQ files
 
 If your data is not de-multiplexed yet, then use the following workflows. The user has to provide the in-line barcodes in a tab-delimited tabular format, for example:
 
@@ -53,28 +53,12 @@ You can choose between three different types of peak calling for the data analys
 
 **Table 1**: Data specification of the different peak calling algorithms.
 
-<table class="table table-striped">
-  <tr>
-    <td>Tool</td>
-    <td>Allowing Biological Replicates (Yes/No)</td>
-    <td>Allowing Control Data (Yes/No)</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/tbischler/PEAKachu">PEAKachu</a></td>
-    <td>Yes</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td><a href="https://doi.org/10.1186/s13059-017-1364-2">PureCLIP</a></td>
-    <td>No</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td><a href="https://doi.org/10.1093/bioinformatics/bts569">Piranha</a></td>
-    <td>No</td>
-    <td>No</td>
-  </tr>
-</table>
+| Tool | Biological Replicates (Yes/No) | Control Data (Yes/No) |
+| ---            | :-:      | :-:     |
+| <a href="https://github.com/tbischler/PEAKachu">PEAKachu</a>            | Yes | Yes   |
+| <a href="https://doi.org/10.1186/s13059-017-1364-2">PureCLIP</a>            | No | Yes   |
+| <a href="https://doi.org/10.1093/bioinformatics/bts569">Piranha</a>           | No | No   |
+{: .table.table-striped}
 
 #### Note if you have used the de-mutliplexing workflows:
 If you used the preceding workflows for de-multiplexing, then remove the steps of `Cutadapt` and `UMI-tools extract` from the following workflows to analyse your data. Simply, import the workflow into you account, remove the tools and connect the lose end directly to the alignment step.
