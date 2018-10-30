@@ -5,7 +5,7 @@ title: Training Infrastructure as a Service
 
 # Training Infrastructure as a Service
 
-UseGalaxy.eu is proud to provide Training Infrastructure as a Service (TIaaS) for the Galaxy training community.
+[UseGalaxy.eu](https://usegalaxy.eu) is proud to provide Training Infrastructure as a Service (TIaaS) for the Galaxy training community.
 You provide the training, we provide the infrastructure <i>at no cost</i>.
 
 ## Why TIaaS?
