@@ -1,7 +1,6 @@
 ---
 site: freiburg
 title: 'Training Infrastructure Feedback from Maria Doyle'
-external: "https://www.petermac.org/"
 tags: [training]
 ---
 
