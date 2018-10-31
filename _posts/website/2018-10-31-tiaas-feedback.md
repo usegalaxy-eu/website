@@ -6,7 +6,7 @@ tags: [training]
 
 We recently had the privilege of using the usegalaxy.eu's new [Training
 infrastructure as a Service (TIaaS)](https://galaxyproject.eu/tiaas) for our course on "Introduction to
-Galaxy and RNA-seq" at the [Peter MacCallum Cancer Centre](https://www.petermac.org) in Melbourne,
+Galaxy and RNA-seq" at the [Peter MacCallum Cancer Centre](https://www.petermac.org){:target="_blank"} in Melbourne,
 Australia. Our own infrastructure was undergoing an upgrade and our
 planned workshop was going to be delayed but thanks to the TIaaS we were
 able to go ahead and run our workshop. All went smoothly and the feedback
