@@ -33,6 +33,7 @@ There will be several Galaxy-related hacking topics:
 
 - Galaxy Training Material improvement and extension
 - Galaxy - BioJS integration
+- Improve Shiny and RStudio integration within Galaxy using Galaxy Interactive Environment
 - CWL support in Galaxy
 
 (view the full list of topics available [here](https://bh2018paris.info/projects))
