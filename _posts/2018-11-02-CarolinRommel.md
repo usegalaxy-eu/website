@@ -7,6 +7,10 @@ tags: [paper]
 Carolin Rommel et al. found that
 ["The Transcription Factor ETV1 Induces Atrial Remodeling and Arrhythmia"](https://doi.org/10.1161/CIRCRESAHA.118.313036).
 
+<div class="multiple-img">
+    <img src="/assets/media/Hompage_ETV1-02.png" height="400px" alt="The Transcription Factor ETV1 Induces Atrial Remodeling and Arrhythmia" />
+</div>
+
 Thanks for using Galaxy and congratulation to Carolin and her team!
 
 ## Abstract
