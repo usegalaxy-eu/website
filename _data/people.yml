@@ -51,10 +51,9 @@ freiburg:
         email: hxr@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54128
         location: "Build.: 079, Room: -1005a"
-        website: https://erasche.github.io
         gitter: erasche
         orcid: 0000-0001-9760-8992
-        bio:
+        galaxyadmin: true
 
     joachimwolff:
         name: Joachim Wolff
@@ -107,6 +106,7 @@ erasmusmc:
         gitter: shiltemann
         linkedin: shiltemann
         orcid: 0000-0003-3803-468X
+        galaxyadmin: true
     yhoogstrate:
         name: Youri Hoogstrate
         title: Researcher
