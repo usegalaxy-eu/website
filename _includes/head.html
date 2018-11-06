@@ -14,11 +14,6 @@
 {% assign key = page_dir[1] | default: page.site%}
 {% assign key_length = key | size %}
 
-  <link rel="stylesheet" href="/assets/css/eu.css">
-  {% if key_length != 0 %}
-    <link rel="stylesheet" href="/assets/css/{{ key }}.css">
-  {% endif %}
-
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="/feed.xml">
