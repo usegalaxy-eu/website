@@ -2,8 +2,6 @@
 layout: galaxy
 ---
 
-{% include notices.html %}
-{% include maintenance.html %}
 {% include home_news_events-galaxy.html %}
 {% include jobs_graph.html %}
 
@@ -16,5 +14,3 @@ layout: galaxy
   {% include home_carousel_acknowledgments.html %}
   {% include home_carousel_data_policy.html %}
 {% include carousel_after.html %}
-
-{% include home_done.html %}
