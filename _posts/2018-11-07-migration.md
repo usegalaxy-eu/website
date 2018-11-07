@@ -25,6 +25,7 @@ November 7  | We freeze configuration changes and any tool installation in both 
 November 8  | We swap the beta backend server from our testing database to our production database, and run some testing against it.
 November 12 | We update our proxy to direct traffic to `usegalaxy.eu` to the new backend server
 November 19 | We stop the Galaxy processes on the old head node, retaining it for another few weeks to ensure we have not missed anything
+{: .table.table-striped}
 
 ## Backout Plan
 
