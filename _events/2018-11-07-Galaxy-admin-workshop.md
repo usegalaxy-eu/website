@@ -33,3 +33,5 @@ large and small organizations around the world and used in a broad range of biom
 and across the tree of life.
 
 For more information please visit the [Galaxy hub](https://galaxyproject.org/events/2019-admin-training/).
+
+![](https://galaxyproject.org/events/2019-admin-training/2019-admin-training-logo.png)
