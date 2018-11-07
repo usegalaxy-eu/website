@@ -3,5 +3,5 @@
   class: info # success info warning danger
   messages:
       - message: |
-          We are planning an upcoming transition of server hardware for UseGalaxy.eu. This should be completely transparent to you. [Read more](https://galaxyproject.eu/posts/2018/11/07/migration/plain.html)
+          We are planning an upcoming transition of server hardware for UseGalaxy.eu. This should be completely transparent to you. [Read more](/posts/2018/11/07/migration/plain.html)
         date: 2018-11-07 14:41:44+01:00
