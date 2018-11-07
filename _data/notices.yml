@@ -1,22 +1,7 @@
 ---
-#- title: Jobs stuck in queue
-#  class: info # success info warning danger
-#  messages:
-#      - message: |
-#          We have finally been able to allocate a larger compute node, the
-#          queue should begin draining over the next few days. Thank you for
-#          your patience.
-#        date: 2018-10-15 15:14:31+02:00
-#      - message: |
-#          We have noticed many jobs stuck in the queue. We have determined the
-#          root cause and are attempting to triage the issue.
-#        date: 2018-10-11 11:32:40+02:00
-      #- message: |
-          #We believe the issue is now patched. Hopefully jobs should return to
-          #normal very shortly. We're actively monitoring the situation
-        #date: 2017-12-11 18:27:52+01:00
-      #- message: |
-          #We noticed that jobs were unable to be submitted due to a
-          #misconfiguration on our end. We are currently investigating the
-          #issue.
-        #date: 2017-12-11 16:10:16+01:00
+- title: Upcoming migration
+  class: info # success info warning danger
+  messages:
+      - message: |
+          We are planning an upcoming transition of server hardware for UseGalaxy.eu. This should be completely transparent to you. [Read more](https://galaxyproject.eu/posts/2018/11/07/migration/plain.html)
+        date: 2018-11-07 14:41:44+01:00
