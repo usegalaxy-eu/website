@@ -2,8 +2,6 @@
 layout: galaxy
 ---
 
-{% include notices.html %}
-{% include maintenance.html %}
 {% include home_quote.html %}
 {% include home_news_events-galaxy.html %}
 {% include jobs_graph.html %}
