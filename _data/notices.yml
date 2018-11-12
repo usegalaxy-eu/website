@@ -3,6 +3,9 @@
   class: info # success info warning danger
   messages:
       - message: |
+          Users who are accessing UseGalaxy.eu with the https://galaxy.uni-freiburg.de will be redirected temporarily to https://usegalaxy.eu. We attempted to do this transparently but could not coordinate successfully with one of our DNS providers.
+        date: 2018-11-12 13:12:38+01:00
+      - message: |
           We are planning an upcoming transition of server hardware for UseGalaxy.eu. This should be completely transparent to you.
           [Read more](/posts/2018/11/07/migration/plain.html)
         date: 2018-11-07 14:41:44+01:00
