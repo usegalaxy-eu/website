@@ -3,6 +3,10 @@
   class: info # success info warning danger
   messages:
       - message: |
+          We are now using the new backend. Please let us know if you have any issues!
+          [Read more](/posts/2018/11/07/migration/plain.html)
+        date: 2018-11-12 15:00:35+01:00
+      - message: |
           Anyone who notices an issue can contact us either via [email](mailto:contact@usegalaxy.eu) or via [gitter](https://gitter.im/usegalaxy-eu/Lobby)
           Additionally interactive environments have been temporarily. They will be back soon, better than ever!
         date: 2018-11-12 13:12:38+01:00
