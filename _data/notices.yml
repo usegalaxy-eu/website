@@ -4,6 +4,7 @@
   messages:
       - message: |
           Anyone who notices an issue can contact us either via [email](mailto:contact@usegalaxy.eu) or via [gitter](https://gitter.im/usegalaxy-eu/Lobby)
+          Additionally interactive environments have been temporarily. They will be back soon, better than ever!
         date: 2018-11-12 13:12:38+01:00
       - message: |
           Users who are accessing UseGalaxy.eu with the https://galaxy.uni-freiburg.de will be redirected temporarily to https://usegalaxy.eu. We attempted to do this transparently but could not coordinate successfully with our university DNS provider.
