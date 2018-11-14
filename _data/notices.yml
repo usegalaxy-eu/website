@@ -3,7 +3,7 @@
   class: warning
   messages:
       - message: |
-          We have noticed an increase in "503 Server Unavailable" errors. Please continue to report these and when you experience them in your usage of galaxy, so we can reproduce and identify the root cause.
+          We have noticed an increase in "503 Server Unavailable" errors, and errors with Blast and wig2bigwig. Please continue to report these and when you experience them in your usage of galaxy, so we can reproduce and identify the root cause.
         date: 2018-11-12 17:30:39+01:00
 - title: Galaxy Backend Migration
   class: info # success info warning danger
