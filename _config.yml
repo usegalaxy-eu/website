@@ -91,6 +91,17 @@ team_sites:
 
           To inquire about this Galaxy server, increasing your disk quotum, or possibilities for collaborative
           projects, please contact one of our [team](/erasmusmc/people)
+    belgium:
+      name: Belgium
+      url: /belgium/
+      #email:
+      #twitter_username: erasmusmc
+      #github_username: erasmusmc-bioinformatics
+      private_news: false
+      url: "https://www.usegalaxy.be/"
+      galaxy_server: "https://www.usegalaxy.be/"
+      blurb: |
+        Welcome to the Galaxy Instance of VIB - UGent Hosted at VSC (Flemish Supercomputer Centre)
 
 header_links:
     main:
@@ -124,6 +135,15 @@ header_links:
           url: /erasmusmc/people
         - name: Publications
           url: /erasmusmc/publications
+    belgium:
+        - name: News
+          url: /belgium/news
+        - name: Events
+          url: /belgium/events
+        - name: People
+          url: /belgium/people
+        - name: Publications
+          url: /belgium/publications
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
