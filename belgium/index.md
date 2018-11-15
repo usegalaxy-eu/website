@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Elixir-BE
+title: ELIXIR-Belgium
 ---
 
 <div class="row eu-image-box">
@@ -53,6 +53,5 @@ You can automate your analysis pipeline by using workflows composed of several t
 It is also possible (and highly recommended) to use the shared, and widely tested, workflows available under Shared Data (top menu) -&gt; workflows. To use one of these you first need to import it to your workflows list by clicking on the name and selecting Import. To execute any workflow listed under your workflows first click on it and select run, then choose the input data as with any tool.
 
 
-  {% include home_news_events.html %}
-  {% include home_done.html %}
-</div>
+{% include home_news_events.html %}
+{% include home_done.html %}
