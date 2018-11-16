@@ -97,11 +97,21 @@ team_sites:
       #email:
       #twitter_username: erasmusmc
       #github_username: erasmusmc-bioinformatics
-      private_news: false
+      private_news: true
       url: "https://www.usegalaxy.be/"
       galaxy_server: "https://www.usegalaxy.be/"
       blurb: |
         Welcome to the Galaxy Instance of VIB - UGent Hosted at VSC (Flemish Supercomputer Centre)
+    pasteur:
+      name: Pasteur
+      url: /pasteur/
+      #email:
+      #twitter_username:
+      #github_username:
+      private_news: true
+      url: "https://galaxy.pasteur.fr/"
+      galaxy_server: "https://galaxy.pasteur.fr/"
+      blurb: ""
 
 header_links:
     main:
@@ -144,6 +154,15 @@ header_links:
           url: /belgium/people
         - name: Publications
           url: /belgium/publications
+    pasteur:
+        - name: News
+          url: /pasteur/news
+        - name: Events
+          url: /pasteur/events
+        - name: People
+          url: /pasteur/people
+        - name: Publications
+          url: /pasteur/publications
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

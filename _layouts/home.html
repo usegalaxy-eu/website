@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
+
+    {% assign page_dir = page.dir | split:'/' %}
+    {% assign key = page_dir[1] | default: page.site %}
+    {% assign key_length = key | size %}
+
   <body class="{% if key_length != 0 %}location-{{ key }}{% endif %}">
     <div id="wrap">
       <div id="main">
