@@ -4,7 +4,7 @@ title: Pasteur
 ---
 
 <div style='text-align: center; margin-bottom: 1em'>
-<img src="https://galaxy.pasteur.fr/static/images/LogoIP-CNRS-C3BI.png" />
+<img src="/assets/media/LogoIP-CNRS-C3BI.png" />
 </div>
 
 <table>
@@ -33,8 +33,6 @@ title: Pasteur
 		</td>
 	</tr>
 </tbody></table>
-
-
 
 <div class="alert alert-info"> <p><strong>For pasteur users:</strong></p><strong>
 	<ul>
