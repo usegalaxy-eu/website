@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Elixir-BE
+title: ELIXIR-Belgium
 ---
 
 <div class="row eu-image-box">
