@@ -1,12 +1,14 @@
 ---
 - title: Galaxy Backend Migration
   class: warning
+  site: freiburg
   messages:
       - message: |
           We have noticed an increase in "503 Server Unavailable" errors, and errors with Blast and wig2bigwig. Please continue to report these and when you experience them in your usage of galaxy, so we can reproduce and identify the root cause.
         date: 2018-11-12 17:30:39+01:00
 - title: Galaxy Backend Migration
   class: info # success info warning danger
+  site: freiburg
   messages:
       - message: |
           We are now using the new backend. Please let us know if you have any issues!

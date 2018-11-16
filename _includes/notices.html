@@ -1,4 +1,21 @@
+{% assign page_dir = page.dir | split:'/' %}
+{% assign key = page_dir[1] | default: page.site %}
+{% assign key_length = key | size %}
+
 {% for notice in site.data.notices %}
+{% assign should_show = false %}
+
+{% if key == "galaxy" %}
+	{% if notice.site == "freiburg" %}
+		{% assign should_show = true %}
+	{% endif %}
+{% else %}
+	{% if notice.site == key %}
+		{% assign should_show = true %}
+	{% endif %}
+{% endif %}
+
+{% if should_show %}
 <div class="alert alert-{{ notice.class }}" style="margin-top: 0.5em">
 	<h4>{{ notice.title }}</h4>
 	{% assign messages = notice.messages | sort:'date' | reverse %}
@@ -6,4 +23,6 @@
 	<div>{% if message.date %}[{{ message.date | date: "%-d %B %Y %H:%M" }}] {% endif %}{{ message.message | markdownify }}</div>
 	{% endfor %}
 </div>
+{% endif %}
+
 {% endfor %}
