@@ -1,27 +1,8 @@
 ---
-- title: Galaxy Backend Migration
-  class: warning
-  site: freiburg
-  messages:
-      - message: |
-          We have noticed an increase in "503 Server Unavailable" errors, and errors with Blast and wig2bigwig. Please continue to report these and when you experience them in your usage of galaxy, so we can reproduce and identify the root cause.
-        date: 2018-11-12 17:30:39+01:00
-- title: Galaxy Backend Migration
-  class: info # success info warning danger
-  site: freiburg
-  messages:
-      - message: |
-          We are now using the new backend. Please let us know if you have any issues!
-          [Read more](/posts/2018/11/07/migration/plain.html)
-        date: 2018-11-12 15:00:35+01:00
-      - message: |
-          Anyone who notices an issue can contact us either via [email](mailto:contact@usegalaxy.eu) or via [gitter](https://gitter.im/usegalaxy-eu/Lobby)
-          Additionally interactive environments have been temporarily. They will be back soon, better than ever!
-        date: 2018-11-12 13:12:38+01:00
-      - message: |
-          Users who are accessing UseGalaxy.eu with the https://galaxy.uni-freiburg.de will be redirected temporarily to https://usegalaxy.eu. We attempted to do this transparently but could not coordinate successfully with our university DNS provider.
-        date: 2018-11-12 13:12:38+01:00
-      - message: |
-          We are planning an upcoming transition of server hardware for UseGalaxy.eu. This should be completely transparent to you.
-          [Read more](/posts/2018/11/07/migration/plain.html)
-        date: 2018-11-07 14:41:44+01:00
+#- title: Galaxy Backend Migration
+  #class: info
+  #site: freiburg
+  #messages:
+      #- message: |
+          #We have noticed an increase in "503 Server Unavailable" errors, and errors with Blast and wig2bigwig. Please continue to report these and when you experience them in your usage of galaxy, so we can reproduce and identify the root cause.
+        #date: 2018-11-12 17:30:39+01:00
