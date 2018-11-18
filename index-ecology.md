@@ -1,5 +1,5 @@
 ---
-layout: galaxy
+layout: subsite-galaxy
 ---
 
 Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize ecological data

@@ -1,5 +1,5 @@
 ---
-layout: galaxy
+layout: subsite-galaxy
 ---
 
 Welcome to **RNA Galaxy**
