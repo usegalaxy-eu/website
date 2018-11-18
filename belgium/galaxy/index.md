@@ -1,5 +1,5 @@
 ---
-layout: galaxy
+layout: external-galaxy
 ---
 
 <div class="row eu-image-box">
