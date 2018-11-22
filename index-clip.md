@@ -43,8 +43,8 @@ If your data is not de-multiplexed yet, then use the following workflows. The us
 
 The raw data needs to be in FASTA or FASTQ format as a list of dataset pairs.
 
-- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/1demultiplexeclip">Workflow to de-multiplex eCLIP read library</a>
-- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/2demultiplexiclip">Workflow to de-multiplex iCLIP read library</a>
+- <a href="https://clipseq.usegalaxy.eu/u/heylf/w/1demultiplexeclip">Workflow to de-multiplex eCLIP read library</a>
+- <a href="https://clipseq.usegalaxy.eu/u/heylf/w/2demultiplexiclip">Workflow to de-multiplex iCLIP read library</a>
 
 
 ### 3.2 From scratch with de-multiplexed FASTQ files
@@ -67,21 +67,21 @@ If you used the preceding workflows for de-multiplexing, then remove the steps o
 The workflow for the eCLIP data of [Nostrand et al. (2016)](https://doi.org/10.1038/nmeth.3810) was used to analyse the data of RBFOX2. Beware when using other data of the study of [Nostrand et al. (2016)](https://doi.org/10.1038/nmeth.3810), because the size of the unique molecular identifier (UMI) can be different. The workflow is set to a UMI of five nucleotides. You can change this by importing the workflow into your account and amend the parameter `Cut bases from reads before adapter trimming` of the second `Cutadapt` step for the CLIP and control data.
 
 #### eCLIP
-- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/1clipseq-explorerdemultiplexedpeakachuecliphg19n5-1">Workflow for the eCLIP data of Nostrand et al. (2016)</a>
-- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/2clipseq-explorerdemultipeakachuecliphg19">Peak calling with PEAKachu</a>
-- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/3clipseq-explorerdemultipureclipecliphg19">Peak calling with PureCLIP</a>
-- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/4clipseq-explorerdemultipiranhaecliphg19">Peak calling with Piranha</a>
+- <a href="https://clipseq.usegalaxy.eu/u/heylf/w/1clipseq-explorerdemultiplexedpeakachuecliphg19n5-1">Workflow for the eCLIP data of Nostrand et al. (2016)</a>
+- <a href="https://clipseq.usegalaxy.eu/u/heylf/w/2clipseq-explorerdemultipeakachuecliphg19">Peak calling with PEAKachu</a>
+- <a href="https://clipseq.usegalaxy.eu/u/heylf/w/3clipseq-explorerdemultipureclipecliphg19">Peak calling with PureCLIP</a>
+- <a href="https://clipseq.usegalaxy.eu/u/heylf/w/4clipseq-explorerdemultipiranhaecliphg19">Peak calling with Piranha</a>
 
 #### iCLIP
-- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/1clipseq-explorerdemultipeakachuicliphg19">Peak calling with PEAKachu</a>
-- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/2clipseq-explorerdemultipureclipicliphg19">Peak calling with PureCLIP</a>
-- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/3clipseq-explorerdemultipiranhaicliphg19">Peak calling with Piranha</a>
+- <a href="https://clipseq.usegalaxy.eu/u/heylf/w/1clipseq-explorerdemultipeakachuicliphg19">Peak calling with PEAKachu</a>
+- <a href="https://clipseq.usegalaxy.eu/u/heylf/w/2clipseq-explorerdemultipureclipicliphg19">Peak calling with PureCLIP</a>
+- <a href="https://clipseq.usegalaxy.eu/u/heylf/w/3clipseq-explorerdemultipiranhaicliphg19">Peak calling with Piranha</a>
 
 ### 3.3 Further optional peak analysis
 
 The following workflow can be used if you have picked a peak calling algorithm that do not support biological replicated data. The workflow finds and analysis robust binding regions shared between different peak files.
 
-- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/robustpeakanalysis">Robust peak analysis</a>
+- <a href="https://clipseq.usegalaxy.eu/u/heylf/w/robustpeakanalysis">Robust peak analysis</a>
 
 ## 4. Remarks
 
