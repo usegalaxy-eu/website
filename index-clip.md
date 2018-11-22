@@ -68,7 +68,7 @@ The workflow for the eCLIP data of [Nostrand et al. (2016)](https://doi.org/10.1
 
 #### eCLIP
 - <a href="https://galaxy.uni-freiburg.de/u/heylf/w/1clipseq-explorerdemultiplexedpeakachuecliphg19n5-1">Workflow for the eCLIP data of Nostrand et al. (2016)</a>
-- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/2clipseq-explorerdemultipeakachuecliphg19">Peakcalling with PEAKachu</a>
+- <a href="https://galaxy.uni-freiburg.de/u/heylf/w/2clipseq-explorerdemultipeakachuecliphg19">Peak calling with PEAKachu</a>
 - <a href="https://galaxy.uni-freiburg.de/u/heylf/w/3clipseq-explorerdemultipureclipecliphg19">Peak calling with PureCLIP</a>
 - <a href="https://galaxy.uni-freiburg.de/u/heylf/w/4clipseq-explorerdemultipiranhaecliphg19">Peak calling with Piranha</a>
 
