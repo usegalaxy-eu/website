@@ -36,6 +36,8 @@ During the second day, the focus was on developing and extending the Galaxy ecos
 - Yvan Le Bras: "GalaxyE, a new vision of workflow oriented Biodiversity research?"
 - Anup Kumar: "Machine learning with Galaxy"
 
+You can see many of the presentations on the [Galaxy Hub](https://galaxyproject.org/events/2018-europe-dev/)
+
 ### Check out more activity about this event on Twitter
 
 {% twitter https://twitter.com/i/moments/1065919249020059648 %}
