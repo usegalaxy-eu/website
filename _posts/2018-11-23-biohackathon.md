@@ -21,8 +21,8 @@ We worked, discussed and contributed on many projects:
 But the main projects we worked on were:
 - [Improve Shiny and RStudio integration within Galaxy using Galaxy Interactive Environment](https://github.com/elixir-europe/BioHackathon/tree/master/tools/Improve%20Shiny%20and%20RStudio%20integration%20within%20Galaxy%20using%20Galaxy%20Interactive%20Environment)
 
-    **TO DO**: add what have been done
-
+    During the 1,5 days allocated to our project, we completed some work on the GIE framework within Galaxy, developing a new Docker Volume plugin which provides the user's Galaxy history as a volume. Jupyter and RStudio will become even better with this addition.
+   
 - [Galaxy Training Material](https://github.com/elixir-europe/BioHackathon/tree/master/training/Galaxy%20training%20material%20improvement%20and%20extension)
 
     During these 5 days, we added some important functionalities to the [Galaxy Training Material](https://galaxyproject.github.io/training-material/):
