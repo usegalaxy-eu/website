@@ -6,7 +6,7 @@ layout: subsite-galaxy
 ### Bring science to the "street"
 
 
-Welcome to **the Galaxy for the [Street Science Community](https://streetscience.community/){:target="_blank"}**.
+Welcome to a **Galaxy dedicated for the [Street Science Community](https://streetscience.community/){:target="_blank"}**.
 
 ## Get started
 
