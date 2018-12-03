@@ -21,7 +21,12 @@
 
     {% for post in items limit:6 %}
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      <a class="list-group-item {% if include.site and site.team_sites[include.site].private_news  %}{% else %}border-{{ post.site }}{% endif %}" href="{{ post.url }}{{ url_ext }}" {{ url_target }}>
+      {% if post.external %}
+        {% assign url = post.external %}
+      {% else %}
+        {% assign url = post.url | append: url_ext%}
+      {% endif %}
+      <a class="list-group-item {% if include.site and site.team_sites[include.site].private_news  %}{% else %}border-{{ post.site }}{% endif %}" href="{{ url }}" {{ url_target }}>
         <p class="list-group-item-text">
         {% if post.starts == post.ends %}
         {{ post.starts | date: date_format }}
