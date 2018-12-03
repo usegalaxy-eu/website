@@ -148,23 +148,6 @@ ul.contact-info li {
     }
 }
 
-table {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 20px;
-
-    th, td {
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-
-    tbody > tr:nth-of-type(2n+1) {
-        background-color: #f9f9f9;
-    }
-}
-
 img {
 	max-width: 100%;
 }
