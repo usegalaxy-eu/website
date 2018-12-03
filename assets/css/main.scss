@@ -148,6 +148,23 @@ ul.contact-info li {
     }
 }
 
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+
+    th, td {
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    tbody > tr:nth-of-type(2n+1) {
+        background-color: #f9f9f9;
+    }
+}
+
 img {
 	max-width: 100%;
 }
@@ -320,4 +337,25 @@ body.location-pasteur {
 		background-color: transparent !important;
 		color: white;
 	}
+}
+
+
+.rna-intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #000000;
+    background: url(/assets/media/rna_workbench_logo_bg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.rna-intro-message {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 30%;
+    text-align: right;
+    
+    h1 {
+        margin: 0;
+        font-size: 5em;
+    }
 }
