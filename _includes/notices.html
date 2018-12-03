@@ -6,10 +6,17 @@
 {% assign should_show = false %}
 
 {% if key == "galaxy" %}
+	{% comment %} Our top-level Galaxy site {% endcomment %}
+	{% if notice.site == "freiburg" %}
+		{% assign should_show = true %}
+	{% endif %}
+{% else if key == "" %}
+	{% comment %} A subsite {% endcomment %}
 	{% if notice.site == "freiburg" %}
 		{% assign should_show = true %}
 	{% endif %}
 {% else %}
+	{% comment %} A subsite {% endcomment %}
 	{% if notice.site == key %}
 		{% assign should_show = true %}
 	{% endif %}

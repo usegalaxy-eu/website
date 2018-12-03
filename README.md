@@ -26,7 +26,7 @@ This is a terrible explanation but basically:
 
 ## Server Maintenance
 
-If you need to register a maintenance event, edit `_data/maintenance.yml`. When
+If you need to register a notice event, edit `_data/notices.yml`. When
 the event is over, you should comment out that file.
 
 ## Duplication
@@ -53,9 +53,9 @@ Galaxy.
 
 If you need to edit templates, I would recommend editing the parent / normal
 template and then `vimdiff`ing (or other tool of your choice) to compare that
-with its `-galaxy.html` sibling. Most of the templates will be identical except for 
+with its `-galaxy.html` sibling. Most of the templates will be identical except for
 the template they are inheriting from. The only major differences is that the
-normal templates read `for post in site.posts` (or `site.events`) while the 
+normal templates read `for post in site.posts` (or `site.events`) while the
 galaxy templates read `for post in site.posts_plain` (`or site.events_plain`)
 
 
