@@ -64,9 +64,13 @@ Every day the workshop will run from 9:00-17:00 (give or take, depending on ques
 
 Day     | Topics
 ------- | --------
-Thu     | **Starts at 10:00 am**,  HTS and Galaxy presentations and introduction
-Fri     | RNA-seq analysis
+Thursday| **Starts at 10:00 am**, Galaxy Introduction ([Slides](https://galaxyproject.github.io/training-material/topics/introduction/slides/introduction.html), [Tutorial](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html)) and HTS Introduction ([QC](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html), [Mapping](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html))
+Friday  | RNA-seq analysis ([Slides](https://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html), [Tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html))
 {:.table.table-striped}
+
+## Lunch Options
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1Brpw-UguRNDISn4_bVk8ifRkTRG8JIWR" width="100%" height="480"></iframe>
 
 ## Preparation
 

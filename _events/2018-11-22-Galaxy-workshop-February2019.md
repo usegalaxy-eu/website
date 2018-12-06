@@ -25,7 +25,7 @@ supporters:
 hidefooter: true
 ---
 
-Galaxy beginner workshop on High-Throughput data analysis, February 2019, [registration is open](https://goo.gl/forms/m1qj1WLta1O0Tzbf1)! 
+Galaxy beginner workshop on High-Throughput data analysis, February 2019, [registration is open](https://goo.gl/forms/m1qj1WLta1O0Tzbf1)!
 
 ## Venue
 
@@ -54,6 +54,10 @@ Wed     | RNA-seq data analysis
 Thu     | HiC data analysis
 Fri     | exercises, questioms, discussions, bring your own data ... (until 14:00)
 {:.table.table-striped}
+
+## Lunch Options
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1Brpw-UguRNDISn4_bVk8ifRkTRG8JIWR" width="100%" height="480"></iframe>
 
 ## Preparation
 
