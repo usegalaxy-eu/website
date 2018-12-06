@@ -65,6 +65,7 @@ Every day the workshop will run from 9:00-17:00 (give or take, depending on ques
 Day     | Topics
 ------- | --------
 Thursday| **Starts at 10:00 am**, Galaxy Introduction ([Slides](https://galaxyproject.github.io/training-material/topics/introduction/slides/introduction.html), [Tutorial](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html)) and HTS Introduction ([QC](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html), [Mapping](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html))
+Evening Program | We meet at 18:30 at the [Tourist Information](https://goo.gl/maps/Yrzw7oaars) place in Freiburg next to the old Rathaus.
 Friday  | RNA-seq analysis ([Slides](https://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html), [Tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html))
 {:.table.table-striped}
 
