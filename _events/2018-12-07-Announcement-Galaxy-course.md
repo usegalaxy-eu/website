@@ -2,7 +2,7 @@
 site: freiburg
 tags:
 - training
-title: Galaxy RNA-seq data analysis workshop in Freiburg
+title: Galaxy RNA-seq data analysis workshop in Belgrad
 starts: 2019-01-17
 ends: 2019-01-18
 organiser:
@@ -12,12 +12,8 @@ location:
   name: Institut za nuklearne nauke Vinča
   street: Mike Petrovića Alasa 12-14
   postal: 11351
-  city: Beograd
-  region: Baden-Württemberg
-  country: Srbija
-  geo:
-    lat: 37.98194
-    lon: 23.759361
+  city: Belgrad
+  country: Serbia
 supporters:
 - unifreiburg
 - denbi
