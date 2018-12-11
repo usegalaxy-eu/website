@@ -43,12 +43,13 @@ layout: default
             <h2 class="title">{{ post.title | escape }}</h2>
           </a>
           <span class="date">
+            {% include article_icons.html post=post %}
+          </span>
+          <span class="date">
             {{ post.date | date: date_format }}
           </span>
           <span class="label label-success">{{ site.team_sites[post.site].name }}</span>
-          {% for tag in post.tags %}
-            <span class="label label-primary">{{ tag }}</span>
-          {% endfor %}
+          {% include article_tags.html post=post exclude_icons=true %}
         </div>
         <div class="news-content">
           <div>{{ post.excerpt }}</div>
