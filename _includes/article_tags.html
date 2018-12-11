@@ -1,0 +1,23 @@
+{% for tag in post.tags %}
+    {% if exlcude_icons %}
+        {% if tag != "update" %}
+        {% if tag != "downtime" %}
+        {% if tag != "training" %}
+        {% if tag != "paper" %}
+        {% if tag != "tools" %}
+        {% if tag != "devops" %}
+        {% if tag != "release" %}
+        {% if tag != "job" %}
+        <span class="label label-primary">{{ tag }}</span>
+        {% endif %}
+        {% endif %}
+        {% endif %}
+        {% endif %}
+        {% endif %}
+        {% endif %}
+        {% endif %}
+        {% endif %}
+    {% else %}
+        <span class="label label-primary">{{ tag }}</span>
+    {% endif %}
+{% endfor %}
