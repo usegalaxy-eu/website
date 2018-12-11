@@ -1,8 +1,12 @@
 ---
 - title: UseGalaxy.eu Galaxy Upgrade to 18.09
-  class: warning
+  class: success
   site: freiburg
   messages:
+      - message: |
+          The server upgrade was completed successfully and in record time. We are now running on [18.09](https://docs.galaxyproject.org/en/latest/releases/18.09_announce.html)!
+          [Read more](/posts/2018/12/11/galaxy-18-09/) in our blog post.
+        date: 2018-12-11 15:55:17+01:00
       - message: |
           We will be starting maintenance soon. Galaxy will go offline for some periods, but your jobs will not be affected. Jobs may not start until the four hour period is over, but when the interface is online, you can still queue new jobs.
         date: 2018-12-11 08:48:56+01:00

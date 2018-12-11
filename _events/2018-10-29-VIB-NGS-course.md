@@ -1,6 +1,7 @@
 ---
 site: erasmusmc
 tags:
+ - training
 title: NGS Introduction using Galaxy
 starts: 2018-11-06
 ends: 2018-11-06
