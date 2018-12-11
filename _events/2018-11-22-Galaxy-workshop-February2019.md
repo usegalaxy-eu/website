@@ -1,6 +1,7 @@
 ---
 site: freiburg
 tags:
+- training
 title: Galaxy HTS data analysis workshop in Freiburg
 starts: 2019-02-25
 ends: 2019-03-01
