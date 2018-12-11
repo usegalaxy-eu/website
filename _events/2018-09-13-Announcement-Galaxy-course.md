@@ -1,6 +1,7 @@
 ---
 site: freiburg
 tags:
+- training
 title: Galaxy RNA-seq data analysis workshop in Freiburg
 starts: 2018-12-06
 ends: 2018-12-07
