@@ -6,13 +6,13 @@ title: Galaxy RNA-seq data analysis workshop in Belgrad
 starts: 2019-01-17
 ends: 2019-01-18
 organiser:
-  name: Laboratorija za bioinformatiku i računarsku hemiju University of Beograd, Srbija
+  name: Laboratory for Bioinformatics and Computational Chemistry, Institute of Nuclear Sciences Vinca, University of Belgrade, Serbia
   email: sekretarijat180@vinca.rs
 location:
-  name: Institut za nuklearne nauke Vinča
+  name: Institute of Nuclear Sciences Vinca, Mike Petrovica Alasa
   street: Mike Petrovića Alasa 12-14
   postal: 11351
-  city: Belgrad
+  city: Belgrade
   country: Serbia
 supporters:
 - unifreiburg
