@@ -1,15 +1,10 @@
 ---
-#- title: UseGalaxy.eu Galaxy Upgrade to 18.09
-  #class: success
-  #site: freiburg
-  #messages:
-      #- message: |
-          #The server upgrade was completed successfully and in record time. We are now running on [18.09](https://docs.galaxyproject.org/en/latest/releases/18.09_announce.html)!
-          #[Read more](/posts/2018/12/11/galaxy-18-09/) in our blog post.
-        #date: 2018-12-11 15:55:17+01:00
-      #- message: |
-          #We will be starting maintenance soon. Galaxy will go offline for some periods, but your jobs will not be affected. Jobs may not start until the four hour period is over, but when the interface is online, you can still queue new jobs.
-        #date: 2018-12-11 08:48:56+01:00
-      #- message: |
-          #On Tuesday, 2018-12-11, we will upgrade the UseGalaxy.eu server to [18.09](https://docs.galaxyproject.org/en/latest/releases/18.09_announce.html). We plan for 4 hours of downtime, lasting from 13 CET to 17 CET.
-        #date: 2018-11-29 13:53:18+01:00
+- title: UseGalaxy.eu Downtime on Thursday (December 20)
+  class: error
+  site: freiburg
+  messages:
+      - message: |
+          The Freiburg storage department is rebooting their storage, and we
+          need to update one of our fileservers. We will take Galaxy down for
+          an hour at 11:00 CET
+        date: 2018-12-18 11:36:36+01:00
