@@ -14,12 +14,3 @@
       - message: |
           The Freiburg University network department has just sent out a last minute email; tomorrow (Thursday December 20th) the entire university will go offline for 15 minutes from 08:00 CET to 08:15 CET.
         date: 2018-12-19 10:57:27+01:00
-- title: UseGalaxy.eu Downtime on Thursday (December 20)
-  class: danger
-  site: freiburg
-  messages:
-      - message: |
-          The Freiburg storage department is rebooting their storage, and we
-          need to update one of our fileservers. We will take Galaxy down for
-          an hour at 11:00 CET
-        date: 2018-12-18 11:36:36+01:00
