@@ -1,4 +1,12 @@
 ---
+# - title: Example Event
+#   class: danger     # one of [success, info, warning, danger]
+#   site: freiburg    # Your site
+#   messages:
+#       - message: |
+#           Here you can write some message for your users, [markdown](#asdf) is permitted.
+#         date: 2018-12-19 10:57:27+01:00
+
 - title: Uni Freiburg Downtime
   class: danger
   site: freiburg
