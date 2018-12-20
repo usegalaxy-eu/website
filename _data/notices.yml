@@ -6,11 +6,3 @@
 #       - message: |
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #         date: 2018-12-19 10:57:27+01:00
-
-- title: Uni Freiburg Downtime
-  class: danger
-  site: freiburg
-  messages:
-      - message: |
-          The Freiburg University network department has just sent out a last minute email; tomorrow (Thursday December 20th) the entire university will go offline for 15 minutes from 08:00 CET to 08:15 CET.
-        date: 2018-12-19 10:57:27+01:00
