@@ -4,9 +4,10 @@ layout: subsite-galaxy
 
 
 <br/>
-<img src="/assets/media/asaim_logo.png" height="100px" alt="ASaiM logo"/>
 
 Welcome to **Galaxy GraphClust** -- a webserver to process and analyse structural clustering of RNA secondary structures.
+
+Galaxy-GraphClust is a web-based workflow for structural clustering of RNA secondary structures developed as an instance of [GraphClust](http://www.bioinf.uni-freiburg.de/Software/GraphClust) Perl pipeline inside the Galaxy framework. It consists of a set of integrated Galaxy tools and different flavors of clustering workflows built upon these tools.
 
 1. TOC
 {:toc}
@@ -16,110 +17,64 @@ Welcome to **Galaxy GraphClust** -- a webserver to process and analyse structura
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
-Want to learn about metagenomics analyses? Check our [tutorials](#tutorials) or take one of our guided tour:
+### Video tutorial
 
-- [Introduction of amplicon data analyses using mothur tool suite](https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-amplicon){:target="_blank"}
-- [Introduction to shotgun metagenomics data analyses](https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-shotgun){:target="_blank"}
-- [16S Microbial Analysis with Mothur MiSeq SOP](https://metagenomics.usegalaxy.eu/tours/mothur-miseq-sop){:target="_blank"}
+[This video tutorial](https://www.youtube.com/watch?v=fJ6tUt_6uas) can be helpful to get a visually comprehensive introduction on setting-up and running Galaxy-GraphClust.
 
-Check also the standard but customizable [workflows](#workflows) available there.
+[![IMAGE ALT TEXT HERE](/assets/media/graphclust_video-thumbnail.png)](https://www.youtube.com/watch?v=fJ6tUt_6uas)
 
-# Tools
+### Interactive tours
+Interactive Tours are available for Galaxy and Galaxy-GraphClust. To run the tours please on top panel go to **Help→Interactive Tours** and click on one of the tours prefixed **GraphClust workflow**. You can check the other tours for a more general introduction to the Galaxy interface.
 
-More than [200 tools](https://asaim.readthedocs.io/en/latest/tools/index.html){:target="_blank"} are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of microbiota data:
+### Import or upload a workflow
 
-- [**General tools**](https://asaim.readthedocs.io/en/latest/tools/file_meta_tools.html){:target="_blank"}
-    - **Data retrieval**: EBISearch, ENASearch, SRA Tools
-    - **BAM/SAM file manipulation**: SAM tools
-    - **BIOM file manipulation**: BIOM-Format tools
-- [**Genomics tools**](https://asaim.readthedocs.io/en/latest/tools/genomics.html){:target="_blank"}
-    - **Quality control**: FastQC, PRINSEQ, Trim Galore! , Trimmomatic, MultiQC
-    - **Clustering**: CD-Hit
-    - **Sorting and prediction**: SortMeRNA, FragGeneScan
-    - **Mapping**: BWA, Bowtie
-    - **Similarity search**: NCBI Blast+, Diamond
-    - **Alignment**: HMMER3
-- [**Microbiota dedicated tools**](https://asaim.readthedocs.io/en/latest/tools/microbiota.html){:target="_blank"}
-    - **Metagenomics data manipulation**: VSEARCH, Nonpareil
-    - **Assembly**: MEGAHIT, metaSPAdes, metaQUAST, VALET
-    - **Metataxonomic sequence analysis**: Mothur, QIIME
-    - **Taxonomy assignation on WGS sequences**: MetaPhlAn2, Format MetaPhlan2, Kraken
-    - **Metabolism assignation**: HUMAnN2, Group HUMAnN2 to GO slim terms, Compare HUMAnN2 outputs, PICRUST, InterProScan
-    - **Combination of functional and taxonomic results**
-    - **Visualization**: Export2graphlan, GraPhlAn, KRONA
+To import or upload an existing workflow, on the top panel go to **Workflow** menu. On top right side of the screen click on **Upload or import workflow** button. You can either upload workflow from your local system or by providing the URL of the workflow. To have an access to workflow menu you must be logged in. You can download workflows from the following links 
 
-# Tutorials
-
-We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
-
-We then developed [several tutorials](https://galaxyproject.github.io/training-material/topics/metagenomics/){:target="_blank"} and more will come:
-
-- [Analyses of metagenomics data - The global picture](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html){:target="_blank"}
-
-    This tutorial introduces the amplicon and shotgun data analyses with the general principles behind and the differences.
-
-- [16S Microbial Analysis with Mothur](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html){:target="_blank"}
-
-    In this tutorial the Standard Operating Procedure (SOP) for MiSeq data, developed by the creators of the Mothur software package, is perfomed within Galaxy.
-
-# Workflows
-
-To orchestrate tools and help users with their analyses, several [workflows](https://asaim.readthedocs.io/en/latest/workflows.html){:target="_blank"} are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).
-
-The workflows are available in the [Shared Workflows](https://metagenomics.usegalaxy.eu/workflows/list_published), with the label "***asaim***".
-
-## Analysis of raw metagenomic or metatranscriptomic shotgun data
-
-The workflow quickly produces, from raw metagenomic or metatranscriptomic shotgun data, accurate and precise taxonomic assignations, wide extended functional results and taxonomically related metabolism information
-
-![](https://asaim.readthedocs.io/en/latest/_images/main_workflow.png)
-
-This workflow consists of
-
-1. Processing with quality control/trimming (**FastQC** and **Trim Galore!**) and dereplication (**VSearch**)
-2. Taxonomic analyses with assignation (**MetaPhlAn2**) and visualization (**KRONA**, **GraPhlAn**)
-3. Functional analyses with metabolic assignation and pathway reconstruction (**HUMAnN2**)
-4. Functional and taxonomic combination with developed tools combining HUMAnN2 and MetaPhlAn2 outputs
-
-It is available with 4 versions, given the input
-
-1. Simple files: [Single-end](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-shotgun-workflow) or [paired-end](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim---shotgun-workflow-for-paired-end-data)
-2. Collection input files: [Single-end](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-shotgun-workflow-se-collection) or [paired-end](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim---shotgun-workflow-for-paired-end-data-collection)
-
-## Assembly of metagenomic data
-
-To reconstruct genomes or to get longer sequences for further analysis, microbiota data needs to be assembled, using the recently developed metagenomics assemblers.
-
-To help in this task, two workflows have been developed using two different well-performing assemblers:
-
-- [MEGAHIT](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-megahit)
-
-    It is currently the most efficent computationally assembler: it has the lowest memory and time consumption {% cite van2017assembling awad2017evaluating sczyrba2017critical %}. It produced some of the best assemblies (irrespective of sequencing coverage) with the fewest structural errors {% cite olson2017metagenomic %} and outperforms in recovering the genomes of closely related strains {% cite awad2017evaluating %}, but has a bias towards relatively low coverage genomes leading to a suboptimal assembly of high abundant community member genomes in very large datasets {% cite vollmers2017comparing %}
-
-- [MetaSPAdes](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-metaspades)
-
-    It is particularly optimal for high-coverage metagenomes {% cite van2017assembling %} with the best contig metrics {% cite greenwald2017utilization %} and produces few under-collapsed/over-collapsed repeats {% cite olson2017metagenomic %}
-
-Both workflows consists of
-
-1. Processing with quality control/trimming (**FastQC** and **Trim Galore!**)
-2. Assembly with either **MEGAHIT** or **MetaSPAdes**
-3. Estimation of the assembly quality statistics with **MetaQUAST**
-4. Identification of potential assembly error signature with **VALET**
-5. Determination of percentage of unmapped reads with **Bowtie2** combined with **MultiQC** to aggregate the results.
+  * MotifFinder : [GraphClust-MotifFinder](https://raw.githubusercontent.com/BackofenLab/docker-galaxy-graphclust/master/workflows/GraphClust-MotifFinder.ga)
+  * Workflow for one round : [GraphClust_one](https://raw.githubusercontent.com/BackofenLab/docker-galaxy-graphclust/master/workflows/GraphClust_one.ga)
+  * Workflow for two rounds : [GraphClust_two](https://raw.githubusercontent.com/BackofenLab/docker-galaxy-graphclust/master/workflows/GraphClust_two.ga)
 
 
-## Analysis of metataxonomic data
+GraphClust pipeline overview
+===============================
 
-To analyze amplicon data, the **Mothur** and **QIIME** tool suites are available there. We implemented the workflows described in tutorials of Mothur and QIIME websites, as example of amplicon data analyses as well as support for the training material. These workflows, as any workflows available there, can be adapted for a specific analysis or used as subworkflows by the users.
+GraphClust pipeline for clustering similar RNA sequences together is a complex pipeline, for details please check GraphClust publication. Overall it consists of three major phases: a) sequence based pre-clustering b) encoding predicted RNA structures as graph features c) iterative fast candidate clustering then refinement
 
-## Running as in EBI metagenomics
+![GraphClust pipeline overview (Heyne et al. 2012)](/assets/media/graphclust_pipeline.png)
 
-The tools used in the EBI Metagenomics pipeline are also available here and can be run as a [workflow](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-ebi-metagenomics-workflow-30){:target="_blank"} with the same steps as the [EBI Metagenomics pipeline (3.0)](https://www.ebi.ac.uk/metagenomics/pipelines/3.0){:target="_blank"}.
+*GraphClust pipeline overview (Heyne et al. 2012)*
 
-![](https://asaim.readthedocs.io/en/latest/_images/ebi_metagenomics_workflow.png)
+Below is the correspondence list of Galaxy-GraphClust tool names with each step of GraphClust:
 
-However, the parameters must be adjusted by the user as we could not find them in the EBI Metagenomics documentation.
+|   Stage  | Galaxy Tool Name | Description|
+| :--------------------: | :--------------- | :----------------|
+|1 | [Preprocessing](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_preprocessing/preproc/0.5) | Input preprocessing (fragmentation)|
+|2 | [fasta_to_gspan](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_fasta_to_gspan/gspan/0.4) | Generation of structures via RNAshapes and conversion into graphs|
+|3 | [NSPDK_sparseVect](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/nspdk_sparse/9.2.3) | Generation of graph features via NSPDK |
+|4| [NSPDK_candidateClusters](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/NSPDK_candidateClust/9.2.3) | min-hash based clustering of all feature vectors, output top dense candidate clusters|
+|5| premLocarana,locarana_best_subtree, CMfinder | Locarna based clustering of each candidate cluster, all-vs-all pairwise alignments, create multiple alignments along guide tree, select best subtree,|
+|6| [Build covariance models](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmbuild/1.1.0.2) |  create candidate model |
+|7| [Search covariance models](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch/1.1.0.2) | Scan full input sequences with Infernal's cmsearch to find missing cluster members |
+|8,9| Report results | Collect final clusters and create example alignments of top cluster members|
+{: .table.table-striped}
+
+### Input:
+The input to the workflow is a set of putative RNA sequences in FASTA format. Inside the `sample_data` directory you can find examples of the input format. In this case the data is from a benchmark set based on Rfam 12.0 and additionally is optionally labeled with reference Rfam family members.
+
+### Configuring the workflows:
+Please proceed with the interactive tour named `GraphClust workflow step by step`, available under `Help->Interactive Tours`
+Check FAQs for understanding the frequently important parameters. 
+
+### Output:
+The output contains the predicted clusters, where similar putative input RNA sequences form a cluster. Additionally overall status of the clusters and the matching of cluster elements is reported for each cluster. 
+
+Please check the interactive tours and GraphClust [README](http://www.bioinf.uni-freiburg.de/Software/GraphClust/README) for more information about the reported info and files.
+
+
+# Support & Bug Reports
+
+You can file an [github issue](https://github.com/BackofenLab/docker-galaxy-graphclust/issues) or ask us on the [Galaxy development list](http://lists.bx.psu.edu/listinfo/galaxy-dev).
+
 
 # References
 
