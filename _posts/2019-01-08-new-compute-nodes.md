@@ -13,3 +13,5 @@ Today we activated our brand new hardware. Thanks to the [Federal Ministry of Ed
 Enjoy!
 
 ![Graph showing decrease in queued jobs with new nodes](/assets/media/2019-01-09-new-nodes.png)
+
+Shortly after introducing the new nodes, we were able to completely empty the queue with these additional resources.
