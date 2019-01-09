@@ -12,10 +12,4 @@ Today we activated our brand new hardware. Thanks to the [Federal Ministry of Ed
 [de.NBI-Cloud](https://www.denbi.de/cloud) with 8x1TB nodes. This means more high-memory nodes for your memory intensive jobs, less waiting, faster results.
 Enjoy!
 
-<img src="/assets/media/cookie_monster.jpg" width="30%">
-
-
-
-
-
-
+![Graph showing decrease in queued jobs with new nodes](/assets/media/2019-01-09-new-nodes.png)
