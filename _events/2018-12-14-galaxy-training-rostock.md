@@ -1,5 +1,5 @@
 ---
-site: main
+site: deNBI
 tags: [training]
 title: Galaxy for linking Bisulfite sequencing with RNA sequencing 06.-08.03.2019 in Rostock
 starts: 2019-03-06
