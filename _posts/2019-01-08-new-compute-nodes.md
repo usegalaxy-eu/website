@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [server]
+tags: [devops, release]
 title: "New hardware: 8x1TB compute nodes"
 location: Galaxy Europe
 supporters:
