@@ -7,10 +7,6 @@ tags: [job]
 
 **The [European Galaxy Team](https://usegalaxy-eu.github.io/freiburg){:target="_blank"} is hiring!**
 
-<div class="multiple-img">
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/" title="Untitled"><img src="https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg" width="512" height="340" alt="Untitled"></a>
-</div>
-
 We have a wide variety of active projects and are searching for a **Software Engineer** (100%), **System analysts/administrators** (100%), **data analyst** (100%), and a **community and/or research manager** (100%).
 
 Current areas of expertise include:
@@ -27,3 +23,8 @@ Current areas of expertise include:
 Regardless of your areas of expertise we seek talented, self-motivated individuals to join [our team](https://galaxyproject.eu/freiburg/people){:target="_blank"}. [Galaxy](https://galaxyproject.org){:target="_blank"} is developed in an academic research environment, and members of the European Galaxy team work closely with researchers on projects at the leading edge of data-intensive science. Galaxy is written in Python, but also makes substantial use of JavaScript, Canvas, and other modern Web technologies. Many of the analysis components of Galaxy are performance critical and are implemented in C and other languages as well. Galaxy makes extensive use of Conda packages and Containers and can utilize the [de.NBI Cloud](https://www.denbi.de/cloud){:target="_blank"} as well as the [NEMO supercomputer](https://www.hpc.uni-freiburg.de/nemo){:target="_blank"}.
 
 If you are interested to work with us, [send us an email](mailto:bioinf-jobs@informatik.uni-freiburg.de) and help us to make science more accessible, reproducible, and transparent.
+
+
+<div class="multiple-img">
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/" title="Untitled"><img src="https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg" width="512" height="340" alt="Untitled"></a>
+</div>
