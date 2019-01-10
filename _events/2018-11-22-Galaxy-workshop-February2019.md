@@ -26,7 +26,8 @@ supporters:
 hidefooter: true
 ---
 
-Galaxy beginner workshop on High-Throughput data analysis, February 2019, [registration is open](https://goo.gl/forms/m1qj1WLta1O0Tzbf1)!
+Galaxy beginner workshop on High-Throughput data analysis, February 2019, registration is closed.
+You can sign in into our [waiting list](https://goo.gl/forms/gDJuKXf3kl7GAndD3).
 
 ## Venue
 
