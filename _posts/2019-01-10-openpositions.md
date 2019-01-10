@@ -5,11 +5,11 @@ location: Freiburg, Germany
 tags: [job]
 ---
 
+**The [European Galaxy Team](https://usegalaxy-eu.github.io/freiburg){:target="_blank"} is hiring!**
+
 <div class="multiple-img">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/" title="Untitled"><img src="https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg" width="512" height="340" alt="Untitled"></a>
 </div>
-
-**The [European Galaxy Team](https://usegalaxy-eu.github.io/freiburg){:target="_blank"} is hiring!**
 
 We have a wide variety of active projects and are searching for a **Software Engineer** (100%), **System analysts/administrators** (100%), **data analyst** (100%), and a **community and/or research manager** (100%).
 
