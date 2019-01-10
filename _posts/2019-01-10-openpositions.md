@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: The European Galaxy Team has an open positions!
+title: The European Galaxy Team has open positions!
 location: Freiburg, Germany
 tags: [job]
 ---
