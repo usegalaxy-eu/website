@@ -7,7 +7,7 @@ tags: [job]
 
 **The [European Galaxy Team](https://usegalaxy-eu.github.io/freiburg){:target="_blank"} is hiring!**
 
-We have a wide variety of active projects and are searching for a **Software Engineer** (100%), **System analysts/administrators** (100%), **data analyst** (100%), and a **community and/or research manager** (100%).
+We have a wide variety of active projects and are searching for a **software engineer** (100%), **system analysts/administrators** (100%), **data analyst** (100%), and a **community and/or research manager** (100%).
 
 Current areas of expertise include:
 
