@@ -16,7 +16,7 @@ will be available inside the de.NBI cloud.
 
 Have a look at our [CVMFS example repository](https://github.com/usegalaxy-eu/cvmfs-example){:target="_blank"} and learn how to use the data and images.
 
-Today we are proud to announce a new CVMFS mirror under `http://cvmfs1-ufr00.galaxyproject.eu/cvmfs/@fqrn@`.
+Today we are proud to announce a new CVMFS mirror under `http://cvmfs1-ufr0.galaxyproject.eu/cvmfs/@fqrn@`.
 This will make this service more sustainable and failure-tolerant to our entire community.
 
 ![CVMFS model](/assets/media/cvmfs.png)
