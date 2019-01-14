@@ -1,7 +1,7 @@
 ---
 site: freiburg
 tags: [devops]
-title: "An other European CVMFS mirror is online"
+title: "Another European CVMFS mirror is online"
 location: Galaxy Europe
 supporters:
  - denbi
