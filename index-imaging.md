@@ -27,13 +27,21 @@ Check also the standard but customizable [workflows](#workflows) available there
 
 Several tools are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of chemical data:
 
-- **General tools**
-    - **Data retrieval**: PubChem downloader
-    - **Conversion**:
-    - **Fingerprint tools**:
-- **MD tools**
-    - **Quality control**:
-- **Docking tools**
+ * data visualization:
+   * [msi qualitycontrol](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/)
+   * [msi mz images](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/)
+   * [msi spectra plot](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_spectra_plots/cardinal_spectra_plots/)
+ * data preprocessing:
+   * [MALDIquant preprocessing](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_preprocessing/maldi_quant_preprocessing/)
+   * [MALDIquant peak detection](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_peak_detection/maldi_quant_peak_detection/)
+   * [msi preprocessing](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_preprocessing/cardinal_preprocessing/)
+ * data manipulation:
+   * [msi filtering](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_filtering/cardinal_filtering/)
+   * [msi combine](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_combine/cardinal_combine/)
+   * [msi data exporter](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_data_exporter/cardinal_data_exporter/)
+ * statistical tools:
+   * [msi segmentation](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_segmentations/cardinal_segmentations/)
+   * [msi classification](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_classification/cardinal_classification/)
 
 
 # Tutorials
