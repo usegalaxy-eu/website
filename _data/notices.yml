@@ -8,9 +8,12 @@
 #         date: 2018-12-19 10:57:27+01:00
 
 - title: Slow uploads
-  class: info
+  class: success
   site: freiburg    # Your site
   messages:
       - message: |
           We have noticed slow dataset uploads. We are investigating the issue but will not be able to investigate further until after the holiday season, as our admins are on vacation with their families.
         date: 2018-12-21 11:04:46+01:00
+      - message: |
+          We have identified and fixed the issue. Uploads should be back to normal.
+        date: 2019-01-15 15:51:46+01:00
