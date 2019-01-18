@@ -1,6 +1,6 @@
 ---
 layout: subsite-galaxy
-website: {{ page.website }}
+website: https://rna.usegalaxy.eu
 ---
 
 <div class="container rna-intro-header" style="">
