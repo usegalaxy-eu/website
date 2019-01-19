@@ -17,7 +17,7 @@ The participants seem to have appreciated this workshop, given the nice feedback
 
 ![Feedbacks stickers](/assets/media/2019-01-19-rna-seq-workshop-belgrade.jpg)
 
-Thanks Nevena and Vlada for the invitation and the sightseing ❤️!
+Thanks Nevena and Vlada for the invitation and the sightseeing ❤️!
 
 ### Check out more activity about this event
 
