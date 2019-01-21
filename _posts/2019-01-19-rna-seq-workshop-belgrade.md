@@ -13,7 +13,7 @@ Last week, the Freiburg Galaxy team taught a 2 day course in the beautiful city 
 
 This 2 day workshop was organized and hosted by the [Institute of Nuclear Sciences Vinča](http://bg.ac.rs/en/members/institutes/Vinca.php) in Belgrade. Björn, Helena and Bérénice offered an introductory course to Galaxy and RNA-seq data analysis for the 50 participants. 
 
-The participants seem to have appreciated this workshop, given the nice feedback we got.
+Based on the nice feedback we received, all of the participants seem to have enjoyed this workshop.
 
 ![Feedbacks stickers](/assets/media/2019-01-19-rna-seq-workshop-belgrade.jpg)
 
