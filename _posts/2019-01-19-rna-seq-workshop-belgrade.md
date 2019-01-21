@@ -5,7 +5,7 @@ location: Belgrade, Serbia
 tags: [training]
 ---
 
-The Freiburg Galaxy team was teaching last week for 2 days in the beautiful city of Belgrade!
+Last week, the Freiburg Galaxy team taught a 2 day course in the beautiful city of Belgrade!
 
 <div class="multiple-img">
 <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/134305289@N03/32922648008/in/shares-7s06ku/" title="Galaxy RNA-seq workshop @ Belgrad"><img src="https://farm8.staticflickr.com/7876/32922648008_1371ba32d5_z.jpg" width="640" height="427" alt="Galaxy RNA-seq workshop @ Belgrad"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
