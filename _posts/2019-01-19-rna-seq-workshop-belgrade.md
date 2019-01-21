@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: A successuful Galaxy RNA-seq workshop in Belgrade
+title: A successful Galaxy RNA-seq workshop in Belgrade
 location: Belgrade, Serbia
 tags: [training]
 ---
