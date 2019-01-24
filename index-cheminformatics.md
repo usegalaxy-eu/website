@@ -52,9 +52,28 @@ Tool | Description | Reference
 [QED]({{ page.website }}/??tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed/0.1) | Drug-likeness quantitative estimation (QED) | [Bickerton et al., 2012](https://doi.org/10.1038/nchem.1243){:target="_blank"}
 {:.table.table-striped}
 
+## molecular dynamics tools
 
+Tool | Description | Reference
+--- | --- | ---
+[gmxSetup]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2018.2/) | Produce a topology using GROMACS for a given protein structure  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[gmxSolvate]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2018.2//) | Solvate a system using GROMACS | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[gmxEM]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2018.2/) | Energy minimization using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[gmxNVT]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_nvt/gmx_nvt/2018.2/) | NVT equilibration using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[gmxNPT]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_npt/gmx_npt/2018.2/) |  NPT equilibration using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[gmxMD]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_md/gmx_md/2018.2/) | Production simulation using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[mdaDistance]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/0.18/) | Distance analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
+[mdaDihedral]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/0.18/) | Dihedral analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
+[mdaRDF]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.18/) | Radial distribution function between two atoms  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
+[mdaAngle]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_angle/mdanalysis_angle/0.18/) | Angle analysis using MDAnalysis | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
+[mdConverter]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.1/) | Interconvert between MD file formats | [McGibbon et al., 2015](https://doi.org/10.1016/j.bpj.2015.08.015){:target="_blank"} [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[packmol]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/packmol/packmol/18.16/) | Create initial MD configurations | [Martinez et al., 2009](https://doi.org/10.1002/jcc.21224){:target="_blank"}
+[bio3dPCA]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3/) | Apply PCA to an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
+[bio3dRMSD]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3/) | Calculate RMSD for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
+[bio3dRMSD]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3/) | Calculate RMSD for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
 
 # Tutorials
+
 
 ToDo
 
