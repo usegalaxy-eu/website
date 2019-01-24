@@ -49,8 +49,7 @@ Tool | Description | Reference
 --- | --- | ---
 [genProp]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_genprop/openbabel_genProp/) | Compute physico-chemical properties for a set of molecules  | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
 [NPL]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator) | Natural Product likeness calculator  | [Jayaseelan, Kalai Vanii, 2012](http://dx.doi.org/10.1186/1471-2105-13-106){:target="_blank"}
-[QED]({{ page.website }}/??tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed/0.1) | Drug-likeness quantitative estimation (QED)
- | [Bickerton et al., 2012](https://doi.org/10.1038/nchem.1243){:target="_blank"}
+[QED]({{ page.website }}/??tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed/0.1) | Drug-likeness quantitative estimation (QED) | [Bickerton et al., 2012](https://doi.org/10.1038/nchem.1243){:target="_blank"}
 {:.table.table-striped}
 
 
