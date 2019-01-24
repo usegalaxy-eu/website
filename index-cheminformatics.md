@@ -70,7 +70,7 @@ Tool | Description | Reference
 [packmol]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/packmol/packmol/18.16/) | Create initial MD configurations | [Martinez et al., 2009](https://doi.org/10.1002/jcc.21224){:target="_blank"}
 [bio3dPCA]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3/) | Apply PCA to an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
 [bio3dRMSD]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3/) | Calculate RMSD for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
-[bio3dRMSD]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3/) | Calculate RMSD for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
+[bio3dRMSF]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3/) | Calculate RMSF for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
 
 # Tutorials
 
