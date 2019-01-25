@@ -32,14 +32,14 @@ Several tools are integrated in this custom Galaxy instance. They were chosen fo
 
 Tool | Description | Reference
 --- | --- | ---
-[remSmallMol]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remsmall/openbabel_remSmall/) | Remove small molecules | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-[AddH]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh/) | Add hydrogen atoms at a certain pH value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-[RemDupMol]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/) | Remove duplicated molecules  | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-[remProtState]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remove_protonation_state/openbabel_remove_protonation_state) | Remove protonation state of every atom | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-[comConvert]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/) | Compound Convert Converts various chemistry and molecular modeling data files | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-[remConterIons]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons/) | Remove counterions and fragments | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-[changTitle]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title) | Change Title to meta-data value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-[remCountIo]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title) | Change Title to meta-data value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+[remSmallMol](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remsmall/openbabel_remSmall/) | Remove small molecules | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+[AddH](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh/) | Add hydrogen atoms at a certain pH value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+[RemDupMol](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/) | Remove duplicated molecules  | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+[remProtState](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remove_protonation_state/openbabel_remove_protonation_state) | Remove protonation state of every atom | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+[comConvert](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/) | Compound Convert Converts various chemistry and molecular modeling data files | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+[remConterIons](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons/) | Remove counterions and fragments | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+[changTitle](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title) | Change Title to meta-data value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+[remCountIo](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title) | Change Title to meta-data value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
 {:.table.table-striped}
 
 
@@ -47,30 +47,31 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-[genProp]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_genprop/openbabel_genProp/) | Compute physico-chemical properties for a set of molecules  | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-[NPL]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator) | Natural Product likeness calculator  | [Jayaseelan, Kalai Vanii, 2012](http://dx.doi.org/10.1186/1471-2105-13-106){:target="_blank"}
-[QED]({{ page.website }}/??tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed/0.1) | Drug-likeness quantitative estimation (QED) | [Bickerton et al., 2012](https://doi.org/10.1038/nchem.1243){:target="_blank"}
+[genProp](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_genprop/openbabel_genProp/) | Compute physico-chemical properties for a set of molecules  | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+[NPL](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator) | Natural Product likeness calculator  | [Jayaseelan, Kalai Vanii, 2012](http://dx.doi.org/10.1186/1471-2105-13-106){:target="_blank"}
+[QED](https://usegalaxy.eu/??tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed/0.1) | Drug-likeness quantitative estimation (QED) | [Bickerton et al., 2012](https://doi.org/10.1038/nchem.1243){:target="_blank"}
 {:.table.table-striped}
 
 ## molecular dynamics tools
 
 Tool | Description | Reference
 --- | --- | ---
-[gmxSetup]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2018.2/) | Produce a topology using GROMACS for a given protein structure  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-[gmxSolvate]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2018.2//) | Solvate a system using GROMACS | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-[gmxEM]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2018.2/) | Energy minimization using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-[gmxNVT]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_nvt/gmx_nvt/2018.2/) | NVT equilibration using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-[gmxNPT]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_npt/gmx_npt/2018.2/) |  NPT equilibration using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-[gmxMD]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_md/gmx_md/2018.2/) | Production simulation using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-[mdaDistance]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/0.18/) | Distance analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
-[mdaDihedral]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/0.18/) | Dihedral analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
-[mdaRDF]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.18/) | Radial distribution function between two atoms  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
-[mdaAngle]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_angle/mdanalysis_angle/0.18/) | Angle analysis using MDAnalysis | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
-[mdConverter]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.1/) | Interconvert between MD file formats | [McGibbon et al., 2015](https://doi.org/10.1016/j.bpj.2015.08.015){:target="_blank"} [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-[packmol]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/packmol/packmol/18.16/) | Create initial MD configurations | [Martinez et al., 2009](https://doi.org/10.1002/jcc.21224){:target="_blank"}
-[bio3dPCA]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3/) | Apply PCA to an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
-[bio3dRMSD]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3/) | Calculate RMSD for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
-[bio3dRMSF]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3/) | Calculate RMSF for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
+[gmxSetup](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2018.2/) | Produce a topology using GROMACS for a given protein structure  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[gmxSolvate](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2018.2//) | Solvate a system using GROMACS | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[gmxEM](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2018.2/) | Energy minimization using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[gmxNVT](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_nvt/gmx_nvt/2018.2/) | NVT equilibration using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[gmxNPT](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_npt/gmx_npt/2018.2/) |  NPT equilibration using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[gmxMD](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_md/gmx_md/2018.2/) | Production simulation using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[mdaDistance](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/0.18/) | Distance analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
+[mdaDihedral](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/0.18/) | Dihedral analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
+[mdaRDF](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/0.18/) | Radial distribution function between two atoms  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
+[mdaAngle](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_angle/mdanalysis_angle/0.18/) | Angle analysis using MDAnalysis | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
+[mdConverter](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/1.9.1/) | Interconvert between MD file formats | [McGibbon et al., 2015](https://doi.org/10.1016/j.bpj.2015.08.015){:target="_blank"} [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+[packmol](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/packmol/packmol/18.16/) | Create initial MD configurations | [Martinez et al., 2009](https://doi.org/10.1002/jcc.21224){:target="_blank"}
+[bio3dPCA](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3/) | Apply PCA to an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
+[bio3dRMSD](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/2.3/) | Calculate RMSD for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
+[bio3dRMSF](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/2.3/) | Calculate RMSF for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
+{:.table.table-striped}
 
 # Tutorials
 
@@ -87,6 +88,7 @@ Workflow | Description
 --- | ---
 [GROMACS](https://cheminformatics.usegalaxy.eu/u/simonbray/w/molecular-dynamics-1) | Molecular dynamics simulation with GROMACS
 [Bio3D](https://cheminformatics.usegalaxy.eu/u/tsenapathi/w/md-analysis-using-bio3d) | Molecular dynamics analysis with Bio3D
+{:.table.table-striped}
 
 # Contributors
 
