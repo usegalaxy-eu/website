@@ -83,6 +83,11 @@ To orchestrate tools and help users with their analyses, several workflows are a
 
 The workflows are available in the [Shared Workflows](https://cheminformatics.usegalaxy.eu/workflows/list_published), with the label "***cheminformatics***".
 
+Workflow | Description
+--- | ---
+[GROMACS](https://cheminformatics.usegalaxy.eu/u/simonbray/w/molecular-dynamics-1) | Molecular dynamics simulation with GROMACS
+[Bio3D](https://cheminformatics.usegalaxy.eu/u/tsenapathi/w/md-analysis-using-bio3d) | Molecular dynamics analysis with Bio3D
+
 # Contributors
 
   * [Chris Barnett](https://www.chemistry.uct.ac.za/cem/staff/academic/barnett)
