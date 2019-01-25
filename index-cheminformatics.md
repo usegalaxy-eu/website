@@ -74,7 +74,7 @@ Tool | Description | Reference
 # Tutorials
 - PDF's of the workshop run in 2019 are [available](https://drive.google.com/open?id=10oxT2Vl4rBdyNR8iHjer4Q77Ra56-jIp)
 
-:raising_hand: Are additional tutorials needed? [Please make a request.](https://github.com/galaxycomputationalchemistry/galaxy-tools-compchem/issues)
+🙋 Are additional tutorials needed? [Please make a request.](https://github.com/galaxycomputationalchemistry/galaxy-tools-compchem/issues)
 
 # Workflows
 
