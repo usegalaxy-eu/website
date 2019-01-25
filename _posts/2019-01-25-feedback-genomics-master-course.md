@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [release]
+tags: [training]
 title: "Galaxy based introduction to Genomics as part of the Curriculum in Belgrad, by Nevena Veljkovic"
 location: Galaxy Europe
 ---
