@@ -1,7 +1,7 @@
 ---
 site: freiburg
 tags: [release]
-title: "The GOEnrichment tool and tutorial is now available on Galaxy, by Daniel Sobral"
+title: "The GOEnrichment tool and tutorial are now available on Galaxy, by Daniel Sobral"
 location: Galaxy Europe
 supporters:
  - ELIXIR
