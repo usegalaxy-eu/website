@@ -74,7 +74,7 @@ ViennaRNA | A tool compilation for prediction and comparison of RNA secondary st
 
 ## RNA alignment
 
-Tool | Description | Reference [width=400px]
+Tool | Description | Reference
 --- | --- | ---
 [Compalignp]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fcompalignp%2Fcompalignp){:target="_top"} | An RNA counterpart of the protein specific "Benchmark Alignment Database" | [Wilm et al. 2006](https://doi.org/10.1186/1748-7188-1-19){:target="_blank"}
 [LocARNA]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fmlocarna%2Fmlocarna){:target="_top"} | A tool for multiple alignment of RNA molecules | [Will et al. 2012](https://doi.org/10.1261/rna.029041.111){:target="_blank"}
