@@ -8,7 +8,7 @@ website: https://rna.usegalaxy.eu
         <div class="col-lg-12">
             <div class="rna-intro-message">
                 <h1>Welcome to <bold>RNA Galaxy</bold></h1>
-                <h3>The <a href="http://bgruening.github.io/galaxy-rna-workbench" target="_top">RNA workbench</a> developed by the de.NBI RNA Bioinformatics Center</h3>
+                <h3>The <a href="http://bgruening.github.io/galaxy-rna-workbench" target="_blank">RNA workbench</a> developed by the de.NBI RNA Bioinformatics Center</h3>
             </div>
         </div>
     </div>
