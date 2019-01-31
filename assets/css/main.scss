@@ -342,3 +342,8 @@ body.location-pasteur {
         font-size: 5em;
     }
 }
+
+#rna-tooltable table td:nth-child(1), #rna-tooltable table td:nth-child(3){
+    width: 15%;
+}
+
