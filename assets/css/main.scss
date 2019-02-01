@@ -323,27 +323,34 @@ body.location-pasteur {
 }
 
 
-.rna-intro-header {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    color: #000000;
-    background: url(/assets/media/rna_workbench_logo_bg.png) no-repeat center center;
-    background-size: cover;
-}
-
-.rna-intro-message {
-    position: relative;
-    padding-top: 5%;
-    padding-bottom: 30%;
-    text-align: right;
-    
-    h1 {
-        margin: 0;
-        font-size: 5em;
-    }
-}
-
-#rna-tooltable table td:nth-child(1), #rna-tooltable table td:nth-child(3){
+#tooltable table td:nth-child(1), #tooltable table td:nth-child(3) {
     width: 15%;
 }
 
+#rna-intro-header {
+    overflow: hidden;
+    padding: 10px;
+
+    #rna-intro-left {
+        width: 65%;
+        float: left;
+    }
+
+    #rna-intro-right {
+        width: 30%;
+        float: right;
+        padding: 10px;
+        img {
+            margin: 10px;
+        }
+        p {
+            font-size: 120%;
+        }
+        h1 {
+            position: relative;
+            right: -40%;
+            top: 70px
+            
+        }
+    }
+}

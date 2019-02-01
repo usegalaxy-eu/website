@@ -3,18 +3,14 @@ layout: subsite-galaxy
 website: https://rna.usegalaxy.eu
 ---
 
-<div class="container rna-intro-header" style="">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="rna-intro-message">
-                <h1>Welcome to <bold>the RNA Galaxy</bold></h1>
-                <h3>The <a href="http://bgruening.github.io/galaxy-rna-workbench" target="_blank">RNA workbench</a> developed by the de.NBI RNA Bioinformatics Center</h3>
-            </div>
-        </div>
-    </div>
+<div id="rna-intro-header">
+<div id="rna-intro-right">
+    <h1>RNA Galaxy</h1>
+    <img src="/assets/media/rna_workbench_logo_bg.png" alt="RNA Galaxy">
+    <p>The <a href="http://bgruening.github.io/galaxy-rna-workbench" target="_blank">RNA workbench</a> developed by the de.NBI RNA Bioinformatics Center</p>
 </div>
-
-# About the RNA Galaxy workbench
+<div id="rna-intro-left" markdown="1">
+# Welcome to the RNA Galaxy workbench
 {:.no_toc}
 
 The RNA Galaxy workbench is a comprehensive set of analysis tools and consolidated workflows. The workbench is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
@@ -28,6 +24,8 @@ The workbench is developed by the RNA Bioinformatics Center (RBC). This center i
 
 1. TOC
 {:toc}
+</div>
+</div>
 
 # Get started
 
