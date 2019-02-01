@@ -3,35 +3,29 @@ layout: subsite-galaxy
 website: https://rna.usegalaxy.eu
 ---
 
-<div id="rna-intro-header">
-<div id="rna-intro-right">
-    <h1>RNA Galaxy</h1>
-    <img src="/assets/media/rna_workbench_logo_bg.png" alt="RNA Galaxy">
-    <p>The <a href="http://bgruening.github.io/galaxy-rna-workbench" target="_blank">RNA workbench</a> developed by the de.NBI RNA Bioinformatics Center</p>
-</div>
-<div id="rna-intro-left" markdown="1">
 # Welcome to the RNA Galaxy workbench
 {:.no_toc}
+
+![RNA Galaxy](/assets/media/rna_workbench_logo_bg.png){:.rna-intro-right}
 
 The RNA Galaxy workbench is a comprehensive set of analysis tools and consolidated workflows. The workbench is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
 The current implementation comprises more than 50 bioinformatics tools dedicated to different research areas of RNA biology, including RNA structure analysis, RNA alignment, RNA annotation, RNA-protein interaction, ribosome profiling, RNA-Seq analysis, and RNA target prediction.
 
-The workbench is developed by the RNA Bioinformatics Center (RBC). This center is one of the eight service units of the [German Network for Bioinformatics Infrastructure](http://www.denbi.de), running the German [ELIXIR Node](https://www.elixir-europe.org/).
+The workbench is developed by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"}. This center is one of the eight service units of the [German Network for Bioinformatics Infrastructure (de.NBI)](http://www.denbi.de){:target="_blank"}, running the German [ELIXIR Node](https://www.elixir-europe.org/){:target="_blank"}.
+
 
 # Content
 {:.no_toc}
 
 1. TOC
 {:toc}
-</div>
-</div>
 
 # Get started
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
-**Want to learn more about RNA analyses? Take one of our guided tour or check out the following hands-on tutorials from [The Galaxy Training Network](https://galaxyproject.github.io/training-material/){:target=_"blank"}.**
+**Want to learn more about RNA analyses? Take one of our guided tour or check out the following hands-on tutorials from [the Galaxy Training Network](https://galaxyproject.github.io/training-material/){:target=_"blank"}.**
 
 Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy tour | Galaxy History
 --- | --- | --- | --- | --- | --- | ---
@@ -52,7 +46,6 @@ Visualization of RNA-Seq results with heatmap2 |  | [<i class="fa fa-laptop" ari
 ViennaRNA Introduction | | | | | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/rnateam.viennarna){:target="_blank"}| [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}//u/joerg-fallmann/h/viennarnaintroduction){:target="_blank"}
 {:.table.table-striped}
 
-<div id="rna-tooltable" markdown="1">
 
 # Available tools
 
@@ -70,7 +63,7 @@ MEA | Prediction of maximum expected accuracy RNA secondary structures | [Amman 
 [RNAz]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Frnaz%2Frnaz){:target="_top"} | Predicts structurally conserved and therm. stable RNA secondary structures in mult. seq. alignments | [Washietl et al. 2005](https://doi.org/10.1073/pnas.0409169102){:target="_blank"}
 [segmentation-fold]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fyhoogstrate%2Fsegmentation_fold%2Fsegmentation_fold){:target="_top"}| An application that predicts RNA 2D-structure with an extended version of the Zuker algorithm | -
 ViennaRNA | A tool compilation for prediction and comparison of RNA secondary structures | [Lorenz et al. 2011](https://doi.org/10.1186/1748-7188-6-26){:target="_blank"}
-{:.table.table-striped}
+{: .table.table-striped .tooltable}
 
 ## RNA alignment
 
@@ -81,7 +74,7 @@ Tool | Description | Reference
 [MAFFT]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fmafft%2Frbc_mafft){:target="_top"} | A multiple sequence alignment program for unix-like operating systems | [Katoh and Standley, 2016](https://doi.org/10.1093/bioinformatics/btw108){:target="_blank"}
 [RNAlien]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Frnalien%2FRNAlien){:target="_top"} | A tool for RNA family model construction | [Eggenhofer et al. 2016](https://doi.org/10.1093/nar/gkw558){:target="_blank"}
 [CMV]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fcmv%2Fcmv){:target="_top"} | RNA family model visualisation | [Eggenhofer et al. 2018](https://doi.org/10.1093/bioinformatics/bty158){:target="_blank"}
-{:.table.table-striped}
+{: .table.table-striped .tooltable}
 
 ## RNA annotation
 
@@ -95,7 +88,7 @@ INFERNAL | A tool searching DNA sequence databases for RNA structure and sequenc
 [RNAcode]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Frnacode%2Frbc_rnacode){:target="_top"} | Predicts protein coding regions in a a set of homologous nucleotide sequences | [Washietl et al. 2011](https://doi.org/10.1261/rna.2536111){:target="_blank"}
 [tRNAscan]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftrna_prediction%2Ftrnascan){:target="_top"} | Searches for tRNA genes in genomic sequences | [Lowe and Eddy, 1997](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC146525/){:target="_blank"}
 [RCAS]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Frcas%2Frcas){:target="_top"} | A generic reporting tool for the functional analysis of transcriptome-wide regions of interest detected by high-throughput experiments | [Uyar et al.](https://www.ncbi.nlm.nih.gov/pubmed/28334930){:target="_blank"}
-{:.table.table-striped}
+{: .table.table-striped .tooltable}
 
 ## RNA-protein interaction
 
@@ -105,14 +98,14 @@ AREsite2 | A database for AU-/GU-/U-rich elements in human and model organisms |
 [DoRiNA]({{ page.website }}/tool_runner/data_source_redirect?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fdorina%2Fdorina_search){:target="_top"} | A database of RNA interactions in post-transcriptional regulation | [Blin et al. 2014](https://doi.org/10.1093/nar/gku1180){:target="_blank"}
 [PARalyzer]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fparalyzer%2Fparalyzer){:target="_top"}| An algorithm to generate a map of interacting RNA-binding proteins and their targets | [Corcoran et al. 2011](https://doi.org/10.1186/gb-2011-12-8-r79){:target="_blank"}
 [Piranha]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fpiranha%2Fpiranha){:target="_top"} | A peak-caller for CLIP- and RIP-seq data | -
-{:.table.table-striped}
+{: .table.table-striped .tooltable}
 
 ## RNA target prediction
 
 Tool | Description | Reference
 --- | --- | ---
 TargetFinder | A tool to predict small RNA binding sites on target transcripts from a sequence database | -
-{:.table.table-striped}
+{: .table.table-striped .tooltable}
 
 ## RNA Seq and HTS analysis
 
@@ -122,7 +115,7 @@ Tool | Description | Reference
 --- | --- | ---
 [FastQC!]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc){:target="_top"} | A quality control tool for high throughput sequence data | -
 [Trim Galore!]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftrim_galore%2Ftrim_galore){:target="_top"} | Automatic quality and adapter trimming as well as quality control | -
-{:.table.table-striped}
+{: .table.table-striped .tooltable}
 
 ### RNA-Seq
 
@@ -134,7 +127,7 @@ Tool | Description | Reference
 [NASTIseq]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fnastiseq%2Fnastiseq){:target="_top"} | A method that incorporates the inherent variable efficiency of generating perfectly strand-specific libraries | [Li et al. 2013](https://doi.org/10.1101/gr.149310.112){:target="_blank"}
 [PIPmiR]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fpipmir%2Fpipmir){:target="_top"} | An algorithm to identify novel plant miRNA genes from a combination of deep sequencing data and genomic features | [Breakfield et al. 2011](https://doi.org/10.1101/gr.123547.111){:target="_blank"}
 [SortMeRNA]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fsortmerna%2Fbg_sortmerna){:target="_top"} | A tool for filtering, mapping and OTU-picking NGS reads in metatranscriptomic and -genomic data | [Kopylova et al. 2011](https://doi.org/10.1093/bioinformatics/bts611){:target="_blank"}
-{:.table.table-striped}
+{: .table.table-striped .tooltable}
 
 ### Read Mapping
 
@@ -145,14 +138,14 @@ Tool | Description | Reference
 [STAR-fusion]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fstar_fusion%2Fstar_fusion){:target="_top"} | Fast fusion gene finder | [Haas et al. 2017](https://www.biorxiv.org/content/early/2017/03/24/120295){:target="_blank"}
 [Bowtie2]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fbowtie2%2Fbowtie2){:target="_top"} | Fast and sensitive read alignment | [Langmead et al. 2012](https://doi.org/10.1038/nmeth.1923){:target="_blank"}
 [BWA]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fbwa%2Fbwa){:target="_top"} | Software package for mapping low-divergent sequences against a large reference genome | [Li and Durbin 2009](https://doi.org/10.1093/bioinformatics/btp324){:target="_blank"}, [Li and Durbin 2010](https://doi.org/10.1093/bioinformatics/btp698){:target="_blank"}
-{:.table.table-striped}
+{: .table.table-striped .tooltable}
 
 ### Transcript Assembly
 
 Tool | Description | Reference
 --- | --- | ---
 [Trinity]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ftrinity%2Ftrinity){:target="_top"} | De novo transcript sequence reconstruction from RNA-Seq | [Haas et al. 2013](https://doi.org/10.1038%2Fnprot.2013.084){:target="_blank"}
-{:.table.table-striped}
+{: .table.table-striped .tooltable}
 
 ### Quantification
 
@@ -162,14 +155,14 @@ Tool | Description | Reference
 [htseq-count]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flparsons%2Fhtseq_count%2Fhtseq_count){:target="_top"} | Tool for counting reads in features | [Anders et al. 2015](https://doi.org/10.1093%2Fbioinformatics%2Fbtu638){:target="_blank"}
 [Sailfish]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsailfish%2Fsailfish){:target="_top"} | Rapid Alignment-free Quantification of Isoform Abundance | [Patro et al. 2014](http://dx.doi.org/10.1038/nbt.2862){:target="_blank"}
 [Salmon]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsalmon%2Fsalmon){:target="_top"} | Fast, accurate and bias-aware transcript quantification | [Patro et al. 2017](http://dx.doi.org/10.1038/nmeth.4197){:target="_blank"}
-{:.table.table-striped}
+{: .table.table-striped .tooltable}
 
 ### Differential expression analysis
 
 Tool | Description | Reference
 --- | --- | ---
 [DESeq2]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdeseq2%2Fdeseq2){:target="_top"} | Differential gene expression analysis based on the negative binomial distribution | [Love et al. 2014](http://doi.org/10.1186/s13059-014-0550-8){:target="_blank"}
-{:.table.table-striped}
+{: .table.table-striped .tooltable}
 
 ### Utilities
 
@@ -178,16 +171,14 @@ Tool | Description | Reference
 SAMtools | Utilities for manipulating alignments in the SAM format | [Heng et al. 2009](https://doi.org/10.1093/bioinformatics/btp352){:target="_blank"}
 BEDTools | Utilities for genome arithmetic | [Quinlan and Hall 2010](https://doi.org/10.1093/bioinformatics/btq033){:target="_blank"}
 deepTools | Tools for exploring deep-sequencing data | [Ramirez et al. 2014](https://doi.org/10.1093/nar/gku365){:target="_blank"}, [Ramirez et al. 2016](https://doi.org/10.1093/nar/gkw257){:target="_blank"}
-{:.table.table-striped}
+{: .table.table-striped .tooltable}
 
 ## Ribosome profiling
 
 Tool | Description | Reference
 --- | --- | ---
 RiboTaper | An analysis pipeline for Ribo-Seq experiments, exploiting the triplet periodicity of ribosomal footprints to call translated regions | [Calviello et al. 2016](https://doi.org/10.1038/nmeth.3688){:target="_blank"}
-{:.table.table-striped}
-
-</div>
+{: .table.table-striped .tooltable}
 
 # Training
 

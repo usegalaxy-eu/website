@@ -323,34 +323,22 @@ body.location-pasteur {
 }
 
 
-#tooltable table td:nth-child(1), #tooltable table td:nth-child(3) {
-    width: 15%;
-}
-
-#rna-intro-header {
-    overflow: hidden;
-    padding: 10px;
-
-    #rna-intro-left {
-        width: 65%;
-        float: left;
+.tooltable {
+    td:nth-child(1) {
+        width: 15%;
     }
 
-    #rna-intro-right {
-        width: 30%;
-        float: right;
+    td:nth-child(3) {
+        width: 15%;
+    }
+}
+
+.rna-intro-right {
+    width: 35%;
+    min-width: 100px;
+    max-height: 200px;
+    float: right;
+    img {
         padding: 10px;
-        img {
-            margin: 10px;
-        }
-        p {
-            font-size: 120%;
-        }
-        h1 {
-            position: relative;
-            right: -40%;
-            top: 70px
-            
-        }
     }
 }
