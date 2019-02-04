@@ -7,6 +7,8 @@ layout: subsite-galaxy
 
 # Welcome to **Galaxy Proteomics**
 
+<a class="twitter-timeline" href="https://twitter.com/usegalaxyp?ref_src=twsrc%5Etfw">Tweets by usegalaxyp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 *This European Galaxy branches off from the main [usegalaxy.eu](https://usegalaxy.eu){:target="_blank"} server and focuses on one specific domain: Proteomics.*
 
 **Galaxy Proteomics** is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry-based proteomics. It is hosted by GalaxyEU and maintained by the [GalaxyP team](http://galaxyp.org){:target="_blank"} from the University of Minnesota, MN, USA.
