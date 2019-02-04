@@ -5,9 +5,9 @@ layout: subsite-galaxy
 
 <br/>
 
-Welcome to **Galaxy GraphClust** -- a webserver to process and analyse structural clustering of RNA secondary structures.
+Welcome to **GraphClust2** Galaxy server for clustering of RNAs according to sequence and secondary structures similarities.
 
-Galaxy-GraphClust is a web-based workflow for structural clustering of RNA secondary structures developed as an instance of [GraphClust](http://www.bioinf.uni-freiburg.de/Software/GraphClust) Perl pipeline inside the Galaxy framework. It consists of a set of integrated Galaxy tools and different flavors of clustering workflows built upon these tools.
+GraphClust2 is a  workflow for scalable clustering of RNAs based on sequence and secondary structures feature. GraphClust2 is implemented within the Galaxy framework and consists a set of integrated Galaxy tools and flavors of the linear-time clustering workflow.
 
 1. TOC
 {:toc}
@@ -15,36 +15,51 @@ Galaxy-GraphClust is a web-based workflow for structural clustering of RNA secon
 
 # Get started
 
-Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui){:target="_top"} through Galaxy's user interface.
+### Interactive tours
+
+**GraphClust2 rapid start**
+
+Interactive tours are available for Galaxy and GraphClust2. To run the tours please on top panel go to **Help→Interactive Tours** and click on one of the tours prefixed **GraphClust workflow**  (direct link to the [basic tour](https://graphclust.usegalaxy.eu/tours/graphclust_tutorial)). Please use your personal user-password for logging in.
+You can check the other tours for a more general introduction to the Galaxy interface.
+
+**Galaxy interface**
+
+Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://graphclust.usegalaxy.eu/tours/core.galaxy_ui){:target="_top"} through Galaxy's user interface.
+
+
+### GraphClust2 repository
+Please also refer to the [GraphClust2 repository](https://github.com/BackofenLab/GraphClust-2) for other deployment options and manuals.
 
 ### Video tutorial
 
-[This video tutorial](https://www.youtube.com/watch?v=fJ6tUt_6uas) can be helpful to get a visually comprehensive introduction on setting-up and running Galaxy-GraphClust.
+[This video tutorial](https://www.youtube.com/watch?v=fJ6tUt_6uas) can be helpful to get a visually comprehensive introduction on setting-up and running GraphClust2. The video starts with setting up the docker Galaxy server that can be skipped through using this server.
 
-[![IMAGE ALT TEXT HERE](/assets/media/graphclust_video-thumbnail.png)](https://www.youtube.com/watch?v=fJ6tUt_6uas){:target="_top"}
+[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/video-thumbnail.png)](https://www.youtube.com/watch?v=fJ6tUt_6uas){:target="_top"}
 
-### Interactive tours
-Interactive Tours are available for Galaxy and Galaxy-GraphClust. To run the tours please on top panel go to **Help→Interactive Tours** and click on one of the tours prefixed **GraphClust workflow**. You can check the other tours for a more general introduction to the Galaxy interface.
 
-### Import or upload a workflow
-
-To import or upload an existing workflow, on the top panel go to **Workflow** menu. On top right side of the screen click on **Upload or import workflow** button. You can either upload workflow from your local system or by providing the URL of the workflow. To have an access to workflow menu you must be logged in. You can download workflows from the following links 
-
+#### Workflows on this server
+Below workflows can be directly accessed on the public server:
   * MotifFinder: [GraphClust-MotifFinder](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--motiffinder)
   * Workflow main: [GraphClust_1r](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--main-1r)
   * Workflow main, preconfigured for two rounds : [GraphClust_2r](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--main-2r)
+
+### Workflow flavors
+The pre-configured flavors of GraphClust2 are provided and described inside the [workflows directory](https://github.com/BackofenLab/GraphClust-2/tree/master/workflows) 
+
+### Import or upload a workflow
+To import or upload additional workflow flavors (e.g. from workflows directory), on the top panel go to *Workflow* menu. On top right side of the screen click on "Upload or import workflow" button. You can either upload workflow from your local system or by providing the URL of the workflow. Log in is necessary to access into the workflow menu. The docker galaxy instance has a pre-configured *easy!* info that can be found by following the interactive tour. You can download workflows from the following links 
+
+
+  
 
 
 GraphClust pipeline overview
 ===============================
 
-GraphClust pipeline for clustering similar RNA sequences together is a multi-step rather complex pipeline. Overall it consists of three major phases: a) sequence based pre-clustering b) encoding predicted RNA structures as graph features c) iterative fast candidate clustering then refinement
+The pipeline for clustering RNA sequences and structured motif discovery is a multi-step pipeline. Overall it consists of three major phases: a) sequence based pre-clustering b) encoding predicted RNA structures as graph features c) iterative fast candidate clustering then refinement
 
-<!-- ![GraphClust pipeline overview (Heyne et al. 2012)](./assets/img/graphclust_pipeline.png)
+<img src="https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/workflow_early.png" width="600"> ![GraphClust-2 workflow overview](https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/figure-pipeline_zigzag.png) 
 
-*GraphClust pipeline overview (Heyne et al. 2012)*
- -->
-![GraphClust-2 workflow overview](https://github.com/BackofenLab/GraphClust-2/blob/master/assets/img/figure-pipeline_zigzag.png) 
 
 Below is a coarse-grained correspondence list of GraphClust2 tool names with each step:
 
@@ -61,24 +76,26 @@ Below is a coarse-grained correspondence list of GraphClust2 tool names with eac
 |8,9| [Report results](https://graphclust.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_postprocessing/glob_report/0.5) and [conservation evaluations](https://graphclust.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam%2Fgraphclust_aggregate_alignments/graphclust_aggregate_alignments/0.1) | Collect final clusters and create example alignments of top cluster members|
 {: .table.table-striped}
 
-### Input:
-The input to the workflow is a set of putative RNA sequences in FASTA format. Inside the `sample_data` directory you can find examples of the input format. In this case the data is from a benchmark set based on Rfam 12.0 and additionally is optionally labeled with reference Rfam family members.
+### Input
+The input to the workflow is a set of putative RNA sequences in FASTA format. Inside the `data` directory within the repository, you can find examples of the input format. 
+
+### Output
+The output contains the predicted clusters, where similar putative input RNA sequences form a cluster. Additionally overall status of the clusters and the matching of cluster elements is reported for each cluster. 
 
 ### Configuring the workflows:
 Please proceed with the interactive tour named `GraphClust workflow step by step`, available under `Help->Interactive Tours`
-Check FAQs for understanding the frequently important parameters. 
-
-### Output:
-The output contains the predicted clusters, where similar putative input RNA sequences form a cluster. Additionally overall status of the clusters and the matching of cluster elements is reported for each cluster. 
-
-Please check the interactive tours and GraphClust [README](http://www.bioinf.uni-freiburg.de/Software/GraphClust/README) for more information about the reported info and files.
+Please refer to the in-wrapper help descriptions the tools documentations and the repository's [FAQs](https://github.com/BackofenLab/GraphClust-2/blob/master/FAQ.md) for checking the important parameters. 
 
 
 # Support & Bug Reports
 
-You can file an [github issue](https://github.com/BackofenLab/docker-galaxy-graphclust/issues) or ask us on the [Galaxy development list](http://lists.bx.psu.edu/listinfo/galaxy-dev).
+You can file an [github issue](https://github.com/BackofenLab/GraphClust-2/issues) or find our contact information in the [Backofen lab page](http://www.bioinf.uni-freiburg.de/team.html?en).
 
 
 # References
+The manuscript is currently under prepration/revision. If you find this resource useful, please cite the zenodo DOI of the repo or contact us. 
 
-{% bibliography --cited --prefix index-metagenomics --group_by none %}
+* M. Miladi, E. Sokhoyan, T. Houwaart, S. Heyne, F. Costa, R. Backofen and B. Gruening; Empowering the annotation and discovery of structured RNAs with scalable and accessible integrative clustering (under preparation/revision)
+* Milad Miladi, Björn Grüning, & Eteri Sokhoyan. BackofenLab/GraphClust-2: Zenodo. http://doi.org/10.5281/zenodo.1135094
+* The GraphClust-2 alignment-free approach is based on GraphClust methodology (S. Heyne, F. Costa, D. Rose, R. Backofen;
+GraphClust: alignment-free structural clustering of local RNA secondary structures; Bioinformatics, 2012) available at http://www.bioinf.uni-freiburg.de/Software/GraphClust/
