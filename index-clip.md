@@ -33,7 +33,7 @@ Galaxy CLIP-Explorer can process large CLIP-Seq data of eCLIP and iCLIP. We proc
 Use the following workflows for an automatized data analysis for iCLIP and eCLIP data. The data needs to be in **FASTA or FASTQ format** and can be either **multiplexed or de-multiplexed**. All workflows, except the robust peak analysis, require the **data as a list of dataset pairs**. A tutorial to create a list of dataset pairs can be found in the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> or [here](https://galaxyproject.github.io/training-material/topics/galaxy-data-manipulation/tutorials/collections/tutorial.html). Please have in mind that all workflows need additional input files from the user.
 
 ### 3.1 Quick Example Run
-If you want to make a quick run with example data, then download this example eCLIP data of RBFOX2 <a target="_parent" href="https://zenodo.org/record/1327423"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1327423.svg" alt="DOI"></a> and run the <a target="_parent" href="https://github.com/galaxyproject/training-material/tree/master/topics/transcriptomics/tutorials/clipseq/workflows/">workflow</a> of the CLIP-Seq training material mentioned on the <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">Galaxy Training Network</a>. Or, use the <a href="https://clipseq.usegalaxy.eu/u/heylf/w/1clipseq-explorerdemultiplexedpeakachuecliphg19n5-1">workflow for the eCLIP data of Nostrand et al. (2016)</a>.
+If you want to make a quick run with example data, then download this example eCLIP data of RBFOX2 <a target="_parent" href="https://zenodo.org/record/1327423"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1327423.svg" alt="DOI"></a> and run the <a target="_parent" href="https://github.com/galaxyproject/training-material/tree/master/topics/transcriptomics/tutorials/clipseq/workflows/">workflow</a> of the CLIP-Seq training material mentioned on the <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">Galaxy Training Network</a>. Or, use the <a href="https://clipseq.usegalaxy.eu/u/heylf/w/1clipseq-explorerdemultiplexedpeakachuecliphg19n5-1">workflow for the eCLIP data of Nostrand et al. (2016)</a>. Keep in mind, you have to provide the input data as a **list of dataset pairs**. A tutorial to create a list of dataset pairs can be found in the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> or [here](https://galaxyproject.github.io/training-material/topics/galaxy-data-manipulation/tutorials/collections/tutorial.html).
 
 ### 3.2 From scratch to de-multiplexed FASTQ files
 
@@ -89,7 +89,7 @@ The following workflow can be used if you have picked a peak calling algorithm t
 
 Please follow the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> for a deeper understand of the tools of CLIP-Explorer.
 
-### 4.1
+### 4.1 Changing Workflows
 You can change the workflows at anytime and without any problems. Simply import the workflow into your account and change the necessary tools or tool parameters.
 
 ### 4.2 Adapter sequences
@@ -105,9 +105,9 @@ We use `STAR` to do the read alignment. `STAR` combines genome and transcriptome
 
 You can replace `STAR` with any other read mapper by importing the corresponding workflow into your account. **Check the mapping quality**: Look at the multiqc report in order to assess the mapping quality.
 
-`STAR` has many parameters. It is recommended to leave them in default. However, it can happen that `STAR` denotes a lot of read as unmapped, because they are too short. You might then want to adjust (lower) the two parameters *Minimum alignment score, normalized to read length (--outFilterScoreMinOverLread)*, and *Minimum number of matched bases, normalized to read length* (--outFilterMatchNminOverLread).
+`STAR` has many parameters. It is recommended to leave them in default. However, it can happen that `STAR` denotes a lot of read as unmapped, because they are too short. You might then want to adjust (lower) the two parameters **Minimum alignment score, normalized to read length** (--outFilterScoreMinOverLread), and **Minimum number of matched bases, normalized to read length** (--outFilterMatchNminOverLread).
 
-### 4.5 Peak calling with PEAKachu, PureCLIP, Piranha
+### 4.5 Peak calling with PEAKachu, PureCLIP, and Piranha
 
 #### PEAKachu
 You need to specific the insert size of your paired-end reads for `PEAKachu`. For that reason, check the output image of `CollectInsertSizeMetric` to get an estimate for that parameter.
@@ -124,7 +124,7 @@ If PureCLIP does not finish because of a memory error, or if PureCLIP takes too 
 #### Piranha
 Piranha works best with a zero truncated negative binomial (default), or with a negative binomial for CLIP-Seq data. The selected distribution plays an important part. You can change it under **Select distribution type** (-d).
 
-Further important parameters are **Indicates that input is raw reads and should be binned into bins of this size** (-b) which controls for the fitting of the data. Decreasing this parameter results in overfitting. A good baseline of this parameter is a value around 50. The parameter **Merge significant bins within certain distance?** (-u) also controls for overfitting. Set it to **No** for more information. Set it to **Yes** and give it a value bigger than *0* to merge peaks together that a very close together. Set also the **Significance threshold for sites** to 0.05 (-p).
+Further important parameters are **Indicates that input is raw reads and should be binned into bins of this size** (-b) which controls for the fitting of the data. Decreasing this parameter results in overfitting. A good baseline of this parameter is a value around 50. The parameter **Merge significant bins within certain distance?** (-u) also controls for overfitting. Set it to **No** for more information. Set it to **Yes** and give it a value bigger than 0 to merge peaks together that are very close together. Set also the **Significance threshold for sites** to 0.05 (-p).
 
 ### 4.6 Extension of the binding regions
 CLIP-Explorer uses `SlopBED` to extend the peaks a few basepairs to the left and right in order to correct for an underestimation of the binding regions of the peak calling algorithms. For more information follow the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a>. Remove the tool or change the parameter of `SlopBED` to change this behavior.
