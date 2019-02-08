@@ -9,12 +9,21 @@ layout: subsite-galaxy
 
 <a class="twitter-timeline" href="https://twitter.com/usegalaxyp?ref_src=twsrc%5Etfw">Tweets by usegalaxyp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<div class="center">
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
+
 *This European Galaxy branches off from the main [usegalaxy.eu](https://usegalaxy.eu){:target="_blank"} server and focuses on one specific domain: Proteomics.*
 
 **Galaxy Proteomics** is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry-based proteomics. It is hosted by GalaxyEU and maintained by the [GalaxyP team](http://galaxyp.org){:target="_blank"} from the University of Minnesota, MN, USA.
 
 Feel free to check out another server maintained by the GalaxyP team: [Proteogenomics Gateway](http://galaxyp-proteogenomics.duckdns.org){:target="_blank"}.
 
+
+[![Video thumbnail](https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/video-thumbnail.png)](https://www.youtube.com/watch?v=Vywt_-D5Kek&t=1s){:target="_blank"}
 
 # Content
 {:.no_toc}
@@ -26,7 +35,7 @@ Feel free to check out another server maintained by the GalaxyP team: [Proteogen
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://proteomics.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
-**Want to learn more about RNA analyses? Take one of our guided tour or check out the following hands-on tutorials from [the Galaxy Training Network](https://galaxyproject.github.io/training-material/){:target=_"blank"}.**
+**Want to learn more about proteomic analyses? Take one of our guided tour or check out the following hands-on tutorials from [the Galaxy Training Network](https://galaxyproject.github.io/training-material/topics/proteomics/){:target=_"blank"}.**
 
 Lesson | Hands-on | Input dataset | Workflows | Galaxy tour
 --- | --- | --- | --- | --- 
@@ -46,7 +55,6 @@ Secretome Prediction | [<i class="fa fa-laptop" aria-hidden="true"></i>](https:/
 
 
 # Projects
-
 
 Tool | Description | Paper | Tutorial | Visualization | Docker
 
