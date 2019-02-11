@@ -52,7 +52,6 @@ Day     | Topics
 **Thu** | **9:00 - 12:30**
   ->    | Generation of custom variant queries and reports
   ->    | Discussion, feedback
-
 {:.table.table-striped}
 
 ## Lunch Options
@@ -61,11 +60,11 @@ Day     | Topics
 
 ## Preparation
 
-No prior knowledge of the Galaxy platform is required for this workflow (although it may be helpful if you have taken
+No prior knowledge of the Galaxy platform is required for this workshop (although it may be helpful if you have taken
 a look at a public Galaxy server before), but you will need an active user account on the
 [European Galaxy server](https://usegalaxy.eu).
 
-If you have any questions, please do not hesitate to [contact us](mailto:contact@usegalaxy.eu)
+If you have any questions, please do not hesitate to [contact us](mailto:contact@usegalaxy.eu).
 
 ## Travel Options
 
