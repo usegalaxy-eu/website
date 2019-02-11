@@ -2,11 +2,11 @@
 site: freiburg
 tags:
 - training
-title: Miracum Variant Calling workshop in Freiburg
+title: Miracum whole-exome sequencing pipeline workshop in Freiburg
 starts: 2019-03-13
 ends: 2019-03-14
 organiser:
-  name: Freiburg Galaxy Team & MPI Freiburg
+  name: Freiburg Galaxy Team & AG Boerries
   email: contact@usegalaxy.eu
 location:
   name: Institute for Biology II/III
@@ -25,8 +25,9 @@ supporters:
 hidefooter: true
 ---
 
-Galaxy beginner workshop on High-Throughput data analysis, February 2019, registration is closed.
-You can sign in into our [waiting list](https://goo.gl/forms/gDJuKXf3kl7GAndD3).
+Workshop for future users/maintainers of the [Miracum](https://www.miracum.org/) WES anaylsis workflow with the goals
+of presenting the current version of the Galaxy workflow, demonstrating its usage, and of gathering feedback from
+participants.
 
 ## Venue
 
@@ -35,15 +36,10 @@ You can sign in into our [waiting list](https://goo.gl/forms/gDJuKXf3kl7GAndD3).
 
 # Important notes
 
-1. If you are registered but **cannot attend** our workshop, please [contact us
-   by email](mailto:contact@usegalaxy.eu) immediately. We have a long waiting
-   list and can give your place to others, even on short notice.
-2. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis. Participants from the     
-   MPI Freiburg, please note that the European Galaxy server is different from the MPI Galaxy server. You will need to 
-   have an account on [https://usegalaxy.eu](https://usegalaxy.eu]) as well.
-3. You can bring your *own notebook* or desktop computers will be available. Eduroam is available, ask your institute 
-   for how to login.
-4. The workshop is free of charge. No stipends for travel or accommodation are available.
+1. To be able to perform the hands-on analysis part of the workshop, please register for a user account on the [European Galaxy server](https://usegalaxy.eu) before the workshop.
+2. Desktop computers are available for everyone, but you can also bring your own notebook if you prefer.
+Eduroam is available, ask your institute for how to login.
+3. The workshop is free of charge. No stipends for travel or accommodation are available.
 
 ## Program:
 
@@ -53,11 +49,13 @@ Preliminary schedule. Topics may be adjusted according to the participants deman
 
 Day     | Topics
 ------- | --------
-Mon     | **Starts at 10:00 am**,  HTS and Galaxy presentations and introduction
-Tue     | ChIPseq data analysis
-Wed     | RNA-seq data analysis
-Thu     | HiC data analysis
-Fri     | exercises, questioms, discussions, bring your own data ... (until 14:00)
+**Wed** | **14:00 - 18:00**
+  ->    | Introduction to Galaxy and its user interface
+  ->    | Outline of the Miracum WES analysis workflow
+  ->    | Hands-on analysis of representative patient data  
+**Thu** | **9:00 - 12:30**
+  ->    | Generation of custom variant queries and reports
+  ->    | Discussion, feedback
 {:.table.table-striped}
 
 ## Lunch Options
@@ -66,13 +64,9 @@ Fri     | exercises, questioms, discussions, bring your own data ... (until 14:0
 
 ## Preparation
 
-You must go through two Galaxy interactive tours before beginning the training.
-These interactive tours guide you stepwise through the Galaxy user interface
-and the history. They will help you to follow the Galaxy introduction, and
-ensure everyone has a basic understanding of how Galaxy works.
-
-- [Galaxy UI](https://usegalaxy.eu/tours/core.galaxy_ui)
-- [History Introduction](https://usegalaxy.eu/tours/core.history)
+No prior knowledge of the Galaxy platform is required for this workflow (although it may be helpful if you have taken
+a look at a public Galaxy server before), but you will need an active user account on the
+[European Galaxy server](https://usegalaxy.eu).
 
 If you have any questions, please do not hesitate to [contact us](mailto:contact@usegalaxy.eu)
 
