@@ -43,10 +43,6 @@ Eduroam is available, ask your institute for how to login.
 
 ## Program:
 
-Every day the workshop will run from 9:00-17:00 (give or take, depending on questions at the end). If the times will change, it will be announced during the workshop.
-
-Preliminary schedule. Topics may be adjusted according to the participants demand
-
 Day     | Topics
 ------- | --------
 **Wed** | **14:00 - 18:00**
@@ -56,6 +52,7 @@ Day     | Topics
 **Thu** | **9:00 - 12:30**
   ->    | Generation of custom variant queries and reports
   ->    | Discussion, feedback
+
 {:.table.table-striped}
 
 ## Lunch Options
