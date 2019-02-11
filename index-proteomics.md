@@ -4,17 +4,9 @@ layout: subsite-galaxy
 
 <br/>
 <img src="/assets/media/GalaxyP_logo.png" height="200px" alt="GalaxyP logo"/>
-
-# Welcome to **Galaxy Proteomics**
-
 <a class="twitter-timeline" href="https://twitter.com/usegalaxyp?ref_src=twsrc%5Etfw">Tweets by usegalaxyp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<div class="center">
-
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</div>
+# Welcome to **Galaxy Proteomics**
 
 *This European Galaxy branches off from the main [usegalaxy.eu](https://usegalaxy.eu){:target="_blank"} server and focuses on one specific domain: Proteomics.*
 
@@ -22,8 +14,6 @@ layout: subsite-galaxy
 
 Feel free to check out another server maintained by the GalaxyP team: [Proteogenomics Gateway](http://galaxyp-proteogenomics.duckdns.org){:target="_blank"}.
 
-
-[![Video thumbnail](https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/video-thumbnail.png)](https://www.youtube.com/watch?v=Vywt_-D5Kek&t=1s){:target="_blank"}
 
 # Content
 {:.no_toc}
@@ -35,7 +25,7 @@ Feel free to check out another server maintained by the GalaxyP team: [Proteogen
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://proteomics.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
-**Want to learn more about proteomic analyses? Take one of our guided tour or check out the following hands-on tutorials from [the Galaxy Training Network](https://galaxyproject.github.io/training-material/topics/proteomics/){:target=_"blank"}.**
+**Want to learn more about proteomics? Check out the following lesson tutorials from the [the Galaxy Training Network](https://galaxyproject.github.io/training-material/topics/proteomics/){:target=_"blank"}.**
 
 Lesson | Hands-on | Input dataset | Workflows | Galaxy tour
 --- | --- | --- | --- | --- 
@@ -54,24 +44,21 @@ Secretome Prediction | [<i class="fa fa-laptop" aria-hidden="true"></i>](https:/
 {:.table.table-striped}
 
 
+# Other Platforms
+Server | Tutorial | Video
+--- | --- | ---
+[Proteogenomics Gateway](http://z.umn.edu/proteogenomicsgateway) | [Proteogenomics 1: Database Creation](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html) </br> [Proteogenomics 2: Database Search](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html) </br>[Proteogenomics 3: Novel peptide analysis](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html) | [![proteogenomics thumbnail](https://img.youtube.com/vi/Xwks5qKApj8/0.jpg)](https://www.youtube.com/watch?v=Xwks5qKApj8&t=4s){:target="_blank"}
+[Metaproteomics Gateway](http://z.umn.edu/metaproteomicsgateway) | [Metaproteomics tutorial](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html) | [![metaproteomics thumbnail](https://img.youtube.com/vi/Vywt_-D5Kek/0.jpg)](https://www.youtube.com/watch?v=Vywt_-D5Kek&t=1s){:target="_blank"}
+{: .table.table-striped .tooltable}
+
+
 # Projects
 
-Tool | Description | Paper | Tutorial | Visualization | Docker
-
-
-
-
-
-# Training
-
-We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
-
-We developed [several tutorials](https://galaxyproject.github.io/training-material/topics/transcriptomics/){:target="_blank"} and more will come:
-
-- [Introduction to Transcriptomics](https://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html){:target="_blank"}
-- [Reference-based RNA-Seq data analysis ](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html){:target="_blank"}
-- [Visualization of RNA-Seq results with CummeRbund ](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/tutorial.html){:target="_blank"}
-
+Tool | Description | Paper | Tutorial | Docker
+CRAVAT-P (Cancer-Related Analysis of Variants Toolkit) | Submits, checks for, and retrieves data for cancer annotation | [Sajulga et. al 2018](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00404) | [<i class="fa fa-magic" aria-hidden="true"></i>](https://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.8b00404/suppl_file/pr8b00404_si_001.pdf) | [![docker-icon](https://projects.iwebdev.ca:2443/uploads/-/system/project/avatar/17/docker1.png)](http://z.umn.edu/gpcravatdocker)
+QuanTP | Correlation between protein and transcript | [Kumar et. al 2019](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00727) | [<i class="fa fa-magic" aria-hidden="true"></i>](https://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.8b00404/suppl_file/pr8b00404_si_001.pdf) | [<i class="fa fa-magic" aria-hidden="true"></i>](http://z.umn.edu/quantpsi) | [![docker-icon](https://projects.iwebdev.ca:2443/uploads/-/system/project/avatar/17/docker1.png)](http://z.umn.edu/quantpdocker)
+MetaQuantome | Quantitative analysis of the function and taxonomy of microbiomes and their interaction |  | [<i class="fa fa-magic" aria-hidden="true"></i>](https://galaxyproteomics.github.io/metaquantome_mcp_analysis/galaxy_tutorial/tutorial.html) |
+{: .table.table-striped .tooltable}
 
 # Contributors
 
