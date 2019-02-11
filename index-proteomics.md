@@ -48,8 +48,8 @@ Secretome Prediction | [<i class="fa fa-laptop" aria-hidden="true"></i>](https:/
 
 Server | Tutorial | Video
 --- | --- | ---
-[Proteogenomics Gateway](http://z.umn.edu/proteogenomicsgateway) | <ul><li>[Proteogenomics 1: Database Creation](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html) </li><li> [Proteogenomics 2: Database Search](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html) </li><li> [Proteogenomics 3: Novel peptide analysis](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html) </li></ul> | [![proteogenomics thumbnail](https://img.youtube.com/vi/Xwks5qKApj8/0.jpg)](https://www.youtube.com/watch?v=Xwks5qKApj8&t=4s){:target="_blank"}
-[Metaproteomics Gateway](http://z.umn.edu/metaproteomicsgateway) | [Metaproteomics tutorial](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html) | [![metaproteomics thumbnail](https://img.youtube.com/vi/Vywt_-D5Kek/0.jpg)](https://www.youtube.com/watch?v=Vywt_-D5Kek&t=1s){:target="_blank"}
+[Proteogenomics Gateway](http://z.umn.edu/proteogenomicsgateway){:target="_blank"} | <ul><li>[Proteogenomics 1: Database Creation](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html){:target="_blank"} </li><li> [Proteogenomics 2: Database Search](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html){:target="_blank"} </li><li> [Proteogenomics 3: Novel peptide analysis](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html){:target="_blank"} </li></ul> | [![proteogenomics thumbnail](https://img.youtube.com/vi/Xwks5qKApj8/0.jpg)](https://www.youtube.com/watch?v=Xwks5qKApj8&t=4s){:target="_blank"}
+[Metaproteomics Gateway](http://z.umn.edu/metaproteomicsgateway){:target="_blank"} | <ul><li>[Metaproteomics tutorial](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html){:target="_blank"}</li></ul> | [![metaproteomics thumbnail](https://img.youtube.com/vi/Vywt_-D5Kek/0.jpg)](https://www.youtube.com/watch?v=Vywt_-D5Kek&t=1s){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 
@@ -57,14 +57,15 @@ Server | Tutorial | Video
 
 Tool | Description | Paper | Tutorial | Docker
 --- | --- | --- | --- | ---
-CRAVAT-P (Cancer-Related Analysis of Variants Toolkit) | Submits, checks for, and retrieves data for cancer annotation | [Sajulga et. al 2018](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00404) | [<i class="fa fa-magic" aria-hidden="true"></i>](https://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.8b00404/suppl_file/pr8b00404_si_001.pdf) | [![docker-icon](https://projects.iwebdev.ca:2443/uploads/-/system/project/avatar/17/docker1.png)](http://z.umn.edu/gpcravatdocker)
-QuanTP | Correlation between protein and transcript | [Kumar et. al 2019](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00727) | [<i class="fa fa-magic" aria-hidden="true"></i>](https://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.8b00404/suppl_file/pr8b00404_si_001.pdf) | [<i class="fa fa-magic" aria-hidden="true"></i>](http://z.umn.edu/quantpsi) | [![docker-icon](https://projects.iwebdev.ca:2443/uploads/-/system/project/avatar/17/docker1.png)](http://z.umn.edu/quantpdocker)
-MetaQuantome | Quantitative analysis of the function and taxonomy of microbiomes and their interaction |  | [<i class="fa fa-magic" aria-hidden="true"></i>](https://galaxyproteomics.github.io/metaquantome_mcp_analysis/galaxy_tutorial/tutorial.html) |
+CRAVAT-P (Cancer-Related Analysis of Variants Toolkit) | Submits, checks for, and retrieves data for cancer annotation | [Sajulga et. al 2018](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00404){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>](https://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.8b00404/suppl_file/pr8b00404_si_001.pdf){:target="_blank"} | [![docker-icon](https://projects.iwebdev.ca:2443/uploads/-/system/project/avatar/17/docker1.png)](http://z.umn.edu/gpcravatdocker){:target="_blank"}
+QuanTP | Correlation between protein and transcript | [Kumar et. al 2019](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00727){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>](https://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.8b00404/suppl_file/pr8b00404_si_001.pdf){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>](http://z.umn.edu/quantpsi){:target="_blank"} | [![docker-icon](https://projects.iwebdev.ca:2443/uploads/-/system/project/avatar/17/docker1.png)](http://z.umn.edu/quantpdocker){:target="_blank"}
+MetaQuantome | Quantitative analysis of the function and taxonomy of microbiomes and their interaction |  | [<i class="fa fa-magic" aria-hidden="true"></i>](https://galaxyproteomics.github.io/metaquantome_mcp_analysis/galaxy_tutorial/tutorial.html){:target="_blank"} |
 {: .table.table-striped .tooltable}
 
 # Contributors
 
 - [Bjoern Gruening](https://github.com/bgruening)
+- [Helena Rasche](https://github.com/erasche)
 - [Ray Sajulga](https://github.com/jraysajulga)
 - [Subina Mehta](https://github.com/bebatut)
 
