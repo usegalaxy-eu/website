@@ -12,9 +12,6 @@ layout: subsite-galaxy
 
 **Galaxy Proteomics** is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry-based proteomics. It is hosted by GalaxyEU and maintained by the [GalaxyP team](http://galaxyp.org){:target="_blank"} from the University of Minnesota, MN, USA.
 
-Feel free to check out another server maintained by the GalaxyP team: [Proteogenomics Gateway](http://galaxyp-proteogenomics.duckdns.org){:target="_blank"}.
-
-
 # Content
 {:.no_toc}
 
@@ -61,6 +58,7 @@ CRAVAT-P (Cancer-Related Analysis of Variants Toolkit) | Submits, checks for, an
 QuanTP | Correlation between protein and transcript | [Kumar et. al 2019](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00727){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>](https://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.8b00404/suppl_file/pr8b00404_si_001.pdf){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>](http://z.umn.edu/quantpsi){:target="_blank"} | [![docker-icon](https://projects.iwebdev.ca:2443/uploads/-/system/project/avatar/17/docker1.png)](http://z.umn.edu/quantpdocker){:target="_blank"}
 MetaQuantome | Quantitative analysis of the function and taxonomy of microbiomes and their interaction |  | [<i class="fa fa-magic" aria-hidden="true"></i>](https://galaxyproteomics.github.io/metaquantome_mcp_analysis/galaxy_tutorial/tutorial.html){:target="_blank"} |
 {: .table.table-striped .tooltable}
+
 
 # Contributors
 
