@@ -3,14 +3,14 @@ layout: subsite-galaxy
 website: https://rna.usegalaxy.eu
 ---
 
-# Welcome to the RNA Galaxy workbench
+# Welcome to the RNA Galaxy workbench 2.0
 {:.no_toc}
 
-![RNA Galaxy](/assets/media/rna_workbench_logo_bg.png){:.rna-intro-right}
+![RNA Galaxy](/assets/media/rna_workbench_2.png){:.rna-intro-right}
 
 The RNA Galaxy workbench is a comprehensive set of analysis tools and consolidated workflows. The workbench is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
-The current implementation comprises more than 100 bioinformatics tools dedicated to different research areas of RNA biology, including RNA structure analysis, RNA alignment, RNA annotation, RNA-protein interaction, ribosome profiling, RNA-Seq analysis, and RNA target prediction.
+The current implementation comprises more than 700 bioinformatics tools dedicated to different research areas of RNA biology, including RNA structure analysis, RNA alignment, RNA annotation, RNA-protein interaction, ribosome profiling, RNA-Seq analysis, and RNA target prediction. Out of these 700 tools about 100 tools were integrated into galaxy by us and the remaining are from the galaxy community efforts.
 
 The workbench is developed by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"}. This center is one of the eight service units of the [German Network for Bioinformatics Infrastructure (de.NBI)](http://www.denbi.de){:target="_blank"}, running the German [ELIXIR Node](https://www.elixir-europe.org/){:target="_blank"}.
 
@@ -25,16 +25,20 @@ The workbench is developed by the [RNA Bioinformatics Center (RBC)](https://www.
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
-**Want to learn more about RNA analyses? Take one of our guided tour or check out the following hands-on tutorials from [the Galaxy Training Network](https://galaxyproject.github.io/training-material/){:target=_"blank"}.**
+# Training
+
+We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
+
+Want to learn more about RNA analyses? Take one of our guided tour or check out the following hands-on tutorials. We developed several tutorials and the remaining are from the GTN community (marked with <i class="fa fa-users" aria-hidden="true"></i>)
 
 Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy tour | Galaxy History
 --- | --- | --- | --- | --- | --- | ---
 Introduction to Transcriptomics | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html){:target="_blank"} |  |  |  |  |
 Analyse unaligned ncRNAs |  |  |  | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=5cd167ed9e159e73){:target="_blank"} |  |
-CLIP-Seq data analysis from pre-processing to motif detection |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1327423){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=f5be5bcf9b9f171c){:target="_blank"} |  | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/joerg-fallmann/h/eclipworkflow){:target="_blank"}
-De novo transcriptome reconstruction with RNA-Seq |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/de-novo/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/254485){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=f026c4b8341ff94c){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/transcriptomics-denovo-assembly){:target="_blank"} |
-Differential abundance testing of small RNAs |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/826906){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=7734928ebc0a2654){:target="_blank"} [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=1ffc058273ab357e){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/differential_abundance_testing_sRNAs){:target="_blank"} |
-Network analysis with Heinz | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/slides.html){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1344105){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=12c80c5b5e2305d8){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/network-analysis-with-heinz){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/videmp/h/rna-workbench-network-analysis-with-heinz){:target="_blank"}
+CLIP-Seq data analysis from pre-processing to motif detection <i class="fa fa-users" aria-hidden="true"></i>|  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1327423){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=f5be5bcf9b9f171c){:target="_blank"} |  | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/joerg-fallmann/h/eclipworkflow){:target="_blank"}
+De novo transcriptome reconstruction with RNA-Seq <i class="fa fa-users" aria-hidden="true"></i>|  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/de-novo/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/254485){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=f026c4b8341ff94c){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/transcriptomics-denovo-assembly){:target="_blank"} |
+Differential abundance testing of small RNAs <i class="fa fa-users" aria-hidden="true"></i>|  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/826906){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=7734928ebc0a2654){:target="_blank"} [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=1ffc058273ab357e){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/differential_abundance_testing_sRNAs){:target="_blank"} |
+Network analysis with Heinz <i class="fa fa-users" aria-hidden="true"></i>| [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/slides.html){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1344105){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=12c80c5b5e2305d8){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/network-analysis-with-heinz){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/videmp/h/rna-workbench-network-analysis-with-heinz){:target="_blank"}
 PAR-CLIP analysis |  |  | [<i class="fa fa-files-o" aria-hidden="true"></i>](http://doi.org/10.5281/zenodo.2553519){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=a108b575b16e6cb9){:target="_blank"} |  | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/joerg-fallmann/h/parclipworkflow){:target="_blank"}
 Reference-based RNA-Seq data analysis |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1185122){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=9c7a218993788493){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/ref_based_rna-seq){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/andrea.bagnacani/h/reference-based-rna-seq){:target="_blank"}
 RNA family model construction |  |  |  | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=8f2d958cee428ca1){:target="_blank"} |  |
@@ -179,17 +183,6 @@ Tool | Description | Reference
 --- | --- | ---
 RiboTaper | An analysis pipeline for Ribo-Seq experiments, exploiting the triplet periodicity of ribosomal footprints to call translated regions | [Calviello et al. 2016](https://doi.org/10.1038/nmeth.3688){:target="_blank"}
 {: .table.table-striped .tooltable}
-
-# Training
-
-We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
-
-We developed [several tutorials](https://galaxyproject.github.io/training-material/topics/transcriptomics/){:target="_blank"} and more will come:
-
-- [Introduction to Transcriptomics](https://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html){:target="_blank"}
-- [Reference-based RNA-Seq data analysis ](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html){:target="_blank"}
-- [Visualization of RNA-Seq results with CummeRbund ](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/tutorial.html){:target="_blank"}
-
 
 # Contributors
 
