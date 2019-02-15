@@ -72,7 +72,7 @@ Tool | Description | Reference
 {:.table.table-striped}
 
 # Tutorials
-- PDF's of the workshop run in 2019 are [available](https://drive.google.com/open?id=10oxT2Vl4rBdyNR8iHjer4Q77Ra56-jIp)
+- PDF's of the workshop run in 2019 are [available](https://drive.google.com/drive/folders/10oxT2Vl4rBdyNR8iHjer4Q77Ra56-jIp?usp=sharing)
 
 🙋 Are additional tutorials needed? [Please make a request.](https://github.com/galaxycomputationalchemistry/galaxy-tools-compchem/issues)
 
@@ -90,9 +90,9 @@ Workflow | Description
 
 # Contributors
 
-  * [Chris Barnett](https://github.com/chrisbarnettster)
   * [Simon Bray](https://github.com/simonbray)
   * [Tharindu Senapathi](https://github.com/tsenapathi)
+  * [Chris Barnett](https://github.com/chrisbarnettster)
   * [Björn Grüning](https://github.com/bgruening)
 
 # References
