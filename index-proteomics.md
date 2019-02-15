@@ -9,9 +9,11 @@ layout: subsite-galaxy
 
  | 
 --- | ---
-<img src="/assets/media/GalaxyP_logo.png" height="300px" width="300px" alt="GalaxyP logo"/><br/> *This European Galaxy branches off from the main<br/>[usegalaxy.eu](https://usegalaxy.eu){:target="_blank"} server and focuses on one specific domain:<br/>Proteomics.* **Galaxy Proteomics** is a multiple 'omics'<br/>data analysis platform with particular emphasis on mass<br/>spectrometry-based proteomics. It is hosted by<br/>GalaxyEU and maintained by the [GalaxyP team](http://galaxyp.org){:target="_blank"} from the<br/>University of Minnesota, MN, USA. |<a class="twitter-timeline" data-width="900" data-height="450" href="https://twitter.com/usegalaxyp?ref_src=twsrc%5Etfw">Tweets by usegalaxyp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[<img src="/assets/media/galaxyp_banner.png" width="350px" alt="GalaxyP logo"/>](http://galaxyp.org){:target="_blank"}<br/><br/>*This European Galaxy branches off from the main<br/>[usegalaxy.eu](https://usegalaxy.eu){:target="_blank"} server and focuses on one specific<br/>domain: Proteomics.*<br/><br/>**Galaxy Proteomics** is a multiple-'omics' data-analysis<br/>platform with particular emphasis on mass<br/>spectrometry-based proteomics. It is hosted by<br/>GalaxyEU and maintained by the [GalaxyP team](http://galaxyp.org/people/){:target="_blank"} from<br/>the University of Minnesota, USA.<br/><br/>**GalaxyP Resources:**<br/>[About Us](http://galaxyp.org/about/){:target="_blank"}<br/>[Publications](http://galaxyp.org/publications/){:target="_blank"}<br/>[Conference presentations](http://galaxyp.org/conference-presentations/){:target="_blank"}<br/>[Workshops](http://galaxyp.org/workshops/){:target="_blank"} | <a class="twitter-timeline" data-width="350px" data-height="420px" href="https://twitter.com/usegalaxyp?ref_src=twsrc%5Etfw">Tweets by usegalaxyp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br/><br/>*Contact us with any questions, comments, or concerns<br/>at [galaxyp.org/contact](http://galaxyp.org/contact/){:target="_blank"}*
 {:.table}
 
+
+--------------------------------------------------------------------
 
 # Content
 {:.no_toc}
@@ -19,7 +21,7 @@ layout: subsite-galaxy
 1. TOC
 {:toc}
 
-<br/>
+--------------------------------------------------------------------
 
 # Tutorials
 
@@ -43,7 +45,7 @@ Proteogenomics 3: Novel peptide analysis | [<i class="fa fa-laptop" aria-hidden=
 Secretome Prediction | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://zenodo.org/record/519260){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/519260){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/proteomics/tutorials/secretome-prediction/workflows/){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/proteomics/tutorials/secretome-prediction/tours/){:target="_blank"}
 {:.table.table-striped}
 
-<br/>
+--------------------------------------------------------------------
 
 # Gateways
 
@@ -55,9 +57,9 @@ Server | Tutorial(s) | Video
 [Metaproteomics Gateway](http://z.umn.edu/metaproteomicsgateway){:target="_blank"} | [Metaproteomics tutorial](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html){:target="_blank"} | [![metaproteomics thumbnail](https://img.youtube.com/vi/Vywt_-D5Kek/0.jpg)](https://www.youtube.com/watch?v=Vywt_-D5Kek&t=1s){:target="_blank"}
 {: .table.table-striped .tooltable}
 
-<br/>
+--------------------------------------------------------------------
 
-# Projects
+# Research Projects
 
 Featured Galaxy-P tools supported with manuscripts, visualization plugins, docker containers, and hands-on tutorials.
 
@@ -68,13 +70,13 @@ QuanTP | Correlation between protein and transcript | [Kumar et. al 2019](https:
 MetaQuantome | Quantitative analysis of the function and taxonomy of microbiomes and their interaction |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproteomics.github.io/metaquantome_mcp_analysis/galaxy_tutorial/tutorial.html){:target="_blank"} |
 {: .table.table-striped .tooltable}
 
-<br/>
+--------------------------------------------------------------------
 
 # News and Events
 {% include home_carousel.html %}
 {% include home_news_events.html %}
 
-
+--------------------------------------------------------------------
 
 # Contributors
 
@@ -83,4 +85,4 @@ MetaQuantome | Quantitative analysis of the function and taxonomy of microbiomes
 - [Ray Sajulga](https://github.com/jraysajulga)
 - [Subina Mehta](https://github.com/bebatut)
 
-<br/>
+--------------------------------------------------------------------
