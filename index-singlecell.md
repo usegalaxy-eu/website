@@ -27,7 +27,7 @@ The server is part if the European Galaxy server and is maintained by the [RNA B
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
-**Want to learn more about RNA analyses? Take one of our guided tour or check out the following hands-on tutorials from [the Galaxy Training Network](https://galaxyproject.github.io/training-material/){:target=_"blank"}.**
+**Want to learn more about single cell analyses? Take one of our guided tour or check out the following hands-on tutorials from [the Galaxy Training Network](https://galaxyproject.github.io/training-material/){:target=_"blank"}.**
 
 Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy tour | Galaxy History
 --- | --- | --- | --- | --- | --- | ---
@@ -119,7 +119,7 @@ We developed [several tutorials](https://galaxyproject.github.io/training-materi
 - [Jelle Scholtalbers](https://github.com/scholtalbers)
 - [Charles Girardot](https://github.com/cgirardot)
 - [Nicola Soranzo](https://github.com/nsoranzo)
-- [EI](https://github.com/nsoranzo)
+- [Graham Etherington](https://github.com/ethering)
 - [Fidel Ramirez](https://github.com/nsoranzo)
 - [Bjoern Gruening](https://github.com/bgruening)
 
