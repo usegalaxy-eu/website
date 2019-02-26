@@ -113,7 +113,7 @@ We developed [several tutorials](https://galaxyproject.github.io/training-materi
 - [Mehmet Tekman](https://github.com/mtekman)
 - [Maria Doyle](https://github.com/mblue9)
 - [Pablo Moreno](https://github.com/pcm32)
-- [NH3 :)](https://github.com/nh3)
+- [Ni Huang](https://github.com/nh3)
 - [Christophe Antoniewski](https://github.com/drosofff)
 - [Lea Bellenger](https://github.com/bellenger-l)
 - [Jelle Scholtalbers](https://github.com/scholtalbers)
