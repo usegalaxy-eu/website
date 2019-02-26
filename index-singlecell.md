@@ -107,6 +107,7 @@ Je | A versatile suite to handle multiplexed NGS libraries with unique molecular
 - [Maria Doyle](https://github.com/mblue9)
 - [Pablo Moreno](https://github.com/pcm32)
 - [Ni Huang](https://github.com/nh3)
+- [Jonathan Manning](https://github.com/pinin4fjords)
 - [Christophe Antoniewski](https://github.com/drosofff)
 - [Lea Bellenger](https://github.com/bellenger-l)
 - [Jelle Scholtalbers](https://github.com/scholtalbers)
