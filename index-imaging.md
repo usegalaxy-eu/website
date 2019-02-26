@@ -27,6 +27,8 @@ Check also the standard but customizable [workflows](#workflows) available there
 
 Several tools are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of chemical data:
 
+ToDo
+
  * data visualization:
    * [msi qualitycontrol](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/)
    * [msi mz images](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/)
@@ -52,13 +54,16 @@ ToDo
 
 To orchestrate tools and help users with their analyses, several workflows are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).
 
-The workflows are available in the [Shared Workflows](https://cheminformatics.usegalaxy.eu/workflows/list_published), with the label "***cheminformatics***".
+The workflows are available in the [Shared Workflows](https://cheminformatics.usegalaxy.eu/workflows/list_published), with the label "***imaging***".
 
 # Contributors
 
   * [Biomedical Computer Vision Group](http://www.bioquant.uni-heidelberg.de/research/groups/biomedical_computer_vision.html) lead by Karl Rohr
   * Thomas Wollmann
   * [Greg von Kuster](https://github.com/gregvonkuster)
+  * [Melanie Föll](https://github.com/foellmelanie/)
+  * [Björn Grüning](https://github.com/bgruening)
+
 
 # References
 
