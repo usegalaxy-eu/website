@@ -114,6 +114,7 @@ Je | A versatile suite to handle multiplexed NGS libraries with unique molecular
 - [Nicola Soranzo](https://github.com/nsoranzo)
 - [Graham Etherington](https://github.com/ethering)
 - [Fidel Ramirez](https://github.com/nsoranzo)
+- [James Taylor](https://github.com/jxtx)
 - [Bjoern Gruening](https://github.com/bgruening)
 
 
