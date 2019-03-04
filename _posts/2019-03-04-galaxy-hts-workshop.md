@@ -22,6 +22,6 @@ During this week, the [Freiburg Galaxy Team](https://usegalaxy.eu/freiburg/) and
 1 Master student, 17 PhD students, 8 Post-docs and 1 PIs participated to this workshop. 
 The feedback we received is good: all but one of the participants though it was good to excellent and will recommend it and all will use Galaxy for future projects. 
 
-We also had during this week special guests, as part of cooperation with the Center of Cognitive Science at the University of Freiburg. They are conducting an usability evaluation of Galaxy and used this workshop to evaluate how new users use Galaxy.
+We also had during this week special guests, as part of cooperation with the [Center of Cognitive Science](https://portal.uni-freiburg.de/cognition) at the [University of Freiburg](http://www.uni-freiburg.de/?set_language=en). They are conducting an usability evaluation of Galaxy and used this workshop to evaluate how new users use Galaxy.
 
 {% twitter https://twitter.com/i/moments/1102590890902806529 %}
