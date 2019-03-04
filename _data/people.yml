@@ -75,8 +75,18 @@ freiburg:
         name: Anup Kumar
         title: M.Sc. Inf., Researcher
         email: kumara@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54131
+        phone: +49(0) 761 - 203 54134
         location: "Build.: 079, Room: -1005"
+        bio:
+
+    stephanflemming:
+        name: Stephan Flemming
+        title: Dr. rer. nat., Researcher
+        email: flemming@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54131
+        location: "Build.: 079, Room: -1015"
+        gitter: stephanflemming
+        orcid:  0000-0002-4632-3863
         bio:
 
     rolfbackofen:
