@@ -10,7 +10,6 @@ permalink: /ftp/
 
 Server                   | Port | Properties
 -----------------------  | ---- | ----
-`ftp.usegalaxy.eu`       | 21   | TLS connections **only**. Does not support insecure connections
 `galaxy.uni-freiburg.de` | 21   | Insecure connections only, no support for tls.
 {:.table.table-striped}
 
