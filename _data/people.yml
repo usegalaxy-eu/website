@@ -89,6 +89,14 @@ freiburg:
         orcid:  0000-0002-4632-3863
         bio:
 
+    gmauro:
+        name: Gianmauro Cuccuru
+        title: M.Sc. Electronic Eng., Researcher
+        email: gmauro@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54131
+        location: "Build.: 079, Room: -1015"
+        gitter: gmauro
+
     rolfbackofen:
         name: Rolf Backofen
         title: Prof. Dr., Head of the Lab
