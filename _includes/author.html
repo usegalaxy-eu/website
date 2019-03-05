@@ -1,0 +1,12 @@
+{% if include.author %}
+{% for group in site.data.people %}
+{% for person in group[1] %}
+{% if person[0] == include.author %}
+By: <a href="/people/#{{ person[0] }}">
+    <img src="https://avatars.githubusercontent.com/{{ person[0] }}" style="height: 2em">
+    {{ person[1].name }}
+</a>
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endif %}
