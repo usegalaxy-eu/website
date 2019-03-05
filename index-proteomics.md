@@ -9,7 +9,7 @@ layout: subsite-galaxy
 
  | 
 --- | :---: |
-[<img src="/assets/media/galaxyp_banner.png" width="350px" alt="GalaxyP logo"/>](http://galaxyp.org){:target="_blank"}<br/><br/>*This European Galaxy branches off from the main<br/>[usegalaxy.eu](https://usegalaxy.eu){:target="_blank"} server and focuses on one specific<br/>domain: Proteomics.*<br/><br/>**Galaxy Proteomics** is a multiple-'omics' data-analysis<br/>platform with particular emphasis on mass<br/>spectrometry-based proteomics. It is hosted by<br/>GalaxyEU and maintained by the [GalaxyP team](http://galaxyp.org/people/){:target="_blank"} from<br/>the University of Minnesota, USA.<br/><br/>**GalaxyP Resources:**<br/>[About Us](http://galaxyp.org/about/){:target="_blank"}<br/>[Publications](http://galaxyp.org/publications/){:target="_blank"}<br/>[Conference presentations](http://galaxyp.org/conference-presentations/){:target="_blank"}<br/>[Workshops](http://galaxyp.org/workshops/){:target="_blank"} | <a class="twitter-timeline" data-width="550px" data-height="420px" href="https://twitter.com/usegalaxyp?ref_src=twsrc%5Etfw">Tweets by usegalaxyp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br/>***Got any questions, comments, or concerns?***<br/>[<img src="/assets/media/gitter_button.png" width="305px" alt="GalaxyP logo"/>](https://gitter.im/usegalaxy-eu/Lobby){:target="_blank"}
+[<img src="/assets/media/galaxyp_banner.png" width="350px" alt="GalaxyP logo"/>](http://galaxyp.org){:target="_blank"}<br/><br/>*This European Galaxy branches off from the main<br/>[usegalaxy.eu](https://usegalaxy.eu){:target="_blank"} server and focuses on one specific<br/>domain: Proteomics.*<br/><br/>**Galaxy Proteomics** is a multiple-'omics' data-analysis<br/>platform with particular emphasis on mass<br/>spectrometry-based proteomics. It is hosted by<br/>GalaxyEU and maintained by the [GalaxyP team](http://galaxyp.org/people/){:target="_blank"} from<br/>the University of Minnesota, USA.<br/><br/>**GalaxyP Resources:**<br/>[About Us](http://galaxyp.org/about/){:target="_blank"}<br/>[Publications](http://galaxyp.org/publications/){:target="_blank"}<br/>[Conference presentations](http://galaxyp.org/conference-presentations/){:target="_blank"}<br/>[Workshops](http://galaxyp.org/workshops/){:target="_blank"} | <a class="twitter-timeline" data-width="550px" data-height="420px" href="https://twitter.com/usegalaxyp?ref_src=twsrc%5Etfw">Tweets by usegalaxyp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br/>***Got any questions, comments, or concerns?***<br/>[<img src="/assets/media/gitter_button.png" width="305px" alt="GalaxyP logo"/>](https://gitter.im/usegalaxy-eu/Lobby){:target="_blank"}<br/>*(You can also click "open chat" below)*
 {:.table}
 
 --------------------------------------------------------------------
@@ -85,3 +85,15 @@ MetaQuantome | Quantitative analysis of the function and taxonomy of microbiomes
 - [Subina Mehta](https://github.com/bebatut)
 
 --------------------------------------------------------------------
+
+<script>
+13
+  ((window.gitter = {}).chat = {}).options = {
+14
+    room: 'usegalaxy-eu/Lobby'
+15
+  };
+16
+</script>
+17
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
