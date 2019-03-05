@@ -54,12 +54,13 @@ layout: default-galaxy
             <td>
               <h4>
                 {% if post.external %}
-                  <a href="{{ post.external }}">
+                  <a href="{{ post.external }}" target="_blank" rel="noopener">
                 {% else %}
                   <a href="{{ post.url }}">
                 {% endif %}
                 {{ post.title | escape }}
                 </a>
+                <span>{% include article_icons.html post=post %}</span>
               </h4>
               <div>{{ post.excerpt }}</div>
             </td>
