@@ -13,7 +13,7 @@ which guarantees simple access, easy extension, flexible adaption to personal an
 
 The current implementation comprises more than 20 bioinformatics tools dedicated to different research areas of single cell biology.
 
-This service is a joint project between different groups from the [Earlham Institute](http://www.earlham.ac.uk), the [EBI](https://www.ebi.ac.uk), [EMBL](https://gbcs.embl.de) the [Sorbonne University](http://artbio.fr) and the [University of Freiburg](https://galaxyproject.eu/freiburg/).
+This service is a joint project between different groups from the [Earlham Institute](http://www.earlham.ac.uk), the [EMBL-EBI](https://www.ebi.ac.uk), [EMBL](https://gbcs.embl.de) the [Sorbonne University](http://artbio.fr) and the [University of Freiburg](https://galaxyproject.eu/freiburg/).
 The server is part if the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de/) and [ELIXIR](http://elixir-europe.org/).
 
 
