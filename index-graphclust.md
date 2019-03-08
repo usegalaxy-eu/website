@@ -50,7 +50,24 @@ The pre-configured flavors of GraphClust2 are provided and described inside the 
 To import or upload additional workflow flavors (e.g. from workflows directory), on the top panel go to *Workflow* menu. On top right side of the screen click on "Upload or import workflow" button. You can either upload workflow from your local system or by providing the URL of the workflow. Log in is necessary to access into the workflow menu. The docker galaxy instance has a pre-configured *easy!* info that can be found by following the interactive tour. You can download workflows from the following links 
 
 
-  
+## Results from the paper, shared histories
+The histories shared and linked below, corresponds to the clustering analsyis and evaluations that are performed and presented in the GraphClust2 paper.
+
+### lncRNA structure conservation analsyis
+* [NEAT1](https://graphclust.usegalaxy.eu/u/graphclust2/h/neat1)
+* [MALAT1](https://graphclust.usegalaxy.eu/u/graphclust2/h/malat1)
+* [HOTAIR](https://graphclust.usegalaxy.eu/u/graphclust2/h/hotair)
+* [XIST](https://graphclust.usegalaxy.eu/u/graphclust2/h/xist)
+* [FTL](https://graphclust.usegalaxy.eu/u/graphclust2/h/ftl)
+
+### Orthologous genomic sequence extraction of lncRNAs
+* [MAF to fasta conversions](https://graphclust.usegalaxy.eu/u/graphclust2/h/maf-conversion-lncrnas)
+
+### CLIP motif finder
+* [SLBP](https://graphclust.usegalaxy.eu/u/graphclust2/h/slbp)
+* [Roquin1](https://graphclust.usegalaxy.eu/u/graphclust2/h/roquin1)
+
+
 
 
 GraphClust pipeline overview
@@ -95,7 +112,7 @@ You can file an [github issue](https://github.com/BackofenLab/GraphClust-2/issue
 # References
 The manuscript is currently under prepration/revision. If you find this resource useful, please cite the zenodo DOI of the repo or contact us. 
 
-* M. Miladi, E. Sokhoyan, T. Houwaart, S. Heyne, F. Costa, R. Backofen and B. Gruening; Empowering the annotation and discovery of structured RNAs with scalable and accessible integrative clustering (under preparation/revision)
+* Miladi, Milad, Eteri Sokhoyan, Torsten Houwaart, Steffen Heyne, Fabrizio Costa, Bjoern Gruening, and Rolf Backofen. "Empowering the annotation and discovery of structured RNAs with scalable and accessible integrative clustering." bioRxiv (2019): 550335. doi: [https://doi.org/10.1101/550335](https://doi.org/10.1101/550335)
 * Milad Miladi, Björn Grüning, & Eteri Sokhoyan. BackofenLab/GraphClust-2: Zenodo. http://doi.org/10.5281/zenodo.1135094
 * The GraphClust-2 alignment-free approach is based on GraphClust methodology (S. Heyne, F. Costa, D. Rose, R. Backofen;
 GraphClust: alignment-free structural clustering of local RNA secondary structures; Bioinformatics, 2012) available at http://www.bioinf.uni-freiburg.de/Software/GraphClust/
