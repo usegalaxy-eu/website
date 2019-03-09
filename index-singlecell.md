@@ -3,6 +3,14 @@ layout: subsite-galaxy
 website: https://singlecell.usegalaxy.eu
 ---
 
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'usegalaxy-eu/Lobby'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+
 ![single cell Galaxy](/assets/media/logo_single_cell.svg){:.sc-intro-left}
 
 # Welcome to the world of Single Cell Omics
