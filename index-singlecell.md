@@ -16,13 +16,13 @@ website: https://singlecell.usegalaxy.eu
 # Welcome to the world of Single Cell Omics
 {:.no_toc}
 
-The Sincle Cell Omics workbench is a comprehensive set of analysis tools and consolidated workflows. The workbench is based on the [Galaxy framework](https://galaxyproject.org/), 
+The Single Cell Omics workbench is a comprehensive set of analysis tools and consolidated workflows. The workbench is based on the [Galaxy framework](https://galaxyproject.org){:target="_blank"}, 
 which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
 The current implementation comprises more than 20 bioinformatics tools dedicated to different research areas of single cell biology.
 
-This service is a joint project between different groups from the [Earlham Institute](http://www.earlham.ac.uk), the [EMBL-EBI](https://www.ebi.ac.uk), [EMBL](https://gbcs.embl.de) the [Sorbonne University](http://artbio.fr), [Peter MacCallum Cancer Centre](https://www.petermac.org) and the [University of Freiburg](https://galaxyproject.eu/freiburg/).
-The server is part if the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de) and [ELIXIR](http://elixir-europe.org).
+This service is a joint project between different groups from the [Earlham Institute](http://www.earlham.ac.uk){:target="_blank"}, the [EMBL-EBI](https://www.ebi.ac.uk){:target="_blank"}, [EMBL](https://gbcs.embl.de){:target="_blank"} the [Sorbonne University](http://artbio.fr){:target="_blank"}, [Peter MacCallum Cancer Centre](https://www.petermac.org){:target="_blank"} and the [University of Freiburg](https://galaxyproject.eu/freiburg/){:target="_blank"}.
+The server is part if the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
 
 
 # Content
@@ -122,7 +122,7 @@ Je | A versatile suite to handle multiplexed NGS libraries with unique molecular
 - [Charles Girardot](https://github.com/cgirardot)
 - [Nicola Soranzo](https://github.com/nsoranzo)
 - [Graham Etherington](https://github.com/ethering)
-- [Fidel Ramirez](https://github.com/nsoranzo)
+- [Fidel Ramirez](https://github.com/fidelram)
 - [James Taylor](https://github.com/jxtx)
 - [Bjoern Gruening](https://github.com/bgruening)
 
