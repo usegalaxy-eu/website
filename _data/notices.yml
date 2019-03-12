@@ -13,7 +13,7 @@
   messages:
       - message: |
           Our cloud is experiencing a significant issue this morning. Jobs are
-        not running. We do not have an ETA for a fix.
+          not running. We do not have an ETA for a fix.
         date: 2019-03-12 11:23:40+01:00
 
 - title: UseGalaxy.eu downtime on Thursday, March 14th
