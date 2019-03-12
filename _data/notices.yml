@@ -15,6 +15,10 @@
           Our cloud is experiencing a significant issue this morning. Jobs are
           not running. We do not have an ETA for a fix.
         date: 2019-03-12 11:23:40+01:00
+      - message: |
+          The cloud investigation is ongoing. We have managed to recover the
+          ability to run jobs, and the queue is presently draining.
+        date: 2019-03-12 14:38:03+01:00
 
 - title: UseGalaxy.eu downtime on Thursday, March 14th
   class: danger     # one of [success, info, warning, danger]
