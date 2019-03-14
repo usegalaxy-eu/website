@@ -37,6 +37,10 @@ We have significant capacity and have dedicated some of this to providing
 training using our service. Anyone providing training on using Galaxy is
 eligible to request the use of this service.
 
+## Service Level Agreement
+
+We *cannot* promise any degree of uptime. We will do our best to have this service online and functioning during the entire time period but there are cases where the service may experience interruptions that are outside of our control. We will keep you informed of any outages that may affect your training.
+
 ## Application Process
 
 1. Fill out the request form and we will get in touch with you
