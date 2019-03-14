@@ -7,19 +7,6 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #         date: 2018-12-19 10:57:27+01:00
 
-- title: UseGalaxy.eu - No jobs are running
-  class: warning     # one of [success, info, warning, danger]
-  site: freiburg    # Your site
-  messages:
-      - message: |
-          Our cloud is experiencing a significant issue this morning. Jobs are
-          not running. We do not have an ETA for a fix.
-        date: 2019-03-12 11:23:40+01:00
-      - message: |
-          Jobs are now running and the queue is draining. We are still
-          investigating the cloud issue.
-        date: 2019-03-12 14:38:03+01:00
-
 - title: UseGalaxy.eu downtime on Thursday, March 14th
   class: danger     # one of [success, info, warning, danger]
   site: freiburg    # Your site
