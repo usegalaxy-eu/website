@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: New Paper on "Mitochondrial mutations in human cancer: Curation of translation"
+title: 'New Paper on "Mitochondrial mutations in human cancer: Curation of translation"'
 tags: [paper]
 doi: "10.1080/15476286.2017.1373239"
 ---
