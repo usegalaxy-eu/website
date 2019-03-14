@@ -8,9 +8,15 @@
 #         date: 2018-12-19 10:57:27+01:00
 
 - title: UseGalaxy.eu downtime on Thursday, March 14th
-  class: danger     # one of [success, info, warning, danger]
+  class: info     # one of [success, info, warning, danger]
   site: freiburg    # Your site
   messages:
+      - message: |
+          We experienced an unexpectedly long downtime due to a Cloud outage.
+          We will provide more details on this in the coming days. We believe
+          that the outage is now resolved and the service should return to
+          stability.
+        date: 2019-03-14 21:14:44+01:00
       - message: |
           UseGalaxy.eu will be affected by a power test and cloud downtime on
           Thursday, March 14th. We expect that Galaxy may be down throughout
