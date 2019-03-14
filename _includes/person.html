@@ -18,7 +18,15 @@
         <li><i class="fa fa-phone" aria-hidden="true"></i>{{ include.data[1].phone }}</li>
         {% endif %}
         {% if include.data[1].location %}
-        <li><i class="fa fa-search" aria-hidden="true"></i>{{ include.data[1].location }}</li>
+        <li>
+            {% if include.data[1].location_link %}
+            <a href="{{ include.data[1].location_link }}">
+                <i class="fa fa-search" aria-hidden="true"></i>{{ include.data[1].location }}
+            </a>
+            {% else %}
+            <i class="fa fa-search" aria-hidden="true"></i>{{ include.data[1].location }}
+            {% endif %}
+        </li>
         {% endif %}
         {% if include.data[1].website %}
           <li><a href="{{ include.data[1].website }}" title="Website"><i class="fa fa-home"></i>{{ include.data[1].website }}</a></li>
