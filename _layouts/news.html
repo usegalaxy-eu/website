@@ -50,6 +50,11 @@ layout: default
               {% for tag in page.tags %}
                 <span class="label label-info">{{ tag }}</span>
               {% endfor %}
+              {% if page.doi %}
+                <a href="https://dx.doi.org/{{ page.doi }}">
+                <span class="label label-warning">DOI:{{ page.doi }}</span>
+                </a>
+              {% endif %}
             </span>
 
             {% if page.repo %}
