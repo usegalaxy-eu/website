@@ -62,7 +62,7 @@ Tool | Description | Reference
 [FastQC!]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc){:target="_top"} | A quality control tool for high throughput sequence data | -
 [MultiQC]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/){:target="_top"} | MultiQC aggregate results from bioinformatics analyses into a single report | [Ewels et al. 2016](https://doi.org/10.1093/bioinformatics/btw354){:target="_blank"}
 [fastp]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/){:target="_top"} | fast all-in-one preprocessing for FASTQ files | [Shifu et al. 2018](https://doi.org/10.1101/274100){:target="_blank"}
-[scPipe]({{ page.website }}?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/scpipe/scpipe/) | preprocessing pipeline for single cell RNA-seq | [Tian et al. 2018](https://doi.org/10.1371/journal.pcbi.1006361){:target="_blank"}
+[scPipe]({{ page.website }}?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/scpipe/scpipe/){:target="_top"} | preprocessing pipeline for single cell RNA-seq | [Tian et al. 2018](https://doi.org/10.1371/journal.pcbi.1006361){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 
@@ -104,7 +104,7 @@ BEDTools | Utilities for genome arithmetic | [Quinlan and Hall 2010](https://doi
 deepTools | Tools for exploring deep-sequencing data | [Ramirez et al. 2014](https://doi.org/10.1093/nar/gku365){:target="_blank"}, [Ramirez et al. 2016](https://doi.org/10.1093/nar/gkw257){:target="_blank"}
 UMI-tools | Modeling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy | [Smith et al. 2017](https://doi.org/10.1101/gr.209601.116){:target="_blank"}
 Je | A versatile suite to handle multiplexed NGS libraries with unique molecular identifiers | [Girardot at al. 2016](https://doi.org/10.1186/s12859-016-1284-2)
-[RaceID]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_clustering/raceid_clustering/) | Clustering using RaceID performs clustering, outlier detection, dimensional reduction | [Josip, at al. 2018](https://doi.org/10.1038/nmeth.4662)
+[RaceID]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_clustering/raceid_clustering/){:target="_top"} | Clustering using RaceID performs clustering, outlier detection, dimensional reduction | [Josip, at al. 2018](https://doi.org/10.1038/nmeth.4662)
 {: .table.table-striped .tooltable}
 
 
