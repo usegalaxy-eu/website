@@ -107,6 +107,17 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: gmauro
 
+    simonbray:
+        name: Simon Bray
+        title: M.Sc.
+        email: sbray@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54127
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: simonbray
+        orcid: 0000-0002-0621-6705
+        bio:
+
     rolfbackofen:
         name: Rolf Backofen
         title: Prof. Dr., Head of the Lab
