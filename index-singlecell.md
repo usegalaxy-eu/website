@@ -48,6 +48,7 @@ Introduction to Transcriptomics | [<i class="fa fa-slideshare" aria-hidden="true
 Plates, Batches, and Barcodes | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides.html){:target="_blank"} |  |  |  |  |
 Pre-processing of Single-Cell RNA Data |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna_preprocessing/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2573175){:target="_blank"} |  |  |
 Understanding Barcodes |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2573177){:target="_blank"} |  |  |
+ Downstream single-cell RNA analysis with RaceID  |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-raceid/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1511582){:target="_blank"} |  |  |
 {:.table.table-striped}
 
 
