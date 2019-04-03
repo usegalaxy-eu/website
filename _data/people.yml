@@ -117,6 +117,18 @@ freiburg:
         gitter: simonbray
         orcid: 0000-0002-0621-6705
         bio:
+   
+   khanteymoori:
+        name: Alireza Khanteymoori
+        title: Ph.D., Researcher
+        email: alireza@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54127
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        orcid: 0000-0001-6811-9196
+        google-scholar: VAyELgcAAAAJ&hl
+        researchgate: Ali_Khanteymoori2
+        bio:
 
     rolfbackofen:
         name: Rolf Backofen
