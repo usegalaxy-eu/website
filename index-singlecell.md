@@ -106,6 +106,7 @@ deepTools | Tools for exploring deep-sequencing data | [Ramirez et al. 2014](htt
 UMI-tools | Modeling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy | [Smith et al. 2017](https://doi.org/10.1101/gr.209601.116){:target="_blank"}
 Je | A versatile suite to handle multiplexed NGS libraries with unique molecular identifiers | [Girardot at al. 2016](https://doi.org/10.1186/s12859-016-1284-2)
 [RaceID]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_clustering/raceid_clustering/){:target="_top"} | Clustering using RaceID performs clustering, outlier detection, dimensional reduction | [Josip, at al. 2018](https://doi.org/10.1038/nmeth.4662)
+Scanpy | Single-Cell Analysis in Python | [Wolf at al. 2018](https://doi.org/10.1186/s13059-017-1382-0)
 {: .table.table-striped .tooltable}
 
 
