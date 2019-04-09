@@ -48,6 +48,7 @@ Introduction to Transcriptomics | [<i class="fa fa-slideshare" aria-hidden="true
 Plates, Batches, and Barcodes | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides.html){:target="_blank"} |  |  |  |  |
 Pre-processing of Single-Cell RNA Data |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna_preprocessing/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2573175){:target="_blank"} |  |  |
 Understanding Barcodes |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2573177){:target="_blank"} |  |  |
+ Downstream single-cell RNA analysis with RaceID  |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-raceid/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1511582){:target="_blank"} |  |  |
 {:.table.table-striped}
 
 
@@ -105,6 +106,7 @@ deepTools | Tools for exploring deep-sequencing data | [Ramirez et al. 2014](htt
 UMI-tools | Modeling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy | [Smith et al. 2017](https://doi.org/10.1101/gr.209601.116){:target="_blank"}
 Je | A versatile suite to handle multiplexed NGS libraries with unique molecular identifiers | [Girardot at al. 2016](https://doi.org/10.1186/s12859-016-1284-2)
 [RaceID]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_clustering/raceid_clustering/){:target="_top"} | Clustering using RaceID performs clustering, outlier detection, dimensional reduction | [Josip, at al. 2018](https://doi.org/10.1038/nmeth.4662)
+Scanpy | Single-Cell Analysis in Python | [Wolf at al. 2018](https://doi.org/10.1186/s13059-017-1382-0)
 {: .table.table-striped .tooltable}
 
 
