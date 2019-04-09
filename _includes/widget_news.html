@@ -12,7 +12,7 @@
     {% endif %}
 
     {% if include.newtab %}
-    {% assign url_target = 'target="_blank"' %}
+    {% assign url_target = 'target="_blank" rel="noopener"' %}
     {% endif %}
 
     {% if include.plain %}
@@ -23,6 +23,7 @@
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {% if post.external %}
           {% assign url = post.external %}
+          {% assign url_target = 'target="_blank" rel="noopener"' %}
         {% else %}
           {% assign url = post.url | append: url_ext%}
         {% endif %}
