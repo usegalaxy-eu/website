@@ -123,7 +123,7 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-[FastQC!]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc){:target="_top"} | A quality control tool for high throughput sequence data | -
+[FastQC]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc){:target="_top"} | A quality control tool for high throughput sequence data | -
 [Trim Galore!]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftrim_galore%2Ftrim_galore){:target="_top"} | Automatic quality and adapter trimming as well as quality control | -
 {: .table.table-striped .tooltable}
 
