@@ -5,7 +5,7 @@ title: FASTQC jobs and very long reads
 location: Galaxy Europe
 ---
 
-Over the past few weeks we saw many [FASTQC]({{ page.website }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72) jobs running for days or even longer, which is not normal.
+Over the past few weeks we saw many [FASTQC](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72) jobs running for days or even longer, which is not normal.
 We investigated this and saw that all of those jobs are processing files with unusually long reads.
 
 We are excited to see that our instance is used more and more for processing data from fourth-generation DNA sequencing technology!
@@ -17,6 +17,6 @@ Increasing this value made all of our tests much faster for very long reads and 
 We will kill long running jobs that do not finish in a few days, all that you need to do is restart the job and it should finish way faster.
 Please get in [contact](mailto:contact@usegalaxy.eu) with us, if you still see problems with FASTQC.
 
-Please also have a look at [fastp]({{ page.website }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/) as an alternative tool, that also provides some quality metrics.
+Please also have a look at [fastp](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/) as an alternative tool, that also provides some quality metrics.
 
 Finally, if you have data with very long reads have a look in your tool panel - there should be a Nanopore section with a lot of useful tools for ONT data.
