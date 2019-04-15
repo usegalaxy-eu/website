@@ -6,7 +6,7 @@ location: Galaxy Europe
 ---
 
 Over the last weeks we saw many [FASTQC]({{ page.website }}/?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72) jobs running for days or even longer, which is not normal.
-We investigated this and saw that all of those jobs are processing files with unusal long reads.
+We investigated this and saw that all of those jobs are processing files with unusually long reads.
 
 We are excited to see that our instance is used more and more for processing data of the
 fourth-generation of DNA sequencing technology!
