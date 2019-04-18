@@ -126,6 +126,7 @@ Scanpy | Single-Cell Analysis in Python | [Wolf at al. 2018](https://doi.org/10.
 - [Nicola Soranzo](https://github.com/nsoranzo)
 - [Graham Etherington](https://github.com/ethering)
 - [Fidel Ramirez](https://github.com/fidelram)
+- [Daniel Blankenberg](https://github.com/blankenberg)
 - [James Taylor](https://github.com/jxtx)
 - [Bjoern Gruening](https://github.com/bgruening)
 
