@@ -35,29 +35,29 @@ This workshop is organized mostly for developers, computer scientists and bioinf
 
 Day | Start | End | Topics | Material | Location
 --- | ---| --- | --- | --- | ---
-**Tueday, 23 April** | 09:00 | 12:00 | Free time | | Hôtel de France - Room 3
- | 12:00 | 12:30 | | | Gulf Stream
- | 12:30 | 13:30 | Lunch | | City center
- | 14:00 | 15:30 | Tool integration | | Hôtel de France - Room 3
- | 15:30 | 16:00 | Break | | Hôtel de France - Room 3
- | 16:00 | 18:00 | Tool integration | | Hôtel de France - Room 3
- | 19:00 |  | Dinner | | 
+**Tueday, 23 April** | 09:00 | 12:40 | Free time | | Hôtel de France - Room 3
+ | 13:00 | 14:00 | Lunch | | Gulf Stream
+ | 13:15 | 14:00 | Lunch | | City center (if you miss the Gulf Stream)
+ | 14:00 | 16:00 | Tool integration | | Hôtel de France - Room 3
+ | 16:00 | 16:30 | Break | | Hôtel de France - Room 3
+ | 16:30 | 18:00 | Tool integration | | Hôtel de France - Room 3
+ | 19:30 |  | Dinner | | 
 **Wednesday, 24 April** | 09:00 | 10:30 | Training integration | | Hôtel de France - Room 3
  | 10:30 | 11:00 | Break | | Hôtel de France - Room 3
  | 11:00 | 12:30 | Training integration | | Hôtel de France - Room 3
  | 12:30 | 14:00 | Lunch | | Gulf Stream
- | 14:00 | 15:30 | Hackathon | | Hôtel de France - Room 3
- | 15:30 | 16:00 | Break | | Hôtel de France - Room 3
- | 16:00 | 18:00 | Hackathon | | Hôtel de France - Room 3
- | 19:00 |  | Dinner | | 
+ | 14:00 | 16:00 | Hackathon | | Hôtel de France - Room 3
+ | 16:00 | 16:30 | Break | | Hôtel de France - Room 3
+ | 16:30 | 18:00 | Hackathon | | Hôtel de France - Room 3
+ | 19:30 |  | Dinner | | 
 **Thursday, 25 April** | 09:00 | 10:30 | Hackathon | | Hôtel de France - Room 3
  | 10:30 | 11:00 | Break | | Hôtel de France - Room 3
  | 11:00 | 12:30 | Hackathon | | Hôtel de France - Room 3
  | 12:30 | 14:00 | Lunch | | Gulf Stream
- | 14:00 | 15:30 | Hackathon | | Hôtel de France - Room 3
- | 15:30 | 16:00 | Break | | Hôtel de France - Room 3
- | 16:00 | 18:00 | Hackathon | | Hôtel de France - Room 3
- | 19:00 |  | Dinner | | 
+ | 14:00 | 16:00 | Hackathon | | Hôtel de France - Room 3
+ | 16:00 | 16:30 | Break | | Hôtel de France - Room 3
+ | 16:30 | 18:00 | Hackathon | | Hôtel de France - Room 3
+ | 19:00 |  | Dinner ++ | | 
 **Friday, 26 April** | 09:00 | 10:30 | Hackathon | | Hôtel de France - Room 3
  | 10:30 | 11:00 | Break | | Hôtel de France - Room 3
  | 11:00 | 12:30 | Hackathon | | Hôtel de France - Room 3
