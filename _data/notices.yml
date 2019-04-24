@@ -6,16 +6,10 @@
 #       - message: |
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #
-#- title: UseGalaxy.eu Job Scheduling Delays
-#  class: success # one of [success, info, warning, danger]
-#  site: freiburg    # Your site
-#  messages:
-#      - message: |
-#          The issue should now be resolved.
-#        date: 2019-04-02 16:38:15+02:00
-#      - message: |
-#          We have noticed delays scheduling jobs. We are working on fixing the
-#          issues. You can continue to submit workflows and jobs but they will
-#          execute later, when we have the configuration corrected. We apologise
-#          for the delay.
-#        date: 2019-04-02 14:49:11+02:00
+- title: GCC Registration Open and Abstract Deadline Extension!
+  class: success # one of [success, info, warning, danger]
+  site: freiburg    # Your site
+  messages:
+      - message: |
+          GCC 2019 [registration is open](https://galaxyproject.org/events/gcc2019/) and we have extended the deadline for abstract submission. [Submit your abstract now!](https://galaxyproject.org/news/2019-04-gcc-extension/)
+        date: 2019-04-24 10:24:16+02:00
