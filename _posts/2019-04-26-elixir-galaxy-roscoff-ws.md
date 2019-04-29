@@ -15,7 +15,7 @@ Last week, the [ELIXIR Galaxy Community](https://elixir-europe.org/communities/g
 
 The first day was dedicated to training: how to integrate tools to Galaxy and how to create training material for Galaxy, with Gildas, Anthony, Björn, Bérénice and Lorraine as instructors.
 
-After started an hackathon with several groups:
+Subsequently, a Hackathon started with several self-organised groups:
 - Tool integration
 - Training Material
 - Continuous Integration (Travis / Circle CI / Gitlab CI)
