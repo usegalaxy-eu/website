@@ -23,7 +23,7 @@ Subsequently, a Hackathon started with several self-organised groups:
 - Galaxy Genome Annotation
 - Material and Methods automatic generation
 
-There were also some breakout rooms about:
+We also had some breakout sessions about:
 - Galaxy Administration: usegalaxy.* by usegalaxy.eu
 - Galaxy Interactive Tour
 - Visualization within Galaxy
