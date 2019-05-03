@@ -6,10 +6,10 @@
 #       - message: |
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #
-- title: GCC Registration Open and Abstract Deadline Extension!
+- title: GCC Registration Open!
   class: success # one of [success, info, warning, danger]
   site: freiburg    # Your site
   messages:
       - message: |
-          GCC 2019 [registration is open](https://galaxyproject.org/events/gcc2019/) and we have extended the deadline for abstract submission. [Submit your abstract now!](https://galaxyproject.org/news/2019-04-gcc-extension/)
-        date: 2019-04-24 10:24:16+02:00
+          GCC 2019 [registration is open](https://galaxyproject.org/events/gcc2019/)
+        date: 2019-05-03 11:21:04+02:00
