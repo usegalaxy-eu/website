@@ -11,5 +11,7 @@
   site: freiburg    # Your site
   messages:
       - message: |
-          GCC 2019 [registration is open](https://galaxyproject.org/events/gcc2019/)
-        date: 2019-05-03 11:21:04+02:00
+          Galaxy Community Conferecen (GCC) 2019 [registration is open](https://galaxyproject.org/events/gcc2019/).
+          The GCC aims at bringing together Galaxy Users, Developers and Administrators to learn from each other.
+          Tell us about your use-case, how we can improve Galaxy and present your work. [Register now](https://galaxyproject.org/events/gcc2019/registration/)!
+        date: '2019-05-03 11:21:04+02:00'
