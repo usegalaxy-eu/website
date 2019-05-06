@@ -13,3 +13,11 @@
       - message: |
           GCC 2019 [registration is open](https://galaxyproject.org/events/gcc2019/)
         date: 2019-05-03 11:21:04+02:00
+- title: UseGalaxy.eu Downtime
+  class: danger # one of [success, info, warning, danger]
+  site: freiburg    # Your site
+  messages:
+      - message: |
+          We have received extremely last minute notice, the Freiburg Cloud
+          will be down tomorrow and so will UseGalaxy.eu
+        date: 2019-05-06 17:34:30+02:00
