@@ -6,18 +6,21 @@
 #       - message: |
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #
-- title: GCC Registration Open!
-  class: success # one of [success, info, warning, danger]
-  site: freiburg    # Your site
-  messages:
-      - message: |
-          GCC 2019 [registration is open](https://galaxyproject.org/events/gcc2019/)
-        date: 2019-05-03 11:21:04+02:00
 - title: UseGalaxy.eu Downtime
   class: danger # one of [success, info, warning, danger]
   site: freiburg    # Your site
   messages:
       - message: |
-          We have received extremely last minute notice, the Freiburg Cloud
-          will be down tomorrow and so will UseGalaxy.eu
+          We have received extremely [last minute notice](https://www.rz.uni-freiburg.de/rz/aktuell/stoerungen/openstack-upgrade), the Freiburg Cloud
+          will be down tomorrow and so will UseGalaxy.eu. The site will be inaccessible for [most of the european work day](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Downtime&iso=20190507T09&p1=37&ah=8)
         date: 2019-05-06 17:34:30+02:00
+- title: GCC Registration Open!
+  class: success # one of [success, info, warning, danger]
+  site: freiburg    # Your site
+  messages:
+      - message: |
+          Galaxy Community Conference (GCC) 2019 will be held in Freiburg, Germany 1-6 July and [registration is now open](https://galaxyproject.org/events/gcc2019/).
+          The GCC aims at bringing together Galaxy Users, Developers and Administrators to learn from each other.
+          Tell us about your use case, how we can improve Galaxy, present your work or attend one of the many training sessions.
+          [Register now](https://galaxyproject.org/events/gcc2019/registration/)!
+        date: 2019-05-03 11:21:04+02:00
