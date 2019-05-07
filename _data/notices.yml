@@ -12,10 +12,10 @@
   messages:
       - message: |
           We have received extremely [last minute notice](https://www.rz.uni-freiburg.de/rz/aktuell/stoerungen/openstack-upgrade), the Freiburg Cloud
-          will be down tomorrow and so will UseGalaxy.eu. The site will be inaccessible for [most of the european work day](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Downtime&iso=20190507T09&p1=37&ah=8)
+          will be down today and so will UseGalaxy.eu. The site **may** be inaccessible for [some or most of the european work day](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Downtime&iso=20190507T09&p1=37&ah=8)
 
           Please check [status.galaxyproject.org](https://status.galaxyproject.org/) for further updates
-        date: 2019-05-06 17:34:30+02:00
+        date: 2019-05-07 14:47:38+02:00
 - title: GCC Registration Open!
   class: success # one of [success, info, warning, danger]
   site: freiburg    # Your site
