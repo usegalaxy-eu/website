@@ -6,7 +6,7 @@
 #       - message: |
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #
-- title: UseGalaxy.eu Downtime
+- title: UseGalaxy.eu Downtime + No jobs running
   class: danger # one of [success, info, warning, danger]
   site: freiburg    # Your site
   messages:
