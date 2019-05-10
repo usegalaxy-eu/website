@@ -2,7 +2,7 @@
 site: freiburg
 title: "The RNA workbench 2.0: next generation RNA data analysis"
 tags: [paper]
-doi: "https://doi.org/10.1093/nar/gkz353"
+doi: "10.1093/nar/gkz353"
 supporters:
  - denbi
  - elixir
