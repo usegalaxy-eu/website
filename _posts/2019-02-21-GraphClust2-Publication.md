@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: Publication about RNA clustering on bioRXiv
+title: "Empowering the annotation and discovery of structured RNAs with scalable and accessible integrative clustering"
 tags: [paper]
 supporters:
  - denbi
