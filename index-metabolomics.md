@@ -2,7 +2,6 @@
 layout: subsite-galaxy
 ---
 
-
 <script>
   ((window.gitter = {}).chat = {}).options = {
     room: 'usegalaxy-eu/Lobby'
@@ -10,12 +9,10 @@ layout: subsite-galaxy
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
-
 <br/>
 
 # Welcome to **UseGalaxy.EU Metabolomics**
 {:.no_toc}
-
 
 --------------------------------------------------------------------
 
@@ -33,7 +30,7 @@ During the [2019 Galaxy Community Conference](https://galaxyproject.org/events/g
 
 # Tutorials
 
-Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://proteomics.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
+Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://metabolomics.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
 **Want to learn more about metabolomics? Check out the following lesson tutorials from the [Galaxy Trainings Network](https://galaxyproject.github.io/training-material/topics/metabolomics/){:target="_blank"}:**
 
@@ -111,5 +108,7 @@ Server
 - [Helena Rasche](https://github.com/erasche)
 - [Mark Esler](https://github.com/eslerm)
 - [Art Eschenlauer](https://github.com/eschen42)
+
+[<img src="/assets/media/galaxyp_banner.png" width="350px" alt="GalaxyP logo"/>](htt    p://galaxyp.org)
 
 --------------------------------------------------------------------
