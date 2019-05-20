@@ -19,9 +19,6 @@ supporters:
 - denbi
 ---
 
-
-# Registration
-
 Galaxy workshop on RNA-seq data analysis, January 2018 in Belgrad (Serbia), registration is open!
 For attendance, or more information please visit [their website](https://www.vin.bg.ac.rs/180/galaxy2019/)
 

@@ -5,6 +5,7 @@ freiburg:
         email: gruening@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54130
         location: "Build.: 079, Room: -1006"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: bgruening
         twitter: bjoerngruening
         linkedin: bjorn-grüning-2b84a895
@@ -20,6 +21,7 @@ freiburg:
         email: bebatut@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54126
         location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: bebatut
         twitter: bebatut
         linkedin: berenicebatut
@@ -34,6 +36,7 @@ freiburg:
         email: erxleben@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54129
         location: "Build.: 079, Room: -1006"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         bio:
 
     wm75:
@@ -42,6 +45,7 @@ freiburg:
         email: maierw@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54133
         location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: wm75
         bio:
 
@@ -51,6 +55,7 @@ freiburg:
         email: hxr@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54128
         location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: erasche
         orcid: 0000-0001-9760-8992
         galaxyadmin: true
@@ -61,6 +66,7 @@ freiburg:
         email: wolffj@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54132
         location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         bio:
 
     mtekman:
@@ -69,14 +75,59 @@ freiburg:
         email: tekman@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54134
         location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         bio:
 
     anuprulez:
         name: Anup Kumar
         title: M.Sc. Inf., Researcher
         email: kumara@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54131
+        phone: +49(0) 761 - 203 54134
         location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        bio:
+
+    stephanflemming:
+        name: Stephan Flemming
+        title: Dr. rer. nat., Researcher
+        email: flemming@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54127
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: stephanflemming
+        orcid:  0000-0002-4632-3863
+        bio:
+
+    gmauro:
+        name: Gianmauro Cuccuru
+        title: M.Sc. Electronic Eng., Researcher
+        email: gmauro@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54127
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: gmauro
+
+    simonbray:
+        name: Simon Bray
+        title: M.Sc.
+        email: sbray@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54127
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: simonbray
+        orcid: 0000-0002-0621-6705
+        bio:
+   
+    khanteymoori:
+        name: Alireza Khanteymoori
+        title: Ph.D., Researcher
+        email: alireza@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54127
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        orcid: 0000-0001-6811-9196
+        google-scholar: VAyELgcAAAAJ&hl
+        researchgate: Ali_Khanteymoori2
         bio:
 
     rolfbackofen:
@@ -85,6 +136,7 @@ freiburg:
         email: backofen@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 7460
         location: "Build.: 101"
+        location_link: "https://goo.gl/maps/jB38FZAm49T2"
         twitter: backofenlab
         orcid: 0000-0001-8231-3323
         google-scholar: ZCTrqQkAAAAJ

@@ -27,34 +27,44 @@ layout: default-galaxy
   </div>
   <div class="row post-metadata">
     <div class="col-md-8 col-md-offset-2">
-      <div class="text-right">
-        <div>
-          <span class="post-date">
-            {{ page.date | date: date_format }}
-          </span>
+      <div class="row">
+        <div class="col-md-6">
+            {% include author.html author=page.author %}
+        </div>
+        <div class="col-md-6 text-right">
+          <div>
+            <span class="post-date">
+              {{ page.date | date: date_format }}
+            </span>
 
-          {% if page.location %}
-          <br />
-          <span class="post-location">
-              {{ page.location }}
-          </span>
-          {% endif %}
+            {% if page.location %}
+            <br />
+            <span class="post-location">
+                {{ page.location }}
+            </span>
+            {% endif %}
 
-          <br />
-          <span class="post-tags">
-              <span class="label label-success">{{ site.team_sites[key].name }}</span>
-            {% for tag in page.tags %}
-              <span class="label label-info">{{ tag }}</span>
-            {% endfor %}
-          </span>
+            <br />
+            <span class="post-tags">
+                <span class="label label-success">{{ site.team_sites[key].name }}</span>
+              {% for tag in page.tags %}
+                <span class="label label-info">{{ tag }}</span>
+              {% endfor %}
+              {% if page.doi %}
+                <a href="https://dx.doi.org/{{ page.doi }}">
+                <span class="label label-warning">DOI:{{ page.doi }}</span>
+                </a>
+              {% endif %}
+            </span>
 
-          {% if page.repo %}
-          <br />
-          <a href="https://github.com/{{ page.repo }}">
-          <img src="https://img.shields.io/badge/GitHub-{{ page.repo }}-green.svg" />
-          <img src="https://img.shields.io/github/license/{{ page.repo }}.svg" />
-          </a>
-          {% endif %}
+            {% if page.repo %}
+            <br />
+            <a href="https://github.com/{{ page.repo }}">
+            <img src="https://img.shields.io/badge/GitHub-{{ page.repo }}-green.svg" />
+            <img src="https://img.shields.io/github/license/{{ page.repo }}.svg" />
+            </a>
+            {% endif %}
+          </div>
         </div>
       </div>
     </div>

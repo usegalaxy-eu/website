@@ -5,6 +5,8 @@ title: Training Infrastructure as a Service
 
 # Training Infrastructure as a Service
 
+<img src="/assets/media/tiaas-logo.png" alt="tiaas logo depicting people in queues" width="300em" style="margin: 1em">
+
 [UseGalaxy.eu](https://usegalaxy.eu) is proud to provide Training Infrastructure as a Service (TIaaS) for the Galaxy training community.
 You provide the training, we provide the infrastructure <i>at no cost</i>.
 
@@ -14,6 +16,7 @@ You provide the training, we provide the infrastructure <i>at no cost</i>.
 - Free
 - No Galaxy Maintenance
 - No Galaxy Administration
+- Official [Galaxy Training Materials](https://training.galaxyproject.org) are guaranteed to work and [regularly tested](https://github.com/usegalaxy-eu/workflow-testing/)
 
 ## How TIaaS Works
 
@@ -33,6 +36,10 @@ will run there rather than continuing to wait in the main queue.
 We have significant capacity and have dedicated some of this to providing
 training using our service. Anyone providing training on using Galaxy is
 eligible to request the use of this service.
+
+## Service Level Agreement
+
+We *cannot* promise any degree of uptime. We will do our best to have this service online and functioning during the entire time period but there are cases where the service may experience interruptions that are outside of our control. We will keep you informed of any outages that may affect your training.
 
 ## Application Process
 

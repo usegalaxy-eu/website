@@ -48,18 +48,18 @@ layout: default-galaxy
             {% if key_length == 0 or site.team_sites[key].private_news == false or key == "galaxy" %}
             <td>
                 <div>{{ site.team_sites[post.site].name }}</div>
-                <div>{% include article_icons.html post=post %}</div>
             </td>
             {% endif %}
             <td>
               <h4>
                 {% if post.external %}
-                  <a href="{{ post.external }}">
+                  <a href="{{ post.external }}" target="_blank" rel="noopener">
                 {% else %}
                   <a href="{{ post.url }}">
                 {% endif %}
                 {{ post.title | escape }}
                 </a>
+                <span>{% include article_icons.html post=post %}</span>
               </h4>
               <div>{{ post.excerpt }}</div>
             </td>

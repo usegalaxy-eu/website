@@ -28,3 +28,4 @@ gem 'jekyll-compose', group: [:jekyll_plugins]
 gem 'jekyll-scholar'
 gem 'html-proofer'
 gem 'jekyll-twitter-plugin'
+gem "nokogiri", ">= 1.8.5"
