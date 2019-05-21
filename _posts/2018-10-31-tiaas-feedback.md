@@ -2,6 +2,9 @@
 site: freiburg
 title: 'Training Infrastructure Feedback from Maria Doyle'
 tags: [training, tiaas]
+supporters:
+- galaxy-europe
+- tiaas
 ---
 
 We recently had the privilege of using the usegalaxy.eu's new [Training

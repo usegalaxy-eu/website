@@ -2,7 +2,9 @@
 site: erasmusmc
 tags: [training, tiaas]
 title: Enthusiastic Response to the First ELIXIR-NL Galaxy Training Course in the Netherlands
-
+supporters:
+- galaxy-europe
+- tiaas
 ---
 
 
