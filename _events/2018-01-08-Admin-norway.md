@@ -11,7 +11,7 @@ organiser:
   email: null
   name: ELIXIR
 starts: 2018-01-08
-supporter:
+supporters:
 - elixir
 tags:
 - training

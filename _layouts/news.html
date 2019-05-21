@@ -78,5 +78,15 @@ layout: default
     </div>
   </div>
 
+{% if page.supporters.size > 0 %}
+	<div class="col-md-2">
+	</div>
+<div class="row">
+	<div class="col-md-8 col-sm-12">
 {% include sponsors.html supporters=page.supporters %}
+	</div>
+	<div class="col-md-2">
+	</div>
+</div>
+{% endif %}
 </section>
