@@ -36,7 +36,7 @@ A collection of best practice and popular tools are integrated (and are expandin
 
 # Tutorials
 
-We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. The NanoGalaxy training materials are under development and will be soon hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
+We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. The NanoGalaxy training materials are under development and will be soon hosted on the GTN GitHub repository [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
 
 
 # Workflows
@@ -44,4 +44,14 @@ We are passionate about training. So we are working in close collaboration with 
 To orchestrate tools and help users with their analyses, some best practice workflows are prepared and become available. The workflows can be extended using similar and alternative combinations using the workflow editor.
 
 The workflows are available in the [Shared Workflows](https://nanopore.usegalaxy.eu/workflows/list_published), with the label "***ONT***".
+
+Some validated workflows:
+- Basic workflows inspired by the Nanopolish tutorials
+- Genome assembly:
+    - Flye-based WF for highly repetitive genomes [Schmid et al. NAR 2018] 
+    Shared history: https://usegalaxy.eu/u/milad/h/ahrens-nanopore-graphmap-minimap
+
+    - Unicycler-based WF for Klebsiella pneumoniae (Illumina and ONT) [Wick et al.  Microbial genomics 2017]
+    Shared history: https://usegalaxy.eu/u/milad/h/wick-etal
+
 
