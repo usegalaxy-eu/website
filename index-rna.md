@@ -1,6 +1,7 @@
 ---
 layout: subsite-galaxy
 website: https://rna.usegalaxy.eu
+subdomain: rna
 ---
 
 # Welcome to the RNA Galaxy workbench 2.0

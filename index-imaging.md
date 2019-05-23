@@ -1,5 +1,6 @@
 ---
 layout: subsite-galaxy
+subdomain: imaging
 ---
 
 
@@ -54,7 +55,7 @@ ToDo
 
 To orchestrate tools and help users with their analyses, several workflows are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).
 
-The workflows are available in the [Shared Workflows](https://cheminformatics.usegalaxy.eu/workflows/list_published), with the label "***imaging***".
+The workflows are available in the [Shared Workflows](https://imaging.usegalaxy.eu/workflows/list_published), with the label "***imaging***".
 
 # Contributors
 

@@ -2,6 +2,7 @@
 layout: subsite-galaxy
 website: https://singlecell.usegalaxy.eu
 gitter: true
+subdomain: singlecell
 ---
 
 ![single cell Galaxy](/assets/media/logo_single_cell.svg){:.sc-intro-left}

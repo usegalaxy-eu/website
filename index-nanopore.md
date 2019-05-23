@@ -1,5 +1,6 @@
 ---
 layout: subsite-galaxy
+subdomain: nanopore
 ---
 
 
