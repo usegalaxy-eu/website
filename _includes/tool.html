@@ -1,11 +1,16 @@
 {%- assign found = false -%}
 {%- for tool in site.data.tools -%}
-	{% if tool[0] == include.id -%}
+	{%- if tool[0] == include.id -%}
+		{%- if include.label -%}
+			{%- assign label = include.label -%}
+		{%- else -%}
+			{%- assign label = include.id -%}
+		{%- endif -%}
 		{%- assign found = true -%}
 		{%- if page.subdomain -%}
-			<a href="https://{{ page.subdomain }}.usegalaxy.eu/root?tool_id={{ tool[1] }}" target="_top">{{ include.id }}</a>
+			<a href="https://{{ page.subdomain }}.usegalaxy.eu/root?tool_id={{ tool[1] }}" target="_top">{{ label }}</a>
 		{%- else -%}
-			<a href="https://usegalaxy.eu/root?tool_id={{ tool[1] }}" target="_top">{{ include.id }}</a>
+			<a href="https://usegalaxy.eu/root?tool_id={{ tool[1] }}" target="_top">{{ label }}</a>
 		{%- endif -%}
 	{%- endif -%}
 {%- endfor -%}

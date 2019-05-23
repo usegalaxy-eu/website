@@ -25,15 +25,15 @@ Check also the standard but customizable [workflows](#workflows) available there
 A collection of best practice and popular tools are integrated (and are expanding) in this custom Galaxy instance. The ONT-oriented and -specific subset includes:
 
 - **Polishing, QC and preprocessing**
-    - [Nanopolish](https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fnanopolish_variants%2Fnanopolish_variants%2F0.1.0){:target="_top"}, [Porechop](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fporechop%2Fporechop%2F0.2.3){:target="_top"},[Filtlong](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ffiltlong%2Ffiltlong%2F0.2.0){:target="_top"}, [Poretools](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fporetools_qualdist%2Fporetools_qualdist%2F0.6.1a1.0){:target="_top"}
+    - {% include tool.html id="Nanopolish" %}, {% include tool.html id="Porechop" %}, {% include tool.html id="Filtlong" %},  {% include tool.html id="Poretools" %}
 - **Genome assembly**
-    - [Flye](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fflye%2Fflye%2F2.3.7){:target="_top"}, [Unicycler](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Funicycler%2Funicycler%2F0.4.7.0){:target="_top"}, [Wtdbg2](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fwtdbg%2Fwtdbg%2F1.2.8.1){:target="_top"}, Miniasm, [Racon](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fracon%2Fracon%2F1.3.1.1){:target="_top"}, [Canu](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fcanu%2Fcanu%2F1.7){:target="_top"}
+    - {% include tool.html id="Flye" %},  {% include tool.html id="Unicycler" %},  {% include tool.html id="Wtdbg2" %},  Miniasm,  {% include tool.html id="Racon" %},  {% include tool.html id="Canu" %}
 - **Mapping**
-    - [Minimap2](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fminimap2%2Fminimap2%2F2.17){:target="_top"}, [GraphMap](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fgraphmap_align%2Fgraphmap_align%2F0.5.2){:target="_top"}
+    - {% include tool.html id="Minimap2" %},  {% include tool.html id="GraphMap" %}
 - **Visualisation**
-    - [Nanoplot](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fnanoplot%2Fnanoplot%2F1.13.0){:target="_top"}, [Bandage](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbandage%2Fbandage_image%2F0.8.1%2Bgalaxy0){:target="_top"}
+    - {% include tool.html id="Nanoplot" %},  {% include tool.html id="Bandage" %}
 - **Taxonomy and metagenomics**
-    - [Kraken2](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fkraken2%2Fkraken2%2F2.0.8_beta%2Bgalaxy0){:target="_top"}, [PlasFlow](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fplasflow%2FPlasFlow%2F1.0){:target="_top"}, [Staramr](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fnml%2Fstaramr%2Fstaramr_search%2F0.4.0){:target="_top"}
+    - {% include tool.html id="Kraken2" %},  {% include tool.html id="PlasFlow" %},  {% include tool.html id="Staramr" %}
 
 
 
@@ -60,7 +60,7 @@ Some validated workflows:
 
     - Unicycler-based WF for Klebsiella pneumoniae (Illumina and ONT) [Wick et al.  Microbial genomics 2017]
     Shared history: https://nanopore.usegalaxy.eu/u/milad/h/wick-etal
-- Metagenomics: taxa classification 
+- Metagenomics: taxa classification
     <br/> [workflow](https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2){:target="_top"}
     <img src="/assets/media/nanogalaxy-kraken.png" width="400px" alt="NanoGalaxy wf2"/>
 

@@ -44,10 +44,10 @@ Below workflows can be directly accessed on the public server:
   * Workflow main, preconfigured for two rounds : [GraphClust_2r](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--main-2r)
 
 ### Workflow flavors
-The pre-configured flavors of GraphClust2 are provided and described inside the [workflows directory](https://github.com/BackofenLab/GraphClust-2/tree/master/workflows) 
+The pre-configured flavors of GraphClust2 are provided and described inside the [workflows directory](https://github.com/BackofenLab/GraphClust-2/tree/master/workflows)
 
 ### Import or upload a workflow
-To import or upload additional workflow flavors (e.g. from workflows directory), on the top panel go to *Workflow* menu. On top right side of the screen click on "Upload or import workflow" button. You can either upload workflow from your local system or by providing the URL of the workflow. Log in is necessary to access into the workflow menu. The docker galaxy instance has a pre-configured *easy!* info that can be found by following the interactive tour. You can download workflows from the following links 
+To import or upload additional workflow flavors (e.g. from workflows directory), on the top panel go to *Workflow* menu. On top right side of the screen click on "Upload or import workflow" button. You can either upload workflow from your local system or by providing the URL of the workflow. Log in is necessary to access into the workflow menu. The docker galaxy instance has a pre-configured *easy!* info that can be found by following the interactive tour. You can download workflows from the following links
 
 
 ## Results from the paper, shared histories
@@ -75,7 +75,7 @@ GraphClust pipeline overview
 
 The pipeline for clustering RNA sequences and structured motif discovery is a multi-step pipeline. Overall it consists of three major phases: a) sequence based pre-clustering b) encoding predicted RNA structures as graph features c) iterative fast candidate clustering then refinement
 
-<img src="https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/workflow_early.png" width="600"> ![GraphClust-2 workflow overview](https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/figure-pipeline_zigzag.png) 
+<img src="https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/workflow_early.png" width="600"> ![GraphClust-2 workflow overview](https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/figure-pipeline_zigzag.png)
 
 
 Below is a coarse-grained correspondence list of GraphClust2 tool names with each step:
@@ -83,25 +83,25 @@ Below is a coarse-grained correspondence list of GraphClust2 tool names with eac
 
 |   Stage  | Galaxy Tool Name | Description|
 | :--------------------: | :--------------- | :----------------|
-|1 | [Preprocessing](https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_preprocessing/preproc/0.5){:target="_top"} | Input preprocessing (fragmentation)|
-|2 | [fasta_to_gspan](https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_fasta_to_gspan/gspan/0.4){:target="_top"} | Generation of structures via RNAshapes and conversion into graphs|
-|3 | [NSPDK_sparseVect](https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/nspdk_sparse/9.2.3){:target="_top"} | Generation of graph features via NSPDK |
-|4| [NSPDK_candidateClusters](https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/NSPDK_candidateClust/9.2.3){:target="_top"} | min-hash based clustering of all feature vectors, output top dense candidate clusters|
-|5| [PGMA_locarna](https://graphclust.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_prepocessing_for_mlocarna/preMloc/0.4){:target="_top"},[locarna](https://graphclust.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_mlocarna/locarna_best_subtree/0.4){:target="_top"}, [CMfinder](https://graphclust.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_cmfinder/cmFinder/0.4){:target="_top"} | Locarna based clustering of each candidate cluster, all-vs-all pairwise alignments, create multiple alignments along guide tree, select best subtree, and refine alignment.|
-|6| [Build covariance models](https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmbuild/1.1.0.2){:target="_top"} |  create candidate model |
-|7| [Search covariance models](https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch/1.1.0.2){:target="_top"} | Scan full input sequences with Infernal's cmsearch to find missing cluster members |
-|8,9| [Report results](https://graphclust.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_postprocessing/glob_report/0.5) and [conservation evaluations](https://graphclust.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam%2Fgraphclust_aggregate_alignments/graphclust_aggregate_alignments/0.1) | Collect final clusters and create example alignments of top cluster members|
+|1 | {% include tool.html id="graphclust_preprocessing" label="Graphclust Preprocessing" %} | Input preprocessing (fragmentation)|
+|2 | {% include tool.html id="fasta_to_gspan" %} | Generation of structures via RNAshapes and conversion into graphs|
+|3 | {% include tool.html id="NSPDK_sparseVect" %} | Generation of graph features via NSPDK |
+|4| {% include tool.html id="NSPDK_candidateClusters" %} | min-hash based clustering of all feature vectors, output top dense candidate clusters|
+|5| {% include tool.html id="PGMA_locarna" %} | Locarna based clustering of each candidate cluster, all-vs-all pairwise alignments, create multiple alignments along guide tree, select best subtree, and refine alignment.|
+|6| {% include tool.html id="infernal_cmbuild" label="Build covariance models" %} |  create candidate model |
+|7| {% include tool.html id="infernal_cmsearch" label="Search covariance models" %} | Scan full input sequences with Infernal's cmsearch to find missing cluster members |
+|8,9| {% include tool.html id="graphclust_postprocessing" label="Report Results" %} and {% include tool.html id="graphclust_aggregate_alignments" label="conservation evaluations" %} | Collect final clusters and create example alignments of top cluster members|
 {: .table.table-striped}
 
 ### Input
-The input to the workflow is a set of putative RNA sequences in FASTA format. Inside the `data` directory within the repository, you can find examples of the input format. 
+The input to the workflow is a set of putative RNA sequences in FASTA format. Inside the `data` directory within the repository, you can find examples of the input format.
 
 ### Output
-The output contains the predicted clusters, where similar putative input RNA sequences form a cluster. Additionally overall status of the clusters and the matching of cluster elements is reported for each cluster. 
+The output contains the predicted clusters, where similar putative input RNA sequences form a cluster. Additionally overall status of the clusters and the matching of cluster elements is reported for each cluster.
 
 ### Configuring the workflows:
 Please proceed with the interactive tour named `GraphClust workflow step by step`, available under `Help->Interactive Tours`
-Please refer to the in-wrapper help descriptions the tools documentations and the repository's [FAQs](https://github.com/BackofenLab/GraphClust-2/blob/master/FAQ.md) for checking the important parameters. 
+Please refer to the in-wrapper help descriptions the tools documentations and the repository's [FAQs](https://github.com/BackofenLab/GraphClust-2/blob/master/FAQ.md) for checking the important parameters.
 
 
 # Support & Bug Reports
@@ -110,7 +110,7 @@ You can file an [github issue](https://github.com/BackofenLab/GraphClust-2/issue
 
 
 # References
-The manuscript is currently under prepration/revision. If you find this resource useful, please cite the zenodo DOI of the repo or contact us. 
+The manuscript is currently under prepration/revision. If you find this resource useful, please cite the zenodo DOI of the repo or contact us.
 
 * Miladi, Milad, Eteri Sokhoyan, Torsten Houwaart, Steffen Heyne, Fabrizio Costa, Bjoern Gruening, and Rolf Backofen. "Empowering the annotation and discovery of structured RNAs with scalable and accessible integrative clustering." bioRxiv (2019): 550335. doi: [https://doi.org/10.1101/550335](https://doi.org/10.1101/550335)
 * Milad Miladi, Björn Grüning, & Eteri Sokhoyan. BackofenLab/GraphClust-2: Zenodo. http://doi.org/10.5281/zenodo.1135094

@@ -48,7 +48,7 @@ Almost 140 tools are proposed in this custom Galaxy instance. They were chosen f
 
 We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
 
-We then developed [several tutorials](https://galaxyproject.github.io/training-material/topics/ecology/){:target="_blank"} and more will come:
+We then developed [several tutorials](https://training.galaxyproject.org/training-material/topics/ecology/){:target="_blank"} and more will come:
 
 - Introduction to species phenology study and abundance index as trends computation
 - Introduction to Species Distribution Modeling (SDM) using Wallace R Shiny app

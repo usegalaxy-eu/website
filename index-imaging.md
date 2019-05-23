@@ -30,20 +30,20 @@ Several tools are integrated in this custom Galaxy instance. They were chosen fo
 ToDo
 
  * data visualization:
-   * [msi qualitycontrol](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_report/cardinal_quality_report/)
-   * [msi mz images](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_mz_images/cardinal_mz_images/)
-   * [msi spectra plot](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_spectra_plots/cardinal_spectra_plots/)
+   * {% include tool.html id="cardinal_quality_report" label="msi qualitycontrol" %}
+   * {% include tool.html id="cardinal_mz_images" label="msi mz images" %}
+   * {% include tool.html id="cardinal_spectra_plot" label="msi spectra plot" %}
  * data preprocessing:
-   * [MALDIquant preprocessing](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_preprocessing/maldi_quant_preprocessing/)
-   * [MALDIquant peak detection](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_peak_detection/maldi_quant_peak_detection/)
-   * [msi preprocessing](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_preprocessing/cardinal_preprocessing/)
+   * {% include tool.html id="MALDIquant_preprocessing" label="MALDIquant preprocessing" %}
+   * {% include tool.html id="MALDIquant_peak_detection" label="MALDIquant peak detection" %}
+   * {% include tool.html id="cardinal_preprocessing" label="msi preprocessing" %}
  * data manipulation:
-   * [msi filtering](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_filtering/cardinal_filtering/)
-   * [msi combine](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_combine/cardinal_combine/)
-   * [msi data exporter](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_data_exporter/cardinal_data_exporter/)
+   * {% include tool.html id="cardinal_filtering" label="msi filtering" %}
+   * {% include tool.html id="cardinal_combine" label="msi combine" %}
+   * {% include tool.html id="cardinal_data exporter" label="msi data exporter" %}
  * statistical tools:
-   * [msi segmentation](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_segmentations/cardinal_segmentations/)
-   * [msi classification](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_classification/cardinal_classification/)
+   * {% include tool.html id="cardinal_segmentation" label="msi segmentation" %}
+   * {% include tool.html id="cardinal_classification" label="msi classification" %}
 
 
 # Tutorials
