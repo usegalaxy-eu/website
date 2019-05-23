@@ -46,7 +46,7 @@ We are passionate about training. So we are working in close collaboration with 
 
 To orchestrate tools and help users with their analyses, some best practice workflows are prepared and become available. The workflows can be extended using similar and alternative combinations using the workflow editor.
 
-The workflows are available in the [Shared Workflows](https://nanopore.usegalaxy.eu/workflows/list_published), with the label "***ONT***".
+The workflows are available in the [Shared Workflows](https://nanopore.usegalaxy.eu/workflows/list_published){:target="_blank"}, with the label "***ONT***".
 
 Some validated workflows:
 - Basic workflows inspired by the Nanopolish tutorials
