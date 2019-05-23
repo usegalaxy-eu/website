@@ -20,6 +20,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 Check also the standard but customizable [workflows](#workflows) available there.
 
 # Tools
+<img src="/assets/media/nanogalaxy_toolkit.png" height="400px" alt="NanoGalaxy toolkit"/>
 
 A collection of best practice and popular tools are integrated (and are expanding) in this custom Galaxy instance. The ONT-oriented and -specific subset includes:
 
