@@ -50,18 +50,18 @@ The workflows are available in the [Shared Workflows](https://nanopore.usegalaxy
 
 Some validated workflows:
 - Basic workflows inspired by the Nanopolish tutorials
-  E.g.
+  E.g. [workflow](https://nanopore.usegalaxy.eu/u/milad/w/nanopolish-variants-tutorial)
   <br/>
 <img src="/assets/media/nanogalaxy-nanopolish.png" width="300px" alt="NanoGalaxy Nanopolish"/>
 - Genome assembly:
     - Flye-based WF for highly repetitive genomes [Schmid et al. NAR 2018] 
     Shared history: https://usegalaxy.eu/u/milad/h/ahrens-nanopore-graphmap-minimap
-    <br/>
+    <br/> [workflow](https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens)
     <img src="/assets/media/nanogalaxy-ahrens.png" width="300px" alt="NanoGalaxy wf2"/>
 
     - Unicycler-based WF for Klebsiella pneumoniae (Illumina and ONT) [Wick et al.  Microbial genomics 2017]
     Shared history: https://usegalaxy.eu/u/milad/h/wick-etal
-- Metagenomics: taxa classification 
+- Metagenomics: taxa classification [workflow](https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2)
     <br/>
     <img src="/assets/media/nanogalaxy-kraken.png" width="300px" alt="NanoGalaxy wf2"/>
 
