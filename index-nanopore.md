@@ -46,22 +46,22 @@ We are passionate about training. So we are working in close collaboration with 
 
 To orchestrate tools and help users with their analyses, some best practice workflows are prepared and become available. The workflows can be extended using similar and alternative combinations using the workflow editor.
 
-The workflows are available in the [Shared Workflows](https://nanopore.usegalaxy.eu/workflows/list_published), with the label "***ONT***".
+The workflows are available in the [Shared Workflows](https://nanopore.usegalaxy.eu/workflows/list_published){:target="_blank"}, with the label "***ONT***".
 
 Some validated workflows:
 - Basic workflows inspired by the Nanopolish tutorials
-  E.g. [workflow](https://nanopore.usegalaxy.eu/u/milad/w/nanopolish-variants-tutorial)
+  E.g. [workflow](https://nanopore.usegalaxy.eu/u/milad/w/nanopolish-variants-tutorial){:target="_blank"}
   <br/>
 <img src="/assets/media/nanogalaxy-nanopolish.png" width="300px" alt="NanoGalaxy Nanopolish"/>
 - Genome assembly:
     - Flye-based WF for highly repetitive genomes [Schmid et al. NAR 2018] 
     Shared history: https://usegalaxy.eu/u/milad/h/ahrens-nanopore-graphmap-minimap
-    <br/> [workflow](https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens)
+    <br/> [workflow](https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens){:target="_blank"}
     <img src="/assets/media/nanogalaxy-ahrens.png" width="300px" alt="NanoGalaxy wf2"/>
 
     - Unicycler-based WF for Klebsiella pneumoniae (Illumina and ONT) [Wick et al.  Microbial genomics 2017]
     Shared history: https://usegalaxy.eu/u/milad/h/wick-etal
-- Metagenomics: taxa classification [workflow](https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2)
+- Metagenomics: taxa classification [workflow](https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2){:target="_blank"}
     <br/>
     <img src="/assets/media/nanogalaxy-kraken.png" width="300px" alt="NanoGalaxy wf2"/>
 
