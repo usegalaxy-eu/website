@@ -26,7 +26,7 @@ A collection of best practice and popular tools are integrated (and are expandin
 
 - **Polishing, QC and preprocessing**
     - [Nanopolish](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fnanopolish_variants%2Fnanopolish_variants%2F0.1.0){:target="_top"}, [Porechop](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fporechop%2Fporechop%2F0.2.3), [Filtlong](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ffiltlong%2Ffiltlong%2F0.2.0), [Poretools](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fporetools_qualdist%2Fporetools_qualdist%2F0.6.1a1.0)
-- **Genome assembly** 
+- **Genome assembly**
     - [Flye](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fflye%2Fflye%2F2.3.7), [Unicycler](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Funicycler%2Funicycler%2F0.4.7.0), [Wtdbg2](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fwtdbg%2Fwtdbg%2F1.2.8.1), Miniasm, [Racon](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fracon%2Fracon%2F1.3.1.1), [Canu](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fcanu%2Fcanu%2F1.7)
 - **Mapping**
     - [Minimap2](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fminimap2%2Fminimap2%2F2.17), [GraphMap](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fgraphmap_align%2Fgraphmap_align%2F0.5.2)
@@ -46,22 +46,22 @@ We are passionate about training. So we are working in close collaboration with 
 
 To orchestrate tools and help users with their analyses, some best practice workflows are prepared and become available. The workflows can be extended using similar and alternative combinations using the workflow editor.
 
-The workflows are available in the [Shared Workflows](https://nanopore.usegalaxy.eu/workflows/list_published){:target="_blank"}, with the label "***ONT***".
+The workflows are available in the [Shared Workflows](https://nanopore.usegalaxy.eu/workflows/list_published){:target="_top"}, with the label "***ONT***".
 
 Some validated workflows:
 - Basic workflows inspired by the Nanopolish tutorials
-  E.g. [workflow](https://nanopore.usegalaxy.eu/u/milad/w/nanopolish-variants-tutorial){:target="_blank"}
+  E.g. [workflow](https://nanopore.usegalaxy.eu/u/milad/w/nanopolish-variants-tutorial){:target="_top"}
   <br/>
 <img src="/assets/media/nanogalaxy-nanopolish.png" width="300px" alt="NanoGalaxy Nanopolish"/>
 - Genome assembly:
-    - Flye-based WF for highly repetitive genomes [Schmid et al. NAR 2018] 
+    - Flye-based WF for highly repetitive genomes [Schmid et al. NAR 2018]
     Shared history: https://usegalaxy.eu/u/milad/h/ahrens-nanopore-graphmap-minimap
     <br/> [workflow](https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens){:target="_blank"}
     <img src="/assets/media/nanogalaxy-ahrens.png" width="300px" alt="NanoGalaxy wf2"/>
 
     - Unicycler-based WF for Klebsiella pneumoniae (Illumina and ONT) [Wick et al.  Microbial genomics 2017]
     Shared history: https://usegalaxy.eu/u/milad/h/wick-etal
-- Metagenomics: taxa classification [workflow](https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2){:target="_blank"}
+- Metagenomics: taxa classification [workflow](https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2){:target="_top"}
     <br/>
     <img src="/assets/media/nanogalaxy-kraken.png" width="300px" alt="NanoGalaxy wf2"/>
 
