@@ -1,22 +1,15 @@
 ---
 layout: subsite-galaxy
 website: https://singlecell.usegalaxy.eu
+gitter: true
 ---
-
-<script>
-  ((window.gitter = {}).chat = {}).options = {
-    room: 'usegalaxy-eu/Lobby'
-  };
-</script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
 
 ![single cell Galaxy](/assets/media/logo_single_cell.svg){:.sc-intro-left}
 
 # Welcome to the world of Single Cell Omics
 {:.no_toc}
 
-The Single Cell Omics workbench is a comprehensive set of analysis tools and consolidated workflows. The workbench is based on the [Galaxy framework](https://galaxyproject.org){:target="_blank"}, 
+The Single Cell Omics workbench is a comprehensive set of analysis tools and consolidated workflows. The workbench is based on the [Galaxy framework](https://galaxyproject.org){:target="_blank"},
 which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
 The current implementation comprises more than 20 bioinformatics tools dedicated to different research areas of single cell biology.

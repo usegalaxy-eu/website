@@ -1,17 +1,11 @@
 ---
 layout: subsite-galaxy
 website: https://climate.usegalaxy.eu
+subdomain: climate
+gitter: true
 ---
 
-<script>
-  ((window.gitter = {}).chat = {}).options = {
-    room: 'usegalaxy-eu/Lobby'
-  };
-</script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
-
-# Welcome to the climate science community 
+# Welcome to the climate science community
 {:.no_toc}
 
 The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflows. 
