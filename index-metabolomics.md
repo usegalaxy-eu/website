@@ -113,6 +113,6 @@ Other metabolomics specialized Galaxy servers:
 - [Mark Esler](https://github.com/eslerm)
 - [Art Eschenlauer](https://github.com/eschen42)
 
-[<img src="/assets/media/GalaxyP_logo.png" width="350px" alt="GalaxyP logo"/>](https://galaxyp.org)
+[<img src="/assets/media/GalaxyP_logo.png" alt="GalaxyP logo"/>](https://galaxyp.org)
 
 --------------------------------------------------------------------
