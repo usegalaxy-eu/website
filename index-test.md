@@ -1,5 +1,5 @@
 ---
-layout: subsite-galaxy
+layout: default
 ---
 
 **Testing Server**
