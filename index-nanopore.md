@@ -25,15 +25,15 @@ Check also the standard but customizable [workflows](#workflows) available there
 A collection of best practice and popular tools are integrated (and are expanding) in this custom Galaxy instance. The ONT-oriented and -specific subset includes:
 
 - **Polishing, QC and preprocessing**
-    - [Nanopolish](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fnanopolish_variants%2Fnanopolish_variants%2F0.1.0){:target="_top"}, [Porechop](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fporechop%2Fporechop%2F0.2.3){:target="_top"},[Filtlong](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ffiltlong%2Ffiltlong%2F0.2.0){:target="_top"}, [Poretools](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fporetools_qualdist%2Fporetools_qualdist%2F0.6.1a1.0){:target="_top"}
+    - [Nanopolish](https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fnanopolish_variants%2Fnanopolish_variants%2F0.1.0){:target="_top"}, [Porechop](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fporechop%2Fporechop%2F0.2.3){:target="_top"},[Filtlong](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ffiltlong%2Ffiltlong%2F0.2.0){:target="_top"}, [Poretools](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fporetools_qualdist%2Fporetools_qualdist%2F0.6.1a1.0){:target="_top"}
 - **Genome assembly**
-    - [Flye](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fflye%2Fflye%2F2.3.7){:target="_top"}, [Unicycler](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Funicycler%2Funicycler%2F0.4.7.0){:target="_top"}, [Wtdbg2](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fwtdbg%2Fwtdbg%2F1.2.8.1){:target="_top"}, Miniasm, [Racon](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fracon%2Fracon%2F1.3.1.1){:target="_top"}, [Canu](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fcanu%2Fcanu%2F1.7){:target="_top"}
+    - [Flye](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fflye%2Fflye%2F2.3.7){:target="_top"}, [Unicycler](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Funicycler%2Funicycler%2F0.4.7.0){:target="_top"}, [Wtdbg2](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fwtdbg%2Fwtdbg%2F1.2.8.1){:target="_top"}, Miniasm, [Racon](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fracon%2Fracon%2F1.3.1.1){:target="_top"}, [Canu](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fcanu%2Fcanu%2F1.7){:target="_top"}
 - **Mapping**
-    - [Minimap2](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fminimap2%2Fminimap2%2F2.17){:target="_top"}, [GraphMap](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fgraphmap_align%2Fgraphmap_align%2F0.5.2){:target="_top"}
+    - [Minimap2](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fminimap2%2Fminimap2%2F2.17){:target="_top"}, [GraphMap](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fgraphmap_align%2Fgraphmap_align%2F0.5.2){:target="_top"}
 - **Visualisation**
-    - [Nanoplot](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fnanoplot%2Fnanoplot%2F1.13.0){:target="_top"}, [Bandage](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbandage%2Fbandage_image%2F0.8.1%2Bgalaxy0){:target="_top"}
+    - [Nanoplot](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fnanoplot%2Fnanoplot%2F1.13.0){:target="_top"}, [Bandage](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbandage%2Fbandage_image%2F0.8.1%2Bgalaxy0){:target="_top"}
 - **Taxonomy and metagenomics**
-    - [Kraken2](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fkraken2%2Fkraken2%2F2.0.8_beta%2Bgalaxy0){:target="_top"}, [PlasFlow](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fplasflow%2FPlasFlow%2F1.0){:target="_top"}, [Staramr](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fnml%2Fstaramr%2Fstaramr_search%2F0.4.0){:target="_top"}
+    - [Kraken2](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fkraken2%2Fkraken2%2F2.0.8_beta%2Bgalaxy0){:target="_top"}, [PlasFlow](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fplasflow%2FPlasFlow%2F1.0){:target="_top"}, [Staramr](https://nanopore.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fnml%2Fstaramr%2Fstaramr_search%2F0.4.0){:target="_top"}
 
 
 
@@ -55,12 +55,12 @@ Some validated workflows:
 <img src="/assets/media/nanogalaxy-nanopolish.png" width="300px" alt="NanoGalaxy Nanopolish"/>
 - Genome assembly:
     - Flye-based WF for highly repetitive genomes [Schmid et al. NAR 2018]
-    Shared history: https://usegalaxy.eu/u/milad/h/ahrens-nanopore-graphmap-minimap
+    Shared history: https://nanopore.usegalaxy.eu/u/milad/h/ahrens-nanopore-graphmap-minimap
     <br/> [workflow](https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens){:target="_blank"}
     <img src="/assets/media/nanogalaxy-ahrens.png" width="300px" alt="NanoGalaxy wf2"/>
 
     - Unicycler-based WF for Klebsiella pneumoniae (Illumina and ONT) [Wick et al.  Microbial genomics 2017]
-    Shared history: https://usegalaxy.eu/u/milad/h/wick-etal
+    Shared history: https://nanopore.usegalaxy.eu/u/milad/h/wick-etal
 - Metagenomics: taxa classification [workflow](https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2){:target="_top"}
     <br/>
     <img src="/assets/media/nanogalaxy-kraken.png" width="300px" alt="NanoGalaxy wf2"/>
