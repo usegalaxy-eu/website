@@ -1,0 +1,14 @@
+{%- assign found = false -%}
+{%- for tool in site.data.tools -%}
+	{% if tool[0] == include.id -%}
+		{%- assign found = true -%}
+		{%- if page.subdomain -%}
+			<a href="https://{{ page.subdomain }}.usegalaxy.eu/root?tool_id={{ tool[1] }}" target="_top">{{ include.id }}</a>
+		{%- else -%}
+			<a href="https://usegalaxy.eu/root?tool_id={{ tool[1] }}" target="_top">{{ include.id }}</a>
+		{%- endif -%}
+	{%- endif -%}
+{%- endfor -%}
+{%- unless found -%}
+<b>Unknown Tool</b>
+{%- endunless -%}
