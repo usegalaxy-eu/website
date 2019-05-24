@@ -1,13 +1,7 @@
 ---
 layout: subsite-galaxy
+gitter: true
 ---
-
-<script>
-  ((window.gitter = {}).chat = {}).options = {
-    room: 'usegalaxy-eu/Lobby'
-  };
-</script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
 <br/>
 
@@ -57,7 +51,7 @@ Tool | Descirption
 [xcms_fillpeaks](https://github.com/workflow4metabolomics/xcms) | [W4M][LC-MS] XCMS R Package - Preprocessing - Integrate areas of missing peaks
 [camera_annotate](https://toolshed.g2.bx.psu.edu/view/lecorguille/camera_annotate) | [W4M][LC-MS] CAMERA R Package - Annotation - Returns annotation results (isotope peaks, adducts and fragments)
 [xcms_merge](https://github.com/workflow4metabolomics/xcms) | [W4M][LC-MS] XCMS R Package - Preprocessing - Merge individual xcmsSet outputs
-[generic_filter](https://toolshed.g2.bx.psu.edu/view/melpetera/generic_filter) | [W4M][Utils] Filtering according to specific variables 
+[generic_filter](https://toolshed.g2.bx.psu.edu/view/melpetera/generic_filter) | [W4M][Utils] Filtering according to specific variables
 [xcms_summary](https://github.com/workflow4metabolomics/xcms) | [W4M][LC-MS] XCMS R Package - Preprocessing - HTML Summary for XCMS and CAMERA analysis
 [camera_combinexsannos](https://toolshed.g2.bx.psu.edu/view/mmonsoor/camera_combinexsannos) | [W4M][LC-MS] CAMERA R Package - Annotation - combinexsAnnos Check CAMERA ion species annotation due to matching with opposite ion mode
 [batchcorrection](https://github.com/workflow4metabolomics/batchcorrection.git) | [W4M][LC-MS] Correction of data intensities for signal drift and batch-effects.
@@ -68,7 +62,7 @@ Tool | Descirption
 [biosigner](https://github.com/workflow4metabolomics/biosigner.git) | [W4M][LC-MS][GC-MS][NMR] Discovery of significant signatures from omics data.
 [multivariate](https://github.com/workflow4metabolomics/multivariate.git) | [W4M][LC-MS][GC-MS][NMR] Multivariate analysis by PCA, PLS(-DA), and OPLS(-DA).
 [metams_rungc](https://github.com/workflow4metabolomics/metaMS) | [W4M][GC-MS] metaMS R Package - GC-MS data preprocessing using metaMS package
-[withinvariation](https://github.com/workflow4metabolomics) | [W4M][Statistics] mixOmics R package withinVariation function for repeated mesurement design 
+[withinvariation](https://github.com/workflow4metabolomics) | [W4M][Statistics] mixOmics R package withinVariation function for repeated mesurement design
 [nmr_preprocessing](https://toolshed.g2.bx.psu.edu/view/marie-tremblay-metatoul/nmr_preprocessing) | [W4M][NMR] NMR Preprocessing - Preprocessing (from FID to baseline correction)
 [nmr_alignment](https://github.com/workflow4metabolomics/nmr_alignment) | [W4M][NMR] NMR Alignment - Alignment of NMR spectra based on the Cluster-based Peak Alignment (CluPA) algorithm
 [nmr_bucketing](https://github.com/workflow4metabolomics/nmr_bucketing) | [W4M][NMR] NMR Bucketing - Bucketing / Binning (spectra segmentation in fixed-size windows) and integration (sum of absolute intensities inside each bucket) to preprocess NMR data
