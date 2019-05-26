@@ -15,6 +15,11 @@ The current implementation comprises more than 700 bioinformatics tools dedicate
 
 The workbench is developed by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"}. This center is one of the eight service units of the [German Network for Bioinformatics Infrastructure (de.NBI)](http://www.denbi.de){:target="_blank"}, running the German [ELIXIR Node](https://www.elixir-europe.org/){:target="_blank"}.
 
+# Cite
+{:.no_toc}
+
+If you find this resource useful, please cite [The RNA workbench 2.0: next generation RNA data analysis](https://doi.org/10.1093/nar/gkz353){:target="_blank"}.
+
 
 # Content
 {:.no_toc}
