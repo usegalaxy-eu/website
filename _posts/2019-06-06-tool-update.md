@@ -3,13 +3,13 @@ site: freiburg
 tags: [tools]
 title: UseGalaxy.eu Tool Updates for 2019-06-06
 supporters:
-- denbi
-- elixir
+  - denbi
+  - elixir
 ---
 
 # Tool Updates
 
-On 2019-06-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #??](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#??/)
+On 2019-06-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build 106](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/106/)
 
 
 ## Mothur
