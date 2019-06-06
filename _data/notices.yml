@@ -18,9 +18,17 @@
         date: 2019-05-03 11:21:04+02:00
 
 - title: Galaxy Upgrade to 19.05
-  class: info     # one of [success, info, warning, danger]
+  class: success     # one of [success, info, warning, danger]
   site: freiburg    # Your site
   messages:
+      - message: |
+          The upgrade is complete, read about [all of the awesome new features](https://docs.galaxyproject.org/en/latest/releases/19.05_announce_user.html)!
+
+          The upgrade involved some unexpected downtime due to operational
+          issues. The disk usage was high due to user uploads, and we had to
+          kill those before the upgrade could proceed. This resulted in some
+          downtime. We apoologise for any inconvenience.
+        date: 2019-06-06 13:05:24+02:00
       - message: |
           We will update Galaxy to 19.05 today. We do not expect any issues. There may be a 10-20 minute period while processes restart, that some buttons/routes do not work, but there will be no downtime.
           We have a backout plan in place should anything go wrong, but hopefully now that we have tested this upgrade in a test environment first, things will go smoothly.
