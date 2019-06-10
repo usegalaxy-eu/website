@@ -8,7 +8,7 @@ supporters:
 ---
 
 
-In the spring semester, the MOLECULAR BIOLOGY, a three-year PhD programme by the 
+In the spring semester, the Molecular Biology, a three-year PhD programme by the 
 [Faculty of Biology in Belgrade](http://bg.ac.rs/en/members/faculties/FB.php)
 offered an elective course Genomics. This year 7 students attended this course.
 
