@@ -16,7 +16,7 @@ The integration is based upon the OpenID Connect functionality in Galaxy, implem
 ![ELIXIR AAI Integration](/assets/media/elixir_aai.png)
 
 
-[User documentation](https://galaxyproject.org/authnz/use/oidc/idps/elixir-aai/) at galaxyproject.org official Galaxy documentation site.
+[User](https://galaxyproject.org/authnz/use/oidc/idps/elixir-aai/) and [Admin](https://galaxyproject.org/authnz/config/oidc/idps/elixir-aai/) documentation is available on the Galaxy Hub.
  
 If other Galaxy instances also would like to accept Elixir AAI logins, they need to register with Elixir AAI as a Service Provider and configure their Galaxy instance accordingly. Galaxy admin documentation for the setup is provided here.
 
