@@ -17,21 +17,10 @@
           [Register now](https://galaxyproject.org/events/gcc2019/registration/)!
         date: 2019-05-03 11:21:04+02:00
 
-- title: Galaxy Upgrade to 19.05
-  class: success     # one of [success, info, warning, danger]
+- title: Slow job queueing
+  class: warning # one of [success, info, warning, danger]
   site: freiburg    # Your site
   messages:
       - message: |
-          The upgrade is complete, read about [all of the awesome new features](https://docs.galaxyproject.org/en/latest/releases/19.05_announce_user.html)!
-
-          The upgrade involved some unexpected downtime due to operational
-          issues. The disk usage was high due to user uploads, and we had to
-          kill those before the upgrade could proceed. This resulted in some
-          downtime. We apoologise for any inconvenience.
-        date: 2019-06-06 13:05:24+02:00
-      - message: |
-          We will update Galaxy to 19.05 today. We do not expect any issues. There may be a 10-20 minute period while processes restart, that some buttons/routes do not work, but there will be no downtime.
-          We have a backout plan in place should anything go wrong, but hopefully now that we have tested this upgrade in a test environment first, things will go smoothly.
-
-          The upgrade will take place over lunch, 12-13 CEST
-        date: 2019-06-06 11:36:05+02:00
+          We are aware of some issues queueing jobs and are working to resolve the issue. Please be patient, and jobs will run when they can. We're sorry for the inconvenience.
+        date: 2019-06-14 15:40:18+02:00
