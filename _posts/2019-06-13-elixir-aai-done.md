@@ -9,7 +9,7 @@ supporters:
 
 As of Galaxy version 19.05 released last month, Galaxy can easily be configured to use Elixir-AAI service for authenticating users! As the first publicly available Galaxy instance, the [European Galaxy Server](https://usegalaxy.eu/) hosted by Elixir Germany is now ready to accept logins from users using their Elixir AAI identity for authentication.
 
-The Elixir AAI integration into Galaxy main source code is one of the deliverables in the Elixir Galaxy Community Implementation Study (reference/link), and was achieved through  collaboration between Elixir Norway, Elixir Germany, Elixir Finland, Elixir Czech Republic and the Galaxy core developers.
+The Elixir AAI integration into Galaxy main source code is one of the deliverables in the [Elixir Galaxy Community Implementation Study](https://elixir-europe.org/about-us/implementation-studies/galaxy), and was achieved through  collaboration between Elixir Norway, Elixir Germany, Elixir Finland, Elixir Czech Republic and the Galaxy core developers.
 
 The integration is based upon the OpenID Connect functionality in Galaxy, implemented through the Python Social Auth library. Galaxy users with a registered Elixir AAI user profile, simply login by following the “Login with Elixir” button:
 
