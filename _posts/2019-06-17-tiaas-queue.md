@@ -14,3 +14,7 @@ It shows:
 - A full listing of the queue
 
 ![Training queue visualisation](/assets/media/tiaas-queue.png)
+
+**Update**: now features a heatmap
+
+![Training queue state heatmap](/assets/media/tiaas-queue2.png)
