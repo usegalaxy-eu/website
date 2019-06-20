@@ -16,11 +16,3 @@
           Tell us about your use case, how we can improve Galaxy, present your work or attend one of the many training sessions.
           [Register now](https://galaxyproject.org/events/gcc2019/registration/)!
         date: 2019-05-03 11:21:04+02:00
-
-- title: Galaxy Upgrade to 19.05
-  class: success     # one of [success, info, warning, danger]
-  site: freiburg    # Your site
-  messages:
-      - message: |
-          The upgrade is complete, read about [all of the awesome new features](https://docs.galaxyproject.org/en/latest/releases/19.05_announce_user.html)!
-        date: 2019-06-06 13:05:24+02:00
