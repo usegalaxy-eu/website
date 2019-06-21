@@ -121,3 +121,4 @@ remSmallMol: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remsmall/openbabel
 scPipe: toolshed.g2.bx.psu.edu/repos/iuc/scpipe/scpipe/
 segmentation-fold: toolshed.g2.bx.psu.edu/repos/yhoogstrate/segmentation_fold/segmentation_fold
 tRNAscan: toolshed.g2.bx.psu.edu/repos/bgruening/trna_prediction/trnascan
+Miniasm: toolshed.g2.bx.psu.edu/repos/iuc/miniasm
