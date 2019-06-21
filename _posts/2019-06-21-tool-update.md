@@ -14,10 +14,6 @@ On 2019-06-21, the tools on UseGalaxy.eu were updated by our automated tool upda
 
 - gfa_to_fa was updated to [49d6f8ef63b3](https://toolshed.g2.bx.psu.edu/view/iuc/gfa_to_fa/49d6f8ef63b3)
 
-## Proteomics
-
-- protease_prediction was updated to [8e8c6df5cc64](https://toolshed.g2.bx.psu.edu/view/bgruening/protease_prediction/8e8c6df5cc64)
-
 ## GIS Data Handling
 
 - gdal_gdal_merge was updated to [4285576f0690](https://toolshed.g2.bx.psu.edu/view/ecology/gdal_gdal_merge/4285576f0690)
@@ -36,10 +32,6 @@ On 2019-06-21, the tools on UseGalaxy.eu were updated by our automated tool upda
 ## Graph/Display Data
 
 - nanoplot was updated to [acd337269171](https://toolshed.g2.bx.psu.edu/view/iuc/nanoplot/acd337269171)
-
-## Metabolomics
-
-- transformation was updated to [d9e05021553c](https://toolshed.g2.bx.psu.edu/view/ethevenot/transformation/d9e05021553c)
 
 ## Species abundance
 
