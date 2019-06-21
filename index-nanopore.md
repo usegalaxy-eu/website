@@ -26,15 +26,15 @@ Check also the standard but customizable [workflows](#workflows) available there
 A collection of best practice and popular tools are integrated (and are expanding) in this custom Galaxy instance. The ONT-oriented and -specific subset includes:
 
 - **Polishing, QC and preprocessing**
-    - {% include tool.html id="Nanopolish" %}, {% include tool.html id="Porechop" %}, {% include tool.html id="Filtlong" %},  {% include tool.html id="Poretools" %}
+    - {% include tool.html id="Porechop" %}, {% include tool.html id="Filtlong" %}, {% include tool.html id="Nanopolish" %},  {% include tool.html id="Poretools" %}
 - **Genome assembly**
-    - {% include tool.html id="Flye" %},  {% include tool.html id="Unicycler" %},  {% include tool.html id="Wtdbg2" %},  Miniasm,  {% include tool.html id="Racon" %},  {% include tool.html id="Canu" %}
+    - {% include tool.html id="Minimap2" %}, {% include tool.html id="Miniasm" %}, {% include tool.html id="Racon" %}, {% include tool.html id="Racon" %}, {% include tool.html id="Flye" %}, {% include tool.html id="Unicycler" %}, {% include tool.html id="Wtdbg2" %}, {% include tool.html id="Canu" %}
 - **Mapping**
     - {% include tool.html id="Minimap2" %},  {% include tool.html id="GraphMap" %}
 - **Visualisation**
     - {% include tool.html id="Nanoplot" %},  {% include tool.html id="Bandage" %}
 - **Taxonomy and metagenomics**
-    - {% include tool.html id="Kraken2" %},  {% include tool.html id="PlasFlow" %},  {% include tool.html id="Staramr" %}
+    - {% include tool.html id="PlasFlow" %},  {% include tool.html id="Staramr" %},  {% include tool.html id="Kraken2" %}
 
 
 
