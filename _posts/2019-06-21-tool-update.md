@@ -31,7 +31,7 @@ On 2019-06-21, the tools on UseGalaxy.eu were updated by our automated tool upda
 
 ## Graph/Display Data
 
-- nanoplot was updated to [acd337269171](https://toolshed.g2.bx.psu.edu/view/iuc/nanoplot/acd337269171)
+- nanoplot was updated to [645159bcee2d](https://toolshed.g2.bx.psu.edu/view/iuc/nanoplot/645159bcee2d)
 
 ## Species abundance
 
