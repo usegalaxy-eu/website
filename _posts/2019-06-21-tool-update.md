@@ -28,6 +28,13 @@ On 2019-06-21, the tools on UseGalaxy.eu were updated by our automated tool upda
 ## Nanopore
 
 - miniasm was updated to [8b6d0d85252b](https://toolshed.g2.bx.psu.edu/view/iuc/miniasm/8b6d0d85252b)
+- nanopolish_eventalign was updated to [d219b6d8158a](https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_eventalign/d219b6d8158a)
+- nanopolish_methylation was updated to [a8d4be409446](https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_methylation/a8d4be409446)
+- nanopolish_polya was updated to [449e9aeded2d](https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_polya/449e9aeded2d)
+- nanopolish_polya was updated to [7739a9b0dd83](https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_polya/7739a9b0dd83)
+- nanopolish_variants was updated to [de5b3d8f5b90](https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_variants/de5b3d8f5b90)
+
+
 
 ## Graph/Display Data
 
