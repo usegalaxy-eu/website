@@ -17,6 +17,9 @@ You provide the training, we provide the infrastructure <i>at no cost</i>.
 - No Galaxy Maintenance
 - No Galaxy Administration
 - Official [Galaxy Training Materials](https://training.galaxyproject.org) are guaranteed to work and [regularly tested](https://github.com/usegalaxy-eu/workflow-testing/)
+- See how your students are progressing with [our dashboard](/posts/2019/06/17/tiaas-queue/):
+
+  ![tiaas queue visualizer](/assets/media/tiaas-queue.png)
 
 ## How TIaaS Works
 
