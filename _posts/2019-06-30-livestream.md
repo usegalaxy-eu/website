@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [release]
+tags: [release, talk, video]
 title: GCC2019 will be livestreamed
 author: erasche
 ---
