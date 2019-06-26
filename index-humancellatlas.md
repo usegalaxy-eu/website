@@ -64,7 +64,7 @@ Tool | Description | Reference
 Tool | Description | Reference
 --- | --- | ---
 {% include tool.html id="FastQC" %} | A quality control tool for high throughput sequence data | -
-{% include tool.html id="Trim Galore" label="Trim Galore!" %} | Automatic quality and adapter trimming as well as quality control | -
+{% include tool.html id="TrimGalore" label="Trim Galore!" %} | Automatic quality and adapter trimming as well as quality control | -
 {: .table.table-striped .tooltable}
 
 ### RNA-Seq
