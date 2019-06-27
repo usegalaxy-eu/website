@@ -1,7 +1,7 @@
 ---
 site: freiburg
 tags: [devops, release]
-title: Tool Recommendation: What do I do next?
+title: "Tool Recommendation: What do I do next?"
 location: Galaxy Europe
 author: erasche
 ---
