@@ -94,6 +94,14 @@ fasta_to_gspan: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_fasta_to_gspan/g
 fastp: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/
 featureCounts: toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts
 featureCounts: toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts
+gdal_gdalinfo: toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdalinfo/gdal_gdalinfo
+gdal_gdaladdo: toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdaladdo/gdal_gdaladdo
+gdal_gdalbuildvrt: toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdalbuildvrt/gdal_gdalbuildvrt
+gdal_gdal_merge: toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdal_merge/gdal_gdal_merge
+gdal_gdal_translate: toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdal_translate/gdal_gdal_translate
+gdal_gdalwarp: toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdalwarp/gdal_gdalwarp
+gdal_ogr2ogr: toolshed.g2.bx.psu.edu/repos/ecology/gdal_ogr2ogr/gdal_ogr2ogr
+gdal_ogrinfo: toolshed.g2.bx.psu.edu/repos/ecology/gdal_ogrinfo/gdal_ogrinfo
 genProp: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_genprop/openbabel_genProp/
 gmxEM: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/
 gmxMD: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_md/gmx_md/
