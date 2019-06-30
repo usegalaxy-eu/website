@@ -6,6 +6,9 @@ gitter: true
 ---
 
 # Welcome to the climate science community
+
+<img src="/assets/media/Galaxy-climate-logo.png" height="100px" alt="Galaxy Climate"/>
+
 {:.no_toc}
 
 The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflows.
