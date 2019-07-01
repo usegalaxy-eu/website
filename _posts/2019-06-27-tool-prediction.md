@@ -14,7 +14,7 @@ workflow you built for your project.
 
 UseGalaxy.eu's users have faced this issue many times before and together we
 developed something to maybe give you a push in the right direction: **offering
-you a list of tools you could run next.**
+you a list of tools you could run next.** A big thank you to our [Anup Kumar](/people/#anuprulez) who implemented this feature!
 
 !["A list of tools that you can run next in a workflow"](/assets/media/tool-prediction.gif)
 
@@ -28,5 +28,3 @@ suggestions to you.
 
 We will soon integrate the recommendations after tool execution as well. Check
 it out in the workflow editor today!
-
-A big thank you to our [Anup Kumar](/people/#anuprulez) who implemented this feature!
