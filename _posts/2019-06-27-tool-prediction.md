@@ -26,5 +26,4 @@ suggestions to you.
 
 !["A set of suggestions after interactive usage"](/assets/media/tool-prediction.png)
 
-We will soon integrate the recommendations after tool execution as well. Check
-it out in the workflow editor today!
+Check it out today!
