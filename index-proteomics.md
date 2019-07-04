@@ -1,6 +1,6 @@
 ---
 layout: subsite-galaxy
-gitter: true
+gitter: usegalaxy-eu/Lobby
 ---
 
 <br/>

@@ -2,7 +2,7 @@
 layout: subsite-galaxy
 website: https://climate.usegalaxy.eu
 subdomain: climate
-gitter: true
+gitter: usegalaxy-eu/Lobby
 ---
 
 # Welcome to the climate science community
@@ -66,13 +66,13 @@ Tool | Description | Reference
 
 # Acknowledgments
 
-The authors would like to thank Bérénice Batut,  Björn Grüning, Anup Kumar and @galaxyproject 
+The authors would like to thank Bérénice Batut,  Björn Grüning, Anup Kumar and @galaxyproject
 
 # Citation
 
 Please add the following when using the [climate.usegalaxy.eu](https://climate.usegalaxy.eu) Galaxy portal:
 
-*The Galaxy server that was used for some calculations is in part funded by Collaborative Research Centre 992 Medical Epigenetics (DFG grant SFB 992/1 2012) and 
+*The Galaxy server that was used for some calculations is in part funded by Collaborative Research Centre 992 Medical Epigenetics (DFG grant SFB 992/1 2012) and
 German Federal Ministry of Education and Research (BMBF grants 031 A538A/A538C RBC, 031L0101B/031L0101C de.NBI-epi, 031L0106 de.STAIR (de.NBI)).*
 
 More information on [how to cite Galaxy](https://galaxyproject.org/citing-galaxy/).
