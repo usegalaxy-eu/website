@@ -9,12 +9,21 @@ subdomain: humancellatlas
 
 ![Human Cell Atlas](/assets/media/hca.png)
 
-Text ... the [EMBL-EBI](https://www.ebi.ac.uk){:target="_blank"}, [EMBL](https://gbcs.embl.de){:target="_blank"}
+The Human Cell Atlas Galaxy setup comprises analysis tools and workflows for the analysis of Single Cell data (human or not not human). The instance is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
-# Cite
-{:.no_toc}
+This setup aims to give users access to as much granularity as possible in terms
+of the downstream tertiary analysis steps provided by the major software for
+single cell data analysis: Scanpy, SC3, Scater and Seurat. For each these tools,
+this Galaxy instance has decomposed modules for each the main functionalities:
+ingestion from 10x/loom, filtering (by cells or genes), scaling, normalisation,
+clustering, marker genes, and dimensionality reduction, among others. In the short
+term we expect to have interoperability between these tools through the Loom exchange format.
+Additionally, we provide specialised viewers for single cell clustering data:
+UCSC CellBrowser (currently active) and cellxgene (coming up soon).
 
-If you find this resource useful, please cite [some citation](https://doi.org/10.1093/nar/gkz353){:target="_blank"}.
+Tools available under HCA-Single Cell section on the left where mainly brought to Galaxy by
+the [Gene Expression Team](https://www.ebi.ac.uk/about/people/irene-papatheodorou){:target="_blank"}
+at [EMBL-EBI](https://www.ebi.ac.uk){:target="_blank"} and the [Teichmann Team](https://www.sanger.ac.uk/science/groups/teichmann-group){:target="_blank"} at the [Sanger Centre](https://www.sanger.ac.uk/){:target="_blank"}.
 
 
 # Content
@@ -32,7 +41,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 In this section we list all tools that have been integrated in the RNA workbench. The list is likely to grow as soon as further tools and workflows are contributed. To ease readability, we divided them into categories.
 
-## RNA structure prediction and analysis
+## Single Cell Galaxy Tools developed for the Human Cell Atlas
 
 Tool | Description | Reference
 --- | --- | ---
@@ -105,3 +114,8 @@ deepTools | Tools for exploring deep-sequencing data | [Ramirez et al. 2014](htt
 - [Pablo Moreno](https://github.com/pcm32)
 - [Ni Huang](https://github.com/nh3)
 - [Jonathan Manning](https://github.com/pinin4fjords)
+- [Carlos Talavera-Lopez]()
+- [Suhaib Mohammed]()
+- [Björn Gruening]()
+- [Krzysztof Polanski]()
+- [Maria Doyle]()
