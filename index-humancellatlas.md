@@ -9,7 +9,7 @@ subdomain: humancellatlas
 
 ![Human Cell Atlas](/assets/media/hca.png)
 
-The Human Cell Atlas Galaxy setup comprises of analysis tools and workflows for the analysis of Single Cell RNA-Seq data. In includes a module that connects to the Matrix Service API of the HCA's Data Coordination Platform that enables retrieval of gene expression matrices from any data sets in the Human Cell Atlas. The instance is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
+The [Human Cell Atlas](https://www.humancellatlas.org){:target="_blank"} Galaxy setup comprises of analysis tools and workflows for the analysis of Single Cell RNA-Seq data. It includes a module that connects to the Matrix Service API of the HCA's Data Coordination Platform that enables retrieval of gene expression matrices from any data sets in the Human Cell Atlas. The instance is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
 This setup aims to give users access to as much granularity as possible in terms
 of the downstream analysis steps provided by the major software for
