@@ -9,11 +9,11 @@ subdomain: humancellatlas
 
 ![Human Cell Atlas](/assets/media/hca.png)
 
-The Human Cell Atlas Galaxy setup comprises analysis tools and workflows for the analysis of Single Cell data (human or not not human). The instance is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
+The Human Cell Atlas Galaxy setup comprises of analysis tools and workflows for the analysis of Single Cell RNA-Seq data. In includes a module that connects to the Matrix Service API of the HCA's Data Coordination Platform that enables retrieval of gene expression matrices from any data sets in the Human Cell Atlas. The instance is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
 This setup aims to give users access to as much granularity as possible in terms
-of the downstream tertiary analysis steps provided by the major software for
-single cell data analysis: Scanpy, SC3, Scater and Seurat. For each these tools,
+of the downstream analysis steps provided by the major software for
+single cell data analysis: Scanpy, SC3, Scater and Seurat. For each of these tools,
 this Galaxy instance has decomposed modules for each the main functionalities:
 ingestion from 10x/loom, filtering (by cells or genes), scaling, normalisation,
 clustering, marker genes, and dimensionality reduction, among others. In the short
@@ -23,7 +23,7 @@ UCSC CellBrowser (currently active) and cellxgene (coming up soon).
 
 Tools available under HCA-Single Cell section on the left where mainly brought to Galaxy by
 the [Gene Expression Team](https://www.ebi.ac.uk/about/people/irene-papatheodorou){:target="_blank"}
-at [EMBL-EBI](https://www.ebi.ac.uk){:target="_blank"} and the [Teichmann Team](https://www.sanger.ac.uk/science/groups/teichmann-group){:target="_blank"} at the [Sanger Centre](https://www.sanger.ac.uk/){:target="_blank"}.
+at [EMBL-EBI](https://www.ebi.ac.uk){:target="_blank"} and the [Teichmann Team](https://www.sanger.ac.uk/science/groups/teichmann-group){:target="_blank"} at the [Wellcome Sanger Institute](https://www.sanger.ac.uk/){:target="_blank"}.
 
 
 # Content
