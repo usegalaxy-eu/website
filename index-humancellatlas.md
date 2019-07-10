@@ -43,16 +43,12 @@ In this section we list all tools that have been integrated in the RNA workbench
 
 ## Single Cell Galaxy Tools developed for the Human Cell Atlas
 
+### Data retrieval from Single Cell data Repositories
+
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="antaRNA" %} | Possibility of inverse RNA structure folding and a specification of a GC value constraint | [Kleinkauf et al. 2015](https://doi.org/10.1093/bioinformatics/btv319){:target="_blank"}
-{% include tool.html id="CoFold" %} | A thermodynamics-based RNA secondary structure folding algorithm | [Proctor and Meyer, 2015](https://doi.org/10.1093/nar/gkt174){:target="_blank"}
-{% include tool.html id="Kinwalker" %} | Algorithm for cotranscriptional folding of RNAs to obtain the min. free energy structure | [Geis et al. 2008](https://doi.org/10.1016/j.jmb.2008.02.064){:target="_blank"}
-{% include tool.html id="MEA" %} | Prediction of maximum expected accuracy RNA secondary structures | [Amman et al. 2013](https://doi.org/10.1007/978-3-319-02624-4_1){:target="_blank"}
-{% include tool.html id="RNAshapes" %} | Structures to a tree-like domain of shapes, retaining adjacency and nesting of structural features | [Janssen and Giergerich, 2014](https://doi.org/10.1093/bioinformatics/btu649){:target="_blank"}
-{% include tool.html id="RNAz" %} | Predicts structurally conserved and therm. stable RNA secondary structures in mult. seq. alignments | [Washietl et al. 2005](https://doi.org/10.1073/pnas.0409169102){:target="_blank"}
-{% include tool.html id="segmentation-fold" %}| An application that predicts RNA 2D-structure with an extended version of the Zuker algorithm | -
-ViennaRNA | A tool compilation for prediction and comparison of RNA secondary structures | [Lorenz et al. 2011](https://doi.org/10.1186/1748-7188-6-26){:target="_blank"}
+{% include tool.html id="hca_matrix_downloader" %} | Human Cell Atlas Matrix Downloader retrieves expression matrices and metadata from the Human Cell Atlas. | [CIT_hca_CIT](LINK_hca_LINK){:target="_blank"}
+{% include tool.html id="retrieve_scxa" %} | EBI SCXA Data Retrieval downloads expression matrices and metadata from the EBI Single Cell Expression Atlas (SCXA) | [CIT_scxa_CIT](LINK_scxa_LINK){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 ## RNA alignment
