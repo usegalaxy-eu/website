@@ -36,6 +36,13 @@ at [EMBL-EBI](https://www.ebi.ac.uk){:target="_blank"} and the [Teichmann Team](
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
+# Available Workflows
+
+Workflow | Description
+--- | ---
+[Human Cell Atlas - Scanpy - CellBrowser](https://humancellatlas.usegalaxy.eu/u/pmoreno/w/humancellatlas-scanpy-cellbrowser){:target="_blank"} | Retrieve data from the Human Cell Atlas matrix service, analysis with Scanpy and visualisation with UCSC CellBrowser
+[EBI Single Cell Expression Atlas - Scanpy - CellBrowser](https://humancellatlas.usegalaxy.eu/u/pmoreno/w/atlas-scanpy-cellbrowser-imported-from-uploaded-file){:target="_blank"} | Retrieve expression matrices from Single Cell Expression Atlas, analysis with Scanpy and visualisation with UCSC CellBrowser
+[EBI Single Cell Expression Atlas Scanpy Prod 1.3](https://humancellatlas.usegalaxy.eu/u/pmoreno/w/scanpy-prod-13-smart-imported-from-uploaded-file){:target="_blank"} | Workflow used for clustering data in the [release 6](https://www.ebi.ac.uk/gxa/sc/release-notes.html){:target="_blank"} of [Single Cell Expression Atlas](https://www.ebi.ac.uk/gxa/sc/home){:target="_blank"}
 
 # Available tools
 
