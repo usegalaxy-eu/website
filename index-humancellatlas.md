@@ -72,6 +72,27 @@ Tool | Description | Reference
 {% include tool.html id="scanpy_run_tsne" %} | Scanpy RunTSNE visualise cell clusters using tSNE | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
 {% include tool.html id="scanpy_run_umap" %} | Scanpy RunUMAP visualise cell clusters using UMAP | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
 {: .table.table-striped .tooltable}
+
+### Seurat
+
+Granular tools for accessing the main Seurat functionalities. These tools received contributions from Maria Doyle [@mblue9](https://github.com/mblue9).
+
+Tool | Description | Reference
+--- | --- | ---
+{% include tool.html id="seurat_read10x" %} | Seurat Read10x Loads 10x data into a serialized seurat R object | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_create_seurat_object" %} | Seurat CreateSeuratObject create a Seurat object | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_filter_cells" %} | Seurat FilterCells filter cells in a Seurat object | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_normalise_data" %} | Seurat NormaliseData normalise data | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_find_variable_genes" %} | Seurat FindVariableGenes identify variable genes | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_scale_data" %} | Seurat ScaleData scale and center genes | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_run_pca" %} | Seurat RunPCA run a PCA dimensionality reduction | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_find_clusters" %} | Seurat FindClusters find clusters of cells | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_find_markers" %} | Seurat FindMarkers find markers (differentially expressed genes) | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_dim_plot" %} | Seurat Plot dimension reduction graphs the output of a dimensional reduction technique (PCA by default). Cells are colored by their identity class. | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_run_tsne" %} | Seurat RunTSNE run t-SNE dimensionality reduction | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_export_cellbrowser" %} | Seurat Export2CellBrowser produces files for UCSC CellBrowser import. | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{: .table.table-striped .tooltable}
+
 ## RNA alignment
 
 Tool | Description | Reference
