@@ -60,6 +60,13 @@ Tool | Description | Reference
 
 10x files produced by these tools can be consumed by 10x reader modules in the tools below.
 
+### Visualisation
+
+Tool | Description | Reference
+--- | --- | ---
+{% include tool.html id="ucsc_cell_browser" %} | UCSC Cell Browser displays single-cell clusterized data in an interactive web application. | [CIT_ucsc_CIT](LINK_ucsc_LINK){:target="_blank"}
+
+
 ### Scanpy
 
 Granular tools for accessing the main Scanpy functionalities.
