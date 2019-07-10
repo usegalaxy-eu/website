@@ -1,7 +1,7 @@
 ---
 layout: subsite-galaxy
 website: https://singlecell.usegalaxy.eu
-gitter: true
+gitter: usegalaxy-eu/Lobby
 subdomain: singlecell
 ---
 

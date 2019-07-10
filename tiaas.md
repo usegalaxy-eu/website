@@ -3,6 +3,11 @@ layout: home
 title: Training Infrastructure as a Service
 ---
 
+<div class="alert alert-success" style="margin-top: 0.5em">
+<h4>TIaaS Presentation at GCC</h4>
+We presented <a href="https://gcc2019.sched.com/event/Rsld/training-infrastructure-as-a-service" target="_blank">TIaaS at GCC2019</a>, you can see our slides on the event page. We've also produced some <a href="https://training.galaxyproject.org/training-material/topics/instructors/tutorials/setup-tiaas-for-training/tutorial.html" target="_blank">training material</a> on the process of evaluating if the service is right for you, and the user experience for your trainees.
+</div>
+
 # Training Infrastructure as a Service
 
 <img src="/assets/media/tiaas-logo.png" alt="tiaas logo depicting people in queues" width="300em" style="margin: 1em">
