@@ -149,7 +149,7 @@ Tool | Description | Reference
 - [Jonathan Manning](https://github.com/pinin4fjords)
 - [Carlos Talavera-Lopez](https://github.com/cartal)
 - [Suhaib Mohammed](https://github.com/suhaibMo)
-- [Irene Papatheodorou](https://github.com/irene-papatheodorou)
+- [Irene Papatheodorou](https://twitter.com/irenepapatheodo)
 - [Björn Gruening](https://github.com/bgruening/)
 - [Krzysztof Polanski](https://github.com/ktpolanski)
 - [Maria Doyle](https://github.com/mblue9/)
