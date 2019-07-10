@@ -107,28 +107,20 @@ Tool | Description | Reference
 {% include tool.html id="seurat_export_cellbrowser" %} | Seurat Export2CellBrowser produces files for UCSC CellBrowser import. | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
 {: .table.table-striped .tooltable}
 
-## RNA alignment
+### Scater
+
+Granular tools for accessing the main Scater functionalities. Normally used in combination with SC3.
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="Compalignp" %} | An RNA counterpart of the protein specific "Benchmark Alignment Database" | [Wilm et al. 2006](https://doi.org/10.1186/1748-7188-1-19){:target="_blank"}
-{% include tool.html id="LocARNA" %} | A tool for multiple alignment of RNA molecules | [Will et al. 2012](https://doi.org/10.1261/rna.029041.111){:target="_blank"}
-{% include tool.html id="MAFFT" %} | A multiple sequence alignment program for unix-like operating systems | [Katoh and Standley, 2016](https://doi.org/10.1093/bioinformatics/btw108){:target="_blank"}
-{% include tool.html id="RNAlien" %} | A tool for RNA family model construction | [Eggenhofer et al. 2016](https://doi.org/10.1093/nar/gkw558){:target="_blank"}
-{% include tool.html id="CMV" %} | RNA family model visualisation | [Eggenhofer et al. 2018](https://doi.org/10.1093/bioinformatics/bty158){:target="_blank"}
+{% include tool.html id="scater_read_10x_results" %} | Scater read 10x data Loads 10x data into a serialized scater R object | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
+{% include tool.html id="scater_calculate_qc_metrics" %} | Scater CalculateQcMetrics based on expression values and experiment information | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
+{% include tool.html id="scater_filter" %} | Scater Filter cells and genes based on pre-calculated stats and QC metrics | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
+{% include tool.html id="scater_is_outlier" %} | Scater DetectOutlier cells based on expression metrics | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
+{% include tool.html id="scater_calculate_cpm" %} | Scater CalculateCPM from raw counts | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
+{% include tool.html id="scater_normalize" %} | Scater Normalise expression values by library size in log2 scale | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
 {: .table.table-striped .tooltable}
 
-## RNA Seq and HTS analysis
-
-### Preprocessing
-
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="FastQC" %} | A quality control tool for high throughput sequence data | -
-{% include tool.html id="TrimGalore" label="Trim Galore!" %} | Automatic quality and adapter trimming as well as quality control | -
-{: .table.table-striped .tooltable}
-
-### RNA-Seq
 
 Tool | Description | Reference
 --- | --- | ---
