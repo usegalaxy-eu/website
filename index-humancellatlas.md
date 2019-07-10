@@ -21,7 +21,7 @@ term we expect to have interoperability between these tools through the Loom exc
 Additionally, we provide specialised viewers for single cell clustering data:
 UCSC CellBrowser (currently active) and cellxgene (coming up soon).
 
-Tools available under HCA-Single Cell section on the left where mainly brought to Galaxy by
+Tools available under HCA-Single Cell section were mainly brought to Galaxy by
 the [Gene Expression Team](https://www.ebi.ac.uk/about/people/irene-papatheodorou){:target="_blank"}
 at [EMBL-EBI](https://www.ebi.ac.uk){:target="_blank"} and the [Teichmann Team](https://www.sanger.ac.uk/science/groups/teichmann-group){:target="_blank"} at the [Wellcome Sanger Institute](https://www.sanger.ac.uk/){:target="_blank"}.
 
