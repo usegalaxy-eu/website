@@ -121,36 +121,23 @@ Tool | Description | Reference
 {% include tool.html id="scater_normalize" %} | Scater Normalise expression values by library size in log2 scale | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
 {: .table.table-striped .tooltable}
 
+### SC3
 
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="BlockClust" %} | Small non-coding RNA clustering from deep sequencing read profiles | [Videm et al. 2014](https://doi.org/10.1093/bioinformatics/btu270){:target="_blank"}
-{% include tool.html id="FlaiMapper" %} | A tool for computational annotation of small ncRNA-derived fragments using RNA-seq data | [Hoogstrate et al. 2015](https://doi.org/10.1093/bioinformatics/btu696){:target="_blank"}
-{% include tool.html id="MiRDeep2" %} | Discovers microRNA genes by analyzing sequenced RNAs | [Friedländer et al. 2008](https://doi.org/10.1038/nbt1394){:target="_blank"}
-{% include tool.html id="NASTIseq" %} | A method that incorporates the inherent variable efficiency of generating perfectly strand-specific libraries | [Li et al. 2013](https://doi.org/10.1101/gr.149310.112){:target="_blank"}
-{% include tool.html id="PIPmiR" %} | An algorithm to identify novel plant miRNA genes from a combination of deep sequencing data and genomic features | [Breakfield et al. 2011](https://doi.org/10.1101/gr.123547.111){:target="_blank"}
-{% include tool.html id="SortMeRNA" %} | A tool for filtering, mapping and OTU-picking NGS reads in metatranscriptomic and -genomic data | [Kopylova et al. 2011](https://doi.org/10.1093/bioinformatics/bts611){:target="_blank"}
+Granular tools for accessing the main SC3 functionalities. Normally used in combination with Scater.
+
+{% include tool.html id="sc3_prepare" %} | SC3 Prepare a sc3 SingleCellExperiment object | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
+{% include tool.html id="sc3_calc_consens" %} | SC3 Calculate Consensus from multiple runs of k-means clustering | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
+{% include tool.html id="sc3_calc_transfs" %} | SC3 Calculate Transformations of distances using PCA and graph Laplacian | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
+{% include tool.html id="sc3_calc_biology" %} | SC3 DiffExp calculates DE genes, marker genes and cell outliers | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
+{% include tool.html id="sc3_estimate_k" %} | SC3 Estimate the number of clusters for k-means clustering | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
+{% include tool.html id="sc3_calc_dists" %} | SC3 Calculate Distances between cells | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
+{% include tool.html id="sc3_kmeans" %} | SC3 K-Means perform k-means clustering | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
 {: .table.table-striped .tooltable}
 
-### Read Mapping
 
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="HISAT2" %} | Hierarchical indexing for spliced alignment of transcripts | [Pertea et al. 2016](https://doi.org/10.1038/nprot.2016.095){:target="_blank"}
-{% include tool.html id="RNA STAR" %} | Rapid spliced aligner for RNA-seq data | [Dobin et al. 2013](https://academic.oup.com/bioinformatics/article/29/1/15/272537/STAR-ultrafast-universal-RNA-seq-aligner){:target="_blank"}
-{% include tool.html id="STAR-fusion" %} | Fast fusion gene finder | [Haas et al. 2017](https://www.biorxiv.org/content/early/2017/03/24/120295){:target="_blank"}
-{% include tool.html id="Bowtie2" %} | Fast and sensitive read alignment | [Langmead et al. 2012](https://doi.org/10.1038/nmeth.1923){:target="_blank"}
-{% include tool.html id="BWA" %} | Software package for mapping low-divergent sequences against a large reference genome | [Li and Durbin 2009](https://doi.org/10.1093/bioinformatics/btp324){:target="_blank"}, [Li and Durbin 2010](https://doi.org/10.1093/bioinformatics/btp698){:target="_blank"}
-{: .table.table-striped .tooltable}
 
-### Utilities
 
-Tool | Description | Reference
---- | --- | ---
-SAMtools | Utilities for manipulating alignments in the SAM format | [Heng et al. 2009](https://doi.org/10.1093/bioinformatics/btp352){:target="_blank"}
-BEDTools | Utilities for genome arithmetic | [Quinlan and Hall 2010](https://doi.org/10.1093/bioinformatics/btq033){:target="_blank"}
-deepTools | Tools for exploring deep-sequencing data | [Ramirez et al. 2014](https://doi.org/10.1093/nar/gku365){:target="_blank"}, [Ramirez et al. 2016](https://doi.org/10.1093/nar/gkw257){:target="_blank"}
-{: .table.table-striped .tooltable}
+...plus all the great tools normally available at the [usegalaxy.eu](https://usegalaxy.eu/).
 
 
 # Contributors
