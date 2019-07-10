@@ -54,8 +54,8 @@ In this section we list all tools that have been integrated in the RNA workbench
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="hca_matrix_downloader" %} | Human Cell Atlas Matrix Downloader retrieves expression matrices and metadata from the Human Cell Atlas. | [CIT_hca_CIT](LINK_hca_LINK){:target="_blank"}
-{% include tool.html id="retrieve_scxa" %} | EBI SCXA Data Retrieval downloads expression matrices and metadata from the EBI Single Cell Expression Atlas (SCXA) | [CIT_scxa_CIT](LINK_scxa_LINK){:target="_blank"}
+{% include tool.html id="hca_matrix_downloader" %} | Human Cell Atlas Matrix Downloader retrieves expression matrices and metadata from the Human Cell Atlas. | [Regev et al. 2018](https://arxiv.org/abs/1810.05192){:target="_blank"}
+{% include tool.html id="retrieve_scxa" %} | EBI SCXA Data Retrieval downloads expression matrices and metadata from the EBI Single Cell Expression Atlas (SCXA) | [Papatheodorou et al. 2018](https://doi.org/10.1093/nar/gkx1158){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 10x files produced by these tools can be consumed by 10x reader modules in the tools below.
