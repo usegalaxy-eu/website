@@ -51,6 +51,27 @@ Tool | Description | Reference
 {% include tool.html id="retrieve_scxa" %} | EBI SCXA Data Retrieval downloads expression matrices and metadata from the EBI Single Cell Expression Atlas (SCXA) | [CIT_scxa_CIT](LINK_scxa_LINK){:target="_blank"}
 {: .table.table-striped .tooltable}
 
+10x files produced by these tools can be consumed by 10x reader modules in the tools below.
+
+### Scanpy
+
+Granular tools for accessing the main Scanpy functionalities.
+
+Tool | Description | Reference
+--- | --- | ---
+{% include tool.html id="scanpy_read_10x" %} | Scanpy Read10x into hdf5 object handled by scanpy | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_filter_genes" %} | Scanpy FilterGenes based on counts and numbers of cells expressed | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_filter_cells" %} | Scanpy FilterCells based on counts and numbers of genes expressed | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_normalise_data" %} | Scanpy NormaliseData to make all cells having the same total expression | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_find_variable_genes" %} | Scanpy FindVariableGenes based on normalised dispersion of expression | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_scale_data" %} | Scanpy ScaleData to make expression variance the same for all genes | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_run_pca" %} | Scanpy RunPCA for dimensionality reduction | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_compute_graph" %} | Scanpy ComputeGraph to derive kNN graph | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_find_cluster" %} | Scanpy FindCluster based on community detection on KNN graph | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_find_markers" %} | Scanpy FindMarkers to find differentially expressed genes between groups | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_run_tsne" %} | Scanpy RunTSNE visualise cell clusters using tSNE | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_run_umap" %} | Scanpy RunUMAP visualise cell clusters using UMAP | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{: .table.table-striped .tooltable}
 ## RNA alignment
 
 Tool | Description | Reference
