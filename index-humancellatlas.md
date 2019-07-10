@@ -125,6 +125,8 @@ Tool | Description | Reference
 
 Granular tools for accessing the main SC3 functionalities. Normally used in combination with Scater.
 
+Tool | Description | Reference
+--- | --- | ---
 {% include tool.html id="sc3_prepare" %} | SC3 Prepare a sc3 SingleCellExperiment object | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
 {% include tool.html id="sc3_calc_consens" %} | SC3 Calculate Consensus from multiple runs of k-means clustering | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
 {% include tool.html id="sc3_calc_transfs" %} | SC3 Calculate Transformations of distances using PCA and graph Laplacian | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
