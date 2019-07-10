@@ -66,7 +66,7 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="UCSC Cell Browser" %} | UCSC Cell Browser displays single-cell clusterized data in an interactive web application. | [cells.ucsc.edu](https://cells.ucsc.edu/){:target="_blank"}
+{% include tool.html id="ucsc_cell_browser" %} | UCSC Cell Browser displays single-cell clusterized data in an interactive web application. | [cells.ucsc.edu](https://cells.ucsc.edu/){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 
@@ -78,18 +78,18 @@ Granular tools for accessing the main Scanpy functionalities.
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="Scanpy Read10x" %} | Scanpy Read10x into hdf5 object handled by scanpy | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
-{% include tool.html id="Scanpy FilterGenes" %} | Scanpy FilterGenes based on counts and numbers of cells expressed | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
-{% include tool.html id="Scanpy FilterCells" %} | Scanpy FilterCells based on counts and numbers of genes expressed | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
-{% include tool.html id="Scanpy NormaliseData" %} | Scanpy NormaliseData to make all cells having the same total expression | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
-{% include tool.html id="Scanpy FindVariableGenes" %} | Scanpy FindVariableGenes based on normalised dispersion of expression | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
-{% include tool.html id="Scanpy ScaleData" %} | Scanpy ScaleData to make expression variance the same for all genes | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
-{% include tool.html id="Scanpy RunPCA" %} | Scanpy RunPCA for dimensionality reduction | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
-{% include tool.html id="Scanpy ComputeGraph" %} | Scanpy ComputeGraph to derive kNN graph | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
-{% include tool.html id="Scanpy FindCluster" %} | Scanpy FindCluster based on community detection on KNN graph | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
-{% include tool.html id="Scanpy FindMarkers" %} | Scanpy FindMarkers to find differentially expressed genes between groups | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
-{% include tool.html id="Scanpy RunTSNE" %} | Scanpy RunTSNE visualise cell clusters using tSNE | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
-{% include tool.html id="Scanpy RunUMAP" %} | Scanpy RunUMAP visualise cell clusters using UMAP | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_read_10x" %} | Scanpy Read10x into hdf5 object handled by scanpy | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_filter_genes" %} | Scanpy FilterGenes based on counts and numbers of cells expressed | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_filter_cells" %} | Scanpy FilterCells based on counts and numbers of genes expressed | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_normalise_data" %} | Scanpy NormaliseData to make all cells having the same total expression | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_find_variable_genes" %} | Scanpy FindVariableGenes based on normalised dispersion of expression | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_scale_data" %} | Scanpy ScaleData to make expression variance the same for all genes | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_run_pca" %} | Scanpy RunPCA for dimensionality reduction | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_compute_graph" %} | Scanpy ComputeGraph to derive kNN graph | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_find_cluster" %} | Scanpy FindCluster based on community detection on KNN graph | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_find_markers" %} | Scanpy FindMarkers to find differentially expressed genes between groups | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_run_tsne" %} | Scanpy RunTSNE visualise cell clusters using tSNE | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
+{% include tool.html id="scanpy_run_umap" %} | Scanpy RunUMAP visualise cell clusters using UMAP | [Wolf et al. 2018](https://doi.org/10.1186/s13059-017-1382-0){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 ### Seurat
@@ -98,18 +98,18 @@ Granular tools for accessing the main Seurat functionalities. These tools receiv
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="Seurat Read10x" %} | Seurat Read10x Loads 10x data into a serialized seurat R object | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
-{% include tool.html id="Seurat CreateSeuratObject" %} | Seurat CreateSeuratObject create a Seurat object | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
-{% include tool.html id="Seurat FilterCells" %} | Seurat FilterCells filter cells in a Seurat object | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
-{% include tool.html id="Seurat NormaliseData" %} | Seurat NormaliseData normalise data | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
-{% include tool.html id="Seurat FindVariableGenes" %} | Seurat FindVariableGenes identify variable genes | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
-{% include tool.html id="Seurat ScaleData" %} | Seurat ScaleData scale and center genes | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
-{% include tool.html id="Seurat RunPCA" %} | Seurat RunPCA run a PCA dimensionality reduction | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
-{% include tool.html id="Seurat FindClusters" %} | Seurat FindClusters find clusters of cells | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
-{% include tool.html id="Seurat FindMarkers" %} | Seurat FindMarkers find markers (differentially expressed genes) | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
-{% include tool.html id="Seurat Plot dimension reduction" %} | Seurat Plot dimension reduction graphs the output of a dimensional reduction technique (PCA by default). Cells are colored by their identity class. | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
-{% include tool.html id="Seurat RunTSNE" %} | Seurat RunTSNE run t-SNE dimensionality reduction | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
-{% include tool.html id="Seurat Export2CellBrowser" %} | Seurat Export2CellBrowser produces files for UCSC CellBrowser import. | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_read10x" %} | Seurat Read10x Loads 10x data into a serialized seurat R object | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_create_seurat_object" %} | Seurat CreateSeuratObject create a Seurat object | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_filter_cells" %} | Seurat FilterCells filter cells in a Seurat object | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_normalise_data" %} | Seurat NormaliseData normalise data | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_find_variable_genes" %} | Seurat FindVariableGenes identify variable genes | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_scale_data" %} | Seurat ScaleData scale and center genes | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_run_pca" %} | Seurat RunPCA run a PCA dimensionality reduction | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_find_clusters" %} | Seurat FindClusters find clusters of cells | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_find_markers" %} | Seurat FindMarkers find markers (differentially expressed genes) | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_dim_plot" %} | Seurat Plot dimension reduction graphs the output of a dimensional reduction technique (PCA by default). Cells are colored by their identity class. | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_run_tsne" %} | Seurat RunTSNE run t-SNE dimensionality reduction | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
+{% include tool.html id="seurat_export_cellbrowser" %} | Seurat Export2CellBrowser produces files for UCSC CellBrowser import. | [Satija et al. 2015](https://doi.org/10.1038/nbt.3192){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 ### Scater
@@ -118,12 +118,12 @@ Granular tools for accessing the main Scater functionalities. Normally used in c
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="Scater read 10x data" %} | Scater read 10x data Loads 10x data into a serialized scater R object | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
-{% include tool.html id="Scater CalculateQcMetrics" %} | Scater CalculateQcMetrics based on expression values and experiment information | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
-{% include tool.html id="Scater Filter" %} | Scater Filter cells and genes based on pre-calculated stats and QC metrics | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
-{% include tool.html id="Scater DetectOutlier" %} | Scater DetectOutlier cells based on expression metrics | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
-{% include tool.html id="Scater CalculateCPM" %} | Scater CalculateCPM from raw counts | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
-{% include tool.html id="Scater Normalise" %} | Scater Normalise expression values by library size in log2 scale | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
+{% include tool.html id="scater_read_10x_results" %} | Scater read 10x data Loads 10x data into a serialized scater R object | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
+{% include tool.html id="scater_calculate_qc_metrics" %} | Scater CalculateQcMetrics based on expression values and experiment information | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
+{% include tool.html id="scater_filter" %} | Scater Filter cells and genes based on pre-calculated stats and QC metrics | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
+{% include tool.html id="scater_is_outlier" %} | Scater DetectOutlier cells based on expression metrics | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
+{% include tool.html id="scater_calculate_cpm" %} | Scater CalculateCPM from raw counts | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
+{% include tool.html id="scater_normalize" %} | Scater Normalise expression values by library size in log2 scale | [McCarthy et al. 2017](https://doi.org/10.1093/bioinformatics/btw777){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 ### SC3
@@ -132,13 +132,13 @@ Granular tools for accessing the main SC3 functionalities. Normally used in comb
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="SC3 Prepare" %} | SC3 Prepare a sc3 SingleCellExperiment object | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
-{% include tool.html id="SC3 Calculate Consensus" %} | SC3 Calculate Consensus from multiple runs of k-means clustering | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
-{% include tool.html id="SC3 Calculate Transformations" %} | SC3 Calculate Transformations of distances using PCA and graph Laplacian | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
-{% include tool.html id="SC3 DiffExp" %} | SC3 DiffExp calculates DE genes, marker genes and cell outliers | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
-{% include tool.html id="SC3 Estimate" %} | SC3 Estimate the number of clusters for k-means clustering | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
-{% include tool.html id="SC3 Calculate Distances" %} | SC3 Calculate Distances between cells | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
-{% include tool.html id="SC3 K-Means" %} | SC3 K-Means perform k-means clustering | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
+{% include tool.html id="sc3_prepare" %} | SC3 Prepare a sc3 SingleCellExperiment object | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
+{% include tool.html id="sc3_calc_consens" %} | SC3 Calculate Consensus from multiple runs of k-means clustering | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
+{% include tool.html id="sc3_calc_transfs" %} | SC3 Calculate Transformations of distances using PCA and graph Laplacian | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
+{% include tool.html id="sc3_calc_biology" %} | SC3 DiffExp calculates DE genes, marker genes and cell outliers | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
+{% include tool.html id="sc3_estimate_k" %} | SC3 Estimate the number of clusters for k-means clustering | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
+{% include tool.html id="sc3_calc_dists" %} | SC3 Calculate Distances between cells | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
+{% include tool.html id="sc3_kmeans" %} | SC3 K-Means perform k-means clustering | [Kisilev et al. 2017](https://doi.org/10.1038/nmeth.4236){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 
