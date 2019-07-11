@@ -23,5 +23,9 @@
   site: freiburg    # Your site
   messages:
       - message: |
+          We have resolved the issue. Untested code was pushed to production
+          resulting in the temporary job failures.
+        date: 2019-07-11 19:37:31+02:00
+      - message: |
           We are currently experiencing some issues scheduling new jobs. We are investigating the issue.
         date: 2019-07-11 17:55:34+02:00
