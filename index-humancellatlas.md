@@ -21,7 +21,7 @@ term we expect to have interoperability between these tools through the Loom exc
 Additionally, we provide specialised viewers for single cell clustering data:
 UCSC CellBrowser (currently active) and cellxgene (coming up soon).
 
-Tools available under HCA-Single Cell section on the left where mainly brought to Galaxy by
+Tools available under HCA-Single Cell section were mainly brought to Galaxy by
 the [Gene Expression Team](https://www.ebi.ac.uk/about/people/irene-papatheodorou){:target="_blank"}
 at [EMBL-EBI](https://www.ebi.ac.uk){:target="_blank"} and the [Teichmann Team](https://www.sanger.ac.uk/science/groups/teichmann-group){:target="_blank"} at the [Wellcome Sanger Institute](https://www.sanger.ac.uk/){:target="_blank"}.
 
@@ -43,6 +43,8 @@ Workflow | Description
 [Human Cell Atlas - Scanpy - CellBrowser](https://humancellatlas.usegalaxy.eu/u/pmoreno/w/humancellatlas-scanpy-cellbrowser){:target="_blank"} | Retrieve data from the Human Cell Atlas matrix service, analysis with Scanpy and visualisation with UCSC CellBrowser
 [EBI Single Cell Expression Atlas - Scanpy - CellBrowser](https://humancellatlas.usegalaxy.eu/u/pmoreno/w/atlas-scanpy-cellbrowser-imported-from-uploaded-file){:target="_blank"} | Retrieve expression matrices from Single Cell Expression Atlas, analysis with Scanpy and visualisation with UCSC CellBrowser
 [EBI Single Cell Expression Atlas Scanpy Prod 1.3](https://humancellatlas.usegalaxy.eu/u/pmoreno/w/scanpy-prod-13-smart-imported-from-uploaded-file){:target="_blank"} | Workflow used for clustering data in the [release 6](https://www.ebi.ac.uk/gxa/sc/release-notes.html){:target="_blank"} of [Single Cell Expression Atlas](https://www.ebi.ac.uk/gxa/sc/home){:target="_blank"}
+{: .table.table-striped .tooltable}
+
 
 # Available tools
 
@@ -64,7 +66,10 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="ucsc_cell_browser" %} | UCSC Cell Browser displays single-cell clusterized data in an interactive web application. | [CIT_ucsc_CIT](LINK_ucsc_LINK){:target="_blank"}
+{% include tool.html id="ucsc_cell_browser" %} | UCSC Cell Browser displays single-cell clusterized data in an interactive web application. | [cells.ucsc.edu](https://cells.ucsc.edu/){:target="_blank"}
+{: .table.table-striped .tooltable}
+
+
 
 
 ### Scanpy
