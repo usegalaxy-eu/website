@@ -17,3 +17,11 @@
           #Tell us about your use case, how we can improve Galaxy, present your work or attend one of the many training sessions.
           #[Register now](https://galaxyproject.org/events/gcc2019/registration/)!
         #date: 2019-05-03 11:21:04+02:00
+        #
+- title: Job Scheduling issues
+  class: info # one of [success, info, warning, danger]
+  site: freiburg    # Your site
+  messages:
+      - message: |
+          We are currently experiencing some issues scheduling new jobs. We are investigating the issue.
+        date: 2019-07-11 17:55:34+02:00
