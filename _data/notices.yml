@@ -18,14 +18,11 @@
           #[Register now](https://galaxyproject.org/events/gcc2019/registration/)!
         #date: 2019-05-03 11:21:04+02:00
         #
-#- title: Job Scheduling issues
-  #class: info # one of [success, info, warning, danger]
-  #site: freiburg    # Your site
-  #messages:
-      #- message: |
-          #We have resolved the issue. Untested code was pushed to production
-          #resulting in the temporary job failures.
-        #date: 2019-07-11 19:37:31+02:00
-      #- message: |
-          #We are currently experiencing some issues scheduling new jobs. We are investigating the issue.
-        #date: 2019-07-11 17:55:34+02:00
+        #
+- title: Removing old FTP data
+  class: info # one of [success, info, warning, danger]
+  site: freiburg    # Your site
+  messages:
+      - message: |
+          We did not originally have a data retention policy covering data uploaded to user's FTP folders. We will be instituting a policy that any data left in FTP (and not imported into Galaxy) for more than 3 months will be removed. Please import any old data you wish to keep, and contact us if you have any questions!
+        date: 2019-07-19 11:32:27+02:00
