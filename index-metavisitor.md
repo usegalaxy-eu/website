@@ -42,29 +42,38 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="blast_to_scaffold" %} | blast_to_scaffold Generate DNA scaffold from blastn or tblastx alignment of Contigs  | -
+{% include tool.html id="blast_to_scaffold" %} | blast_to_scaffold - Generate DNA scaffold from blastn or tblastx alignment of Contigs  | -
 {% include tool.html id="bowtie2" %} | Bowtie2 - map reads against reference genome | -
-{% include tool.html id="psy_maps" %} | Visualization on a geographical map with psyplot | -
-{% include tool.html id="mean_per_zone" %} | Plot zonal statistics from a raster and shapefile on a geographical map | -
+{% include tool.html id="cherry_pick_fasta" %} | Pick Fasta sequences - with header satisfying a query string | -
+{% include tool.html id="concatenate_multiple_datasets" %} | Concatenate multiple datasets - tail-to-head by specifying how | -
+{% include tool.html id="data_manager_bowtie2_index_builder" %} | Bowtie2 index - Data Manager for building bowtie2 indexes | -
+{% include tool.html id="data_manager_bowtie_index_builder" %} | Bowtie index - Data Manager for building bowtie indexes | -
+{% include tool.html id="data_manager_fetch_genome_dbkeys_all_fasta" %} | Create DBKey and Reference Genome - Allows optionally defining a new DBKEY and retrieves a FASTA file and populate the all_fasta.loc data table | -
+{% include tool.html id="fasta_filter_by_length" %} | Filter sequences by length | -
+{% include tool.html id="fastx_trimmer" %} | Trim sequences | -
+{% include tool.html id="fetch_fasta_from_ncbi" %} | Retrieve FASTA from NCBI | -
+{% include tool.html id="khmer_normalize_by_median" %} | Normalize By Median - Filter reads using digital normalization via k-mer abundances | -
+{% include tool.html id="blastparser_and_hits" %} | Parse blast output and compile hits - for virus discovery | -
+{% include tool.html id="cap3" %} | cap3 - Sequence Assembly tool | -
+{% include tool.html id="sequence_format_converter" %} | sequence_format_converter - various fasta to tabular conversions | -
+{% include tool.html id="oases" %} | Oases_optimiser - Auto optimise de novo RNA-seq Oases/Velvet assembly | -
+{% include tool.html id="sr_bowtie" %} | sR_bowtie - for small RNA short reads | -
+{% include tool.html id="small_rna_maps" %} | small_rna_maps - Generates small read maps from alignment BAM files | -
+{% include tool.html id="ncbi_blast_plus" %} | ncbi_blast_plus - NCBI BLAST+ | -
+{% include tool.html id="regex_find_replace" %} | Regex Find And Replace - Use python regular expressions to find and replace text | -
+{% include tool.html id="sra_tools" %} | sra_tools - NCBI Sequence Read Archive toolkit utilities | -
+{% include tool.html id="trinity" %} | trinity - Trinity (from the Trinity tool suite) | -
+{% include tool.html id="spades" %} | spades - St. Petersburg genome assembler | -
+{% include tool.html id="yac_clipper" %} | yac_clipper - Clips 3' adapters for small RNA sequencing reads | -
+{% include tool.html id="vsearch" %} | VSearch search - VSEARCH including searching, clustering, chimera detection, dereplication, sorting, masking and shuffling of sequences | -
+{% include tool.html id="blast_unmatched" %} | Blast Unmatched - get query sequences that didn't get a match during a blast | -
+{% include tool.html id="fasta_compute_length" %} | fasta_compute_length - Compute sequence length | -
 {: .table.table-striped .tooltable}
 
-## GIS data handling
-
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="gdal_gdalinfo" %} | [Lists information about a raster dataset](https://gdal.org/programs/gdalinfo.html)  | -
-{% include tool.html id="gdal_gdaladdo" %} | [Builds or rebuilds overview images](https://gdal.org/programs/gdaladdo.html)  | -
-{% include tool.html id="gdal_gdalbuildvrt" %} | [Builds a VRT (Virtual Dataset) from a list of datasets](https://gdal.org/programs/gdalbuildvrt.html)  | -
-{% include tool.html id="gdal_gdal_merge" %} | [Mosaic a set of images](https://gdal.org/programs/gdal_merge.html)  | -
-{% include tool.html id="gdal_gdal_translate" %} | [Convert raster data between different formats](https://gdal.org/programs/gdal_translate.html)  | -
-{% include tool.html id="gdal_gdalwarp" %} | [Image reprojection and warping utility](https://gdal.org/programs/gdalwarp.html)  | -
-{% include tool.html id="gdal_ogr2ogr" %} |  [Converts simple features data between file formats](https://gdal.org/programs/ogr2ogr.html) | -
-{% include tool.html id="gdal_ogrinfo" %} |  [Lists information about an OGR-supported data source](https://gdal.org/programs/ogrinfo.html) | -
-{: .table.table-striped .tooltable}
 
 # Acknowledgments
 
-The authors would like to thank Bérénice Batut,  Björn Grüning, Anup Kumar and @galaxyproject
+The authors would like to thank Björn Grüning and @galaxyproject
 
 # Citation
 
