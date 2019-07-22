@@ -1,5 +1,7 @@
 ---
 layout: subsite-galaxy
+subdomain: annotation
+gitter: galaxy-genome-annotation/Lobby
 ---
 
 Welcome to **Galaxy for Genome Annotation** -- a platform to annotate, curate, and publish genomic data
