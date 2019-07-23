@@ -323,6 +323,30 @@ body.location-pasteur {
 }
 
 
+body.location-annotation {
+	.navbar {
+		background-color: green !important;
+		border: 0px !important;
+	}
+
+	.navbar .navbar-brand, .navbar .navbar-nav > li > a {
+		color: white !important;
+	}
+
+	.navbar .navbar-brand:hover, .navbar .navbar-brand:focus,
+	.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+		color: #aaa !important;
+	}
+
+	.nav > li > a:hover, .nav > li > a:focus {
+		background-color: transparent !important;
+	}
+
+	.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+		background-color: transparent !important;
+		color: white;
+	}
+}
 .tooltable {
     td:nth-child(1) {
         width: 15%;

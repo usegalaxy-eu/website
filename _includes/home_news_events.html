@@ -1,5 +1,8 @@
 {% assign page_dir = page.dir | split:'/' %}
 {% assign key = page_dir[1] | default: page.site  %}
+{% if include.key %}
+  {% assign key=include.key %}
+{% endif %}
 {% assign key_length = key | size %}
 
 <div class="row">

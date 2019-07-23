@@ -42,9 +42,19 @@
              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Member Sites <span class="caret"></span></a>
              <ul class="dropdown-menu">
               {% for path in site.team_sites %}
+              {% unless path[1].subdomain %}
                 <li>
                   <a class="page-link" href="/{{ path[0] }}/">{{ path[1].name | escape }}</a>
                 </li>
+              {% endunless %}
+              {% endfor %}
+                <li class="dropdown-header">Subdomains</li>
+              {% for path in site.team_sites %}
+              {% if path[1].subdomain %}
+                <li>
+                  <a class="page-link" href="/{{ path[0] }}/">{{ path[1].name | escape }}</a>
+                </li>
+              {% endif %}
               {% endfor %}
              </ul>
            </li>
