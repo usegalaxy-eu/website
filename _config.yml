@@ -112,6 +112,14 @@ team_sites:
       url: "https://galaxy.pasteur.fr/"
       galaxy_server: "https://galaxy.pasteur.fr/"
       blurb: ""
+    annotation:
+      name: Genome Annotation
+      subdomain: true
+      url: /annotation/
+      private_news: true
+      url: "https://annotation.usegalaxy.eu/"
+      galaxy_server: "https://annotation.usegalaxy.eu/"
+      blurb: ""
 
 header_links:
     main:
@@ -163,6 +171,15 @@ header_links:
           url: /pasteur/people
         - name: Publications
           url: /pasteur/publications
+    annotation:
+        - name: News
+          url: /annotation/news
+        - name: Events
+          url: /annotation/events
+        - name: People
+          url: /annotation/people
+        - name: Publications
+          url: /annotation/publications
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
