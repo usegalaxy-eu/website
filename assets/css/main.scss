@@ -168,15 +168,6 @@ img {
 }
 
 
-.border-freiburg {
-	border-left: 5px solid #2c3143 !important;
-}
-.border-erasmusmc {
-	border-left: 5px solid #f17925 !important;
-}
-.border-deNBI, .border-denbi {
-	border-left: 5px solid rgb(0, 174, 236) !important;
-}
 @import "people";
 @import "404";
 @import "news";
@@ -222,6 +213,12 @@ img {
 }
 
 
+.border-freiburg {
+	border-left: 5px solid #2c3143 !important;
+}
+.border-deNBI, .border-denbi {
+	border-left: 5px solid rgb(0, 174, 236) !important;
+}
 body.location-freiburg {
 	.navbar {
 		background-color: #2c3143 !important;
@@ -247,6 +244,9 @@ body.location-freiburg {
 	}
 }
 
+.border-erasmusmc {
+	border-left: 5px solid #f17925 !important;
+}
 body.location-erasmusmc {
 	.navbar {
 		background-color: #f17925 !important;
@@ -272,6 +272,9 @@ body.location-erasmusmc {
 	}
 }
 
+.border-belgium{
+	border-left: 5px solid #1b2944 !important;
+}
 body.location-belgium {
 	.navbar {
 		background-color: #1b2944 !important;
@@ -323,6 +326,9 @@ body.location-pasteur {
 }
 
 
+.border-annotation {
+	border-left: 5px solid green !important;
+}
 body.location-annotation {
 	.navbar {
 		background-color: green !important;
