@@ -7,8 +7,6 @@ supporters:
 - elixir
 ---
 
-# Tool Updates
-
 On 2019-06-08, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #107](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#107/)
 
 
