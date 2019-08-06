@@ -18,7 +18,6 @@ supporters:
 - denbi
 ---
 
-# Galaxy for linking Bisulfite sequencing with RNA sequencing
 In this training course, we introduce the Galaxy framework (https://usegalaxy.eu) for biomedical data analyses, and showcase its tools for data handling and preprocessing, differential gene expression analysis, bisulfite sequencing analysis, and Oxford Nanopore data exploration and usage. Lectures will be provided on the topics of RNA and Bisulfite sequencing, Epigenetics, and basic statistics, and followed by hands-on sessions. Finally, we showcase a Galaxy Docker installation for customized workflow analysis.
 
 ## Topics
