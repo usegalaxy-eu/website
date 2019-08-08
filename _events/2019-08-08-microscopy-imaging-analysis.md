@@ -6,7 +6,7 @@ starts: 2019-09-19
 ends: 2019-09-20
 organiser:
   name: Heidelberg Center for Human Bioinformatics (HD-HuB)
-  email: thomas.wollmann@bioquant.uni-heidelberg.de
+  email: k.rohr@dkfz-heidelberg.de
 location:
   name: Universität Heidelberg
   street: Im Neuenheimer Feld 364
