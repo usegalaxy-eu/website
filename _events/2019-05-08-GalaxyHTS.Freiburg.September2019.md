@@ -9,15 +9,15 @@ organiser:
   name: Freiburg Galaxy Team & MPI Freiburg
   email: contact@usegalaxy.eu
 location:
-  name: Institute for Biology II/III
-  street: Schaenzlestr.1
-  postal: 79104
+  name: PC Pool 3
+  street: Werthmannstraße 4 
+  postal: 79098
   city: Freiburg im Breisgau
   region: Baden-Württemberg
   country: Germany
   geo:
-    lat: 48.009973
-    lon: 7.857396
+    lat: 47.993469
+    lon: 7.845275
 supporters:
 - unifreiburg
 - denbi
@@ -62,7 +62,7 @@ Fri     | exercises, questions, discussions, bring your own data ... (until 14:0
 
 ## Lunch Options
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1Brpw-UguRNDISn4_bVk8ifRkTRG8JIWR" width="100%" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=13xIYbHTYlxxu-oopBTsSJHqK42M8lO6C" width="100%" height="480"></iframe>
 
 ## Preparation
 
