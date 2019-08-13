@@ -83,13 +83,11 @@ From Basel airport to Freiburg you have two options:
 1. Take the train to Freiburg Hauptbahnhof (ICE or EC takes 30 min; Regio 60 min)
 2. Take the airport shuttle bus to Freiburg Hauptbahnhof ([Timetable](https://www.freiburger-reisedienst.de/en/airportbus/timetable.php))
 
-From Freiburg Hauptbahnhof to Venue you should use local public transport (VAG):
+From Freiburg Hauptbahnhof to Venue you can walk or use local public transport (VAG):
 
 - [Tram line map](http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html)
-- Tram line: 2
-- Tram stop: "Hauptstraße"
-
-You are looking for building 1 (Institute of Biology II/III) on the [university map](http://www.uni-freiburg.de/universitaet/kontakt-und-wegweiser/lageplaene/aussenklinik)
+- Tram line: 5
+- Tram stop: "Erbprinzenstraße"
 
 ## Accomodations
 
