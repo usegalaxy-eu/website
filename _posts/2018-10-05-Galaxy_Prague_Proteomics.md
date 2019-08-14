@@ -1,4 +1,4 @@
---
+---
 site: freiburg
 title: Successful Galaxy Proteomics workshop in Prague
 location: Prague, Czechia
