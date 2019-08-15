@@ -1,7 +1,7 @@
 ---
 site: freiburg
 tags: [training]
-title: HiC Workshop for Indepth in Lucerne
+title: HiC Workshop for INDEPTH in Lucerne
 location: Lucerne, CH
 ---
 
