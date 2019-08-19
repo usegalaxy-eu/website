@@ -20,7 +20,7 @@ GraphClust2 is a  workflow for scalable clustering of RNAs based on sequence and
 
 **GraphClust2 rapid start**
 
-Interactive tours are available for Galaxy and GraphClust2. To run the tours please on top panel go to **Help→Interactive Tours** and click on one of the tours prefixed **GraphClust workflow**  (direct link to the [basic tour](https://graphclust.usegalaxy.eu/tours/graphclust_tutorial){:target="_parent"}). Please use your personal user-password for logging in.
+Interactive tours are available for Galaxy and GraphClust2. To run the tours please on top panel go to **Help→Interactive Tours** and click on one of the tours prefixed **GraphClust workflow**  (direct link to the [basic tour](https://graphclust.usegalaxy.eu/tours/graphclust_tutorial){:target="_blank"}). Please use your personal user-password for logging in.
 You can check the other tours for a more general introduction to the Galaxy interface.
 
 **Galaxy interface**
@@ -38,14 +38,21 @@ Please also refer to the [GraphClust2 repository](https://github.com/BackofenLab
 [![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/video-thumbnail.png)](https://www.youtube.com/watch?v=fJ6tUt_6uas){:target="_blank"}
 
 
-#### Workflows on this server
-Below workflows can be directly accessed on the public server:
-  * MotifFinder: [GraphClust-MotifFinder](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--motiffinder){:target="_blank"}
-  * Workflow main: [GraphClust_1r](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--main-1r){:target="_blank"}
-  * Workflow main, preconfigured for two rounds : [GraphClust_2r](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--main-2r){:target="_blank"}
-
 ### Workflow flavors
-The pre-configured flavors of GraphClust2 are provided and described inside the [workflows directory](https://github.com/BackofenLab/GraphClust-2/tree/master/workflows){:target="_blank"}
+A comprehensive set of pre-configured flavors of GraphClust2 are provided and described inside the [workflows directory](https://github.com/BackofenLab/GraphClust-2/tree/master/workflows){:target="_blank"}
+There you can find the alternative pre-configurations of GraphClust-2 as flavors tailored for different use-case scenarios.
+
+#### Workflows flavors on this server
+Below workflows can be directly accessed on the public server. For the extended description and alternatives please refer to the github workflows directory[workflows directory](https://github.com/BackofenLab/GraphClust-2/tree/master/workflows){:target="_blank"}
+
+- The *MotifFinder* workflow flavor targets identifying a handful of local signals/motifs under the likely presence of noise and sequence context.
+    * MotifFinder: [GraphClust-MotifFinder](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--motiffinder){:target="_blank"}
+
+- The pre-configured *main* workflows perform best for clustering and partitioning a set of RNA sequences with quasi defined structure boundary signals (e.g. ncRNAs or data from genomic screenings with tools such as CMfinder or RNAz screens). Usually one to three rounds of clustering would be enough for typical scenarios. You may find further sutiable preconfigured flavors from the github directory page. 
+    * Workflow main: [GraphClust_1r](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--main-1r){:target="_blank"}
+    * Workflow main, preconfigured for two rounds : [GraphClust_2r](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--main-2r){:target="_blank"}
+   
+
 
 ### Import or upload a workflow
 To import or upload additional workflow flavors (e.g. from workflows directory), on the top panel go to *Workflow* menu. On top right side of the screen click on "Upload or import workflow" button. You can either upload workflow from your local system or by providing the URL of the workflow. Log in is necessary to access into the workflow menu. The docker galaxy instance has a pre-configured *easy!* info that can be found by following the interactive tour. You can download workflows from the following links
