@@ -14,7 +14,7 @@ GraphClust2 is a  workflow for scalable clustering of RNAs based on sequence and
 {:toc}
 
 
-# Get started
+# Getting started
 
 ### Interactive tours
 
@@ -43,14 +43,14 @@ A comprehensive set of pre-configured flavors of GraphClust2 are provided and de
 There you can find the alternative pre-configurations of GraphClust-2 as flavors tailored for different use-case scenarios.
 
 #### Workflows flavors on this server
-Below workflows can be directly accessed on the public server. For the extended description and alternatives please refer to the github workflows directory[workflows directory](https://github.com/BackofenLab/GraphClust-2/tree/master/workflows){:target="_blank"}
+Below workflows can be directly accessed on the public server. For the extended description and alternatives please refer to the github [workflows directory](https://github.com/BackofenLab/GraphClust-2/tree/master/workflows){:target="_blank"}
 
 - The *MotifFinder* workflow flavor targets identifying a handful of local signals/motifs under the likely presence of noise and sequence context.
     * MotifFinder: [GraphClust-MotifFinder](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--motiffinder){:target="_blank"}
 
-- The pre-configured *main* workflows perform best for clustering and partitioning a set of RNA sequences with quasi defined structure boundary signals (e.g. ncRNAs or data from genomic screenings with tools such as CMfinder or RNAz screens). Usually one to three rounds of clustering would be enough for typical scenarios. You may find further sutiable preconfigured flavors from the github directory page. 
+- The pre-configured *main* workflows perform best for clustering and partitioning a set of RNA sequences with quasi defined structure boundary signals (e.g. ncRNAs or data from genomic screenings with tools such as CMfinder or RNAz screens). Usually one to three rounds of clustering would be enough for typical scenarios. You may find further suitable pre-configured flavors from the github directory page. 
     * Workflow main: [GraphClust_1r](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--main-1r){:target="_blank"}
-    * Workflow main, preconfigured for two rounds : [GraphClust_2r](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--main-2r){:target="_blank"}
+    * Workflow main, pre-configured for two rounds : [GraphClust_2r](https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--main-2r){:target="_blank"}
    
 
 
@@ -59,23 +59,25 @@ To import or upload additional workflow flavors (e.g. from workflows directory),
 
 
 ## Results from the paper, shared histories
-The histories shared and linked below, corresponds to the clustering analsyis and evaluations that are performed and presented in the GraphClust2 paper.
+The histories shared and linked below, corresponds to the clustering analysis and evaluations that are performed and presented in the GraphClust2 paper.
 
-### lncRNA structure conservation analsyis
-* [NEAT1](https://graphclust.usegalaxy.eu/u/graphclust2/h/neat1){:target="_blank"}
-* [MALAT1](https://graphclust.usegalaxy.eu/u/graphclust2/h/malat1){:target="_blank"}
-* [HOTAIR](https://graphclust.usegalaxy.eu/u/graphclust2/h/hotair){:target="_blank"}
-* [XIST](https://graphclust.usegalaxy.eu/u/graphclust2/h/xist){:target="_blank"}
-* [FTL](https://graphclust.usegalaxy.eu/u/graphclust2/h/ftl){:target="_blank"}
+### lncRNA structure conservation analysis
+* [NEAT1 clustering history](https://graphclust.usegalaxy.eu/u/graphclust2/h/neat1){:target="_blank"}
+* [MALAT1 clustering history](https://graphclust.usegalaxy.eu/u/graphclust2/h/malat1){:target="_blank"}
+* [HOTAIR clustering history](https://graphclust.usegalaxy.eu/u/graphclust2/h/hotair){:target="_blank"}
+* [XIST clustering history](https://graphclust.usegalaxy.eu/u/graphclust2/h/xist){:target="_blank"}
+* [FTL clustering history](https://graphclust.usegalaxy.eu/u/graphclust2/h/ftl){:target="_blank"}
 
-### Orthologous genomic sequence extraction of lncRNAs
+#### Orthologous genomic sequence extraction of lncRNAs
 * [MAF to fasta conversions](https://graphclust.usegalaxy.eu/u/graphclust2/h/maf-conversion-lncrnas){:target="_blank"}
 
 ### CLIP motif finder
-* [SLBP](https://graphclust.usegalaxy.eu/u/graphclust2/h/slbp){:target="_blank"}
+* [SLBP clustering history](https://graphclust.usegalaxy.eu/u/graphclust2/h/slbp){:target="_blank"}
+* [SLBP RF00032 seed (mixed with 98.5% background) clustering history](https://graphclust.usegalaxy.eu/u/milad/h/slbprfammixed){:target="_blank"}
 * [Roquin1](https://graphclust.usegalaxy.eu/u/graphclust2/h/roquin1){:target="_blank"}
 
-
+### Scalability demonstration
+*  [Marine metatranscriptome clustering history](https://graphclust.usegalaxy.eu/u/milad/h/metatranscriptome913kfull){:target="_blank"}
 
 
 GraphClust pipeline overview
@@ -118,9 +120,6 @@ You can file an [github issue](https://github.com/BackofenLab/GraphClust-2/issue
 
 
 # References
-The manuscript is currently under prepration/revision. If you find this resource useful, please cite the zenodo DOI of the repo or contact us.
 
-* Miladi, Milad, Eteri Sokhoyan, Torsten Houwaart, Steffen Heyne, Fabrizio Costa, Bjoern Gruening, and Rolf Backofen. "Empowering the annotation and discovery of structured RNAs with scalable and accessible integrative clustering." bioRxiv (2019): 550335. doi: [https://doi.org/10.1101/550335](https://doi.org/10.1101/550335){:target="_blank"}
+* Miladi, Milad, Eteri Sokhoyan, Torsten Houwaart, Steffen Heyne, Fabrizio Costa, Bjoern Gruening, and Rolf Backofen. "GraphClust2: annotation and discovery of structured RNAs with scalable and accessible integrative clustering" bioRxiv (2019): 550335. doi: [https://doi.org/10.1101/550335](https://doi.org/10.1101/550335){:target="_blank"}
 * Milad Miladi, Björn Grüning, & Eteri Sokhoyan. BackofenLab/GraphClust-2: Zenodo. http://doi.org/10.5281/zenodo.1135094
-* The GraphClust-2 alignment-free approach is based on GraphClust methodology (S. Heyne, F. Costa, D. Rose, R. Backofen;
-GraphClust: alignment-free structural clustering of local RNA secondary structures; Bioinformatics, 2012) 
