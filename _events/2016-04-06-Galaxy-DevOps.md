@@ -19,4 +19,4 @@ tags:
 title: Galaxy DevOps workshop
 ---
 
-More information can be found [her](https://galaxyproject.org/news/dev-ops-heidelberg/)
+More information can be found [here](https://galaxyproject.org/news/dev-ops-heidelberg/)
