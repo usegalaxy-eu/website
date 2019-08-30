@@ -17,7 +17,7 @@ Come and join our talk about Galaxy in Freiburg!
 10th September 2019 from 12-13:00
 
 ## Where? 
-room SR 00.023, Signalhaus Freiburg, Schänzlestr. 18, 79104 Freiburg
+Room SR 00.023, Signalhaus Freiburg, Schänzlestr. 18, 79104 Freiburg
 
 ## Abstract
 
