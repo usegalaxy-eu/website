@@ -1,0 +1,15 @@
+name: usegalaxy-eu-website
+channels:
+  - conda-forge
+dependencies:
+  - rb-jekyll
+  - rb-thread_safe
+  - rb-jekyll-feed
+  - rb-jekyll-scholar
+  - rb-bundler
+  #- rb-jekyll-compose
+  - rb-tzinfo-data
+  #- rb-html-proofer
+  - rb-jekyll-twitter-plugin
+  - rb-nokogiri
+  - ruby=2.5
