@@ -10,10 +10,6 @@ supporters:
 On 2019-09-07, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #136](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#136/)
 
 
-## Gemini Tools
-
-- gemini_interactions was updated to [2ddee6cd4a5a](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_interactions/2ddee6cd4a5a)
-
 ## Epigenetics
 
 - moabs was updated to [26d7ec4af119](https://toolshed.g2.bx.psu.edu/view/iuc/moabs/26d7ec4af119)
@@ -59,8 +55,3 @@ On 2019-09-07, the tools on UseGalaxy.eu were updated by our automated tool upda
 - scater_plot_dist_scatter was updated to [2e41b35b5bdd](https://toolshed.g2.bx.psu.edu/view/iuc/scater_plot_dist_scatter/2e41b35b5bdd)
 - scater_plot_exprs_freq was updated to [058b40656107](https://toolshed.g2.bx.psu.edu/view/iuc/scater_plot_exprs_freq/058b40656107)
 - scater_plot_pca was updated to [46fc6751d746](https://toolshed.g2.bx.psu.edu/view/iuc/scater_plot_pca/46fc6751d746)
-
-## Metagenomic analyses
-
-- vegan_diversity was updated to [c58e19ff504a](https://toolshed.g2.bx.psu.edu/view/iuc/vegan_diversity/c58e19ff504a)
-
