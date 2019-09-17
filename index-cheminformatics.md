@@ -6,7 +6,7 @@ subdomain: cheminformatics
 # Cheminformatics with Galaxy
 
 <br/>
-<img src="/assets/media/cheminformatics.png" height="200px" alt="Cheminformatics" align="right"/>
+<img src="/assets/media/cheminformatics.png" height="300px" alt="Cheminformatics" align="right"/>
 
 Welcome to our **Computational Chemistry** flavour of UseGalaxy.eu -- a webserver for processing, analysing and visualising chemical data, and performing molecular simulations.
 
