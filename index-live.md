@@ -83,7 +83,7 @@ margin: auto;
 	</a>
 
 	<a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_wilson" target="_top">
-	  <img class="card-img-top" src="/assets/media/live.png" />
+	  <img class="card-img-top" src="/assets/media/wilson.png" />
 	</a>
 
 </div>
