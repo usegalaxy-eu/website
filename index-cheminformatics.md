@@ -3,12 +3,12 @@ layout: subsite-galaxy
 subdomain: cheminformatics
 ---
 
+# Cheminformatics with Galaxy
 
 <br/>
-<img src="/assets/media/cheminformatics.png" height="200px" alt="Cheminformatics"/>
+<img src="/assets/media/cheminformatics.png" height="300px" alt="Cheminformatics" align="right"/>
 
-Welcome to our **Computational Chemistry** flavour of UseGalaxy.eu -- a webserver to process, analyse and visualize chemical data.
-
+Welcome to our **Computational Chemistry** flavour of UseGalaxy.eu -- a webserver for processing, analysing and visualising chemical data, and performing molecular simulations.
 
 1. TOC
 {:toc}
@@ -18,16 +18,16 @@ Welcome to our **Computational Chemistry** flavour of UseGalaxy.eu -- a webserve
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://cheminformatics.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
-Want to learn about computational chemistry? Check our [tutorials](#tutorials).
+A good place to start is our [tutorials](#tutorials), which provide an introduction to the molecular dynamics tools in Galaxy.
 
-Check also the standard but customizable [workflows](#workflows) available there.
+You can also check out the standard but customizable [workflows](#workflows) available there.
 
 # Tools
 
 Several tools are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of chemical data:
 
 
-## chemical structure conversion and manipulation tools
+## Chemical structure conversion and manipulation tools
 
 Tool | Description | Reference
 --- | --- | ---
@@ -42,7 +42,7 @@ Tool | Description | Reference
 {:.table.table-striped}
 
 
-## compute chemical properties
+## Compute chemical properties
 
 Tool | Description | Reference
 --- | --- | ---
@@ -51,7 +51,7 @@ Tool | Description | Reference
 {% include tool.html id="QED" %} | Drug-likeness quantitative estimation (QED) | [Bickerton et al., 2012](https://doi.org/10.1038/nchem.1243){:target="_blank"}
 {:.table.table-striped}
 
-## molecular dynamics tools
+## Molecular dynamics tools
 
 Tool | Description | Reference
 --- | --- | ---
@@ -73,7 +73,7 @@ Tool | Description | Reference
 {:.table.table-striped}
 
 # Tutorials
-- PDF's of the workshop run in 2019 are [available](https://drive.google.com/drive/folders/10oxT2Vl4rBdyNR8iHjer4Q77Ra56-jIp?usp=sharing)
+- Visit [the Galaxy training website](https://galaxyproject.github.io/training-material/topics/computational-chemistry/) for tutorials on using the Galaxy tools for molecular dynamics.
 
 🙋 Are additional tutorials needed? [Please make a request.](https://github.com/galaxycomputationalchemistry/galaxy-tools-compchem/issues)
 
@@ -96,6 +96,7 @@ Workflow | Description
   * [Chris Barnett](https://github.com/chrisbarnettster)
   * [Björn Grüning](https://github.com/bgruening)
 
-# References
+# Citation
 
-{% bibliography --cited --prefix index-metagenomics --group_by none %}
+Tharindu Senapathi, Simon Bray, Christopher B Barnett, Björn Grüning, Kevin J Naidoo.
+**"Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)", Bioinformatics**, Volume 35, Issue 18, 15 September 2019, Pages 3508–3509, doi: [10.1093/bioinformatics/btz107](https://doi.org/10.1093/bioinformatics/btz107)
