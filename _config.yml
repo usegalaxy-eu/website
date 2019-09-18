@@ -134,6 +134,8 @@ header_links:
           url: /freiburg/projects
         - name: Services
           url: /freiburg/services
+        - name: Jobs
+          url: /freiburg/jobs
         - name: Publications
           url: /freiburg/publications
     erasmusmc:
