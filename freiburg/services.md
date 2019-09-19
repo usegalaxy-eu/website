@@ -60,7 +60,7 @@ Locally in Freiburg, we offer twice per year a free full-week hands-on high-thro
 - Thursday:   HiC data analysis, Methyl-C data analysis
 - Friday:     Bring your own data, exercises
 
-Topice usually are selected from desired topics of the applicants. 
+We have more training material for various topics to teach, e.g. Transcriptomics, Metabolomics, Metagenomics, Proteomics, Genome Annotation, Variant Calling, ... . Topics usually are selected from desired topics of the applicants.
 
 All workshops are announced on our [events page](https://galaxyproject.eu/freiburg/events). Registrations are possible through our website.
 
