@@ -9,7 +9,7 @@ We will be joining the [Scientists for Future](https://www.scientists4future.org
 [Global Climate Strike](https://globalclimatestrike.net) organised in Freiburg.
 
 We encourage all our users to schedule the workflows today and
-join one of [the hundrets of strikes](https://globalclimatestrike.net/#map) world-wide tomorrow.
+join one of [the hundreds of strikes](https://globalclimatestrike.net/#map) world-wide tomorrow.
 
 <div class="multiple-img">
         <iframe width="1000" height="600" src="https://globalclimatestrike.net/#map" frameborder="0" allowfullscreen></iframe>
