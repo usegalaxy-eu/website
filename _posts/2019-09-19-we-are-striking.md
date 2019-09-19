@@ -4,7 +4,7 @@ title: We are striking!
 tags: [s4f]
 ---
 
-The European Galaxy team is striking tomorrow the [20th of September](https://globalclimatestrike.net).
+The Freiburg Galaxy Team is striking tomorrow the [20th of September](https://globalclimatestrike.net).
 We will be joining the [Scientists for Future](https://www.scientists4future.org) and the
 [Global Climate Strike](https://globalclimatestrike.net) organised in Freiburg.
 
