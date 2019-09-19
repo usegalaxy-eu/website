@@ -68,7 +68,7 @@ We and other members of the Galaxy training network (GTN) are giving training co
 
 ### Galaxy Training Material
 
-The Freiburg Galaxy Team is the main contributor to the community-driven development of GTN Galaxy training material. All of this material is **online, and freely accessible for everyone** at [https://training.galaxyproject.org](https://training.galaxyproject.org). 
+The Freiburg Galaxy Team is a very active contributor to the community-driven development of GTN Galaxy training material. All of this material is **online, and freely accessible for everyone** at [https://training.galaxyproject.org](https://training.galaxyproject.org). 
 
 We provide more than 150 tutorials designed for both **self-training** and **workshops** for Galaxy users, developer, and administrators. Each tutorial comes with:
 
