@@ -15,3 +15,9 @@ join one of [the hundreds of strikes](https://globalclimatestrike.net/#map) worl
         <iframe width="1000" height="600" src="https://globalclimatestrike.net/#map" frameborder="0" allowfullscreen></iframe>
 </div>
 
+-----
+
+Thanks Freiburg!
+
+{% twitter https://twitter.com/F4F_Freiburg/status/1174967296990666752 %}
+
