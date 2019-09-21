@@ -24,10 +24,6 @@ On 2019-09-21, the tools on UseGalaxy.eu were updated by our automated tool upda
 - circos was updated to [014a21767ac4](https://toolshed.g2.bx.psu.edu/view/iuc/circos/014a21767ac4)
 - pygenometracks was updated to [c237ba772225](https://toolshed.g2.bx.psu.edu/view/iuc/pygenometracks/c237ba772225)
 
-## FASTA/FASTQ manipulation
-
-- fastqc was updated to [484e86282f4b](https://toolshed.g2.bx.psu.edu/view/devteam/fastqc/484e86282f4b)
-
 ## Imaging
 
 - imagej2_adjust_threshold_binary was updated to [f1ba33cd9edf](https://toolshed.g2.bx.psu.edu/view/imgteam/imagej2_adjust_threshold_binary/f1ba33cd9edf)
