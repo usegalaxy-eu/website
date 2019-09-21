@@ -74,6 +74,11 @@ margin: auto;
 	  <h2>Ethercalc</h2>
 	</a>
 
+	<a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_paraview" target="_top">
+	  <img class="card-img-top" src="/assets/media/interactive/paraview.svg" />
+	  <h2>Paraview</h2>
+	</a>
+
 	<a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_neo4j" target="_top">
 	  <img class="card-img-top" src="/assets/media/interactive/neo4j.png" />
 	</a>
@@ -83,7 +88,7 @@ margin: auto;
 	</a>
 
 	<a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_wilson" target="_top">
-	  <img class="card-img-top" src="/assets/media/wilson.png" />
+	  <img class="card-img-top" src="/assets/media/interactive/wilson.png" />
 	</a>
 
 </div>
