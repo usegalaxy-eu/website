@@ -89,6 +89,7 @@ margin: auto;
 
 	<a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_wallace" target="_top">
 	  <img class="card-img-top" src="/assets/media/interactive/wallace.jpg" />
+	  <h2>Wallace</h2>
 	</a>
 
 	<a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_wilson" target="_top">
