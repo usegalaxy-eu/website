@@ -87,6 +87,10 @@ margin: auto;
 	  <img class="card-img-top" src="/assets/media/interactive/phinch.svg" />
 	</a>
 
+	<a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_wallace" target="_top">
+	  <img class="card-img-top" src="/assets/media/interactive/wallace.jpg" />
+	</a>
+
 	<a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_wilson" target="_top">
 	  <img class="card-img-top" src="/assets/media/interactive/wilson.png" />
 	</a>
