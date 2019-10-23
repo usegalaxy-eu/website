@@ -158,22 +158,22 @@ To get you started, here are some concrete step-by-step examples taken directly 
 > 
 > We have the following table:
 > 
-> >   .    c1   c2   c3
-> >   ---- ---- ---- ----
-> >   g1   0    20   30
-> >   g2   3    0    9
-> >   g3   4    8    0
-> >   g4   81   0    0
-> >
+>   |   | c1 | c2 | c3 |
+>   ----|----|----|----|
+>   g1 | 0 | 20 | 30 |
+>   g2 | 3 | 0 | 9 |
+>   g3 | 4 | 8 | 0 |
+>   g4 | 81 | 0 | 0 |
+>
 > and we want:
 > 
-> >   .    c1           c2          c3
-> >   ---- ------------ ----------- -----------
-> >   g1   1.00000000   0.1497866   0.1133732
-> >   g2   1.00000000   1.0000000   0.2441361
-> >   g3   1.00000000   0.2599302   1.0000000
-> >   g4   0.05425246   1.0000000   1.0000000
-> >
+>   |   | c1 | c2 | c3 |
+>   ----|----|----|----|
+>   g1 | 1.00000000 | 0.1497866 | 0.1133732 |
+>   g2 | 1.00000000 | 1.0000000 | 0.2441361 |
+>   g3 | 1.00000000 | 0.2599302 | 1.0000000 |
+>   g4 | 0.05425246 | 1.0000000 | 1.0000000 |
+>
 > In Galaxy we would select the following:
 > 
 >  -   *Input Single or Multiple Tables* → **Single Table**
@@ -192,22 +192,22 @@ To get you started, here are some concrete step-by-step examples taken directly 
 > 
 > We have the following table:
 > 
-> >   .    c1   c2   c3
-> >   ---- ---- ---- ----
-> >   g1   10   20   30
-> >   g2   3    10   9
-> >   g3   4    8    10
-> >   g4   81   10   10
-> >
+>   |  | c1 | c2 | c3 |
+>   |--|----|----|----|
+>   g1 | 10 | 20 | 30 |
+>   g2 | 3 | 10 | 9 |
+>   g3 | 4 | 8 | 10 |
+>   g4 | 81 | 10 | 10 |
+>
 > and we want to subtract from each column the mean of that column divided
 > by the standard deviation of it to yield:
 > 
-> >   .    c1          c2          c3
-> >   ---- ----------- ----------- -----------
-> >   g1   9.351737    17.784353   28.550737
-> >   g2   2.351737    7.784353    7.550737
-> >   g3   3.351737    5.784353    8.550737
-> >   g4   80.351737   7.784353    8.550737
+>   |  | c1 | c2 | c3 |
+>   |--|----|----|----|
+>   g1 | 9.351737 | 17.784353 | 28.550737 |
+>   g2 | 2.351737 | 7.784353 | 7.550737 |
+>   g3 | 3.351737 | 5.784353 | 8.550737 |
+>   g4 | 80.351737 | 7.784353 | 8.550737 |
 > 
 > In Galaxy we would select the following:
 > 
@@ -235,19 +235,19 @@ To get you started, here are some concrete step-by-step examples taken directly 
 > 
 > Table 2
 > 
-> >   .    c1   c2
-> >   ---- ---- ----
-> >   g1   1    2
-> >   g2   3    4
-> >   g3   6    5
-> >
+>   |  | c1 | c2 |
+>   |--|----|----|
+>   g1 | 1 | 2 |
+>   g2 | 3 | 4 |
+>   g3 | 6 | 5 |
+>
 > Table 3
 > 
-> >   .    c1   c2   c3
-> >   ---- ---- ---- ----
-> >   g1   1    2    3
-> >   g2   1    2    3
-> >
+>   |  | c1 | c2 | c3 |
+>   |--|----|----|----|
+>   g1 | 1 | 2 | 3 |
+>   g2 | 1 | 2 | 3 |
+>
 > *Note that the dimensions of these tables do not match.*
 > 
 > Dimensions:
@@ -276,15 +276,15 @@ To get you started, here are some concrete step-by-step examples taken directly 
 > To perform these types of operations in Galaxy we would select the
 > following:
 > 
-> > -   *Input Single or Multiple Tables* → **Multiple Tables**
-> > -   *(For each inserted table)*
-> >     :   -   *Column names on first row?* → **Yes**
-> >         -   *Row names on first column?* → **Yes**
-> >
-> > -   *Custom Expression* → :
-> >
-> >         <insert your desired function>
-> >
+> -   *Input Single or Multiple Tables* → **Multiple Tables**
+> -   *(For each inserted table)*
+>     :   -   *Column names on first row?* → **Yes**
+>         -   *Row names on first column?* → **Yes**
+>
+> -   *Custom Expression* → :
+>
+>         <insert your desired function>
+>
 > Please note that the last example shown above was chosen to illustrate
 > the limitations of the tool. Nested attributes like table2.values.max
 > are disallowed in expressions in the tool so the above would have to be
@@ -302,32 +302,32 @@ To get you started, here are some concrete step-by-step examples taken directly 
 > 
 > We have the following table
 > 
-> >   .   A   B   C
-> >   --- --- --- ---
-> >   0   a   B   1
-> >   1   b   B   3
-> >   2   c   B   5
-> >
+>   |  | A | B | C |
+>   |--|---|---|---|
+>   0 | a | B | 1 |
+>   1 | b | B | 3 |
+>   2 | c | B | 5 |
+>
 > and we want:
 > 
-> >   .   A   variable   value
-> >   --- --- ---------- -------
-> >   0   a   B          B
-> >   1   b   B          B
-> >   2   c   B          B
-> >   3   a   C          1
-> >   4   b   C          3
-> >   5   c   C          5
-> >
+>   |  | A | variable | value |
+>   |--|---|----------|-------|
+>   0 | a | B | B |
+>   1 | b | B | B |
+>   2 | c | B | B |
+>   3 | a | C | 1 |
+>   4 | b | C | 3 |
+>   5 | c | C | 5 |
+>
 > In Galaxy we would select the following:
 > 
-> > -   *Input Single or Multiple Tables* → **Single Table**
-> > -   *Column names on first row?* → **Yes**
-> > -   *Row names on first column?* → **Yes**
-> > -   *Type of table operation* → **Perform a Full Table Operation**
-> >     -   *Operation* → **Melt**
-> >     -   *Variable IDs* → "A"
-> >     -   *Unpivoted IDs* → "B,C"
+> -   *Input Single or Multiple Tables* → **Single Table**
+> -   *Column names on first row?* → **Yes**
+> -   *Row names on first column?* → **Yes**
+> -   *Type of table operation* → **Perform a Full Table Operation**
+>     -   *Operation* → **Melt**
+>     -   *Variable IDs* → "A"
+>     -   *Unpivoted IDs* → "B,C"
 > 
 > This converts the "B" and "C" columns into variables.
 > 
@@ -336,13 +336,13 @@ To get you started, here are some concrete step-by-step examples taken directly 
 > 
 > We have the following table
 > 
-> >   .   foo   bar   baz   zoo
-> >   --- ----- ----- ----- -----
-> >   0   one   A     1     x
-> >   1   one   B     2     y
-> >   2   one   C     3     z
-> >   3   two   A     4     q
-> >   4   two   B     5     w
-> >   5   two   C     6     t
-> >
+>   |  | foo | bar | baz | zoo |
+>   |--|-----|-----|-----|-----|
+>   0 | one | A | 1 | x |
+>   1 | one | B | 2 | y |
+>   2 | one | C | 3 | z |
+>   3 | two | A | 4 | q |
+>   4 | two | B | 5 | w |
+>   5 | two | C | 6 | t |
+>
   
