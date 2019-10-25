@@ -4,7 +4,7 @@ tags: [tools]
 title: Use the power of pandas / numpy to transform tabular datasets in a myriad of ways with our new Table Compute tool.
 ---
 
-With [Table Compute](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/0.9.2)
+With [Table Compute](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/0.9.2){:target="_self"}
 you can:
 - drop or duplicate given rows or columns from a tabular dataset
 - filter rows or columns on their properties
