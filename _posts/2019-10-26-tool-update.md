@@ -7,21 +7,34 @@ supporters:
 - elixir
 ---
 
-On 2019-10-26, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #148](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#148/)
+On 2019-10-26, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #149](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#149/)
 
 
 ## HCA-Single Cell
 
-- gtf2gene_list was updated to [b6354c917ef9](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/gtf2gene_list/b6354c917ef9)
+- hca_matrix_downloader was updated to [2e81fbe036b2](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/hca_matrix_downloader/2e81fbe036b2)
 
 ## Statistics
 
 - dwt_var_perfeature was updated to [cb1c59d69557](https://toolshed.g2.bx.psu.edu/view/devteam/dwt_var_perfeature/cb1c59d69557)
+- transformation was updated to [d9e05021553c](https://toolshed.g2.bx.psu.edu/view/ethevenot/transformation/d9e05021553c)
+
+## GraphClust
+
+- graphclust_align_cluster was updated to [953353eacec2](https://toolshed.g2.bx.psu.edu/view/rnateam/graphclust_align_cluster/953353eacec2)
+- graphclust_cmfinder was updated to [7e7f43d58e13](https://toolshed.g2.bx.psu.edu/view/rnateam/graphclust_cmfinder/7e7f43d58e13)
+
+## Convert Formats
+
+- idconvert was updated to [9e6e840d6b52](https://toolshed.g2.bx.psu.edu/view/galaxyp/idconvert/9e6e840d6b52)
+- msconvert was updated to [9ec469ff191a](https://toolshed.g2.bx.psu.edu/view/galaxyp/msconvert/9ec469ff191a)
+- msconvert was updated to [cc5ccfa8ee28](https://toolshed.g2.bx.psu.edu/view/galaxyp/msconvert/cc5ccfa8ee28)
+- thermo_raw_file_converter was updated to [edbeb2956484](https://toolshed.g2.bx.psu.edu/view/galaxyp/thermo_raw_file_converter/edbeb2956484)
 
 ## Operate on Genomic Intervals
 
-- bedtools was updated to [4f7a5ccd2ae9](https://toolshed.g2.bx.psu.edu/view/iuc/bedtools/4f7a5ccd2ae9)
-- bedtools was updated to [87ee588b3d45](https://toolshed.g2.bx.psu.edu/view/iuc/bedtools/87ee588b3d45)
+- bedtools was updated to [6bb3cd018203](https://toolshed.g2.bx.psu.edu/view/iuc/bedtools/6bb3cd018203)
+- bedtools was updated to [db1841942d2b](https://toolshed.g2.bx.psu.edu/view/iuc/bedtools/db1841942d2b)
 
 ## Climate Analysis
 
@@ -29,18 +42,16 @@ On 2019-10-26, the tools on UseGalaxy.eu were updated by our automated tool upda
 
 ## Phylogenetics
 
-- gafa was updated to [af9f72ddf7f9](https://toolshed.g2.bx.psu.edu/view/earlhaminst/gafa/af9f72ddf7f9)
 - t_coffee was updated to [0a189243186d](https://toolshed.g2.bx.psu.edu/view/earlhaminst/t_coffee/0a189243186d)
 - t_coffee was updated to [c67bd5acbae2](https://toolshed.g2.bx.psu.edu/view/earlhaminst/t_coffee/c67bd5acbae2)
 
 ## Get Data
 
 - spocc_occ was updated to [f9d76a46799a](https://toolshed.g2.bx.psu.edu/view/ecology/spocc_occ/f9d76a46799a)
+- ebi_metagenomics_run_downloader was updated to [a1ef6c88ee37](https://toolshed.g2.bx.psu.edu/view/iuc/ebi_metagenomics_run_downloader/a1ef6c88ee37)
+- ebi_metagenomics_run_downloader was updated to [e2e9fae080ad](https://toolshed.g2.bx.psu.edu/view/iuc/ebi_metagenomics_run_downloader/e2e9fae080ad)
+- ebi_search_rest_results was updated to [b6029f2c71cb](https://toolshed.g2.bx.psu.edu/view/iuc/ebi_search_rest_results/b6029f2c71cb)
 - sra_tools was updated to [b723c120161a](https://toolshed.g2.bx.psu.edu/view/iuc/sra_tools/b723c120161a)
-
-## Mapping
-
-- bismark was updated to [9d02cd7883ad](https://toolshed.g2.bx.psu.edu/view/bgruening/bismark/9d02cd7883ad)
 
 ## Join, Subtract and Group
 
@@ -50,40 +61,36 @@ On 2019-10-26, the tools on UseGalaxy.eu were updated by our automated tool upda
 
 - sample_seqs was updated to [7c40a1fbc82e](https://toolshed.g2.bx.psu.edu/view/peterjc/sample_seqs/7c40a1fbc82e)
 
+## Epigenetics
+
+- metilene was updated to [cd253831a014](https://toolshed.g2.bx.psu.edu/view/rnateam/metilene/cd253831a014)
+
 ## Graph/Display Data
 
 - plotly_ml_performance_plots was updated to [4fac53da862f](https://toolshed.g2.bx.psu.edu/view/bgruening/plotly_ml_performance_plots/4fac53da862f)
-- plotly_ml_performance_plots was updated to [85da91bbdbfb](https://toolshed.g2.bx.psu.edu/view/bgruening/plotly_ml_performance_plots/85da91bbdbfb)
-- plotly_regression_performance_plots was updated to [0800a1b66bbd](https://toolshed.g2.bx.psu.edu/view/bgruening/plotly_regression_performance_plots/0800a1b66bbd)
 
 ## Imaging
 
-- imagecoordinates_flipaxis was updated to [5a210baa2ff1](https://toolshed.g2.bx.psu.edu/view/imgteam/imagecoordinates_flipaxis/5a210baa2ff1)
 - landmark_registration was updated to [a71239f3543a](https://toolshed.g2.bx.psu.edu/view/imgteam/landmark_registration/a71239f3543a)
-- landmark_registration was updated to [b0503eec7bd6](https://toolshed.g2.bx.psu.edu/view/imgteam/landmark_registration/b0503eec7bd6)
-
-## RNA Analysis
-
-- infernal was updated to [477d829d3250](https://toolshed.g2.bx.psu.edu/view/bgruening/infernal/477d829d3250)
-- rnaz was updated to [58fd61a8362e](https://toolshed.g2.bx.psu.edu/view/bgruening/rnaz/58fd61a8362e)
 
 ## Metabolomics
 
 - xcms_xcmsset was updated to [3bd53dcfa438](https://toolshed.g2.bx.psu.edu/view/lecorguille/xcms_xcmsset/3bd53dcfa438)
 
-## ChemicalToolBox
+## RNA Analysis
 
-- gmx_em was updated to [6d9a9ab96195](https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_em/6d9a9ab96195)
-- gmx_em was updated to [ea7b9183bf30](https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_em/ea7b9183bf30)
-- gmx_md was updated to [609d93596b61](https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_md/609d93596b61)
-- gmx_npt was updated to [5b01e6df25a0](https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_npt/5b01e6df25a0)
-- gmx_npt was updated to [93e39b0321c7](https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_npt/93e39b0321c7)
-- gmx_setup was updated to [acc9922f3eab](https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_setup/acc9922f3eab)
-- gmx_setup was updated to [c124921a9e5f](https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_setup/c124921a9e5f)
-- gmx_solvate was updated to [65946f250c89](https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_solvate/65946f250c89)
-- gmx_solvate was updated to [77aaf9a68166](https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_solvate/77aaf9a68166)
+- infernal was updated to [477d829d3250](https://toolshed.g2.bx.psu.edu/view/bgruening/infernal/477d829d3250)
+- aresite2 was updated to [a3ce813ed604](https://toolshed.g2.bx.psu.edu/view/rnateam/aresite2/a3ce813ed604)
+- paralyzer was updated to [4dbe81be8b81](https://toolshed.g2.bx.psu.edu/view/rnateam/paralyzer/4dbe81be8b81)
 
-## Epigenetics
+## Apollo
 
-- metilene was updated to [cd253831a014](https://toolshed.g2.bx.psu.edu/view/rnateam/metilene/cd253831a014)
+- apollo_export was updated to [ad02f02c75e3](https://toolshed.g2.bx.psu.edu/view/gga/apollo_export/ad02f02c75e3)
+- apollo_feat_from_gff3 was updated to [922dd0b252c8](https://toolshed.g2.bx.psu.edu/view/gga/apollo_feat_from_gff3/922dd0b252c8)
+- apollo_fetch_jbrowse was updated to [331a3bde732e](https://toolshed.g2.bx.psu.edu/view/gga/apollo_fetch_jbrowse/331a3bde732e)
+
+## Single-cell
+
+- raceid_inspectclusters was updated to [0fa80752a314](https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspectclusters/0fa80752a314)
+- raceid_inspectclusters was updated to [106718959281](https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspectclusters/106718959281)
 
