@@ -62,7 +62,7 @@ Enjoy!
 
 <div class="flex-container">
 	<a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_jupyter_notebook" target="_top">
-	  <img class="card-img-top" src="https://jupyter.org/assets/main-logo.svg" title="Jupyter Lab with various kernerls including R and Julia" />
+	  <img class="card-img-top" src="https://jupyter.org/assets/main-logo.svg" title="Jupyter Lab with various kernerls including Python, R and Julia" />
 	</a>
 
 	<a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_rstudio" target="_top">
