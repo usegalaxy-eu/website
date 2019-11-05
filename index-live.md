@@ -55,7 +55,7 @@ back and forth between Galaxy and Jupyter resp. RStudio. Of course you can also 
 save all provanace information.
 
 If you start an Interactive tool it will keep spinning in a yellow state as long as the Container is running. To open your Tool you open the link
-at <a href="https://live.usegalaxy.eu/interactivetool_entry_points/list">User Active InteractiveTools</a>. The eye icon of your Galaxy dataset
+at <a href="https://live.usegalaxy.eu/interactivetool_entry_points/list" target="_top">User Active InteractiveTools</a>. The eye icon of your Galaxy dataset
 is not working yet.
 
 Enjoy!
