@@ -71,7 +71,7 @@ margin: auto;
     Every user can start up to 10 different interactive tools simultanously and can keep them running upto 30 days.
     You can interact with Galaxy via the API and in Jupyter and RStudio we have added convinient functions (put/get) to transfer data
     back and forth between Galaxy and Jupyter resp. RStudio. Of course you can also store your entire Notebook or R session back to Galaxy and
-    save all provanace information in a permanent storage.
+    save all provenance information in a permanent storage.
     <br/>
     If you start an Interactive tool it will keep spinning in a yellow state as long as the Container is running. To open your Tool you open the link
     at <a href="https://live.usegalaxy.eu/interactivetool_entry_points/list" target="_top">User → Active InteractiveTools</a>. The eye icon of your Galaxy dataset
