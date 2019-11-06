@@ -9,9 +9,9 @@ width: 100% !important;
 .mcard {
   box-shadow: 0px 0px 10px grey;
   display: flex;
-  width: 21%;
+  width: 300px;
   flex-direction: column;
-  margin: 2em;
+  margin: 1em;
   padding: 1em;
 }
 .mcard .card-img-top {
@@ -45,16 +45,6 @@ width: 100% !important;
 margin: auto;
 }
 
-p {
-  margin: 1em;
-  text-align: justify;
-}
-
-.textcard {
-  margin-bottom: 0.5em;
-  color: #333;
-}
-
 </style>
 
 Welcome to the live instance of the European Galaxy server. This is your gateway to start interactive tools, such as
@@ -72,62 +62,51 @@ Enjoy!
 
 <div class="flex-container">
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_jupyter_notebook" target="_top">
-      <p class="textcard">Jupyter lab for Python, R and Julia</p>
       <img class="card-img-top" src="https://jupyter.org/assets/main-logo.svg" title="Jupyter Lab with various kernerls including Python, R and Julia" />
     </a>
 
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_rstudio" target="_top">
-      <p class="textcard">RStudio with basic R packages</p>
       <img class="card-img-top" src="/assets/media/interactive/rstudio.png" title="RStudio with a basic R packages pre-installed."/>
       <h2>RStudio</h2>
     </a>
 
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_askomics" target="_top">
-      <p class="textcard">SPARQL query interface</p>
       <img class="card-img-top" src="/assets/media/interactive/askomics.png" title="AskOmics is a visual SPARQL query interface supporting both intuitive data integration and querying while shielding the user from most of the technical difficulties underlying RDF and SPARQL."/>
     </a>
 
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_bam_iobio" target="_top">
-      <p class="textcard">Examine sequence alignment in seconds</p>
       <img class="card-img-top" src="/assets/media/interactive/bam.iobio.png" title="Examine your sequence alignment file in seconds." />
       <h2>BAM IOBIO</h2>
     </a>
 
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_cellxgene" target="_top">
-      <p class="textcard">Explore single-cell transcriptomics data</p>
       <img class="card-img-top" src="/assets/media/interactive/cellxgene.svg" title="An interactive explorer for single-cell transcriptomics data" />
     </a>
 
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_ethercalc" target="_top">
-      <p class="textcard">Web spreadsheet</p>
       <img class="card-img-top" src="/assets/media/interactive/ethercalc.png" title="EtherCalc is a web spreadsheet" />
       <h2>Ethercalc</h2>
     </a>
 
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_paraview" target="_top">
-      <p class="textcard">Multi-platform data analysis and visualization</p>
       <img class="card-img-top" src="/assets/media/interactive/paraview.svg" title="ParaView is an open-source, multi-platform data analysis and visualization application." />
       <h2>Paraview</h2>
     </a>
 
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_neo4j" target="_top">
-      <p class="textcard">Graph database management system</p>
-      <img class="card-img-top" src="/assets/media/interactive/neo4j.png" title="Neo4j is a graph database management system storing and processing data as graphs." />
+      <img class="card-img-top" src="/assets/media/interactive/neo4j.png" />
     </a>
 
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_phinch" target="_top">
-      <p class="textcard">Visualise large biological datasets (microbiomes, metagenomes, etc.)</p>
       <img class="card-img-top" src="/assets/media/interactive/phinch.svg" title="Phinch is a data visualization framework aimed at promoting novel explorations of large biological datasets (microbiomes, metagenomes, etc.)" />
     </a>
 
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_wallace" target="_top">
-      <p class="textcard">Model niches and distributiions of species</p>
       <img class="card-img-top" src="/assets/media/interactive/wallace.jpg" title="Wallace is a modular platform for reproducible modeling of species niches and distributions" />
       <h2>Wallace</h2>
     </a>
 
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_wilson" target="_top">
-      <p class="textcard">Webbased Interactive Omics visualizatioN</p>
       <img class="card-img-top" src="/assets/media/interactive/wilson.png" title="Webbased Interactive Omics visualizatioN" />
     </a>
 
