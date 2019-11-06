@@ -111,8 +111,7 @@ margin: auto;
       <h2>Ethercalc</h2>
       <p class="textcard">A web spreadsheet</p>
     </a>
-
-    <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_paraview" target="_top">
+    <!-- <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_paraview" target="_top">
       <img class="card-img-top" src="/assets/media/interactive/paraview.svg" title="ParaView is an open-source, multi-platform data analysis and visualization application." />
       <h2>Paraview</h2>
       <p class="textcard">Multi-platform data analysis and visualization</p>
@@ -121,8 +120,7 @@ margin: auto;
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_neo4j" target="_top">
       <img class="card-img-top" src="/assets/media/interactive/neo4j.png" title="Neo4j is a graph database management system storing and processing data as graphs." />
       <p class="textcard">Graph database management system</p>
-    </a>
-
+    </a> -->
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_phinch" target="_top">
       <img class="card-img-top" src="/assets/media/interactive/phinch.svg" title="Phinch is a data visualization framework aimed at promoting novel explorations of large biological datasets (microbiomes, metagenomes, etc.)" />
       <p class="textcard">Visualise large biological datasets (microbiomes, metagenomes, etc.)</p>
