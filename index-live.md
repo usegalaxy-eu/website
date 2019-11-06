@@ -4,10 +4,11 @@ layout: default-galaxy
 <style type="text/css">
 #maincontainer {
 width: 100% !important;
+padding-left: 0px !important;
 }
 
 .mcard {
-  box-shadow: 0px 0px 10px grey;
+  box-shadow: 0px 0px 10px #ccc;
   display: flex;
   width: 21%;
   flex-direction: column;
@@ -50,15 +51,16 @@ margin: auto;
   text-align: justify;
   overflow: hidden;
   position: fixed;
-  margin: 0em 1em 1em 1em;
-  padding-top: 1%;
-  background-color: #fefefe;
+  padding: 1%;
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 10px black;
 }
 
 .textcard {
   margin-bottom: 0.5em;
   color: #333;
   text-align: center;
+  font-weight: bold;
 }
 
 </style>
