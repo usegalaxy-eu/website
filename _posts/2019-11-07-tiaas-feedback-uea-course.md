@@ -21,7 +21,8 @@ timeframe and allow an interactive teaching experience for the students without 
 TIaaS was perfect for us, I taught 60 students to analyse and interpret RNA-Seq datasets over 3 x 3-hour practical sessions and received really good feedback. 
 At no point in the sessions were students waiting more than a few minutes for jobs to complete on the subsampled published datasets that I had given them. 
 I created my own teaching materials for this course but there is already an excellent guide [“Reference-based RNA-Seq data analysis”](https://training.galaxyproject.org/training-material/topics/transcriptomics/) on the [Galaxy Training Network](https://training.galaxyproject.org/) 
-that I could have used or adapted. I am really pleased with how everything went and very grateful for the TIaaS at [UseGalaxy.eu](https://usegalaxy.eu) . I hope that this experience has 
+that I could have used or adapted. I am really pleased with how everything went and
+very grateful for the TIaaS at [UseGalaxy.eu](https://usegalaxy.eu). I hope that this experience has 
 made my students less scared of and more interested in continuing to build skills in bioinformatics.  
 
 Thank you to the [Freiburg Galaxy team](https://galaxyproject.eu/freiburg/) for all of your help with setting this up, I would highly recommend TIaaS to anyone thinking of setting up any future Galaxy training!  
