@@ -15,8 +15,3 @@ Whenever you see a black screen with lot of characters on your lab desktop, you 
 It is evidently daunting for noobs to understand the nooks and corners of command line to do anything. It was solved by UseGalaxy. Truly I learnt NGS analyses using Galaxy tool only. It had given me opportunity to play around and explore the things. Now I am aware of tools, the workflow, formats and output. Because of that trainings I can even use standalone tools with much ease.
 
 And to be precise I can say UseGalaxy is a well organised and very helpful bioinformatic mall for dummies (not anymore) like me."
-
-
-
-
-
