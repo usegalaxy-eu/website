@@ -142,7 +142,7 @@ margin: auto;
 
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_pyiron" target="_top">
       <img class="card-img-top" src="/assets/media/interactive/pyiron.png" title="An integrated development environment (IDE) for computational materials science." />
-      <p class="textcard">IDE for computational materials science</p>
+      <p class="textcard">IDE for Computational Materials Science</p>
     </a>
 
 </div>
