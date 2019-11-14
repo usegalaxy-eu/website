@@ -50,7 +50,6 @@ margin: auto;
 .live-header-text {
   text-align: justify;
   overflow: hidden;
-  position: fixed;
   padding: 1%;
   background-color: #f8f8f8;
   box-shadow: 0px 0px 10px black;
