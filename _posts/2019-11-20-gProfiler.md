@@ -14,11 +14,11 @@ gProfiler supports close to [500 organisms](https://biit.cs.ut.ee/gprofiler/page
 
 gProfiler has been supporting developers by offering a standardized access through public APIs. The usage of APIs was simplified by wrapping them into Python and R packages. The latter, [gprofiler2](https://CRAN.R-project.org/package=gprofiler2) (which was published as a Conda Forge package named [r-gprofiler2](https://anaconda.org/conda-forge/r-gprofiler2)), was wrapped to be used as a set of Galaxy tools:
 
-- [gProfiler GOSt](https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_gost/) performs functional enrichment analysis, also known as over-representation analysis (ORA) or gene set enrichment analysis, on input gene list; in addition to the detailed tabular results, it can also create a Plotly graph with the Manhattan plot very similar to the one shown by the [web tool](https://biit.cs.ut.ee/gprofiler/).
-- [gProfiler Convert](https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_convert/) enables to convert between various gene, protein, microarray probe and numerous other types of namespaces
-- [gProfiler Orth](https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_orth/) translates gene identifiers between organisms
-- [gProfiler SNPense](https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_snpense/) maps SNP rs-codes to gene names, chromosomal coordinates and variant effects
-- [gProfiler Random](https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_random/) fetches a (not actually random) list of gene identifiers; useful for testing purposes.
+- [gProfiler GOSt](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_gost/gprofiler_gost/) performs functional enrichment analysis, also known as over-representation analysis (ORA) or gene set enrichment analysis, on input gene list; in addition to the detailed tabular results, it can also create a Plotly graph with the Manhattan plot very similar to the one shown by the [web tool](https://biit.cs.ut.ee/gprofiler/).
+- [gProfiler Convert](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_convert/gprofiler_convert/) enables to convert between various gene, protein, microarray probe and numerous other types of namespaces
+- [gProfiler Orth](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_orth/gprofiler_orth/) translates gene identifiers between organisms
+- [gProfiler SNPense](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_snpense/gprofiler_snpense/) maps SNP rs-codes to gene names, chromosomal coordinates and variant effects
+- [gProfiler Random](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_random/gprofiler_random/) fetches a (not actually random) list of gene identifiers; useful for testing purposes.
 
 gProfiler Galaxy toolset was admitted to the [Galaxy Tools IUC](https://galaxyproject.org/iuc). It is distributed via the ToolShed and can be installed as a bundle with the [gProfiler tool suite](https://toolshed.g2.bx.psu.edu/view/iuc/suite_gprofiler/) repository.
 
