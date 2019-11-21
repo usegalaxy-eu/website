@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: We are striking - in earnest!
+title: All has been said - act!
 tags: [s4f]
 ---
 
