@@ -10,12 +10,15 @@ Galaxy Team is going to express its support more directly:
 The team will be striking like last time but, in addition, **we will not
 schedule new jobs on the European Galaxy server for the whole day**.
 
-We will not interrupt running jobs so, to some extent, you should be able to
-work around this service interruption.
+Running jobs will not be interrupted, but no new jobs will start to run. They will stay grey
+for the entire day.
 
 Again, we encourage all of you to join one of the huge number of strikes
 [that will be taking place world-wide](https://fridaysforfuture.org/statistics/map?d=2019-11-29) on this day!
 
+The Freiburg Galaxy Team will be striking in Freiburg. If you are nearby join us - and maybe we will find time
+to talk about research as well :)
+
 <div class="multiple-img">
-        <iframe width="1000" height="600" src="https://globalclimatestrike.net/#map" frameborder="0" allowfullscreen></iframe>
+    <iframe width="1000" height="600" src="https://globalclimatestrike.net/#map" frameborder="0" allowfullscreen></iframe>
 </div>
