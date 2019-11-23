@@ -19,3 +19,11 @@
         #date: 2019-05-03 11:21:04+02:00
         #
         #
+
+- title: Enough talking - time to act!
+  class: info # one of [success, info, warning, danger]
+  site: freiburg    # Your site
+  messages:
+      - message: |
+          The Freiburg Galaxy team will be striking on the 29.11.2019. No new jobs will be processed during the whole day.
+          For more information please see our [blog post](https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really).
