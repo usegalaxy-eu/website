@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: All has been said - act!
+title: Enough talking - time to act!
 tags: [s4f]
 ---
 
@@ -19,4 +19,3 @@ Again, we encourage all of you to join one of the huge number of strikes
 <div class="multiple-img">
         <iframe width="1000" height="600" src="https://globalclimatestrike.net/#map" frameborder="0" allowfullscreen></iframe>
 </div>
-
