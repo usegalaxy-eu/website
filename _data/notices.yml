@@ -21,7 +21,7 @@
         #
 
 - title: Enough talking - time to act!
-  class: warning # one of [success, info, warning, danger]
+  class: danger # one of [success, info, warning, danger]
   site: freiburg # Your site
   messages:
       - message: |
