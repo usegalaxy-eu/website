@@ -20,10 +20,10 @@
         #
         #
 
-- title: Enough talking - time to act!
-  class: danger # one of [success, info, warning, danger]
-  site: freiburg # Your site
-  messages:
-      - message: |
-          The Freiburg Galaxy team will be striking today (29.11.2019). No new jobs will be processed today!
-          For more information please see our [blog post](https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really).
+#- title: Enough talking - time to act!
+#  class: danger # one of [success, info, warning, danger]
+#  site: freiburg # Your site
+#  messages:
+#      - message: |
+#          The Freiburg Galaxy team will be striking today (29.11.2019). No new jobs will be processed today!
+#          For more information please see our [blog post](https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really).
