@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: 'Training Infrastructure Feedback from Giovanni F. Widmer'
+title: 'Training Infrastructure Feedback from Giovanni Widmer'
 tags: [training, tiaas]
 supporters:
 - galaxy-europe
