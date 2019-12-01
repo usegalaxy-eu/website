@@ -67,7 +67,7 @@ margin: auto;
     Welcome to the live instance of the European Galaxy server. This is your gateway to start interactive tools, such as
     <a href="https://jupyter.org/">Jupyter</a>, <a href="https://rstudio.com/">RStudio</a> or other web-applications.
     Each Interactive Tool runs in its own container on the <a href="https://www.denbi.de/cloud" target="_blank">de.NBI-cloud</a>. 
-    Every user can start up to 10 different interactive tools simultanously and can keep them running upto 30 days.
+    Every <br>registered</br> user can start up to 10 different interactive tools simultanously and can keep them running upto 30 days.
     You can interact with Galaxy via the API and in Jupyter and RStudio we have added convinient functions (put/get) to transfer data
     back and forth between Galaxy and Jupyter resp. RStudio. Of course you can also store your entire Notebook or R session back to Galaxy and
     save all provenance information in a permanent storage.
