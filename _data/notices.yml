@@ -12,8 +12,8 @@
   site: freiburg # Your site
   messages:
       - message: |
-          Due to maintainence work on the de.NBI cloud we need to shutdown large parts of our compute infrastructure on the
-          12.12.2019. We are hopefull to keep the webserver running and accept jobs and workflows, but there will be a delay
+          Due to maintenance work on the de.NBI cloud we need to shutdown large parts of our compute infrastructure on the
+          12.12.2019. We are hopeful to keep the webserver running and accept jobs and workflows, but there will be a delay
           in computing them.
 
 #- title: Enough talking - time to act!
