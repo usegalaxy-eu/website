@@ -11,12 +11,4 @@ layout: default-galaxy
 
 {% include data-policy.html %}
 {% include home_done.html %}
-{% if page.gitter %}
-<script>
-  ((window.gitter = {}).chat = {}).options = {
-  room: '{{ page.gitter }}'
-  };
-</script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-{% endif %}
 </div>
