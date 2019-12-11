@@ -10,7 +10,7 @@ author: erasche
 
 The [Gallantries Project](https://galaxy-carpentries.github.io/gallantries/) recently had their final meeting in Thessaloniki, Greece!
 
-During this meeting we [refactored the lessons for R, and RStduio](https://github.com/galaxyproject/training-material/pull/1672). Following feedback from previous workshops, we knew that these lessons needed some more real life testing in order to smooth out their rough edges, ensuring that the content would approachable for everyone. There were several folks at [INAB CERTH](http://www2.inab.certh.gr), the host for our meeting, who were interested in this topic. So we decided to give a last minute pop-up course on making volcano plots in R!
+During this meeting we [refactored the lessons for R, and RStudio](https://github.com/galaxyproject/training-material/pull/1672). Following feedback from previous workshops, we knew that these lessons needed some more real life testing in order to smooth out their rough edges, ensuring that the content would approachable for everyone. There were several folks at [INAB CERTH](http://www2.inab.certh.gr), the host for our meeting, who were interested in this topic. So we decided to give a last minute pop-up course on making volcano plots in R!
 
 ![Helena going through the R lesson](/assets/media/gallantries-training.jpeg)
 
