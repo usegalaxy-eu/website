@@ -13,5 +13,5 @@ This would not be possible without the support of [de.NBI](https://www.denbi.de/
 [EOSC](https://ec.europa.eu/research/openscience/index.cfm?pg=open-science-cloud) and the Freiburg [Faculty of Medicine](http://www.med.uni-freiburg.de).
 
 Thanks to all our users and people that have contributed to this project! Special thankts our partner sites [Erasmus MC](https://galaxyproject.eu/erasmusmc/),
-[Belgium](https://galaxyproject.eu/belgium/) and [Pasteur](https://galaxyproject.eu/pasteur/) and the [Galaxy community](https://galaxyproject.org/community/).
+[Belgium](https://galaxyproject.eu/vib/) and [Pasteur](https://galaxyproject.eu/pasteur/) and the [Galaxy community](https://galaxyproject.org/community/).
 
