@@ -92,8 +92,8 @@ team_sites:
           To inquire about this Galaxy server, increasing your disk quotum, or possibilities for collaborative
           projects, please contact one of our [team](/erasmusmc/people)
     belgium:
-      name: Belgium
-      url: /belgium/
+      name: VIB
+      url: /vib/
       #email:
       #twitter_username: erasmusmc
       #github_username: erasmusmc-bioinformatics
