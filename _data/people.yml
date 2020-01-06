@@ -49,14 +49,14 @@ freiburg:
         gitter: wm75
         bio:
 
-    erasche:
+    hexylena:
         name: Helena Rasche
         title: B.Sc. Biochem., Technician
         email: hxr@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54128
         location: "Build.: 079, Room: -1005a"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        gitter: erasche
+        gitter: hexylena
         orcid: 0000-0001-9760-8992
         galaxyadmin: true
 

@@ -81,7 +81,7 @@ MetaQuantome | Quantitative analysis of the function and taxonomy of microbiomes
 # Contributors
 
 - [Bjoern Gruening](https://github.com/bgruening)
-- [Helena Rasche](https://github.com/erasche)
+- [Helena Rasche](https://github.com/hexylena)
 - [Ray Sajulga](https://github.com/jraysajulga)
 - [Subina Mehta](https://github.com/bebatut)
 
