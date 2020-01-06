@@ -46,27 +46,8 @@ We developed several tutorials together with the [GTN community](https://galaxyp
 
 Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy tour | Galaxy History
 --- | --- | --- | --- | --- | --- | ---
-Introduction to Transcriptomics | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html){:target="_blank"} |  |  |  |  |
-RNA-seq counts to genes |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-genes/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://figshare.com/s/1d788fd384d33e913a2a){:target="_blank"} | |  |
-RNA-seq genes to pathways |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-genes-to-pathways/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2596382){:target="_blank"} | |  |
-RNA-Seq reads to counts |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-reads-to-counts/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://figshare.com/s/f5d63d8c265a05618137){:target="_blank"} | |  |
-Analyse unaligned ncRNAs |  |  |  | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=5cd167ed9e159e73){:target="_blank"} |  |
-CLIP-Seq data analysis from pre-processing to motif detection |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1327423){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=f5be5bcf9b9f171c){:target="_blank"} |  | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/joerg-fallmann/h/eclipworkflow){:target="_blank"}
-De novo transcriptome reconstruction with RNA-Seq |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/de-novo/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/254485){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=f026c4b8341ff94c){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/rnateam.de-novo){:target="_blank"} |
-Differential abundance testing of small RNAs |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/826906){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=7734928ebc0a2654){:target="_blank"} [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=1ffc058273ab357e){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/differential_abundance_testing_sRNAs){:target="_blank"} |
-Network analysis with Heinz | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/slides.html){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1344105){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=12c80c5b5e2305d8){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/rnateam.network-analysis-with-heinz){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/videmp/h/rna-workbench-network-analysis-with-heinz){:target="_blank"}
-PAR-CLIP analysis |  |  | [<i class="fa fa-files-o" aria-hidden="true"></i>](http://doi.org/10.5281/zenodo.2553519){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=a108b575b16e6cb9){:target="_blank"} |  | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/joerg-fallmann/h/parclipworkflow){:target="_blank"}
-Reference-based RNA-Seq data analysis |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1185122){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=9c7a218993788493){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/ref_based_rna-seq){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/andrea.bagnacani/h/reference-based-rna-seq){:target="_blank"}
-RNA family model construction |  |  |  | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=8f2d958cee428ca1){:target="_blank"} |  |
-RNA-seq counts to genes |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-genes/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://figshare.com/s/f5d63d8c265a05618137){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=86f89f49431b1e2e){:target="_blank"} |  | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/videmp/h/rna-workbench-rna-seq-counts-to-genes){:target="_blank"}
-RNA-seq genes to pathways |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-genes-to-pathways/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2596382){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=3cb45f0d38e9fd42){:target="_blank"} |  | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/videmp/h/rna-workbench-rna-seq-genes-to-pathways){:target="_blank"}
-RNA-Seq reads to counts |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-reads-to-counts/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://figshare.com/s/f5d63d8c265a05618137){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=e89761c4bb25d89c){:target="_blank"} |  | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/videmp/h/rna-workbench-rna-seq-reads-to-counts-1){:target="_blank"}
-Scan for C/D-box sequences with segmentation-fold |  |  |  | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=3b717623054d5125){:target="_blank"} |  |
-Small Non-coding RNA Clustering using BlockClust |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/small_ncrna_clustering/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1491876){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=c7026cd5578c8678){:target="_blank"} |  | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/videmp/h/rna-workbench-small-non-coding-rna-clustering-using-blockclust){:target="_blank"}
-Visualization of RNA-Seq results with CummeRbund | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/slides.html){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1001880){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=17e720bee3b9104f){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/rna-seq-viz-with-cummerbund){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/videmp/h/rna-workbench-visualization-of-rna-seq-results-with-cummerbund){:target="_blank"}
-Visualization of RNA-Seq results with Volcano Plot |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2529117){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=fd156028b09d213a){:target="_blank"} |  | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/videmp/h/rna-workbench-visualization-of-rna-seq-results-with-volcano-plot){:target="_blank"}
-Visualization of RNA-Seq results with heatmap2 |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2529926){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=4dae6d48ba08c037){:target="_blank"} |  | [<i class="fa fa-list-ul" aria-hidden="true"></i>](https://rna.usegalaxy.eu/u/videmp/h/rna-workbench-visualization-of-rna-seq-results-with-heatmap2){:target="_blank"}
-ViennaRNA Introduction |  |  | [<i class="fa fa-files-o" aria-hidden="true"></i>](http://doi.org/10.5281/zenodo.2555028){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=58fd339165ded462){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>]({{ page.website }}/tours/rnateam.viennarna){:target="_blank"}| [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/joerg-fallmann/h/viennarnaintroduction){:target="_blank"}
+Age prediction using machine learning |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/age-prediction-with-ml/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2545213#.XEWTJ9-YVa0){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/age-prediction-with-ml/workflows/){:target="_blank"} |  |
+Basics of machine learning |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/machinelearning/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1468039#.W8zyxBRoSAo){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/machinelearning/workflows/){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/machinelearning/tours/){:target="_blank"} |
 {:.table.table-striped}
 
 
@@ -82,14 +63,31 @@ Identifying which category an object belongs to.
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="antaRNA" %} | Possibility of inverse RNA structure folding and a specification of a GC value constraint | [Kleinkauf et al. 2015](https://doi.org/10.1093/bioinformatics/btv319){:target="_blank"}
-{% include tool.html id="CoFold" %} | A thermodynamics-based RNA secondary structure folding algorithm | [Proctor and Meyer, 2015](https://doi.org/10.1093/nar/gkt174){:target="_blank"}
-{% include tool.html id="Kinwalker" %} | Algorithm for cotranscriptional folding of RNAs to obtain the min. free energy structure | [Geis et al. 2008](https://doi.org/10.1016/j.jmb.2008.02.064){:target="_blank"}
-{% include tool.html id="MEA" %} | Prediction of maximum expected accuracy RNA secondary structures | [Amman et al. 2013](https://doi.org/10.1007/978-3-319-02624-4_1){:target="_blank"}
-{% include tool.html id="RNAshapes" %} | Structures to a tree-like domain of shapes, retaining adjacency and nesting of structural features | [Janssen and Giergerich, 2014](https://doi.org/10.1093/bioinformatics/btu649){:target="_blank"}
-{% include tool.html id="RNAz" %} | Predicts structurally conserved and therm. stable RNA secondary structures in mult. seq. alignments | [Washietl et al. 2005](https://doi.org/10.1073/pnas.0409169102){:target="_blank"}
-{% include tool.html id="segmentation-fold" %}| An application that predicts RNA 2D-structure with an extended version of the Zuker algorithm | -
-ViennaRNA | A tool compilation for prediction and comparison of RNA secondary structures | [Lorenz et al. 2011](https://doi.org/10.1186/1748-7188-6-26){:target="_blank"}
+{% include tool.html id="sklearn_svm_classifier" %} | SVM classifier | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_train_test_eval" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="model_prediction" %} | | 
+{% include tool.html id="keras_batch_models" %} | | 
+{% include tool.html id="keras_model_builder" %} | | 
+{% include tool.html id="keras_model_config" %} | | 
+{% include tool.html id="sklearn_sample_generator" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_estimator_attributes" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_stacking_ensemble_models" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_searchcv" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_build_pipeline" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_pairwise_metrics" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_nn_classifier" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_ensemble" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_feature_selection" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_data_preprocess" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_clf_metrics" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_discriminant_classifier" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_generalized_linear" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_model_validation" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_fitted_model_eval" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_model_fit" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="sklearn_train_test_split" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="ml_visualization_ex" %} | | 
+{% include tool.html id="keras_train_and_eval" %} | | 
 {: .table.table-striped .tooltable}
 
 ## Regression
@@ -98,11 +96,7 @@ Predicting a continuous-valued attribute associated with an object.
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="Compalignp" %} | An RNA counterpart of the protein specific "Benchmark Alignment Database" | [Wilm et al. 2006](https://doi.org/10.1186/1748-7188-1-19){:target="_blank"}
-{% include tool.html id="LocARNA" %} | A tool for multiple alignment of RNA molecules | [Will et al. 2012](https://doi.org/10.1261/rna.029041.111){:target="_blank"}
-{% include tool.html id="MAFFT" %} | A multiple sequence alignment program for unix-like operating systems | [Katoh and Standley, 2016](https://doi.org/10.1093/bioinformatics/btw108){:target="_blank"}
-{% include tool.html id="RNAlien" %} | A tool for RNA family model construction | [Eggenhofer et al. 2016](https://doi.org/10.1093/nar/gkw558){:target="_blank"}
-{% include tool.html id="CMV" %} | RNA family model visualisation | [Eggenhofer et al. 2018](https://doi.org/10.1093/bioinformatics/bty158){:target="_blank"}
+{% include tool.html id="sklearn_regression_metrics" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 ## Clustering
@@ -111,14 +105,7 @@ Automatic grouping of similar objects into sets.
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="ARAGORN" %} | A tool to identify tRNA and tmRNA genes | [Laslett and Canback, 2004](https://doi.org/10.1093/nar/gkh152){:target="_blank"}
-{% include tool.html id="Fusion Matcher (FuMa)" %} | A tool that reports identical fusion genes based on gene-name annotations | [Hoogstrate et al. 2016](https://doi.org/10.1093/bioinformatics/btv721){:target="_blank"}
-{% include tool.html id="GotohScan" %} | A search tool that finds shorter sequences in large database sequences | [Hertel et al. 2009](https://doi.org/10.1093/nar/gkn1084){:target="_blank"}
-{% include tool.html id="INFERNAL" %} | A tool searching DNA sequence databases for RNA structure and sequence similarities | [Nawrocki et al. 2015](https://doi.org/10.1093/nar/gku1063){:target="_blank"}
-{% include tool.html id="RNABOB" %} | A tool for fast pattern searching for RNA secondary structures | -
-{% include tool.html id="RNAcode" %} | Predicts protein coding regions in a a set of homologous nucleotide sequences | [Washietl et al. 2011](https://doi.org/10.1261/rna.2536111){:target="_blank"}
-{% include tool.html id="tRNAscan" %} | Searches for tRNA genes in genomic sequences | [Lowe and Eddy, 1997](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC146525/){:target="_blank"}
-{% include tool.html id="RCAS" %} | A generic reporting tool for the functional analysis of transcriptome-wide regions of interest detected by high-throughput experiments | [Uyar et al.](https://www.ncbi.nlm.nih.gov/pubmed/28334930){:target="_blank"}
+{% include tool.html id="sklearn_numeric_clustering" %} | | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 ## Dimensionality reduction
@@ -154,35 +141,32 @@ Tool | Description | Reference
 {: .table.table-striped .tooltable}
 
 
-### Utilities
+## Utilities
 
 General data manipulation tools
 
 Tool | Description | Reference
 --- | --- | ---
-SAMtools | Utilities for manipulating alignments in the SAM format | [Heng et al. 2009](https://doi.org/10.1093/bioinformatics/btp352){:target="_blank"}
-BEDTools | Utilities for genome arithmetic | [Quinlan and Hall 2010](https://doi.org/10.1093/bioinformatics/btq033){:target="_blank"}
-deepTools | Tools for exploring deep-sequencing data | [Ramirez et al. 2014](https://doi.org/10.1093/nar/gku365){:target="_blank"}, [Ramirez et al. 2016](https://doi.org/10.1093/nar/gkw257){:target="_blank"}
+{% include tool.html id="table_compute" %} | The power of the pandas data library for manipulating and computing expressions upon tabular data and matrices. |
+{% include tool.html id="datamash_ops" %} | datamash operations on tabular data |
+{% include tool.html id="datamash_transpose" %} | datamash transpose |
 {: .table.table-striped .tooltable}
 
-## Ribosome profiling
+## Interactive Environments
+
+You have done the heavy lifting and now want to use your coding skills inside Jupyter or RStudio? Work on data 
 
 Tool | Description | Reference
 --- | --- | ---
-RiboTaper | An analysis pipeline for Ribo-Seq experiments, exploiting the triplet periodicity of ribosomal footprints to call translated regions | [Calviello et al. 2016](https://doi.org/10.1038/nmeth.3688){:target="_blank"}
+[Jupyter](https://live.usegalaxy.eu/?tool_id=interactive_tool_jupyter_notebook){:target="_blank"} | Jupyter lab | 
+[RStudio](https://live.usegalaxy.eu/?tool_id=interactive_tool_rstudio_notebook){:target="_blank"} | RStudio | 
 {: .table.table-striped .tooltable}
+
 
 # Contributors
 
-- [Andrea Bagnacani](https://github.com/bagnacan)
-- [Bérénice Batut](https://github.com/bebatut)
-- [Joerg Fallmann](https://github.com/jfallmann)
-- [Florian Eggenhofer](https://github.com/eggzilla)
+- [Qiang Gu](https://github.com/qiagu)
+- [Jeremy Goecks](https://github.com/jgoecks)
+- [Anup Kumar](https://github.com/anuprulez)
 - [Bjoern Gruening](https://github.com/bgruening)
-- [Youri Hoogstrate](https://github.com/yhoogstrate)
-- [Torsten Houwaart](https://github.com/TorHou)
-- [Cameron Smith](https://github.com/smithcr)
-- [Sebastian Will](https://github.com/s-will)
-- [Markus Wolfien](https://github.com/mwolfien)
-- [Dilmurat Yusuf](https://github.com/dyusuf)
-- [Pavankumar Videm](https://github.com/pavanvidem)
+- [Alireza Khanteymoori](https://github.com/khanteymoori)
