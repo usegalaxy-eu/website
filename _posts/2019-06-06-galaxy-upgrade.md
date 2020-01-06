@@ -2,7 +2,7 @@
 site: freiburg
 tags: [release]
 title: UseGalaxy.eu update to 19.05
-author: erasche
+author: hexylena
 ---
 
 We've updated our Galaxy server to version 19.05 and now use EU blue in celebration of European Unity, ahead of us hosting this year's [Galaxy Community Conference](https://galaxyproject.org/events/gcc2019/)

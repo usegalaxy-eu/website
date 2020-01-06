@@ -14,5 +14,5 @@ Time                      | Status
 ------------------------- | ------
 2017-12-11 16:10:16+01:00 | We noticed that jobs were unable to be submitted due to a misconfiguration on our end. We are currently investigating the issue.
 2017-12-11 18:27:52+01:00 | We believe the issue is now patched. Hopefully jobs should return to normal very shortly. We're actively monitoring the situation
-2017-12-11 18:33:10+01:00 | We have verified the patch. While updating the job configuration to a newer and even safer implementation with fewer ways to fail, @erasche failed to install a required dependency. Galaxy refused to load the python module where our configuration was defined, and thus all jobs began to fail.
+2017-12-11 18:33:10+01:00 | We have verified the patch. While updating the job configuration to a newer and even safer implementation with fewer ways to fail, @hexylena failed to install a required dependency. Galaxy refused to load the python module where our configuration was defined, and thus all jobs began to fail.
 {: .table.table-striped }
