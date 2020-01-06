@@ -72,9 +72,13 @@ ViennaRNA Introduction |  |  | [<i class="fa fa-files-o" aria-hidden="true"></i>
 
 # Available tools
 
-In this section we list all tools that have been integrated in the RNA workbench. The list is likely to grow as soon as further tools and workflows are contributed. To ease readability, we divided them into categories.
+In this section we list the most important tools that have been integrated in the Machine Learning workbench.
+There are many more tools available so please have a more detailed look into the tool panel.
+To ease readability, we divided them into categories.
 
-## RNA structure prediction and analysis
+## Classification
+
+Identifying which category an object belongs to.
 
 Tool | Description | Reference
 --- | --- | ---
@@ -88,7 +92,9 @@ Tool | Description | Reference
 ViennaRNA | A tool compilation for prediction and comparison of RNA secondary structures | [Lorenz et al. 2011](https://doi.org/10.1186/1748-7188-6-26){:target="_blank"}
 {: .table.table-striped .tooltable}
 
-## RNA alignment
+## Regression
+
+Predicting a continuous-valued attribute associated with an object.
 
 Tool | Description | Reference
 --- | --- | ---
@@ -99,7 +105,9 @@ Tool | Description | Reference
 {% include tool.html id="CMV" %} | RNA family model visualisation | [Eggenhofer et al. 2018](https://doi.org/10.1093/bioinformatics/bty158){:target="_blank"}
 {: .table.table-striped .tooltable}
 
-## RNA annotation
+## Clustering
+
+Automatic grouping of similar objects into sets.
 
 Tool | Description | Reference
 --- | --- | ---
@@ -113,7 +121,9 @@ Tool | Description | Reference
 {% include tool.html id="RCAS" %} | A generic reporting tool for the functional analysis of transcriptome-wide regions of interest detected by high-throughput experiments | [Uyar et al.](https://www.ncbi.nlm.nih.gov/pubmed/28334930){:target="_blank"}
 {: .table.table-striped .tooltable}
 
-## RNA-protein interaction
+## Dimensionality reduction
+
+Reducing the number of random variables to consider.
 
 Tool | Description | Reference
 --- | --- | ---
@@ -123,16 +133,19 @@ Tool | Description | Reference
 {% include tool.html id="Piranha" %} | A peak-caller for CLIP- and RIP-seq data | -
 {: .table.table-striped .tooltable}
 
-## RNA target prediction
+## Model selection
+
+Comparing, validating and choosing parameters and models.
 
 Tool | Description | Reference
 --- | --- | ---
 {% include tool.html id="TargetFinder" %} | A tool to predict small RNA binding sites on target transcripts from a sequence database | -
 {: .table.table-striped .tooltable}
 
-## RNA Seq and HTS analysis
 
-### Preprocessing
+## Preprocessing
+
+Feature extraction and normalization.
 
 Tool | Description | Reference
 --- | --- | ---
@@ -140,54 +153,10 @@ Tool | Description | Reference
 {% include tool.html id="Trim Galore" label="Trim Galore!" %} | Automatic quality and adapter trimming as well as quality control | -
 {: .table.table-striped .tooltable}
 
-### RNA-Seq
-
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="BlockClust" %} | Small non-coding RNA clustering from deep sequencing read profiles | [Videm et al. 2014](https://doi.org/10.1093/bioinformatics/btu270){:target="_blank"}
-{% include tool.html id="FlaiMapper" %} | A tool for computational annotation of small ncRNA-derived fragments using RNA-seq data | [Hoogstrate et al. 2015](https://doi.org/10.1093/bioinformatics/btu696){:target="_blank"}
-{% include tool.html id="MiRDeep2" %} | Discovers microRNA genes by analyzing sequenced RNAs | [Friedländer et al. 2008](https://doi.org/10.1038/nbt1394){:target="_blank"}
-{% include tool.html id="NASTIseq" %} | A method that incorporates the inherent variable efficiency of generating perfectly strand-specific libraries | [Li et al. 2013](https://doi.org/10.1101/gr.149310.112){:target="_blank"}
-{% include tool.html id="PIPmiR" %} | An algorithm to identify novel plant miRNA genes from a combination of deep sequencing data and genomic features | [Breakfield et al. 2011](https://doi.org/10.1101/gr.123547.111){:target="_blank"}
-{% include tool.html id="SortMeRNA" %} | A tool for filtering, mapping and OTU-picking NGS reads in metatranscriptomic and -genomic data | [Kopylova et al. 2011](https://doi.org/10.1093/bioinformatics/bts611){:target="_blank"}
-{: .table.table-striped .tooltable}
-
-### Read Mapping
-
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="HISAT2" %} | Hierarchical indexing for spliced alignment of transcripts | [Pertea et al. 2016](https://doi.org/10.1038/nprot.2016.095){:target="_blank"}
-{% include tool.html id="RNA STAR" %} | Rapid spliced aligner for RNA-seq data | [Dobin et al. 2013](https://academic.oup.com/bioinformatics/article/29/1/15/272537/STAR-ultrafast-universal-RNA-seq-aligner){:target="_blank"}
-{% include tool.html id="STAR-fusion" %} | Fast fusion gene finder | [Haas et al. 2017](https://www.biorxiv.org/content/early/2017/03/24/120295){:target="_blank"}
-{% include tool.html id="Bowtie2" %} | Fast and sensitive read alignment | [Langmead et al. 2012](https://doi.org/10.1038/nmeth.1923){:target="_blank"}
-{% include tool.html id="BWA" %} | Software package for mapping low-divergent sequences against a large reference genome | [Li and Durbin 2009](https://doi.org/10.1093/bioinformatics/btp324){:target="_blank"}, [Li and Durbin 2010](https://doi.org/10.1093/bioinformatics/btp698){:target="_blank"}
-{: .table.table-striped .tooltable}
-
-### Transcript Assembly
-
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="Trinity" %} | De novo transcript sequence reconstruction from RNA-Seq | [Haas et al. 2013](https://doi.org/10.1038%2Fnprot.2013.084){:target="_blank"}
-{: .table.table-striped .tooltable}
-
-### Quantification
-
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="featureCounts" %} | Ultrafast and accurate read summarization program | [Liao et al. 2014](http://dx.doi.org/10.1093/bioinformatics/btt656){:target="_blank"}
-{% include tool.html id="htseq-count" %} | Tool for counting reads in features | [Anders et al. 2015](https://doi.org/10.1093%2Fbioinformatics%2Fbtu638){:target="_blank"}
-{% include tool.html id="Sailfish" %} | Rapid Alignment-free Quantification of Isoform Abundance | [Patro et al. 2014](http://dx.doi.org/10.1038/nbt.2862){:target="_blank"}
-{% include tool.html id="Salmon" %} | Fast, accurate and bias-aware transcript quantification | [Patro et al. 2017](http://dx.doi.org/10.1038/nmeth.4197){:target="_blank"}
-{: .table.table-striped .tooltable}
-
-### Differential expression analysis
-
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="DESeq2" %} | Differential gene expression analysis based on the negative binomial distribution | [Love et al. 2014](http://doi.org/10.1186/s13059-014-0550-8){:target="_blank"}
-{: .table.table-striped .tooltable}
 
 ### Utilities
+
+General data manipulation tools
 
 Tool | Description | Reference
 --- | --- | ---
