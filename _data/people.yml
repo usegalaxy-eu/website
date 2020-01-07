@@ -143,6 +143,15 @@ freiburg:
         researchgate: Rolf_Backofen
         bio:
 
+    olegzharkov:
+        name: Oleg Zharkov
+        title: M.Sc. Inf., Researcher, Developer
+        email: oleg.zharkov@rz.uni-freiburg.de
+        location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: OlegZharkov
+        bio:
+
 erasmusmc:
     andrew-emc:
         name: Andrew Stubbs
