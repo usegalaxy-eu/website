@@ -54,10 +54,43 @@ In this section we list all tools that have been integrated in the the single ce
 
 ## Preprocessing
 
+|                                                                            | Formats     | QC        | Demultiplexing | Mapping             | Quantification | Description                                                                                                                |
+|---------------------------------------------------------------------------:|:-----------:|:---------:|:--------------:|:-------------------:|:--------------:|:---------------------------------------------------------------------------------------------------------------------------|
+|                                                             AnnData / Loom | CSV LOOM H5 |           |                |                     |                | Converts between various different single-cell formats and permits various levels of inspection and manipulation           |
+|             {% include tool.html id="crosscontamination_barcode_filter" %} | CSV         | Y         |                |                     |                | QC tool for inspecting raw count matrices and determining the level of contamination between neighbouring sequencing wells |
+|                                         {% include tool.html id="fastp" %} | FASTA/Q     | Y         |                |                     |                |                                                                                                                            |
+| {% include tool.html id="FastQC" %} / {% include tool.html id="MultiQC" %} | FASTQ       | Y         |                |                     |                | MultiQC aggregate results from bioinformatics analyses into a single report                                                |
+|                                                                htseq-count | BAM         |           |                |                     | Y              |                                                                                                                            |
+|                                                                   Je Suite | FASTA/Q BAM | Filtering | Y              |                     | Y              |                                                                                                                            |
+|                                                                  UMI-tools | FASTQ       | Filtering | Y              |                     | Y              | Includes utilities to count, deduplicate, extract, group, and whitelist Unique Molecular Identifiers (UMIs)                |
+|                                  {% include tool.html id="rna_starsolo" %} | FASTA/Q     | Filtering | Y              | Y                   | Y              | Supports Droplet (Drop-seq, 10X) protocols, and can emulate CellRanger pipeline                                            |
+|                                       {% include tool.html id="Bowtie2" %} | FASTA/Q     | Filtering |                | Y                   |                |                                                                                                                            |
+|                                        {% include tool.html id="HISAT2" %} | FASTA/Q     | Filtering |                | Y                   |                |                                                                                                                            |
+|                                                            Alevin / Salmon | FASTA/Q BAM | Filtering |                | Salmon              | Salmon         |                                                                                                                            |
+|                                        {% include tool.html id="scPipe" %} |             | Filtering | Y              | Subread             | Subread        | CelSeq2, etc. Uses Scater and SCRAN for downstream (Filtering, Normalisation, Batch, Clustering, Embedding)                |
+|                                 {% include tool.html id="featureCounts" %} |             |           |                | Subread             | Subread        |                                                                                                                            |
+|                                       {% include tool.html id="BWA-MEM" %} | FASTA/Q     |           |                | Y, not splice-aware |                |                                                                                                                            |
+
+
+## Downstream
+
+|         | Formats                              | Filtering | Normalisation                             | Batch / Confounder Removal         | Clustering               | Embedding                           | Lineage/Pseudotime | Classification / Marker | Other                                                                           |
+|--------:|:------------------------------------:|:---------:|:-----------------------------------------:|:----------------------------------:|:------------------------:|:-----------------------------------:|:------------------:|:-----------------------:|:-------------------------------------------------------------------------------:|
+|     SC3 | SCE                                  |           |                                           |                                    | Consensus K-means        | PCA                                 |                    |                         |                                                                                 |
+|  ScanPy | AnnData CSV LOOM excel mtx umi-tools | Y         | CPM                                       | Cell Cycle ComBat MNNCorrect BBKNN | PCA leiden louvain       | PCA tSNE UMAP                       | dendrogram PAGA    | Y                       | one of the first with 10X support                                               |
+|  Scater | SCE SC3                              | Y         | CPM FPKM TPM                              |                                    | PCA                      | PCA tSNE UMAP PHATE diffmap         |                    |                         |                                                                                 |
+|  Seurat | CSV 10X H5 Alevin                    | Y         | LogNormalise Centered-log Relative-counts | SCTransform SNNAnchor              | SharedNN                 | PCA tSNE UMAP                       |                    | Y                       |                                                                                 |
+|  RaceID | CSV SCSeq                            | Y         | basic library size                        | Linear CCcorrect (Cell cycle)      | k-means k-medians hclust | PCA tSNE UMAP Fruchterman-Rheingold | StemID FateID      |                         |                                                                                 |
+| Monocle |                                      | Y         | basic library size                        | Y                                  | Louvain KNN GMM          | ICA tSNE L1-graph SimplePPT DDRTree | Y                  | Y                       | Works well with CellRanger                                                      |
+|  DESeq2 | CSV htseq-count summarizedexperiment | Y         | DESeq2                                    |                                    | Y                        |                                     |                    |                         |                                                                                 |
+|  scPipe |                                      | Y         | Y                                         | Y                                  | Y                        | Y                                   |                    |                         | CelSeq2, etc. Uses Scater and SCRAN for downstream. Also perform pre-processing |
+
+
+
 Tool | Description | Reference
 --- | --- | ---
 {% include tool.html id="FastQC" %} | A quality control tool for high throughput sequence data | -
-{% include tool.html id="MultiQC" %} | MultiQC aggregate results from bioinformatics analyses into a single report | [Ewels et al. 2016](https://doi.org/10.1093/bioinformatics/btw354){:target="_blank"}
+ | MQC | [Ewels et al. 2016](https://doi.org/10.1093/bioinformatics/btw354){:target="_blank"}
 {% include tool.html id="fastp" %} | fast all-in-one preprocessing for FASTQ files | [Shifu et al. 2018](https://doi.org/10.1101/274100){:target="_blank"}
 {% include tool.html id="scPipe" %} | preprocessing pipeline for single cell RNA-seq | [Tian et al. 2018](https://doi.org/10.1371/journal.pcbi.1006361){:target="_blank"}
 {: .table.table-striped .tooltable}
