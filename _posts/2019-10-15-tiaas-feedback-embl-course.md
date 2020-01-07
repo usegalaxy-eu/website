@@ -35,7 +35,7 @@ Setting up the training took less than 4 hours in total. We followed the
 training from Friederike Dündar, Anika Erxleben, Bérénice Batut, Vivek Bhardwaj, Fidel Ramirez and Leily Rabbani. 
 We were allocated more than enough resources so the training went super smooth and we had a great feedback from the trainees. 
 
-Bjoern and the Freibug team were super helpfull and responsive. The combination of the TIaaS and the GTN is just
+Bjoern and the Freiburg team were super helpfull and responsive. The combination of the TIaaS and the GTN is just
 wonderful, as anticipated. Really enormous congratulations to all of the Freiburg team to put these services up. 
 
 Jelle Scholtalbers and Charles Girardot
