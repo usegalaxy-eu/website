@@ -7,7 +7,7 @@ subdomain: ml
 # Welcome to the Machine Learning workbench
 {:.no_toc}
 
-![RNA Galaxy](/assets/media/rna_workbench_2.png){:.rna-intro-right}
+![RNA Galaxy](/assets/media/machine_learning_logo.png){:.rna-intro-right}
 
 The Galaxy Machine Learning workbench is a comprehensive set of analysis tools, consolidated workflows and training material.
 The workbench is based on the [Galaxy framework](https://galaxyproject.org){:target="_blank"}, which guarantees simple access, easy extension,
