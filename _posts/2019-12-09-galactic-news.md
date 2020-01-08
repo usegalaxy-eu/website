@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: Galactic November News
+title: Galactic December News
 tags: [galaxy]
 external: https://galaxyproject.org/news/2019-12-galaxy-update/
 ---
