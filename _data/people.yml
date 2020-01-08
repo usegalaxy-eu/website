@@ -152,6 +152,19 @@ freiburg:
         gitter: OlegZharkov
         bio:
 
+    janleendertse:
+        name: Jan Leendertse
+        email: jan.leendertse@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 97897
+        location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: JanLeendertse
+        orcid: 0000-0001-5676-493X
+        website: http://leendertse.eu
+        linkedin: JanLeendertse
+        researchgate: JanLeendertse
+        bio: 
+        
 erasmusmc:
     andrew-emc:
         name: Andrew Stubbs
