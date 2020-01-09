@@ -13,15 +13,15 @@ The Galaxy Machine Learning workbench is a comprehensive set of analysis tools, 
 The workbench is based on the [Galaxy framework](https://galaxyproject.org){:target="_blank"}, which guarantees simple access, easy extension,
 flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
-The current implementation provides you with the Swiss Army knife [scikit-learn](https://scikit-learn.org){:target="_blank"},
-[Keras](https://keras.io){:target="_blank"} a deep learning library based on [TensorFlow](https://www.tensorflow.org){:target="_blank"} and various other tools to
+The current implementation provides you with the a Swiss Army knife of [scikit-learn](https://scikit-learn.org){:target="_blank"},
+[Keras](https://keras.io){:target="_blank"} (a deep learning library based on [TensorFlow](https://www.tensorflow.org)){:target="_blank"} and various other tools to
 manipulate, convert and plot your data.
 
 The workbench is currently developed by the [Goecks Lab](https://goeckslab.org) and the [European Galaxy project](https://galaxyproject.eu/){:target="_blank"}.
 The [German Network for Bioinformatics Infrastructure (de.NBI)](http://www.denbi.de){:target="_blank"},
 running the German [ELIXIR Node](https://www.elixir-europe.org/){:target="_blank"} is providing the underlying CPU and GPU cluster.
 
-This project is a community effort, please jump in, ask questions, contribute new tools, workflows or trainings!
+This project is a community effort, please jump in, ask questions, and contribute new tools, workflows or trainings!
 
 # Content
 {:.no_toc}
@@ -46,9 +46,9 @@ We developed several tutorials together with the [GTN community](https://galaxyp
 
 Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy tour | Galaxy History
 --- | --- | --- | --- | --- | --- | ---
-Age prediction using machine learning |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/age-prediction-with-ml/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2545213#.XEWTJ9-YVa0){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/age-prediction-with-ml/workflows/){:target="_blank"} |  |
-Basics of machine learning |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/machinelearning/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1468039#.W8zyxBRoSAo){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/machinelearning/workflows/){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/machinelearning/tours/){:target="_blank"} |
-Machine learning: classification and regression |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_regression/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2579649#.XHep39F7mL4){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/classification_regression/workflows/){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/classification_regression/tours/){:target="_blank"} |
+Age prediction using machine learning |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/age-prediction-with-ml/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2545213#.XEWTJ9-YVa0){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/age-prediction-with-ml/workflows/){:target="_blank"} |  | [<i class="fa fa-book" aria-hidden="true"></i>](https://usegalaxy.eu/u/sbray/h/age-prediction-using-machine-learning---rnaseq){:target="_blank"} |
+Basics of machine learning |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/machinelearning/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/1468039#.W8zyxBRoSAo){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/machinelearning/workflows/){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/machinelearning/tours/){:target="_blank"} | [<i class="fa fa-book" aria-hidden="true"></i>](https://usegalaxy.eu/u/sbray/h/basics-of-machine-learning){:target="_blank"} |
+Machine learning: classification and regression |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_regression/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2579649#.XHep39F7mL4){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/classification_regression/workflows/){:target="_blank"} | [<i class="fa fa-magic" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/classification_regression/tours/){:target="_blank"} | [<i class="fa fa-book" aria-hidden="true"></i>](https://usegalaxy.eu/u/sbray/h/machine-learning---classification){:target="_blank"} [<i class="fa fa-book" aria-hidden="true"></i>](https://usegalaxy.eu/u/sbray/h/machine-learning---regression){:target="_blank"} |
 {:.table.table-striped}
 
 
@@ -124,9 +124,9 @@ Tool | Description | Reference
 {% include tool.html id="Data preprocessing" %} | Preprocess raw feature vectors into standardized datasets  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
 {: .table.table-striped .tooltable}
 
-## deep learning
+## Deep learning
 
-Feature extraction and normalization.
+Build and use deep learning neural networks.
 
 Tool | Description | Reference
 --- | --- | ---
@@ -138,7 +138,7 @@ Tool | Description | Reference
 
 ## Utilities
 
-General data manipulation tools
+General data manipulation tools.
 
 Tool | Description | Reference
 --- | --- | ---
@@ -150,7 +150,7 @@ Tool | Description | Reference
 
 ## Interactive Environments
 
-You have done the heavy lifting and now want to use your coding skills inside Jupyter or RStudio? Work on data 
+You have done the heavy lifting and now want to use your coding skills inside Jupyter or RStudio? Work on data with the following:
 
 Tool | Description | Reference
 --- | --- | ---
@@ -166,3 +166,4 @@ Tool | Description | Reference
 - [Anup Kumar](https://github.com/anuprulez)
 - [Bjoern Gruening](https://github.com/bgruening)
 - [Alireza Khanteymoori](https://github.com/khanteymoori)
+- [Simon Bray](https://github.com/simonbray)
