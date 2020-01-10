@@ -14,12 +14,12 @@ The workbench is based on the [Galaxy framework](https://galaxyproject.org){:tar
 flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
 The current implementation provides you with the a Swiss Army knife of [scikit-learn](https://scikit-learn.org){:target="_blank"},
-[Keras](https://keras.io){:target="_blank"} (a deep learning library based on [TensorFlow](https://www.tensorflow.org)){:target="_blank"} and various other tools to
+[Keras](https://keras.io){:target="_blank"} (a deep learning library based on [TensorFlow](https://www.tensorflow.org){:target="_blank"}) and various other tools to
 manipulate, convert and plot your data.
 
 The workbench is currently developed by the [Goecks Lab](https://goeckslab.org) and the [European Galaxy project](https://galaxyproject.eu/){:target="_blank"}.
 The [German Network for Bioinformatics Infrastructure (de.NBI)](http://www.denbi.de){:target="_blank"},
-running the German [ELIXIR Node](https://www.elixir-europe.org/){:target="_blank"} is providing the underlying CPU and GPU cluster.
+which runs the German [ELIXIR Node](https://www.elixir-europe.org/){:target="_blank"}, provides the underlying CPU and GPU cluster.
 
 This project is a community effort, please jump in, ask questions, and contribute new tools, workflows or trainings!
 
