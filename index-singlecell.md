@@ -54,96 +54,54 @@ In this section we list all tools that have been integrated in the the single ce
 
 ## Preprocessing
 
-|                                                                            | Formats     | QC        | Demultiplexing | Mapping             | Quantification | Description                                                                                                                |
-|---------------------------------------------------------------------------:|:-----------:|:---------:|:--------------:|:-------------------:|:--------------:|:---------------------------------------------------------------------------------------------------------------------------|
-|                                                             AnnData / Loom | CSV LOOM H5 |           |                |                     |                | Converts between various different single-cell formats and permits various levels of inspection and manipulation           |
-|             {% include tool.html id="crosscontamination_barcode_filter" %} | CSV         | Y         |                |                     |                | QC tool for inspecting raw count matrices and determining the level of contamination between neighbouring sequencing wells |
-|                                         {% include tool.html id="fastp" %} | FASTA/Q     | Y         |                |                     |                |                                                                                                                            |
-| {% include tool.html id="FastQC" %} / {% include tool.html id="MultiQC" %} | FASTQ       | Y         |                |                     |                | MultiQC aggregate results from bioinformatics analyses into a single report                                                |
-|                                                                htseq-count | BAM         |           |                |                     | Y              |                                                                                                                            |
-|                                                                   Je Suite | FASTA/Q BAM | Filtering | Y              |                     | Y              |                                                                                                                            |
-|                                                                  UMI-tools | FASTQ       | Filtering | Y              |                     | Y              | Includes utilities to count, deduplicate, extract, group, and whitelist Unique Molecular Identifiers (UMIs)                |
-|                                  {% include tool.html id="rna_starsolo" %} | FASTA/Q     | Filtering | Y              | Y                   | Y              | Supports Droplet (Drop-seq, 10X) protocols, and can emulate CellRanger pipeline                                            |
-|                                       {% include tool.html id="Bowtie2" %} | FASTA/Q     | Filtering |                | Y                   |                |                                                                                                                            |
-|                                        {% include tool.html id="HISAT2" %} | FASTA/Q     | Filtering |                | Y                   |                |                                                                                                                            |
-|                                                            Alevin / Salmon | FASTA/Q BAM | Filtering |                | Salmon              | Salmon         |                                                                                                                            |
-|                                        {% include tool.html id="scPipe" %} |             | Filtering | Y              | Subread             | Subread        | CelSeq2, etc. Uses Scater and SCRAN for downstream (Filtering, Normalisation, Batch, Clustering, Embedding)                |
-|                                 {% include tool.html id="featureCounts" %} |             |           |                | Subread             | Subread        |                                                                                                                            |
-|                                       {% include tool.html id="BWA-MEM" %} | FASTA/Q     |           |                | Y, not splice-aware |                |                                                                                                                            |
+|                                                                            | Formats     | QC        | Demultiplexing | Mapping             | Quantification | Description                                                                                                                                                                                                                                                                                       |
+|---------------------------------------------------------------------------:|:-----------:|:---------:|:--------------:|:-------------------:|:--------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                             AnnData / Loom | CSV LOOM H5 |           |                |                     |                | Import, Export, Modify, Inspect and Convert AnnData files. Converts between various different single-cell formats and permits various levels of inspection and manipulation. [AnnData Documentation](https://anndata.readthedocs.io/en/latest/)                                                   |
+|             {% include tool.html id="crosscontamination_barcode_filter" %} | CSV         | Y         |                |                     |                | QC tool for inspecting raw count matrices and determining the level of contamination between neighbouring sequencing wells                                                                                                                                                                        |
+|                                         {% include tool.html id="fastp" %} | FASTA/Q     | Y         |                |                     |                | Fast all-in-one preprocessing for FASTQ files [Shifu et al. 2018](https://doi.org/10.1101/274100){:target="_blank"}                                                                                                                                                                               |
+| {% include tool.html id="FastQC" %} / {% include tool.html id="MultiQC" %} | FASTQ       | Y         |                |                     |                | A quality control tool for high throughput sequence data / MultiQC aggregates results from bioinformatics analyses into a single report [Ewels et al. 2016](https://doi.org/10.1093/bioinformatics/btw354){:target="_blank"}                                                                      |
+|                                   {% include tool.html id="htseq-count" %} | BAM         |           |                |                     | Y              | Tool for counting reads in features [Anders et al. 2015](https://doi.org/10.1093%2Fbioinformatics%2Fbtu638){:target="_blank"}                                                                                                                                                                     |
+|                                                                   Je Suite | FASTA/Q BAM | Filtering | Y              |                     | Y              | A versatile suite to handle multiplexed NGS libraries with unique molecular identifiers                                                                                                                                         [Girardot at al. 2016](https://doi.org/10.1186/s12859-016-1284-2) |
+|                                                                  UMI-tools | FASTQ       | Filtering | Y              |                     | Y              | Includes utilities to count, deduplicate, extract, group, and whitelist Unique Molecular Identifiers (UMIs). Modelling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy [Smith et al. 2017](https://doi.org/10.1101/gr.209601.116){:target="_blank"}          |
+|                                      {% include tool.html id="RNA STAR" %} | FASTA/Q     | Filtering |                | Y                   | Y              | Rapid spliced aligner for RNA-seq data [Dobin et al. 2013](https://academic.oup.com/bioinformatics/article/29/1/15/272537/STAR-ultrafast-universal-RNA-seq-aligner){:target="_blank"}, performs single-cell quantification only when used with *featureCounts*                                    |
+|                                 {% include tool.html id="RNA STAR Solo" %} | FASTA/Q     | Filtering | Y              | Y                   | Y              | Supports Droplet (Drop-seq, 10X) protocols, and can emulate CellRanger pipeline                                                                                                                                                                                                                   |
+|                                       {% include tool.html id="Bowtie2" %} | FASTA/Q     | Filtering |                | Y                   |                | Fast and sensitive read alignment [Langmead et al. 2012](https://doi.org/10.1038/nmeth.1923){:target="_blank"}                                                                                                                                                                                    |
+|                                        {% include tool.html id="HISAT2" %} | FASTA/Q     | Filtering |                | Y                   |                | Hierarchical indexing for spliced alignment of transcripts [Pertea et al. 2016](https://doi.org/10.1038/nprot.2016.095){:target="_blank"}                                                                                                                                                         |
+|                                      {% include tool.html id="Sailfish" %} | FASTA/Q BAM | Filtering | Y              | Y                   | Y              | Rapid Alignment-free Quantification of Isoform Abundance [Patro et al. 2014](http://dx.doi.org/10.1038/nbt.2862){:target="_blank"}                                                                                                                                                                |
+|                               Alevin / {% include tool.html id="Salmon" %} | FASTA/Q BAM | Filtering |                | Salmon              | Salmon         | Fast, accurate and bias-aware transcript quantification [Patro et al. 2017](http://dx.doi.org/10.1038/nmeth.4197){:target="_blank"}                                                                                                                                                               |
+|                                        {% include tool.html id="scPipe" %} |             | Filtering | Y              | Subread             | Subread        | preprocessing pipeline for single cell RNA-seq [Tian et al. 2018](https://doi.org/10.1371/journal.pcbi.1006361){:target="_blank"}. Also performs downstream analysis via Scater and SCRAN                                                                                                         |
+|                                 {% include tool.html id="featureCounts" %} |             |           |                | Subread             | Subread        | Ultrafast and accurate read summarization program [Liao et al. 2014](http://dx.doi.org/10.1093/bioinformatics/btt656){:target="_blank"}                                                                                                                                                           |
+|                                       {% include tool.html id="BWA-MEM" %} | FASTA/Q     |           |                | Y, not splice-aware |                | Software package for mapping low-divergent sequences against a large reference genome [Li and Durbin 2009](https://doi.org/10.1093/bioinformatics/btp324){:target="_blank"}, [Li and Durbin 2010](https://doi.org/10.1093/bioinformatics/btp698){:target="_blank"}                                |
+{: .table.table-striped .tooltable}
 
 
 ## Downstream
 
-|         | Formats                              | Filtering | Normalisation                             | Batch / Confounder Removal         | Clustering               | Embedding                           | Lineage/Pseudotime | Classification / Marker | Other                                                                           |
-|--------:|:------------------------------------:|:---------:|:-----------------------------------------:|:----------------------------------:|:------------------------:|:-----------------------------------:|:------------------:|:-----------------------:|:-------------------------------------------------------------------------------:|
-|     SC3 | SCE                                  |           |                                           |                                    | Consensus K-means        | PCA                                 |                    |                         |                                                                                 |
-|  ScanPy | AnnData CSV LOOM excel mtx umi-tools | Y         | CPM                                       | Cell Cycle ComBat MNNCorrect BBKNN | PCA leiden louvain       | PCA tSNE UMAP                       | dendrogram PAGA    | Y                       | one of the first with 10X support                                               |
-|  Scater | SCE SC3                              | Y         | CPM FPKM TPM                              |                                    | PCA                      | PCA tSNE UMAP PHATE diffmap         |                    |                         |                                                                                 |
-|  Seurat | CSV 10X H5 Alevin                    | Y         | LogNormalise Centered-log Relative-counts | SCTransform SNNAnchor              | SharedNN                 | PCA tSNE UMAP                       |                    | Y                       |                                                                                 |
-|  RaceID | CSV SCSeq                            | Y         | basic library size                        | Linear CCcorrect (Cell cycle)      | k-means k-medians hclust | PCA tSNE UMAP Fruchterman-Rheingold | StemID FateID      |                         |                                                                                 |
-| Monocle |                                      | Y         | basic library size                        | Y                                  | Louvain KNN GMM          | ICA tSNE L1-graph SimplePPT DDRTree | Y                  | Y                       | Works well with CellRanger                                                      |
-|  DESeq2 | CSV htseq-count summarizedexperiment | Y         | DESeq2                                    |                                    | Y                        |                                     |                    |                         |                                                                                 |
-|  scPipe |                                      | Y         | Y                                         | Y                                  | Y                        | Y                                   |                    |                         | CelSeq2, etc. Uses Scater and SCRAN for downstream. Also perform pre-processing |
+|                                     | Formats                              | Filtering | Normalisation                             | Batch / Confounder Removal         | Clustering               | Embedding                           | Lineage/Pseudotime | Classification / Marker | Other                                                                                                                                                            |
+|------------------------------------:|:------------------------------------:|:---------:|:-----------------------------------------:|:----------------------------------:|:------------------------:|:-----------------------------------:|:------------------:|:-----------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                 SC3 | SCE                                  |           |                                           |                                    | Consensus K-means        | PCA                                 |                    |                         |                                                                                                                                                                  |
+|                              ScanPy | AnnData CSV LOOM excel mtx umi-tools | Y         | CPM                                       | Cell Cycle ComBat MNNCorrect BBKNN | PCA leiden louvain       | PCA tSNE UMAP                       | dendrogram PAGA    | Y                       | The first scRNA pipeline written in Python with native 10X support [Wolf at al. 2018](https://doi.org/10.1186/s13059-017-1382-0)                                 |
+|                              Scater | SCE SC3                              | Y         | CPM FPKM TPM                              |                                    | PCA                      | PCA tSNE UMAP PHATE diffmap         |                    |                         |                                                                                                                                                                  |
+|                              Seurat | CSV 10X H5 Alevin                    | Y         | LogNormalise Centered-log Relative-counts | SCTransform SNNAnchor              | SharedNN                 | PCA tSNE UMAP                       |                    | Y                       |                                                                                                                                                                  |
+| {% include tool.html id="RaceID" %} | CSV SCSeq                            | Y         | basic library size                        | Linear CCcorrect (Cell cycle)      | k-means k-medians hclust | PCA tSNE UMAP Fruchterman-Rheingold | StemID FateID      |                         | Clustering using RaceID performs clustering, outlier detection, dimensional reduction [Josip, at al. 2018](https://doi.org/10.1038/nmeth.4662)                   |
+|                             Monocle |                                      | Y         | basic library size                        | Y                                  | Louvain KNN GMM          | ICA tSNE L1-graph SimplePPT DDRTree | Y                  | Y                       | Works well with CellRanger                                                                                                                                       |
+| {% include tool.html id="DESeq2" %} | CSV htseq-count summarizedexperiment | Y         | DESeq2                                    |                                    | Y                        |                                     |                    |                         | Differential gene expression analysis based on the negative binomial distribution [Love et al. 2014](http://doi.org/10.1186/s13059-014-0550-8){:target="_blank"} |
+| {% include tool.html id="scPipe" %} |                                      | Y         | Y                                         | Y                                  | Y                        | Y                                   |                    |                         | CelSeq2, etc. Uses Scater and SCRAN for downstream. Also perform pre-processing                                                                                  |
 
 
 
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="FastQC" %} | A quality control tool for high throughput sequence data | -
- | MQC | [Ewels et al. 2016](https://doi.org/10.1093/bioinformatics/btw354){:target="_blank"}
-{% include tool.html id="fastp" %} | fast all-in-one preprocessing for FASTQ files | [Shifu et al. 2018](https://doi.org/10.1101/274100){:target="_blank"}
-{% include tool.html id="scPipe" %} | preprocessing pipeline for single cell RNA-seq | [Tian et al. 2018](https://doi.org/10.1371/journal.pcbi.1006361){:target="_blank"}
-{: .table.table-striped .tooltable}
-
-
-## Read Mapping
-
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="HISAT2" %} | Hierarchical indexing for spliced alignment of transcripts | [Pertea et al. 2016](https://doi.org/10.1038/nprot.2016.095){:target="_blank"}
-{% include tool.html id="RNA STAR" %} | Rapid spliced aligner for RNA-seq data | [Dobin et al. 2013](https://academic.oup.com/bioinformatics/article/29/1/15/272537/STAR-ultrafast-universal-RNA-seq-aligner){:target="_blank"}
-{% include tool.html id="STAR-fusion" %} | Fast fusion gene finder | [Haas et al. 2017](https://www.biorxiv.org/content/early/2017/03/24/120295){:target="_blank"}
-{% include tool.html id="Bowtie2" %} | Fast and sensitive read alignment | [Langmead et al. 2012](https://doi.org/10.1038/nmeth.1923){:target="_blank"}
-{% include tool.html id="BWA-MEM" %} | Software package for mapping low-divergent sequences against a large reference genome | [Li and Durbin 2009](https://doi.org/10.1093/bioinformatics/btp324){:target="_blank"}, [Li and Durbin 2010](https://doi.org/10.1093/bioinformatics/btp698){:target="_blank"}
-{: .table.table-striped .tooltable}
-
-
-## Quantification
-
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="featureCounts" %} | Ultrafast and accurate read summarization program | [Liao et al. 2014](http://dx.doi.org/10.1093/bioinformatics/btt656){:target="_blank"}
-{% include tool.html id="htseq-count" %} | Tool for counting reads in features | [Anders et al. 2015](https://doi.org/10.1093%2Fbioinformatics%2Fbtu638){:target="_blank"}
-{% include tool.html id="Sailfish" %} | Rapid Alignment-free Quantification of Isoform Abundance | [Patro et al. 2014](http://dx.doi.org/10.1038/nbt.2862){:target="_blank"}
-{% include tool.html id="Salmon" %} | Fast, accurate and bias-aware transcript quantification | [Patro et al. 2017](http://dx.doi.org/10.1038/nmeth.4197){:target="_blank"}
-{: .table.table-striped .tooltable}
-
-## Differential expression analysis
-
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="DESeq2" %} | Differential gene expression analysis based on the negative binomial distribution | [Love et al. 2014](http://doi.org/10.1186/s13059-014-0550-8){:target="_blank"}
-{: .table.table-striped .tooltable}
-
-## Utilities
-
-Tool | Description | Reference
---- | --- | ---
-SAMtools | Utilities for manipulating alignments in the SAM format | [Heng et al. 2009](https://doi.org/10.1093/bioinformatics/btp352){:target="_blank"}
-BEDTools | Utilities for genome arithmetic | [Quinlan and Hall 2010](https://doi.org/10.1093/bioinformatics/btq033){:target="_blank"}
-deepTools | Tools for exploring deep-sequencing data | [Ramirez et al. 2014](https://doi.org/10.1093/nar/gku365){:target="_blank"}, [Ramirez et al. 2016](https://doi.org/10.1093/nar/gkw257){:target="_blank"}
-UMI-tools | Modeling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy | [Smith et al. 2017](https://doi.org/10.1101/gr.209601.116){:target="_blank"}
-Je | A versatile suite to handle multiplexed NGS libraries with unique molecular identifiers | [Girardot at al. 2016](https://doi.org/10.1186/s12859-016-1284-2)
-{% include tool.html id="RaceID" %} | Clustering using RaceID performs clustering, outlier detection, dimensional reduction | [Josip, at al. 2018](https://doi.org/10.1038/nmeth.4662)
-AnnData tools | Import, Export, Modify, Inspect and Convert AnnData files.  | [AnnData Documentation](https://anndata.readthedocs.io/en/latest/)
-Scanpy | Single-Cell Analysis in Python | [Wolf at al. 2018](https://doi.org/10.1186/s13059-017-1382-0)
-{: .table.table-striped .tooltable}
+<!-- {% include tool.html id="STAR-fusion" %} | Fast fusion gene finder | [Haas et al. 2017](https://www.biorxiv.org/content/early/2017/03/24/120295){:target="_blank"} -->
+<!-- ## Utilities -->
+<!-- SAMtools | Utilities for manipulating alignments in the SAM format | [Heng et al. 2009](https://doi.org/10.1093/bioinformatics/btp352){:target="_blank"} -->
+<!-- BEDTools | Utilities for genome arithmetic | [Quinlan and Hall 2010](https://doi.org/10.1093/bioinformatics/btq033){:target="_blank"} -->
+<!-- deepTools | Tools for exploring deep-sequencing data | [Ramirez et al. 2014](https://doi.org/10.1093/nar/gku365){:target="_blank"}, [Ramirez et al. 2016](https://doi.org/10.1093/nar/gkw257){:target="_blank"} -->
 
 
 # Contributors
 
 - [Bérénice Batut](https://github.com/bebatut)
 - [Mehmet Tekman](https://github.com/mtekman)
+- [Alex Ostrovsky](https://github.com/astrovsky01)
 - [Maria Doyle](https://github.com/mblue9)
 - [Pablo Moreno](https://github.com/pcm32)
 - [Ni Huang](https://github.com/nh3)
