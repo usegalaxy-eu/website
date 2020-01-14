@@ -1,3 +1,4 @@
+Alevin: toolshed.g2.bx.psu.edu/repos/bgruening/alevin
 ARAGORN: toolshed.g2.bx.psu.edu/repos/bgruening/trna_prediction/aragorn_trna
 AREsite2: toolshed.g2.bx.psu.edu/repos/rnateam/aresite2/AREsite2_REST
 AddH: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh
@@ -11,6 +12,7 @@ CMV: toolshed.g2.bx.psu.edu/repos/rnateam/cmv/cmv
 Canu: toolshed.g2.bx.psu.edu/repos/bgruening/canu/canu/1.7
 CoFold: toolshed.g2.bx.psu.edu/repos/rnateam/cofold/cofold
 Compalignp: toolshed.g2.bx.psu.edu/repos/rnateam/compalignp/compalignp
+Cross Contamination Barcode Filter: https://toolshed.g2.bx.psu.edu/repos/iuc/crosscontamination_barcode_filter
 DESeq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 DESeq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 DoRiNA: toolshed.g2.bx.psu.edu/repos/rnateam/dorina/dorina_search
@@ -52,6 +54,7 @@ QED: toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed/0.1
 RCAS: toolshed.g2.bx.psu.edu/repos/rnateam/rcas/rcas
 RNA STAR: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star
 RNA STAR: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star
+RNA STAR Solo: toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo
 RNABOB: toolshed.g2.bx.psu.edu/repos/rnateam/rnabob/rbc_rnabob
 RNAcode: toolshed.g2.bx.psu.edu/repos/rnateam/rnacode/rbc_rnacode
 RNAlien: toolshed.g2.bx.psu.edu/repos/rnateam/rnalien/RNAlien
@@ -75,6 +78,11 @@ Trinity: toolshed.g2.bx.psu.edu/repos/iuc/trinity/trinity
 Unicycler: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.4.7.0
 Wtdbg2: toolshed.g2.bx.psu.edu/repos/bgruening/wtdbg/wtdbg/1.2.8.1
 antaRNA: toolshed.g2.bx.psu.edu/repos/rnateam/antarna/antarna
+anndata_export: toolshed.g2.bx.psu.edu/repos/iuc/anndata_export
+anndata_import: toolshed.g2.bx.psu.edu/repos/iuc/anndata_import
+anndata_inspect: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect
+anndata_manipulate: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate
+modify_loom: toolshed.g2.bx.psu.edu/repos/iuc/modify_loom
 bio3dPCA: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/
 bio3dRMSD: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/
 bio3dRMSF: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/
@@ -120,12 +128,24 @@ htseq-count: toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/htseq_count
 htseq-count: toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/htseq_count
 infernal_cmbuild: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmbuild/1.1.0.2
 infernal_cmsearch: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch/1.1.0.2
+je_clip: toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_clip
+je_demultiplex: toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_demultiplex
+je_demultiplex_illu: toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_demultiplex_illu
+je_markdupes: toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_markdupes
 mean_per_zone: toolshed.g2.bx.psu.edu/repos/climate/mean_per_zone/mean_per_zone
 mdConverter: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/
 mdaAngle: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_angle/mdanalysis_angle/
 mdaDihedral: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/
 mdaDistance: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/
 mdaRDF: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/
+monocle3_create: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_create
+monocle3_diffexp: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_diffexp
+monocle3_learngraph: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_learngraph
+monocle3_ordercells: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_ordercells
+monocle3_partition: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_partition
+monocle3_plotcells: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_plotcells
+monocle3_preprocess: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_preprocess
+monocle3_reducedim: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_reducedim
 packmol: toolshed.g2.bx.psu.edu/repos/chemteam/packmol/packmol/
 psy_maps: toolshed.g2.bx.psu.edu/repos/climate/psy_maps/psy_maps
 remConterIons: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons
@@ -176,6 +196,11 @@ scater_read_10x_results: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_read_10x_re
 scater_filter: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_filter/scater_filter
 scater_normalize: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_normalize/scater_normalize
 ucsc_cell_browser: toolshed.g2.bx.psu.edu/repos/ebi-gxa/ucsc_cell_browser/ucsc_cell_browser
+umi_tools_count: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_count
+umi_tools_dedup: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_dedup
+umi_tools_extract: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract
+umi_tools_group: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_group
+umi_tools_whitelist: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_whitelist
 retrieve_scxa: toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa
 hca_matrix_downloader: toolshed.g2.bx.psu.edu/repos/ebi-gxa/hca_matrix_downloader/hca_matrix_downloader
 SVM Classifier: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier
