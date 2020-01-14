@@ -71,6 +71,7 @@ Salmon: toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon
 Salmon: toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon
 SortMeRNA: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna
 Staramr: toolshed.g2.bx.psu.edu/repos/nml/staramr/staramr_search/0.4.0
+Table Compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 TargetFinder: toolshed.g2.bx.psu.edu/repos/rnateam/targetfinder/targetfinder
 TargetFinder: toolshed.g2.bx.psu.edu/repos/rnateam/targetfinder/targetfinder
 TrimGalore: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore
@@ -98,7 +99,6 @@ cardinal_spectra_plot: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_spectra_plo
 cds_essential_variability: toolshed.g2.bx.psu.edu/repos/climate/cds_essential_variability/cds_essential_variability
 datamash operations: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops
 datamash transpose: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose
-Table compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 changTitle: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title
 comConvert: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert
 fasta_to_gspan: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_fasta_to_gspan/gspan/0.4
@@ -138,14 +138,6 @@ mdaAngle: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_angle/mdanalysis_angl
 mdaDihedral: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/
 mdaDistance: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/
 mdaRDF: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/
-monocle3_create: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_create
-monocle3_diffexp: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_diffexp
-monocle3_learngraph: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_learngraph
-monocle3_ordercells: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_ordercells
-monocle3_partition: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_partition
-monocle3_plotcells: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_plotcells
-monocle3_preprocess: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_preprocess
-monocle3_reducedim: toolshed.g2.bx.psu.edu/repos/ebi-gxa/monocle3_reducedim
 packmol: toolshed.g2.bx.psu.edu/repos/chemteam/packmol/packmol/
 psy_maps: toolshed.g2.bx.psu.edu/repos/climate/psy_maps/psy_maps
 remConterIons: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons
