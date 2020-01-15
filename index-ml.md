@@ -7,17 +7,17 @@ subdomain: ml
 # Welcome to the Galaxy Machine Learning workbench
 {:.no_toc}
 
-![RNA Galaxy](/assets/media/machine_learning_logo.png){:.rna-intro-right}
+![ML Galaxy](/assets/media/machine_learning_logo.png){:.rna-intro-right}
 
 The Galaxy Machine Learning workbench is a comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, consolidated workflows for end-to-end machine learning analysis and training materials to showcase the usage of these tools.
 The workbench is available on the [Galaxy framework](https://galaxyproject.org){:target="_blank"}, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated machine learning analyses independent of command-line knowledge.
 
-The workbench provides you with the a Swiss Army knife of [scikit-learn](https://scikit-learn.org){:target="_blank"},
+The workbench provides you with a Swiss Army knife of [scikit-learn](https://scikit-learn.org){:target="_blank"},
 [Keras](https://keras.io){:target="_blank"} (a deep learning library based on [TensorFlow](https://www.tensorflow.org){:target="_blank"}) and various other tools to transform, learn and predict and plot your data.
 
 The workbench is currently developed by the [Goecks Lab](https://goeckslab.org) and the [European Galaxy project](https://galaxyproject.eu/){:target="_blank"}.
 The [German Network for Bioinformatics Infrastructure (de.NBI)](http://www.denbi.de){:target="_blank"},
-which runs the German [ELIXIR Node](https://www.elixir-europe.org/){:target="_blank"}, provides the necessary compute clusters with CPUs and GPUs.
+which runs the German [ELIXIR Node](https://www.elixir-europe.org/){:target="_blank"}, provides the necessary compute clusters with CPUs and GPU resources.
 
 The project is a community effort, please jump in, ask questions, and contribute to the development of new tools, workflows or trainings!
 
@@ -39,8 +39,7 @@ We are passionate about training. So we are working in close collaboration with 
 based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub
 repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
 
-Want to learn more about machine learning? Take one of our guided tours or check out the following hands-on tutorials.
-We have developed several tutorials together with the [GTN community](https://galaxyproject.org/teach/gtn/).
+Want to learn more about machine learning? Take one of our guided tours or check out the following hands-on tutorials, developed together with the [GTN community](https://galaxyproject.org/teach/gtn/).
 
 Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy tour | Galaxy History
 --- | --- | --- | --- | --- | --- | ---
@@ -52,8 +51,8 @@ Age prediction using machine learning |  | [<i class="fa fa-laptop" aria-hidden=
 
 # Available tools
 
-In this section we list the most important tools that have been integrated in the Machine Learning workbench.
-There are many more tools available so please have a more detailed look into the tool panel.
+In this section we list the most important tools that have been integrated into the Machine Learning workbench.
+There are many more tools available so please have a more detailed look at the tool panel.
 For better readability, we have divided them into categories.
 
 ## Classification
@@ -62,22 +61,12 @@ Identifying which category an object belongs to.
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="SVM Classifier" %} | Support Vector Machine (SVM) classifier | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="SVM Classifier" %} | Support vector machines (SVMs) for classification| [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
 {% include tool.html id="NN Classifier" %} | Nearest Neighbors Classification | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Ensemble classification" %} | Ensemble methods for classification | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Discriminant Classifier" %} | Linear and Quadratic Discriminant Analysis are two classic classifiers with a linear and a quadratic decision surface respectively | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Generalized linear" %} | Generalized linear models for classification | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Train/Test evaluation" %} | Train, Test and Evaluation fit a model using part of dataset and evaluate using the rest | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Model Prediction" %} | Model Prediction predicts on new data using a prefitted model | [Chollet et al. 2011](https://keras.io){:target="_blank"}
-{% include tool.html id="Sample Generator" %} | Generate random samples with controlled size and complexity | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Estimator Attributes" %} | Estimator attributes get important attributes from an estimator or scikit object | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Stacking Ensemble Models" %} | Stacking Ensembles builds stacking, voting ensemble models with numerous base options | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Search CV" %} | Hyperparameter Search performs hyperparameter optimization using various SearchCVs  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Build Pipeline" %} | Pipeline Builder an all-in-one platform to build pipeline, single estimator, preprocessor and custom wrappers | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Feature selection" %} | Feature Selection module, including univariate filter selection methods and recursive feature elimination algorithm | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Fitted model evaluation" %} | Evaluate a Fitted Model using a new batch of labeled data | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Model fitting" %} | Fit a Pipeline, Ensemble or other models using a labeled dataset | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Train/Test splitting" %} | Split Dataset into training and test subsets | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Ensemble classification" %} | Ensemble methods for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Discriminant Classifier" %} | Linear and Quadratic Discriminant Analysis| [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Generalized linear" %} | Generalized linear models for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="CLF Metrics" %} | Calculate metrics for classification performance  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 ## Regression
@@ -86,8 +75,9 @@ Predicting a continuous-valued attribute associated with an object.
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="Ensemble regression" %} | Ensemble methods for regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Generalized linear" %} | Generalized linear models for regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Ensemble regression" %} | Ensemble methods for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Generalized linear" %} | Generalized linear models for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Regression metrics" %} | Calculate metrics for regression performance | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 ## Clustering
@@ -99,32 +89,46 @@ Tool | Description | Reference
 {% include tool.html id="Numeric clustering" %} | Different numerical clustering algorithms | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
 {: .table.table-striped .tooltable}
 
+## Model building
 
-## Model selection
+Building general machine learning models.
 
-Comparing, validating and choosing parameters and models.
+Tool | Description | Reference
+--- | --- | ---
+{% include tool.html id="Estimator Attributes" %} | Estimator attributes to get all attributes from an estimator or scikit object | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Stacking Ensemble Models" %} | Stacking Ensembles to build stacking, voting ensemble models with numerous base options | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Search CV" %} | Hyperparameter Search performs hyperparameter optimization using various SearchCVs  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Build Pipeline" %} | Pipeline Builder as an all-in-one platform to build pipeline, single estimator, preprocessor and custom wrappers | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{: .table.table-striped .tooltable}
+
+## Model evaluation
+
+Evaluation, validating and choosing parameters and models.
 
 Tool | Description | Reference
 --- | --- | ---
 {% include tool.html id="Model validation" %} | Model Validation includes cross_validate, cross_val_predict, learning_curve, and more | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="CLF Metrics" %} | Calculate metrics for classification performance  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
 {% include tool.html id="Pairwise Metrics" %} | Evaluate pairwise distances or compute affinity or kernel for sets of samples | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
-{% include tool.html id="Regression metrics" %} | Calculate metrics for regression performance | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Train/Test evaluation" %} | Train, Test and Evaluation to fit a model using part of dataset and evaluate using the rest | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Model Prediction" %} | Model Prediction predicts on new data using a preffited model | [Chollet et al. 2011](https://keras.io){:target="_blank"}
+{% include tool.html id="Fitted model evaluation" %} | Evaluate a Fitted Model using a new batch of labeled data | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Model fitting" %} | Fit a Pipeline, Ensemble or other models using a labeled dataset | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 
-## Preprocessing
+## Preprocessing and feature selection
 
-Feature extraction and normalization.
+Feature selection and preprocessing.
 
 Tool | Description | Reference
 --- | --- | ---
 {% include tool.html id="Data preprocessing" %} | Preprocess raw feature vectors into standardized datasets  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Feature selection" %} | Feature Selection module, including univariate filter selection methods and recursive feature elimination algorithm | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 ## Deep learning
 
-Build and use deep learning neural networks.
+Build and use deep neural networks.
 
 Tool | Description | Reference
 --- | --- | ---
@@ -134,16 +138,28 @@ Tool | Description | Reference
 {% include tool.html id="Train and evaluation" %} | Deep learning training and evaluation either implicitly or explicitly  | [Chollet et al. 2011](https://keras.io){:target="_blank"}
 {: .table.table-striped .tooltable}
 
+## Visualization
+
+Plotting and visualization.
+
+Tool | Description | Reference
+--- | --- | ---
+{% include tool.html id="Regression performance plots" %} | Plot actual vs predicted curves and residual plots of tabular data |
+{% include tool.html id="ML performance plots" %} | Plot confusion matrix, precision, recall and ROC and AUC curves of tabular data |
+{% include tool.html id="Visualization" %} | Machine Learning Visualization Extension includes several types of plotting for machine learning | [Chollet et al. 2011](https://keras.io){:target="_blank"}
+{: .table.table-striped .tooltable}
+
 ## Utilities
 
-General data manipulation tools.
+General data and table manipulation tools.
 
 Tool | Description | Reference
 --- | --- | ---
 {% include tool.html id="Table compute" %} | The power of the pandas data library for manipulating and computing expressions upon tabular data and matrices. |
-{% include tool.html id="datamash operations" %} | datamash operations on tabular data |
-{% include tool.html id="datamash transpose" %} | Transpose rows/columns in a tabular file |
-{% include tool.html id="Visualization" %} | Machine Learning Visualization Extension includes several types of plotting for machine learning | [Chollet et al. 2011](https://keras.io){:target="_blank"}
+{% include tool.html id="Datamash operations" %} | Datamash operations on tabular data |
+{% include tool.html id="Datamash transpose" %} | Transpose rows/columns in a tabular file |
+{% include tool.html id="Sample Generator" %} | Generate random samples with controlled size and complexity | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
+{% include tool.html id="Train/Test splitting" %} | Split Dataset into training and test subsets | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html){:target="_blank"}
 {: .table.table-striped .tooltable}
 
 ## Interactive Environments
