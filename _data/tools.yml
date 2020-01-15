@@ -96,8 +96,8 @@ cardinal_quality_report: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_r
 cardinal_segmentation: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_segmentations/cardinal_segmentations/
 cardinal_spectra_plot: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_spectra_plots/cardinal_spectra_plots/
 cds_essential_variability: toolshed.g2.bx.psu.edu/repos/climate/cds_essential_variability/cds_essential_variability
-datamash operations: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops
-datamash transpose: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose
+Datamash operations: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops
+Datamash transpose: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose
 changTitle: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title
 comConvert: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert
 fasta_to_gspan: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_fasta_to_gspan/gspan/0.4
@@ -227,5 +227,6 @@ Model fitting: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_model_fit/sklearn_
 Train/Test splitting: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_train_test_split/sklearn_train_test_split
 Visualization: toolshed.g2.bx.psu.edu/repos/bgruening/ml_visualization_ex/ml_visualization_ex
 Train and evaluation: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval
-
-
+Regression performance plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots
+ML performance plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots
+Table compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
