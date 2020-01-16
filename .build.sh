@@ -12,7 +12,7 @@ gem --version
 gem install bundler
 
 bundler install --gemfile _data/Gemfile
-bundle exec jekyll build
+bundle exec --gemfile _data/Gemfile jekyll build
 # Check internal links
 #bundle exec htmlproofer ./_site --check-html --allow-hash-href --assume-extension --disable-external
 # Check external
