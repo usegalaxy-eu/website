@@ -95,12 +95,22 @@ and can easily get directions to it.
 
 ## Building
 
+This website is jekyll based and can be build as every other jekyll page.
+
 ```console
 bundle install --path vendor/bundle
 bundle exec jekyll serve --watch
 ```
 
 Other commands are available under `jekyll --help`
+
+If you have conda around and no jekyll setup, we do provide a Makefile that sets up and
+conda environment, with all what you need.
+
+```console
+make install
+make run
+```
 
 ## Deploying
 
