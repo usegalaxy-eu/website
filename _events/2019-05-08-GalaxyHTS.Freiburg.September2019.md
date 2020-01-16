@@ -60,6 +60,11 @@ Thu     | HiC data analysis
 Fri     | exercises, questions, discussions, bring your own data ... (until 14:00)
 {:.table.table-striped}
 
+## Links
+
+* [Galaxy tipps and tricks](https://github.com/bgruening/galaxy-tricks)
+* [Galaxy training network](http://training.galaxyproject.org)
+
 ## Lunch Options
 
 <iframe src="https://www.google.com/maps/d/embed?mid=13xIYbHTYlxxu-oopBTsSJHqK42M8lO6C" width="100%" height="480"></iframe>

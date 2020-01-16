@@ -49,14 +49,14 @@ freiburg:
         gitter: wm75
         bio:
 
-    erasche:
+    hexylena:
         name: Helena Rasche
         title: B.Sc. Biochem., Technician
         email: hxr@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54128
         location: "Build.: 079, Room: -1005a"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        gitter: erasche
+        gitter: hexylena
         orcid: 0000-0001-9760-8992
         galaxyadmin: true
 
@@ -143,6 +143,28 @@ freiburg:
         researchgate: Rolf_Backofen
         bio:
 
+    olegzharkov:
+        name: Oleg Zharkov
+        title: M.Sc. Inf., Researcher, Developer
+        email: oleg.zharkov@rz.uni-freiburg.de
+        location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: OlegZharkov
+        bio:
+
+    janleendertse:
+        name: Jan Leendertse
+        email: jan.leendertse@rz.uni-freiburg.de
+        phone: +49(0) 761 - 203 97897
+        location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: JanLeendertse
+        orcid: 0000-0001-5676-493X
+        website: http://leendertse.eu
+        linkedin: JanLeendertse
+        researchgate: JanLeendertse
+        bio: 
+        
 erasmusmc:
     andrew-emc:
         name: Andrew Stubbs

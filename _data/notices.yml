@@ -7,15 +7,19 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #
 
-#- title: GCC Registration Open!
-  #class: success # one of [success, info, warning, danger]
-  #site: freiburg    # Your site
-  #messages:
-      #- message: |
-          #Galaxy Community Conference (GCC) 2019 will be held in Freiburg, Germany 1-6 July and [registration is now open](https://galaxyproject.org/events/gcc2019/).
-          #The GCC aims at bringing together Galaxy Users, Developers and Administrators to learn from each other.
-          #Tell us about your use case, how we can improve Galaxy, present your work or attend one of the many training sessions.
-          #[Register now](https://galaxyproject.org/events/gcc2019/registration/)!
-        #date: 2019-05-03 11:21:04+02:00
-        #
-        #
+#- title: Restricted compute capacity on the 12.12.2019
+#  class: info # one of [success, info, warning, danger]
+#  site: freiburg # Your site
+#  messages:
+#      - message: |
+#          Due to maintenance work on the de.NBI cloud we need to shutdown large parts of our compute infrastructure on the
+#          12.12.2019. We are hopeful to keep the webserver running and accept jobs and workflows, but there will be a delay
+#          in computing them.
+
+#- title: Enough talking - time to act!
+#  class: danger # one of [success, info, warning, danger]
+#  site: freiburg # Your site
+#  messages:
+#      - message: |
+#          The Freiburg Galaxy team will be striking today (29.11.2019). No new jobs will be processed today!
+#          For more information please see our [blog post](https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really).

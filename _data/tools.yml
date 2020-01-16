@@ -1,3 +1,4 @@
+Alevin: toolshed.g2.bx.psu.edu/repos/bgruening/alevin
 ARAGORN: toolshed.g2.bx.psu.edu/repos/bgruening/trna_prediction/aragorn_trna
 AREsite2: toolshed.g2.bx.psu.edu/repos/rnateam/aresite2/AREsite2_REST
 AddH: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh
@@ -11,6 +12,7 @@ CMV: toolshed.g2.bx.psu.edu/repos/rnateam/cmv/cmv
 Canu: toolshed.g2.bx.psu.edu/repos/bgruening/canu/canu/1.7
 CoFold: toolshed.g2.bx.psu.edu/repos/rnateam/cofold/cofold
 Compalignp: toolshed.g2.bx.psu.edu/repos/rnateam/compalignp/compalignp
+Cross Contamination Barcode Filter: https://toolshed.g2.bx.psu.edu/repos/iuc/crosscontamination_barcode_filter
 DESeq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 DESeq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 DoRiNA: toolshed.g2.bx.psu.edu/repos/rnateam/dorina/dorina_search
@@ -52,12 +54,12 @@ QED: toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed/0.1
 RCAS: toolshed.g2.bx.psu.edu/repos/rnateam/rcas/rcas
 RNA STAR: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star
 RNA STAR: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star
+RNA STAR Solo: toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo
 RNABOB: toolshed.g2.bx.psu.edu/repos/rnateam/rnabob/rbc_rnabob
 RNAcode: toolshed.g2.bx.psu.edu/repos/rnateam/rnacode/rbc_rnacode
 RNAlien: toolshed.g2.bx.psu.edu/repos/rnateam/rnalien/RNAlien
 RNAshapes: toolshed.g2.bx.psu.edu/repos/rnateam/rnashapes/RNAshapes
 RNAz: toolshed.g2.bx.psu.edu/repos/bgruening/rnaz/rnaz
-RaceID: toolshed.g2.bx.psu.edu/repos/iuc/raceid_clustering/raceid_clustering/
 Racon: toolshed.g2.bx.psu.edu/repos/bgruening/racon/racon/1.3.1.1
 RemDupMol: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates
 STAR-fusion: toolshed.g2.bx.psu.edu/repos/iuc/star_fusion/star_fusion
@@ -68,6 +70,7 @@ Salmon: toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon
 Salmon: toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon
 SortMeRNA: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna
 Staramr: toolshed.g2.bx.psu.edu/repos/nml/staramr/staramr_search/0.4.0
+Table Compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 TargetFinder: toolshed.g2.bx.psu.edu/repos/rnateam/targetfinder/targetfinder
 TargetFinder: toolshed.g2.bx.psu.edu/repos/rnateam/targetfinder/targetfinder
 TrimGalore: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore
@@ -75,6 +78,11 @@ Trinity: toolshed.g2.bx.psu.edu/repos/iuc/trinity/trinity
 Unicycler: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.4.7.0
 Wtdbg2: toolshed.g2.bx.psu.edu/repos/bgruening/wtdbg/wtdbg/1.2.8.1
 antaRNA: toolshed.g2.bx.psu.edu/repos/rnateam/antarna/antarna
+anndata_export: toolshed.g2.bx.psu.edu/repos/iuc/anndata_export
+anndata_import: toolshed.g2.bx.psu.edu/repos/iuc/anndata_import
+anndata_inspect: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect
+anndata_manipulate: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate
+modify_loom: toolshed.g2.bx.psu.edu/repos/iuc/modify_loom
 bio3dPCA: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/
 bio3dRMSD: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/
 bio3dRMSF: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/
@@ -88,6 +96,8 @@ cardinal_quality_report: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_r
 cardinal_segmentation: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_segmentations/cardinal_segmentations/
 cardinal_spectra_plot: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_spectra_plots/cardinal_spectra_plots/
 cds_essential_variability: toolshed.g2.bx.psu.edu/repos/climate/cds_essential_variability/cds_essential_variability
+Datamash operations: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops
+Datamash transpose: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose
 changTitle: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title
 comConvert: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert
 fasta_to_gspan: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_fasta_to_gspan/gspan/0.4
@@ -117,6 +127,10 @@ htseq-count: toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/htseq_count
 htseq-count: toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/htseq_count
 infernal_cmbuild: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmbuild/1.1.0.2
 infernal_cmsearch: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch/1.1.0.2
+je_clip: toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_clip
+je_demultiplex: toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_demultiplex
+je_demultiplex_illu: toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_demultiplex_illu
+je_markdupes: toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_markdupes
 mean_per_zone: toolshed.g2.bx.psu.edu/repos/climate/mean_per_zone/mean_per_zone
 mdConverter: toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/
 mdaAngle: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_angle/mdanalysis_angle/
@@ -125,6 +139,11 @@ mdaDistance: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysi
 mdaRDF: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/
 packmol: toolshed.g2.bx.psu.edu/repos/chemteam/packmol/packmol/
 psy_maps: toolshed.g2.bx.psu.edu/repos/climate/psy_maps/psy_maps
+raceid_clustering: toolshed.g2.bx.psu.edu/repos/iuc/raceid_clustering
+raceid_filtnormconf: toolshed.g2.bx.psu.edu/repos/iuc/raceid_filtnormconf/
+raceid_trajectory: toolshed.g2.bx.psu.edu/repos/iuc/raceid_trajectory/
+raceid_inspectclusters: toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspectclusters/
+raceid_inspecttrajectory: toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspecttrajectory
 remConterIons: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons
 remCountIo: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title
 remProtState: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remove_protonation_state/openbabel_remove_protonation_state
@@ -173,5 +192,41 @@ scater_read_10x_results: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_read_10x_re
 scater_filter: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_filter/scater_filter
 scater_normalize: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_normalize/scater_normalize
 ucsc_cell_browser: toolshed.g2.bx.psu.edu/repos/ebi-gxa/ucsc_cell_browser/ucsc_cell_browser
+umi_tools_count: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_count
+umi_tools_dedup: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_dedup
+umi_tools_extract: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract
+umi_tools_group: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_group
+umi_tools_whitelist: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_whitelist
 retrieve_scxa: toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa
 hca_matrix_downloader: toolshed.g2.bx.psu.edu/repos/ebi-gxa/hca_matrix_downloader/hca_matrix_downloader
+SVM Classifier: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier
+Train/Test evaluation: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_train_test_eval/sklearn_train_test_eval
+Model Prediction: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction
+Batch Models: toolshed.g2.bx.psu.edu/repos/bgruening/keras_batch_models/keras_batch_models
+Model Builder: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder
+Model Config: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config
+Sample Generator: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_sample_generator/sklearn_sample_generator
+Estimator Attributes: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_estimator_attributes/sklearn_estimator_attributes
+Stacking Ensemble Models: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_stacking_ensemble_models/sklearn_stacking_ensemble_models
+Search CV: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv
+Build Pipeline: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline
+Pairwise Metrics: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_pairwise_metrics/sklearn_pairwise_metrics
+NN Classifier: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_nn_classifier/sklearn_nn_classifier
+Numeric clustering: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_numeric_clustering/sklearn_numeric_clustering
+Ensemble classification: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble
+Ensemble regression: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble
+Feature selection: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_feature_selection/sklearn_feature_selection
+Data preprocessing: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_data_preprocess/sklearn_data_preprocess
+CLF Metrics: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_clf_metrics/sklearn_clf_metrics
+Regression metrics: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_regression_metrics/sklearn_regression_metrics
+Discriminant Classifier: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_discriminant_classifier/sklearn_discriminant_classifier
+Generalized linear: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_generalized_linear/sklearn_generalized_linear
+Model validation: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_model_validation/sklearn_model_validation
+Fitted model evaluation: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_fitted_model_eval/sklearn_fitted_model_eval
+Model fitting: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_model_fit/sklearn_model_fit
+Train/Test splitting: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_train_test_split/sklearn_train_test_split
+Visualization: toolshed.g2.bx.psu.edu/repos/bgruening/ml_visualization_ex/ml_visualization_ex
+Train and evaluation: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval
+Regression performance plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots
+ML performance plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots
+Table compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute

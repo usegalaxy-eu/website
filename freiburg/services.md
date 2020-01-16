@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Our services
+# Our Services
 
 ---
 The Freiburg Galaxy Team is offering several services to enable **reproducible** and **accessible** research for everyone:
@@ -17,21 +17,32 @@ The Freiburg Galaxy Team is offering several services to enable **reproducible**
 
 ---
 <a name="galaxy-server"></a>
-# <i class="fa fa-server"></i> Galaxy server
+# <i class="fa fa-server"></i> The European Galaxy Server
 
-Our flagship service is our Galaxy server ([https://usegalaxy.eu](https://usegalaxy.eu)) which is the **biggest Galaxy instance in Europe**, and one of the biggest worldwide.
+Our flagship service is the **European Galaxy server** [UseGalaxy.eu](https://usegalaxy.eu) which is the **biggest Galaxy instance in Europe**, and one of the biggest worldwide.
 
-With this server we provide access to:
-- a huge compute and storage resource without any charge
-- more than 1000 different, well-documented and constantly maintained bioinformatics tools.
+With **free** registration to the [UseGalaxy.eu](https://usegalaxy.eu) server we provide you an **easy access** to:
 
-When this effort is combined with our community-maintained workflows and our in-depth training material, it makes up for a truly productive work experience. We believe in enabling everyone to perform reproducible science.
+- Free compute and storage resources (250 GB per user)
+- Databases (e.g. EMBL-EBI ENA, NCBI SRA, Ensembl, UCSC, UniProt, and many organism-specific databases)
+- More than 2000 different, well-documented and constantly maintained bioinformatics tools
+- Puplic HTS data analyis workflows
+- Reference genomes
+- Visualizations
+
+When this effort is combined with our community-maintained workflows and our in-depth [Galaxy training material](https://training.galaxyproject.org), it makes up for a truly productive work experience. We believe in enabling everyone to perform reproducible science.
+
+Simply upload your data from your computer or via FTP and get started with your data analysis!
+
+### Galaxy Subcommunities
+
+We want to encourage scientist to join forces and foster subcommunities by giving them a common place, a Galaxy subdomain page. Every sububdomains comes with own welcome page, specific tool box, example data, workflow, and training material. More information can be found on the [https://galaxyproject.eu](https://galaxyproject.eu/) webpage.
 
 ---
 <a name="training"></a>
 # <i class="fa fa-graduation-cap"></i> Training
 
-Supporting researchers by educating them in *e.g.* big data analysis, programming, data management, and Galaxy server administration, is one of our goals as we believe that **sharing of knowledge** and the **open science** movement are the key points in future.
+We are passionate about training! Our team wants to support researchers to take part in their own data analyses by educating them in *e.g.* big data analysis, programming, data management, and Galaxy server administration. We believe that **sharing of knowledge** and the **open science** movement are the key points in future.
 
 <div class="multiple-img" style="text-align: right;">
     <img src="/assets/media/training_1.jpg" width="200px" alt="Workshop picture" />
@@ -39,25 +50,42 @@ Supporting researchers by educating them in *e.g.* big data analysis, programmin
     <img src="/assets/media/training_3.jpg" width="200px" alt="Workshop picture" />
 </div>
 
-### Workshops
+### Galaxy Training Workshops
 
-In Freiburg, we already offer twice per year a full-week hands-on high-throughput sequencing data analysis workshop: Introduction to Galaxy and HTS, RNA-Seq, ChIP-Seq, Exome-Seq, MethylC-Seq, etc. Registrations are possible through our website.
+Locally in Freiburg, we offer twice per year a free full-week hands-on high-throughput sequencing data analysis workshop. A typical workshop schedule looks as follows: 
 
-We are also giving training around the world on demand: for data analysis but also for developers and administrators.
+- Monday:     Introduction to Galaxy and HTS
+- Tuesday:    Quality control, IGV, ChIP-Seq, 
+- Wednesday:  RNA-Seq 
+- Thursday:   HiC data analysis, Methyl-C data analysis
+- Friday:     Bring your own data, exercises
 
-### Online training material at training.galaxyproject.org
+We have more training material for various topics to teach, e.g. Transcriptomics, Metabolomics, Metagenomics, Proteomics, Genome Annotation, Variant Calling, ... . Topics usually are selected from desired topics of the applicants.
 
-The Freiburg Galaxy Team is the main contributor to the community-driven development of Galaxy training material. All of this material is **online, and freely accessible for everyone** at [https://training.galaxyproject.org](https://training.galaxyproject.org). You will find there **tutorials with hands-on, slides and interactive tours**, designed for both **self-training** and **workshops**.
+All workshops are announced on our [events page](https://galaxyproject.eu/freiburg/events). Registrations are possible through our website.
+
+We and other members of the Galaxy training network (GTN) are giving training courses around the world for data analysis and for developers and administrators. Check the website of the main [Galaxy project](https://galaxyproject.org/events) as well as the [de.NBI](https://www.denbi.de) website for [de.NBI courses](https://www.denbi.de/training)
+
+### Galaxy Training Material
+
+The Freiburg Galaxy Team is a very active contributor to the community-driven development of GTN Galaxy training material. All of this material is **online, and freely accessible for everyone** at [https://training.galaxyproject.org](https://training.galaxyproject.org). 
+
+We provide more than 150 tutorials designed for both **self-training** and **workshops** for Galaxy users, developer, and administrators. Each tutorial comes with:
+
+- Introduction of the topic
+- Step-by-step instruction of the data analysis guiding through the analysis workflow
+- Real world example data sets
+- Interactive tour
 
 We also provide the technical support with tools, data, virtualized instances, ... So you can use this material on our Galaxy instance or you can spin up your own Galaxy server!
 
 If you want to offer a training course to other researchers, we do maintain a set of material for “train the trainers” and we are happy to share our knowledge and experience in this area with you. We are also providing training material for Galaxy developers and admins as well as the possibility to use iPython notebooks and jupyter directly in Galaxy.
 
-### Hackathons
+### Collaboration/Contribution Fests
 
-Hackathons or contribution fests are short events (usually few days) where people combine their force and **develop new, or improving existing techniques, tools, training materials, etc.**
+Contribution fests (or hackathons) are short events (usually few days) where people combine their force and **develop new, or improving existing techniques, tools, training materials, etc.**
 
-We organize numerous hackathons per year on site or online, in close cooperation with [de.NBI](https://www.denbi.de/), [ELIXIR](https://www.elixir-europe.org/), and the Galaxy community.
+We organize numerous hackathons per year on site or online, in close cooperation with [de.NBI](https://www.denbi.de), [ELIXIR](https://www.elixir-europe.org), and the Galaxy community.
 
 ---
 <a name="training-infrastructure-as-a-service"></a>
