@@ -116,6 +116,14 @@ Tool | Description | Reference
 {% include tool.html id="Piranha" %} | A peak-caller for CLIP- and RIP-seq data | -
 {: .table.table-striped .tooltable}
 
+## RNA-RNA interaction
+
+Tool | Description | Reference
+--- | --- | ---
+{% include tool.html id="ChiRA-collapse" label="C" %}{% include tool.html id="ChiRA-map" label="h" %}{% include tool.html id="ChiRA-merge" label="i" %}{% include tool.html id="ChiRA-quantify" label="R" %}{% include tool.html id="ChiRA-extract" label="A" %} | A set of tools to analyze RNA-RNA interactome experimental data such as CLASH, CLEAR-CLIP, PARIS, LIGR-Seq etc | -
+{: .table.table-striped .tooltable}
+
+
 ## RNA target prediction
 
 Tool | Description | Reference
@@ -130,7 +138,7 @@ Tool | Description | Reference
 Tool | Description | Reference
 --- | --- | ---
 {% include tool.html id="FastQC" %} | A quality control tool for high throughput sequence data | -
-{% include tool.html id="Trim Galore" label="Trim Galore!" %} | Automatic quality and adapter trimming as well as quality control | -
+{% include tool.html id="TrimGalore" label="Trim Galore!" %} | Automatic quality and adapter trimming as well as quality control | -
 {: .table.table-striped .tooltable}
 
 ### RNA-Seq
