@@ -51,13 +51,13 @@ change, it will be announced during the workshop.
 
 Preliminary schedule. Topics may be adjusted according to the participants demand
 
-| Day | Topics                                                                         |
-|:---:|:-------------------------------------------------------------------------------|
-| Mon | Pre-processing of scRNA-seq data and Barcoding                                 |
-| Tue | Downstream analysis with RaceID                                                |
-| Wed | Pre-processing of 10X scRNA-seq and QC with Scater                             |
-| Thu | Downstream analysis of 10X datasets with Scanpy, interactive tools and Jupyter |
-| Fri | Exercises, questions, discussions ... (until 14:00)                            |
+| Day | Topics                                                                |
+|:---:|:----------------------------------------------------------------------|
+| Mon | Galaxy 101 and Mapping                                                |
+| Tue | Reference-based RNA-Seq data analysis                                 |
+| Wed | Pre-processing of General / 10X Single-Cell RNA Datasets              |
+| Thu | Downstream analysis with RaceID, and Clustering 3K PBMCs with ScanPy  |
+| Fri | Interactive Environments, Jupyter Notebooks and Q&A ... (until 14:00) |
 {:.table.table-striped}
 
 ## Links
