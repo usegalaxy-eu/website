@@ -26,7 +26,7 @@ supporters:
 hidefooter: true
 ---
 
-We are offering a Galaxy workshop on single cell data analysis. 39 participants will be selected from all applicants. 
+We are offering a Galaxy workshop on **single cell RNA-seq data analysis**. 39 participants will be selected from all applicants.
 To apply for attendance, please sign in [here](https://forms.gle/uutHkdgsJUgKnHhf7).
 
 ## Venue
@@ -39,9 +39,7 @@ To apply for attendance, please sign in [here](https://forms.gle/uutHkdgsJUgKnHh
 1. If you are registered but **cannot attend** our workshop, please [contact us
    by email](mailto:contact@usegalaxy.eu) immediately. We have a long waiting
    list and can give your place to others, even on short notice.
-2. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis. Participants from the     
-   MPI Freiburg, please note that the European Galaxy server is different from the MPI Galaxy server. You will need to 
-   have an account on [https://usegalaxy.eu](https://usegalaxy.eu]) as well.
+2. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis.
 3. You can bring your *own notebook* or desktop computers will be available. Eduroam is available, ask your institute 
    for how to login.
 4. The workshop is free of charge. No stipends for travel or accommodation are available.
@@ -59,7 +57,7 @@ Preliminary schedule. Topics may be adjusted according to the participants deman
 | Tue | Downstream analysis with RaceID                                                |
 | Wed | Pre-processing of 10X scRNA-seq and QC with Scater                             |
 | Thu | Downstream analysis of 10X datasets with Scanpy, interactive tools and Jupyter |
-| Fri | Exercises, questions, discussions, bring your own data ... (until 14:00)       |
+| Fri | Exercises, questions, discussions ... (until 14:00)                            |
 {:.table.table-striped}
 
 ## Links
@@ -73,7 +71,7 @@ Preliminary schedule. Topics may be adjusted according to the participants deman
 
 ## Preparation
 
-You must go through two Galaxy interactive tours before beginning the training.
+Please go through two Galaxy interactive tours before beginning the training.
 These interactive tours guide you stepwise through the Galaxy user interface
 and the history. They will help you to follow the Galaxy introduction, and
 ensure everyone has a basic understanding of how Galaxy works.
