@@ -41,11 +41,11 @@ We are offering a workshop on introduction to machine learning using Galaxy. 35 
 2. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis.
 3. You can bring your *own notebook* or desktop computers will be available. Eduroam is available, ask your institute 
    for how to login.
-4. The workshop is free of charge. Unfortunately no stipends for travel or accommodation are available.
+4. The workshop is free of charge. Unfortunately, no stipends for travel or accommodation are available.
 
 ## Program:
 
-Every day the workshop will run from 9:00-17:00 (give or take, depending on questions at the end). If the times will change, it will be announced during the workshop.
+Usually the workshop will run from 9:00-17:00 (give or take, depending on questions at the end). If the times will change, it will be announced during the workshop.
 
 Preliminary schedule. Topics may be adjusted according to the participants demand
 
