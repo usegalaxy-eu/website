@@ -7,7 +7,7 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #
 
-- title: Restricted compute capacity on the 21.01.2020 around 12.00 CET
+- title: Restricted compute capacity on the 22.01.2020 around 12.00 CET
   class: info # one of [success, info, warning, danger]
   site: freiburg # Your site
   messages:
