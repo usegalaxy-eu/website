@@ -230,8 +230,8 @@ Train and evaluation: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eva
 Regression performance plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots
 ML performance plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots
 Table compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
-ChiRA-collapse: toolshed.g2.bx.psu.edu/repos/iuc/chira_collapse
-ChiRA-map: toolshed.g2.bx.psu.edu/repos/iuc/chira_map
-ChiRA-merge: toolshed.g2.bx.psu.edu/repos/iuc/chira_merge
-ChiRA-quantify: toolshed.g2.bx.psu.edu/repos/iuc/chira_quantify
-ChiRA-extract: toolshed.g2.bx.psu.edu/repos/iuc/chira_extract
+ChiRA-collapse: toolshed.g2.bx.psu.edu/repos/iuc/chira_collapse/chira_collapse
+ChiRA-map: toolshed.g2.bx.psu.edu/repos/iuc/chira_map/chira_map
+ChiRA-merge: toolshed.g2.bx.psu.edu/repos/iuc/chira_merge/chira_merge
+ChiRA-quantify: toolshed.g2.bx.psu.edu/repos/iuc/chira_quantify/chira_quantify
+ChiRA-extract: toolshed.g2.bx.psu.edu/repos/iuc/chira_extract/chira_extract
