@@ -45,7 +45,7 @@ The Freiburg Galaxy Team and Deep-Sequencing unit at the MPI-IE Freiburg offer a
    different from the Galaxy server of MPI: you will need an account on our
    server, too.
 3. You can bring your *own notebook* or computers will be available. Eduroam is available, ask your institute for how to login.
-4. The workshop is free of charge. No stipends for travel or accommodation are available.
+4. The workshop is free of charge. Unfortunately no stipends for travel or accommodation are available.
 
 ## Program:
 

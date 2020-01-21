@@ -2,11 +2,11 @@
 site: freiburg
 tags:
 - training
-title: Galaxy HTS data analysis workshop in Freiburg
-starts: 2020-02-17
-ends: 2020-02-21
+title: Introduction to machine learning using Galaxy
+starts: 2020-03-30
+ends: 2020-04-01
 organiser:
-  name: Freiburg Galaxy Team & MPI Freiburg
+  name: Freiburg Galaxy Team
   email: contact@usegalaxy.eu
 location:
   name: PC Pool 3
@@ -21,12 +21,12 @@ location:
 supporters:
 - unifreiburg
 - denbi
-- mpi
+- elixir
 # special hiding of footer since we want to do it manually.
 hidefooter: true
 ---
 
-We are offering a Galaxy **beginner** workshop on high-throughput data analysis. 39 participants will be selected from all applicants. To apply for attendance, please sign in [here](https://drive.google.com/open?id=1AqPFa0fKbzVjBgm6ZAy5sVOWgotqELioUCGKw6sa6rY).
+We are offering a workshop on introduction to machine learning using Galaxy. 35 participants will be selected from all applicants. To apply for attendance, please sign in [here](https://docs.google.com/forms/d/e/1FAIpQLSdu1SJbSOCGy20iqShiyK5DUIrZU6hnPGpYv2DgHnUxf13HSQ/viewform?usp=pp_url).
 
 ## Venue
 
@@ -38,26 +38,22 @@ We are offering a Galaxy **beginner** workshop on high-throughput data analysis.
 1. If you are registered but **cannot attend** our workshop, please [contact us
    by email](mailto:contact@usegalaxy.eu) immediately. We have a long waiting
    list and can give your place to others, even on short notice.
-2. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis. Participants from the     
-   MPI Freiburg, please note that the European Galaxy server is different from the MPI Galaxy server. You will need to 
-   have an account on [https://usegalaxy.eu](https://usegalaxy.eu]) as well.
+2. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis.
 3. You can bring your *own notebook* or desktop computers will be available. Eduroam is available, ask your institute 
    for how to login.
-4. The workshop is free of charge. Unfortunately no stipends for travel or accommodation are available.
+4. The workshop is free of charge. Unfortunately, no stipends for travel or accommodation are available.
 
 ## Program:
 
-Every day the workshop will run from 9:00-17:00 (give or take, depending on questions at the end). If the times will change, it will be announced during the workshop.
+Usually the workshop will run from 9:00-17:00 (give or take, depending on questions at the end). If the times will change, it will be announced during the workshop.
 
 Preliminary schedule. Topics may be adjusted according to the participants demand
 
 Day     | Topics
 ------- | --------
-Mon     | **Starts at 10:00 am**,  HTS and Galaxy presentations and introduction
-Tue     | ChIPseq data analysis
-Wed     | RNA-seq data analysis
-Thu     | HiC data analysis
-Fri     | exercises, questions, discussions, bring your own data ... (until 14:00)
+Mon     | **Starts at 10:00 am**, Introduction to Galaxy, machine learning basics and classification techniques.
+Tue     | Regression models, unsupervised learning (clustering and dimension reduction) and feature selection methods.
+Wed     | Hyperparameter optimization techniques, questions and discussions. **Ends at 2:00 pm**
 {:.table.table-striped}
 
 ## Links
@@ -68,18 +64,6 @@ Fri     | exercises, questions, discussions, bring your own data ... (until 14:0
 ## Lunch Options
 
 <iframe src="https://www.google.com/maps/d/embed?mid=13xIYbHTYlxxu-oopBTsSJHqK42M8lO6C" width="100%" height="480"></iframe>
-
-## Preparation
-
-You must go through two Galaxy interactive tours before beginning the training.
-These interactive tours guide you stepwise through the Galaxy user interface
-and the history. They will help you to follow the Galaxy introduction, and
-ensure everyone has a basic understanding of how Galaxy works.
-
-- [Galaxy UI](https://usegalaxy.eu/tours/core.galaxy_ui)
-- [History Introduction](https://usegalaxy.eu/tours/core.history)
-
-If you have any questions, please do not hesitate to [contact us](mailto:contact@usegalaxy.eu)
 
 ## Travel Options
 

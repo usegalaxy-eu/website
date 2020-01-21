@@ -55,7 +55,7 @@ accommodation costs.
    by email](mailto:contact@usegalaxy.eu) immediately. We have a long waiting
    list and can give your place to others, even on short notice.
 2. You can bring your *own notebook* or computers will be available. Eduroam is available, ask your institute for how to login.
-3. The workshop is free of charge. No stipends for travel or accommodation are available.
+3. The workshop is free of charge. Unfortunately no stipends for travel or accommodation are available.
 4. DZL Academy Fellows will be reimbursed for travel and accommodation by DZL Academy.
 
 
