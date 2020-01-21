@@ -26,7 +26,7 @@ supporters:
 hidefooter: true
 ---
 
-We are offering workshop on introduction to machine learning using Galaxy. 35 participants will be selected from all applicants. To apply for attendance, please sign in [here](https://docs.google.com/forms/d/e/1FAIpQLSdu1SJbSOCGy20iqShiyK5DUIrZU6hnPGpYv2DgHnUxf13HSQ/viewform?usp=pp_url).
+We are offering a workshop on introduction to machine learning using Galaxy. 35 participants will be selected from all applicants. To apply for attendance, please sign in [here](https://docs.google.com/forms/d/e/1FAIpQLSdu1SJbSOCGy20iqShiyK5DUIrZU6hnPGpYv2DgHnUxf13HSQ/viewform?usp=pp_url).
 
 ## Venue
 
@@ -41,7 +41,7 @@ We are offering workshop on introduction to machine learning using Galaxy. 35 pa
 2. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis.
 3. You can bring your *own notebook* or desktop computers will be available. Eduroam is available, ask your institute 
    for how to login.
-4. The workshop is free of charge. No stipends for travel or accommodation are available.
+4. The workshop is free of charge. Unfortunately no stipends for travel or accommodation are available.
 
 ## Program:
 
@@ -53,7 +53,7 @@ Day     | Topics
 ------- | --------
 Mon     | **Starts at 10:00 am**, Introduction to Galaxy, machine learning basics and classification techniques.
 Tue     | Regression models, unsupervised learning (clustering and dimension reduction) and feature selection methods.
-Wed     | Hyperparameter optimization techniques and bring your own data as a usecase, questions and discussions. **Ends at 2:00 pm**
+Wed     | Hyperparameter optimization techniques, questions and discussions. **Ends at 2:00 pm**
 {:.table.table-striped}
 
 ## Links

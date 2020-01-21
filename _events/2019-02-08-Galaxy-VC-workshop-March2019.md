@@ -39,7 +39,7 @@ participants.
 1. To be able to perform the hands-on analysis part of the workshop, please register for a user account on the [European Galaxy server](https://usegalaxy.eu) before the workshop.
 2. Desktop computers are available for everyone, but you can also bring your own notebook if you prefer.
 Eduroam is available, ask your institute for how to login.
-3. The workshop is free of charge. No stipends for travel or accommodation are available.
+3. The workshop is free of charge. Unfortunately no stipends for travel or accommodation are available.
 
 ## Program:
 

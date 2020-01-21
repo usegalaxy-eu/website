@@ -44,7 +44,7 @@ You can sign in into our [waiting list](https://goo.gl/forms/gDJuKXf3kl7GAndD3).
    have an account on [https://usegalaxy.eu](https://usegalaxy.eu]) as well.
 3. You can bring your *own notebook* or desktop computers will be available. Eduroam is available, ask your institute 
    for how to login.
-4. The workshop is free of charge. No stipends for travel or accommodation are available.
+4. The workshop is free of charge. Unfortunately no stipends for travel or accommodation are available.
 
 ## Program:
 
