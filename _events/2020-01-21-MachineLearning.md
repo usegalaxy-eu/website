@@ -2,7 +2,7 @@
 site: freiburg
 tags:
 - training
-title: Machine learning workshop in Galaxy
+title: Introduction to machine learning using Galaxy
 starts: 2020-03-30
 ends: 2020-04-01
 organiser:
