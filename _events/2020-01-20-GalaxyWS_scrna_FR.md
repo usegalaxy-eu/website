@@ -6,7 +6,7 @@ title: Galaxy single cell RNA-seq data analysis workshop in Freiburg
 starts: 2020-03-23
 ends: 2020-03-27
 organiser:
-  name: Freiburg Galaxy Team & MPI Freiburg
+  name: Freiburg Galaxy Team
   email: contact@usegalaxy.eu
 location:
   name: PC Pool 3
@@ -21,13 +21,13 @@ location:
 supporters:
 - unifreiburg
 - denbi
-- mpi
+- elixir
 # special hiding of footer since we want to do it manually.
 hidefooter: true
 ---
 
 We are offering a Galaxy workshop on **single cell RNA-seq data analysis**. 39 participants will be selected from all applicants.
-To apply for attendance, please sign in [here](https://forms.gle/uutHkdgsJUgKnHhf7).
+To apply for attendance, please sign in [here](https://forms.gle/GMQg32PrVbTRkYqr8).
 
 ## Venue
 
@@ -53,12 +53,19 @@ Preliminary schedule. Topics may be adjusted according to the participants deman
 
 | Day | Topics                                                                |
 |:---:|:----------------------------------------------------------------------|
-| Mon | Galaxy 101 and Mapping                                                |
+| Mon | Galaxy Introduction                                                   |
 | Tue | Reference-based RNA-Seq data analysis                                 |
 | Wed | Pre-processing of General / 10X Single-Cell RNA Datasets              |
 | Thu | Downstream analysis with RaceID, and Clustering 3K PBMCs with ScanPy  |
 | Fri | Interactive Environments, Jupyter Notebooks and Q&A ... (until 14:00) |
 {:.table.table-striped}
+
+You may register for one of two options:
+
+  1. Full Week Workshop: 5 days, Mon - Fri (Galaxy Intro, RNA-seq, scRNA-seq)
+  2. Half Week Workshop: 3 days, Wed - Fri (Only scRNA-seq)
+
+
 
 ## Links
 
