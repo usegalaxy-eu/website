@@ -60,7 +60,7 @@ Preliminary schedule. Topics may be adjusted according to the participants deman
 | Fri | Interactive Environments, Jupyter Notebooks and Q&A ... (until 14:00) |
 {:.table.table-striped}
 
-You may register for one of two options:
+The first two days have the same content as our regular Galaxy courses, therefore you may register for one of two options:
 
   1. Full Week Workshop: 5 days, Mon - Fri (Galaxy Intro, RNA-seq, scRNA-seq)
   2. Half Week Workshop: 3 days, Wed - Fri (Only scRNA-seq)
