@@ -30,11 +30,18 @@ The server is part if the European Galaxy server and is maintained by the [RNA B
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
-# Training
+# Training and Workshops
 
-**Want to learn more about single cell analyses? Check out the following hands-on tutorials from [the Galaxy Training Network](https://galaxyproject.github.io/training-material/){:target=_"blank"}.**
+**Want to learn more about single cell analyses? Check out the following hands-on tutorials from [the Galaxy Training Network](https://galaxyproject.github.io/training-material/){:target=_"blank"}**, or come to one of our workshops.
 
 We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
+
+## Workshops
+
+We will be hosting a scRNA-seq workshop [this March](https://usegalaxy-eu.github.io/event/2020-01-20-GalaxyWS_scrna_FR/plain.html). Please register whilst spots are still open!
+
+## Material
+
 
 | Lesson                                          | Slides                                                                                                                                                                                                   | Hands-on                                                                                                                                                                                     | Input dataset                                                                                           | Workflows                                                                                                                                                                                                                                                 | Galaxy tour | Galaxy History                                                                                                                                                                                                                                                               |
 | ---                                             | ---                                                                                                                                                                                                      | ---                                                                                                                                                                                          | ---                                                                                                     | ---                                                                                                                                                                                                                                                       | ---         | ---                                                                                                                                                                                                                                                                          |
