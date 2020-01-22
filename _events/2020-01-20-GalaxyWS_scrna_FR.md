@@ -27,7 +27,7 @@ hidefooter: true
 ---
 
 We are offering a Galaxy workshop on **single cell RNA-seq data analysis**. 39 participants will be selected from all applicants.
-To apply for attendance, please sign in [here](https://forms.gle/GMQg32PrVbTRkYqr8).
+To apply for attendance, please sign in [here](https://forms.gle/C7wW9NPj3WgwW6dr8).
 
 ## Venue
 
