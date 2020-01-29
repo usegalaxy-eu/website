@@ -62,7 +62,7 @@ Fri     | exercises, questions, discussions, bring your own data ... (until 14:0
 
 ## Links
 
-* [Galaxy tipps and tricks](https://github.com/bgruening/galaxy-tricks)
+* [Galaxy tips and tricks](https://github.com/bgruening/galaxy-tricks)
 * [Galaxy training network](http://training.galaxyproject.org)
 
 ## Lunch Options
