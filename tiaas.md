@@ -57,3 +57,4 @@ We *cannot* promise any degree of uptime. We will do our best to have this servi
 
 2. Together with you, we will determine how many VMs are needed for your training to run smoothly
 3. We will setup the private queue and give you a URL your users will access to join the training.
+4. Let us know how it went at the [GTN Survey](https://galaxyproject.org/news/2020-01-training-feedback/)!
