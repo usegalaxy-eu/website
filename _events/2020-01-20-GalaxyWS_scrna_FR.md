@@ -69,7 +69,7 @@ The first two days have the same content as our regular Galaxy courses, therefor
 
 ## Links
 
-* [Galaxy tipps and tricks](https://github.com/bgruening/galaxy-tricks)
+* [Galaxy tips and tricks](https://github.com/bgruening/galaxy-tricks)
 * [Galaxy training network](http://training.galaxyproject.org)
 
 ## Lunch Options
