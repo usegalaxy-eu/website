@@ -12,7 +12,7 @@ CMV: toolshed.g2.bx.psu.edu/repos/rnateam/cmv/cmv
 Canu: toolshed.g2.bx.psu.edu/repos/bgruening/canu/canu/1.7
 CoFold: toolshed.g2.bx.psu.edu/repos/rnateam/cofold/cofold
 Compalignp: toolshed.g2.bx.psu.edu/repos/rnateam/compalignp/compalignp
-Cross Contamination Barcode Filter: https://toolshed.g2.bx.psu.edu/repos/iuc/crosscontamination_barcode_filter
+Cross Contamination Barcode Filter: toolshed.g2.bx.psu.edu/repos/iuc/crosscontamination_barcode_filter
 DESeq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 DESeq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 DoRiNA: toolshed.g2.bx.psu.edu/repos/rnateam/dorina/dorina_search
@@ -114,11 +114,15 @@ gdal_ogr2ogr: toolshed.g2.bx.psu.edu/repos/ecology/gdal_ogr2ogr/gdal_ogr2ogr
 gdal_ogrinfo: toolshed.g2.bx.psu.edu/repos/ecology/gdal_ogrinfo/gdal_ogrinfo
 genProp: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_genprop/openbabel_genProp/
 gmxEM: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/
-gmxMD: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_md/gmx_md/
-gmxNPT: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_npt/gmx_npt/
-gmxNVT: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_nvt/gmx_nvt/
+gmxSim: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/
 gmxSetup: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/
 gmxSolvate: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/
+gmxRestraints: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_restraints/gmx_restraints/
+gmxMakeNDX: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_makendx/gmx_makendx/
+gmxEnergy: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_energy/gmx_energy/
+gmxTrj: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_trj/gmx_trj/
+gmxEditconf: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/
+gmxFEP: toolshed.g2.bx.psu.edu/repos/chemteam/gmx_fep/gmx_fep/
 graphclust_aggregate_alignments: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_aggregate_alignments/graphclust_aggregate_alignments/0.1
 graphclust_aggregate_alignments: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_aggregate_alignments/graphclust_aggregate_alignments/0.1
 graphclust_postprocessing: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_postprocessing/glob_report/0.5
@@ -235,3 +239,16 @@ ChiRA-map: toolshed.g2.bx.psu.edu/repos/iuc/chira_map/chira_map
 ChiRA-merge: toolshed.g2.bx.psu.edu/repos/iuc/chira_merge/chira_merge
 ChiRA-quantify: toolshed.g2.bx.psu.edu/repos/iuc/chira_quantify/chira_quantify
 ChiRA-extract: toolshed.g2.bx.psu.edu/repos/iuc/chira_extract/chira_extract
+pubchem: toolshed.g2.bx.psu.edu/repos/bgruening/get_pubchem/ctb_pubchem_download_as_smiles
+chembl: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl
+pdb: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb
+mordred: toolshed.g2.bx.psu.edu/repos/bgruening/mordred/ctb_mordred_descriptors
+chemfp: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_sdf2fps
+tbClust: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_butina_clustering
+nxnClust: toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering
+vina: toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina/docking
+rbdock: toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock
+sucos: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_docking_scoring/sucos_docking_scoring
+fpocket: toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket
+antechamber: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_antechamber/ambertools_antechamber
+acpype: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype
