@@ -22,6 +22,7 @@ supporters:
 - unifreiburg
 - denbi
 - elixir
+- fmi
 # special hiding of footer since we want to do it manually.
 hidefooter: true
 ---
