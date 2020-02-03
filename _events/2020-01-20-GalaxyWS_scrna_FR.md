@@ -22,10 +22,11 @@ supporters:
 - unifreiburg
 - denbi
 - elixir
-- fmi
 # special hiding of footer since we want to do it manually.
 hidefooter: true
 ---
+
+
 
 We are offering a Galaxy workshop on **single cell RNA-seq data analysis**. 39 participants will be selected from all applicants.
 To apply for attendance, please sign in [here](https://forms.gle/C7wW9NPj3WgwW6dr8).
@@ -125,7 +126,7 @@ StayInn Hostel und Gästehaus                  | Stühlinger Str.24a | [Website]
 
 ## Organizers
 
-{% assign extra_organizers =  "galaxy-freiburg|galaxy-europe" | split: "|"  %}
+{% assign extra_organizers =  "galaxy-freiburg|galaxy-europe|fmi" | split: "|"  %}
 {% include sponsors.html supporters=extra_organizers hidetitle=true %}
 
 ## Supported By
