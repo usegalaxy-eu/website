@@ -41,6 +41,11 @@ A preprocessed cHi-C history with data from [Andrey et al. 2017.](https://doi.or
  
 The raw mcool matrices for with the data from Nagano 2017 in 10 kb and 1 Mb resolution is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.3557682"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3557682.svg" alt="DOI"></a>
 
+## HiGlass
+
+The interactive Hi-C data exploration works for certificate issues via the interactive <a href="https://live.usegalaxy.eu/?tool_id=interactive_tool_higlass">live.usegalaxy.eu</a> platform. 
+
+
 ## Galaxy HiCExplorer -- many possibilities
 
 ![](/assets/media/publication_plots.png)
@@ -99,7 +104,7 @@ Use the following workflows if you have already created a contact matrix.
 
 Use the following workflow for an existing mcool matrix with QC and normalization:
 
- - < href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/single-cell-hi-c">SVL dimension reduction</a>
+ - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/single-cell-hi-c">SVL dimension reduction</a>
 
 ## Python API access
 
