@@ -7,7 +7,7 @@ starts: 2018-12-06
 ends: 2018-12-07
 organiser:
   name: Freiburg Galaxy Team
-  email: contact@usegalaxy.eu
+  email: galaxy@informatik.uni-freiburg.de
 location:
   name: Institute for Biology II/III
   street: Schaenzlestr.1
@@ -52,7 +52,7 @@ accommodation costs.
 # Important notes
 
 1. If you are registered but **cannot attend** our workshop, please [contact us
-   by email](mailto:contact@usegalaxy.eu) immediately. We have a long waiting
+   by email](mailto:galaxy@informatik.uni-freiburg.de) immediately. We have a long waiting
    list and can give your place to others, even on short notice.
 2. You can bring your *own notebook* or computers will be available. Eduroam is available, ask your institute for how to login.
 3. The workshop is free of charge. Unfortunately no stipends for travel or accommodation are available.
@@ -84,7 +84,7 @@ ensure everyone has a basic understanding of how Galaxy works.
 - [Galaxy UI](https://usegalaxy.eu/tours/core.galaxy_ui)
 - [History Introduction](https://usegalaxy.eu/tours/core.history)
 
-If you have any questions, please do not hesitate to [contact us](mailto:contact@usegalaxy.eu)
+If you have any questions, please do not hesitate to [contact us](mailto:galaxy@informatik.uni-freiburg.de)
 
 ## Travel Options
 

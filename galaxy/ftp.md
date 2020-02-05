@@ -28,5 +28,5 @@ Use the same email address and password that you use to login to [usegalaxy.eu](
 For more information on using FTP with Galaxy, please see the [official
 documentation](https://galaxyproject.org/ftp-upload/). As always, don't
 hesitate to send us an
-[Email](mailto:contact@usegalaxy.eu?subject=FTP+Issue) if you
+[Email](mailto:galaxy@informatik.uni-freiburg.de?subject=FTP+Issue) if you
 have any issues.

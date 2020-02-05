@@ -7,7 +7,7 @@ starts: 2019-09-30
 ends: 2019-10-01
 organiser:
   name: Freiburg Galaxy Team & MPI Freiburg
-  email: contact@usegalaxy.eu
+  email: galaxy@informatik.uni-freiburg.de
 location:
   name: Building 079
   street: Georges-Köhler-Allee 79

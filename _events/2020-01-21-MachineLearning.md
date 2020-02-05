@@ -7,7 +7,7 @@ starts: 2020-03-30
 ends: 2020-04-01
 organiser:
   name: Freiburg Galaxy Team
-  email: contact@usegalaxy.eu
+  email: galaxy@informatik.uni-freiburg.de
 location:
   name: PC Pool 3
   street: Werthmannstraße 4 
@@ -36,7 +36,7 @@ We are offering a workshop on introduction to machine learning using Galaxy. 35 
 # Important notes
 
 1. If you are registered but **cannot attend** our workshop, please [contact us
-   by email](mailto:contact@usegalaxy.eu) immediately. We have a long waiting
+   by email](mailto:galaxy@informatik.uni-freiburg.de) immediately. We have a long waiting
    list and can give your place to others, even on short notice.
 2. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis.
 3. You can bring your *own notebook* or desktop computers will be available. Eduroam is available, ask your institute 

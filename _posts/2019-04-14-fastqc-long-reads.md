@@ -15,7 +15,7 @@ We finally found that FASTQC has a hard-coded parameter (-Xmx250m) to restrict t
 Increasing this value made all of our tests much faster for very long reads and we hope to speed up your computation from days to minutes.
 
 We will kill long running jobs that do not finish in a few days, all that you need to do is restart the job and it should finish way faster.
-Please get in [contact](mailto:contact@usegalaxy.eu) with us, if you still see problems with FASTQC.
+Please get in [contact](mailto:galaxy@informatik.uni-freiburg.de) with us, if you still see problems with FASTQC.
 
 Please also have a look at [fastp](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/){:target="_blank"} as an alternative tool, that also provides some quality metrics.
 

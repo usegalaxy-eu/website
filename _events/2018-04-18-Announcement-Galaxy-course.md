@@ -6,7 +6,7 @@ starts: 2018-09-17
 ends: 2018-09-21
 organiser:
   name: Freiburg Galaxy Team
-  email: contact@usegalaxy.eu
+  email: galaxy@informatik.uni-freiburg.de
 location:
   name: Institute for Biology II/III
   street: Schaenzlestr.1
@@ -38,7 +38,7 @@ The Freiburg Galaxy Team and Deep-Sequencing unit at the MPI-IE Freiburg offer a
 # Important notes
 
 1. If you are registered but **cannot attend** our workshop, please [contact us
-   by email](mailto:contact@usegalaxy.eu) immediately. We have a long waiting
+   by email](mailto:galaxy@informatik.uni-freiburg.de) immediately. We have a long waiting
    list and can give your place to others, even on short notice.
 2. Please register at [https://usegalaxy.eu](https://usegalaxy.eu) if you have
    not done so already. For the MPI people: the European Galaxy server is
@@ -74,7 +74,7 @@ ensure everyone has a basic understanding of how Galaxy works.
 - [Galaxy UI](https://usegalaxy.eu/tours/core.galaxy_ui)
 - [History Introduction](https://usegalaxy.eu/tours/core.history)
 
-If you have any questions, please do not hesitate to [contact us](mailto:contact@usegalaxy.eu)
+If you have any questions, please do not hesitate to [contact us](mailto:galaxy@informatik.uni-freiburg.de)
 
 ## Travel Options
 

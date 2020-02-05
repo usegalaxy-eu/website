@@ -7,7 +7,7 @@ starts: 2019-03-13
 ends: 2019-03-14
 organiser:
   name: Freiburg Galaxy Team & AG Boerries
-  email: contact@usegalaxy.eu
+  email: galaxy@informatik.uni-freiburg.de
 location:
   name: Institute for Biology II/III
   street: Schaenzlestr.1
@@ -64,7 +64,7 @@ No prior knowledge of the Galaxy platform is required for this workshop (althoug
 a look at a public Galaxy server before), but you will need an active user account on the
 [European Galaxy server](https://usegalaxy.eu).
 
-If you have any questions, please do not hesitate to [contact us](mailto:contact@usegalaxy.eu).
+If you have any questions, please do not hesitate to [contact us](mailto:galaxy@informatik.uni-freiburg.de).
 
 ## Travel Options
 

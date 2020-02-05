@@ -15,7 +15,7 @@ As part of our ongoing growth and development, Freiburg Galaxy is becoming useGa
 
 - You will be able to access the galaxy instance via [`https://usegalaxy.eu`](https://usegalaxy.eu) in addition to the old, `https://galaxy.uni-freiburg.de`.
 - Our website will read "useGalaxy.eu" in many places where it used to say Freiburg Galaxy. However, this Galaxy is still primarily run and maintained by the Freiburg Galaxy Team.
-- You can reach us any time for questions at [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu)
+- You can reach us any time for questions at [galaxy@informatik.uni-freiburg.de](mailto:galaxy@informatik.uni-freiburg.de)
 
 ## What Doesn't Change
 

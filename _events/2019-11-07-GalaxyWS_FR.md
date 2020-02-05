@@ -7,7 +7,7 @@ starts: 2020-02-17
 ends: 2020-02-21
 organiser:
   name: Freiburg Galaxy Team & MPI Freiburg
-  email: contact@usegalaxy.eu
+  email: galaxy@informatik.uni-freiburg.de
 location:
   name: PC Pool 3
   street: Werthmannstraße 4 
@@ -36,7 +36,7 @@ We are offering a Galaxy **beginner** workshop on high-throughput data analysis.
 # Important notes
 
 1. If you are registered but **cannot attend** our workshop, please [contact us
-   by email](mailto:contact@usegalaxy.eu) immediately. We have a long waiting
+   by email](mailto:galaxy@informatik.uni-freiburg.de) immediately. We have a long waiting
    list and can give your place to others, even on short notice.
 2. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis. Participants from the     
    MPI Freiburg, please note that the European Galaxy server is different from the MPI Galaxy server. You will need to 
@@ -79,7 +79,7 @@ ensure everyone has a basic understanding of how Galaxy works.
 - [Galaxy UI](https://usegalaxy.eu/tours/core.galaxy_ui)
 - [History Introduction](https://usegalaxy.eu/tours/core.history)
 
-If you have any questions, please do not hesitate to [contact us](mailto:contact@usegalaxy.eu)
+If you have any questions, please do not hesitate to [contact us](mailto:galaxy@informatik.uni-freiburg.de)
 
 ## Travel Options
 

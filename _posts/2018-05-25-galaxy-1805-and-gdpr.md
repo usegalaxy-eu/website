@@ -25,7 +25,7 @@ A few highlights (in no particual order)!
   To learn how to use the new uploader you can try a tutorial for the new uploader on 
   [the Training Materials site](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-rules/tutorial.html).
 
-If you notice any issues, please do not hesitate to [let us know](mailto:contact@usegalaxy.eu)
+If you notice any issues, please do not hesitate to [let us know](mailto:galaxy@informatik.uni-freiburg.de)
 
 # GDPR
 
