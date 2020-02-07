@@ -5,6 +5,7 @@ title: "118 new plant reference genomes and transcriptomes added to Galaxy Europ
 supporters:
 - denbi
 - elixir
+- vib
 ---
 
 In cooperation with our ELIXIR partner in Belgium, the VIB, we have added recently more than 100 new plant reference genomes and transcriptomes
