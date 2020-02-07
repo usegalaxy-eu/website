@@ -21,6 +21,7 @@ Taken all together, Galaxy provides you now access to more than 1700 different r
 
 ![New plant genomes](/assets/media/plantregenome_1.png)
 
+### List of plant reference genomes
 
 * Actinidia_chinensis_FEI_Lab_v1.0
 * Amborella_trichopoda_Amborella_V1.0
