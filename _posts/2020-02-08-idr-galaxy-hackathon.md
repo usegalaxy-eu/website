@@ -24,4 +24,7 @@ for every user. It also tightens the collaboration between EOSC-Life Work Packag
 Work Package 2 on tools collaboratory and the Demonstrator 6 as part of Work Package 3.
 
 The first outcome of this hackathon is a
+
 [Galaxy tool for automated retrieval of images from IDR](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/0.9).
+
+![IDR Galaxy Hackathon](/assets/media/idr_hackathon_2020.jpeg)
