@@ -63,6 +63,11 @@ On 2020-02-01, the tools on UseGalaxy.eu were updated by our automated tool upda
 - gmx_makendx was updated to [01a435922dd5](https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_makendx/01a435922dd5)
 - gmx_restraints was updated to [f79f4671eaf2](https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_restraints/f79f4671eaf2)
 
+
+## Climate Analysis
+
+- psy_maps was updated to [706666d912d5](https://toolshed.g2.bx.psu.edu/view/climate/psy_maps/706666d912d5)
+
 ## RAD-seq
 
 - stacks2_cstacks was updated to [c541e62d6c56](https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56)
