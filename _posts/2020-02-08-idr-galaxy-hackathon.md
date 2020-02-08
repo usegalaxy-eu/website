@@ -12,7 +12,7 @@ supporters:
 ---
 
 
-As part of the training program in Work Package 9, CORBEL offers staff visits across research infrastructures.
+As part of the training program in Work Package 9, [CORBEL](https://www.corbel-project.eu/home.html) offers staff visits across research infrastructures.
 In this frame, EuroBioimaging and ELIXIR members met during three days with the European Galaxy team in Freiburg (Germany)
 to make image data from the Image Data Resource (IDR) accessible through the Galaxy interface.
 
