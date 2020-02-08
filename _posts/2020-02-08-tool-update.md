@@ -10,6 +10,10 @@ supporters:
 On 2020-02-08, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #181](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#181/)
 
 
+## Data source
+
+ - idr_download_by_ids was updated to [57aa9597cd31](https://toolshed.g2.bx.psu.edu/view/iuc/idr_download_by_ids/57aa9597cd31)
+
 ## Assembly
 
 - flye was updated to [3ee0ef312022](https://toolshed.g2.bx.psu.edu/view/bgruening/flye/3ee0ef312022)
