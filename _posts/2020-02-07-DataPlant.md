@@ -15,6 +15,6 @@ the data management capabilities of Galaxy and Training.
 The other representatives were Dirk von Suchodoletz (RZ, University of Freiburg),
 Björn Usadel (Forschungszentrum Jülich), Jens Krüger (University of Tübingen),
 and Timo Mühlhaus (University of Kaiserslautern).
-Now we received a very positive feedback from the reviewers. So, let's keep fingers crossed.
+Since then, we received very positive feedback from the reviewers. So, let's keep our fingers crossed.
 
 ![DataPLANT representatives](/assets/media/NFDI_Dataplant.jpg)
