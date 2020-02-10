@@ -17,7 +17,7 @@ All reference data is provided together with the genomic sequence, an annotation
 We hope that those reference datasets will make plant research even easier in Galaxy and will support the awesome work of the
 [COST action INDEPTH](https://www.cost.eu/actions/CA16212/) and the [ELIXIR plant science community](https://elixir-europe.org/communities/plant-sciences).
 
-Taken all together, Galaxy provides you now access to more than 1700 different reference genomes and we hope, we can support your work with it!
+All together, Galaxy now provides you with access to more than 1700 different reference genomes and we hope we can support your work with it!
 
 ![New plant genomes](/assets/media/plantregenome_1.png)
 
