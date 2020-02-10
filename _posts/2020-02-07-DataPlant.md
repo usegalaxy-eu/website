@@ -10,7 +10,7 @@ The University of Freiburg applied as a lead with the "DataPLANT" project to con
 Germany and to provide a suitable infrastructure for data analysis. 
 
 Five representatives from the DataPLANT consortium met in the beginning of December 2019 in Bonn to present and defend
-the proposal in front of 22 reviewers and DFG members. From our Team, Anika joined to give insights about
+the proposal in front of 22 reviewers and DFG members. Anika represented our team, providing insights about
 the data management capabilities of Galaxy and Training.
 The other representatives were Dirk von Suchodoletz (RZ, University of Freiburg),
 Björn Usadel (Forschungszentrum Jülich), Jens Krüger (University of Tübingen),
