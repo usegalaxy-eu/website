@@ -9,7 +9,7 @@ supporters:
 ---
 
 In cooperation with our ELIXIR partner in Belgium, the VIB, we have recently added more than 100 new plant reference genomes and transcriptomes
-to the European Galaxy server. Those reference datasets are obtained from the [PLAZA](https://bioinformatics.psb.ugent.be/plaza/) archive for 
+to the European Galaxy server. These reference datasets are obtained from the [PLAZA](https://bioinformatics.psb.ugent.be/plaza/) archive for 
 plant comparative genomics with the help of the team around Frederik Coppens.
 A list with the newly added plant reference genomes can be found below.
 All reference data comes along with the genomic seuquence, an annotation file (GTF), kallisto and salmon indices.
