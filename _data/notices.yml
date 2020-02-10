@@ -7,13 +7,14 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #
 
-#- title: Restricted compute capacity on the 22.01.2020 around 12.00 CET
-#  class: info # one of [success, info, warning, danger]
-#  site: freiburg # Your site
-#  messages:
-#      - message: |
-#          Due to maintenance work on our infrastructure we need to shutdown some parts of Galaxy on the
-#          22.01.2020, 12:00 CET. We are hopeful to get everything up and running again around 14.00 CET.
+- title: Restricted compute capacity on the 18.02.2020 
+  class: info # one of [success, info, warning, danger]
+  site: freiburg # Your site
+  messages:
+      - message: |
+          Due to maintenance work on the de.NBI cloud we need to shutdown large parts of our compute infrastructure on the
+          18.02.2020. We are hopefull to keep the webserver running and accept jobs and workflows, but there will be a delay
+          in processing them.
 
 #- title: Enough talking - time to act!
 #  class: danger # one of [success, info, warning, danger]
