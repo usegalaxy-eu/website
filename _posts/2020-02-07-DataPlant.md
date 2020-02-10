@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: Galaxy provides support in a NFDI
+title: Galaxy provides support as an NFDI
 ---
 
 Germany wants to build a national research data infrastructure [NFDI](https://www.dfg.de/foerderung/programme/nfdi)
@@ -18,4 +18,3 @@ and Timo Mühlhaus (University of Kaiserslautern).
 Now we received a very positive feedback from the reviewers. So, let's keep fingers crossed.
 
 ![DataPLANT representatives](/assets/media/NFDI_Dataplant.jpg)
-
