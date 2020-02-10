@@ -6,7 +6,7 @@ title: Galaxy provides support as an NFDI
 Germany wants to build a national research data infrastructure [NFDI](https://www.dfg.de/foerderung/programme/nfdi)
 which can systematically manage scientific and research data, provide long-term data storage,
 backup and accessibility, and network the data both nationally and internationally.
-The University of Freiburg applied as lead with the "DataPLANT" project to connect fundamental plant researchers in
+The University of Freiburg applied as a lead with the "DataPLANT" project to connect plant researchers in
 Germany and to provide a suitable infrastructure for data analysis. 
 
 Five representatives from the DataPLANT consortium met in the beginning of December 2019 in Bonn to present and defend
