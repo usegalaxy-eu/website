@@ -112,6 +112,16 @@ team_sites:
       url: "https://galaxy.pasteur.fr/"
       galaxy_server: "https://galaxy.pasteur.fr/"
       blurb: ""
+    genouest:
+      name: GenOuest
+      url: /genouest/
+      email: support@genouest.org
+      twitter_username: GenOuest
+      github_username: genouest
+      private_news: true
+      url: "https://galaxy.genouest.org/"
+      galaxy_server: "https://galaxy.genouest.org/"
+      blurb: ""
 
 header_links:
     main:
