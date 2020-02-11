@@ -12,7 +12,9 @@ I am an associate professor at the [Faculty of Medicine, University of Debrecen,
 and I have been using the Galaxy platform to teach the basics of RNA-seq data analysis to 2nd year Molecular Biology MSc 
 students since 2016.  The goal of my course is to help students move from the concept of  “RNA-seq is awesome, it gives 
 us lots of data” to a solid understanding of how the sequencing process works, how the raw data looks like, and how we 
-can get from the raw reads to the heart of the biological processes.  Practically none of the students have the skills 
+can get from the raw reads to the heart of the biological processes.  
+
+Practically none of the students have the skills 
 to use Linux or R, so Galaxy is an ideal platform to jump-start their training – it also gives us more time to play with 
 some other tools and databases for result interpretation, such as the Integrated Genomics Viewer, the UCSC and Ensembl 
 Genome browsers, the Reactome database, the ConsensusPathDB, GeneCards, etc.  
