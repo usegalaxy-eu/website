@@ -93,6 +93,15 @@ Supplying a location is used in the user's calendar (if it supports it). E.g. wh
 the user adds the event to their google calendar, they will see a map of the location
 and can easily get directions to it.
 
+## Adding new member sites
+
+If you contribute substantially to this service, we invite you to become a "member site"!
+A member site is one of our ways to say "thank you" and acknowledge your contribution. You can
+add events to get more exposure, you can add your funding agencies, own blog posts and present your
+team and publications. To add your side please see this
+[example pull- request](https://github.com/usegalaxy-eu/website/pull/405).
+
+
 ## Building
 
 This website is jekyll based and can be build as every other jekyll page.
