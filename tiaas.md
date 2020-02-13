@@ -53,7 +53,7 @@ We *cannot* promise any degree of uptime. We will do our best to have this servi
 
 1. Fill out the request form and we will get in touch with you
 
-   {% include button.html url="https://docs.google.com/forms/d/e/1FAIpQLSdoPRDhpYwNFuZSlGRNQj3dDWwfsdemP5yntAdcqhN3YHbqLA/viewform" text="Request Training Infrastructure" %}
+   {% include button.html url="https://usegalaxy.eu/tiaas/new/" text="Request Training Infrastructure" %}
 
 2. Together with you, we will determine how many VMs are needed for your training to run smoothly
 3. We will setup the private queue and give you a URL your users will access to join the training.

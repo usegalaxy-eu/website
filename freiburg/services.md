@@ -52,11 +52,11 @@ We are passionate about training! Our team wants to support researchers to take 
 
 ### Galaxy Training Workshops
 
-Locally in Freiburg, we offer twice per year a free full-week hands-on high-throughput sequencing data analysis workshop. A typical workshop schedule looks as follows: 
+Locally in Freiburg, we offer twice per year a free full-week hands-on high-throughput sequencing data analysis workshop. A typical workshop schedule looks as follows:
 
 - Monday:     Introduction to Galaxy and HTS
-- Tuesday:    Quality control, IGV, ChIP-Seq, 
-- Wednesday:  RNA-Seq 
+- Tuesday:    Quality control, IGV, ChIP-Seq,
+- Wednesday:  RNA-Seq
 - Thursday:   HiC data analysis, Methyl-C data analysis
 - Friday:     Bring your own data, exercises
 
@@ -68,7 +68,7 @@ We and other members of the Galaxy training network (GTN) are giving training co
 
 ### Galaxy Training Material
 
-The Freiburg Galaxy Team is a very active contributor to the community-driven development of GTN Galaxy training material. All of this material is **online, and freely accessible for everyone** at [https://training.galaxyproject.org](https://training.galaxyproject.org). 
+The Freiburg Galaxy Team is a very active contributor to the community-driven development of GTN Galaxy training material. All of this material is **online, and freely accessible for everyone** at [https://training.galaxyproject.org](https://training.galaxyproject.org).
 
 We provide more than 150 tutorials designed for both **self-training** and **workshops** for Galaxy users, developer, and administrators. Each tutorial comes with:
 
@@ -93,7 +93,7 @@ We organize numerous hackathons per year on site or online, in close cooperation
 
 We are very excited to offer a special service for Galaxy trainers: [Training infrastructure as a Service](https://galaxyproject.eu/tiaas)!
 
-If you have a training event planned, get in touch with us and we will allocate you **completely dedicated compute resources** for the duration of your training. Your users’ jobs on usegalaxy.eu will be directed to these resources and are free from the regular job queue. No setup, no queueing times, no hassle. Apply [here](https://docs.google.com/forms/d/e/1FAIpQLSdoPRDhpYwNFuZSlGRNQj3dDWwfsdemP5yntAdcqhN3YHbqLA/viewform).
+If you have a training event planned, get in touch with us and we will allocate you **completely dedicated compute resources** for the duration of your training. Your users’ jobs on usegalaxy.eu will be directed to these resources and are free from the regular job queue. No setup, no queueing times, no hassle. Apply [here](https://usegalaxy.eu/tiaas/new/).
 
 Just drop us a mail and concentrate on the important things during your training.
 
