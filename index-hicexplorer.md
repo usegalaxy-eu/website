@@ -33,7 +33,7 @@ Galaxy HiCExplorer can process large Hi-C data. We processed Hi-C data with arou
 
 The new chic*-modules of HiCExplorer provide powerful tools to analyse capture Hi-C and HiChIP data. 
 We recommend to follow the tutorial on <a target="_parent" href="https://hicexplorer.readthedocs.io/en/latest/content/capture-Hi-C.html">hicexplorer.readthedocs.io<a/> for an introduction to the analysis pipeline.
-A preprocessed cHi-C history with data from [Andrey et al. 2017.](https://doi.org/10.1101/gr.213066.116) is provided <a target="_parent" href= 'https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/chi-c'> here</a>.
+<!-- A preprocessed cHi-C history with data from [Andrey et al. 2017.](https://doi.org/10.1101/gr.213066.116) is provided <a target="_parent" href= 'https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/chi-c'> here</a>. -->
 
 ### Single-cell Hi-C
  
@@ -43,7 +43,7 @@ The raw mcool matrices for with the data from Nagano 2017 in 10 kb and 1 Mb reso
 
 ## HiGlass
 
-The interactive Hi-C data exploration works for certificate issues via the interactive <a href="https://live.usegalaxy.eu/?tool_id=interactive_tool_higlass">live.usegalaxy.eu</a> platform. 
+The interactive Hi-C data exploration with HiGlass is accessible via the interactive <a href="https://live.usegalaxy.eu/?tool_id=interactive_tool_higlass">live.usegalaxy.eu</a> platform. 
 
 
 ## Galaxy HiCExplorer -- many possibilities
