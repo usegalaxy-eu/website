@@ -9,15 +9,15 @@ organiser:
   name: Freiburg Galaxy Team & MPI Freiburg
   email: galaxy@informatik.uni-freiburg.de
 location:
-  name: PC Pool 3
-  street: Werthmannstraße 4 
-  postal: 79098
+  name: PC Pool 100
+  street: Hermann-Herder-Straße 10 
+  postal: 79104
   city: Freiburg im Breisgau
   region: Baden-Württemberg
   country: Germany
   geo:
-    lat: 47.993469
-    lon: 7.845275
+    lat: 48.00362
+    lon: 7.8460407
 supporters:
 - unifreiburg
 - denbi
