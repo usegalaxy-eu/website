@@ -16,17 +16,21 @@ On 2020-02-17, the tools on UseGalaxy.eu were updated by our automated tool upda
 
 ## Phylogenetics
 
-- hyphy_absrel was updated to [181f5b9f139f](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_absrel/181f5b9f139f)
-- hyphy_bgm was updated to [1df765cc6bcb](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_bgm/1df765cc6bcb)
-- hyphy_busted was updated to [d6389faa75ff](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_busted/d6389faa75ff)
-- hyphy_fade was updated to [b959fd359a6b](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fade/b959fd359a6b)
-- hyphy_fel was updated to [1b62167f7ab2](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fel/1b62167f7ab2)
-- hyphy_fubar was updated to [93a0cf4ea5fc](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fubar/93a0cf4ea5fc)
-- hyphy_gard was updated to [bff9a82d630d](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_gard/bff9a82d630d)
-- hyphy_meme was updated to [33040ebb30c6](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_meme/33040ebb30c6)
-- hyphy_relax was updated to [134d46bd47dd](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/134d46bd47dd)
-- hyphy_slac was updated to [8522e7cc4fb4](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/8522e7cc4fb4)
-- hyphy_sm19 was updated to [a96a307afb40](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/a96a307afb40)
+- hyphy_absrel was updated to [bf204aabbf56](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_absrel/bf204aabbf56)
+- hyphy_bgm was updated to [f276acfde263](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_bgm/f276acfde263)
+- hyphy_busted was updated to [8c8640ca39d7](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_busted/8c8640ca39d7)
+- hyphy_fade was updated to [c16dd6b14657](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fade/c16dd6b14657)
+- hyphy_fel was updated to [2442e8b5e363](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fel/2442e8b5e363)
+- hyphy_fubar was updated to [bece0bad8e89](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fubar/bece0bad8e89)
+- hyphy_gard was updated to [c454b670f35f](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_gard/c454b670f35f)
+- hyphy_meme was updated to [8366d5b28b49](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_meme/8366d5b28b49)
+- hyphy_relax was updated to [6dd3c73bd80a](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/6dd3c73bd80a)
+- hyphy_slac was updated to [232bd7cd4639](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/232bd7cd4639)
+- hyphy_sm19 was updated to [c60fcdf8f01e](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/c60fcdf8f01e)
+
+## Picard
+
+- picard was updated to [9ffcddf6f9c0](https://toolshed.g2.bx.psu.edu/view/devteam/picard/9ffcddf6f9c0)
 
 ## Graph/Display Data
 
@@ -63,6 +67,11 @@ On 2020-02-17, the tools on UseGalaxy.eu were updated by our automated tool upda
 
 - stacks2_cstacks was updated to [c541e62d6c56](https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56)
 - stacks2_populations was updated to [38942a7e3801](https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_populations/38942a7e3801)
+
+## Metagenomic Analysis
+
+- mash was updated to [7f7d8b0c8517](https://toolshed.g2.bx.psu.edu/view/iuc/mash/7f7d8b0c8517)
+- mash_sketch was updated to [68084b06ae83](https://toolshed.g2.bx.psu.edu/view/iuc/mash_sketch/68084b06ae83)
 
 ## Single-cell
 
