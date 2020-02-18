@@ -7,13 +7,16 @@ subdomain: rna
 # Welcome to the European Virology Galaxy flavor
 {:.no_toc}
 
-![RNA Galaxy](/assets/media/rna_workbench_2.png){:.rna-intro-right}
+![Virology Galaxy](/assets/media/virology_workbench.jpeg){:.rna-intro-right}
 
-The RNA Galaxy workbench is a comprehensive set of analysis tools and consolidated workflows. The workbench is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
+The Virology Galaxy workbench is a comprehensive set of analysis tools and consolidated workflows.
+The workbench is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs,
+and sophisticated analyses independent of command-line knowledge.
 
-The current implementation comprises more than 700 bioinformatics tools dedicated to different research areas of RNA biology, including RNA structure analysis, RNA alignment, RNA annotation, RNA-protein interaction, ribosome profiling, RNA-Seq analysis, and RNA target prediction. Out of these 700 tools about 100 tools were integrated into galaxy by us and the remaining are from the galaxy community efforts.
+The current implementation comprises more than 700 bioinformatics tools dedicated to different research areas of Virology.
 
-The workbench is developed by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"}. This center is one of the eight service units of the [German Network for Bioinformatics Infrastructure (de.NBI)](http://www.denbi.de){:target="_blank"}, running the German [ELIXIR Node](https://www.elixir-europe.org/){:target="_blank"}.
+The workbench is developed by the an international colaboration between .... (https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"}.
+
 
 # Cite
 {:.no_toc}
