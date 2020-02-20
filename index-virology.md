@@ -13,16 +13,6 @@ The Virology Galaxy workbench is a comprehensive set of analysis tools and conso
 The workbench is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs,
 and sophisticated analyses independent of command-line knowledge.
 
-The current implementation comprises more than 700 bioinformatics tools dedicated to different research areas of Virology.
-
-The workbench is developed by the an international colaboration between .... (https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"}.
-
-
-# Cite
-{:.no_toc}
-
-If you find this resource useful, please cite [The RNA workbench 2.0: next generation RNA data analysis](https://doi.org/10.1093/nar/gkz353){:target="_blank"}.
-
 
 # Content
 {:.no_toc}
@@ -30,9 +20,584 @@ If you find this resource useful, please cite [The RNA workbench 2.0: next gener
 1. TOC
 {:toc}
 
-# Get started
+# The [SARS-CoV-2](https://github.com/galaxyproject/SARS-CoV-2) project
 
-Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
+Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take
+[a guided tour]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
+Otherwise, we will start with the preprocessing of raw SARS-CoV-2 reads.
+
+## 1. Preprocessing of raw SARS-CoV-2 reads
+
+The raw reads available so far are generated from bronchoalveolar lavage fluid (BALF) and are metagenomic in nature: they contain human reads, reads from potential bacterial co-infections as well as true COVID-19 reads.
+
+### What's the point?
+
+Assess quality of reads, remove adapters and remove reads mapping to human genome.
+
+### The outline
+
+Illumina and Oxford nanopore reads are pulled from the NCBI SRA (links to SRA accessions are available [here](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/)). They are then processed separately as described in the [workflow section](#the-history-and-the-workflow).
+
+### Inputs
+
+Only SRA accessions are required for this analysis. The described analysis was performed with all SRA SARS-CoV accessions available as of Feb 20, 2020:
+
+1. Illumina reads
+
+   ```
+   SRR10903401
+   SRR10903402
+   SRR10971381
+   ```
+
+2. Oxford Nanopore reads
+
+   ```
+   SRR10948550
+   SRR10948474
+   SRR10902284
+   ```
+
+### Outputs
+
+This workflow produces three outputs that are used in tow subsequent analyses:
+
+| #  | Output | Used in |
+|----|------|---------|
+| 1. | A combined set of adapter-free Illumina reads without human contamination | [Assembly](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly) |
+| 2. | A combined set of Oxford Nanopore reads without human contamination | [Assembly](https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly) |
+| 3. | A collection of adapter-free Illumina reads from which human reads *have not* been removed | [Variation detection](https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation) |
+
+### The history and the workflow
+
+A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/covid-19-pre-processing).
+
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/covid-19-pre-pp) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+
+The workflow performs the following steps:
+
+#### Illumina
+
+ - Illumina reads are QC'ed and adapter sequences are removed using `fastp`
+ - Quality metrics are computed and visualized using `fastqc`  and `multiqc`
+ - Reads are mapped against human genome version `hg38` using `bwa mem`
+ - Reads that **do not map** to `hg38` are filtered out using `samtools view`
+ - Reads are converted back to fastq format using `samtools fastx`
+
+#### Oxford nanopore
+
+ - Reads are QC'ed using `nanoplot`
+ - Quality metrics are computed and visualized using `fastqc`  and `multiqc`
+ - Reads are mapped against human genome version `hg38` using `minimap2`
+ - Reads that **do not map** to `hg38` are filtered out using `samtools view`
+ - Reads are converted back to fastq format using `samtools fastx`
+
+![](/assets/media/sars/pp_wf.png){:height="50%" width="50%"}
+
+
+
+
+## 2. Assembly of SARS-CoV-2 from pre-processed reads
+
+### What's the point?
+
+Use a combination of Illumina and Oxford Nanopore reads to produce SARS-CoV-2 genome assembly.
+
+### Outline
+
+We use Illumina and Oxford Nanopore reads that were pre-processed to remove human-derived sequences. We use two assembly tools: [`spades`](http://cab.spbu.ru/software/spades/) and [`unicycler`](https://github.com/rrwick/Unicycler). While `spades` is a tool fully dedicated to assembly, `unicycler` is a "wrapper" that combines multiple existing tools. It uses `spades` as an engine for short read assembly while utilizing [`mimiasm`](https://github.com/lh3/miniasm) and [`racon`](https://github.com/isovic/racon) for assembly of long noisy reads. 
+
+In addition to assemblies (actual sequences) the two tools produce assembly graphs that can be used for visualization of assembly with [`bandage`](https://rrwick.github.io/Bandage/).
+
+### Inputs
+
+Filtered Illumina and Oxford Nanopore reads produced during the [pre-processing step](https://github.com/galaxyproject/SARS-CoV-2/tree/master/PreProcessing) are used as inputs to the assembly tools. 
+
+### Outputs
+
+Each tool produces assembly (contigs) and assembly graph representations. The largest contigs generated by `unicycler` and `spades` were 29,781 and 29,907 nts, respectively, and had 100% identity over their entire length.
+
+The following figures show visualizations of assembly graphs produced with `spades` and `unicycler`. The complexity of the graphs is not surprising given the metagenomic nature of the underlying samples.
+
+| Assembly graphs for Unicycler (A) and SPAdes (B) |
+|:-------------------------------|
+| ![](https://usegalaxy.org/datasets/bbd44e69cb8906b5d6265148ad20e586/display/?preview=True){:height="50%" width="50%"}
+| **A**. Unicycler assembly graph |
+| ![](https://usegalaxy.org/datasets/bbd44e69cb8906b5f5dc8f4de00733be/display/?preview=True){:height="50%" width="50%"}
+| **B**. SPAdes assembly graph |
+
+### History and workflow
+
+A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-assembly).
+
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/ncov-assembly-1) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+
+![](/assets/media/sars/as_wf.png){:height="50%" width="50%"}
+
+
+
+
+## 3. Dating the most common recent ancestor (MCRA) of SARS-CoV-2
+
+###  What's the point?
+
+
+For this we used simple root-to-tip regression [Korber et al. 2000](https://www.ncbi.nlm.nih.gov/pubmed/10846155) (more complex and powerful phylodynamics methods could certainly be used, but for this data with very low levels of sequence divergence, simpler and faster methods suffice). Using a set of sequences from all COVID-19 sequences available as of Feb 16, 2020 we obtained an MCRA date of Nov 14, 2019, which is close to other existing estimates [Rambaut 2020](http://virological.org/t/phylodynamic-analysis-115-genomes-20-feb-2020/356).
+
+### Outline
+
+This analysis consists of two components - a Galaxy workflow and a Jupyter notebook. 
+
+The workflow is used to extract full length sequences of SARS-CoV-2, tidy up their names in FASTA files, produce a multiple sequences alignment and compute a maximum likelihood tree.
+
+The [Jupyter notebook](./MCRA_Estimation_Notebook.ipynb) is used to correlate branch lengths with collection dates in order to estimate MCRA timing.
+
+### Inputs
+
+One input is required: a comma-separated [file](acc_date.txt) containing accession numbers and collection dates:
+
+```
+Accession,Collection_Date
+MT019531,2019-12-30
+MT019529,2019-12-23
+MT007544,2020-01-25
+MN975262,2020-01-11
+...
+```
+
+An up-to-date version of this file can be generated directly from the [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/) resource by
+
+1. searching for SARS-CoV-2 (NCBI taxid: 2697049) sequences
+2. configuring the list of results to display only the `Accession` and `Collection date` columns
+3. downloading the `Current table view result` in `CSV format`
+
+The collection dates will be taken from the corresponding GenBank record's `/collection_date` tag. 
+
+### Outputs
+
+
+
+### History and workflow
+
+A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-mcra-timing).
+
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/mcra) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+
+![](/assets/media/sars/mcra_wf.png){:height="50%" width="50%"}
+
+
+
+
+## 4. Analysis of variation within individual COVID-19 samples
+
+### What's the point?
+
+To understand the amount of heterogeneity in individual COVID-19 isolates.
+
+### Outline
+
+As of writing (2/13/2020) there were just three Illumina datasets from COVID-19 patients:
+
+```
+- sra-study: SRP242226
+  bioproject: PRJNA601736
+  biosample: SAMN13872787
+  sra-sample: SRS6007144
+  sra-experiment: SRX7571571
+  sra-run: SRR10903401
+
+- sra-study: SRP242226
+  bioproject: PRJNA601736
+  biosample: SAMN13872786
+  sra-sample: SRS6007143
+  sra-experiment: SRX7571570
+  sra-run: SRR10903402
+
+- sra-study: SRP245409
+  bioproject: PRJNA603194
+  biosample: SAMN13922059
+  sra-sample: SRS6067521
+  sra-experiment: SRX7636886
+  sra-run: SRR10971381
+ ```
+
+To understand the extent of sequence variation within these samples we performed the following analysis. First, we used a Galaxy workflow to perform the following steps:
+
+
+ 1. Mapped all reads against COVID-19 reference [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) using `bwa mem`
+ 2. Filtered reads with mapping quality of at least 20, that were mapped as proper pairs
+ 3. Performed realignments using `lofreq viterbi`
+ 4. Called variants using `lofreq call`
+ 5. Annotated variants using `snpeff` against database created from NC_045512.2 GenBank file
+ 6. Converted VCFs into tab delimited datasets
+
+ Next, we analyzed this tab delimited data in a [Jupyter notebook](variation_analysis.ipynb).
+
+### Inputs
+
+#### Workflow
+
+1. GenBank file for the reference COVID-19 [genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512).
+
+   The GenBank record is used by `snpeff` to generate a database for variant annotation.
+2. Set of illumina reads (in this case a collection of unfiltered reads from `SRR10903401`, `SRR10903402`, and `SRR10971381`)
+
+#### Jupyter notebook
+
+The Jupyter notebook requires the GenBank file (#1 from above) and the output of the workflow described below. 
+
+### Outputs
+
+The workflow produces a table of variants that looks like this:
+
+<div>
+<table>
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Sample</th>
+      <th>CHROM</th>
+      <th>POS</th>
+      <th>REF</th>
+      <th>ALT</th>
+      <th>DP</th>
+      <th>AF</th>
+      <th>SB</th>
+      <th>DP4</th>
+      <th>IMPACT</th>
+      <th>FUNCLASS</th>
+      <th>EFFECT</th>
+      <th>GENE</th>
+      <th>CODON</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>SRR10903401</td>
+      <td>NC_045512</td>
+      <td>1409</td>
+      <td>C</td>
+      <td>T</td>
+      <td>124</td>
+      <td>0.040323</td>
+      <td>1</td>
+      <td>66,53,2,3</td>
+      <td>MODERATE</td>
+      <td>MISSENSE</td>
+      <td>NON_SYNONYMOUS_CODING</td>
+      <td>orf1ab</td>
+      <td>Cat/Tat</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>SRR10903401</td>
+      <td>NC_045512</td>
+      <td>1821</td>
+      <td>G</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.094737</td>
+      <td>0</td>
+      <td>49,37,5,4</td>
+      <td>MODERATE</td>
+      <td>MISSENSE</td>
+      <td>NON_SYNONYMOUS_CODING</td>
+      <td>orf1ab</td>
+      <td>gGt/gAt</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>SRR10903401</td>
+      <td>NC_045512</td>
+      <td>1895</td>
+      <td>G</td>
+      <td>A</td>
+      <td>107</td>
+      <td>0.037383</td>
+      <td>0</td>
+      <td>51,52,2,2</td>
+      <td>MODERATE</td>
+      <td>MISSENSE</td>
+      <td>NON_SYNONYMOUS_CODING</td>
+      <td>orf1ab</td>
+      <td>Gta/Ata</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>SRR10903401</td>
+      <td>NC_045512</td>
+      <td>2407</td>
+      <td>G</td>
+      <td>T</td>
+      <td>122</td>
+      <td>0.024590</td>
+      <td>0</td>
+      <td>57,62,1,2</td>
+      <td>MODERATE</td>
+      <td>MISSENSE</td>
+      <td>NON_SYNONYMOUS_CODING</td>
+      <td>orf1ab</td>
+      <td>aaG/aaT</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>SRR10903401</td>
+      <td>NC_045512</td>
+      <td>3379</td>
+      <td>A</td>
+      <td>G</td>
+      <td>121</td>
+      <td>0.024793</td>
+      <td>0</td>
+      <td>56,62,1,2</td>
+      <td>LOW</td>
+      <td>SILENT</td>
+      <td>SYNONYMOUS_CODING</td>
+      <td>orf1ab</td>
+      <td>gtA/gtG</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+Here, most fields names are descriptive. **SB** = the Phred-scaled probability of strand bias as calculated by [lofreq](https://csb5.github.io/lofreq/) (0 = no strand bias); **DP4** = strand-specific depth for reference and alternate allele observations (Forward reference, reverse reference, forward alternate, reverse alternate).
+
+The variants we identified were distributed across the SARS-CoV-2 genome in the following way:
+
+![](/assets/media/sars/var_map.png)
+
+The following table describes variants with frequencies above 10%:
+
+![](/assets/media/sars/S_var.png)
+
+## History and workflow
+
+A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation).
+
+The publicly accessible [workflow](https://usegalaxy.org/u/aun1/w/ncov-variation-analysis) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.
+
+![](/assets/media/sars/var_wf.png){:height="50%" width="50%"}
+
+
+
+
+## 5. Alignment of COVID-19 Spike protein with homologs from other coronaviruses
+
+### What's the point?
+
+Aligning Spike protein sequences to detect structural variations and impact of polymorphisms.
+
+### Outline
+
+We generate a codon alignment for a set of coronaviruses in order to track polymorphisms uncovered by the analysis of [variation in individual samples](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Variation).
+
+
+### Input
+
+Downloaded CDS sequences of coronavirus Spike proteins from [NCBI Viral Resource](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=SARS-CoV-2,%20taxid:2697049) for the following coronaviruses:
+
+```
+FJ588692.1	Bat SARS Coronavirus Rs806/2006
+KR559017.1	Bat SARS-like coronavirus BatCoV/BB9904/BGR/2008
+KC881007.1	Bat SARS-like coronavirus WIV1
+KT357810.1	MERS coronavirus isolate Riyadh_1175/KSA/2014
+KT357811.1	MERS coronavirus isolate Riyadh_1337/KSA/2014
+KT357812.1	MERS coronavirus isolate Riyadh_1340/KSA/2014
+KF811036.1	MERS coronavirus strain Tunisia-Qatar_2013
+AB593383.1	Murine hepatitis virus
+AF190406.1	Murine hepatitis virus strain TY
+AY687355.1	SARS coronavirus A013
+AY687356.1	SARS coronavirus A021
+AY687361.1	SARS coronavirus B029
+AY687365.1	SARS coronavirus C013
+AY687368.1	SARS coronavirus C018
+AY648300.1	SARS coronavirus HHS-2004
+DQ412594.1	SARS coronavirus isolate CUHKtc10NP
+DQ412596.1	SARS coronavirus isolate CUHKtc14NP
+DQ412609.1	SARS coronavirus isolate CUHKtc32NP
+MN996528.1	nCov-2019
+MN996527.1	nCov-2019
+NC_045512.2	nCov-2019
+NC_002306.3	Feline infectious peritonitis virus
+NC_028806.1	Swine enteric coronavirus strain Italy/213306/2009
+NC_038861.1	Transmissible gastroenteritis virus
+```
+
+### Output
+
+We produce two alignments, one at the nucleotide and one at the amino acid level, of Betacoronavirus spike proteins. The alignments can be visualized with the `Multiple Sequence Alignment` visualization in Galaxy :
+
+ ![Visualization of amino acid alignment in Galaxy](/assets/media/sars/align_galaxy_viz.png){:height="50%" width="50%"}
+
+Or with locally installed softwares, here [`AliView`](https://github.com/AliView/AliView).
+
+
+| Alignments of Spike proteins |
+|:-------------------------------:|
+| ![Nucleic Alignment of Spike proteins](/assets/media/sars/Spike_CDS_Alignment.png){:height="50%" width="50%"} |
+| **A**. CDS alignments |
+| ![Proteic Alignment of Spike proteins](/assets/media/sars/Spike_Protein_Alignment.png){:height="50%" width="50%"} |
+| **B**. Protein alignment |
+
+
+
+### Workflow
+
+The Galaxy history containing the latest analysis can be found [here](https://usegalaxy.org/u/delphinel/h/s-proteins-alignment). The publicly accessible [workflow](https://usegalaxy.org/u/delphinel/w/cov-alignment) can be downloaded and installed on any Galaxy instance. It contains all information about tool versions and parameters used in this analysis.
+
+![Analysis Workflow](/assets/media/sars/Workflow_snapshot.png){:height="50%" width="50%"}
+
+The `Transeq` tool converts the CDS sequences into protein sequences, which we then align to each other using `MAFFT`. The output is fed into `tranalign` along with the nucleotide sequences. `tranalign` produces a nucleotide alignment coherent with the protein alignment.
+
+
+
+
+
+
+
+
+## 6. Evolutionary Analysis
+
+### What's the point?
+
+[Wu et al.](https://doi.org/10.1038/s41586-020-2008-3) showed recombination between COVID-19 and bat coronaviruses located within the *S*-gene. We want to confirm this observation and provide a publicly accessible workflow for recombination detection.
+
+In previous coronovirus outbreaks (SARS), retrospecive analyses determined that adaptive substitutions might have occured in the S-protein [Zhang et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1609170/), e.g., related to [ACE2 receptor utilization](https://www.embopress.org/doi/full/10.1038/sj.emboj.7600640). While data on COVID-19 are currenly limited, we investigated whether or not the lineage leading to them showed any evidence of positive diversifying selection.
+
+### Outline
+
+We employ a recombination detection algorithm (GARD) developed by [Kosakovsky Pond et al.](http://mbe.oxfordjournals.org/cgi/content/full/23/10/1891) and implemented in the `hyphy` package. To select a representative set of *S*-genes we perform a blast search using the *S*-gene CDS from [NC_045512](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) as a query against the `nr` database. We select coding regions corresponding to the *S*-gene from a number of COVID-19 genomes, original SARS isolates. This set of sequences can be found in [this repository](S_nt.fna)
+
+We then generate a codon-based alignment using the workflow shown below and perform the recombination analysis using the `gard` tool from the `hyphy` package. 
+
+For selection analyses, we apply the [Adaptive Branch Site Random Effects](https://www.ncbi.nlm.nih.gov/pubmed/25697341) method to test whether or each branch of the tree shows evidence of diversifing positive selection along a fraction of sites using the `absrel` tool from the `hyphy` package. 
+
+## Inputs
+
+A set of unaligned CDS sequences for the *S*-gene.
+
+Additionally, for aBSREL, a phylogenetic tree (for aBSREL).
+
+### Outputs
+
+A recombination report:
+
+![](/assets/media/sars/dm_report.png){:height="50%" width="50%"}
+
+and a map of possible recombination hotspots:
+
+![](/assets/media/sars/dm_chart.png){:height="50%" width="50%"}
+
+A selection analysis summary and tree (COVID-19 isolate is MN988668_1)
+
+![](/assets/media/sars/dm_tree.png){:height="50%" width="50%"}
+
+and a plot of the inferred &omega; distribution for the MN988668_1 branch.
+
+![](/assets/media/sars/dm_selection.png){:height="50%" width="50%"}
+
+
+
+### History and workflow
+
+> TODO: add aBSREL workflow
+
+A Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-comp).
+
+The publicly accessible [workflow](https://test.galaxyproject.org/u/anton/h/ncov-recomb) can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+
+![](/assets/media/sars/rec_wf.png){:height="50%" width="50%"}
+
+The workflow takes unaligned CDS sequences, translates them with `EMBOSS:tanseq`, aligns translations using `mafft`, realigns original CDS input using the mafft alignment as a guide and sends this codon-based alignment to `gard`.
+
+
+
+
+
+
+## Comparative analysis of coronovirus sequences
+
+### What's the point?
+
+What is the phylogenetic relationship between assembled sequences and other coronaviruses?
+
+### Outline
+
+We mapped Unicycler assembly produces at [step 1](https://github.com/galaxyproject/SARS-CoV-2/tree/master/Assembly) against `nr` database at NCBI using `blastn`  and downloaded [hit table](4GRC05K5014-Alignment-HitTable.csv). This analysis indicated that our assembly is 100% identical to [NC_045512](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512).
+
+We then used this hit table to Galaxy workflow that:
+
+ 1. downloaded sequences
+ 2. aligned downloaded sequences against COVID-19 reference [NC_045512](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) using `lastz`
+ 3. identified sequences that align with at least 75% of NC_045512
+ 4. created multiple alignment of sequences from the previous step using `mafft`
+ 5. computed a maximum likelihood tree using `iqtree`
+
+### Inputs
+
+The analysis takes two inputs:
+
+ 1. Hit table generated by blast
+ 2. Genbank file for COVID-19 reference genome [NC_045512](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512)
+
+ The hit table has the following format:
+
+ ```
+COVID-19,MN988668.1,100.000,29781,0,0,1,29781,29838,58,0.0,54996
+COVID-19,NC_045512.2,100.000,29781,0,0,1,29781,29839,59,0.0,54996
+COVID-19,MN994468.1,99.993,29781,2,0,1,29781,29839,59,0.0,54985
+COVID-19,MN985325.1,99.990,29781,3,0,1,29781,29839,59,0.0,54979
+COVID-19,MN938384.1,99.990,29781,3,0,1,29781,29807,27,0.0,54979
+COVID-19,MN997409.1,99.987,29781,4,0,1,29781,29839,59,0.0,54974
+COVID-19,MN975262.1,99.983,29781,5,0,1,29781,29839,59,0.0,54968
+....
+```
+
+the workflow:
+ 
+  - extracts accession numbers (the second column) for hit table
+  - downloads all corresponding FASTA files
+  - aligned them using `lastz`
+  - selected all sequences that align over at least 75% of the reference
+  - uses these sequences to create multiple alignment and phylogenetic tree
+
+### Outputs
+
+1. A multiple alignment of sequences that align over at least 75% of the reference
+2. A maximum likelihood tree
+
+
+### History and workflow
+
+Galaxy workspace (history) containing the most current analysis can be imported from [here](https://usegalaxy.org/u/aun1/h/ncov-comp).
+
+The [workflow](https://usegalaxy.org/u/aun1/w/comp) is available at Galaxy public site and can downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis. 
+
+the workflow performs the following steps:
+ 
+  - extracts accession numbers (the second column) for hit table
+  - downloads all corresponding FASTA files
+  - aligned them using `lastz`
+  - selected all sequences that align over at least 75% of the reference
+  - uses these sequences to create multiple alignment and phylogenetic tree
+
+![](/assets/media/sars/comp_wf.png){:height="50%" width="50%"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Training
 
@@ -209,15 +774,15 @@ RiboTaper | An analysis pipeline for Ribo-Seq experiments, exploiting the triple
 
 # Contributors
 
-- [Andrea Bagnacani](https://github.com/bagnacan)
-- [Bérénice Batut](https://github.com/bebatut)
-- [Joerg Fallmann](https://github.com/jfallmann)
-- [Florian Eggenhofer](https://github.com/eggzilla)
-- [Bjoern Gruening](https://github.com/bgruening)
-- [Youri Hoogstrate](https://github.com/yhoogstrate)
-- [Torsten Houwaart](https://github.com/TorHou)
-- [Cameron Smith](https://github.com/smithcr)
-- [Sebastian Will](https://github.com/s-will)
-- [Markus Wolfien](https://github.com/mwolfien)
-- [Dilmurat Yusuf](https://github.com/dyusuf)
-- [Pavankumar Videm](https://github.com/pavanvidem)
+[Dannon Baker](https://github.com/dannon),
+[Marius Van Den Beek](https://github.com/mvdbeek), 
+[John Chilton]( https://github.com/jmchilton), 
+[Nate Coraor](https://github.com/natefoo), 
+[Bjorn Gruning](https://github.com/bgruening),
+[Delphine Larivière](https://github.com/Delphine-L), 
+[Nicholas Keener](https://github.com/nickeener), 
+[Sergei Kosakovsky](https://github.com/spond), 
+[Wolfgang Maier](https://github.com/wm75),
+[Anton Nekrutenko](https://github.com/nekrut), 
+[James Taylor](https://github.com/jxtx), 
+[Steven Weaver](https://github.com/stevenweaver)
