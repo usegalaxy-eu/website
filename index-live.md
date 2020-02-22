@@ -156,9 +156,14 @@ margin: auto;
 
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_climate_notebook" target="_top">
       <img class="card-img-top" src="/assets/media/interactive/jp-climate.png" title="Jupyter Lab with Python ecosystem for ocean/atmosphere/land/climate science. The list of packages used in this image is similar to what is available for Pangeo" />
-      <p class="textcard">Jupyter lab for ocean/atmosphere/land/climate python ecosystem</p>
+      <p class="textcard">Jupyter lab for ocean / atmosphere / land / climate python ecosystem</p>
     </a>
     
+    <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_panoply" target="_top">
+      <img class="card-img-top" src="/assets/media/interactive/panoply.png" title="Panoply plots geo-referenced and other arrays from netCDF, HDF, and other datasets." />
+      <p class="textcard">Panoply netCDF Data Viewer</p>
+    </a>
+
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_higlass" target="_top">
       <img class="card-img-top" src="/assets/media/interactive/higlass.jpg" title="HiGlass for visualise and interactivly explorer Hi-C  data" />
       <p class="textcard">HiGlass</p>
