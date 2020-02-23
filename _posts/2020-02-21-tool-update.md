@@ -23,11 +23,15 @@ On 2020-02-21, the tools on UseGalaxy.eu were updated by our automated tool upda
 - hyphy_slac was updated to [25782236e47e](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/25782236e47e)
 - hyphy_sm19 was updated to [5f1830cb9135](https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/5f1830cb9135)
 
-## RAD-seq
+## Metagenomic Analysis
 
-- stacks2_cstacks was updated to [c541e62d6c56](https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56)
+- metagene_annotator was updated to [b04960a7abf5](https://toolshed.g2.bx.psu.edu/view/galaxyp/metagene_annotator/b04960a7abf5)
 
 ## Annotation
 
 - seq2hla was updated to [52bba1cd3823](https://toolshed.g2.bx.psu.edu/view/iuc/seq2hla/52bba1cd3823)
+
+## Nanopore
+
+- medaka_consensus was updated to [1c4402b9244d](https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus/1c4402b9244d)
 
