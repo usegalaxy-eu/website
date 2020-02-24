@@ -33,12 +33,19 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 # Training
 
+- [Galaxy 101 for everyone](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html)
+
 **Want to learn more about Galaxy? Check out the following hands-on tutorials from [the Galaxy Training Network](https://galaxyproject.github.io/training-material/){:target=_"blank"}.**
 
 We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
 
 
 # Available tools
+
+## Interactive tools
+
+- [Panoply netCDF viewer](https://live.usegalaxy.eu/?tool_id=interactive_tool_panoply)
+- [JupyterLab for Ocean / Atmosphere / Land / Climate Python ecosystem](https://live.usegalaxy.eu/?tool_id=interactive_tool_climate_notebook)
 
 ## Climate Analysis
 
