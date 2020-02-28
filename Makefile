@@ -8,6 +8,9 @@ ACTIVATE_ENV = source $(shell dirname $(dir $(CONDA)))/bin/activate $(CONDA_ENV)
 
 default: help
 
+activate:
+	echo "$(ACTIVATE_ENV)"
+
 run: ## Launch jekyll locally
 	$(ACTIVATE_ENV) && jekyll serve
 .PHONY: run
