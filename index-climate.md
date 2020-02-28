@@ -44,8 +44,8 @@ We are passionate about training. So we are working in close collaboration with 
 
 ## Interactive tools
 
-- [Panoply netCDF viewer](https://live.usegalaxy.eu/?tool_id=interactive_tool_panoply)
-- [JupyterLab for Ocean / Atmosphere / Land / Climate Python ecosystem](https://live.usegalaxy.eu/?tool_id=interactive_tool_climate_notebook)
+- [Panoply netCDF viewer](https://live.usegalaxy.eu/?tool_id=interactive_tool_panoply){:target="_blank"}
+- [JupyterLab for Ocean / Atmosphere / Land / Climate Python ecosystem](https://live.usegalaxy.eu/?tool_id=interactive_tool_climate_notebook){:target="_blank"}
 
 ## Climate Analysis
 
