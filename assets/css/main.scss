@@ -177,6 +177,9 @@ img {
 .border-deNBI, .border-denbi {
 	border-left: 5px solid rgb(0, 174, 236) !important;
 }
+.border-elixir-it {
+        border-left: 5px solid rgb(44,129,187) !important;
+}
 @import "people";
 @import "404";
 @import "news";
@@ -322,6 +325,30 @@ body.location-pasteur {
 	}
 }
 
+body.location-elixir-it {
+        .navbar {
+                background-color: #2C81BB !important;
+                border: 0px !important;
+        }
+
+        .navbar .navbar-brand, .navbar .navbar-nav > li > a {
+                color: white !important;
+        }
+
+        .navbar .navbar-brand:hover, .navbar .navbar-brand:focus,
+        .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+                color: #aaa !important;
+        }
+
+        .nav > li > a:hover, .nav > li > a:focus {
+                background-color: transparent !important;
+        }
+
+        .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+                background-color: transparent !important;
+                color: white;
+        }
+}
 
 .tooltable {
     td:nth-child(1) {
