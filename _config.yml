@@ -122,6 +122,22 @@ team_sites:
       url: "https://galaxy.genouest.org/"
       galaxy_server: "https://galaxy.genouest.org/"
       blurb: ""
+    elixir-it:
+      name: "ELIXIR-IT/Laniakea"
+      url: /elixir-it/
+      email: laniakea.helpdesk@gmail.com
+      #twitter_username: 
+      github_username: Laniakea-elixir-it
+      private_news: true
+      url: "https://laniakea-elixir-it.github.io/"
+      #galaxy_server: "https://galaxy.genouest.org/"
+      blurb: |
+        [Laniakea](https://laniakea-elixir-it.github.io/) has been developed in the framework of the [INDIGO-Datacloud](https://www.indigo-datacloud.eu/) project funded by the European Commision H2020 research and innovation program under grant agreement RIA 653549.
+
+        The development of Laniakea continues in the framework of [EOSC-Pillar](https://www.eosc-pillar.eu/) (Grant agreement ID: 857650) and [EOSC-Life](https://www.eosc-life.eu/) (Grant agreement ID: 824087) H2020 projects.
+
+        The [Laniakea@ReCaS](https://laniakea-elixir-it.github.io/laniakea_at_recas) service is provided with the support of [ELIXIR-ITALY](https://elixir-italy.org/) and [ReCaS-Bari](https://www.recas-bari.it). 
+
 
 header_links:
     main:
@@ -175,6 +191,15 @@ header_links:
           url: /pasteur/people
         - name: Publications
           url: /pasteur/publications
+    elixir-it:
+        - name: News
+          url: /elixir-it/news
+        - name: Events
+          url: /elixir-it/events
+        - name: People
+          url: /elixir-it/people
+        - name: Publications
+          url: /elixir-it/publications
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
