@@ -1,5 +1,5 @@
 ---
-site: Italy
+site: elixir-it
 tags: [tools]
 title: "ELIXIR-Italy launches Laniakea@ReCaS, a Galaxy “on-demand” platform"
 ---
