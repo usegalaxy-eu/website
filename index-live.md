@@ -74,7 +74,7 @@ margin: auto;
     <br/>
     If you start an Interactive tool it will keep spinning in a yellow state as long as the Container is running. To open your Tool you open the link
     at <a href="https://live.usegalaxy.eu/interactivetool_entry_points/list" target="_top">User → Active InteractiveTools</a>. The eye icon of your Galaxy dataset
-    is not working yet.
+    is not working yet. A <a href="https://training.galaxyproject.org/training-material/topics/galaxy-ui/tutorials/jupyterlab/tutorial.html">Jupyter</a> and <a href="https://training.galaxyproject.org/training-material/topics/galaxy-ui/tutorials/rstudio/tutorial.html">RStudio</a> tutorial is provided by the <a href="https://training.galaxyproject.org">Galaxy training Network</a>. 
     <br/>
     Enjoy!
 </div>
