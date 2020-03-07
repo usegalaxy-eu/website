@@ -8,11 +8,12 @@
 #
 
 - title: Storage issues
-  class: warning     # one of [success, info, warning, danger]
+  class: danger     # one of [success, info, warning, danger]
   site: freiburg    # Your site
   messages:
       - message: |
-          We encounter some storage issues and are investigating further. Sorry for any inconvenience.
+          We encounter some storage issues and are investigating further.
+          If you encounter any problem please re-upload your data and run your workflow/steps again. Sorry for any inconvenience.
 
 # - title: Restricted compute capacity on the 18.02.2020 
 #   class: info # one of [success, info, warning, danger]
