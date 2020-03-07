@@ -33,13 +33,13 @@ Galaxy HiCExplorer can process large Hi-C data. We processed Hi-C data with arou
 
 The new chic*-modules of HiCExplorer provide powerful tools to analyse capture Hi-C and HiChIP data. 
 We recommend to follow the tutorial on <a target="_parent" href="https://hicexplorer.readthedocs.io/en/latest/content/capture-Hi-C.html">hicexplorer.readthedocs.io<a/> for an introduction to the analysis pipeline.
-<!-- A preprocessed cHi-C history with data from [Andrey et al. 2017.](https://doi.org/10.1101/gr.213066.116) is provided <a target="_parent" href= 'https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/chi-c'> here</a>. -->
+A preprocessed cHi-C history with data from [Andrey et al. 2017.](https://doi.org/10.1101/gr.213066.116) is provided <a target="_parent" href='https://usegalaxy.eu/u/joachim-wolff/h/debug-history'> here</a>.
 
 ### Single-cell Hi-C
  
  The newest members of the HiCExplorer tool suit are the schic*-modules to bring the latest single-cell Hi-C research to Galaxy. We recommend to follow the tutorial on <a target="_parent" href="https://schicexplorer.readthedocs.io/en/latest/content/Example_analysis.html">schicexplorer.readthedocs.io<a/> for an introduction to the analysis pipeline.
  
-The raw mcool matrices for with the data from Nagano 2017 in 10 kb and 1 Mb resolution is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.3557682"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3557682.svg" alt="DOI"></a>
+The raw scool matrices for with the data from Nagano 2017 in 10 kb and 1 Mb resolution is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.3557682"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3557682.svg" alt="DOI"></a>
 
 ## HiGlass
 
@@ -57,7 +57,7 @@ The new tools in Galaxy HiCExplorer 3 to make even better Hi-C data analyses: <b
 
 ![](/assets/media/full_nar2020.png)
 
-The different tools of Galaxy HiCExplorer in a workflow context: Analysis workflow for Hi-C <b>(A)</b>, cHi-C / HiChIP <b>(B)</b> and scHi-C <b>(C)</b>. All share the usage of hicBuildMatrix to create the individual contact matrices. Hi-C and cHi-C/HiChIP do support HiCExplorer's h5 and cool interaction matrix file format, scHi-C data creates for each cell one cool interaction matrix file and with scHicMergeToMCool all single-cell matrices are merged to one multi-cool (mcool) matrix.
+The different tools of Galaxy HiCExplorer in a workflow context: Analysis workflow for Hi-C <b>(A)</b>, cHi-C / HiChIP <b>(B)</b> and scHi-C <b>(C)</b>. All share the usage of hicBuildMatrix to create the individual contact matrices. Hi-C and cHi-C/HiChIP do support HiCExplorer's h5 and cool interaction matrix file format, scHi-C data creates for each cell one cool interaction matrix file and with scHicMergeToSCool all single-cell matrices are merged to one single-cell cool (scool) matrix.
 
 
 ## Workflows
@@ -102,7 +102,7 @@ Use the following workflows if you have already created a contact matrix.
 
 ### Single-cell Hi-C
 
-Use the following workflow for an existing mcool matrix with QC and normalization:
+Use the following workflow for an existing scool matrix with QC and normalization:
 
  - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/single-cell-hi-c">SVL dimension reduction</a>
 
