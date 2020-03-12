@@ -2,7 +2,7 @@
 site: freiburg
 tags:
 - training
-title: Galaxy single cell RNA-seq data analysis workshop in Freiburg
+title: EVENT POSTPONED - Galaxy single cell RNA-seq data analysis workshop in Freiburg
 starts: 2020-03-23
 ends: 2020-03-27
 organiser:
@@ -26,10 +26,16 @@ supporters:
 hidefooter: true
 ---
 
+~~We are offering a Galaxy workshop on **single cell RNA-seq data analysis**. 39 participants will be selected from all applicants.
+To apply for attendance, please sign in [here](https://forms.gle/C7wW9NPj3WgwW6dr8).~~
 
+**********
 
-We are offering a Galaxy workshop on **single cell RNA-seq data analysis**. 39 participants will be selected from all applicants.
-To apply for attendance, please sign in [here](https://forms.gle/C7wW9NPj3WgwW6dr8).
+#### [ **Event Postponed** due to Coronavirus ]
+
+We apologies for any inconvenience, and will update this event page as soon as we are able to resume the workshop. All currently allocated places will be saved and we will email you to reconfirm your participation in the next single-cell workshop.
+
+**********
 
 ## Venue
 
