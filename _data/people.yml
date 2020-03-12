@@ -154,8 +154,9 @@ freiburg:
 
     janleendertse:
         name: Jan Leendertse
+        title: M.A., Certification, Organisation
         email: jan.leendertse@rz.uni-freiburg.de
-        phone: +49(0) 761 - 203 97897
+        phone: +49(0) 761 - 203 54126
         location: "Build.: 079, Room: -1005a"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: JanLeendertse
@@ -163,8 +164,8 @@ freiburg:
         website: http://leendertse.eu
         linkedin: JanLeendertse
         researchgate: JanLeendertse
-        bio:
-
+        
+        
 erasmusmc:
     andrew-emc:
         name: Andrew Stubbs
