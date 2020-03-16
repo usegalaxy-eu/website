@@ -32,7 +32,7 @@ hidefooter: true
 
 #### [ **Event Postponed** due to Coronavirus ]
 
-We offer apologies for any inconvenience, and will update this event page as soon as we are able to resume the workshop. All currently allocated places will be saved and we will email you to reconfirm your participation in the next introduction to machine learning workshop. In two weeks, we will send you links of all the materials for the workshop. Please stay healthy!
+We apologies for any inconvenience, and will update this event page as soon as we are able to resume the workshop. All currently allocated places will be saved and we will email you to reconfirm your participation in the next introduction to machine learning workshop. In two weeks, we will send you links of all the materials for the workshop. Please stay healthy!
 
 **********
 
