@@ -2,7 +2,7 @@
 site: freiburg
 tags:
 - training
-title: Introduction to machine learning using Galaxy
+title: EVENT POSTPONED - Introduction to machine learning using Galaxy
 starts: 2020-03-30
 ends: 2020-04-01
 organiser:
@@ -26,7 +26,15 @@ supporters:
 hidefooter: true
 ---
 
-We are offering a workshop on introduction to machine learning using Galaxy. 35 participants will be selected from all applicants. To apply for attendance, please sign in [here](https://docs.google.com/forms/d/e/1FAIpQLSdu1SJbSOCGy20iqShiyK5DUIrZU6hnPGpYv2DgHnUxf13HSQ/viewform?usp=pp_url).
+~~We are offering a workshop on introduction to machine learning using Galaxy. 35 participants will be selected from all applicants. To apply for attendance, please sign in [here](https://docs.google.com/forms/d/e/1FAIpQLSdu1SJbSOCGy20iqShiyK5DUIrZU6hnPGpYv2DgHnUxf13HSQ/viewform?usp=pp_url).~~
+
+**********
+
+#### [ **Event Postponed** due to Coronavirus ]
+
+We offer apologies for any inconvenience, and will update this event page as soon as we are able to resume the workshop. All currently allocated places will be saved and we will email you to reconfirm your participation in the next introduction to machine learning workshop. In two weeks, we will send you links of all the materials for the workshop. Please stay healthy!
+
+**********
 
 ## Venue
 
