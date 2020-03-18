@@ -1,7 +1,7 @@
 ---
 site: freiburg
 tags:
-title: "2-day proteomics and RNA-seq Galaxy course in Freiburg"
+title: "CANCELED - 2-day proteomics and RNA-seq Galaxy course in Freiburg"
 starts: 2020-03-23
 ends: 2020-03-24
 organiser:
