@@ -6,7 +6,7 @@ tags: [hackathon]
 
 The Federal Government of Germany is organising the [#WirVsVirus Hackathon](https://wirvsvirushackathon.org/).
 
-![WirVsVirus](https://wirvsvirushackathon.org/wp-content/uploads/2020/03/Hackathon_slogan_wei%C3%9F.png)
+![WirVsVirus](https://wirvsvirushackathon.org/wp-content/uploads/2020/03/12-scaled.jpg)
 
 We want to encourage you to participate and join the fight against Covid-19. 
 
