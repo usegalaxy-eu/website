@@ -10,9 +10,9 @@ The Federal Government of Germany is organising the [#WirVsVirus Hackathon](http
 
 ![WirVsVirus](https://wirvsvirushackathon.org/wp-content/uploads/2020/03/12-scaled.jpg)
 
-The Galaxy community freely offers [RStudio](https://galaxyproject.github.io/training-material/topics/galaxy-ui/tutorials/rstudio/tutorial.html) and [Jupyter notebook](https://galaxyproject.github.io/training-material/topics/galaxy-ui/tutorials/galaxy-intro-jupyter/tutorial.html) instances on request, hosted using our cloud infrastructure aided by more than 3000 cores and extensive memory resources.
+The Galaxy community freely offers [RStudio](https://galaxyproject.github.io/training-material/topics/galaxy-ui/tutorials/rstudio/tutorial.html) and [Jupyter notebook](https://galaxyproject.github.io/training-material/topics/galaxy-ui/tutorials/galaxy-intro-jupyter/tutorial.html) instances, hosted using the de.NBI-cloud infrastructure aided by more than 3000 cores and extensive memory resources.
 
-All tools and notebook instances are backed by a foundation of scientific and computational reproducibility, using the power of [Bioconda](https://bioconda.github.io/), along with the full [Galaxy suite](https://usegalaxy.eu) of 2000 bioinformatic tools to experiment with at your disposal.
+All tools and notebook instances are backed by a foundation of scientific and computational reproducibility, using the power of [Bioconda](https://bioconda.github.io/), along with the full [Galaxy suite](https://usegalaxy.eu) of 2000+ bioinformatic tools to experiment with at your disposal.
 
 Take a look at https://covid19.galaxyproject.org/ for an initial analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure (XSEDE, de.NBI-cloud, ARDC cloud).
 
