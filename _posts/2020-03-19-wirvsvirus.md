@@ -14,8 +14,8 @@ The Galaxy community freely offers [RStudio](https://galaxyproject.github.io/tra
 
 All tools and notebook instances are backed by a foundation of scientific and computational reproducibility, using the power of [Bioconda](https://bioconda.github.io/), along with the full [Galaxy suite](https://usegalaxy.eu) of 2000+ bioinformatic tools to experiment with at your disposal.
 
-Take a look at https://covid19.galaxyproject.org/ for an initial analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure (XSEDE, de.NBI-cloud, ARDC cloud).
+Take a look at [https://covid19.galaxyproject.org/](https://covid19.galaxyproject.org/) for an initial analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure (XSEDE, de.NBI-cloud, ARDC cloud).
 
-Feel free to [contact us](galaxy@informatik.uni-freiburg.de) for further information or if we can support your research with our infrastructure.
+Feel free to contact us at <galaxy@informatik.uni-freiburg.de> for further information or if we can support your research with our infrastructure.
 
 Stay healthy!
