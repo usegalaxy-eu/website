@@ -13,6 +13,10 @@ these reads sensitively and infers the true origins of them by quantifying the m
 ChiRAViz gives flexibility in filtering and searching output files, visualize the summaries of filtered data as well as
 exporting them. ChiRA is now part of the RNA workbench ([RNA workbench](https://rna.usegalaxy.eu/)).
 
+A complete workflow for interactome data analysis is at [https://usegalaxy.eu/u/videmp/w/rna-rna-interactome-analysis](https://usegalaxy.eu/u/videmp/w/rna-rna-interactome-analysis)
+
+If you want to look at already analyzed data, an example published history generated using the workflow on a CLEAR-CLIP dataset is available at [https://rna.usegalaxy.eu/u/videmp/h/rna-rna-interactome-analysis](https://usegalaxy.eu/u/videmp/h/rna-rna-interactome-analysis)
+
 You can learn the usage of the ChiRA tool suite to analyze your interactome datasets from the Galaxy training material: [RNA-RNA interactome data analysis](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-interactome/tutorial.html).
 
 ![ChiRA workflow](/assets/media/chira.png "ChiRA workflow. First the reads deduplicated and mapped to transcriptome. Then the mapped loci are merged based on overlapping. The merged loci are quantified and the interactions are scored and reported.")
