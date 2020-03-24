@@ -5,6 +5,7 @@ title: ChiRA tool suite - an integrated framework for Chimeric Read Analysis fro
 ---
 
 ChiRA is a set of tools to analyze RNA-RNA interactome experimental data such as CLASH, CLEAR-CLIP, PARIS, LIGR-Seq, etc.
+
 The reads from these datasets are chimeric, i.e, two interacting RNA fragments fused into a single read. Limitations of the
 current library preparation protocols limit the length of each sequenced interacting RNA fragment. These smaller RNA fragments
 are often harder to map considering that the boundaries of each RNA fragment in the read are unknown. The ChiRA tool suite maps
