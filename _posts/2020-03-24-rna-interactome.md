@@ -15,4 +15,4 @@ exporting them. ChiRA is now part of the RNA workbench ([RNA workbench](https://
 
 You can learn the usage of the ChiRA tool suite to analyze your interactome datasets from the Galaxy training material: [RNA-RNA interactome data analysis](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-interactome/tutorial.html).
 
-![ChiRA workflow](../assets/media/chira.png "ChiRA workflow. First the reads deduplicated and mapped to transcriptome. Then the mapped loci are merged based on overlapping. The merged loci are quantified and the interactions are scored and reported.")
+![ChiRA workflow](/assets/media/chira.png "ChiRA workflow. First the reads deduplicated and mapped to transcriptome. Then the mapped loci are merged based on overlapping. The merged loci are quantified and the interactions are scored and reported.")
