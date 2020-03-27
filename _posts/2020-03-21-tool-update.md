@@ -41,10 +41,16 @@ On 2020-03-21, the tools on UseGalaxy.eu were updated by our automated tool upda
 ## Proteomics
 
 - maldi_quant_peak_detection was updated to [e66f552a3c47](https://toolshed.g2.bx.psu.edu/view/galaxyp/maldi_quant_peak_detection/e66f552a3c47)
-
-## Imaging
-
-- idr_download_by_ids was updated to [9340cbc7796c](https://toolshed.g2.bx.psu.edu/view/iuc/idr_download_by_ids/9340cbc7796c)
+- cardinal_classification was updated to [47fc5b518ffc](https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_classification/47fc5b518ffc)
+- cardinal_classification was updated to [b574b84afc4d](https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_classification/b574b84afc4d)
+- cardinal_combine was updated to [bb1ac6b47a6c](https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_combine/bb1ac6b47a6c)
+- cardinal_data_exporter was updated to [8da3511c9467](https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_data_exporter/8da3511c9467)
+- cardinal_filtering was updated to [d2ccd8348018](https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_filtering/d2ccd8348018)
+- cardinal_mz_images was updated to [25b83cbd596a](https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_mz_images/25b83cbd596a)
+- cardinal_preprocessing was updated to [5bf056c0354e](https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_preprocessing/5bf056c0354e)
+- cardinal_quality_report was updated to [74b61bf5bc4b](https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_quality_report/74b61bf5bc4b)
+- cardinal_segmentations was updated to [82f6c2f4332d](https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_segmentations/82f6c2f4332d)
+- cardinal_spectra_plots was updated to [043f9c91f686](https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_spectra_plots/043f9c91f686)
 
 
 ## HiCExplorer
@@ -101,6 +107,7 @@ On 2020-03-21, the tools on UseGalaxy.eu were updated by our automated tool upda
 ## Get Data
 
 - sra_tools was updated to [aad3885b3216](https://toolshed.g2.bx.psu.edu/view/iuc/sra_tools/aad3885b3216)
+- spocc_occ was updated to [724ad06de5a5](https://toolshed.g2.bx.psu.edu/view/ecology/spocc_occ/724ad06de5a5)
 
 ## RNA Analysis
 
@@ -121,6 +128,43 @@ On 2020-03-21, the tools on UseGalaxy.eu were updated by our automated tool upda
 - ctb_rdkit_descriptors was updated to [d68bf44e1f5c](https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_rdkit_descriptors/d68bf44e1f5c)
 - enumerate_charges was updated to [2a868592ebcb](https://toolshed.g2.bx.psu.edu/view/bgruening/enumerate_charges/2a868592ebcb)
 - sdf_to_tab was updated to [71bc02c59d3a](https://toolshed.g2.bx.psu.edu/view/bgruening/sdf_to_tab/71bc02c59d3a)
+- openbabel_addh was updated to [976a5975b952](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_addh/976a5975b952)
+- openbabel_change_title was updated to [49d21d05f77c](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_change_title/49d21d05f77c)
+- openbabel_compound_convert was updated to [e6011617c748](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_compound_convert/e6011617c748)
+- openbabel_filter was updated to [da0059ee548a](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_filter/da0059ee548a)
+- openbabel_genprop was updated to [c427987b54fd](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_genprop/c427987b54fd)
+- openbabel_obgrep was updated to [8b23033ff72c](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_obgrep/8b23033ff72c)
+- openbabel_remduplicates was updated to [1dd562ae055d](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remduplicates/1dd562ae055d)
+- openbabel_remions was updated to [34fb5da28776](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remions/34fb5da28776)
+- openbabel_remove_protonation_state was updated to [612c134546a2](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remove_protonation_state/612c134546a2)
+- openbabel_remsmall was updated to [0c95b0f51114](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remsmall/0c95b0f51114)
+- openbabel_spectrophore_search was updated to [3d91d24e89c5](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_spectrophore_search/3d91d24e89c5)
+- openbabel_structure_distance_finder was updated to [c066b5accacf](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_structure_distance_finder/c066b5accacf)
+- openbabel_subsearch was updated to [fc199b60875d](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_subsearch/fc199b60875d)
+- openbabel_svg_depiction was updated to [ff95203c7e4b](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_svg_depiction/ff95203c7e4b)
+- prepare_ligands_for_docking was updated to [b8838a9aa31a](https://toolshed.g2.bx.psu.edu/view/bgruening/prepare_ligands_for_docking/b8838a9aa31a)
 
+
+## Imaging
+
+- idr_download_by_ids was updated to [9340cbc7796c](https://toolshed.g2.bx.psu.edu/view/iuc/idr_download_by_ids/9340cbc7796c)
+- cp_cellprofiler was updated to [ba4fd9fbf924](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_cellprofiler/ba4fd9fbf924)
+- cp_common was updated to [9c8ee01c0b22](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_common/9c8ee01c0b22)
+- cp_convert_objects_to_image was updated to [d9fa2e6fae97](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_convert_objects_to_image/d9fa2e6fae97)
+- cp_display_data_on_image was updated to [c49a557b4e3e](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_display_data_on_image/c49a557b4e3e)
+- cp_enhance_or_suppress_features was updated to [29188f9c4ca8](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_enhance_or_suppress_features/29188f9c4ca8)
+- cp_export_to_spreadsheet was updated to [10257d6d545b](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_export_to_spreadsheet/10257d6d545b)
+- cp_gray_to_color was updated to [d37580e3f4d0](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_gray_to_color/d37580e3f4d0)
+- cp_identify_primary_objects was updated to [99e493b2e951](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_identify_primary_objects/99e493b2e951)
+- cp_mask_image was updated to [54d7d3450800](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_mask_image/54d7d3450800)
+- cp_measure_granularity was updated to [1062c9e44147](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_granularity/1062c9e44147)
+- cp_measure_image_area_occupied was updated to [c75596eadae1](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_image_area_occupied/c75596eadae1)
+- cp_measure_image_intensity was updated to [e87d1fd2d673](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_image_intensity/e87d1fd2d673)
+- cp_measure_image_quality was updated to [26945c55ddff](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_image_quality/26945c55ddff)
+- cp_measure_object_intensity was updated to [1373b765c8f9](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_object_intensity/1373b765c8f9)
+- cp_measure_object_size_shape was updated to [eba2ec72f967](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_object_size_shape/eba2ec72f967)
+- cp_measure_texture was updated to [0f751bb492de](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_texture/0f751bb492de)
+- cp_relate_objects was updated to [3a2cfcd7c38a](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_relate_objects/3a2cfcd7c38a)
+- cp_save_images was updated to [6e0f244acd32](https://toolshed.g2.bx.psu.edu/view/bgruening/cp_save_images/6e0f244acd32)
 
 
