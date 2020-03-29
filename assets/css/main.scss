@@ -360,6 +360,14 @@ body.location-elixir-it {
     }
 }
 
+.ont-workflow-table {
+    border: 1px solid #dfe2e5;
+    tbody > tr > td,  {
+        border: 1px solid #dfe2e5;
+        padding: .6em 1em;
+    }
+}
+
 .rna-intro-right {
     width: 35%;
     min-width: 100px;
