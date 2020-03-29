@@ -16,7 +16,8 @@ Welcome to **NanoGalaxy**  -- a webserver to process, analyse and visualize Oxfo
 
 # Get started
 
-Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://nanopore.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
+Are you new to Galaxy, or returning after a long time, and looking for help to get started?
+Take [a guided tour](https://nanopore.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
 Check also the standard but customizable [workflows](#workflows) available there.
 
@@ -83,24 +84,17 @@ A collection of best practice and popular tools are integrated (and are expandin
 </div>
 
 
-
-
 # Tutorials
 
-We are passionate about training. So we are working in close collaboration with the 
-[Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based
-on Galaxy {% cite batut2017community %}. The NanoGalaxy training materials are under development and will be soon hosted on the
-GTN GitHub repository [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
-
+We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
 
 # Workflows
 
-To orchestrate tools and help users with their analyses, some best practice workflows are prepared and become available.
-The workflows can be extended using similar and alternative combinations using the workflow editor.
+To orchestrate tools and help users with their analyses, some best practice workflows are prepared and available for all users.
+The workflows can be extended using similar and alternative combinations using the Galaxy workflow editor.
 
-The workflows are available in the [Shared Workflows](https://nanopore.usegalaxy.eu/workflows/list_published){:target="_top"}, with the label "***ONT***".
+The workflows are available in the [Shared Workflows View](https://nanopore.usegalaxy.eu/workflows/list_published){:target="_top"} and are labeled with "***ONT***".
 
-# Some validated workflows
 
 |:-----------------:|:----------------------------:|:-------------------:|:------------------:|
 |                   |                              |                     |                    |
