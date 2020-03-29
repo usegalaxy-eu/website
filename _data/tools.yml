@@ -158,7 +158,6 @@ segmentation-fold: toolshed.g2.bx.psu.edu/repos/yhoogstrate/segmentation_fold/se
 shyft_longitudes: toolshed.g2.bx.psu.edu/repos/climate/shift_longitudes/shyft_longitudes
 tRNAscan: toolshed.g2.bx.psu.edu/repos/bgruening/trna_prediction/trnascan
 Miniasm: toolshed.g2.bx.psu.edu/repos/iuc/miniasm
-Madeka: https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/medaka_consensus/medaka_consensus
 scanpy_run_pca: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_pca/scanpy_run_pca
 scanpy_find_cluster: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster
 scanpy_run_tsne: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_tsne/scanpy_run_tsne
