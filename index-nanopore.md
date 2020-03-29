@@ -26,12 +26,12 @@ A collection of best practice and popular tools are integrated (and are expandin
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:black;width:30%;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#dfe2e5;width:60%;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#dfe2e5;}
+.tg .tg-0lax{text-align:center;vertical-align:top}
 </style>
 <div align="center">
-<table class="tg">
+<table class="tg" width="50%">
   <tr>
     <th class="tg-0lax">
 
@@ -42,7 +42,7 @@ A collection of best practice and popular tools are integrated (and are expandin
         {% include tool.html id="Medaka" %}
     </div>
     </th>
-    <th class="tg-0lax" rowspan="4">
+    <th class="tg-0lax" rowspan="4" align="center">
     
         <img src="/assets/media/nanogalaxy_toolkit.png" height="400px" alt="NanoGalaxy toolkit"/>
     
