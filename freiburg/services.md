@@ -32,11 +32,11 @@ With **free** registration to the [UseGalaxy.eu](https://usegalaxy.eu) server we
 
 When this effort is combined with our community-maintained workflows and our in-depth [Galaxy training material](https://training.galaxyproject.org), it makes up for a truly productive work experience. We believe in enabling everyone to perform reproducible science.
 
-Simply upload your data from your computer or via FTP and get started with your data analysis!
+Simply upload your data from your computer or via FTP and get started with your data analysis! If you have, you can log in with your ELIXIR AAI!
 
 ### Galaxy Subcommunities
 
-We want to encourage scientist to join forces and foster subcommunities by giving them a common place, a Galaxy subdomain page. Every sububdomains comes with own welcome page, specific tool box, example data, workflow, and training material. More information can be found on the [https://galaxyproject.eu](https://galaxyproject.eu/) webpage.
+We want to encourage scientists to join forces and foster subcommunities by giving them a common place, a Galaxy subdomain page. Every subdomain comes with its own welcome page, specific tool box, example data, workflow, and training material. More information can be found on the [https://galaxyproject.eu](https://galaxyproject.eu/) webpage.
 
 ---
 <a name="training"></a>
@@ -52,34 +52,34 @@ We are passionate about training! Our team wants to support researchers to take 
 
 ### Galaxy Training Workshops
 
-Locally in Freiburg, we offer twice per year a free full-week hands-on high-throughput sequencing data analysis workshop. A typical workshop schedule looks as follows:
+Locally in Freiburg, we offer twice per year a free full-week hands-on high-throughput sequencing (HTS) data analysis workshop. A typical workshop schedule for a week looks as follows:
 
-- Monday:     Introduction to Galaxy and HTS
-- Tuesday:    Quality control, IGV, ChIP-Seq,
-- Wednesday:  RNA-Seq
+- Monday:     Introduction to Galaxy and HTS data analysis
+- Tuesday:    Quality control, IGV, ChIP-Seq data analysis
+- Wednesday:  RNA-Seq data analysis
 - Thursday:   HiC data analysis, Methyl-C data analysis
 - Friday:     Bring your own data, exercises
 
 We have more training material for various topics to teach, e.g. Transcriptomics, Metabolomics, Metagenomics, Proteomics, Genome Annotation, Variant Calling, ... . Topics usually are selected from desired topics of the applicants.
 
-All workshops are announced on our [events page](https://galaxyproject.eu/freiburg/events). Registrations are possible through our website.
+All workshops are announced on our [events page](https://galaxyproject.eu/freiburg/events). Registrations are possible through our website after the announcement.
 
-We and other members of the Galaxy training network (GTN) are giving training courses around the world for data analysis and for developers and administrators. Check the website of the main [Galaxy project](https://galaxyproject.org/events) as well as the [de.NBI](https://www.denbi.de) website for [de.NBI courses](https://www.denbi.de/training)
+We and other members of the Galaxy training network (GTN) are giving training courses around the world for data analysis, and for developers and administrators. Check the website of the main [Galaxy project](https://galaxyproject.org/events) as well as the [de.NBI](https://www.denbi.de) website for [de.NBI courses](https://www.denbi.de/training)
 
 ### Galaxy Training Material
 
 The Freiburg Galaxy Team is a very active contributor to the community-driven development of GTN Galaxy training material. All of this material is **online, and freely accessible for everyone** at [https://training.galaxyproject.org](https://training.galaxyproject.org).
 
-We provide more than 150 tutorials designed for both **self-training** and **workshops** for Galaxy users, developer, and administrators. Each tutorial comes with:
+We provide more than 170 tutorials designed for both **self-training** and **workshops** for Galaxy users, developers, and administrators. Each tutorial comes with:
 
-- Introduction of the topic
+- Introduction of the topic with information and theoretical background as slide show
 - Step-by-step instruction of the data analysis guiding through the analysis workflow
-- Real world example data sets
+- Real world example data sets stored in our data library and on zenodo
 - Interactive tour
 
-We also provide the technical support with tools, data, virtualized instances, ... So you can use this material on our Galaxy instance or you can spin up your own Galaxy server!
+We also provide the technical support with tools, data, virtualized instances, ... . So you can use this material on our Galaxy instance or you can spin up your own Galaxy server!
 
-If you want to offer a training course to other researchers, we do maintain a set of material for “train the trainers” and we are happy to share our knowledge and experience in this area with you. We are also providing training material for Galaxy developers and admins as well as the possibility to use iPython notebooks and jupyter directly in Galaxy.
+If you want to offer a training course to other researchers, we do maintain a set of material for “train the trainers” and we are happy to share our knowledge and experience in this area with you. We are also providing training material for Galaxy developers and admins as well as the possibility to use iPython notebooks and jupyter directly in Galaxy. If you want to give a Galaxy training, you can request a [TIaaS](https://galaxyproject.eu/tiaas.html) on our webpage to get dedicated resources for it.
 
 ### Collaboration/Contribution Fests
 
