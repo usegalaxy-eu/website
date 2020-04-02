@@ -25,6 +25,13 @@ On 2020-03-28, the tools on UseGalaxy.eu were updated by our automated tool upda
 - sucos_docking_scoring was updated to [2e67eea82ff7](https://toolshed.g2.bx.psu.edu/view/bgruening/sucos_docking_scoring/2e67eea82ff7)
 - sucos_docking_scoring was updated to [a3c1e2eea7d3](https://toolshed.g2.bx.psu.edu/view/bgruening/sucos_docking_scoring/a3c1e2eea7d3)
 
+## Species abundance
+
+- stoc_filteringsp was updated to [2e45ae3b297a](https://toolshed.g2.bx.psu.edu/view/ecology/stoc_filteringsp/2e45ae3b297a)
+- stoc_mainglm was updated to [df3ce23d0d23](https://toolshed.g2.bx.psu.edu/view/ecology/stoc_mainglm/df3ce23d0d23)
+- stoc_mainglm_group was updated to [06a11044e089](https://toolshed.g2.bx.psu.edu/view/ecology/stoc_mainglm_group/06a11044e089)
+- stoc_maketable was updated to [22a784d2b0e0](https://toolshed.g2.bx.psu.edu/view/ecology/stoc_maketable/22a784d2b0e0)
+- stoc_trend_indic was updated to [916b49d725ba](https://toolshed.g2.bx.psu.edu/view/ecology/stoc_trend_indic/916b49d725ba)
 
 ## Virology
 
