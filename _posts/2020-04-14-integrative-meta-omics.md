@@ -2,11 +2,12 @@
 site: freiburg
 tags: [tools]
 title: Integrative meta-omics analysis - Metagenomics, Metatranscriptomics, Metaproteomics
+supporters:
+ - denbi
+ - elixir
+author: Magnus Ø. Arntzen
 ---
 
-
-Integrative meta-omics in Galaxy
-================================
 
 By [Magnus Ø. Arntzen](https://www.nmbu.no/ans/magnus.arntzen) (Norwegian University of Life Sciences)  
 (This post is also available as a [poster](/assets/media/magnus/2020-JGI-Galaxy.pdf))  
