@@ -31,13 +31,6 @@ On 2020-04-11, the tools on UseGalaxy.eu were updated by our automated tool upda
 - openbabel_svg_depiction was updated to [ba2d56f16904](https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_svg_depiction/ba2d56f16904)
 - prepare_ligands_for_docking was updated to [015ccbd1ad68](https://toolshed.g2.bx.psu.edu/view/bgruening/prepare_ligands_for_docking/015ccbd1ad68)
 
-## Gemini
-
-- gemini_fusions was updated to [8295781a3c27](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_fusions/8295781a3c27)
-
-## RAD-seq
-
-- stacks2_cstacks was updated to [c541e62d6c56](https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56)
 
 ## Imaging
 
