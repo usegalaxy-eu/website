@@ -5,7 +5,6 @@ title: Workshop on Workflow Management Systems
 location: Online
 ---
 
-
 The [workshop on Workflow Management Systems](https://docs.google.com/document/d/1Od0JzTduih7DIlaIoYS-MnfFUl1UVmy6DprqhBlqAV8) organised by [EOSC-Life](https://www.eosc-life.eu/) WP2 took place on the 2nd and 3rd of April 2020.
  
 Representatives from five RIs presented exemplary cases on typical image analysis pipelines during the first day. 
