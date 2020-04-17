@@ -39,6 +39,12 @@ jobs on a training machine, and, in the event there is no more capacity, they
 will run on the main queue. If a spot on a training VM opens up first, they
 will run there rather than continuing to wait in the main queue.
 
+Some more general information about the TIaaS service:
+
+- [a Calendar](https://usegalaxy.eu/tiaas/calendar/) that shows when TIaaS trainings are booked
+- [some Statistics](https://usegalaxy.eu/tiaas/stats/) about the TIaaS events
+
+
 ## Eligibility
 
 We have significant capacity and have dedicated some of this to providing
