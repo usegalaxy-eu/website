@@ -2,7 +2,7 @@
 site: freiburg
 tags:
 - training
-title: Galaxy-ELIXIR webinar #1: Introduction to Galaxy and the Galaxy workflows for SARS-CoV-2 data analysis
+title: Galaxy-ELIXIR Webinar 1: Introduction to Galaxy and the Galaxy workflows for SARS-CoV-2 data analysis
 starts: 2020-04-30
 ends: 2020-04-30
 organiser:
@@ -18,7 +18,7 @@ supporters:
 hidefooter: true
 ---
 
-### Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic
+**Galaxy-ELIXIR Webinar Series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic**
 
 The Galaxy Community and ELIXIR organise a webinar series to demonstrate how open software and public research infrastructures can be used in analysing and publishing SARS-CoV2 data.
 

@@ -2,7 +2,7 @@
 site: freiburg
 tags:
 - training
-title: Galaxy-ELIXIR webinar #3: Cheminformatics - Screening of the main protease
+title: Galaxy-ELIXIR Webinar 3: Cheminformatics - Screening of the main protease
 starts: 2020-05-14
 ends: 2020-05-14
 organiser:
@@ -16,7 +16,7 @@ supporters:
 hidefooter: true
 ---
 
-### Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic
+**Galaxy-ELIXIR Webinar Series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic**
 
 The Galaxy Community and ELIXIR organise a webinar series to demonstrate how open software and public research infrastructures can be used in analysing and publishing SARS-CoV2 data.
 
