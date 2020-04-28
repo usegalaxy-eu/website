@@ -2,11 +2,11 @@
 site: freiburg
 tags:
 - training
-title: Galaxy-ELIXIR webinar: Introduction to Galaxy and the Galaxy workflows for SARS-CoV-2 data analysis
+title: Galaxy-ELIXIR webinar #1: Introduction to Galaxy and the Galaxy workflows for SARS-CoV-2 data analysis
 starts: 2020-04-30
 ends: 2020-04-30
 organiser:
-  name: Galaxy and ELIXIR Belgium
+  name: Galaxy and ELIXIR
 supporters:
 - galaxy
 - elixirbelgium

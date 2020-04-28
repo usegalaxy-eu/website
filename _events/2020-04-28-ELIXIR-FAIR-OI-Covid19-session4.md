@@ -2,11 +2,11 @@
 site: freiburg
 tags:
 - training
-title: Galaxy-ELIXIR webinar: Evolution of the Virus
+title: Galaxy-ELIXIR webinar #4: Evolution of the Virus
 starts: 2020-05-20
 ends: 2020-05-20
 organiser:
-  name: Galaxy-ELIXIR
+  name: Galaxy and ELIXIR
 supporters:
 - institute-gaem-temple
 

@@ -1,12 +1,12 @@
 ---
-site:  Genomics/Variant Calling 
+site: freiburg
 tags:
 - training
-title: Galaxy-ELIXIR webinar: Genomics/Variant Calling 
+title: Galaxy-ELIXIR webinar #2: Genomics/Variant Calling
 starts: 2020-05-7
 ends: 2020-05-7
 organiser:
-  name: Galaxy and Galaxy EU
+  name: Galaxy and ELIXIR
 supporters:
 - galaxy
 - galaxy-eu
@@ -19,7 +19,7 @@ hidefooter: true
 
 The Galaxy Community and ELIXIR organise a webinar series to demonstrate how open software and public research infrastructures can be used in analysing and publishing SARS-CoV2 data.
 
-## Session 2: Genomics/Variant Calling 
+## Session 2: Genomics/Variant Calling
 
 7 May 2020, **17.00-18.00 CEST** (starts at **16.00 BST**, **11.00 EDT**, **8.00 PDT**)
 

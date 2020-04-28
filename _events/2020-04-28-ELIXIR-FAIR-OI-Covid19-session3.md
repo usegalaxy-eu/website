@@ -1,12 +1,12 @@
 ---
-site:  Genomics/Variant Calling 
+site: freiburg
 tags:
 - training
-title: Galaxy-ELIXIR webinar: Cheminformatics - Screening of the main protease
+title: Galaxy-ELIXIR webinar #3: Cheminformatics - Screening of the main protease
 starts: 2020-05-14
 ends: 2020-05-14
 organiser:
-  name: Galaxy and Galaxy EU
+  name: Galaxy and ELIXIR
 supporters:
 - galaxy
 

@@ -6,7 +6,7 @@ title: Galaxy-ELIXIR webinar: Behind the scenes - Global Open Infrastructures at
 starts: 2020-05-28
 ends: 2020-05-28
 organiser:
-  name: Galaxy-ELIXIR
+  name: Galaxy and ELIXIR
 supporters:
 - galaxy
 
@@ -27,4 +27,4 @@ This session will guide the participants how they can use the Galaxy compute cap
 
 [Programme Information and Registration](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19)
 
-### Speakers: To Be Decided
+### Speakers To Be Decided
