@@ -9,7 +9,11 @@ organiser:
   name: Galaxy and ELIXIR
 supporters:
 - galaxy
-- galaxy-eu
+- elixir
+- denbi
+- galaxy-europe
+- galaxy-freiburg
+- backofenlab
 
 # special hiding of footer since we want to do it manually.
 hidefooter: true
