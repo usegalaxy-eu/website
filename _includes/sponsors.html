@@ -12,6 +12,26 @@
             <a href="https://www.denbi.de" target="_blank">
               <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb_small.png" class="img-responsive eu-image"/>
             </a>
+          {% elsif supporter_lower == "denbi-color" %}
+            <a href="https://www.denbi.de" target="_blank">
+              <img alt="de.NBI logo" src="/assets/media/denbi-logo-color.svg" class="img-responsive eu-image"/>
+            </a>
+          {% elsif supporter_lower == "datamonkey" %}
+            <a href="https://datamonkey.org/" target="_blank">
+              <img alt="DataMonkey logo" src="/assets/media/datamonkey.svg" class="img-responsive eu-image"/>
+            </a>
+          {% elsif supporter_lower == "bpa" %}
+            <a href="https://bioplatforms.com" target="_blank">
+              <img alt="BioPlatforms logo" src="/assets/media/bpa_logo.png" class="img-responsive eu-image"/>
+            </a>
+          {% elsif supporter_lower == "bioconda" %}
+            <a href="https://bioconda.org" target="_blank">
+              <img alt="BioConda logo" src="/assets/media/bioconda_logo.png" class="img-responsive eu-image"/>
+            </a>
+          {% elsif supporter_lower == "ardc" %}
+            <a href="https://ardc.ed.au" target="_blank">
+              <img alt="ARDC logo" src="/assets/media/ardc_logo.png" class="img-responsive eu-image"/>
+            </a>
           {% elsif supporter_lower == "eubi" %}
             <a href="https://www.eurobioimaging.eu" target="_blank">
               <img alt="EuBI logo" src="/assets/media/eubi_logo.png" class="img-responsive eu-image"/>
@@ -60,6 +80,10 @@
             <a href="https://usegalaxy-eu.github.io" target="_blank">
               <img alt="European Galaxy Team Logo" src="/assets/media/galaxy-eu.png" class="img-responsive eu-image" />
             </a>
+          {% elsif supporter_lower == "galaxy-australia" %}
+            <a href="https://usegalaxy.org.au" target="_blank">
+              <img alt="Australian Galaxy Team Logo" src="/assets/media/galaxy_australia.png" class="img-responsive eu-image" />
+            </a>
           {% elsif supporter_lower == "bmbf" %}
             <a href="https://www.bmbf.de/en/" target="_blank">
               <img alt="BMBF" src="/assets/media/bmbf_en.jpg" class="img-responsive eu-image" />
@@ -104,9 +128,33 @@
             <a href="http://www.vib.be/" target="_blank">
               <img alt="VIB" src="/assets/media/vib_rf_plant_systems_biology_rgb_pos.png" class="img-responsive eu-image" />
             </a>
+          {% elsif supporter_lower == "vib-general" %}
+            <a href="http://www.vib.be/" target="_blank">
+              <img alt="VIB" src="/assets/media/vib_tagline_pos_rgb.png" class="img-responsive eu-image" />
+            </a>
+          {% elsif supporter_lower == "vsc" %}
+            <a href="https://www.vscentrum.be" target="_blank">
+              <img alt="VSC logo" src="/assets/media/VSC-logo.png" class="img-responsive eu-image" />
+            </a>
           {% elsif supporter_lower == "ncgas" %}
             <a href="https://ncgas.org/" target="_blank">
               <img alt="NCGAS Logo" src="/assets/media/ncgas-logo.png" class="img-responsive eu-image" />
+            </a>
+          {% elsif supporter_lower == "tacc" %}
+            <a href="https://www.tacc.utexas.edu/" target="_blank">
+              <img alt="NCGAS Logo" src="/assets/media/tacc_logo.png" class="img-responsive eu-image" />
+            </a>
+          {% elsif supporter_lower == "psc" %}
+            <a href="https://www.psc.edu/" target="_blank">
+              <img alt="PSC Logo" src="/assets/media/psc_logo.jpg" class="img-responsive eu-image" />
+            </a>
+          {% elsif supporter_lower == "iu" %}
+            <a href="https://www.iu.edu" target="_blank">
+              <img alt="IU Logo" src="/assets/media/iu_logo.jpg" class="img-responsive eu-image" />
+            </a>
+          {% elsif supporter_lower == "xsede" %}
+            <a href="https://www.xsede.org/" target="_blank">
+              <img alt="XSEDE Logo" src="/assets/media/xsede_logo.jpg" class="img-responsive eu-image" />
             </a>
           {% else %}
               {{ supporter }}
