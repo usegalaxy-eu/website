@@ -35,5 +35,5 @@ The first session will introduce the Galaxy platform and other public research i
 
 * Anton Nekrutenko, Professor of [Biochemistry and Molecular Biology](http://bmb.psu.edu/) at Penn State University (USA) and co-founder of the [Galaxy Project](http://psu.edu/).
 * Frederik Coppens,  Head of Node of [ELIXIR Belgium](http://www.elixir-belgium.org/) and Co-Lead of the [ELIXIR Galaxy Community](https://elixir-europe.org/communities/galaxy)
-
+* Sergei Pond, Professor of Biology, [Institute for Genomics and Evolutionary Medicine](https://igem.temple.edu/), Temple University, US.
 
