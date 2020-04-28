@@ -7,6 +7,7 @@ starts: 2020-05-14
 ends: 2020-05-14
 organiser:
   name: Galaxy and ELIXIR
+location: online
 supporters:
 - galaxy
 - elixir
