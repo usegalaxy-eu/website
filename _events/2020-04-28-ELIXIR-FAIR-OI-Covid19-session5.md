@@ -9,6 +9,8 @@ organiser:
   name: Galaxy and ELIXIR
 supporters:
 - galaxy
+- elixir
+- denbi
 
 # special hiding of footer since we want to do it manually.
 hidefooter: true
