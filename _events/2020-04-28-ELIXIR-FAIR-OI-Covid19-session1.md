@@ -9,7 +9,9 @@ organiser:
   name: Galaxy and ELIXIR
 supporters:
 - galaxy
-- elixirbelgium
+- elixir
+- bmb
+- elixir-belgium
 
 # special hiding of footer since we want to do it manually.
 hidefooter: true
