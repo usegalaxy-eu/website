@@ -8,7 +8,10 @@ ends: 2020-05-20
 organiser:
   name: Galaxy and ELIXIR
 supporters:
-- institute-gaem-temple
+- galaxy
+- elixir
+- denbi
+- igem
 
 # special hiding of footer since we want to do it manually.
 hidefooter: true
@@ -26,5 +29,5 @@ The Galaxy Community and ELIXIR organise a webinar series to demonstrate how ope
 
 ### Speakers
 
-* Sergei Pond, Professor of Biology, Institute for Genomics and Evolutionary Medicine, Temple University, US.
+* Sergei Pond, Professor of Biology, [Institute for Genomics and Evolutionary Medicine](https://igem.temple.edu/), Temple University, US.
 
