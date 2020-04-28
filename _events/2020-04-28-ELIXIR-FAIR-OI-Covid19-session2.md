@@ -3,8 +3,8 @@ site: freiburg
 tags:
 - training
 title: "Galaxy-ELIXIR Webinar 2: Genomics/Variant Calling"
-starts: 2020-05-7
-ends: 2020-05-7
+starts: 2020-05-07
+ends: 2020-05-07
 organiser:
   name: Galaxy and ELIXIR
 location: online
