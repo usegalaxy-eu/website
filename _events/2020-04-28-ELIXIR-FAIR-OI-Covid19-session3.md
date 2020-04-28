@@ -2,7 +2,7 @@
 site: freiburg
 tags:
 - training
-title: Galaxy-ELIXIR Webinar 3: Cheminformatics - Screening of the main protease
+title: "Galaxy-ELIXIR Webinar 3: Cheminformatics - Screening of the main protease"
 starts: 2020-05-14
 ends: 2020-05-14
 organiser:

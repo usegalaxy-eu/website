@@ -2,7 +2,7 @@
 site: freiburg
 tags:
 - training
-title: Galaxy-ELIXIR Webinar 4: Evolution of the Virus
+title: "Galaxy-ELIXIR Webinar 4: Evolution of the Virus"
 starts: 2020-05-20
 ends: 2020-05-20
 organiser:

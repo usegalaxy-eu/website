@@ -2,7 +2,7 @@
 site: freiburg
 tags:
 - training
-title: Galaxy-ELIXIR Webinar 5: Behind the scenes - Global Open Infrastructures at work 
+title: "Galaxy-ELIXIR Webinar 5: Behind the scenes - Global Open Infrastructures at work"
 starts: 2020-05-28
 ends: 2020-05-28
 organiser:
