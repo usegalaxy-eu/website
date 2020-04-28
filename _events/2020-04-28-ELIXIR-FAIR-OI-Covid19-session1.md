@@ -10,6 +10,7 @@ organiser:
 supporters:
 - galaxy
 - elixir
+- denbi
 - bmb
 - elixir-belgium
 
