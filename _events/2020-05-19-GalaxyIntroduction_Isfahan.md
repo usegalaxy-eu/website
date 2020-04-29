@@ -20,7 +20,7 @@ hidefooter: true
 
 The Galaxy Community and ELIXIR organise a webinar series to demonstrate how open software and public research infrastructures can be used in analysing and publishing SARS-CoV2 data.
 
-## Session 1: Introduction to Galaxy and the Galaxy workflows for SARS-CoV-2 data analysis
+## Session 1: Introduction to Galaxy 
 
 30 April 2020, **17.00-18.00 CEST** (starts at **16.00 BST**, **11.00 EDT**, **8.00 PDT**)
 
