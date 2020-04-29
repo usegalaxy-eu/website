@@ -12,7 +12,6 @@ location: online
 supporters:
 - unifreiburg
 - denbi
-- elixir
 # special hiding of footer since we want to do it manually.
 hidefooter: true
 ---
@@ -20,7 +19,7 @@ hidefooter: true
 
 **Introduction to Galaxy workshop at the beginner level (in Persian)**
 
-**8 April 2020**, **12:00-14:30 CEST** (**14:30-17:00 Tehran Time**)
+**8th April 2020**, **12:00-14:30 CEST** (**14:30-17:00 Tehran Time**)
 
 This workshop is an introduction to Galaxy at the beginner level (in Persian). This practical aims at familiarizing participants with the Galaxy user interface. It will teach them how to perform basic tasks such as importing data, running tools, working with histories, creating workflows and sharing their works.
 

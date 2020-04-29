@@ -12,7 +12,6 @@ location: online
 supporters:
 - unifreiburg
 - denbi
-- elixir
 # special hiding of footer since we want to do it manually.
 hidefooter: true
 ---
@@ -20,12 +19,9 @@ hidefooter: true
 
 **Introduction to Galaxy workshop for the students of University of Isfahan**
 
-**19 May 2020**, **8:30.00-10.00 and 11:30-14:00 CEST** (**11.00-12:30 and 14:00-16:30 Tehran Time**)
+**19th May 2020**, **8:30.00-10.00 and 11:30-14:00 CEST** (**11:00-12:30 and 14:00-16:30 Tehran Time**)
 
 The Galaxy Community and university of Isfahan organise a workshop series to demonstrate how Galaxy can be used in analysing biological data.
-
-
-
 
 
 This workshop is an introduction to Galaxy at the beginner level (in Persian) for the students of University of Isfahan. This practical aims at familiarizing participants with the Galaxy user interface. It will teach them how to perform basic tasks such as importing data, running tools, working with histories, creating workflows and sharing their works.
