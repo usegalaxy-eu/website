@@ -16,7 +16,7 @@ supporters:
 hidefooter: true
 ---
 
-**Introduction to Galaxy for the students of University of Isfahan**
+**Introduction to Galaxy workshop collaborating with University of Isfahan**
 
 The Galaxy Community and university of Isfahan organise a workshop series to demonstrate how Galaxy can be used in analysing biological data.
 
