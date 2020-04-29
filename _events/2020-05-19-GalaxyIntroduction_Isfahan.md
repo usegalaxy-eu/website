@@ -2,9 +2,9 @@
 site: freiburg
 tags:
 - training
-title: EVENT POSTPONED - Introduction to machine learning using Galaxy
-starts: 2020-03-30
-ends: 2020-04-01
+title:  Introduction to machine Galaxy
+starts: 2020-05-19
+ends: 2020-05-19
 organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
