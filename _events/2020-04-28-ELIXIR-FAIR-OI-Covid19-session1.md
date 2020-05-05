@@ -29,7 +29,7 @@ The Galaxy Community and ELIXIR organise a webinar series to demonstrate how ope
 
 The first session will introduce the Galaxy platform and other public research infrastructure to be used throughout the webinar series. It will also explain the motivation behind the Galaxy COVID-19 projects and explain the benefits of open reproducible research and transparent and interoperable analytics.
 
-[Programme Information and Registration](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19)
+[Programme Information and Registration](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19){:target="_blank"}
 
 ### Speakers
 

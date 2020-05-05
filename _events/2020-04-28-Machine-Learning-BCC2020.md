@@ -33,7 +33,7 @@ Learn how to use Galaxy's machine learning tools
 **Prerequisites:**
 Introduction to Galaxy or equivalent experience
 
-[Registration](https://bcc2020.github.io/)
+[Registration](https://bcc2020.github.io){:target="_blank"}
 
 ### Speaker
 
