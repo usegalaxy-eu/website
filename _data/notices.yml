@@ -7,15 +7,6 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #
 
-- title: Limited compute capacity
-  class: warning # one of [success, info, warning, danger]
-  site: freiburg # Your site
-  messages:
-      - message: |
-          We encounter currently problems with our compute and storage resources. 
-          We are working on it and are trying to fix it as soon as possible.
-
-
 # - title: Restricted compute capacity on the 18.02.2020 
 #   class: info # one of [success, info, warning, danger]
 #   site: freiburg # Your site
