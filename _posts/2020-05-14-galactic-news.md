@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: Galactic January News
+title: Galactic May News
 tags: [galaxy]
 external: https://galaxyproject.org/news/2020-05-galaxy-update/
 ---
