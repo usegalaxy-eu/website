@@ -78,7 +78,6 @@ On 2020-05-15, the tools on UseGalaxy.eu were updated by our automated tool upda
 
 - tetoolkit_tetranscripts was updated to [2dfbcb88d16a](https://toolshed.g2.bx.psu.edu/view/iuc/tetoolkit_tetranscripts/2dfbcb88d16a)
 
-## RAD-seq
+## Imaging
 
-- stacks2_cstacks was updated to [c541e62d6c56](https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56)
-
+- idr_download_by_ids was updated to [11036f6197d6](https://toolshed.g2.bx.psu.edu/view/iuc/idr_download_by_ids/11036f6197d6)
