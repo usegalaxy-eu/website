@@ -36,9 +36,9 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
 
-## Workshops
+<!-- ## Workshops -->
 
-We will be hosting a scRNA-seq workshop [this March](https://usegalaxy-eu.github.io/event/2020-01-20-GalaxyWS_scrna_FR/plain.html). Please register whilst spots are still open!
+<!-- We will be hosting a scRNA-seq workshop [this March](https://usegalaxy-eu.github.io/event/2020-01-20-GalaxyWS_scrna_FR/plain.html). Please register whilst spots are still open! -->
 
 ## Material
 
