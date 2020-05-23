@@ -5,12 +5,17 @@
 			{%- assign label = include.label -%}
 		{%- else -%}
 			{%- assign label = include.id -%}
-		{%- endif -%}
+                {%- endif -%}
+                {%- if include.title -%}
+                        {%- assign title = include.title -%}
+                {%- else -%}
+                        {%- assign title = label -%}
+                {%- endif -%}
 		{%- assign found = true -%}
 		{%- if page.subdomain -%}
-			<a href="https://{{ page.subdomain }}.usegalaxy.eu/root?tool_id={{ tool[1] }}" target="_top">{{ label }}</a>
+			<a href="https://{{ page.subdomain }}.usegalaxy.eu/root?tool_id={{ tool[1] }}" target="_top" title="{{ title }}" >{{ label }}</a>
 		{%- else -%}
-			<a href="https://usegalaxy.eu/root?tool_id={{ tool[1] }}" target="_top">{{ label }}</a>
+			<a href="https://usegalaxy.eu/root?tool_id={{ tool[1] }}" target="_top" title="{{ title }}" >{{ label }}</a>
 		{%- endif -%}
 	{%- endif -%}
 {%- endfor -%}
