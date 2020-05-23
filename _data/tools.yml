@@ -16,8 +16,7 @@ Cross Contamination Barcode Filter: toolshed.g2.bx.psu.edu/repos/iuc/crosscontam
 DESeq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 DESeq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 DoRiNA: toolshed.g2.bx.psu.edu/repos/rnateam/dorina/dorina_search
-FastQC: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc
-FastQC: toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc
+FastQC: toolshed.g2.bx.psu.edu/repos/iuc/fastqc/fastqc
 Filtlong: toolshed.g2.bx.psu.edu/repos/iuc/filtlong/filtlong
 FlaiMapper: toolshed.g2.bx.psu.edu/repos/yhoogstrate/flaimapper/flaimapper
 Flye: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye
@@ -52,7 +51,6 @@ Porechop: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop
 Poretools: toolshed.g2.bx.psu.edu/repos/iuc/poretools_qualdist/poretools_qualdist
 QED: toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed
 RCAS: toolshed.g2.bx.psu.edu/repos/rnateam/rcas/rcas
-RNA STAR: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star
 RNA STAR: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star
 RNA STAR Solo: toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo
 RNABOB: toolshed.g2.bx.psu.edu/repos/rnateam/rnabob/rbc_rnabob
@@ -127,8 +125,7 @@ graphclust_aggregate_alignments: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust
 graphclust_aggregate_alignments: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_aggregate_alignments/graphclust_aggregate_alignments/
 graphclust_postprocessing: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_postprocessing/glob_report/
 graphclust_preprocessing: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_preprocessing/preproc/
-htseq-count: toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/htseq_count
-htseq-count: toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/htseq_count
+htseq-count: https://toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/
 infernal_cmbuild: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmbuild/
 infernal_cmsearch: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch/
 je_clip: toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_clip
