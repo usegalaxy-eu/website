@@ -1,18 +1,24 @@
+Alevin: toolshed.g2.bx.psu.edu/repos/bgruening/alevin/alevin
 alevin: toolshed.g2.bx.psu.edu/repos/bgruening/alevin/alevin
 ARAGORN: toolshed.g2.bx.psu.edu/repos/bgruening/trna_prediction/aragorn_trna
 AREsite2: toolshed.g2.bx.psu.edu/repos/rnateam/aresite2/AREsite2_REST
 AddH: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh
+BWA-MEM: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/
+BWA: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa
 bwa: toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa
 Bandage: toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image
 BlockClust: toolshed.g2.bx.psu.edu/repos/rnateam/blockclust/blockclust
+Bowtie2: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2
 bowtie2: toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2
 CMV: toolshed.g2.bx.psu.edu/repos/rnateam/cmv/cmv
 Canu: toolshed.g2.bx.psu.edu/repos/bgruening/canu/canu
 CoFold: toolshed.g2.bx.psu.edu/repos/rnateam/cofold/cofold
 Compalignp: toolshed.g2.bx.psu.edu/repos/rnateam/compalignp/compalignp
 crosscontamination_barcode_filter: toolshed.g2.bx.psu.edu/repos/iuc/crosscontamination_barcode_filter
+DESeq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 deseq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 DoRiNA: toolshed.g2.bx.psu.edu/repos/rnateam/dorina/dorina_search
+FastQC: toolshed.g2.bx.psu.edu/repos/iuc/fastqc/fastqc
 fastqc: toolshed.g2.bx.psu.edu/repos/iuc/fastqc/fastqc
 Filtlong: toolshed.g2.bx.psu.edu/repos/iuc/filtlong/filtlong
 FlaiMapper: toolshed.g2.bx.psu.edu/repos/yhoogstrate/flaimapper/flaimapper
@@ -20,6 +26,7 @@ Flye: toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye
 Fusion Matcher (FuMa): toolshed.g2.bx.psu.edu/repos/yhoogstrate/fuma/fuma
 GotohScan: toolshed.g2.bx.psu.edu/repos/rnateam/gotohscan/rbc_gotohscan
 GraphMap: toolshed.g2.bx.psu.edu/repos/bgruening/graphmap_align/graphmap_align
+HISAT2: toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2
 hisat2: toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2
 INFERNAL: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch
 Kinwalker: toolshed.g2.bx.psu.edu/repos/rnateam/kinwalker/rbc_kinwalker
@@ -31,6 +38,7 @@ MALDIquant_preprocessing: toolshed.g2.bx.psu.edu/repos/galaxyp/maldi_quant_prepr
 MEA: toolshed.g2.bx.psu.edu/repos/rnateam/mea/mea
 MiRDeep2: toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2/rbc_mirdeep2
 Minimap2: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2
+MultiQC: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/
 multiqc: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/
 NASTIseq: toolshed.g2.bx.psu.edu/repos/rnateam/nastiseq/nastiseq
 NPL: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator
@@ -47,6 +55,8 @@ Porechop: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop
 Poretools: toolshed.g2.bx.psu.edu/repos/iuc/poretools_qualdist/poretools_qualdist
 QED: toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed
 RCAS: toolshed.g2.bx.psu.edu/repos/rnateam/rcas/rcas
+RNA STAR: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star
+RNA STAR Solo: toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo
 rna_star: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star
 rna_starsolo: toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo
 RNABOB: toolshed.g2.bx.psu.edu/repos/rnateam/rnabob/rbc_rnabob
@@ -58,10 +68,13 @@ Racon: toolshed.g2.bx.psu.edu/repos/bgruening/racon/racon
 RemDupMol: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates
 STAR-fusion: toolshed.g2.bx.psu.edu/repos/iuc/star_fusion/star_fusion
 STAR-fusion: toolshed.g2.bx.psu.edu/repos/iuc/star_fusion/star_fusion
+Sailfish: toolshed.g2.bx.psu.edu/repos/bgruening/sailfish/sailfish
+Salmon: toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon
 sailfish: toolshed.g2.bx.psu.edu/repos/bgruening/sailfish/sailfish
 salmon: toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon
 SortMeRNA: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna
 Staramr: toolshed.g2.bx.psu.edu/repos/nml/staramr/staramr_search
+Table Compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 table_compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 TargetFinder: toolshed.g2.bx.psu.edu/repos/rnateam/targetfinder/targetfinder
 TargetFinder: toolshed.g2.bx.psu.edu/repos/rnateam/targetfinder/targetfinder
@@ -94,6 +107,7 @@ changTitle: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openba
 comConvert: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert
 fasta_to_gspan: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_fasta_to_gspan/gspan/
 fastp: toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/
+featureCounts: toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts
 featurecounts: toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts
 gdal_gdalinfo: toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdalinfo/gdal_gdalinfo
 gdal_gdaladdo: toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdaladdo/gdal_gdaladdo
@@ -118,6 +132,7 @@ graphclust_aggregate_alignments: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust
 graphclust_aggregate_alignments: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_aggregate_alignments/graphclust_aggregate_alignments/
 graphclust_postprocessing: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_postprocessing/glob_report/
 graphclust_preprocessing: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_preprocessing/preproc/
+htseq-count: https://toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/
 htseq_count: https://toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/
 infernal_cmbuild: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmbuild/
 infernal_cmsearch: toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch/
@@ -143,6 +158,7 @@ remConterIons: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabe
 remCountIo: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title
 remProtState: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remove_protonation_state/openbabel_remove_protonation_state
 remSmallMol: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remsmall/openbabel_remSmall
+scPipe: toolshed.g2.bx.psu.edu/repos/iuc/scpipe/scpipe/
 scpipe: toolshed.g2.bx.psu.edu/repos/iuc/scpipe/scpipe/
 segmentation-fold: toolshed.g2.bx.psu.edu/repos/yhoogstrate/segmentation_fold/segmentation_fold
 shyft_longitudes: toolshed.g2.bx.psu.edu/repos/climate/shift_longitudes/shyft_longitudes
@@ -231,6 +247,7 @@ Visualization: toolshed.g2.bx.psu.edu/repos/bgruening/ml_visualization_ex/ml_vis
 Train and evaluation: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval
 Regression performance plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots
 ML performance plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots
+Table compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 table_compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 ChiRA-collapse: toolshed.g2.bx.psu.edu/repos/iuc/chira_collapse/chira_collapse
 ChiRA-map: toolshed.g2.bx.psu.edu/repos/iuc/chira_map/chira_map
