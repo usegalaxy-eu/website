@@ -101,8 +101,8 @@ cardinal_quality_report: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_r
 cardinal_segmentation: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_segmentations/cardinal_segmentations/
 cardinal_spectra_plot: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_spectra_plots/cardinal_spectra_plots/
 cds_essential_variability: toolshed.g2.bx.psu.edu/repos/climate/cds_essential_variability/cds_essential_variability
-Datamash operations: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops
-Datamash transpose: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose
+datamash_ops: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops
+datamash_transpose: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose
 changTitle: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title
 comConvert: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert
 fasta_to_gspan: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_fasta_to_gspan/gspan/
@@ -217,37 +217,35 @@ umi_tools_group: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_group
 umi_tools_whitelist: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_whitelist
 retrieve_scxa: toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa
 hca_matrix_downloader: toolshed.g2.bx.psu.edu/repos/ebi-gxa/hca_matrix_downloader/hca_matrix_downloader
-SVM Classifier: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier
-Train/Test evaluation: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_train_test_eval/sklearn_train_test_eval
-Model Prediction: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction
-Batch Models: toolshed.g2.bx.psu.edu/repos/bgruening/keras_batch_models/keras_batch_models
-Model Builder: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder
-Model Config: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config
-Sample Generator: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_sample_generator/sklearn_sample_generator
-Estimator Attributes: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_estimator_attributes/sklearn_estimator_attributes
-Stacking Ensemble Models: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_stacking_ensemble_models/sklearn_stacking_ensemble_models
-Search CV: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv
-Build Pipeline: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline
-Pairwise Metrics: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_pairwise_metrics/sklearn_pairwise_metrics
-NN Classifier: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_nn_classifier/sklearn_nn_classifier
-Numeric clustering: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_numeric_clustering/sklearn_numeric_clustering
-Ensemble classification: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble
-Ensemble regression: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble
-Feature selection: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_feature_selection/sklearn_feature_selection
-Data preprocessing: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_data_preprocess/sklearn_data_preprocess
-CLF Metrics: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_clf_metrics/sklearn_clf_metrics
-Regression metrics: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_regression_metrics/sklearn_regression_metrics
-Discriminant Classifier: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_discriminant_classifier/sklearn_discriminant_classifier
-Generalized linear: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_generalized_linear/sklearn_generalized_linear
-Model validation: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_model_validation/sklearn_model_validation
-Fitted model evaluation: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_fitted_model_eval/sklearn_fitted_model_eval
-Model fitting: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_model_fit/sklearn_model_fit
-Train/Test splitting: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_train_test_split/sklearn_train_test_split
-Visualization: toolshed.g2.bx.psu.edu/repos/bgruening/ml_visualization_ex/ml_visualization_ex
-Train and evaluation: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval
-Regression performance plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots
-ML performance plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots
-Table compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
+sklearn_svm_classifier: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier
+sklearn_train_test_eval: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_train_test_eval/sklearn_train_test_eval
+model_prediction: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction
+keras_batch_models: toolshed.g2.bx.psu.edu/repos/bgruening/keras_batch_models/keras_batch_models
+keras_model_builder: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder
+keras_model_config: toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config
+sklearn_sample_generator: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_sample_generator/sklearn_sample_generator
+sklearn_estimator_attributes: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_estimator_attributes/sklearn_estimator_attributes
+sklearn_stacking_ensemble_models: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_stacking_ensemble_models/sklearn_stacking_ensemble_models
+sklearn_searchcv: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv
+sklearn_build_pipeline: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline
+sklearn_pairwise_metrics: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_pairwise_metrics/sklearn_pairwise_metrics
+sklearn_nn_classifier: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_nn_classifier/sklearn_nn_classifier
+sklearn_numeric_clustering: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_numeric_clustering/sklearn_numeric_clustering
+sklearn_ensemble: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble
+sklearn_feature_selection: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_feature_selection/sklearn_feature_selection
+sklearn_data_preprocess: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_data_preprocess/sklearn_data_preprocess
+sklearn_clf_metrics: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_clf_metrics/sklearn_clf_metrics
+sklearn_regression_metrics: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_regression_metrics/sklearn_regression_metrics
+sklearn_discriminant_classifier: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_discriminant_classifier/sklearn_discriminant_classifier
+sklearn_generalized_linear: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_generalized_linear/sklearn_generalized_linear
+sklearn_model_validation: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_model_validation/sklearn_model_validation
+sklearn_fitted_model_eval: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_fitted_model_eval/sklearn_fitted_model_eval
+sklearn_model_fit: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_model_fit/sklearn_model_fit
+sklearn_train_test_split: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_train_test_split/sklearn_train_test_split
+ml_visualization_ex: toolshed.g2.bx.psu.edu/repos/bgruening/ml_visualization_ex/ml_visualization_ex
+keras_train_and_eval: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval
+plotly_regression_performance_plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots
+plotly_ml_performance_plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots
 table_compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 ChiRA-collapse: toolshed.g2.bx.psu.edu/repos/iuc/chira_collapse/chira_collapse
 ChiRA-map: toolshed.g2.bx.psu.edu/repos/iuc/chira_map/chira_map
