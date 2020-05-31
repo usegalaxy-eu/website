@@ -217,7 +217,6 @@ umi_tools_group: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_group
 umi_tools_whitelist: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_whitelist
 retrieve_scxa: toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa
 hca_matrix_downloader: toolshed.g2.bx.psu.edu/repos/ebi-gxa/hca_matrix_downloader/hca_matrix_downloader
-
 sklearn_svm_classifier: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier
 sklearn_train_test_eval: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_train_test_eval/sklearn_train_test_eval
 model_prediction: toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction
@@ -248,7 +247,6 @@ keras_train_and_eval: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eva
 plotly_regression_performance_plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots
 plotly_ml_performance_plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots
 table_compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
-
 ChiRA-collapse: toolshed.g2.bx.psu.edu/repos/iuc/chira_collapse/chira_collapse
 ChiRA-map: toolshed.g2.bx.psu.edu/repos/iuc/chira_map/chira_map
 ChiRA-merge: toolshed.g2.bx.psu.edu/repos/iuc/chira_merge/chira_merge
