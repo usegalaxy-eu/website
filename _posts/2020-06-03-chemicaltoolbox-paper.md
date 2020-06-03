@@ -14,7 +14,7 @@ located at cheminformatics.usegalaxy.eu/.
 
 Apart from the paper itself, check out our collection of [training material](https://galaxyproject.github.io/training-material/topics/computational-chemistry/),
 and the documentation for our most recent project using the ChemicalToolbox, 
-(https://covid19.galaxyproject.org/cheminformatics)[Virtual screening of the SARS-CoV-2 main protease].
+'[Virtual screening of the SARS-CoV-2 main protease](https://covid19.galaxyproject.org/cheminformatics)'.
 
 
 ## Abstract
