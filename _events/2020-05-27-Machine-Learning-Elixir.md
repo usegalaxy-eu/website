@@ -24,7 +24,7 @@ hidefooter: true
 
 **22 – 26 June 2020**
 
-The Galaxy Community and Elexir organise a webinar/workshop series. This workshop intends to facilitate the training and discourse amongst researchers interested in machine learning using Galaxy. It will be a one-week event, including webinar sessions in which we will introduce machine learning backgrounds and  train researchers to use Galaxy for machine learning analysis. Every webinar session will be followed by a self-training day, in which experts will answer questions in a support channel and support on a peer-to-peer basis.to demonstrate how Galaxy can be used for machine learning. The workshops will make use of the European Galaxy server and the Galaxy Training Material. Both will stay accessible and open after the training.
+The Galaxy Community and Elexir organise a webinar/workshop series. This workshop intends to facilitate the training and discourse amongst researchers interested in machine learning using Galaxy. It will be a one-week event, including webinar sessions in which we will introduce machine learning backgrounds and  train researchers to use Galaxy for machine learning analysis. Every webinar session will be followed by a self-training day, in which experts will answer questions in a support channel and support on a peer-to-peer basis to demonstrate how Galaxy can be used for machine learning. The workshops will make use of the European Galaxy server and the Galaxy Training Material. Both will stay accessible and open after the training.
 
 [More Information](https://docs.google.com/document/d/1Ug93xz-ogrn8bhjKUsOQQSxNtWZoR3gFOfOHXs4F1nc/preview)
 
