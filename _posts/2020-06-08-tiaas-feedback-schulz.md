@@ -7,7 +7,7 @@ supporters:
 - tiaas
 ---
 
-Galaxy helps virtual teaching!
+## Galaxy helps virtual teaching!
 
 Due to the Covid-19 outbreak and the need for online teaching in these unusual times,
 the Computational Epigenomics [course at Goethe University Frankfurt](https://schulzlab.github.io/teaching/ALGOEPI2020.html)
