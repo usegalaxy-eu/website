@@ -8,7 +8,7 @@ Our Galaxy server ([https://usegalaxy.eu](https://usegalaxy.eu)) is the **bigges
 
 With this server we provide access to:
 - a huge compute and storage resource without any charge
-- more than 2500 different, well-documented and constantly maintained bioinformatics tools
+- more than 2500 different, well-documented and constantly maintained scientific tools
 - 250 GB per user (500 GB for ELIXIR members)
 - free registration
 
@@ -40,7 +40,7 @@ To dig deeper, **interactive visualizations** are available:
 
 # <i class="fa fa-cogs"></i> Tools for any Bioinformatics Analysis
 
-More than 2500 bioinformatics tools can be accessed via [https://usegalaxy.eu](https://usegalaxy.eu), covering most of the bioinformatics topics:
+More than 2500 scientific tools can be accessed via [https://usegalaxy.eu](https://usegalaxy.eu), covering most of the bioinformatics topics:
 
 ![Tools available on usegalaxy.eu](/assets/media/tools.png)
 
