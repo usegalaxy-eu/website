@@ -147,6 +147,8 @@ header_links:
           url: /events
         - name: People
           url: /people
+        - name: Citations
+          url: /citations
         - name: About
           url: /about
     freiburg:
