@@ -4,7 +4,6 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1
   - ca-certificates
   - gdbm=1.18
   - gmp=6.2.0
