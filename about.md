@@ -52,7 +52,7 @@ The tools and analysis pipelines are regularly updated.
 
 The history is the foundation of **reproducibility and transparency** in Galaxy. It capture inputs, parameters, and versions of the used tools. It can be shared with everyone, even outside the Galaxy framework.
 
-Galaxy provides also a **powerful workflow system**. Workflows can be created by extraction of workflows from histories or from scratch with drag-and-drop. They are downloadable and sharable with everyone, no vendor lock-in.
+Galaxy provides also a **powerful workflow system**. Workflows can be created by extraction of workflows from histories or from scratch with drag-and-drop. They are downloadable and shareable with everyone, no vendor lock-in.
 
 The thousands of tools are available with fixed versions and are managed by [Bioconda](https://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/).
 
