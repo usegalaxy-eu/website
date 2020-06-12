@@ -25,7 +25,7 @@ With **free** registration to the [UseGalaxy.eu](https://usegalaxy.eu) server we
 
 - Free compute and storage resources (250 GB per user)
 - Databases (e.g. EMBL-EBI ENA, NCBI SRA, Ensembl, UCSC, UniProt, and many organism-specific databases)
-- More than 2500 different, well-documented and constantly maintained bioinformatics tools
+- More than 2500 different, well-documented and constantly maintained scientific tools
 - Puplic HTS data analyis workflows
 - Reference genomes
 - Visualizations
