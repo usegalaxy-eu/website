@@ -24,7 +24,7 @@ hidefooter: true
 
 **22 – 26 June 2020**
 
-The Galaxy Community and Elexir organise a webinar/workshop series. This workshop intends to facilitate the training and discourse amongst researchers interested in machine learning using Galaxy. It will be a one-week event, including webinar sessions in which we will introduce machine learning backgrounds and  train researchers to use Galaxy for machine learning analysis. Every webinar session will be followed by a self-training day, in which experts will answer questions in a support channel and support on a peer-to-peer basis to demonstrate how Galaxy can be used for machine learning. The workshops will make use of the European Galaxy server and the Galaxy Training Material. Both will stay accessible and open after the training.
+The Galaxy Community and Elixir organise a webinar/workshop series. This workshop intends to facilitate the training and discourse amongst researchers interested in machine learning using Galaxy. It will be a one-week event, including webinar sessions in which we will introduce machine learning backgrounds and  train researchers to use Galaxy for machine learning analysis. Every webinar session will be followed by a self-training day, in which experts will answer questions in a support channel and support on a peer-to-peer basis to demonstrate how Galaxy can be used for machine learning. The workshops will make use of the European Galaxy server and the Galaxy Training Material. Both will stay accessible and open after the training.
 
 [More Information](https://docs.google.com/document/d/1Ug93xz-ogrn8bhjKUsOQQSxNtWZoR3gFOfOHXs4F1nc/preview)
 
@@ -46,7 +46,7 @@ The programme will include:
 The target audience includes researchers interested in analysing scientific data using machine learning algorithms for classification, regression and clustering tasks. Specifically, we encourage scholars that have begun biological data analysis and are interested to know what is machine learning and how they can use Galaxy for machine learning tasks. While the datasets used during this workshop will be biological and chemical; you will learn universal tools, workflows and a framework applicable to other domains.
 
 
-### Time committment
+### Time commitment
 Each training is building on-top of each other and should be followed in order. We are aware that it might be hard to find time to attend the live webinars, due to homeschooling or other obligations. The webinars and demonstrations will be recorded and made available online to replay them at any time. Moreover, there will be a help and support channel running 24h a day, spanning multiple timezones, to help participants as much as possible to align this workshop with their schedule.
 
 ### Speakers
