@@ -11,6 +11,7 @@ location: online
 supporters:
 - eosc
 - biodaten
+- bioconda
 # special hiding of footer since we want to do it manually.
 hidefooter: true
 ---
@@ -24,5 +25,5 @@ EOSC-Life WP2 will be hosting a workshop on tool packaging as part of the Bioinf
 
 ### Organizers
 
-{% assign extra_organizers =  "eosc|biodaten" | split: "|"  %}
+{% assign extra_organizers =  "eosc|biodaten|bioconda" | split: "|"  %}
 {% include sponsors.html supporters=extra_organizers hidetitle=true %}
