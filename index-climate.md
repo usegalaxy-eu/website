@@ -34,6 +34,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 # Training
 
 - [Galaxy 101 for everyone](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html)
+- [Climate Galaxy Training](https://training.galaxyproject.org/training-material/topics/climate/)
 
 **Want to learn more about Galaxy? Check out the following hands-on tutorials from [the Galaxy Training Network](https://galaxyproject.github.io/training-material/){:target=_"blank"}.**
 
@@ -45,7 +46,10 @@ We are passionate about training. So we are working in close collaboration with 
 ## Interactive tools
 
 - [Panoply netCDF viewer](https://live.usegalaxy.eu/?tool_id=interactive_tool_panoply){:target="_blank"}
-- [JupyterLab for Ocean / Atmosphere / Land / Climate Python ecosystem](https://live.usegalaxy.eu/?tool_id=interactive_tool_climate_notebook){:target="_blank"}
+- [JupyterLab for Ocean / Atmosphere / Land / Climate Pangeo Python ecosystem](https://live.usegalaxy.eu/?tool_id=interactive_tool_climate_notebook){:target="_blank"} with:
+	- [PANGEO python ecosystem](https://pangeo.io/): PANGEO is a community platform for Big Data geoscience;
+	- [Community Earth System Models (CESM) development & Training platform](http://www.cesm.ucar.edu/): The Community Earth System Model (CESM) is a fully-coupled, global climate model that provides state-of-the-art computer simulations of the Earth's past, present, and future climate states.
+	- [ESMValTool](https://www.esmvaltool.org/): a community diagnostic and performance metrics tool for routine evaluation of Earth system models in the [Coupled Model Intercomparison Project](https://www.wcrp-climate.org/wgcm-cmip) (CMIP). The JupyterLab ESMValTool environment can be used for developing new diagnostic recipes and as a teaching platform.
 
 ## Climate Analysis
 
