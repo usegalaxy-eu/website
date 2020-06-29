@@ -75,6 +75,10 @@ Tool | Description | Reference
 {% include tool.html id="gdal_ogrinfo" %} |  [Lists information about an OGR-supported data source](https://gdal.org/programs/ogrinfo.html) | -
 {: .table.table-striped .tooltable}
 
+# Machine Learning Workbench
+
+For Machine Learning tools, use the [Galaxy Machine Learning Workbench](https://ml.usegalaxy.eu/). To have access to all your Galaxy histories and data, make sure to login with the same username and password than on the Climate Science Workbench. 
+
 # Acknowledgments
 
 The authors would like to thank Bérénice Batut,  Björn Grüning, Anup Kumar and @galaxyproject
