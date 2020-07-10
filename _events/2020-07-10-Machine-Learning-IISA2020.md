@@ -16,21 +16,21 @@ supporters:
 hidefooter: true
 ---
 
+# Machine Learning in Bioinformatics using Galaxy at 11th International Conference on Information, Intelligence, Systems and Applications
 
-**Machine Learning in Bioinformatics using Galaxy at 11th International Conference on Information, Intelligence, Systems and Applications**
+## Description:
 
-**15th July 2020, 14:00-17:00 CEST** 
+This workshop is an online event (15th July 2020, 14:00-17:00 CEST) that intends to facilitate the training and discourse amongst bioinformatics researchers interested in machine learning using Galaxy. It will be a half-day event, including three sessions and during this workshop we will introduce Galaxy and train researchers to use Galaxy for machine learning analysis.
 
-**Description:**
-This workshop intends to facilitate the training and discourse amongst bioinformatics researchers interested in machine learning using Galaxy. It will be a half-day event, including three sessions and during this workshop we will introduce Galaxy and train researchers to use Galaxy for machine learning analysis.
+## Learning objectives:
 
-**Learning objectives:**
-Familiarize participants with Galaxy,
-Provide the basics of machine learning and its variants,
-Learn how to do classification and regression using Galaxy,
-Learn how to use Galaxy's machine learning tools
+* Familiarize participants with Galaxy,
+* Provide the basics of machine learning and its variants,
+* Learn how to do classification and regression using Galaxy,
+* Learn how to use Galaxy's machine learning tools
 
-**Prerequisites:**
+## Prerequisites:
+
 Introduction to Galaxy or equivalent experience
 
 [Registration](http://easyconferences.eu/iisa2020/program/)
