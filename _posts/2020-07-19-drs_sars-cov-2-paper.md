@@ -15,7 +15,7 @@ supporters:
 [Nanopores](https://nanoporetech.com) are an awesome technology! We already gained experiences with it in our [StreetScience](https://streetscience.community),
 where we show citizens and school kids what DNA sequencing is, how they can sequence with a USB-like device (Minion) and how they
 can analyze the data with [Galaxy](https://usegalaxy.eu). But Nanopores can also sequence RNAs, directly. Direct RNA sequencing (DRS)
-can detect RNA modification in high-throuhput! 
+can detect RNA modification in high-throughput! 
 
 Wouldn't it be interesting to study the RNA modifications of SARS-CoV-2 and see if this helps in understanding SARS viruses?
 
