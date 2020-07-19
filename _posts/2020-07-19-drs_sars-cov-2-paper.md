@@ -43,7 +43,7 @@ Take it, analyze it, kill the virus!
 |  |    |    |
 |:---:|:-----------:|:---:|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [![Modified RNA regions](/assets/media/drs_fig-2.png)](https://www.biorxiv.org/content/10.1101/2020.07.18.204362v1){:target="_blank"} | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-|  |Detection of modified RNA bases in SARS-CoV-2 sgRNAs. a: Heatmaps of Nanocompore p-value scores for modified sites for the 3 sample replicates (Fr1-3) as compared to unmodified RNA data from Kim et al.. The genomic regions containing top-1% modification scores are marked in red. b: Heatmaps of the predicted fraction of modified bases using Tombo. The red marks show top-1% modified sites per sample that are common in at least two of the three samples.|  |
+|  |Detection of modified RNA bases in SARS-CoV-2 sgRNAs. __a__: Heatmaps of Nanocompore p-value scores for modified sites for the 3 sample replicates (Fr1-3) as compared to unmodified RNA data from Kim et al.. The genomic regions containing top-1% modification scores are marked in red. __b__: Heatmaps of the predicted fraction of modified bases using Tombo. The red marks show top-1% modified sites per sample that are common in at least two of the three samples.|  |
 
 <br>
 
