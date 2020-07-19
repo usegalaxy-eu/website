@@ -33,7 +33,7 @@ landscape of SARS-CoV-2 RNA modifications.
 We provide the __first DRS data__ of SARS-CoV-2 in infected human lung epithelial cells, the first (to our knowledge) public available DRS from Europe,
 and for the first time, replicates :)
 
-Of course we also offer the data and workflows for you to crunch the data on your own.
+Of course, we also offer the data and workflows for you to crunch the data on your own.
 
 Take it, analyze it, kill the virus!
 
