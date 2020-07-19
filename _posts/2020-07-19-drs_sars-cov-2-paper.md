@@ -22,7 +22,7 @@ Wouldn't it be interesting to study the RNA modifications of SARS-CoV-2 and see 
 |  |    |    |
 |:---:|:-----------:|:---:|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |[![DRS RAW signal](/assets/media/drs_fig-5.png)](https://www.biorxiv.org/content/10.1101/2020.07.18.204362v1){:target="_blank"}| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-|  |Direct RNA sequencing raw electrical signals of downsampled reads obtained from unmodified RNA (IVT, black), from samples generated for this study and from isolate from a published korean data set (Fr1-3 and Kr, red).|  |
+|  |Direct RNA sequencing raw electrical signals of downsampled reads obtained from unmodified RNA (IVT, black), from samples generated for this study and from an isolate from a published Korean data set (Fr1-3 and Kr, red).|  |
 
 <br>
 
