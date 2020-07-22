@@ -7,7 +7,7 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #
 
-- title: Possible downtime on the 29.07.2020 
+- title: Downtime on the 29.07.2020 
   class: warning # one of [success, info, warning, danger]
   site: freiburg # Your site
   messages:
