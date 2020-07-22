@@ -13,7 +13,7 @@
   messages:
       - message: |
            On July 29th, we plan to update Usegalaxy.eu's codebase to the [20.05 Galaxy release](https://docs.galaxyproject.org/en/master/releases/20.05_announce_user.html). 
-           We expect a short downtime during the day and it is possible running jobs could be interrupted. Please take it into account in your job schedule.
+           We expect a short downtime during the day and running jobs might be interrupted. Please take it into account in your job schedule.
 
 - title: COVID-19 research!
   class: success # one of [success, info, warning, danger]
