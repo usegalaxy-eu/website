@@ -9,4 +9,4 @@ Several sessions were related to computational chemistry during this year's BCC.
 
 We also heard more during the conference from Chris about the work being carried out at the University of Cape Town on antibody-antigen binding patterns.
 
-Finally, Simon presented the latest developments of the ChemicalToolbox and its most recent application - the virtual screening study on the SARS-CoV-2 main protease. We enjoyed the chance to share our work and are looking forward to continue developments in collaboration with the community!
+Finally, Simon presented the latest developments of the ChemicalToolbox and its most recent application - the virtual screening study on the SARS-CoV-2 main protease. If you missed watching it live, there's a link to the Vimeo recording [here](https://player.vimeo.com/video/437703080). We enjoyed the chance to share our work and are looking forward to continue developments in collaboration with the community!
