@@ -25,7 +25,7 @@ When this effort is combined with our community-maintained workflows and our in-
 
   > The authors acknowledge the support of the Freiburg Galaxy Team: Person *X* and Prof. Rolf Backofen, Bioinformatics, University of Freiburg (Germany) funded by the [Collaborative Research Centre 992 Medical Epigenetics](http://www.sfb992.uni-freiburg.de) ([DFG](http://www.dfg.de) grant SFB 992/1 2012) and the German Federal Ministry of Education and Research [BMBF](http://www.bmbf.de/) grant 031 A538A [de.NBI](https://www.denbi.de)-RBC.
 
-  Additional funding of projects and/or provision of material expenses are welcome as well, to help support our growing Galaxy community in Freiburg and Europe.
+  Additional funding of projects as well as the provision of material expenses is welcome to support our growing Galaxy community in Freiburg and Europe.
 
 ---
 
