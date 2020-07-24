@@ -28,6 +28,7 @@ Application deadline is August 1, 2020 (Midnight EST). Applicants will be notifi
 
 </td></tr></table>
 
+<br><br>
 
 {% include home_quote.html %}
 {% include home_news_events-galaxy.html %}
