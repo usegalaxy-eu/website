@@ -27,10 +27,13 @@ Application deadline is August 1, 2020 (Midnight EST). Applicants will be notifi
 
 </td></tr></table>
 
+<br><br>
 
 <div class="home">
   {% include home_carousel.html %}
+  <br>
   {% include home_news_events.html %}
   {% include home_done.html %}
 </div>
 
+{% include home_carousel_involved.html %}
