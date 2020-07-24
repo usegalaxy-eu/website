@@ -3,33 +3,26 @@ layout: home
 ---
 
 <table>
-<tr><td width="40%">
+<tr><td align="center">
+
+<h2>JTech 2020 Scholarship: CSHL Biological Data Science</h2>
+
+The JTech Foundation and Cold Spring Harbor Laboratory are pleased to announce the JTech 2020 Scholarship.
+JTech and CSHL will provide support to 10 outstanding graduate students in genomics and data sciences to attend the 2020 CSHL Biological Data Science Conference. 
 
     <div align="center">
-        <img  src="/assets/media/jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" /><br />
+        <img  src="/assets/media/cshl_jtech.png" alt="James Taylor Foundation: Big Shoes to Fill" /><br />
         <div class="small">Design by <a href="https://twitter.com/rebekkapaisner">Rebekka Paisner</a></div>
     </div>
 
-</td><td width="5%">
-</td><td width="55%" align="center">
+</td><tr>
+<tr><td align="center">
+<br>
+Application deadline is August 1, 2020 (Midnight EST). Applicants will be notified by August 8, 2020. Selected individuals will then be able to register for the conference free of charge.
 
-<b>James Taylor (1979-2020) believed that scientific progress can best be sustained through the mentoring of students and junior faculty.</b>
-
-<br/>
-<br/>
-
-To ensure implementation of this vision, the Galaxy community has established a foundation—Junior Training and Educational Connections Hotspot (JTech).
-JTech's mission is to (1) assist graduate students to participate in computational biology and data science conferences,
-and (2) organize and host mentoring sessions between senior and junior faculty members at high-profile meetings.
-<br/>
-<br/>
-To make this happen we are accepting contributions. More details can be found on <a href="https://galaxyproject.org/jxtx/">the @jxtx page in the Galaxy Hub</a>.
-Please, help us continue what James has started.
-<br/>
-<br/>
-
+<br><br>
 <button type="button" class="btn btn-secondary" style="font-size: 1.5em; font-weight: 600;">
-    <a href="https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i" target="_blank">Donate now</a>
+    <a href="https://forms.gle/RzNx1rUc6rqh2fYr8" target="_blank">Submit Application</a>
 </button>
 
 </td></tr></table>
