@@ -15,7 +15,7 @@ JTech and CSHL will provide support to 10 outstanding graduate students in genom
         <div class="small">Design by <a href="https://twitter.com/rebekkapaisner">Rebekka Paisner</a></div>
     </div>
 
-</td><tr>
+</td></tr>
 <tr><td align="center">
 <br>
 Application deadline is August 1, 2020 (Midnight EST). Applicants will be notified by August 8, 2020. Selected individuals will then be able to register for the conference free of charge.
