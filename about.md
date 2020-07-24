@@ -7,12 +7,25 @@ layout: default
 Our Galaxy server ([https://usegalaxy.eu](https://usegalaxy.eu)) is the **biggest Galaxy instance in Europe**, and one of the biggest worldwide.
 
 With this server we provide access to:
-- a huge compute and storage resource without any charge
-- more than 2500 different, well-documented and constantly maintained scientific tools
-- 250 GB per user (500 GB for ELIXIR members)
-- free registration
+- a huge compute and storage resource without any charge,
+- more than 2500 different, well-documented and constantly maintained scientific tools,
+- 250 GB per user (500 GB for ELIXIR members),
+- free registration.
 
 When this effort is combined with our community-maintained workflows and our in-depth training material, it makes up for a truly productive work experience. We believe in enabling everyone to perform reproducible science.
+
+<br>
+### ACKNOWLEDGEMENT
+
+  We are aiming to maintain high competency and provide high-quality data analysis services to all our Galaxy users.
+  
+  Therefore, we request that you acknowledge this service by including the members of the Freiburg Galaxy Team as co-authors if they have made a significant intellectual and/or organizational contribution to the work described (conceptualization, design, data analysis, data interpretation and/or input into drafting, revising or writing any portion of the manuscript).
+
+  Individuals who have contributed to the project, but whose contributions do not rise to the level justifying authorship, can be recognized in the acknowledgements section of the manuscript as follows:
+
+  > The authors acknowledge the support of the Freiburg Galaxy Team: Person *X* and Prof. Rolf Backofen, Bioinformatics, University of Freiburg (Germany) funded by the [Collaborative Research Centre 992 Medical Epigenetics](http://www.sfb992.uni-freiburg.de) ([DFG](http://www.dfg.de) grant SFB 992/1 2012) and the German Federal Ministry of Education and Research [BMBF](http://www.bmbf.de/) grant 031 A538A [de.NBI](https://www.denbi.de)-RBC.
+
+  Additional funding of projects and/or provision of material expenses are welcome as well, to help support our growing Galaxy community in Freiburg and Europe.
 
 ---
 
@@ -57,3 +70,10 @@ Galaxy provides also a **powerful workflow system**. Workflows can be created by
 The thousands of tools are available with fixed versions and are managed by [Bioconda](https://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/).
 
 4 TB of reference data are available on [https://usegalaxy.eu](https://usegalaxy.eu) providing access to hundreds of reference genomes.
+
+
+---
+
+# Supported projects
+
+{% include home_carousel_supported_projects.html %}
