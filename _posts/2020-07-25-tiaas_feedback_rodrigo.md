@@ -13,7 +13,7 @@ author: Rodrigo Ortega Polo
 
 This was a 4-day workshop delivered from December 9-12, 2019 in the [Lethbridge Research and Development Centre](https://www.agr.gc.ca)
 (Agriculture and Agri-Food Canada). The workshop was an introduction to bacterial whole genome sequence analysis.
-There were 7 participants which included a research scientist (PI), a visiting scientist, a research technicians,
+There were 7 participants which included a research scientist (PI), a visiting scientist, a research technician,
 a postdoctoral fellow, and three graduate students. Besides materials from the Galaxy Training Network,
 publicly available materials from the Canadian Bioinformatics Workshops (Bioinformatics.ca), as well as
 from Torsten Seeman’s presentations were used for the workshop. The instructor (Rodrigo Ortega Polo)
