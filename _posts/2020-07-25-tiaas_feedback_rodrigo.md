@@ -15,7 +15,7 @@ This was a 4-day workshop delivered from December 9-12, 2019 in the [Lethbridge 
 (Agriculture and Agri-Food Canada). The workshop was an introduction to bacterial whole genome sequence analysis.
 There were 7 participants which included a research scientist (PI), a visiting scientist, a research technicians,
 a postdoctoral fellow, and three graduate students. Besides materials from the Galaxy Training Network,
-publicly available materials from the Candian Bioinformatics Workshops (Bioinformatics.ca), as well as
+publicly available materials from the Canadian Bioinformatics Workshops (Bioinformatics.ca), as well as
 from Torsten Seeman’s presentations were used for the workshop. The instructor (Rodrigo Ortega Polo)
 guided attendees through theoretical concepts from the GTN, Bioinformatics.ca and Dr. Seeman’s materials,
 and hands-on exercises using TIaaS. Trainees learned about working with NGS data, sequence quality assessment, de novo assembly,
@@ -24,4 +24,3 @@ genome annotation and pan-genome analysis. The participants were very enthusiast
 
 |------|-------|
 | ![Introduction to Bacterial Whole Genome Sequence Analysis with Galaxy](/assets/media/tiaas/rodrigo_1.jpg) | ![Introduction to Bacterial Whole Genome Sequence Analysis with Galaxy](/assets/media/tiaas/rodrigo_2.jpg) |
-
