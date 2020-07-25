@@ -18,7 +18,7 @@ a postdoctoral fellow, and three graduate students. Besides materials from the G
 publicly available materials from the Canadian Bioinformatics Workshops (Bioinformatics.ca), as well as
 from Torsten Seeman’s presentations were used for the workshop. The instructor (Rodrigo Ortega Polo)
 guided attendees through theoretical concepts from the GTN, Bioinformatics.ca and Dr. Seeman’s materials,
-and hands-on exercises using TIaaS. Trainees learned about working with NGS data, sequence quality assessment, de novo assembly,
+and hands-on exercises using TIaaS. Trainees learned about working with NGS data, sequence quality assessment, *de novo* assembly,
 genome annotation and pan-genome analysis. The participants were very enthusiastic and asked great questions about both Galaxy and the subject matter.
 
 
