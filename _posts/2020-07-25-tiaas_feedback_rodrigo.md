@@ -1,11 +1,11 @@
 ---
 site: freiburg
-title: 'Training Infrastructure Feedback from Rodrigo Ortegapolo'
+title: 'Training Infrastructure Feedback from Rodrigo Ortega Polo'
 tags: [training, tiaas]
 supporters:
 - galaxy-europe
 - tiaas
-author: Rodrigo Ortegapolo
+author: Rodrigo Ortega Polo
 ---
 
 
