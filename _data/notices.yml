@@ -7,13 +7,13 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #
 
-- title: Downtime on the 29.07.2020 
-  class: warning # one of [success, info, warning, danger]
-  site: freiburg # Your site
-  messages:
-      - message: |
-           On July 29th, we plan to update Usegalaxy.eu's codebase to the [20.05 Galaxy release](https://docs.galaxyproject.org/en/master/releases/20.05_announce_user.html). 
-           We expect a short downtime during the day and running jobs might be interrupted. Please take it into account in your job schedule.
+# - title: Downtime on the 29.07.2020 
+#   class: warning # one of [success, info, warning, danger]
+#   site: freiburg # Your site
+#   messages:
+#       - message: |
+#            On July 29th, we plan to update Usegalaxy.eu's codebase to the [20.05 Galaxy release](https://docs.galaxyproject.org/en/master/releases/20.05_announce_user.html). 
+#            We expect a short downtime during the day and running jobs might be interrupted. Please take it into account in your job schedule.
 
 - title: COVID-19 research!
   class: success # one of [success, info, warning, danger]
