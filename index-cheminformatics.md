@@ -143,6 +143,5 @@ Workflow | Description
 # Citation
 
   * Simon Bray, Xavier Lucas, Anup Kumar and Björn Grüning. **"The ChemicalToolbox: reproducible, user-friendly cheminformatics analysis on the Galaxy platform"**, Journal of Cheminformatics, doi: [10.1186/s13321-020-00442-7](https://doi.org/10.1186/s13321-020-00442-7)
-
   * Tharindu Senapathi, Simon Bray, Christopher B Barnett, Björn Grüning, Kevin J Naidoo.
-**"Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)", Bioinformatics**, Volume 35, Issue 18, 15 September 2019, Pages 3508–3509, doi: [10.1093/bioinformatics/btz107](https://doi.org/10.1093/bioinformatics/btz107)
+**"Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)"**, Bioinformatics, Volume 35, Issue 18, 15 September 2019, Pages 3508–3509, doi: [10.1093/bioinformatics/btz107](https://doi.org/10.1093/bioinformatics/btz107)
