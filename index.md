@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<table>
+<!--table>
 <tr><td align="center">
 
 <h2>JTech 2020 Scholarship: CSHL Biological Data Science</h2>
@@ -30,7 +30,7 @@ Application deadline is August 1, 2020 (Midnight EST). You do not need to be aff
 
 </td></tr></table>
 
-<br><br>
+<br><br-->
 
 <div class="home">
   {% include home_carousel.html %}
