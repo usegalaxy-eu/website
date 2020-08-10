@@ -3,7 +3,7 @@ layout: galaxy
 ---
 
 
-<table>
+<!--table>
 <tr><td align="center">
 
 <h2>JTech 2020 Scholarship: CSHL Biological Data Science</h2>
@@ -30,7 +30,7 @@ You do not need to be affiliated with Galaxy to apply. Application deadline is A
 </button>
 </td></tr></table>
 
-<br><br>
+<br><br-->
 
 {% include home_quote.html %}
 {% include home_news_events-galaxy.html %}
