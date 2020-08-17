@@ -15,6 +15,10 @@ run: ## Launch jekyll locally
 	$(ACTIVATE_ENV) && jekyll serve
 .PHONY: run
 
+update-citations: ## Update the usegalaxy-eu citations from Zotero
+	$(ACTIVATE_ENV) && python update_citations-eu.py
+.PHONY: run
+
 runi: ## Launch jekyll locally, incremental rebuild
 	$(ACTIVATE_ENV) && jekyll serve --incremental
 .PHONY: runi
