@@ -5,6 +5,8 @@ channels:
   - defaults
 dependencies:
   - ca-certificates
+  - pyzotero
+  - bibtexparser
   - gdbm=1.18
   - gmp=6.2.0
   - icu=64.2
