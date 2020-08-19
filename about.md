@@ -7,12 +7,25 @@ layout: default
 Our Galaxy server ([https://usegalaxy.eu](https://usegalaxy.eu)) is the **biggest Galaxy instance in Europe**, and one of the biggest worldwide.
 
 With this server we provide access to:
-- a huge compute and storage resource without any charge
-- more than 1000 different, well-documented and constantly maintained bioinformatics tools
-- 250 GB per user (500 GB for ELIXIR members)
-- free registration
+- a huge compute and storage resource without any charge,
+- more than 2500 different, well-documented and constantly maintained scientific tools,
+- 250 GB per user (500 GB for ELIXIR members),
+- free registration.
 
 When this effort is combined with our community-maintained workflows and our in-depth training material, it makes up for a truly productive work experience. We believe in enabling everyone to perform reproducible science.
+
+<br>
+### ACKNOWLEDGEMENT
+
+  We are aiming to maintain high competency and provide high-quality data analysis services to all our Galaxy users.
+  
+  Therefore, we request that you acknowledge this service by including the members of the Freiburg Galaxy Team as co-authors if they have made a significant intellectual and/or organizational contribution to the work described (conceptualization, design, data analysis, data interpretation and/or input into drafting, revising or writing any portion of the manuscript).
+
+  Individuals who have contributed to the project, but whose contributions do not rise to the level justifying authorship, can be recognized in the acknowledgements section of the manuscript as follows:
+
+  > The authors acknowledge the support of the Freiburg Galaxy Team: Person *X* and Prof. Rolf Backofen, Bioinformatics, University of Freiburg (Germany) funded by the [Collaborative Research Centre 992 Medical Epigenetics](http://www.sfb992.uni-freiburg.de) ([DFG](http://www.dfg.de) grant SFB 992/1 2012) and the German Federal Ministry of Education and Research [BMBF](http://www.bmbf.de/) grant 031 A538A [de.NBI](https://www.denbi.de)-RBC.
+
+  Additional funding of projects as well as the provision of material expenses is welcome to support our growing Galaxy community in Freiburg and Europe.
 
 ---
 
@@ -20,7 +33,7 @@ When this effort is combined with our community-maintained workflows and our in-
 
 **No programming knowledge** is required to access Galaxy and its tools with a web browser. It provides powerful data analyses and can replace Excel habits.
 
-The computation is automatically performed on a **cluster and on the de.NBI cloud**. Each user can store **250 GB** (500 GB for ELIXIR members) for analyses (and even more on request).
+The computation is automatically performed on a **cluster** and on the **de.NBI cloud**. Each user can store **250 GB** (500 GB for ELIXIR members) for analyses (and even more on request).
 
 For advanced users, [https://usegalaxy.eu](https://usegalaxy.eu) can be **programmatically accessed** via the API to leverage its cluster and data
 storage to scale beyond the visual interface and to automate the analyses. Novel analyses can also be developed right in the interface with **Galaxy Interactive Environments**: Jupyter notebooks, Ethercalc, HiCBrowser, ...
@@ -29,7 +42,7 @@ storage to scale beyond the visual interface and to automate the analyses. Novel
 
 # <i class="fa fa-chart-bar"></i> Visualization & Data Interpretation
 
-Publication-ready visualizations can be instantanously generated inside Galaxy. Charts with bar diagram, line charts, box plots, heatmaps, etc, but also scatterplot, Venn diagrams, and even more.
+Publication-ready visualizations can be instantaneously generated inside Galaxy: charts with bar diagrams, line charts, box plots, heatmaps, scatter plots, Venn diagrams, and much more.
 
 To dig deeper, **interactive visualizations** are available:
 
@@ -40,7 +53,7 @@ To dig deeper, **interactive visualizations** are available:
 
 # <i class="fa fa-cogs"></i> Tools for any Bioinformatics Analysis
 
-More than 1,000 bioinformatics tools can be accessed via [https://usegalaxy.eu](https://usegalaxy.eu), covering most of the bioinformatics topics:
+More than 2500 scientific tools can be accessed via [https://usegalaxy.eu](https://usegalaxy.eu), covering most of the bioinformatics topics:
 
 ![Tools available on usegalaxy.eu](/assets/media/tools.png)
 
@@ -50,10 +63,17 @@ The tools and analysis pipelines are regularly updated.
 
 # <i class="fa fa-sitemap"></i> Reproducibility & Transparency
 
-The history is the foundation of **reproducibility and transparency** in Galaxy. It capture inputs, parameters, and versions of the used tools. It can be shared with everyone, even outside.
+The history is the foundation of **reproducibility and transparency** in Galaxy. It capture inputs, parameters, and versions of the used tools. It can be shared with everyone, even outside the Galaxy framework.
 
-Galaxy provides also a **powerful workflow system**. Workflows can be created by extraction of workflows from histories or from scratch with drag-and-drop. They are downloadable and sharable with everyone, no vendor lock-in.
+Galaxy provides also a **powerful workflow system**. Workflows can be created by extraction of workflows from histories or from scratch with drag-and-drop. They are downloadable and shareable with everyone, no vendor lock-in.
 
 The thousands of tools are available with fixed versions and are managed by [Bioconda](https://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/).
 
 4 TB of reference data are available on [https://usegalaxy.eu](https://usegalaxy.eu) providing access to hundreds of reference genomes.
+
+
+---
+
+# Supported projects
+
+{% include home_carousel_supported_projects.html %}

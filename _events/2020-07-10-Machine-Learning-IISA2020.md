@@ -16,7 +16,6 @@ supporters:
 hidefooter: true
 ---
 
-
 **Machine Learning in Bioinformatics using Galaxy at 11th International Conference on Information, Intelligence, Systems and Applications**  
 
 

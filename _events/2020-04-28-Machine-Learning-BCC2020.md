@@ -17,7 +17,7 @@ hidefooter: true
 ---
 
 
-**Introduction to Maching Learning using Galaxy at Bioinformatics Community Conference 2020**
+**Introduction to Machine Learning using Galaxy at Bioinformatics Community Conference 2020**
 
 **18th July 2020, 15:00-17:30 CEST and 19th July 2020, 09:30-12:00 CEST** 
 
@@ -36,7 +36,7 @@ Learn how to use Galaxy's machine learning tools
 
 Introduction to Galaxy or equivalent experience
 
-[Registration](https://bcc2020.github.io/)
+[Registration](https://bcc2020.github.io){:target="_blank"}
 
 ### Speakers
 
