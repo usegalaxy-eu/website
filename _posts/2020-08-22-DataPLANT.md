@@ -5,13 +5,16 @@ supporters:
 - dataplant
 ---
 
-Starting in October 2020 until September 2025, the European Galaxy team in Freiburg will participate in the consortium DataPLANT for the development of a service and data infrastructure designed to record and deliver large data volumes for modern crop research funded by the German Research Foundation (DFG).
+Starting in October 2020 until September 2025, the European Galaxy team in Freiburg will participate in the consortium DataPLANT for
+the development of a service and data infrastructure designed to record and deliver large data volumes for modern crop research funded by the German Research Foundation (DFG).
 
-DataPLANT will provide a gateway to plant research data, ensuring open standards according to FAIR principles implementing a (meta)data standardization process based on international standards and rules that enables national and international interoperability and interfacing.
+DataPLANT will provide a gateway to plant research data, ensuring open standards according to FAIR principles implementing a
+(meta)data standardization process based on international standards and rules that enables national and international interoperability and interfacing.
 
-![DataPLANT](/assets/media/2020-08-22-DataPLANT.jpg)
+![DataPLANT](/assets/media/2020-08-22-dataPLANT.jpg)
 
-The overall goal of DataPLANT is to provide the research data management practices, tools, and infrastructure to enable such collaborative research in plant biology. More specifically:
+The overall goal of DataPLANT is to provide the research data management practices, tools, and infrastructure to enable such
+collaborative research in plant biology. More specifically:
 
 1. A specific community standard for fundamental plant research (meta)data and workflow annotation, based on generic, existing and emerging standards and ontologies in plant science and beyond.
 2. A robust, federated research environment for data computation and management covering the complete data lifecycle.
