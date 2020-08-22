@@ -39,7 +39,7 @@ infrastructure for automated testing and ToolShed deployment for free.
 
 Other repositories with Galaxy tools:
 * [IUC repo](https://github.com/galaxyproject/tools-iuc)
-* [Björn Grüning repo](https://github.com/bgruening/galaxytools)
+* [Björn Grüning's repo](https://github.com/bgruening/galaxytools)
 * Peter Cock's repos:
    * [blast repo](https://github.com/peterjc/galaxy_blast)
    * [pico repo](https://github.com/peterjc/pico_galaxy)
