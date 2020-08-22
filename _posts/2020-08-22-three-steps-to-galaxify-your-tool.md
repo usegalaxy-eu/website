@@ -53,7 +53,7 @@ Other repositories with Galaxy tools:
 * [Mark Einon's repo](https://gitlab.com/einonm/galaxy-tools)
 * [National Microbiology Laboratory's repo](https://github.com/phac-nml/galaxy_tools)
 
-Once David’s Galaxy wrapper PR passed all tests and was merged it was automatically pushed
+Once David’s Galaxy wrapper PR passed all tests and was merged, it was automatically pushed
 to [Galaxy ToolShed](https://toolshed.g2.bx.psu.edu/view/bgruening/diff/), an app store for Galaxy. From there, every Galaxy instance can install tools (apps).
 
 Furthermore, a bot is automatically creating [(Bio)Containers](https://biocontainers.pro) (Docker, rkt and Singularity) by
