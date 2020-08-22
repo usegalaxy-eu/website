@@ -21,7 +21,7 @@ create a Conda package for conda-forge. Here, David has created the following
 **Step 1 - the Conda package**: [https://github.com/conda-forge/staged-recipes/pull/11170](https://github.com/conda-forge/staged-recipes/pull/11170)
 
 After merging, a [diffutils repository](https://github.com/conda-forge/diffutils-feedstock) is
-created and the [conda package](https://anaconda.org/conda-forge/diffutils) is available usually within 30 min.
+created and the [Conda package](https://anaconda.org/conda-forge/diffutils) is available usually within 30 min.
 
 The second step is to create the Galaxy wrapper. A Galaxy wrapper is a formal description of all inputs,
 outputs and parameters of your tool, so that Galaxy can generate a GUI out of it and later a command to send to the cluster.
