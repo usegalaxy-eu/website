@@ -11,7 +11,7 @@ supporters:
 In this blog post, we will explain how you can get your software tool into a Galaxy server and with this, exposed to thousands of researchers.
 For this purpose, we will follow David’s steps to add the very generic UNIX `diff` tool to Galaxy.
 
-The first step to getting your software-tool deployed into a Galaxy instance is to develop a Conda package for it.
+The first step to getting your software tool deployed into a Galaxy instance is to develop a Conda package for it.
 Conda is the *de facto* standard in many different communities to deploy software easily and reproducibly.
 The European Galaxy team is heavily involved in the [conda-forge](https://conda-forge.org) and [Bioconda](https://www.nature.com/articles/s41592-018-0046-7) projects and Galaxy does have built-in support for both channels.
 If your software tool is from the Biomedical domain, we recommend the Bioconda channel. Otherwise,
