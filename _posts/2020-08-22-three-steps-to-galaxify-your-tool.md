@@ -62,7 +62,7 @@ tracking all Galaxy tools to ensure that for all tools a container exists. You c
 Automatic Containers: [https://github.com/BioContainers/multi-package-containers/pull/1236](https://github.com/BioContainers/multi-package-containers/pull/1236)
 
 Last but not least, David wanted to get the Galaxy `diff` tool into the European Galaxy server.
-For that, a new PR was created against the Tool repository from usegalaxy-eu.
+For that, a new PR was created against the tool repository from usegalaxy-eu.
 
 **Step 3 - Request for Installation**: [https://github.com/bgruening/galaxytools/pull/971](https://github.com/bgruening/galaxytools/pull/971)
 
