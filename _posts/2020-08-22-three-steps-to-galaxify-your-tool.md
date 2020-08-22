@@ -64,7 +64,7 @@ Automatic Containers: [https://github.com/BioContainers/multi-package-containers
 Last but not least, David wanted to get the Galaxy `diff` tool into the European Galaxy server.
 For that, a new PR was created against the tool repository from usegalaxy-eu.
 
-**Step 3 - Request for Installation**: [https://github.com/bgruening/galaxytools/pull/971](https://github.com/bgruening/galaxytools/pull/971)
+**Step 3 - request for installation**: [https://github.com/bgruening/galaxytools/pull/971](https://github.com/bgruening/galaxytools/pull/971)
 
 Once this is merged, another bot installs all the new tools but also tool updates automatically every Saturday.
 As a result, the installed `diff` tool can be used on the European Galaxy server following this link: https://usegalaxy.eu/root?tool_id=diff
