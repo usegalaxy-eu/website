@@ -35,7 +35,7 @@ the big public Galaxy servers. David has created the following PR was created ag
 
 We recommend the submission of your tool to one of the bigger community projects like the ones listed below.
 This has the advantage that you will most likely get a review and can improve your tool, but also get some
-infrastructure for automated testing and automated ToolShed development for free.
+infrastructure for automated testing and ToolShed deployment for free.
 
 Other repositories with Galaxy tools:
 * [IUC repo](https://github.com/galaxyproject/tools-iuc)
