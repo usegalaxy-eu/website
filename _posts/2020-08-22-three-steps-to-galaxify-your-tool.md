@@ -57,7 +57,7 @@ Once David’s Galaxy wrapper PR passed all tests and was merged, it was automat
 to the [Galaxy ToolShed](https://toolshed.g2.bx.psu.edu/view/bgruening/diff/), an app store for Galaxy. From there, every Galaxy instance can install tools (apps).
 
 Furthermore, a bot is automatically creating [(Bio)Containers](https://biocontainers.pro) (Docker, rkt and Singularity) by
-tracking all Galaxy tools to ensure that for all tools a container exists. You can see the bot in action in the following PR:
+tracking all Galaxy tools to ensure that a container exists for each tool. You can see the bot in action in the following PR:
 
 Automatic Containers: [https://github.com/BioContainers/multi-package-containers/pull/1236](https://github.com/BioContainers/multi-package-containers/pull/1236)
 
