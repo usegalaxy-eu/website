@@ -8,7 +8,7 @@ supporters:
 - unifreiburg
 ---
 
-In this blog post, we will explain how you can get your software-tool into a Galaxy server and with this exposed to thousands of researchers.
+In this blog post, we will explain how you can get your software tool into a Galaxy server and with this, exposed to thousands of researchers.
 For this purpose, we will follow David’s steps to add the very generic UNIX `diff` tool to Galaxy.
 
 The first step to getting your software-tool deployed into a Galaxy instance is to develop a Conda package for it.
@@ -70,4 +70,3 @@ Once this is merged, another bot installs all the new tools but also tool update
 As a result, the installed `diff` tool can be used on the European Galaxy server following this link: https://usegalaxy.eu/root?tool_id=diff
 
 That's it - 3 steps to get your tool exposed to thousands of researchers!
-
