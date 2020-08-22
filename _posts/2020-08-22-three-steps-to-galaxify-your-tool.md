@@ -59,7 +59,7 @@ to the [Galaxy ToolShed](https://toolshed.g2.bx.psu.edu/view/bgruening/diff/), a
 Furthermore, a bot is automatically creating [(Bio)Containers](https://biocontainers.pro) (Docker, rkt and Singularity) by
 tracking all Galaxy tools to ensure that a container exists for each tool. You can see the bot in action in the following PR:
 
-Automatic Containers: [https://github.com/BioContainers/multi-package-containers/pull/1236](https://github.com/BioContainers/multi-package-containers/pull/1236)
+Automatic containers: [https://github.com/BioContainers/multi-package-containers/pull/1236](https://github.com/BioContainers/multi-package-containers/pull/1236)
 
 Last but not least, David wanted to get the Galaxy `diff` tool into the European Galaxy server.
 For that, a new PR was created against the tool repository from usegalaxy-eu.
