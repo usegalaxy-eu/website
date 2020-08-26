@@ -247,11 +247,11 @@ keras_train_and_eval: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eva
 plotly_regression_performance_plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots
 plotly_ml_performance_plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots
 table_compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
-ChiRA-collapse: toolshed.g2.bx.psu.edu/repos/iuc/chira_collapse/chira_collapse
-ChiRA-map: toolshed.g2.bx.psu.edu/repos/iuc/chira_map/chira_map
-ChiRA-merge: toolshed.g2.bx.psu.edu/repos/iuc/chira_merge/chira_merge
-ChiRA-quantify: toolshed.g2.bx.psu.edu/repos/iuc/chira_quantify/chira_quantify
-ChiRA-extract: toolshed.g2.bx.psu.edu/repos/iuc/chira_extract/chira_extract
+chira_collapse: toolshed.g2.bx.psu.edu/repos/iuc/chira_collapse/chira_collapse
+chira_map: toolshed.g2.bx.psu.edu/repos/iuc/chira_map/chira_map
+chira_merge: toolshed.g2.bx.psu.edu/repos/iuc/chira_merge/chira_merge
+chira_quantify: toolshed.g2.bx.psu.edu/repos/iuc/chira_quantify/chira_quantify
+chira_extract: toolshed.g2.bx.psu.edu/repos/iuc/chira_extract/chira_extract
 pubchem: toolshed.g2.bx.psu.edu/repos/bgruening/get_pubchem/ctb_pubchem_download_as_smiles
 chembl: toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl
 pdb: toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb
