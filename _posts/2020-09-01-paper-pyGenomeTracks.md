@@ -4,7 +4,15 @@ title: 'New Paper on "pyGenomeTracks: reproducible plots for multivariate genomi
 doi: "10.1093/bioinformatics/btaa692"
 tags:
 - paper
+supporters:
+- denbi
+- elixir
+- crc992
 ---
+
+We are happy to announce the publication of **pyGenomeTracks (PGT)** in Bioinformatics. The tool plots combinations of genomic tracks in a modular way and it's [available in the ToolShed](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.5). Many thanks to all the authors for the great effort!
+
+## Abstract
 
 **Motivation**: Generating publication ready plots to display multiple genomic tracks can pose a serious challenge. Making desirable and accurate figures requires considerable effort. This is usually done by hand or by using a vector graphic software.
 

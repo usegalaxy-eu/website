@@ -4,8 +4,18 @@ title: 'New Paper on "No more business as usual: Agile and effective responses t
 doi: "10.1371/journal.ppat.1008643"
 tags:
 - paper
+supporters:
+- denbi
+- elixir
+- crc992
+- eosc
 ---
 
+The scientific efforts to fight the current COVID-pandemic have yielded plenty of data. Unfortunately, this data is not always fully shared. In this publication, we show how to overcome these limitations by providing an open platform for transparent research. 
+
+Other studies and activities related to SARS-CoV-2 can be found in [this running document](https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUMZ0hnGtePZplv-lK0rYzx8L-vo/preview#).
+
+## Abstract
 
 The current state of much of the Wuhan pneumonia virus (severe acute respiratory syndrome coronavirus 2 [SARS-CoV-2]) research shows a regrettable lack of data sharing and considerable analytical obfuscation. This impedes global research cooperation, which is essential for tackling public health emergencies and requires unimpeded access to data, analysis tools, and computational infrastructure. 
 
