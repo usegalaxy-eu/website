@@ -12,7 +12,7 @@ activate:
 	echo "$(ACTIVATE_ENV)"
 
 run: ## Launch jekyll locally
-	$(ACTIVATE_ENV) && jekyll serve
+	$(ACTIVATE_ENV) && jekyll serve --future
 .PHONY: run
 
 update-citations: ## Update the usegalaxy-eu citations from Zotero
@@ -20,7 +20,7 @@ update-citations: ## Update the usegalaxy-eu citations from Zotero
 .PHONY: run
 
 runi: ## Launch jekyll locally, incremental rebuild
-	$(ACTIVATE_ENV) && jekyll serve --incremental
+	$(ACTIVATE_ENV) && jekyll serve --incremental --future
 .PHONY: runi
 
 create-env: ## create usegalaxy-eu-website conda environment
