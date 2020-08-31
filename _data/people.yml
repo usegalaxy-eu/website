@@ -164,7 +164,19 @@ freiburg:
         website: http://leendertse.eu
         linkedin: JanLeendertse
         researchgate: JanLeendertse
-        
+ 
+    beatrizserrano:
+        name: Beatriz Serrano-Solano
+        title: Ph.D., Researcher
+        email: serranob@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1006"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: beatrizserrano
+        twitter: Birthae
+        linkedin: beatriz-serrano
+        orcid: 0000-0002-5862-6132
+        researchgate: Beatriz_Serrano-Solano
+     
         
 erasmusmc:
     andrew-emc:
