@@ -17,9 +17,7 @@ supporters:
 hidefooter: true
 ---
 
-**nf-core Hackathon**
-
-The nf-core hackathon in July this year will be fully virtual, so you can contribute to nf-core and get your pipeline started from the comfort of your homes.
+The __nf-core hackathon__ in July this year will be fully virtual, so you can contribute to nf-core and get your pipeline started from the comfort of your homes.
 Bjoern will give a talk about Bioconda and BioContainers and how both technologies are building the fundament of todays reproducible science infrastructure.
 
 
