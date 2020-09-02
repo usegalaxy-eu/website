@@ -2,7 +2,7 @@
 site: freiburg
 tags:
 - training
-title: "Biocontainers at the nf-core Hackathong"
+title: "Biocontainers at the nf-core Hackathon"
 starts: 2020-07-17
 ends: 2020-07-17
 organiser:
