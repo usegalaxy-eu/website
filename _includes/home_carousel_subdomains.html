@@ -17,7 +17,8 @@ a .domain-button:hover {
 	<div class="row">
 {% for page in site.pages %}
 	{% if page.layout == "subsite-galaxy" %}
-	<a href="https://{{ page.url | remove: '/index-' | remove: '.html' }}.usegalaxy.eu">
+	<a href="https://{{ page.url | remove: '/index-' | remove: '.html' }}.usegalaxy.eu"
+	   target="_blank" rel="noopener" >
 		<div class="col-xs-6 col-sm-6 col-md-4 domain-button">
 		<b>{{ page.url | remove: '/index-' | remove: '.html' }}</b>.usegalaxy.eu
 		</div>
