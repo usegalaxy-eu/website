@@ -107,6 +107,7 @@ team and publications. To add your side please see this
 This website is jekyll based and can be build as every other jekyll page.
 
 ```console
+cd _data/
 bundle install --path vendor/bundle
 bundle exec jekyll serve --watch
 ```
