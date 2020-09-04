@@ -56,9 +56,7 @@ Poretools: toolshed.g2.bx.psu.edu/repos/iuc/poretools_qualdist/poretools_qualdis
 QED: toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed
 RCAS: toolshed.g2.bx.psu.edu/repos/rnateam/rcas/rcas
 RNA STAR: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star
-RNA STAR Solo: toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo
-rna_star: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star
-rna_starsolo: toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo
+RNA STAR Solo: toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo/rna_starsolo
 RNABOB: toolshed.g2.bx.psu.edu/repos/rnateam/rnabob/rbc_rnabob
 RNAcode: toolshed.g2.bx.psu.edu/repos/rnateam/rnacode/rbc_rnacode
 RNAlien: toolshed.g2.bx.psu.edu/repos/rnateam/rnalien/RNAlien
