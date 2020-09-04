@@ -74,7 +74,6 @@ sailfish: toolshed.g2.bx.psu.edu/repos/bgruening/sailfish/sailfish
 salmon: toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon
 SortMeRNA: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna
 Staramr: toolshed.g2.bx.psu.edu/repos/nml/staramr/staramr_search
-Table Compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 table_compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 TargetFinder: toolshed.g2.bx.psu.edu/repos/rnateam/targetfinder/targetfinder
 TargetFinder: toolshed.g2.bx.psu.edu/repos/rnateam/targetfinder/targetfinder
@@ -246,7 +245,6 @@ ml_visualization_ex: toolshed.g2.bx.psu.edu/repos/bgruening/ml_visualization_ex/
 keras_train_and_eval: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval
 plotly_regression_performance_plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots
 plotly_ml_performance_plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots
-table_compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 chira_collapse: toolshed.g2.bx.psu.edu/repos/iuc/chira_collapse/chira_collapse
 chira_map: toolshed.g2.bx.psu.edu/repos/iuc/chira_map/chira_map
 chira_merge: toolshed.g2.bx.psu.edu/repos/iuc/chira_merge/chira_merge
