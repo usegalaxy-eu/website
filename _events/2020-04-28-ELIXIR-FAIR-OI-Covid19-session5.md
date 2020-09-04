@@ -18,7 +18,7 @@ hidefooter: true
 
 **Galaxy-ELIXIR Webinar Series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic**
 
-The Galaxy Community and ELIXIR organise a webinar series to demonstrate how open software and public research infrastructures can be used in analysing and publishing SARS-CoV2 data.
+The Galaxy Community and ELIXIR organise a [webinar series](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19) to demonstrate how open software and public research infrastructures can be used in analysing and publishing SARS-CoV2 data.
 
 ## Session 5: Behind the scenes - Global Open Infrastructures at work 
 
@@ -29,4 +29,11 @@ This session will guide the participants how they can use the Galaxy compute cap
 
 [Programme Information and Registration](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19){:target="_blank"}
 
-### Speakers To Be Decided
+### Speakers
+
+- Gianmauro Cuccuru, University of Freiburg, Germany, member of the European Galaxy team
+- Marco Antonio Tangaro, The Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, Bari, Italy
+- Simon Gladman, University of Melbourne, Australia
+- Nate Coraor, Pennsylvania State University, USA
+- Frederik Coppens,  Head of Node of ELIXIR Belgium and Co-Lead of the ELIXIR Galaxy Community
+- Björn Grüning, Technical Coordinator of ELIXIR Germany and Co-Lead of the ELIXIR Galaxy Community
