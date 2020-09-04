@@ -39,13 +39,13 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="remSmallMol" %} | Remove small molecules | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-{% include tool.html id="AddH" %}  | Add hydrogen atoms at a certain pH value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-{% include tool.html id="RemDupMol" %}  | Remove duplicated molecules  | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-{% include tool.html id="remProtState" %}  | Remove protonation state of every atom | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-{% include tool.html id="comConvert" %}  | Compound Convert Converts various chemistry and molecular modeling data files | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-{% include tool.html id="remConterIons" %}  | Remove counterions and fragments | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-{% include tool.html id="changTitle" %}  | Change Title to meta-data value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+{% include tool.html id="remsmallmol" %} | Remove small molecules | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+{% include tool.html id="addh" %}  | Add hydrogen atoms at a certain pH value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+{% include tool.html id="remdupmol" %}  | Remove duplicated molecules  | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+{% include tool.html id="remprotstate" %}  | Remove protonation state of every atom | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+{% include tool.html id="comconvert" %}  | Compound Convert Converts various chemistry and molecular modeling data files | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+{% include tool.html id="remcounterions" %}  | Remove counterions and fragments | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+{% include tool.html id="changetitle" %}  | Change Title to meta-data value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
 {:.table.table-striped}
 
 
@@ -53,13 +53,13 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="genProp" %} | Compute physico-chemical properties for a set of molecules  | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
-{% include tool.html id="NPL" %} | Natural product likeness calculator  | [Jayaseelan, Kalai Vanii, 2012](http://dx.doi.org/10.1186/1471-2105-13-106){:target="_blank"}
-{% include tool.html id="QED" %} | Drug-likeness quantitative estimation (QED) | [Bickerton et al., 2012](https://doi.org/10.1038/nchem.1243){:target="_blank"}
+{% include tool.html id="genprop" %} | Compute physico-chemical properties for a set of molecules  | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33){:target="_blank"}
+{% include tool.html id="npl" %} | Natural product likeness calculator  | [Jayaseelan, Kalai Vanii, 2012](http://dx.doi.org/10.1186/1471-2105-13-106){:target="_blank"}
+{% include tool.html id="qed" %} | Drug-likeness quantitative estimation (QED) | [Bickerton et al., 2012](https://doi.org/10.1038/nchem.1243){:target="_blank"}
 {% include tool.html id="mordred" %} | Molecular descriptor calculator  | [Moriwaki et al., 2018](https://doi.org/10.1186/s13321-018-0258-y){:target="_blank"}
 {% include tool.html id="chemfp" %} | Fingerprints with chemfp  | [Dalke, 2013](https://doi.org/10.1186/1758-2946-5-s1-p36){:target="_blank"}
-{% include tool.html id="tbClust" %} | Taylor-Butina clustering | [Dalke, 2013](https://doi.org/10.1186/1758-2946-5-s1-p36){:target="_blank"}
-{% include tool.html id="nxnClust" %} | NXN clustering | [Dalke, 2013](https://doi.org/10.1186/1758-2946-5-s1-p36){:target="_blank"}
+{% include tool.html id="tbclust" %} | Taylor-Butina clustering | [Dalke, 2013](https://doi.org/10.1186/1758-2946-5-s1-p36){:target="_blank"}
+{% include tool.html id="nxnclust" %} | NXN clustering | [Dalke, 2013](https://doi.org/10.1186/1758-2946-5-s1-p36){:target="_blank"}
 {:.table.table-striped}
 
 
@@ -78,16 +78,16 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="gmxSetup" %} | Produce a topology using GROMACS for a given protein structure  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-{% include tool.html id="gmxSolvate" %} | Solvate a system using GROMACS | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-{% include tool.html id="gmxEM" %} | Energy minimization using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-{% include tool.html id="gmxSim" %} | MD simulation using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-{% include tool.html id="gmxRestraints" %} | Calculate position restraints using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-{% include tool.html id="gmxMakeNDX" %} | Create an index file using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-{% include tool.html id="gmxEnergy" %} | Extract energy components using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-{% include tool.html id="gmxTrj" %} | Process MD trajectories using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-{% include tool.html id="gmxEditconf" %} | Structure configuration using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
-{% include tool.html id="gmxFEP" %} | Alchemical free energy simulations using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+{% include tool.html id="gmxsetup" %} | Produce a topology using GROMACS for a given protein structure  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+{% include tool.html id="gmxsolvate" %} | Solvate a system using GROMACS | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+{% include tool.html id="gmxem" %} | Energy minimization using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+{% include tool.html id="gmxsim" %} | MD simulation using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+{% include tool.html id="gmxrestraints" %} | Calculate position restraints using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+{% include tool.html id="gmxmakendx" %} | Create an index file using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+{% include tool.html id="gmxenergy" %} | Extract energy components using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+{% include tool.html id="gmxtrj" %} | Process MD trajectories using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+{% include tool.html id="gmxeditconf" %} | Structure configuration using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+{% include tool.html id="gmxfep" %} | Alchemical free energy simulations using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
 {% include tool.html id="antechamber" %} | Process input files with AmberTools  | [Case et al., 2005](https://doi.org/10.1002/jcc.20290){:target="_blank"}
 {% include tool.html id="acpype" %} | Produce GROMACS topologies with acpype  | [Sousa da Silva et al., 2012](https://doi.org/10.1186/1756-0500-5-367){:target="_blank"}
 {:.table.table-striped}
@@ -97,15 +97,15 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="mdaDistance" %} | Distance analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
-{% include tool.html id="mdaDihedral" %} | Dihedral analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
-{% include tool.html id="mdaRDF" %} | Radial distribution function between two atoms  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
-{% include tool.html id="mdaAngle" %} | Angle analysis using MDAnalysis | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
-{% include tool.html id="mdConverter" %} | Interconvert between MD file formats | [McGibbon et al., 2015](https://doi.org/10.1016/j.bpj.2015.08.015){:target="_blank"} [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
+{% include tool.html id="mdadistance" %} | Distance analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
+{% include tool.html id="mdadihedral" %} | Dihedral analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
+{% include tool.html id="mdardf" %} | Radial distribution function between two atoms  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
+{% include tool.html id="mdaangle" %} | Angle analysis using MDAnalysis | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787){:target="_blank"}
+{% include tool.html id="mdconverter" %} | Interconvert between MD file formats | [McGibbon et al., 2015](https://doi.org/10.1016/j.bpj.2015.08.015){:target="_blank"} [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001){:target="_blank"}
 {% include tool.html id="packmol" %} | Create initial MD configurations | [Martinez et al., 2009](https://doi.org/10.1002/jcc.21224){:target="_blank"}
-{% include tool.html id="bio3dPCA" %} | Apply PCA to an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
-{% include tool.html id="bio3dRMSD" %} | Calculate RMSD for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
-{% include tool.html id="bio3dRMSF" %} | Calculate RMSF for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
+{% include tool.html id="bio3dpca" %} | Apply PCA to an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
+{% include tool.html id="bio3drmsd" %} | Calculate RMSD for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
+{% include tool.html id="bio3drmsf" %} | Calculate RMSF for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461){:target="_blank"}
 {:.table.table-striped}
 
 
