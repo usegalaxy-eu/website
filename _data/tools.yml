@@ -148,11 +148,11 @@ mdaDistance: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysi
 mdaRDF: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/
 packmol: toolshed.g2.bx.psu.edu/repos/chemteam/packmol/packmol/
 psy_maps: toolshed.g2.bx.psu.edu/repos/climate/psy_maps/psy_maps
-raceid_clustering: toolshed.g2.bx.psu.edu/repos/iuc/raceid_clustering
-raceid_filtnormconf: toolshed.g2.bx.psu.edu/repos/iuc/raceid_filtnormconf/
-raceid_trajectory: toolshed.g2.bx.psu.edu/repos/iuc/raceid_trajectory/
-raceid_inspectclusters: toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspectclusters/
-raceid_inspecttrajectory: toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspecttrajectory
+raceid_clustering: toolshed.g2.bx.psu.edu/repos/iuc/raceid_clustering/raceid_clustering
+raceid_filtnormconf: toolshed.g2.bx.psu.edu/repos/iuc/raceid_filtnormconf/raceid_filtnormconf
+raceid_trajectory: toolshed.g2.bx.psu.edu/repos/iuc/raceid_trajectory/raceid_trajectory
+raceid_inspectclusters: toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspectclusters/raceid_inspectclusters
+raceid_inspecttrajectory: toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspecttrajectory/raceid_inspecttrajectory
 remConterIons: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons
 remCountIo: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title
 remProtState: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remove_protonation_state/openbabel_remove_protonation_state
