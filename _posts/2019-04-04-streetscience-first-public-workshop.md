@@ -6,4 +6,4 @@ tags: [streetscience]
 ---
 
 On the 31st of March, we held our first public workshop for the BeerDEcoded project in Freiburg.
-Some students and external people participated to this event: 16 peoples in total, including us.
+Several students and external people participated in this event, making a total of 16 people, including us.
