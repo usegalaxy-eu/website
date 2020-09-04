@@ -41,34 +41,19 @@ Minimap2: toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2
 MultiQC: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/
 multiqc: toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/
 NASTIseq: toolshed.g2.bx.psu.edu/repos/rnateam/nastiseq/nastiseq
-<<<<<<< HEAD
-NPL: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator
+npl: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator
 NSPDK_candidateClusters: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/NSPDK_candidateClust
 NSPDK_sparseVect: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/nspdk_sparse
 Nanoplot: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot
 Nanopolish: toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_variants/nanopolish_variants
-=======
-npl: toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator
-NSPDK_candidateClusters: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/NSPDK_candidateClust/9.2.3
-NSPDK_sparseVect: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/nspdk_sparse/9.2.3
-Nanoplot: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.13.0
-Nanopolish: toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_variants/nanopolish_variants/0.1.0
->>>>>>> fbac4c2c... attempt to fix cheminf subdomain links
 PARalyzer: toolshed.g2.bx.psu.edu/repos/rnateam/paralyzer/paralyzer
 PGMA_locarna: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_cmfinder/cmFinder
 PIPmiR: toolshed.g2.bx.psu.edu/repos/rnateam/pipmir/pipmir
 Piranha: toolshed.g2.bx.psu.edu/repos/rnateam/piranha/piranha
-<<<<<<< HEAD
 PlasFlow: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow
 Porechop: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop
 Poretools: toolshed.g2.bx.psu.edu/repos/iuc/poretools_qualdist/poretools_qualdist
-QED: toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed
-=======
-PlasFlow: toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.0
-Porechop: toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3
-Poretools: toolshed.g2.bx.psu.edu/repos/iuc/poretools_qualdist/poretools_qualdist/0.6.1a1.0
 qed: toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed/0.1
->>>>>>> fbac4c2c... attempt to fix cheminf subdomain links
 RCAS: toolshed.g2.bx.psu.edu/repos/rnateam/rcas/rcas
 RNA STAR: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star
 RNA STAR Solo: toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo
