@@ -106,14 +106,6 @@ team and publications. To add your side please see this
 
 This website is jekyll based and can be build as every other jekyll page.
 
-```console
-cd _data/
-bundle install --path vendor/bundle
-bundle exec jekyll serve --watch
-```
-
-Other commands are available under `jekyll --help`
-
 If you have conda around and no jekyll setup, we do provide a Makefile that sets up and
 conda environment, with all what you need.
 
