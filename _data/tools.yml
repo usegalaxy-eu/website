@@ -207,11 +207,11 @@ scater_plot_dist_scatter: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_dist_scat
 scater_plot_pca: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_pca/scater_plot_pca
 scater_plot_tsne: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_tsne/scater_plot_tsne
 ucsc_cell_browser: toolshed.g2.bx.psu.edu/repos/ebi-gxa/ucsc_cell_browser/ucsc_cell_browser
-umi_tools_count: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_count
-umi_tools_dedup: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_dedup
-umi_tools_extract: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract
-umi_tools_group: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_group
-umi_tools_whitelist: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_whitelist
+umi_tools_count: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_count/umi_tools_count
+umi_tools_dedup: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_dedup/umi_tools_dedup
+umi_tools_extract: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract/umi_tools_extract
+umi_tools_group: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_group/umi_tools_group
+umi_tools_whitelist: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_whitelist/umi_tools_whitelist
 retrieve_scxa: toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa
 hca_matrix_downloader: toolshed.g2.bx.psu.edu/repos/ebi-gxa/hca_matrix_downloader/hca_matrix_downloader
 sklearn_svm_classifier: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier
