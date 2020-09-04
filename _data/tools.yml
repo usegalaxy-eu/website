@@ -14,7 +14,7 @@ CMV: toolshed.g2.bx.psu.edu/repos/rnateam/cmv/cmv
 Canu: toolshed.g2.bx.psu.edu/repos/bgruening/canu/canu
 CoFold: toolshed.g2.bx.psu.edu/repos/rnateam/cofold/cofold
 Compalignp: toolshed.g2.bx.psu.edu/repos/rnateam/compalignp/compalignp
-crosscontamination_barcode_filter: toolshed.g2.bx.psu.edu/repos/iuc/crosscontamination_barcode_filter
+crosscontamination_barcode_filter: toolshed.g2.bx.psu.edu/repos/iuc/crosscontamination_barcode_filter/crosscontamination_barcode_filter
 DESeq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 deseq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 DoRiNA: toolshed.g2.bx.psu.edu/repos/rnateam/dorina/dorina_search
@@ -82,11 +82,11 @@ Trinity: toolshed.g2.bx.psu.edu/repos/iuc/trinity/trinity
 Unicycler: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler
 Wtdbg2: toolshed.g2.bx.psu.edu/repos/bgruening/wtdbg/wtdbg/
 antaRNA: toolshed.g2.bx.psu.edu/repos/rnateam/antarna/antarna
-anndata_export: toolshed.g2.bx.psu.edu/repos/iuc/anndata_export
-anndata_import: toolshed.g2.bx.psu.edu/repos/iuc/anndata_import
-anndata_inspect: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect
-anndata_manipulate: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate
-modify_loom: toolshed.g2.bx.psu.edu/repos/iuc/modify_loom
+anndata_export: toolshed.g2.bx.psu.edu/repos/iuc/anndata_export/anndata_export
+anndata_import: toolshed.g2.bx.psu.edu/repos/iuc/anndata_import/anndata_import
+anndata_inspect: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect
+anndata_manipulate: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate
+modify_loom: toolshed.g2.bx.psu.edu/repos/iuc/modify_loom/modify_loom
 bio3dPCA: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/
 bio3dRMSD: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/
 bio3dRMSF: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/
