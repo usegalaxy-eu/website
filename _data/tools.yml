@@ -14,7 +14,7 @@ CMV: toolshed.g2.bx.psu.edu/repos/rnateam/cmv/cmv
 Canu: toolshed.g2.bx.psu.edu/repos/bgruening/canu/canu
 CoFold: toolshed.g2.bx.psu.edu/repos/rnateam/cofold/cofold
 Compalignp: toolshed.g2.bx.psu.edu/repos/rnateam/compalignp/compalignp
-crosscontamination_barcode_filter: toolshed.g2.bx.psu.edu/repos/iuc/crosscontamination_barcode_filter
+crosscontamination_barcode_filter: toolshed.g2.bx.psu.edu/repos/iuc/crosscontamination_barcode_filter/crosscontamination_barcode_filter
 DESeq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 deseq2: toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2
 DoRiNA: toolshed.g2.bx.psu.edu/repos/rnateam/dorina/dorina_search
@@ -56,9 +56,7 @@ Poretools: toolshed.g2.bx.psu.edu/repos/iuc/poretools_qualdist/poretools_qualdis
 QED: toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed
 RCAS: toolshed.g2.bx.psu.edu/repos/rnateam/rcas/rcas
 RNA STAR: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star
-RNA STAR Solo: toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo
-rna_star: toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star
-rna_starsolo: toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo
+RNA STAR Solo: toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo/rna_starsolo
 RNABOB: toolshed.g2.bx.psu.edu/repos/rnateam/rnabob/rbc_rnabob
 RNAcode: toolshed.g2.bx.psu.edu/repos/rnateam/rnacode/rbc_rnacode
 RNAlien: toolshed.g2.bx.psu.edu/repos/rnateam/rnalien/RNAlien
@@ -74,7 +72,6 @@ sailfish: toolshed.g2.bx.psu.edu/repos/bgruening/sailfish/sailfish
 salmon: toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon
 SortMeRNA: toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna
 Staramr: toolshed.g2.bx.psu.edu/repos/nml/staramr/staramr_search
-Table Compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 table_compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 TargetFinder: toolshed.g2.bx.psu.edu/repos/rnateam/targetfinder/targetfinder
 TargetFinder: toolshed.g2.bx.psu.edu/repos/rnateam/targetfinder/targetfinder
@@ -83,11 +80,11 @@ Trinity: toolshed.g2.bx.psu.edu/repos/iuc/trinity/trinity
 Unicycler: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler
 Wtdbg2: toolshed.g2.bx.psu.edu/repos/bgruening/wtdbg/wtdbg/
 antaRNA: toolshed.g2.bx.psu.edu/repos/rnateam/antarna/antarna
-anndata_export: toolshed.g2.bx.psu.edu/repos/iuc/anndata_export
-anndata_import: toolshed.g2.bx.psu.edu/repos/iuc/anndata_import
-anndata_inspect: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect
-anndata_manipulate: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate
-modify_loom: toolshed.g2.bx.psu.edu/repos/iuc/modify_loom
+anndata_export: toolshed.g2.bx.psu.edu/repos/iuc/anndata_export/anndata_export
+anndata_import: toolshed.g2.bx.psu.edu/repos/iuc/anndata_import/anndata_import
+anndata_inspect: toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect
+anndata_manipulate: toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate
+modify_loom: toolshed.g2.bx.psu.edu/repos/iuc/modify_loom/modify_loom
 bio3dPCA: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/
 bio3dRMSD: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/
 bio3dRMSF: toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/
@@ -149,11 +146,11 @@ mdaDistance: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysi
 mdaRDF: toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/
 packmol: toolshed.g2.bx.psu.edu/repos/chemteam/packmol/packmol/
 psy_maps: toolshed.g2.bx.psu.edu/repos/climate/psy_maps/psy_maps
-raceid_clustering: toolshed.g2.bx.psu.edu/repos/iuc/raceid_clustering
-raceid_filtnormconf: toolshed.g2.bx.psu.edu/repos/iuc/raceid_filtnormconf/
-raceid_trajectory: toolshed.g2.bx.psu.edu/repos/iuc/raceid_trajectory/
-raceid_inspectclusters: toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspectclusters/
-raceid_inspecttrajectory: toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspecttrajectory
+raceid_clustering: toolshed.g2.bx.psu.edu/repos/iuc/raceid_clustering/raceid_clustering
+raceid_filtnormconf: toolshed.g2.bx.psu.edu/repos/iuc/raceid_filtnormconf/raceid_filtnormconf
+raceid_trajectory: toolshed.g2.bx.psu.edu/repos/iuc/raceid_trajectory/raceid_trajectory
+raceid_inspectclusters: toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspectclusters/raceid_inspectclusters
+raceid_inspecttrajectory: toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspecttrajectory/raceid_inspecttrajectory
 remConterIons: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons
 remCountIo: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title
 remProtState: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remove_protonation_state/openbabel_remove_protonation_state
@@ -200,21 +197,19 @@ sc3_kmeans: toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_kmeans/sc3_kmeans
 #scater_calculate_cpm: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_calculate_cpm/scater_calculate_cpm
 #scater_calculate_qc_metrics: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_calculate_qc_metrics/scater_calculate_qc_metrics
 #scater_read_10x_results: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_read_10x_results/scater_read_10x_results
-#scater_filter: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_filter/scater_filter
-#scater_normalize: toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_normalize/scater_normalize
-scater_create_qcmetric_ready_sce: toolshed.g2.bx.psu.edu/repos/iuc/scater_create_qcmetric_ready_sce
-scater_normalize: toolshed.g2.bx.psu.edu/repos/iuc/scater_normalize
-scater_filter: toolshed.g2.bx.psu.edu/repos/iuc/scater_filter
-scater_plot_exprs_freq: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_exprs_freq
-scater_plot_dist_scatter: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_dist_scatter
-scater_plot_pca: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_pca
-scater_plot_tsne: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_tsne
+scater_create_qcmetric_ready_sce: toolshed.g2.bx.psu.edu/repos/iuc/scater_create_qcmetric_ready_sce/scater_create_qcmetric_ready_sce
+scater_normalize: toolshed.g2.bx.psu.edu/repos/iuc/scater_normalize/scater_normalize
+scater_filter: toolshed.g2.bx.psu.edu/repos/iuc/scater_filter/scater_filter
+scater_plot_exprs_freq: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_exprs_freq/scater_plot_exprs_freq
+scater_plot_dist_scatter: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_dist_scatter/scater_plot_dist_scatter
+scater_plot_pca: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_pca/scater_plot_pca
+scater_plot_tsne: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_tsne/scater_plot_tsne
 ucsc_cell_browser: toolshed.g2.bx.psu.edu/repos/ebi-gxa/ucsc_cell_browser/ucsc_cell_browser
-umi_tools_count: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_count
-umi_tools_dedup: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_dedup
-umi_tools_extract: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract
-umi_tools_group: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_group
-umi_tools_whitelist: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_whitelist
+umi_tools_count: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_count/umi_tools_count
+umi_tools_dedup: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_dedup/umi_tools_dedup
+umi_tools_extract: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract/umi_tools_extract
+umi_tools_group: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_group/umi_tools_group
+umi_tools_whitelist: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_whitelist/umi_tools_whitelist
 retrieve_scxa: toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa
 hca_matrix_downloader: toolshed.g2.bx.psu.edu/repos/ebi-gxa/hca_matrix_downloader/hca_matrix_downloader
 sklearn_svm_classifier: toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier
@@ -246,7 +241,6 @@ ml_visualization_ex: toolshed.g2.bx.psu.edu/repos/bgruening/ml_visualization_ex/
 keras_train_and_eval: toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval
 plotly_regression_performance_plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots
 plotly_ml_performance_plots: toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots
-table_compute: toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute
 chira_collapse: toolshed.g2.bx.psu.edu/repos/iuc/chira_collapse/chira_collapse
 chira_map: toolshed.g2.bx.psu.edu/repos/iuc/chira_map/chira_map
 chira_merge: toolshed.g2.bx.psu.edu/repos/iuc/chira_merge/chira_merge
