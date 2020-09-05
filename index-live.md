@@ -169,4 +169,9 @@ margin: auto;
       <p class="textcard">HiGlass</p>
     </a>
 
+    <!--a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_openrefine" target="_top">
+      <img class="card-img-top" src="/assets/media/interactive/openrefine.png" title="OpenRefine is a powerful tool for working with messy data" />
+      <p class="textcard">OpenRefine</p>
+    </a-->
+
 </div>
