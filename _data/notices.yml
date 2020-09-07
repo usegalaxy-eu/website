@@ -23,7 +23,8 @@
             Want to learn the best practices for the analysis of SARS-CoV-2 data using Galaxy?
             Visit the Galaxy SARS-CoV-2 portal at [covid19.galaxyproject.org](https://covid19.galaxyproject.org).
             We mirror <b>all public</b> SARS-CoV-2 data from ENA in a [Galaxy data library](https://bit.ly/usegalaxy-eu-covid19-data) for your convenience.
-            The Galaxy community also created [COVID-19 related trainings](https://training.galaxyproject.org) and we also maintain a [running document](https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUMZ0hnGtePZplv-lK0rYzx8L-vo/preview#) with recent news.
+            The Galaxy community also created [COVID-19 related trainings](https://training.galaxyproject.org/search?query=covid19) and we also maintain a 
+            [running document](https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUMZ0hnGtePZplv-lK0rYzx8L-vo/preview#) with recent news.
             Our new preprint about [**The landscape of SARS-CoV-2 RNA modifications**](https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper/) is out!
 
 # - title: Restricted compute capacity on the 18.02.2020 
