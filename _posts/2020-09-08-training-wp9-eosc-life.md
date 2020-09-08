@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: The Euopean Galaxy team has been awarded with two EOSC-life training projects
+title: EOSC-Life has awarded two training projects to the European Galaxy team
 tags:
 - training
 - grants
