@@ -14,7 +14,7 @@ for our communties.
 
 This course is aimed at field ecologists, environmental scientists, climate modellers and biologists interested in improving climate
 models by better representing terrestrial ecosystems. FATES is a numerical terrestrial ecosystem model
-for use in ​[Earth System Models(ESM)](https://soccom.princeton.edu/content/what-earth-system-model-esm)
+for use in ​[Earth System Models (ESM)](https://soccom.princeton.edu/content/what-earth-system-model-esm)
 that simulates and predicts growth, death, and regeneration of plants and subsequent tree size distributions.
 Participants will learn about climate modelling as well as how to use the 
 [Galaxy Climate JupyterLab](https://live.usegalaxy.eu/?tool_id=interactive_tool_climate_notebook) for running FATES experiments and compare those with observational data.
@@ -25,7 +25,7 @@ Participants will learn about climate modelling as well as how to use the
 [Open Life Science (OLS)](https://openlifesci.org/) is a 16-week long personal mentorship and cohort-based training for
 individuals who would like to develop and lead Open Research projects in their communities. OLS
 will open a call for mentors and project leads from EOSC RIs for their third cohort, which is expected
-to take place from February-May 2021. In each cohort, the participants of this program will:
+to take place from February to May 2021. In each cohort, the participants of this program will:
 
 - share their expertise and gain knowledge essential to create, lead, and sustain an Open
 Science project
