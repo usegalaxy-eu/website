@@ -2,7 +2,7 @@
 site: freiburg
 tags:
 - talk
-title: "Introduction how the tools platform can facilitate COVID-19 research"
+title: "The ELIXIR Tools Platform - solutions for COVID-19 research"
 starts: 2020-09-08
 ends: 2020-09-08
 organiser:
