@@ -4,7 +4,7 @@ tags:
 - training
 title: "An Introduction to Whole Exome Data Analysis using Galaxy"
 starts: 2020-09-02
-ends: 2020-09-03
+ends: 2020-09-02
 organiser:
   name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
