@@ -10,6 +10,7 @@ location:
 supporters:
 - unifreiburg
 - denbi
+- biodaten
 ---
 
 During the July virtual meet-up of the Bioinformatics Hub of Kenya (BHKi), a training on Galaxy will be conducted by Peter van Heusden (SANBI).

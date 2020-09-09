@@ -15,6 +15,7 @@ supporters:
 - galaxy-europe
 - galaxy-freiburg
 - backofenlab
+- biodaten
 
 # special hiding of footer since we want to do it manually.
 hidefooter: true
