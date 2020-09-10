@@ -8,7 +8,7 @@ tags:
 
 Within the 1st [EOSC-Life](https://www.eosc-portal.eu/eosc-life) Training Open Call, two out of four proposals have been awarded to the
 European Galaxy team to develop climate science e-learning material and mentoring and training opportunities
-for our communties.
+for our communities.
 
 ### Learn how to compose and execute repeatable and reproducible modelling workflow with ​[FATES](https://fates-docs.readthedocs.io/en/latest/index.html)​ for improving climate models
 

@@ -11,6 +11,7 @@ supporters:
 - galaxy
 - elixir
 - denbi
+- biodaten
 
 # special hiding of footer since we want to do it manually.
 hidefooter: true
