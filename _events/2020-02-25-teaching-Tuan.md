@@ -13,4 +13,4 @@ location:
   country: Germany
 ---
  
-Anika will give a workshop on RNAseq analysis in Galaxy at the Biology department of the University of Freiburg.
+Anika will give a workshop on RNAseq analysis in Galaxy at the [Biology department of the University of Freiburg](http://www.bio.uni-freiburg.de/).
