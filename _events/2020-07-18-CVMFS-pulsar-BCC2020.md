@@ -16,4 +16,4 @@ supporters:
 - biodaten
 ---
 
-We are offering a Galaxy workshop on **Reference data with CVMFS and remote jobs with Pulsar** at the BCC2020 conference.
+We are offering a Galaxy workshop on **Reference data with CVMFS and remote jobs with Pulsar** at the [BCC2020 conference](https://bcc2020.github.io/).
