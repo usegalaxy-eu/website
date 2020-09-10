@@ -1,5 +1,5 @@
 ---
-site: Barcelona, Spain
+site: freiburg
 tags:
 - training
 title: "Machine Learning & Omics data at ECCB2020"
