@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: 
 tags:
 - training
 title: Galaxy Africa Community Update
