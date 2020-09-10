@@ -15,4 +15,4 @@ supporters:
 - denbi
 ---
 
-We are offering a Galaxy workshop on **Processing of Single Cell RNA-Seq Data with Galaxy** at the BCC2020 conference.
+We are offering a Galaxy workshop on **Processing of Single Cell RNA-Seq Data with Galaxy** at the [BCC2020 conference](https://bcc2020.github.io/).
