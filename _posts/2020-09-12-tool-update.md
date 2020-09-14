@@ -155,6 +155,14 @@ On 2020-09-12, the tools on UseGalaxy.eu were updated by our automated tool upda
 - openms_tofcalibration was updated to [40a101cabd0e](https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_tofcalibration/40a101cabd0e)
 - openms_transformationevaluation was updated to [fc8e5a66639c](https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_transformationevaluation/fc8e5a66639c)
 - openms_xtandemadapter was updated to [9e16ba5b88e8](https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xtandemadapter/9e16ba5b88e8)
+- encyclopedia_encyclopedia was updated to [d0ea7589e95f](https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_encyclopedia/d0ea7589e95f)
+- encyclopedia_fasta_to_prosit_csv was updated to [ca7a315fb902](https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_fasta_to_prosit_csv/ca7a315fb902)
+- encyclopedia_library_to_blib was updated to [0202b8f3a516](https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_library_to_blib/0202b8f3a516)
+- encyclopedia_prosit_csv_to_library was updated to [8a9cef108b0c](https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_prosit_csv_to_library/8a9cef108b0c)
+- encyclopedia_quantify was updated to [4081e4faa4ab](https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_quantify/4081e4faa4ab)
+- encyclopedia_searchtolib was updated to [62a718b76f62](https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_searchtolib/62a718b76f62)
+- encyclopedia_walnut was updated to [ce1a157a41bd](https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_walnut/ce1a157a41bd)
+
 
 ## Metagenomic Analysis
 
@@ -163,6 +171,7 @@ On 2020-09-12, the tools on UseGalaxy.eu were updated by our automated tool upda
 ## Get Data
 
 - iedb_api was updated to [e95d3221b7f0](https://toolshed.g2.bx.psu.edu/view/iuc/iedb_api/e95d3221b7f0)
+- dbbuilder was updated to [c1b437242fee](https://toolshed.g2.bx.psu.edu/view/galaxyp/dbbuilder/c1b437242fee)
 
 ## Mapping
 
@@ -195,6 +204,7 @@ On 2020-09-12, the tools on UseGalaxy.eu were updated by our automated tool upda
 ## Variant Calling
 
 - vardict_java was updated to [5f756651a1bc](https://toolshed.g2.bx.psu.edu/view/iuc/vardict_java/5f756651a1bc)
+- sniffles was updated to [93c4b04a0769](https://toolshed.g2.bx.psu.edu/view/iuc/sniffles/93c4b04a0769)
 
 ## Data Managers
 
