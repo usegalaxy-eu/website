@@ -106,6 +106,7 @@ freiburg:
         location: "Build.: 079, Room: -1015"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: gmauro
+        orcid: 0000-0002-5335-545X
 
     simonbray:
         name: Simon Bray
