@@ -34,3 +34,6 @@ Science project
 
 For more information, please contact the OLS team (​team@openlifesci.org​) or join their​ public
 mailing list to receive updates.
+
+{% twitter https://twitter.com/galaxyproject/status/1305412215667699713%}
+
