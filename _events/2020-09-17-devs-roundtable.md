@@ -2,8 +2,8 @@
 site: 
 tags:
 title: "Galaxy Developer Roundtable"
-starts: 2020-09-19
-ends: 2020-09-19
+starts: 2020-09-17
+ends: 2020-09-17
 organiser:
 location: online
 supporters:
