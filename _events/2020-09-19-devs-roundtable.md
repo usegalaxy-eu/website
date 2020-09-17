@@ -9,7 +9,7 @@ location: online
 supporters:
 ---
 
-Like every other Thursday at **6 pm CET**, the Galaxy Developer Roundtable will take place. Today, [**John Chilton**](https://galaxyproject.org/people/john-chilton/) is the presenter. 
+Like every second Thursday at **6 pm CET**, the Galaxy Developer Roundtable will take place. Today, [**John Chilton**](https://galaxyproject.org/people/john-chilton/) is the presenter. 
 
 Everyone is welcome to attend! 
 > [**Join us via zoom**]([https://psu.zoom.us/j/92752763386](https://psu.zoom.us/j/92752763386))
