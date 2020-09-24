@@ -36,10 +36,10 @@
 #           18.02.2020. We are hopefull to keep the webserver running and accept jobs and workflows, but there will be a delay
 #           in processing them.
 
-#- title: Enough talking - time to act!
-#  class: danger # one of [success, info, warning, danger]
-#  site: freiburg # Your site
-#  messages:
-#      - message: |
-#          The Freiburg Galaxy team will be striking today (29.11.2019). No new jobs will be processed today!
-#          For more information please see our [blog post](https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really).
+- title: Enough talking - time to act!
+  class: danger # one of [success, info, warning, danger]
+  site: freiburg # Your site
+  messages:
+      - message: |
+          The Freiburg Galaxy team will be striking on 25.09.2020. No new jobs will be processed on that Friday!
+          For more information please see our [blog post](https://usegalaxy-eu.github.io/posts/2020/09/11/we-are-striking-really/plain.html).
