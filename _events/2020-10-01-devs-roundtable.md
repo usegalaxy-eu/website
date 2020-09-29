@@ -9,7 +9,7 @@ location: online
 supporters:
 ---
 
-Kaivan Kamali will give a presentation discussing his experimenting with machine learning tools in Galaxy by applying Singular Value Decomposition (SVD). More specifically, he will cover the basics of linear algebra, eigenvalues/eigenvectors, and principal calculations axes in symmetric and non-symmetric matrices.
+Kaivan Kamali will give a presentation discussing his experimenting with __machine learning tools in Galaxy__ by applying Singular Value Decomposition (SVD). More specifically, he will cover the basics of linear algebra, eigenvalues/eigenvectors, and principal calculations axes in symmetric and non-symmetric matrices.
 
 In addition, [**John Chilton**](https://galaxyproject.org/people/john-chilton/) will briefly discuss [enabling per-objectstore quotas in Galaxy](https://github.com/galaxyproject/galaxy/pull/10221).
 
