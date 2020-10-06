@@ -6,14 +6,7 @@ layout: default
 {% assign key_length = key | size %}
 
 {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
-<section class="page-header">
-  <div class="row">
-    <div class="col-sm-12 text-center">
-      <h1>{{ site.team_sites[key].name }} News</h1>
-    </div>
-  </div>
-</section>
-
+<!--  search script-->
 {% if key_length == 0 %}
   {% assign posts = site.posts | sort:'date' | reverse %}
 {% else %}
@@ -23,41 +16,75 @@ layout: default
     {% assign posts = site.posts | where:'site', key | sort:'date' | reverse %}
   {% endif %}
 {% endif %}
+<script>
+  const load = () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const userTag = urlParams.get('tag');
+    let div;
+    let tags = [];
+    let counter = 0;
+    let news = $("#news-list");
 
-<section id="news-list">
-  {% for post in posts %}
-    {% assign count = 3 %}
-    {% assign premod = 2 %}
-    {% assign mod = forloop.index0 | modulo:count %}
-{% if mod == premod %}
-    <div class="row">
-{% endif %}
-    <div class="col-md-4 news">
-      <div class="row" style="padding: 1em">
-        <div>
-          {% if post.external %}
-            <a href="{{ post.external }}">
-          {% else %}
-            <a href="{{ post.url }}">
-          {% endif %}
-            <h2 class="title">{{ post.title | escape }}</h2>
-          </a>
-          <span class="date">
-            {% include article_icons.html post=post %}
-          </span>
-          <span class="date">
-            {{ post.date | date: date_format }}
-          </span>
-          <span class="label label-success">{{ site.team_sites[post.site].name }}</span>
-          {% include article_tags.html post=post exclude_icons=true %}
-        </div>
-        <div class="news-content">
-          <div>{{ post.excerpt }}</div>
-        </div>
-      </div>
+{% for post in posts %}
+
+     {% for tag in post.tags %}
+      tags.push(`{{ tag | ecape }}`)
+     {% endfor %}
+      tags.push(`{{ site.team_sites[post.site].name | ecape }}`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 {{post.tags}} news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  {% if post.external %}
+                    <a href="{{ post.external }}">
+                  {% else %}
+                    <a href="{{ post.url }}">
+                  {% endif %}
+                    <h2 class="title">{{ post.title | escape | replace: "\`", "'" }}</h2>
+                  </a>
+                  <span class="date">
+                    {% include article_icons.html post=post %}
+                  </span>
+                  <span class="date">
+                    {{ post.date | date: date_format }}
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag={{ site.team_sites[post.site].name }}'"
+                  class="btn btn-success btn-xs tag-element" role="button">{{ site.team_sites[post.site].name }}</a>
+                  {% include article_tags.html post=post exclude_icons=true %}
+                </div>
+                <div class="news-content">
+                  <div>{{ post.excerpt }}</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+{% endfor %}
+  }
+
+  window.onload = load;
+</script>
+<section class="page-header">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h1>{{ site.team_sites[key].name }} News</h1>
     </div>
-{% if mod == premod %}
-    </div>
-{% endif %}
-  {% endfor %}
+  </div>
 </section>
+
+<div id="search-result"></div>
+
+
+<section id="news-list"></section>
