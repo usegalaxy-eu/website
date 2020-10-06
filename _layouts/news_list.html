@@ -6,7 +6,6 @@ layout: default
 {% assign key_length = key | size %}
 
 {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
-<!--  search script-->
 {% if key_length == 0 %}
   {% assign posts = site.posts | sort:'date' | reverse %}
 {% else %}
