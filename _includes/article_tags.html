@@ -9,7 +9,8 @@
         {% if tag != "release" %}
         {% if tag != "job" %}
         {% if tag != "video" %}
-        <span class="label label-primary">{{ tag }}</span>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag={{ tag }}'"
+           class="btn btn-primary btn-xs tag-element" role="button">{{ tag }}</a>
         {% endif %}
         {% endif %}
         {% endif %}
@@ -20,6 +21,7 @@
         {% endif %}
         {% endif %}
     {% else %}
-        <span class="label label-primary">{{ tag }}</span>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag={{ tag }}'"
+           class="btn btn-primary btn-xs tag-element" role="button">{{ tag }}</a>
     {% endif %}
 {% endfor %}

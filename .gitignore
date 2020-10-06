@@ -15,3 +15,7 @@ _site/
 .sass-cache
 .git-metadata
 .tweet-cache
+
+
+# IDE 
+.idea/
