@@ -1,5 +1,5 @@
 ---
-site: 
+site: freiburg
 tags:
 title: "ELIXIR BioHackathon Europe"
 starts: 2020-11-09

@@ -1,5 +1,5 @@
 ---
-site: 
+site: freiburg
 tags:
 title: "Galaxy Developer Roundtable"
 starts: 2020-09-17
