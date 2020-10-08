@@ -4,11 +4,6 @@ title: 'New Paper on "The Transcription Factor ETV1 Induces Atrial Remodeling an
 doi: "10.1371/journal.ppat.1008643"
 tags:
 - paper
-supporters:
-- denbi
-- elixir
-- crc992
-- eosc
 ---
 
 Carolin Rommel, from the Institute of Experimental and Clinical Pharmacology and Toxicology, recently published her
