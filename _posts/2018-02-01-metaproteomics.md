@@ -4,7 +4,7 @@ tags: [paper]
 title: Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework
 ---
 
-    Clemens and the GalaxyP team have published a new article about metaproteomics and Galaxy. [Learn more about it](https://www.mdpi.com/2227-7382/6/1/7).
+Clemens and the GalaxyP team have published a new article about metaproteomics and Galaxy. [Learn more about it](https://www.mdpi.com/2227-7382/6/1/7).
 
 ## Abstract
 
