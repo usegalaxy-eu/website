@@ -1,5 +1,5 @@
 ---
-site: 
+site: freiburg
 tags:
 title: "3rd de.NBI Cloud User Meeting Online"
 starts: 2020-10-08
