@@ -7,6 +7,7 @@ ends: 2020-10-21
 organiser:
 location: online
 supporters:
+external: https://galaxyproject.org/events/2020-10-papercuts/
 ---
 
 Paper cuts are annoying but easy to fix bugs. We plan to have a one-day contribution fest, dedicated to reducing Paper cuts in Galaxy and its ecosystem. It will be a **24-hours event to span all time zones** with our worldwide community. 
