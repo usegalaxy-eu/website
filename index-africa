@@ -1,7 +1,7 @@
 ---
 layout: subsite-galaxy
 website: https://africa.usegalaxy.eu
-subdomain: africa
+subdomain: Africa
 ---
 
 # Welcome to africa.usegalaxy.eu, the African galaxy server
@@ -28,4 +28,3 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 # Workflows
 # References
 
-{% bibliography --cited --prefix index-africa --group_by none %}
