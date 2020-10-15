@@ -5,6 +5,7 @@ layout: default-galaxy
 #maincontainer {
 width: 100% !important;
 padding-left: 0px !important;
+padding-right: 0px !important;
 }
 
 .mcard {
