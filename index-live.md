@@ -66,7 +66,7 @@ margin: auto;
 <div class="live-header-text">
     Welcome to the live instance of the European Galaxy server. This is your gateway to start interactive tools, such as
     <a href="https://jupyter.org/">Jupyter</a>, <a href="https://rstudio.com/">RStudio</a> or other web-applications.
-    Each Interactive Tool runs in its own container on the <a href="https://www.denbi.de/cloud" target="_blank">de.NBI-cloud</a>. 
+    Each Interactive Tool runs in its own container on the <a href="https://www.denbi.de/cloud" target="_blank">de.NBI-cloud</a>.
     Every <b>registered</b> user can start up to 10 different interactive tools simultanously and can keep them running upto 30 days.
     You can interact with Galaxy via the API and in Jupyter and RStudio we have added convinient functions (put/get) to transfer data
     back and forth between Galaxy and Jupyter resp. RStudio. Of course you can also store your entire Notebook or R session back to Galaxy and
@@ -74,13 +74,13 @@ margin: auto;
     <br/>
     If you start an Interactive tool it will keep spinning in a yellow state as long as the Container is running. To open your Tool you open the link
     at <a href="https://live.usegalaxy.eu/interactivetool_entry_points/list" target="_top">User → Active InteractiveTools</a>. The eye icon of your Galaxy dataset
-    is not working yet. A <a href="https://training.galaxyproject.org/training-material/topics/galaxy-ui/tutorials/jupyterlab/tutorial.html">Jupyter</a> and <a href="https://training.galaxyproject.org/training-material/topics/galaxy-ui/tutorials/rstudio/tutorial.html">RStudio</a> tutorial is provided by the <a href="https://training.galaxyproject.org">Galaxy training Network</a>. 
+    is not working yet. A <a href="https://training.galaxyproject.org/training-material/topics/galaxy-ui/tutorials/jupyterlab/tutorial.html">Jupyter</a> and <a href="https://training.galaxyproject.org/training-material/topics/galaxy-ui/tutorials/rstudio/tutorial.html">RStudio</a> tutorial is provided by the <a href="https://training.galaxyproject.org">Galaxy training Network</a>.
     <br/>
     Enjoy!
 </div>
 <div class="flex-container">
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_jupyter_notebook" target="_top">
-      <img class="card-img-top" src="https://jupyter.org/assets/main-logo.svg" title="Jupyter Lab with various kernerls including Python, R and Julia" />
+      <img class="card-img-top" src="/assets/media/interactive/jupyter.svg" title="Jupyter Lab with various kernerls including Python, R and Julia" />
       <p class="textcard">Jupyter lab for Python, R and Julia</p>
     </a>
 
@@ -158,7 +158,7 @@ margin: auto;
       <img class="card-img-top" src="/assets/media/interactive/jp-climate.png" title="Jupyter Lab with Python ecosystem for ocean/atmosphere/land/climate science. The list of packages used in this image is similar to what is available for Pangeo" />
       <p class="textcard">Jupyter lab for ocean / atmosphere / land / climate python ecosystem</p>
     </a>
-    
+
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_panoply" target="_top">
       <img class="card-img-top" src="/assets/media/interactive/panoply.png" title="Panoply plots geo-referenced and other arrays from netCDF, HDF, and other datasets." />
       <p class="textcard">Panoply netCDF Data Viewer</p>
