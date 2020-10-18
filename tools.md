@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Galaxy EU tools
+# European Galaxy tools (2516 and counting)
 <hr/>
 <h3>Get Data</h3>
 <a href="https://usegalaxy.eu/root?tool_id=dbbuilder" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Protein Database Downloader</button></a>
