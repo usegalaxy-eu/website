@@ -151,6 +151,8 @@ header_links:
           url: /people
         - name: Citations
           url: /citations
+        - name: Tools
+          url: /tools
         - name: About
           url: /about
     freiburg:
