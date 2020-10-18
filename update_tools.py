@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import requests
-import urllib.parse
 r = requests.get('https://usegalaxy.eu/api/tools')
 
 blurb = """---
