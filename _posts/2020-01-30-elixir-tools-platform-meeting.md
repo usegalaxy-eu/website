@@ -1,5 +1,5 @@
 ---
-site: [freiburg, belgium, pasteur]
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [report]
 title: ELIXIR tools platform meeting and Container SIS meeting in Paris
 supporters:

@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [devops]
 title: TIaaS Calendar and Stats site
 location: Freiburg, Germany

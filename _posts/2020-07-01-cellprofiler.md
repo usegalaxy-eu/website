@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: "CellProfiler now available in Galaxy"
 tags: [tools, training]
 supporters:

@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: October Galactic News!
 tags: [galaxy]
 external: https://galaxyproject.org/news/2020-10-galaxy-update/

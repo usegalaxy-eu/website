@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: Galactic News
 tags: [galaxy]
 external: https://galaxyproject.org/news/2019-03-galaxy-update/

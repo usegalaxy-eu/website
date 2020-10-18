@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training]
 title: "Galaxy enhances Introduction to Genomics as part of Master program in Belgrade, by Nevena Veljkovic"
 location: Galaxy Europe
