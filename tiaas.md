@@ -39,6 +39,8 @@ jobs on a training machine, and, in the event there is no more capacity, they
 will run on the main queue. If a spot on a training VM opens up first, they
 will run there rather than continuing to wait in the main queue.
 
+Before the training, the students need to create an account in [useGalaxy.eu](https://usegalaxy.eu/) and the data will stay available once the training is finished.
+
 Some more general information about the TIaaS service:
 
 - [a Calendar](https://usegalaxy.eu/tiaas/calendar/) that shows when TIaaS trainings are booked
