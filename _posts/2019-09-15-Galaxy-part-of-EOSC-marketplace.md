@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [tools]
 title: The European Galaxy server is part of the EOSC marketplace
 supporters:

@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 - talk
 title: "The ELIXIR Tools Platform - solutions for COVID-19 research"

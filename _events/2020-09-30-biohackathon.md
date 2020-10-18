@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 title: "ELIXIR BioHackathon Europe"
 starts: 2020-11-09

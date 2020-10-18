@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [release]
 title: UseGalaxy.eu update to 18.05 and GDPR
 ---

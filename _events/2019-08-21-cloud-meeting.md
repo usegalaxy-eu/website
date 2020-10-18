@@ -1,5 +1,5 @@
 ---
-site: heidelberg
+site: freiburg
 tags: [training]
 title: 2nd de.NBI Cloud User Meeting 
 starts: 2019-09-03

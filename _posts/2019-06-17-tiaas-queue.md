@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [devops]
 title: TIaaS Queue Status
 location: Freiburg, Germany

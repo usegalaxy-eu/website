@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 title: "'Ask us anything!' session by the ELIXIR Tools Platform"
 starts: 2020-10-15

@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 3 steps to get your tool into Galaxy - A real-world example
 supporters:
 - denbi

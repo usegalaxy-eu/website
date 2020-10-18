@@ -2,7 +2,7 @@
 title: "Galaxy Africa Community Update"
 tags: [training, tiaas, gcc]
 location: online
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 supporters:
 - tiaas
 ---

@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: Galactic July News
 tags: [galaxy]
 external: https://galaxyproject.org/news/2020-07-galaxy-update/

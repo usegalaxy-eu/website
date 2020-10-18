@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title:  James Taylor (1979-2020)
 external: https://galaxyproject.org/news/2020-04-james-taylor/
 ---

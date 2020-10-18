@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [hackathon]
 title: Elixir Biohackathon 2019
 starts: 2019-11-18

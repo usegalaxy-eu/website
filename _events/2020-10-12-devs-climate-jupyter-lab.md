@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 title: "Climate JupyterLab as an interactive tool in Galaxy"
 starts: 2020-10-12
