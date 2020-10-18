@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training]
 title: GTN CoFest on Training Material
 starts: 2018-11-15

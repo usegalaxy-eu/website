@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [workshop]
 title: ELIXIR 2019 All Hands
 location:

@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 - training
 title: "Galaxy-ELIXIR Webinar 1: Introduction to Galaxy and the Galaxy workflows for SARS-CoV-2 data analysis"

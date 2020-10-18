@@ -1,5 +1,5 @@
 ---
-site: 
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 title: "ELIXIR Bioinformatics Industry Forum"
 starts: 2020-04-28

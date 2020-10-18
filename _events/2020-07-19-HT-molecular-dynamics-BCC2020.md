@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 - training
 title: High-throughput molecular dynamics with Galaxy

@@ -1,6 +1,6 @@
 ---
-site: freiburg
-tags: [hackaton]
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+tags: [hackathon]
 title: "WirVsVirus Hackathon"
 starts: 2020-03-20
 ends: 2020-03-22

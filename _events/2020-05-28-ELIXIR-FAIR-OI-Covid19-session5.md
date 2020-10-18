@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 - training
 title: "Galaxy-ELIXIR Webinar 5: Behind the scenes - Global Open Infrastructures at work"

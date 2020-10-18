@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training]
 title: Galaxy Training Network day - (online) CoFest and community call
 starts: 2020-11-19
