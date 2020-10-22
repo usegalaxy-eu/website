@@ -14,7 +14,7 @@ You will find...
 - CellProfiler tools integrated into Galaxy,
 - 'Drug Design and Screening against SARS-CoV-2 Mpro' using Galaxy,
 - the latest Galaxy workflows in COVID-19 research,
-- the ChemicalToolbox paper by Simon Bray, 
+- the ChemicalToolbox paper by Simon Bray and others,
 - the Pulsar Network as a distributed job execution system,
 - preprints about teaching practices during lock-down using Galaxy,
 - preprint about Training Infrastructure as a Service,
