@@ -250,6 +250,10 @@ genouest:
         name: Stéphanie Robin
         title: INRAE Engineer, BIPAA team member
         email: stephanie.robin@inrae.fr
+    mboudet:
+        name: Matéo Boudet
+        title: INRAE Engineer
+        email: mateo.boudet@inrae.fr
 
 elixir-it:
     Federico77z:
