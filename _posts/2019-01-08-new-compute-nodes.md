@@ -1,7 +1,7 @@
 ---
 site: freiburg
 tags: [devops, release]
-title: "New hardware: 8x1TB memory nodes"
+title: "New hardware: 8 x 1 TB memory nodes"
 location: Galaxy Europe
 supporters:
  - denbi

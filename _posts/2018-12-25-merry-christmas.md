@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [devops]
 title: Gajan Kristnaskon kaj bonan novjaron!
 location: Galaxy Europe

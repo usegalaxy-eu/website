@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'de.NBI Training Infrastructure Feedback from Helena Rasche'
 tags: [training, tiaas, denbi]
 supporters:

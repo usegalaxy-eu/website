@@ -106,10 +106,11 @@ freiburg:
         location: "Build.: 079, Room: -1015"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: gmauro
+        orcid: 0000-0002-5335-545X
 
     simonbray:
         name: Simon Bray
-        title: M.Sc., Researcher
+        title: M.Sc. Biochem. Biophys., Researcher
         email: sbray@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54127
         location: "Build.: 079, Room: -1015"
@@ -164,7 +165,19 @@ freiburg:
         website: http://leendertse.eu
         linkedin: JanLeendertse
         researchgate: JanLeendertse
-        
+ 
+    beatrizserrano:
+        name: Beatriz Serrano-Solano
+        title: Ph.D., Researcher
+        email: serranob@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1006"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: beatrizserrano
+        twitter: Birthae
+        linkedin: beatriz-serrano
+        orcid: 0000-0002-5862-6132
+        researchgate: Beatriz_Serrano-Solano
+     
         
 erasmusmc:
     andrew-emc:
@@ -237,6 +250,10 @@ genouest:
         name: Stéphanie Robin
         title: INRAE Engineer, BIPAA team member
         email: stephanie.robin@inrae.fr
+    mboudet:
+        name: Matéo Boudet
+        title: INRAE Engineer
+        email: mateo.boudet@inrae.fr
 
 elixir-it:
     Federico77z:

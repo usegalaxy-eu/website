@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [release]
 title: Native support for Elixir-AAI in Galaxy v.19.05
 supporters:

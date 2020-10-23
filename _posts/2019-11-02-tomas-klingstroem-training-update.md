@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'Training update from Tomas Klingström'
 tags: [training, tiaas]
 supporters:

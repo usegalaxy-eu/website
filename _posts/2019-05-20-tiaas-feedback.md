@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training, tiaas]
 title: "Another successful Galaxy workshop in Melbourne"
 supporters:

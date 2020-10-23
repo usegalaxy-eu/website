@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'RNA-Seq Training feedback from Simon Moxon'
 tags: [training, tiaas]
 supporters:

@@ -1,7 +1,7 @@
 <div class="item carousel-item jumbotron active">
   <h2 class="display-3">Domain-specific European Galaxies</h2>
   <div class="col-md-12">
-    <p>UseGalaxy.eu hosts several domain specific versions of the usegalaxy.eu server. You can access any of these servers and find all of your data, with a set of tools focused on one specific domain.</p>
+    <p>UseGalaxy.eu hosts several domain-specific versions of the usegalaxy.eu server. You can access any of these servers and find data and tools focused on the following research areas:</p>
 <style type="text/css">
 .domain-button {
 	padding-top: 0.5em;
@@ -17,7 +17,8 @@ a .domain-button:hover {
 	<div class="row">
 {% for page in site.pages %}
 	{% if page.layout == "subsite-galaxy" %}
-	<a href="https://{{ page.url | remove: '/index-' | remove: '.html' }}.usegalaxy.eu">
+	<a href="https://{{ page.url | remove: '/index-' | remove: '.html' }}.usegalaxy.eu"
+	   target="_blank" rel="noopener" >
 		<div class="col-xs-6 col-sm-6 col-md-4 domain-button">
 		<b>{{ page.url | remove: '/index-' | remove: '.html' }}</b>.usegalaxy.eu
 		</div>

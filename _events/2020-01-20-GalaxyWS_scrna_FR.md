@@ -33,7 +33,7 @@ To apply for attendance, please sign in [here](https://forms.gle/C7wW9NPj3WgwW6d
 
 #### [ **Event Postponed** due to Coronavirus ]
 
-We apologies for any inconvenience, and will update this event page as soon as we are able to resume the workshop. All currently allocated places will be saved and we will email you to reconfirm your participation in the next single-cell workshop.
+We apologise for any inconvenience, and will update this event page as soon as we are able to resume the workshop. All currently allocated places will be saved and we will email you to reconfirm your participation in the next single-cell workshop.
 
 **********
 

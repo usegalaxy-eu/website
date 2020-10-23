@@ -1,0 +1,96 @@
+{% assign page_dir = page.dir | split:'/' %}
+{% assign key = page_dir[1] | default: page.site %}
+{% assign key_length = key | size %}
+
+{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
+{% if page.layout != "news_list-galaxy" %}
+  {% if key_length == 0 %}
+    {% assign posts = site.posts | sort:'date' | reverse %}
+  {% else %}
+    {% if site.team_sites[key].private_news == false or key == "galaxy" %}
+      {% assign posts = site.posts | sort:'date' | reverse %}
+    {% else %}
+      {% assign posts = site.posts | where:'site', key | sort:'date' | reverse %}
+    {% endif %}
+  {% endif %}
+{% else %}
+  {% if key_length == 0 %}
+    {% assign posts = site.posts_plain | sort:'date' | reverse %}
+  {% else %}
+    {% if site.team_sites[key].private_news == false or key == "galaxy" %}
+      {% assign posts = site.posts_plain | sort:'date' | reverse %}
+    {% else %}
+      {% assign posts = site.posts_plain | where:'site', key | sort:'date' | reverse %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+<script>
+  const load = () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const userTag = urlParams.get('tag');
+    let div;
+    let tags = [];
+    let counter = 0;
+    let news = $("#news-list");
+
+{% for post in posts %}
+
+     {% for tag in post.tags %}
+      tags.push(`{{ tag | ecape }}`)
+     {% endfor %}
+      tags.push(`{{ site.team_sites[post.site].name | ecape }}`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 {{post.tags}} news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  {% if post.external %}
+                    <a href="{{ post.external }}">
+                  {% else %}
+                    <a href="{{ post.url }}">
+                  {% endif %}
+                    <h2 class="title">{{ post.title | escape | replace: "\`", "'" }}</h2>
+                  </a>
+                  <span class="date">
+                    {% include article_icons.html post=post %}
+                  </span>
+                  <span class="date">
+                    {{ post.date | date: date_format }}
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag={{ site.team_sites[post.site].name }}'"
+                  class="btn btn-success btn-xs tag-element" role="button">{{ site.team_sites[post.site].name }}</a>
+                  {% include article_tags.html post=post exclude_icons=true %}
+                </div>
+                <div class="news-content">
+                  <div>{{ post.excerpt }}</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+{% endfor %}
+  }
+
+  window.onload = load;
+</script>
+<section class="page-header">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h1><a href="javascript:window.location.href=window.location.href.split('?')[0]">{{ site.team_sites[key].name }} News </a></h1>
+    </div>
+  </div>
+</section>
+
+<section id="news-list"></section>

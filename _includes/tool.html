@@ -13,7 +13,7 @@
                 {%- endif -%}
 		{%- assign found = true -%}
 		{%- if page.subdomain -%}
-			<a href="https://{{ page.subdomain }}.usegalaxy.eu/root?tool_id={{ tool[0] }}" target="_top" title="{{ title }}" >{{ label }}</a>
+			<a href="https://{{ page.subdomain }}.usegalaxy.eu/root?tool_id={{ tool[1] }}" target="_top" title="{{ title }}" >{{ label }}</a>
 		{%- else -%}
 			<a href="https://usegalaxy.eu/root?tool_id={{ tool[1] }}" target="_top" title="{{ title }}" >{{ label }}</a>
 		{%- endif -%}

@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'Training Infrastructure Feedback from Denny Popp'
 tags: [training, tiaas]
 supporters:

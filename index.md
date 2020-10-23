@@ -39,4 +39,4 @@ Application deadline is August 1, 2020 (Midnight EST). You do not need to be aff
   {% include home_done.html %}
 </div>
 
-{% include home_carousel_involved.html %}
+<!--{% include home_carousel_involved.html %}-->

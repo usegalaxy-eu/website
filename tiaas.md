@@ -39,6 +39,8 @@ jobs on a training machine, and, in the event there is no more capacity, they
 will run on the main queue. If a spot on a training VM opens up first, they
 will run there rather than continuing to wait in the main queue.
 
+Before users can join a specific piece of training, they need to be logged into the [European Galaxy server](https://usegalaxy.eu/). Once the training is over, the data will stay available for further use. However, we encourage you to clean up all the histories whenever this data will not be used anymore.
+
 Some more general information about the TIaaS service:
 
 - [a Calendar](https://usegalaxy.eu/tiaas/calendar/) that shows when TIaaS trainings are booked
