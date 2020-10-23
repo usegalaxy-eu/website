@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: 'New Paper on "A single-cell RNA-sequencing training and analysis suite using the Galaxy framework"'
+title: 'New Paper "A single-cell RNA-sequencing training and analysis suite using the Galaxy framework"'
 doi: "10.1093/gigascience/giaa102"
 tags:
 - paper
