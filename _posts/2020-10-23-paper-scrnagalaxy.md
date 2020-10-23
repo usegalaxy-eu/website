@@ -1,29 +1,13 @@
 ---
 site: freiburg
+title: 'New Paper on "A single-cell RNA-sequencing training and analysis suite using the Galaxy framework"'
+doi: "10.1093/gigascience/giaa102"
 tags:
 - paper
 - training
-title: "Galaxy scRNA-seq Training Paper"
-starts: 2020-10-22
-ends: 2020-10-22
-organiser:
-  name: Freiburg Galaxy Team
-  email: galaxy@informatik.uni-freiburg.de
-location: website
 supporters:
 - unifreiburg
-- denbi
-# special hiding of footer since we want to do it manually.
-hidefooter: true
 ---
-
-
-**Galaxy single-cell RNA-seq Training Paper**
-
-We are happy to announce [our single-cell RNA-seq Galaxy Training paper](https://academic.oup.com/gigascience/article/9/10/giaa102/5931798) has been published in *GigaScience*!
-
-
-**Abstract:**
 
 _Background_  
 The vast ecosystem of single-cell RNA-sequencing tools has until recently been plagued by an excess of diverging analysis strategies, inconsistent file formats, and compatibility issues between different software suites. The uptake of 10x Genomics datasets has begun to calm this diversity, and the bioinformatics community leans once more towards the large computing requirements and the statistically driven methods needed to process and understand these ever-growing datasets.
@@ -34,4 +18,5 @@ Here we outline several Galaxy workflows and learning resources for single-cell 
 _Conclusions_  
 The reproducible and training-oriented Galaxy framework provides a sustainable high-performance computing environment for users to run flexible analyses on both 10x and alternative platforms. The tutorials from the Galaxy Training Network along with the frequent training workshops hosted by the Galaxy community provide a means for users to learn, publish, and teach single-cell RNA-sequencing analysis.
 
-
+<br>
+{% twitter https://twitter.com/gxytraining/status/1318532250640658438 %}
