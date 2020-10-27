@@ -2,7 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: 
 - hackathon
-title: Galaxy Interactive Tools Virtual Hackathon
+title: Hackathon sur les outils interactifs de Galaxy (GxIT)
 starts: 2020-12-07
 ends: 2020-12-10
 organiser: 
