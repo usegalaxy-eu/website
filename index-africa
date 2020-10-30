@@ -1,7 +1,7 @@
 ---
 layout: subsite-galaxy
 website: https://africa.usegalaxy.eu
-subdomain: Africa
+subdomain: africa
 ---
 
 ![African Galaxy](68950141.png){:.sc-intro-left}
@@ -47,4 +47,4 @@ Machine learning
   * Deep learning
   
 # Appreciation
-We sincerely appreciate the efforts of all individuals and their organizations for supporting the African Galaxy Instance. Join the community on [here](https://gitter.im/GalaxyAfrica/community)
+We sincerely appreciate the efforts of all individuals and their organizations for supporting the African Galaxy Instance. Join the community [here](https://gitter.im/GalaxyAfrica/community)
