@@ -1,7 +1,7 @@
 ---
 site: freiburg
 title: "Laborjournal article about Galaxy"
-tags: [paper]
+tags: [article]
 supporters:
  - denbi
  - elixir

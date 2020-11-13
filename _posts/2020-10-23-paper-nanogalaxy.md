@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: 'New Paper on "NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy"'
+title: 'New Paper "NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy"'
 doi: "10.1093/gigascience/giaa105"
 tags:
 - paper

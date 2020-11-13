@@ -4,7 +4,7 @@ title:  Scientific Infrastructure for Virus Research
 tags: 
  - de.NBI
  - ELIXIR
- - eosc
+ - EOSC-Life
 external: https://www.pr.uni-freiburg.de/pm-en/press-releases-2020/scientific-infrastructure-for-virus-research?set_language=en
 ---
 

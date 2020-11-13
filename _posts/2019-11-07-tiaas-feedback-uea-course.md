@@ -1,10 +1,10 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'RNA-Seq Training feedback from Simon Moxon'
-tags: [training, tiaas]
+tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- tiaas
+- TIaaS
 ---
 
 I am an associate professor at the [University of East Anglia](https://www.uea.ac.uk/) in the UK and I have been wanting to teach undergraduate biology students some practical skills 

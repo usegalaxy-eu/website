@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: New Paper on "Gene expression in immortalized versus primary isolated cardiac endothelial cells"
+title: New Paper "Gene expression in immortalized versus primary isolated cardiac endothelial cells"
 doi: "10.1038/s41598-020-59213-x"
 tags:
 - paper

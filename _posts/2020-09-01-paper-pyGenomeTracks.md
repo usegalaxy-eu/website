@@ -1,9 +1,12 @@
 ---
 site: freiburg
-title: 'New Paper on "pyGenomeTracks: reproducible plots for multivariate genomic data sets"'
+title: 'New Paper "pyGenomeTracks: reproducible plots for multivariate genomic data sets"'
 doi: "10.1093/bioinformatics/btaa692"
 tags:
 - paper
+- CRC992
+- de.NBI
+- ELIXIR
 supporters:
 - denbi
 - elixir

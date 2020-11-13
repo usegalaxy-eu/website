@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: 'New Paper on "The Transcription Factor ETV1 Induces Atrial Remodeling and Arrhythmia."'
+title: 'New Paper "The Transcription Factor ETV1 Induces Atrial Remodeling and Arrhythmia."'
 doi: "10.1371/journal.ppat.1008643"
 tags:
 - paper

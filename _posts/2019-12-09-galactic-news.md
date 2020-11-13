@@ -1,7 +1,9 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: Galactic December News
-tags: [galaxy]
+tags: 
+- galaxy
+- newsletter
 external: https://galaxyproject.org/news/2019-12-galaxy-update/
 ---
 

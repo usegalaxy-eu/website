@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: "Survey of metaproteomics software tools for functional microbiome analysis"
+title: New Paper "Survey of metaproteomics software tools for functional microbiome analysis"
 tags: [paper]
 doi: "10.1101/2020.01.07.897561"
 supporters:

@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: New Paper on "Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome"
+title: New Paper "Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome"
 tags: [paper]
 ---
 
