@@ -2,7 +2,7 @@
 site: freiburg
 title: 'BeerDEcoded: unofficial kickoff'
 external: https://streetscience.community/events/2018-11-10-first_workshop/
-tags: [training]
+tags: [training, streetscience, society]
 location: Freiburg, Germany
 ---
 

@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: 
-- EOSC-Life
+- grants
 title: EOSC-Life Open Calls
 supporters:
 - eosc

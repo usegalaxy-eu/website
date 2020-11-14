@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 - training
+- COVID-19
 title: "Galaxy-ELIXIR Webinar 2: Genomics/Variant Calling"
 starts: 2020-05-07
 ends: 2020-05-07

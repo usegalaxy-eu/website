@@ -2,7 +2,7 @@
 site: freiburg
 title: Freiburg Galaxy Team has an open position!
 location: Freiburg, Germany
-tags: [job]
+tags: [jobs]
 ---
 
 The Freiburg Galaxy Team is looking for a JavaScript developer.

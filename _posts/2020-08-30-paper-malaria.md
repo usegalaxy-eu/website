@@ -4,6 +4,7 @@ title: New Paper "An epigenetic map of malaria parasite development from host to
 doi: "10.1038/s41598-020-63121-5"
 tags:
 - paper
+- citations
 ---
 
 <br>

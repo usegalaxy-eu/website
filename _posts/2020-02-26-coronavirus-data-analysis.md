@@ -1,7 +1,7 @@
 ---
 site: freiburg
 title: "Coronavirus data analysis by University of Freiburg"
-tags: [de.NBI, ELIXIR]
+tags: [COVID-19, data]
 external: https://www.pr.uni-freiburg.de/pm-en/press-releases-2020/coronavirus-data-analysis?set_language=en
 ---
 

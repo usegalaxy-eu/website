@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [tools]
+tags: [tools, poster]
 title: Integrative meta-omics analysis - Metagenomics, Metatranscriptomics, Metaproteomics
 supporters:
  - denbi

@@ -1,6 +1,6 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-tags: [EOSC-Life, newsletter]
+tags: [newsletter]
 title: The EOSC-Life newsletter is out!
 supporters:
 - eosc

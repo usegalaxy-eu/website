@@ -4,10 +4,8 @@ title: 'New Paper "No more business as usual: Agile and effective responses to e
 doi: "10.1371/journal.ppat.1008643"
 tags:
 - paper
-- de.NBI
-- ELIXIR
-- CRC992
-- EOSC-Life
+- COVID-19
+- data
 supporters:
 - denbi
 - elixir

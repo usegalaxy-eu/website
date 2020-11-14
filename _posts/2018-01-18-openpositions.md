@@ -1,6 +1,7 @@
 ---
 site: freiburg
 title: Freiburg Galaxy Team has open positions!
+tags: jobs
 location: Freiburg, Germany
 ---
 

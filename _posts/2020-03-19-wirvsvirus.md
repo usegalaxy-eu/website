@@ -1,10 +1,10 @@
 ---
 site: freiburg
 title: "WirVsVirus Hackathon"
-tags: [hackathon]
+tags: [hackathon, COVID-19]
 ---
 
-We want to encourage you to participate and join the fight against Covid-19.
+We want to encourage you to participate and join the fight against COVID-19.
 
 The Federal Government of Germany is organising the [#WirVsVirus Hackathon](https://wirvsvirushackathon.org/), and we at Galaxy are here to help.
 

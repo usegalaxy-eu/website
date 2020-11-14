@@ -1,7 +1,7 @@
 ---
 site: freiburg
 title: de.NBI Network extended until 2021
-tags: [de.NBI]
+tags: [hardware]
 external: https://idw-online.de/de/news731433
 ---
 

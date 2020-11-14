@@ -1,6 +1,8 @@
 ---
 site: freiburg
 title: "Computational chemistry at BCC2020"
+tags:
+- GCC
 supporters:
  - galaxy-europe
  - eosc

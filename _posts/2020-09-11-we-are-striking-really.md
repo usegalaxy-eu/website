@@ -1,7 +1,7 @@
 ---
 site: freiburg
 title: Enough talking - time to act!
-tags: [s4f]
+tags: [s4f, society]
 ---
 
 September the 25th will see the next global climate strike! 

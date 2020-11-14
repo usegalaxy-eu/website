@@ -3,7 +3,7 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: Exciting progress in the ELIXIR Galaxy community
 tags:
   - galaxy
-  - elixir
+  - report
 external: https://elixir-europe.org/news/galaxy-europe-2020
 ---
 

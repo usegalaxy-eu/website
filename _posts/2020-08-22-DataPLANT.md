@@ -1,6 +1,8 @@
 ---
 site: freiburg
 title: Galaxy will join the NFDI-DataPLANT consortium in October 2020
+tags:
+- data
 supporters:
 - dataplant
 ---
