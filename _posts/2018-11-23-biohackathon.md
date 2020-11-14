@@ -2,7 +2,7 @@
 site: freiburg
 tags: [training, Bioconda, hackathon]
 title: ELIXIR Biohackathon in Paris
-supporter: ELIXIR
+supporter: elixir
 location: Paris, FR
 ---
 
