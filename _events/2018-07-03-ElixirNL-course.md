@@ -1,6 +1,6 @@
 ---
 site: erasmusmc
-tags: [training, Elixir]
+tags: [training]
 title: "Bioinformatics for Translational Medicine using Galaxy: see it, do it, teach it!"
 starts: 2018-10-17
 ends: 2018-10-19
