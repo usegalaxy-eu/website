@@ -24,10 +24,12 @@ This is a terrible explanation but basically:
 - the site should be fully functional at usegalaxy-eu.github.io. This site can be referenced in communication materials.
 - certain important subpages (/freiburg/, /news/, /events/) will be available from usegalaxy.eu/.../ in order to tie those to our galaxy instance more closely.
 
+
 ## Server Maintenance
 
 If you need to register a notice event, edit `_data/notices.yml`. When
 the event is over, you should comment out that file.
+
 
 ## Duplication
 
@@ -69,6 +71,7 @@ bundle exec jekyll post "My new post"
 
 The only required metadata are tags and title, you should **remove layout** as that is inherited / specified automatically. If you put `tools` in the tags a wrench icon will show with the post.
 
+
 ## Adding Events
 
 You will need to manually create an event in the folder `_events`. The metadata for events is a bit more complex, it looks like:
@@ -92,6 +95,39 @@ you easily regarding the event.
 Supplying a location is used in the user's calendar (if it supports it). E.g. when
 the user adds the event to their google calendar, they will see a map of the location
 and can easily get directions to it.
+
+## Labels for Posts and Events
+
+- article
+- Bioconda
+- citations
+- conda-forge
+- conference
+- COVID-19
+- data
+- devops
+- galaxy
+- GCC
+- grants
+- hackathon
+- hardware
+- jobs
+- MMOS
+- newsletter
+- paper
+- papercuts
+- PGP
+- poster
+- release
+- report
+- talk
+- TIaaS
+- tools
+- training
+- streetscience
+- society
+- s4f
+- video
 
 ## Adding new member sites
 
