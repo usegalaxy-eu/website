@@ -65,11 +65,12 @@ your history and start working with your data.
 
 Once the training is over, the data will stay available for further use. However, we encourage you to __clean up all the histories__ whenever this data will not be used anymore.
 
-To keep running this service __free for you we need your feedback__. You can:
+To keep running this free service for your trainees, __we need your feedback and support__. It would be great if you could:
 
-- Write a (short) blog post that we will __publish in our website__. You can find examples [here](https://galaxyproject.eu/news?tag=TIaaS).
+- Write a (short) blog post that we will __publish in our website__. You can find examples [here](/news?tag=TIaaS).
 - Fill out the [__GTN Survey__](https://galaxyproject.org/news/2020-01-training-feedback/).
 - Give feedback about a tutorial on [__GitHub__](https://github.com/galaxyproject/training-material/issues/1452).
+- Tweet about your training tagging [__@galaxyproject__](https://twitter.com/galaxyproject).
 
 
 
