@@ -94,6 +94,8 @@ eligible to request the use of this service.
 
    {% include button.html url="https://usegalaxy.eu/tiaas/new/" text="Request Training Infrastructure" %}
 
+   Please try to submit your application __at least two weeks in advance of the training__.
+
 2. With the information that you input in the form, we will:
   - estimate how many VMs are needed for your training to run smoothly and will ask for your feedback,
   - setup the private queue and give you a URL your users will access to join the training,
