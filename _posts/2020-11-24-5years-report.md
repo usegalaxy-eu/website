@@ -20,7 +20,7 @@ supporters:
 - egi
 ---
 
-Since the Galaxy project was started in Freiburg in 2010, it has evolved in such a way that it has become a crucial infrastructure that serves more than __22,000 researchers__, with more than __12 million jobs run__, __150 workshops__, and more than __5,000 trainees__ using TIaaS.
+Since the Galaxy project was started in Freiburg in 2010, it has evolved in such a way that it has become a crucial infrastructure that serves more than __22,000 researchers__, with more than __12 million jobs run__, __150 workshops__, and more than __5,000 trainees__ trained using TIaaS.
 
 ![Activity report](/assets/media/2020-11-24-activity-report.png)
 
