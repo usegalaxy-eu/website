@@ -34,7 +34,7 @@ In this project, some improvements on the RO-Crate-py [(Pull Request)](https://g
 
 ### [Hardening and Testing Galaxy cluster support with BioContainer](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/18)
 
-This project aimed at testing the Galaxy cluster support through Galaxy runners. In that direction, several [fixes](https://github.com/Laniakea-elixir-it/laniakea/issues/25) and [issues](https://github.com/galaxyproject/galaxy/issues/10677) were identified.
+This project aimed at testing the Galaxy cluster support through Galaxy runners. The project team spent most of the week working on the Chronos runner to revamp it and integrate the Chronos infrastructure into the docker-galaxy project. In that direction, several [fixes](https://github.com/Laniakea-elixir-it/laniakea/issues/25), [pull request](https://github.com/bgruening/docker-galaxy-stable/pull/574), and [issues](https://github.com/galaxyproject/galaxy/issues/10677) were identified.
 
 
 ### [An interface between Galaxy and disease maps](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/27)
