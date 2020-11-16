@@ -45,8 +45,9 @@ All the information related to this project can be found in [this repository](ht
 ### [Deploying biocontainers in orchestration environments for life science research](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/31)
 
 
-{% twitter https://twitter.com/Birthae/status/1327366734085582853?s=20 %}
 ### [bio.tools integration and sustainable development](https://github.com/elixir-europe/BioHackathon-projects-2020/blob/8f588223a2ca50ecb76cdf37fa5bfc21aa54e5d4/projects/11)
 
-Mutual meta data exchange among different biotools registries is the ultimate goal during of this project. While a lot has been archived, the development is still going on and will be continued. The corresponding github repo: https://github.com/bio-tools/content
+Mutual metadata exchange among different bio.tools registries is the ultimate goal of this project. While a lot has been achieved, the development is still ongoing and will be continued. The corresponding GitHub repo: https://github.com/bio-tools/content
 
+
+{% twitter https://twitter.com/Birthae/status/1327366734085582853?s=20 %}
