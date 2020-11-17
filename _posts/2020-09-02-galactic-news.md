@@ -1,7 +1,9 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: Galactic News! September Edition
-tags: [galaxy]
+tags: 
+- galaxy
+- newsletter
 external: https://galaxyproject.org/news/2020-09-galaxy-update/
 ---
 

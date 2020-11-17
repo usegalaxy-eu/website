@@ -1,7 +1,7 @@
 ---
 site: freiburg
 tags: [paper]
-title: "The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update"
+title: 'New Paper "The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update'
 ---
 
 The Galaxy project has published an 2018 update of the core Galaxy framwork with all the new features of the last two years.

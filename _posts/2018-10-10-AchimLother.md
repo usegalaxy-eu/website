@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: New Paper on "Endothelial cell mineralocorticoid receptors oppose VEGF-induced gene expression and angiogenesis"
+title: New Paper "Endothelial cell mineralocorticoid receptors oppose VEGF-induced gene expression and angiogenesis"
 tags: [paper]
 ---
 

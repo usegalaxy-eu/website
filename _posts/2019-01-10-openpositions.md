@@ -2,7 +2,7 @@
 site: freiburg
 title: The European Galaxy Team has open positions!
 location: Freiburg, Germany
-tags: [job]
+tags: [jobs]
 ---
 
 **The [European Galaxy Team](https://usegalaxy-eu.github.io/freiburg){:target="_blank"} is hiring!**

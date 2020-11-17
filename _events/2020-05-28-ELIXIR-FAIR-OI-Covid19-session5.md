@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 - training
+- COVID-19
 title: "Galaxy-ELIXIR Webinar 5: Behind the scenes - Global Open Infrastructures at work"
 starts: 2020-05-28
 ends: 2020-05-28

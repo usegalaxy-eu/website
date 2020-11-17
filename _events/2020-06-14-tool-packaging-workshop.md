@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 - training
+- Bioconda
 title: "Workshop on Tool Packaging at BCC2020"
 starts: 2020-07-18
 ends: 2020-07-18

@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 - training
+- COVID-19
 title: "Galaxy-ELIXIR Webinar 3: Cheminformatics - Screening of the main protease"
 starts: 2020-05-14
 ends: 2020-05-14

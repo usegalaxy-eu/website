@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [tools]
+tags: [tools, hackathon, data]
 title: "CORBEL staff visit program: Integration IDR - Galaxy"
 supporters:
 - denbi

@@ -1,7 +1,9 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: Galactic November News
-tags: [galaxy]
+tags: 
+- galaxy
+- newsletter
 external: https://galaxyproject.org/news/2019-11-galaxy-update/
 ---
 

@@ -1,9 +1,11 @@
 ---
 site: freiburg
-title: 'New Paper on "No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics"'
+title: 'New Paper "No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics"'
 doi: "10.1371/journal.ppat.1008643"
 tags:
 - paper
+- COVID-19
+- data
 supporters:
 - denbi
 - elixir

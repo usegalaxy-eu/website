@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: Combinatorial omics analysis reveals perturbed lysosomal homeostasis in collagen VII-deficient keratinocytes.
+title: New Paper "Combinatorial omics analysis reveals perturbed lysosomal homeostasis in collagen VII-deficient keratinocytes"
 tags: [paper]
 supporters:
  - denbi

@@ -1,6 +1,6 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-tags: [training]
+tags: [training, GCC]
 title: GCC registration is open and abstracts can be submitted until Friday
 location: Galaxy Europe
 ---

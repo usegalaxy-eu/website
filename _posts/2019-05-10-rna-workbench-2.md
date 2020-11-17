@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: "The RNA workbench 2.0: next generation RNA data analysis"
+title: 'New Paper "The RNA workbench 2.0: next generation RNA data analysis"'
 tags: [paper]
 doi: "10.1093/nar/gkz353"
 supporters:

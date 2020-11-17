@@ -1,9 +1,10 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-title: New Paper on "Sawfly Genomes Reveal Evolutionary Acquisitions That Fostered the Mega-Radiation of Parasitoid and Eusocial Hymenoptera"
+title: New Paper "Sawfly Genomes Reveal Evolutionary Acquisitions That Fostered the Mega-Radiation of Parasitoid and Eusocial Hymenoptera"
 doi: "10.1093/gbe/evaa106"
 tags:
 - paper
+- citations
 ---
 
 

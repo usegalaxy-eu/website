@@ -1,7 +1,7 @@
 ---
 site: freiburg
-title: "New article 'Selbst ist der Forscher: Big-Data-Analysen leicht gemacht'"
-tags: [paper]
+title: "New Article 'Selbst ist der Forscher: Big-Data-Analysen leicht gemacht'"
+tags: [article]
 supporters:
  - denbi
 ---

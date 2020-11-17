@@ -1,9 +1,10 @@
 ---
 site: freiburg
-title: New Paper on "Gene expression in immortalized versus primary isolated cardiac endothelial cells"
+title: New Paper "Gene expression in immortalized versus primary isolated cardiac endothelial cells"
 doi: "10.1038/s41598-020-59213-x"
 tags:
 - paper
+- citations
 ---
 
 Congratulation to [Achim Lother](https://www.herzzentrum.de/kliniken-fachbereiche/klinik-fuer-kardiologie-und-angiologie-i/grundlagenforschung/cardiovascular-pharmacology.html) and colleagues to their great publication! And thanks a lot for using the European Galaxy server for your data analysis. We are happy that it was helpful.

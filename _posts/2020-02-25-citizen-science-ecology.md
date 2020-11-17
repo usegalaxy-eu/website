@@ -1,7 +1,7 @@
 ---
 site: freiburg
 title: Crowdsourcing citizen science data on usegalaxy.eu
-tags: [de.NBI]
+tags: [society, data]
 external: https://galaxyproject.org/blog/2020-01-galaxy-ecology-citizen-science/
 ---
 

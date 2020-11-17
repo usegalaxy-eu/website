@@ -1,6 +1,6 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-tags: [bioconda]
+tags: [Bioconda]
 title: More than 8000 packages/containers in Bioconda/BioContainers from more than 1000 contributors
 supporters:
 - bioconda

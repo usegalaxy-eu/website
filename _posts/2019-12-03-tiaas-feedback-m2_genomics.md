@@ -1,10 +1,10 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'Training Infrastructure Feedback from Ambre Jousselin'
-tags: [training, tiaas]
+tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- tiaas
+- TIaaS
 ---
 
 At the end of November, we organized a 2-day workshop (reads quality, short and long reads genome assembly, reads mapping and RNAseq differential gene expression) for 12 master students.

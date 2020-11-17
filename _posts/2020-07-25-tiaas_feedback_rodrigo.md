@@ -1,10 +1,10 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'Training Infrastructure Feedback from Rodrigo Ortega Polo'
-tags: [training, tiaas]
+tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- tiaas
+- TIaaS
 author: Rodrigo Ortega Polo
 ---
 

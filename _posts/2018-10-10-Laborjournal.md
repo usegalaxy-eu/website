@@ -1,7 +1,7 @@
 ---
 site: freiburg
-title: "New article 'Datenanalyse mit dem Galaxy Server'"
-tags: [paper]
+title: "New Article 'Datenanalyse mit dem Galaxy Server'"
+tags: [article]
 supporters:
  - denbi
 ---
