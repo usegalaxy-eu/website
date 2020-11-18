@@ -1,7 +1,7 @@
 ---
 site: freiburg
 title: We are striking!
-tags: [s4f]
+tags: [s4f, society]
 ---
 
 The Freiburg Galaxy Team is striking tomorrow the [20th of September](https://globalclimatestrike.net).

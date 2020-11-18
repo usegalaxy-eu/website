@@ -1,8 +1,11 @@
 ---
 site: freiburg
 title: "The landscape of SARS-CoV-2 RNA modifications"
-tags: [paper]
-doi: "10.1101/2020.07.18.204362 "
+tags: 
+- paper
+- COVID-19
+- data
+doi: "10.1101/2020.07.18.204362"
 supporters:
  - denbi
  - unifreiburg

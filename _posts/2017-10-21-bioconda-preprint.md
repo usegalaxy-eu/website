@@ -1,7 +1,7 @@
 ---
 site: freiburg
-title: Our paper about BioConda on bioRXiv
-tags: [paper]
+title: Our paper about BioConda on bioRxiv
+tags: [paper, Bioconda]
 supporters:
  - denbi
  - elixir

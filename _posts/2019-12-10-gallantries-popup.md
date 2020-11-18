@@ -1,10 +1,10 @@
 ---
 site: freiburg
 title: 'Training Infrastructure Feedback from the Gallantries Project'
-tags: [training, tiaas]
+tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- tiaas
+- TIaaS
 author: erasche
 ---
 

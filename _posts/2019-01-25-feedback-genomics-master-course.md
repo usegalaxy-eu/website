@@ -1,11 +1,11 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-tags: [training]
+tags: [training, TIaaS]
 title: "Galaxy enhances Introduction to Genomics as part of Master program in Belgrade, by Nevena Veljkovic"
 location: Galaxy Europe
 supporters:
 - galaxy-europe
-- tiaas
+- TIaaS
 ---
 
 This semester, the [Faculty of Biology at the University of Belgrade](http://bg.ac.rs/en/members/faculties/FB.php){:target="_blank"} offered for the first time

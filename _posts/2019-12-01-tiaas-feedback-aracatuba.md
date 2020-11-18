@@ -1,10 +1,10 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'Training Infrastructure Feedback from Giovanni Widmer'
-tags: [training, tiaas]
+tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- tiaas
+- TIaaS
 ---
 
 Hi [Galaxy team](https://galaxyproject.eu/freiburg/)!

@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [workshop]
+tags: [training]
 title: ELIXIR 2018 All Hands
 location:
   city: Berlin

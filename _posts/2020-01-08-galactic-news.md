@@ -1,7 +1,9 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: Galactic January News
-tags: [galaxy]
+tags: 
+- galaxy
+- newsletter
 external: https://galaxyproject.org/news/2020-01-galaxy-update/
 ---
 

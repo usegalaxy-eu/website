@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [tools]
+tags: [tools, data]
 title: "118 new plant reference genomes and transcriptomes added to Galaxy Europe!"
 supporters:
 - denbi

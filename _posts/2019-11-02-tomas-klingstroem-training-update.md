@@ -1,10 +1,10 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'Training update from Tomas Klingström'
-tags: [training, tiaas]
+tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- tiaas
+- TIaaS
 ---
 
 In a world where climate zones are changing it is absolutely critical for agricultural scientists to collaborate across borders.

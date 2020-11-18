@@ -1,6 +1,6 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-tags: [workshop]
+tags: [training]
 title: ELIXIR 2019 All Hands
 location:
   city: Lisbon

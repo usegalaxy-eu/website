@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 - training
+- COVID-19
 title: "Galaxy-ELIXIR Webinar 4: Evolution of the Virus"
 starts: 2020-05-20
 ends: 2020-05-20

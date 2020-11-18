@@ -3,6 +3,7 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: The ELIXIR tools platform for COVID-19 research at the ECCB2020
 tags:
 - talk
+- COVID-19
 supporters:
 - denbi
 - elixir

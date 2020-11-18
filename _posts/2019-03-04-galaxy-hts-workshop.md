@@ -5,7 +5,7 @@ location: Freiburg, Germany
 tags: [training]
 ---
 
-Last week, the Freiburg Galaxy team taught a 5 day workshop on HTS data analysis in Freiburg!
+Last week, the Freiburg Galaxy team taught a 5-day workshop on HTS data analysis in Freiburg!
 
 <div class="multiple-img">
     <img src="/assets/media/2019-03-04-galaxy-hts-workshop.jpg" height="400px" alt="A successful Galaxy workshop in Freiburga" />

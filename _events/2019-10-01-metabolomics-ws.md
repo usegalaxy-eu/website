@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [workshop, training]
+tags: [training]
 title: "Metabolomics tool development workshop"
 starts: 2019-10-02
 ends: 2019-10-04

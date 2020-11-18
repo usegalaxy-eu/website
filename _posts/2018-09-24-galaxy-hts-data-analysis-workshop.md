@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: A successuful Galaxy HTS data analysis workshop
+title: A successful Galaxy HTS data analysis workshop
 location: Freiburg, Germany
 tags: [training]
 ---

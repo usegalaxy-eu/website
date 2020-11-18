@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [training]
+tags: [training, GCC]
 title: Vote for the Training during the next Galaxy Community Conference
 external: https://goo.gl/forms/lcPoMt4iZ8hwcdM12
 supporters:

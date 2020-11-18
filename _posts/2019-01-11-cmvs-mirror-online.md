@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [devops]
+tags: [devops, data]
 title: "Another European CVMFS mirror is online"
 location: Galaxy Europe
 supporters:

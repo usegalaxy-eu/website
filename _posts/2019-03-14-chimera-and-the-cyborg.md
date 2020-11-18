@@ -1,6 +1,6 @@
 ---
 site: freiburg
-title: "New Paper The Chimera and the Cyborg"
+title: 'New Paper "The Chimera and the Cyborg"'
 tags: [paper]
 doi: "10.25046/aj040201"
 supporters:

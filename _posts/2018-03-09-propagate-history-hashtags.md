@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [galaxy,tools,users,software-release]
+tags: [galaxy, tools, release]
 repo: anuprulez/apply_history_tags
 title: Propagating hashtags in a Galaxy history
 ---

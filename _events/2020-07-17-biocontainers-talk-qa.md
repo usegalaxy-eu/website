@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 - training
+- data
 title: "Biocontainers at the nf-core Hackathon"
 starts: 2020-07-17
 ends: 2020-07-17

@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 - training
+- data
 title: Reference data with CVMFS and remote jobs with Pulsar
 starts: 2020-07-18
 ends: 2020-07-18

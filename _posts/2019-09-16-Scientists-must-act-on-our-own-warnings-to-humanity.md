@@ -1,7 +1,7 @@
 ---
 site: freiburg
 title: Scientists must act on our own warnings to humanity
-tags: [s4f]
+tags: [s4f, society]
 ---
 
 From a recent [Nature article](https://www.nature.com/articles/s41559-019-0979-y):

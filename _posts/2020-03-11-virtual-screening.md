@@ -1,7 +1,7 @@
 ---
 site: freiburg
 title: Virtual screening against SARS-CoV-2 main protease
-tags: [tools]
+tags: [tools, COVID-19]
 supporters:
 - eosc
 author: simonbray

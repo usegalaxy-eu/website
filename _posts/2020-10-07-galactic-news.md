@@ -1,7 +1,9 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: October Galactic News!
-tags: [galaxy]
+tags: 
+- galaxy
+- newsletter
 external: https://galaxyproject.org/news/2020-10-galaxy-update/
 ---
 

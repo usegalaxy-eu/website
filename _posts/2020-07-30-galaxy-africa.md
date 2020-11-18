@@ -1,10 +1,10 @@
 ---
 title: "Galaxy Africa Community Update"
-tags: [training, tiaas, gcc]
+tags: [training, TIaaS, GCC]
 location: online
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 supporters:
-- tiaas
+- TIaaS
 ---
 During the July virtual meet-up of the Bioinformatics Hub of Kenya (BHKi), a training on Galaxy was conducted by Peter van Heusden ([SANBI](https://www.sanbi.ac.za/)) with 72 attendees registered from many different countries: Cote d'Ivoire, India, Kenya, Mali, Saudi Arabia, South Africa, Sudan, Tanzania, Uganda, ...
 

@@ -1,6 +1,8 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-tags: [galaxy, paper-cuts]
+tags: 
+- galaxy
+- papercuts
 title: The first Paper Cuts Community Fest was a success!
 supporters:
 - galaxy-europe

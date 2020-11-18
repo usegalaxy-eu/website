@@ -1,10 +1,10 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'Training Infrastructure Feedback from Maria Doyle'
-tags: [training, tiaas]
+tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- tiaas
+- TIaaS
 ---
 
 We recently had the privilege of using the usegalaxy.eu's new [Training

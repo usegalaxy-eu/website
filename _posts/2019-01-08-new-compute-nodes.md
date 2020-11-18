@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [devops, release]
+tags: [devops, hardware]
 title: "New hardware: 8 x 1 TB memory nodes"
 location: Galaxy Europe
 supporters:
@@ -9,7 +9,7 @@ supporters:
 ---
 
 Today we activated our brand new hardware. Thanks to the [Federal Ministry of Education and Research](https://www.bmbf.de/en/) we could extend the
-[de.NBI-Cloud](https://www.denbi.de/cloud) with 8x1TB nodes. This means more high-memory nodes for your memory intensive jobs, less waiting, faster results.
+[de.NBI-Cloud](https://www.denbi.de/cloud) with 8 x 1 TB nodes. This means more high-memory nodes for your memory intensive jobs, less waiting, faster results.
 Enjoy!
 
 ![Graph showing decrease in queued jobs with new nodes](/assets/media/2019-01-09-new-nodes.png)

@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [release, talk, video]
+tags: [talk, video, GCC]
 title: GCC2019 will be livestreamed
 author: hexylena
 ---
