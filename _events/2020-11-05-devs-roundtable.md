@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
-title: "Galaxy Working Groups: Distributing project guidance to the community"
+title: "Galaxy Working Groups: Distributing Galaxy Guidance"
 starts: 2020-12-10
 ends: 2020-12-10
 organiser:
