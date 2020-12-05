@@ -50,6 +50,7 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
+    jekyll-analytics (0.1.14)
     jekyll-compose (0.12.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-feed (0.15.0)
@@ -76,7 +77,7 @@ GEM
     mercenary (0.4.0)
     mini_portile2 (2.4.0)
     namae (1.0.1)
-    nokogiri (1.10.10)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     nokogumbo (2.0.2)
       nokogiri (~> 1.8, >= 1.8.4)
@@ -91,7 +92,7 @@ GEM
     rexml (3.2.4)
     rouge (3.22.0)
     safe_yaml (1.0.5)
-    sassc (2.4.0)
+    sassc (2.3.0)
       ffi (~> 1.9)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
@@ -107,6 +108,7 @@ DEPENDENCIES
   bibtex-ruby (>= 5.1.0)
   html-proofer
   jekyll (>= 4)
+  jekyll-analytics
   jekyll-compose
   jekyll-feed (~> 0.6)
   jekyll-scholar
