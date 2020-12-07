@@ -57,10 +57,11 @@ citation:
     citation_style: apa
     citation_locale: en
 
-jekyll_analytics:
-  Plausible:
-    domain: 'galaxyproject.eu'   # The domain configured in plausible
-    source: 'https://plausible.galaxyproject.eu/js/plausible.js' # The source of the javascript
+# Requires new release of jekyll_analytics
+#jekyll_analytics:
+  #Plausible:
+    #domain: 'galaxyproject.eu'   # The domain configured in plausible
+    #source: 'https://plausible.galaxyproject.eu/js/plausible.js' # The source of the javascript
 
 team_sites:
     freiburg:
