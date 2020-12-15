@@ -76,7 +76,7 @@ The workflows are available in the [Shared Workflows](https://metagenomics.usega
 
 The workflow quickly produces, from raw metagenomic or metatranscriptomic shotgun data, accurate and precise taxonomic assignations, wide extended functional results and taxonomically related metabolism information
 
-![](https://asaim.readthedocs.io/en/latest/_images/main_workflow.png)
+![ASaiM main workflow](/assets/media/2018-01-17-asaim_main_workflow.png)
 
 This workflow consists of
 
@@ -121,14 +121,14 @@ To analyze amplicon data, the **Mothur** and **QIIME** tool suites are available
 
 The tools used in the EBI Metagenomics pipeline are also available here and can be run as a [workflow](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-ebi-metagenomics-workflow-30){:target="_blank"} with the same steps as the [EBI Metagenomics pipeline (3.0)](https://www.ebi.ac.uk/metagenomics/pipelines/3.0){:target="_blank"}.
 
-![](https://asaim.readthedocs.io/en/latest/_images/ebi_metagenomics_workflow.png)
+![EBI Metagenomics Workflow](/assets/media/asaim/ebi_metagenomics_workflow.png)
 
 However, the parameters must be adjusted by the user as we could not find them in the EBI Metagenomics documentation.
 
 ## ASaiM-MT: Optimized workflow for metatranscriptomics data analysis
 While the shotgun workflow is suitable for both metagenomics and metatranscriptomics datasets, we also offer an enhanced workflow aimed specifically at metatranscriptomics data.
 
-![](https://asaim.readthedocs.io/en/latest/_images/asaim-mt_workflow.png)
+![ASaiM-MT workflow](/assets/media/asaim/asaim-mt_workflow.png){: width="50%"}
 
 The workflow is divided into 4 parts:
 
