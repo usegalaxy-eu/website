@@ -63,6 +63,9 @@ We then developed [several tutorials](https://galaxyproject.github.io/training-m
 
     In this tutorial the Standard Operating Procedure (SOP) for MiSeq data, developed by the creators of the Mothur software package, is perfomed within Galaxy.
 
+- [Metatranscriptomics analysis using microbiome RNA-seq data](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html)
+  Metatranscriptomics analysis enables understanding of how the microbiome responds to the environment by studying the functional analysis of genes expressed by the microbiome. In this tutorial, we will analyze time-series data from a microbial community inside a bioreactor.
+
 # Workflows
 
 To orchestrate tools and help users with their analyses, several [workflows](https://asaim.readthedocs.io/en/latest/workflows.html){:target="_blank"} are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).
@@ -121,6 +124,20 @@ The tools used in the EBI Metagenomics pipeline are also available here and can 
 ![](https://asaim.readthedocs.io/en/latest/_images/ebi_metagenomics_workflow.png)
 
 However, the parameters must be adjusted by the user as we could not find them in the EBI Metagenomics documentation.
+
+## ASaiM-MT: Optimized workflow for metatranscriptomics data analysis
+While the shotgun workflow is suitable for both metagenomics and metatranscriptomics datasets, we also offer an enhanced workflow aimed specifically at metatranscriptomics data.
+
+![](https://asaim.readthedocs.io/en/latest/_images/asaim-mt_workflow.png)
+
+The workflow is divided into 4 parts:
+
+1. **Preprocessing** - Process raw metatranscriptomics data to perform further analysis.
+2. **Taxonomy Quantitation** - Assignment of taxonomy along with abundance values and visualization.
+3. **Functional Quantitation** - metabolic assignment of identified functions and gene and pathway abundance annotation.
+4. **Taxonomy-Function Quantitation** - combine taxonomy and functional quantitation values into relative abundance values at different levels such as e.g. the abundance of a pathway between phyla.
+
+
 
 # References
 
