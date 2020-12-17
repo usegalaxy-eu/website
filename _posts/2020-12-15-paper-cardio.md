@@ -1,12 +1,10 @@
 ---
 site: freiburg
 title: 'New Paper "Proximity to injury, but neither number of nuclei nor ploidy define pathological adaptation and plasticity in cardiomyocytes"'
-doi: "10.1016/j.yjmcc.2020.11.012 "
+doi: "10.1016/j.yjmcc.2020.11.012"
 tags:
 - paper
 ---
-
-_Abstract_
 
 The adult mammalian heart consists of mononuclear and binuclear cardiomyocytes (CMs) with various ploidies. However, it remains unclear whether a variation in ploidy or number of nuclei is associated with distinct functions and injury responses in CMs, including regeneration. Therefore, we investigated transcriptomes and cellular as well as nuclear features of mononucleated and binucleated CMs in adult mouse hearts with and without injury. 
 
