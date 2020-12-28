@@ -5,8 +5,11 @@ tags: []
 supporters:
 ---
 
-[UseGalaxy.eu](https://usegalaxy.eu/) hosts several domain-specific versions of the usegalaxy.eu server. These domains are __featured interfaces__ that show a subset of the analysis tools, datasets and workflows relevant for different research areas:
+[UseGalaxy.eu](https://usegalaxy.eu/) hosts several domain-specific versions of the usegalaxy.eu server. 
 
+These domains are __featured interfaces__ that show a subset of the analysis tools, datasets and workflows relevant for different research areas. All the tools available in the different domains can be also accessed from [UseGalaxy.eu](usegalaxy.eu) and the __quota__ and data associated with the user account are shared through all the domains.
+
+Any community is welcome to create and maintain their own sub-domain within [UseGalaxy.eu](https://usegalaxy.eu/). So far, there are 22 sub-domains registered:
 
  RESEARCH AREA |  DOMAIN 
 -------------- | --------: 
@@ -35,5 +38,3 @@ Virology | [virology.usegalaxy.eu](https://virology.usegalaxy.eu)
 {: .table.table-striped }
 
 
-
-All the tools available in the different domains are also available in [UseGalaxy.eu](usegalaxy.eu) and the __quota__ and data associated with the user account are shared through all the domains.
