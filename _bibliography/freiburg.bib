@@ -16,6 +16,22 @@ layout: default
   journal = {Cancer Research}
 }
 
+@article{10.1093/gigascience/giaa152,
+    author = {Kumar, Anup and Rasche, Helena and Grüning, Björn and Backofen, Rolf},
+    title = "{Tool recommender system in Galaxy using deep learning}",
+    journal = {GigaScience},
+    volume = {10},
+    number = {1},
+    year = {2021},
+    month = {01},
+    abstract = "{Galaxy is a web-based and open-source scientific data-processing platform. Researchers compose pipelines in Galaxy to analyse scientific data. These pipelines, also known as workflows, can be complex and difficult to create from thousands of tools, especially for researchers new to Galaxy. To help researchers with creating workflows, a system is developed to recommend tools that can facilitate further data analysis.A model is developed to recommend tools using a deep learning approach by analysing workflows composed by researchers on the European Galaxy server. The higher-order dependencies in workflows, represented as directed acyclic graphs, are learned by training a gated recurrent units neural network, a variant of a recurrent neural network. In the neural network training, the weights of tools used are derived from their usage frequencies over time and the sequences of tools are uniformly sampled from training data. Hyperparameters of the neural network are optimized using Bayesian optimization. Mean accuracy of 98\\% in recommending tools is achieved for the top-1 metric.The model is accessed by a Galaxy API to provide researchers with recommended tools in an interactive manner using multiple user interface integrations on the European Galaxy server. High-quality and highly used tools are shown at the top of the recommendations. The scripts and data to create the recommendation system are available under MIT license at https://github.com/anuprulez/galaxy\_tool\_recommendation.}",
+    issn = {2047-217X},
+    doi = {10.1093/gigascience/giaa152},
+    url = {https://doi.org/10.1093/gigascience/giaa152},
+    note = {giaa152},
+    eprint = {https://academic.oup.com/gigascience/article-pdf/10/1/giaa152/35531816/giaa152.pdf},
+}
+
 @article{Wolff2020,
   doi = {10.1093/bioinformatics/btaa924},
   url = {https://doi.org/10.1093/bioinformatics/btaa924},
@@ -224,16 +240,6 @@ layout: default
   publisher = {Cold Spring Harbor Laboratory},
   author = {Joachim Wolff and Rolf Backofen and Bj\"{o}rn Gr\"{u}ning},
   title = {Loop detection using Hi-C data with {HiCExplorer}}
-}
-
-@article{Kumar2019,
-  doi = {10.1101/838599},
-  url = {https://doi.org/10.1101/838599},
-  year = {2019},
-  month = nov,
-  publisher = {Cold Spring Harbor Laboratory},
-  author = {Anup Kumar and Bj\"{o}rn Gr\"{u}ning and Rolf Backofen},
-  title = {Tool recommender system in Galaxy using deep learning}
 }
 
 @article{Wolff2020,
