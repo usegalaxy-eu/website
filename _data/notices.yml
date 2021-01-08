@@ -15,6 +15,14 @@
 #           On October 23th, we plan to update Usegalaxy.eu's codebase to the 20.09 Galaxy release. 
 #           We expect a short downtime during the day that might prevent you to submit new jobs. Please take it into account in your job schedule.
 
+- title: Reduced compute capacity on the 08.01.2021 
+  class: warning # one of [success, info, warning, danger]
+  site: freiburg # Your site
+  messages:
+      - message: |
+          The computing nodes serving interactive tools have a failure at the storage system. 
+          We are working for the issue resolution, but we still don't know when this can be fixed.
+
 - title: COVID-19 research!
   class: success # one of [success, info, warning, danger]
   site: freiburg # Your site
