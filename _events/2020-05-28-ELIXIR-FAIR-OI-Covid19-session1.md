@@ -27,7 +27,7 @@ The Galaxy Community and ELIXIR organise a webinar series to demonstrate how ope
 
 ## Session 1: Introduction to Galaxy and the Galaxy workflows for SARS-CoV-2 data analysis
 
-20 January 2021, **17.00-18.00 CET**
+30 April 2020, **17.00-18.00 CET** CEST** (starts at **16.00 BST**, **11.00 EDT**, **8.00 PDT**)
 
 The first session will introduce the Galaxy platform and other public research infrastructure to be used throughout the webinar series. It will also explain the motivation behind the Galaxy COVID-19 projects and explain the benefits of open reproducible research and transparent and interoperable analytics.
 
