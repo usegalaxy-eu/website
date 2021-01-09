@@ -9,3 +9,5 @@ location: Cycle "Bioinformatique par la pratique" 2021, INRA, Jouy-en-Josas, Fra
 supporters:
 external: https://migale.inrae.fr/sites/default/files/formation/2021/module17.pdf
 ---
+
+Part of Cycle "Bioinformatique par la pratique" 2021
