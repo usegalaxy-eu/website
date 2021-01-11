@@ -26,5 +26,15 @@ The model is accessed by a Galaxy API to provide researchers with recommended to
 High-quality and highly used tools are shown at the top of the recommendations. 
 The scripts and data to create the recommendation system are available under MIT license at https://github.com/anuprulez/galaxy_tool_recommendation.
 
+_How to use tool recommender_
+
+__After running a tool__
+
+![tool execution](https://github.com/anuprulez/issues/raw/master/tool-exe.gif)
+
+__Workflow editor__
+
+![workflow editor](https://github.com/anuprulez/issues/raw/master/wf-exe.gif)
+
 <br>
 {% twitter https://twitter.com/musafirtweetsz/status/1347103855247560704 %}
