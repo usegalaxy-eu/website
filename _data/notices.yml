@@ -20,7 +20,7 @@
   site: freiburg # Your site
   messages:
       - message: |
-          The issue affection the computing nodes serving interactive tools has been fixed. 
+          The issue affecting the computing nodes serving interactive tools has been fixed. 
           Interactive tools are working properly now, but all previous running IT jobs have been stopped, so you will need to restart them. 
           Sorry for the inconvenience.
 
