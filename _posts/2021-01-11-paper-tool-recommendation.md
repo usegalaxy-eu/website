@@ -26,6 +26,16 @@ The model is accessed by a Galaxy API to provide researchers with recommended to
 High-quality and highly used tools are shown at the top of the recommendations. 
 The scripts and data to create the recommendation system are available under MIT license at https://github.com/anuprulez/galaxy_tool_recommendation.
 
+_Core mechanism_
+
+![Workflow](https://github.com/anuprulez/issues/raw/master/core_mechanism.png)
+
+An example workflow consisting of 5 different tools (a) is decomposed into multiple tool sequences (b–d). Each tool sequence shows higher-order dependencies where a tool is dependent on all of its prior tools. These dependencies are indicated by the dashed arrows.
+
+
+
+
+
 _How to use tool recommender_
 
 __After running a tool__
