@@ -5,9 +5,7 @@ doi: "10.1093/gigascience/giaa152"
 tags:
 - paper
 ---
-
 <br>
-
 
 _Abstract_
 
@@ -31,10 +29,6 @@ _Core mechanism_
 ![Workflow](https://github.com/anuprulez/issues/raw/master/core_mechanism.png)
 
 An example workflow consisting of 5 different tools (a) is decomposed into multiple tool sequences (b–d). Each tool sequence shows higher-order dependencies where a tool is dependent on all of its prior tools. These dependencies are indicated by the dashed arrows.
-
-
-
-
 
 _How to use tool recommender_
 
