@@ -15,7 +15,7 @@
 #           On October 23th, we plan to update Usegalaxy.eu's codebase to the 20.09 Galaxy release. 
 #           We expect a short downtime during the day that might prevent you to submit new jobs. Please take it into account in your job schedule.
 
-- title: Iteractive tools working again [11/01/2021] 
+- title: Interactive tools are working again [11/01/2021] 
   class: info # one of [success, info, warning, danger]
   site: freiburg # Your site
   messages:
