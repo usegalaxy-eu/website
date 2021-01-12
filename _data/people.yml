@@ -186,6 +186,14 @@ freiburg:
         location: "Build.: 079, Room: -1006"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: gallardoalba
+        
+    davelopez:
+        name: David López Tabernero
+        title: M.Sc. Inf. Eng., Software Developer
+        email: dlopez@informatik.uni-freiburg.de
+        location: "Build.: 079"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: davelopez
      
         
 erasmusmc:
