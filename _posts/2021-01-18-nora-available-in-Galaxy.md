@@ -8,9 +8,9 @@ supporters:
 ---
 
 <br>
-A new framework for medical imaging research, [Nora](https://www.nora-imaging.com/), has been added to the Galaxy visualisations in collaboration with the developers at the Department of Radiology from the University Medical Center of Freiburg.
+A new framework for medical imaging research, [Nora](https://www.nora-imaging.com/), has been added to the Galaxy visualisations in collaboration with the developers at the Department of Radiology from the University Medical Center of Freiburg, Dr. Marco Reisert and Dr. Elias Kellner.
 
-Nora can take image file formats (e.g. DICOM, NIFTI, BRUKER) and other common formats too (e.g. json, jpeg, png, pdf). The visualisation can now be customised within the Galaxy interface: 
+Nora provides features beyond the standard, such as real-time image resclicing (MPR), overlays, ROIs, 3D surface rendering and connectome/fiber viewer. It can take image file formats (e.g. DICOM, NIFTI, BRUKER) and other common formats too (e.g. json, jpeg, png, pdf). The visualisation can now be customised within the Galaxy interface: 
 
 ![nora](/assets/media/2021-01-15-nora.png)
 
