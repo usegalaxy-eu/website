@@ -166,7 +166,7 @@ freiburg:
         website: http://leendertse.eu
         linkedin: JanLeendertse
         researchgate: JanLeendertse
- 
+
     beatrizserrano:
         name: Beatriz Serrano-Solano
         title: Ph.D., Researcher
@@ -178,7 +178,7 @@ freiburg:
         linkedin: beatriz-serrano
         orcid: 0000-0002-5862-6132
         researchgate: Beatriz_Serrano-Solano
-        
+
     gallardoalba:
         name: Cristóbal Gallardo Alba
         title: Ms.C. Biotech., Researcher
@@ -186,7 +186,7 @@ freiburg:
         location: "Build.: 079, Room: -1006"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: gallardoalba
-        
+
     davelopez:
         name: David López Tabernero
         title: M.Sc. Inf. Eng., Software Developer
@@ -194,8 +194,8 @@ freiburg:
         location: "Build.: 079"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: davelopez
-     
-        
+
+
 erasmusmc:
     andrew-emc:
         name: Andrew Stubbs
@@ -302,3 +302,39 @@ elixir-it:
         title: INFN developer
         orcid: 0000-0002-2641-9403
         email: marica.antonacci@ba.infn.it
+
+
+
+ifb:
+    abretaud:
+        name: Anthony Bretaudeau
+        title: INRAE Engineer, BIPAA team leader
+        email: anthony.bretaudeau@inrae.fr
+        twitter: abretau
+        gitter: abretaud
+        orcid: 0000-0003-0914-2470
+        galaxyadmin: true
+    lecorguille:
+        name: Gildas Le Corguillé
+        title: |
+          Engineer in scientific computing - Sorbonne Université/CNRS / Station Biologique de Roscoff / ABiMS &
+          Co-leader of the IFB NNCR Cluster
+        email: lecorguille@sb-roscoff.fr
+        location_link: "https://goo.gl/maps/UxnJWUmf4hKpZ6ii8"
+        twitter: glecorguille
+        gitter: lecorguille
+        orcid: 0000-0003-1742-9711
+        galaxyadmin: true
+    julozi:
+        name: Julien Seiler
+        title: |
+          Software engineer - CNRS / IGBMC / BigEst &
+          Co-leader of the IFB NNCR Cluster
+        email: seilerj@igbmc.fr
+        twitter: julozi
+        gitter: julozi
+        galaxyadmin: true
+    davidchristiany:
+        name: David Christiany
+        title: Engineer developer - CNRS / IFB
+

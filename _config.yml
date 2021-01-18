@@ -135,7 +135,7 @@ team_sites:
       name: "ELIXIR-IT/Laniakea"
       url: /elixir-it/
       email: laniakea.helpdesk@gmail.com
-      #twitter_username: 
+      #twitter_username:
       github_username: Laniakea-elixir-it
       private_news: true
       url: "https://laniakea-elixir-it.github.io/"
@@ -145,8 +145,18 @@ team_sites:
 
         The development of Laniakea continues in the framework of [EOSC-Pillar](https://www.eosc-pillar.eu/) (Grant agreement ID: 857650) and [EOSC-Life](https://www.eosc-life.eu/) (Grant agreement ID: 824087) H2020 projects.
 
-        The [Laniakea@ReCaS](https://laniakea-elixir-it.github.io/laniakea_at_recas) service is provided with the support of [ELIXIR-ITALY](https://elixir-italy.org/) and [ReCaS-Bari](https://www.recas-bari.it). 
-
+        The [Laniakea@ReCaS](https://laniakea-elixir-it.github.io/laniakea_at_recas) service is provided with the support of [ELIXIR-ITALY](https://elixir-italy.org/) and [ReCaS-Bari](https://www.recas-bari.it).
+    ifb:
+      name: "Institut Français de Bioinformatique (IFB)"
+      url: /ifb/
+      #email:
+      twitter_username: IFB_Bioinfo
+      github_username: ifb-elixirfr
+      private_news: true
+      url: "https://www.france-bioinformatique.fr/"
+      galaxy_server: "https://usegalaxy.fr/"
+      blurb: |
+        Welcome to the Galaxy Instance of IFB - [usegalaxy.fr](https://usegalaxy.fr/) - Hosted by the [IFB Core Cluster](https://www.france-bioinformatique.fr/cluster-ifb-core/)
 
 header_links:
     main:
@@ -213,6 +223,9 @@ header_links:
           url: /elixir-it/people
         - name: Publications
           url: /elixir-it/publications
+    ifb:
+        - name: People
+          url: /ifb/people
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
