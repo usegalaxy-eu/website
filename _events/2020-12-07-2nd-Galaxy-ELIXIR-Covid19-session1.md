@@ -44,3 +44,6 @@ The first session will summarise the developments in Galaxy the past eight month
 
 * Anton Nekrutenko
 * Marius van den Beek
+
+
+{% twitter https://twitter.com/ELIXIREurope/status/1351129895091515396 %}
