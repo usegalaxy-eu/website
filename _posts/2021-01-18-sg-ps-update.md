@@ -31,4 +31,6 @@ The number of changes and improvements made is very large, a few highlights:
 * Reduced file sizes and memory load
 * more [detailed release notes](http://compomics.github.io/projects/peptide-shaker/wiki/ReleaseNotes )
 
+Thanks Carlos Horro Marcos for your awesome work on the Galxy integration.
+
 
