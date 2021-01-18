@@ -10,7 +10,7 @@ a tool that performs protein identification using various search engines, and [P
  for protein identification (which uses SearchGUI results) have been deeply updated and released in new major versions: 4.0.7 and 2.0.5, respectively.
 Furthermore, two new utility tools have been added to make the overall workflow more flexible:
 
-* [Identification Parameters](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/ident_params/) for creating parameter files reusable by both SG and PS
+* [Identification parameters](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/ident_params/) for creating parameter files reusable by both SG and PS.
 * [FastaCLI](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/fasta_cli/) which appends decoy sequences to a fasta file in a format readable by SG and PS
 
 The number of changes and improvements made is very large, a few highlights:
@@ -32,4 +32,3 @@ The number of changes and improvements made is very large, a few highlights:
 * more [detailed release notes](http://compomics.github.io/projects/peptide-shaker/wiki/ReleaseNotes )
 
 Thanks Carlos Horro Marcos for your awesome work on the Galxy integration.
-
