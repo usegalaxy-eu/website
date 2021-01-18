@@ -147,7 +147,7 @@ team_sites:
 
         The [Laniakea@ReCaS](https://laniakea-elixir-it.github.io/laniakea_at_recas) service is provided with the support of [ELIXIR-ITALY](https://elixir-italy.org/) and [ReCaS-Bari](https://www.recas-bari.it).
     ifb:
-      name: "Institut Français de Bioinformatique (IFB)"
+      name: "Institut Français de Bioinformatique"
       url: /ifb/
       #email:
       twitter_username: IFB_Bioinfo
