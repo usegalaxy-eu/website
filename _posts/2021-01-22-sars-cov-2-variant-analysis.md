@@ -22,8 +22,8 @@ SARS-CoV-2 genomics analysis - including the ones that are urgently needed now.
 
 The European Galaxy server offers these as
 [__public workflows__](https://usegalaxy.eu/workflows/list_published).
-Just search the list for *covid19.galaxyproject.org* and you will find our
-recommended, best-practice workflows for SARS-CoV-2 variant analysis from
+Just search the list for the tag *covid19.galaxyproject.org* and you will find
+our recommended, best-practice workflows for SARS-CoV-2 variant analysis from
 a variety of sequencing data sources: be it whole-genome sequencing or
 ampliconic (ARTIC) data sequenced using short-read (Illumina, single-end or
 paired-end) or long-read (ONT) data, we have workflows for calling variants
@@ -52,9 +52,16 @@ variant data, which you can use as a starting point for further investigation,
 *e.g.* with [__Interactive Notebooks__](https://live.usegalaxy.eu) or using resources like
 https://observablehq.com/collection/@spond/intrahost-variant-exploration.
 
-However, to explore the entire picture of the SARS-CoV-2 genome, RAW sequencing data is needed. Therefore, we stronlgy recommend,
-and offer [tools](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/ena_upload/ena_upload/0.3) and assistence in submitting
-RAW sequencing data to public archives like [ENA](https://www.ebi.ac.uk/ena) - so that everyone can access data and draw their own conclusions.
+![Variant allele frequency plot](/assets/media/2021-01-22-sars-cov-2-variation-plot.png)
 
-P.S. If you want to know more about our COVID-19 activities, please have a look at our [running document](https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUMZ0hnGtePZplv-lK0rYzx8L-vo/preview#).
+A workflow-generated plot showing the variants and their allele-frequencies identified across 38 Illumina-sequenced SARS-CoV-2 samples.
+
+Finally, in order to ensure open access to original sequencing data, we
+stronlgy advocate, and offer
+[tools](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/ena_upload/ena_upload/0.3)
+and assistance, for submitting *raw* sequencing data to public archives like
+[ENA](https://www.ebi.ac.uk/ena) - so that everyone can reanalyze the data and
+draw their own conclusions.
+
+P.S.: If you want to know more about our COVID-19 activities, please have a look at our [running document](https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUMZ0hnGtePZplv-lK0rYzx8L-vo/preview#).
 
