@@ -58,7 +58,7 @@ A workflow-generated plot showing the variants and their allele-frequencies iden
 
 Finally, in order to ensure open access to original sequencing data, we
 stronlgy advocate, and offer
-[tools](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/ena_upload/ena_upload/0.3)
+[tools](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/ena_upload/ena_upload)
 and assistance, for submitting *raw* sequencing data to public archives like
 [ENA](https://www.ebi.ac.uk/ena) - so that everyone can reanalyze the data and
 draw their own conclusions.
