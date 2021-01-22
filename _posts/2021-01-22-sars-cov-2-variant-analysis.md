@@ -30,6 +30,10 @@ paired-end) or long-read (ONT) data, we have workflows for calling variants
 (even low-frequency intra-sample ones), generating standardized
 technology-independent reports, and for building reliable consensus sequences!
 
+All these workflows have been built and tested specifically with scalability in
+mind: on usegalaxy.eu we have verified, using large batches of COG-UK and other
+data, that they let you analyze even thousands of samples in parallel.
+
 Combine, *e.g.*, our
 [__ARTIC Illumina PE variant calling__](https://usegalaxy.eu/u/wolfgang-maier/w/covid19-variation-analysis-on-artic-pe)
 workflow with the workflow for
@@ -40,6 +44,11 @@ into a set of consensus sequences ready for submission to
 [GISAID](https://www.gisaid.org/) or for
 [clade assignment with Nextstrain](https://clades.nextstrain.org/).
 
-All these workflows have been built and tested specifically with scalability in
-mind: on usegalaxy.eu we have verified, using large batches of COG-UK and other
-data, that they let you analyze even thousands of samples in parallel.
+If, instead of reducing all the precise variant-calling information into a
+simplifying consensus sequence, you would like to explore the full picture of
+potential intra-sample variation, you could run our
+[__variation reporting__](https://usegalaxy.eu/u/wolfgang-maier/w/covid19-variation-analysis-reporting)
+workflow, which will create different graphical and tabular views on the
+variant data, which you can use as a starting point for further investigation,
+*e.g.* with __Interactive Notebooks__ or using resources like
+https://observablehq.com/collection/@spond/intrahost-variant-exploration.
