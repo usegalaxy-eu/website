@@ -30,7 +30,14 @@ paired-end) or long-read (ONT) data, we have workflows for calling variants
 (even low-frequency intra-sample ones), generating standardized
 technology-independent reports, and for building reliable consensus sequences!
 
-All these workflows have been built and tested specifically with scalability in
+All you need to bring is your sequencing data, everything else you will need as
+input to the workflows (SARS-CoV-2 reference genome, ARTIC primer
+scheme, *etc.*) is already made available for you through a
+public
+[__COVID-19 Resources__](https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-resources)
+history.
+
+Our workflows have been built and tested specifically with scalability in
 mind: on [usegalaxy.eu](https://usegalaxy.eu) we have verified, using large batches of COG-UK and other
 data, that they let you analyze even thousands of samples in parallel.
 
@@ -50,7 +57,7 @@ potential intra-sample variation, you could run our
 workflow, which will create different graphical and tabular views on the
 variant data, which you can use as a starting point for further investigation,
 *e.g.* with [__Interactive Notebooks__](https://live.usegalaxy.eu) or using resources like
-https://observablehq.com/collection/@spond/intrahost-variant-exploration.
+<https://observablehq.com/collection/@spond/intrahost-variant-exploration>.
 
 ![Variant allele frequency plot](/assets/media/2021-01-22-sars-cov-2-variation-plot.png)
 
