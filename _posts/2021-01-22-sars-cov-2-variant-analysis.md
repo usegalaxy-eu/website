@@ -1,6 +1,6 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-title: 'Variant Analysis of SARS-CoV-2 Sequencing Data'
+title: 'Variant Analysis of SARS-CoV-2 Sequencing Data (Jan 2021 update)'
 tags: [galaxy, COVID-19, tools, workflows]
 ---
 
