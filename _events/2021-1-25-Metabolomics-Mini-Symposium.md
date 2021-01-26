@@ -8,7 +8,6 @@ organiser:
   name: Melanie Föll
   email: foellmelanie@gmail.com
 location: online
-external: https://docs.google.com/document/d/1F3gKicQ7MaMn-EKwC3cJbhf7s8-j4RYtdjEJQH0EeK0/preview
 ---
 
 Join us for the __Galaxy Metabolomics Mini-Symposium__ on __Friday 29th January from 9 am to 12 pm CET__ on zoom.
@@ -19,3 +18,6 @@ users and tool developers. In addition to a thematic exchange, we hope that this
 collaborations and synergies and integrate new researchers into the Galaxy metabolomics community. 
 
 Register for this free virtual event by sending your name and affiliation to us via email.
+
+<div align="center">
+<a href="https://docs.google.com/document/d/1F3gKicQ7MaMn-EKwC3cJbhf7s8-j4RYtdjEJQH0EeK0/preview"><button type="button" class="btn btn-primary btn-lg">Get more information!</button></a></div>
