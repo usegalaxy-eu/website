@@ -15,7 +15,7 @@ Join us for the __Galaxy Metabolomics Mini-Symposium__ on __Friday 29th January 
 
 Learn about recent developments and future plans in the Galaxy Metabolomics community. Get to know other 
 Galaxy metabolomics researchers and join discussions about the perspectives, interests and needs of Galaxy 
-users and tool developers. In addition to a thematic exchange we hope that this event will foster new 
+users and tool developers. In addition to a thematic exchange, we hope that this event will foster new 
 collaborations and synergies and integrate new researchers into the Galaxy metabolomics community. 
 
 Register for this free virtual event by sending your name and affiliation to us via email.
