@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: GTN Plant-related trainings
-tags: [galaxy,training]
+tags: [training]
 supporters: 
   - dataplant
   - biodaten
