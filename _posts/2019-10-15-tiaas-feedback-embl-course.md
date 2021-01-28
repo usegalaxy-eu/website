@@ -4,7 +4,6 @@ title: 'Training Infrastructure Feedback from Charles Girardot'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- TIaaS
 ---
 
 

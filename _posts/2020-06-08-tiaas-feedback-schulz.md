@@ -4,7 +4,6 @@ title: 'Training Infrastructure Feedback from Marcel Schulz '
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- TIaaS
 ---
 
 ## Galaxy helps virtual teaching!
