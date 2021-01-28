@@ -37,14 +37,14 @@
             
             If you need help to submit your data to public archives, like ENA, please get in touch. We will support you to share your data.
 
-# - title: Restricted compute capacity on the 18.02.2020 
-#   class: info # one of [success, info, warning, danger]
-#   site: freiburg # Your site
-#   messages:
-#       - message: |
-#           Due to maintenance work on the de.NBI cloud we need to shutdown large parts of our compute infrastructure on the
-#           18.02.2020. We are hopefull to keep the webserver running and accept jobs and workflows, but there will be a delay
-#           in processing them.
+ - title: Restricted compute capacity on the 30.01.2021 
+   class: info # one of [success, info, warning, danger]
+   site: freiburg # Your site
+   messages:
+       - message: |
+           Due to upgrade work to our peta-storage we need to shutdown large parts of our compute infrastructure on the
+           30.01.2021. We are hopeful to keep the webserver running and accept jobs and workflows, but there will be a delay
+           in processing them.
 
 #- title: Enough talking - time to act!
 #  class: danger # one of [success, info, warning, danger]
