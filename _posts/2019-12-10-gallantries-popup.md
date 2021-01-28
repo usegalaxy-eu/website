@@ -4,7 +4,6 @@ title: 'Training Infrastructure Feedback from the Gallantries Project'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- TIaaS
 author: erasche
 ---
 

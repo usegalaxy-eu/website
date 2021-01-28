@@ -4,7 +4,6 @@ title: 'Training Infrastructure Feedback from Leighton Pritchard'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- TIaaS
 author: Leighton Pritchard
 ---
 

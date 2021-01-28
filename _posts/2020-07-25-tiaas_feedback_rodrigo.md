@@ -4,7 +4,6 @@ title: 'Training Infrastructure Feedback from Rodrigo Ortega Polo'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- TIaaS
 author: Rodrigo Ortega Polo
 ---
 

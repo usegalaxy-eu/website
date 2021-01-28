@@ -4,7 +4,6 @@ title: 'Training Infrastructure Feedback from Ambre Jousselin'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- TIaaS
 author: Ambre Jousselin
 ---
 

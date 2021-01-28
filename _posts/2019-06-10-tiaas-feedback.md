@@ -4,7 +4,6 @@ title: 'Training Infrastructure Feedback from Nevena Veljkovic'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- TIaaS
 ---
 
 

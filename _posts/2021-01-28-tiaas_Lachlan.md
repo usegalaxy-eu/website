@@ -4,7 +4,6 @@ title: 'Training Infrastructure Feedback from Lachlan Gray'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- TIaaS
 author: Lachlan Gray
 ---
 

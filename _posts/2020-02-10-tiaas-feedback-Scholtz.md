@@ -4,7 +4,6 @@ title: 'Training Infrastructure Feedback from Beata Scholtz'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- TIaaS
 ---
 
 
