@@ -5,7 +5,7 @@ tags: [tools]
 supporters:
 - galaxy-europe
 - miracum
-author: Wolfgang Maier
+author: wm75
 ---
 
 <table><tr><td>
