@@ -17,7 +17,7 @@ Galaxy ecosystem. In addition we updated the variant calling tools, specifically
 </td></tr></table>
 
 In the following you will find a list of a few highlights.
-We could like to thank all contributors, especially Nathan Roach, Niko Pinter, Stephan Flemming and the [ELIXIR CNV commuity](https://elixir-europe.org/communities/hcnv).
+We would like to thank all contributors, especially Nathan Roach, Niko Pinter, Stephan Flemming and the [ELIXIR CNV commuity](https://elixir-europe.org/communities/hcnv).
 
 ---------
 
