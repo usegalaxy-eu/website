@@ -3,8 +3,8 @@ site: [pasteur,freiburg,erasmusmc,elixir-it,belgium,genouest]
 title: 'New and updated CNV and Variant Calling tools'
 tags: [tools]
 supporters:
-- galaxy-europe
-- miracum
+  - galaxy-europe
+  - miracum
 author: wm75
 ---
 
