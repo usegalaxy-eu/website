@@ -4,7 +4,6 @@ title: 'Training Infrastructure Feedback from Giovanni Widmer'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- TIaaS
 ---
 
 Hi [Galaxy team](https://galaxyproject.eu/freiburg/)!

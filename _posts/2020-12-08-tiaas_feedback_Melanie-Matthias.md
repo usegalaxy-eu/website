@@ -4,7 +4,6 @@ title: 'Training Infrastructure Feedback on the ELIXIR Belgium workshop “DDA a
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-- TIaaS
 author: Matthias Fahrner & Melanie Föll
 ---
 
