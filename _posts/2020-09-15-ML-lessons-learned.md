@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [training, TIaaS, COVID-19]
+tags: [training, TIaaS, COVID-19, report]
 title: Remote training using Galaxy
 supporters:
 - elixir
