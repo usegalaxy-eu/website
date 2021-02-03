@@ -10,14 +10,14 @@ author: wm75
 
 <table><tr><td>
 Copy number variation (CNV) is a type of structural variation, specifically, it is a type of duplication or deletion events.
-During the last month the Galaxy community has cooperated with the CNV community to bring a variety of the best CNV tools to the 
-Galaxy ecosystem. In addition we updated the variant calling tools, specifically to also cope with long read sequencing technologies.
+During the last month, the Galaxy community has cooperated with the CNV community to bring a variety of the best CNV tools to the 
+Galaxy ecosystem. In addition, we updated the variant calling tools, specifically to also cope with long read sequencing technologies.
 </td><td>
 <img src="/assets/media/humman_variations_community_icon.png" alt="ELIXIR CNV community" />
 </td></tr></table>
 
-In the following you will find a list of a few highlights.
-We would like to thank all contributors, especially Nathan Roach, Niko Pinter, Stephan Flemming and the [ELIXIR CNV commuity](https://elixir-europe.org/communities/hcnv).
+In the following, you will find a list of a few highlights.
+We would like to thank all contributors, especially Nathan Roach, Niko Pinter, Stephan Flemming and the [ELIXIR CNV community](https://elixir-europe.org/communities/hcnv).
 
 ---------
 
