@@ -9,4 +9,4 @@ This is the list of scientific publications that cited the European Galaxy insta
 Please help us to support this project with your [acknowledgement](/about).
 <br><br>
 
-{% bibliography --file citations-eu %}
+{% bibliography --file citations-eu --file citations-eu-manual %}
