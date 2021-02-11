@@ -11,7 +11,7 @@ title: ELIXIR-Belgium
 		<img src="/assets/media/UGent_EN.png"  class="img-responsive eu-image"/>
 	</a>
 	<a href="https://www.vscentrum.be/" target="_blank">
-		<img src="/assets/media/logo_VSC.svg"  class="img-responsive eu-image"/>
+		<img src="/assets/media/VSC-logo.png"  class="img-responsive eu-image"/>
 	</a>
 	<a href="http://www.vib.be/en/pages/default.aspx" target="_blank">
 		<img src="/assets/media/vib_rf_plant_systems_biology_rgb_pos.png"  class="img-responsive eu-image"/>
