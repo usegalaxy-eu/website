@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training]
-title: "Massive open online education party: : GTN Smörgåsbord"
+title: "Massive open online education party: GTN Smörgåsbord"
 location: online
 ---
 
