@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training,talk,poster]
 title: The Galaxy Community Conference 2021 (GCC2021) will be virtual
 location: online
