@@ -1,5 +1,5 @@
 ---
-site: [freiburg, italy]
+site: [freiburg, elixir-it]
 title: 'New Paper "Next generation sequencing of SARS-CoV-2 genomes: challenges, applications and opportunities"'
 doi: "10.1093/bib/bbaa297"
 tags:
