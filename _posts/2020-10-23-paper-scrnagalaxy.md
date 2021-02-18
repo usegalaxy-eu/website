@@ -9,8 +9,7 @@ supporters:
 - unifreiburg
 ---
 
-_Background_  
-The vast ecosystem of single-cell RNA-sequencing tools has until recently been plagued by an excess of diverging analysis strategies, inconsistent file formats, and compatibility issues between different software suites. The uptake of 10x Genomics datasets has begun to calm this diversity, and the bioinformatics community leans once more towards the large computing requirements and the statistically driven methods needed to process and understand these ever-growing datasets.
+_Abstract_ -  The vast ecosystem of single-cell RNA-sequencing tools has until recently been plagued by an excess of diverging analysis strategies, inconsistent file formats, and compatibility issues between different software suites. The uptake of 10x Genomics datasets has begun to calm this diversity, and the bioinformatics community leans once more towards the large computing requirements and the statistically driven methods needed to process and understand these ever-growing datasets.
 
 _Results_  
 Here we outline several Galaxy workflows and learning resources for single-cell RNA-sequencing, with the aim of providing a comprehensive analysis environment paired with a thorough user learning experience that bridges the knowledge gap between the computational methods and the underlying cell biology. The Galaxy reproducible bioinformatics framework provides tools, workflows, and trainings that not only enable users to perform 1-click 10x preprocessing but also empower them to demultiplex raw sequencing from custom tagged and full-length sequencing protocols. The downstream analysis supports a range of high-quality interoperable suites separated into common stages of analysis: inspection, filtering, normalization, confounder removal, and clustering. The teaching resources cover concepts from computer science to cell biology. Access to all resources is provided at the singlecell.usegalaxy.eu portal.

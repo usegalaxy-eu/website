@@ -6,9 +6,7 @@ tags:
 - paper
 ---
 
-_Abstract_
-
-Various next generation sequencing (NGS) based strategies have been successfully used in the recent past for tracing origins and understanding the evolution of infectious agents, investigating the spread and transmission chains of outbreaks, as well as facilitating the development of effective and rapid molecular diagnostic tests and contributing to the hunt for treatments and vaccines. 
+_Abstract_ - Various next generation sequencing (NGS) based strategies have been successfully used in the recent past for tracing origins and understanding the evolution of infectious agents, investigating the spread and transmission chains of outbreaks, as well as facilitating the development of effective and rapid molecular diagnostic tests and contributing to the hunt for treatments and vaccines. 
 
 The ongoing COVID-19 pandemic poses one of the greatest global threats in modern history and has already caused severe social and economic costs. The development of efficient and rapid sequencing methods to reconstruct the genomic sequence of SARS-CoV-2, the etiological agent of COVID-19, has been fundamental for the design of diagnostic molecular tests and to devise effective measures and strategies to mitigate the diffusion of the pandemic.
 

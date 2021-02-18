@@ -7,9 +7,7 @@ tags:
 - citation
 ---
 
-<br>
-
-_Diabetes mellitus_ is a worldwide epidemic that causes high mortality due to cardiovascular complications, in particular heart failure. Diabetes is associated with profound pathophysiological changes in the heart. The aim of this study was to investigate the impact of diabetes on gene expression and DNA methylation in cardiac cells.
+_Abstract_ - _Diabetes mellitus_ is a worldwide epidemic that causes high mortality due to cardiovascular complications, in particular heart failure. Diabetes is associated with profound pathophysiological changes in the heart. The aim of this study was to investigate the impact of diabetes on gene expression and DNA methylation in cardiac cells.
 
 
 _Methods and results_
