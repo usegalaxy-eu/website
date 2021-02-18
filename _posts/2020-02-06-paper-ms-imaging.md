@@ -8,17 +8,13 @@ supporters:
  - elixir
 ---
 
-
-
 Congratulation to our friend and colleague Melanie Föll from the University of Freiburg
 [Oliver Schilling lab](https://www.mol-med.uni-freiburg.de/mom/schilling) to her great
 [article](https://academic.oup.com/gigascience/article/8/12/giz143/5670614) on the analysis of mass spectrometry imaging data.
 She has integrated 18 tools dedicated to mass spectrometry imaging into our Galaxy framework.
 Thanks a lot for making your tools available to the proteomics and imaging community!
 
-## Abstract
-
-Mass spectrometry imaging is increasingly used in biological and translational research because it has the
+_Abstract_ - Mass spectrometry imaging is increasingly used in biological and translational research because it has the
 ability to determine the spatial distribution of hundreds of analytes in a sample. Being at the interface of
 proteomics/metabolomics and imaging, the acquired datasets are large and complex and often analyzed with
 proprietary software or in-house scripts, which hinders reproducibility. Open source software solutions

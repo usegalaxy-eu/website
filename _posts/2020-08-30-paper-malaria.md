@@ -7,8 +7,7 @@ tags:
 - citations
 ---
 
-<br>
-The malaria parasite replicates asexually in the red blood cells of its vertebrate host employing epigenetic mechanisms to regulate gene expression in response to changes in its environment. We used chromatin immunoprecipitation followed by sequencing in conjunction with RNA sequencing to create an epigenomic and transcriptomic map of the developmental transition from asexual blood stages to male and female gametocytes and to ookinetes in the rodent malaria parasite Plasmodium berghei.
+_Abstract_ - The malaria parasite replicates asexually in the red blood cells of its vertebrate host employing epigenetic mechanisms to regulate gene expression in response to changes in its environment. We used chromatin immunoprecipitation followed by sequencing in conjunction with RNA sequencing to create an epigenomic and transcriptomic map of the developmental transition from asexual blood stages to male and female gametocytes and to ookinetes in the rodent malaria parasite Plasmodium berghei.
 
 Across the developmental stages examined, heterochromatin protein 1 associates with variantly expressed gene families localised at subtelomeric regions and variant gene expression based on heterochromatic silencing is observed only in some genes. Conversely, the euchromatin mark histone 3 lysine 9 acetylation (H3K9ac) is abundant in non-heterochromatic regions across all developmental stages. H3K9ac presents a distinct pattern of enrichment around the start codon of ribosomal protein genes in all stages but male gametocytes. Additionally, H3K9ac occupancy positively correlates with transcript abundance in all stages but female gametocytes suggesting that transcription in this stage is independent of H3K9ac levels. 
 

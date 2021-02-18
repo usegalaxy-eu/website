@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'Variant Analysis of SARS-CoV-2 Sequencing Data (Jan 2021 update)'
-tags: [galaxy, COVID-19, tools, workflows]
+tags: [COVID-19, tools, workflows]
 ---
 
 With the recent appearance of novel SARS-CoV-2 lineages in the UK, South Africa
