@@ -37,6 +37,20 @@
             
             If you need help to submit your data to public archives, like ENA, please get in touch. We will support you to share your data.
 
+- title: "Massive open online education party: GTN Smörgåsbord"
+  class: info # one of [success, info, warning, danger]
+  site: freiburg # Your site
+  messages:
+      - message: |
+           The [Galaxy Training Network (GTN) Smörgåsbord](https://shiltemann.github.io/global-galaxy-course/) will be running from
+           Monday, February 15 through Friday, February 19 across all usegalaxy.* servers, primarily usegalaxy.org, usegalaxy.eu, and usegalaxy.org.au.
+           In order to ensure adequate resources are available for the over __1,000__ students who have signed up to participate in the course,
+           we have reduced the concurrent jobs each user can have. We will restore the previous settings after the training.
+           All training materials (videos, slides, hands-on descriptions) will stay available and open for everyone, what else!
+           
+           Read more in our [blog post](https://galaxyproject.eu/posts/2021/02/14/smorgasbord-starts/). Thanks to all our [trainers and supporters](https://shiltemann.github.io/global-galaxy-course/#acknowledgements)!
+           
+           
 # - title: Restricted compute capacity on the 30.01.2021 
 #   class: info # one of [success, info, warning, danger]
 #   site: freiburg # Your site
