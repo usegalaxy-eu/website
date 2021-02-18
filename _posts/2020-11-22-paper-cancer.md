@@ -5,11 +5,8 @@ doi: "10.1158/0008-5472.CAN-20-1430"
 tags:
 - paper
 ---
-<br>
 
-_Abstract_
-
-Hypomethylating agents (HMA) have become the backbone of non-intensive AML/MDS treatment, primarily by virtue of their activity in patients with adverse genetics, e.g., monosomal karyotypes, often with losses on chromosome 7, 5 or 17. 
+_Abstract_ - Hypomethylating agents (HMA) have become the backbone of non-intensive AML/MDS treatment, primarily by virtue of their activity in patients with adverse genetics, e.g., monosomal karyotypes, often with losses on chromosome 7, 5 or 17. 
 
 However, no comparable activity is observed with cytarabine (AraC), a cytidine analogue without DNA-hypomethylating properties. As evidence exists for compounding hypermethylation and gene silencing of hemizygous tumor suppressor genes (TSG), we thus hypothesized that this effect may preferentially be reversed by the HMA decitabine (DAC) and azacitidine (AZA). 
 

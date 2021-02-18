@@ -14,7 +14,7 @@ We are happy to announce the publication of **pyGenomeTracks (PGT)** in Bioinfor
 modular way and it's [available on the European Galaxy server](https://usegalaxy.eu/root?tool_id=pygenomeTracks).
 Many thanks to all the authors for the great effort!
 
-## Abstract
+_Abstract_ 
 
 **Motivation**: Generating publication ready plots to display multiple genomic tracks can pose a serious challenge. Making desirable and accurate
 figures requires considerable effort. This is usually done by hand or by using a vector graphic software.

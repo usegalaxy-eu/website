@@ -5,12 +5,9 @@ doi: "10.1093/gigascience/giaa152"
 tags:
 - paper
 ---
-<br>
 
-_Abstract_
 
-__Background__
-Galaxy is a web-based and open-source scientific data-processing platform. Researchers compose pipelines in Galaxy to analyse scientific data.
+_Abstract_ - Galaxy is a web-based and open-source scientific data-processing platform. Researchers compose pipelines in Galaxy to analyse scientific data.
 These pipelines, also known as workflows, can be complex and difficult to create from thousands of tools, especially for researchers new to Galaxy.
 To help researchers with creating workflows, a system is developed to recommend tools that can facilitate further data analysis.
 
