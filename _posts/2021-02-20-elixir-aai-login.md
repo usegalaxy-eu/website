@@ -41,10 +41,9 @@ and click the organe ELIXIR login button under "Manage Third-Party Identities".
 
 <hr/>
 
-When you are connected it will look like this.
+When you are connected, it will look like this:
 
 ![Enabled Galaxy account with ELIXIR AAI](/assets/media/elixir/loged_in_with_elixir.png)
 
 
 If you find issues or have any questions, please don't hesitate to [contact us](mailto:galaxy@informatik.uni-freiburg.de).
-
