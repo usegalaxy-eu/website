@@ -29,7 +29,7 @@ supported commercial providers.
 
 <hr/>
 
-If you already have a Galaxy account you can connect your existing account with ELIXIR by going to your [user-preferences](https://usegalaxy.eu/user)
+If you already have a Galaxy account, you can connect your existing account with ELIXIR by going to your [user-preferences](https://usegalaxy.eu/user):
 
 ![User preferences](/assets/media/elixir/user-preferences.png)
 
