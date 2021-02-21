@@ -22,7 +22,7 @@ If you are new to the European Galaxy server, you can click the ELIXIR button to
 
 <hr/>
 
-In the next step you can choose an identity provider. This can be your home organisation, e.g. your university, or one of the
+In the next step, you can choose an identity provider. This can be your home organisation, e.g. your university, or one of the
 supported commercial providers.
 
 <img src="/assets/media/elixir/identity_provider.png" width="50%" alt="Galaxy login screen with ELIXIR AAI button" />
