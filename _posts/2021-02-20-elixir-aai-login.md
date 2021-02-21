@@ -35,7 +35,7 @@ If you already have a Galaxy account, you can connect your existing account with
 
 <hr/>
 
-and click the organe ELIXIR login button under "Manage Third-Party Identities".
+and click the orange ELIXIR login button under "Manage Third-Party Identities".
 
 ![User preferences without ELIXIR AAI enabled](/assets/media/elixir/not_logged_in.png)
 
