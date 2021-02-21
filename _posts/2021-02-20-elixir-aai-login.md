@@ -1,7 +1,7 @@
 ---
 site: freiburg
 tags: [elixir]
-title: Login via ELIXIR-AAI, Google, LinkedIn or your ORCID-ID
+title: Login via ELIXIR-AAI, Google, LinkedIn, or your ORCID iD
 supporters:
 - denbi
 - elixir
