@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [elixir]
+tags: [FAQ]
 title: Login via ELIXIR-AAI, Google, LinkedIn, or your ORCID iD
 supporters:
 - denbi
