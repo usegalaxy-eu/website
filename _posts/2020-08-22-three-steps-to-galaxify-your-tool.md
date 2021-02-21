@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 3 steps to get your tool into Galaxy - A real-world example
-tags: [galaxy, conda-forge, bioconda, training]
+tags: [galaxy, conda-forge, bioconda, training, FAQ]
 supporters:
 - denbi
 - elixir
