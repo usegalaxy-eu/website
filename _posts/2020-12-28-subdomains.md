@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: European Galaxy Flavours
-tags: []
+tags: [FAQ]
 supporters:
 ---
 
