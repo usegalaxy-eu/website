@@ -47,7 +47,15 @@
            All training materials (videos, slides, hands-on descriptions) will stay available and open for everyone, what else!
            
            Thanks to all our [trainers and supporters](https://shiltemann.github.io/global-galaxy-course/#acknowledgements)!
-           
+
+- title: Urgent storage maintenance on the 25.02.2021 
+  class: warning # one of [success, info, warning, danger]
+  site: freiburg # Your site
+  messages:
+      - message: |
+           Tomorrow, February 25th, we need to perform urgent maintenance to our main storage. We don't expect a major issue except for 
+           jobs that need to access data older than 10 weeks ago. For these, it's possible to get a "no data" answer or a timeout. 
+           Everything should return to normal operation by the end of the day. Sorry for the inconvenience.
            
 # - title: Restricted compute capacity on the 30.01.2021 
 #   class: info # one of [success, info, warning, danger]
