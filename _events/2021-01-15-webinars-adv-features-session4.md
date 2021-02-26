@@ -27,7 +27,7 @@ With this series of four webinars, the global Galaxy community will present such
 
 ## Galaxy-ELIXIR webinars: Advanced Features
 
-### Session 1: Speed up your data analysis with Galaxy: Features no one knows about
+### Session 4: Speed up your data analysis with Galaxy: Features no one knows about
 
 **24 March 2021, 17.00-18.00 CET** (starts at 16.00 GMT, 11.00 EST, 8.00 PST)
 
