@@ -27,7 +27,7 @@ With this series of four webinars, the global Galaxy community will present such
 
 ## Galaxy-ELIXIR webinars: Advanced Features
 
-### Session 1: Bridging two worlds
+### Session 3: Galaxy bridge to Jupyter notebooks and RStudio
 
 **17 March 2021, 17.00-18.00 CET** (starts at 16.00 GMT, 11.00 EST, 8.00 PST)
 
@@ -39,7 +39,7 @@ Jupyter Notebooks and RStudio in combination with Galaxy workflows
 
 * Daniel Blankenberg
 * Bérénice Batut
-
+* Helena Rasche
 
 #### Chair
 
