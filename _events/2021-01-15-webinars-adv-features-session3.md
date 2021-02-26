@@ -3,7 +3,7 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 - training
 - COVID-19
-title: "Bridging two worlds"
+title: "Galaxy bridge to Jupyter notebooks and RStudio"
 starts: 2021-03-17
 ends: 2021-03-17
 organiser:
