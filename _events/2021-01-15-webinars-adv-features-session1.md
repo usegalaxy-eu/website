@@ -39,7 +39,7 @@ The first webinar will cover recent Advanced Galaxy workflow features, from para
 
 #### Speakers
 
-* Marius van der Beek
+* Marius van den Beek
 * Aysam Guerler
 
 #### Chair
