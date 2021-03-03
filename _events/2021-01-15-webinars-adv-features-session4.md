@@ -34,10 +34,10 @@ With this series of four webinars, the global Galaxy community will present such
 Speed up your data analysis with Galaxy: Features no one knows about
 
 - User-preference options
-- Data privacy, collaboration, and sharing options
-- Your-own-reference genome
-- Restart tools and workflows
-- Visualisations
+- Data privacy, collaboration, and sharing
+- Visualizations and graphing
+- Edit a dataset directly
+- Rerun a tool without resetting all parameters
 
 
 #### Speakers
