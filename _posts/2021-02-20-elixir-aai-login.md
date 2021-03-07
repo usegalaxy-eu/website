@@ -7,12 +7,11 @@ supporters:
 - elixir
 ---
 
-
-<img src="/assets/media/elixir/aai_logo.png" width="50%" alt="ELIXIR AAI logo" />
-
 The [ELIXIR Authentication and Authorisation Infrastructure (AAI)](https://elixir-europe.org/services/compute/aai)
 enables researchers to use their home organisation credentials or community or commercial identities (e.g. ORCID, LinkedIn, Google)
 to sign in and access Galaxy.
+
+<img src="/assets/media/elixir/aai_logo.png" width="50%" alt="ELIXIR AAI logo" />
 
 <hr/>
 
