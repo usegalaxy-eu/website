@@ -24,18 +24,18 @@
 #          Interactive tools are working properly now, but all previously running IT jobs have been stopped, so you will need to restart them. 
 #          Sorry for the inconvenience.
 
-- title: COVID-19 research!
+- title: COVID-19 Research!
   class: success # one of [success, info, warning, danger]
   site: freiburg # Your site
   messages:
       - message: |
             Want to learn the best practices for the analysis of SARS-CoV-2 data using Galaxy?
-            Visit the Galaxy SARS-CoV-2 portal at [covid19.galaxyproject.org](https://covid19.galaxyproject.org).
-            We mirror <b>all public</b> SARS-CoV-2 data from ENA in a [Galaxy data library](https://bit.ly/usegalaxy-eu-covid19-data) for your convenience.
-            The Galaxy community also created [COVID-19 related trainings](https://training.galaxyproject.org/search?query=covid19) and we also maintain a 
-            [running document](https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUMZ0hnGtePZplv-lK0rYzx8L-vo/preview#) with recent news.
+            Visit the [Galaxy SARS-CoV-2 portal](https://covid19.galaxyproject.org).
+            We mirror <b>all public SARS-CoV-2 data</b> from [ENA](https://www.ebi.ac.uk/ena/browser/home) in a [Galaxy data library](https://bit.ly/usegalaxy-eu-covid19-data) for your convenience.
+            The Galaxy community has created [COVID-19 dedicated training materials](https://training.galaxyproject.org/search?query=covid19).
+            Please check our [recent activities](https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUMZ0hnGtePZplv-lK0rYzx8L-vo/preview#) for more details.
             
-            If you need help to submit your data to public archives, like ENA, please get in touch. We will support you to share your data.
+            If you need help submitting your data to public archives, like ENA, please [get in touch](mailto:contact@usegalaxy.eu). We will support you in sharing your data.
 
 #- title: Urgent storage maintenance on the 25.02.2021 
 #  class: warning # one of [success, info, warning, danger]
