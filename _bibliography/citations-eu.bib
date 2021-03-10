@@ -121,6 +121,23 @@ Overall, our findings show that exposure to environmentally relevant concentrati
  year = {2019}
 }
 
+@article{batut_asaim_2018,
+ abstract = {Background.  New generations of sequencing platforms coupled to numerous bioinformatics tools have led to rapid technological progress in metagenomics a},
+ author = {Batut, Bérénice and Gravouil, Kévin and Defois, Clémence and Hiltemann, Saskia and Brugère, Jean-François and Peyretaillade, Eric and Peyret, Pierre},
+ doi = {10.1093/gigascience/giy057},
+ journal = {GigaScience},
+ keywords = {+Galactic, +IsGalaxy, +Tools, {\textgreater}ASaiM, {\textgreater}Metagenomics EU},
+ language = {en},
+ month = {June},
+ number = {6},
+ shorttitle = {{ASaiM}},
+ title = {{ASaiM}: a {Galaxy}-based framework to analyze microbiota data},
+ url = {https://academic.oup.com/gigascience/article/7/6/giy057/5001424},
+ urldate = {2018-07-12},
+ volume = {7},
+ year = {2018}
+}
+
 @article{batut_community-driven_2018,
  abstract = {The primary problem with the explosion of biomedical datasets is not the data, not computational resources, and not the required storage space, but the general lack of trained and skilled researchers to manipulate and analyze these data. Eliminating this problem requires development of comprehensive educational resources. Here we present a community-driven framework that enables modern, interactive teaching of data analytics in life sciences and facilitates the development of training materials. The key feature of our system is that it is not a static but a continuously improved collection of tutorials. By coupling tutorials with a web-based analysis framework, biomedical researchers can learn by performing computation themselves through a web browser without the need to install software or search for example datasets. Our ultimate goal is to expand the breadth of training materials to include fundamental statistical and data science topics and to precipitate a complete re-engineering of undergraduate and graduate curricula in life sciences. This project is accessible at https://training.galaxyproject.org.},
  author = {Batut, Bérénice and Hiltemann, Saskia and Bagnacani, Andrea and Baker, Dannon and Bhardwaj, Vivek and Blank, Clemens and Bretaudeau, Anthony and Brillet-Guéguen, Loraine and Čech, Martin and Chilton, John and Clements, Dave and Doppelt-Azeroual, Olivia and Erxleben, Anika and Freeberg, Mallory Ann and Gladman, Simon and Hoogstrate, Youri and Hotz, Hans-Rudolf and Houwaart, Torsten and Jagtap, Pratik and Larivière, Delphine and Corguillé, Gildas Le and Manke, Thomas and Mareuil, Fabien and Ramírez, Fidel and Ryan, Devon and Sigloch, Florian Christoph and Soranzo, Nicola and Wolff, Joachim and Videm, Pavankumar and Wolfien, Markus and Wubuli, Aisanjiang and Yusuf, Dilmurat and Taylor, James and Backofen, Rolf and Nekrutenko, Anton and Grüning, Björn},
@@ -1331,6 +1348,39 @@ Section: New Results},
  urldate = {2020-08-16},
  volume = {9},
  year = {2020}
+}
+
+@article{mehta_asaim-mt_2021,
+ abstract = {The Human Microbiome Project (HMP) aided in understanding the role of microbial communities and the influence of collective genetic material (the ‘microbiome’) in human health and disease. With the evolution of new sequencing technologies, researchers can now investigate the microbiome and map its influence on human health. Advances in bioinformatics methods for next-generation sequencing (NGS) data analysis have helped researchers to gain an in-depth knowledge about the taxonomic and genetic composition of microbial communities. Metagenomic-based methods have been the most commonly used approaches for microbiome analysis; however, it primarily extracts information about taxonomic composition and genetic potential of the microbiome under study, lacking quantification of the gene products (RNA and proteins). Conversely, metatranscriptomics, the study of a microbial community’s RNA expression, can reveal the dynamic gene expression of individual microbial populations and the community as a whole, ultimately providing information about the active pathways in the microbiome.  In order to address the analysis of NGS data, the ASaiM analysis framework was previously developed and made available via the Galaxy platform. Although developed for both metagenomics and metatranscriptomics, the original publication demonstrated the use of ASaiM only for metagenomics, while thorough testing for metatranscriptomics data was lacking.  In the current study, we have focused on validating and optimizing the tools within ASaiM for metatranscriptomics data. As a result, we deliver a robust workflow that will enable researchers to understand dynamic functional response of the microbiome in a wide variety of metatranscriptomics studies. This improved and optimized ASaiM-metatranscriptomics (ASaiM-MT) workflow is publicly available via the ASaiM framework, documented and supported with training material so that users can interrogate and characterize metatranscriptomic data, as part of larger meta-omic studies of microbiomes.},
+ author = {Mehta, Subina and Crane, Marie and Leith, Emma and Batut, Bérénice and Hiltemann, Saskia and Arntzen, Magnus Ø and Kunath, Benoit J. and Delogu, Francesco and Sajulga, Ray and Kumar, Praveen and Johnson, James E. and Griffin, Timothy J. and Jagtap, Pratik D.},
+ doi = {10.12688/f1000research.28608.1},
+ issn = {2046-1402},
+ journal = {F1000Research},
+ keywords = {+Education, +Galactic, +IsGalaxy, +Tools, {\textgreater}ASaiM, {\textgreater}Metagenomics EU},
+ language = {en},
+ month = {February},
+ pages = {103},
+ shorttitle = {{ASaiM}-{MT}},
+ title = {{ASaiM}-{MT}: a validated and optimized {ASaiM} workflow for metatranscriptomics analysis within {Galaxy} framework},
+ url = {https://f1000research.com/articles/10-103/v1},
+ urldate = {2021-02-12},
+ volume = {10},
+ year = {2021}
+}
+
+@article{mehta_updates_2021,
+ abstract = {metaQuantome is a software suite that enables the quantitative analysis, statistical evaluation. and visualization of mass-spectrometry-based metaproteomics data. In the latest update of this software, we have provided several extensions, including a step-by-step training guide, the ability to perform statistical analysis on samples from multiple conditions, and a comparative analysis of metatranscriptomics data. The training module, accessed via the Galaxy Training Network, will help users to use the suite effectively both for functional as well as for taxonomic analysis. We extend the ability of metaQuantome to now perform multi-data-point quantitative and statistical analyses so that studies with measurements across multiple conditions, such as time-course studies, can be analyzed. With an eye on the multiomics analysis of microbial communities, we have also initiated the use of metaQuantome statistical and visualization tools on outputs from metatranscriptomics data, which complements the metagenomic and metaproteomic analyses already available. For this, we have developed a tool named MT2MQ (“metatranscriptomics to metaQuantome”), which takes in outputs from the ASaiM metatranscriptomics workflow and transforms them so that the data can be used as an input for comparative statistical analysis and visualization via metaQuantome. We believe that these improvements to metaQuantome will facilitate the use of the software for quantitative metaproteomics and metatranscriptomics and will enable multipoint data analysis. These improvements will take us a step toward integrative multiomic microbiome analysis so as to understand dynamic taxonomic and functional responses of these complex systems in a variety of biological contexts. The updated metaQuantome and MT2MQ are open-source software and are available via the Galaxy Toolshed and GitHub.},
+ author = {Mehta, Subina and Kumar, Praveen and Crane, Marie and Johnson, James E. and Sajulga, Ray and Nguyen, Dinh Duy An and McGowan, Thomas and Arntzen, Magnus Ø. and Griffin, Timothy J. and Jagtap, Pratik D.},
+ doi = {10.1021/acs.jproteome.0c00960},
+ issn = {1535-3893},
+ journal = {Journal of Proteome Research},
+ keywords = {+Education, +IsGalaxy, +Methods, +RefPublic, +Stellar, +Tools, +UsePublic, {\textgreater}ASaiM, {\textgreater}UseGalaxy.eu},
+ month = {March},
+ note = {Publisher: American Chemical Society},
+ title = {Updates on {metaQuantome} {Software} for {Quantitative} {Metaproteomics}},
+ url = {https://doi.org/10.1021/acs.jproteome.0c00960},
+ urldate = {2021-03-09},
+ year = {2021}
 }
 
 @article{miao_putative_2020,
