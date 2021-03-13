@@ -7,7 +7,7 @@ tags:
   - elixi
 ---
 
-Yvan reminded us today that you can analyse RADseq data in Galaxy.
+[Yvan Le Bras](https://twitter.com/Yvan2935) reminded us today that everyone can analyse RADseq data in Galaxy.
 
 [RADSeq](https://doi.org/10.1093/bfgp/elq031) combines two simple molecular biology techniques with
 Illumina sequencing: the use of restriction enzymes to cut DNA into fragments (as for RFLPs and AFLPs),
