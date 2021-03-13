@@ -19,3 +19,5 @@ Yvan and his team also created some training materials which you can find in the
 {% twitter https://twitter.com/Yvan2935/status/1370686394398572544 %}
 {% twitter https://twitter.com/Yvan2935/status/1370688672656416769 %}
 {% twitter https://twitter.com/Yvan2935/status/1370692871884578816 %}
+{% twitter https://twitter.com/Yvan2935/status/1370734805135077376 %}
+{% twitter https://twitter.com/Yvan2935/status/1370735579088977920 %}
