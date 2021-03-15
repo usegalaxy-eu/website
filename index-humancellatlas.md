@@ -19,7 +19,7 @@ ingestion from 10x/loom, filtering (by cells or genes), scaling, normalisation,
 clustering, marker genes, and dimensionality reduction, among others. In the short
 term we expect to have interoperability between these tools through the Loom exchange format.
 Additionally, we provide specialised viewers for single cell clustering data:
-UCSC CellBrowser (currently active) and cellxgene (coming up soon).
+UCSC CellBrowser and cellxgene interactive tool (contributed by the great Galaxy community).
 
 Tools available under HCA-Single Cell section were mainly brought to Galaxy by
 the [Gene Expression Team](https://www.ebi.ac.uk/about/people/irene-papatheodorou){:target="_blank"}
@@ -44,7 +44,8 @@ Workflow | Description
 [EBI Single Cell Expression Atlas - Scanpy - CellBrowser](https://humancellatlas.usegalaxy.eu/u/pmoreno/w/atlas-scanpy-cellbrowser-imported-from-uploaded-file){:target="_blank"} | Retrieve expression matrices from Single Cell Expression Atlas, analysis with Scanpy and visualisation with UCSC CellBrowser
 [EBI Single Cell Expression Atlas Scanpy Prod 1.3](https://humancellatlas.usegalaxy.eu/u/pmoreno/w/scanpy-prod-13-smart-imported-from-uploaded-file){:target="_blank"} | Workflow used for clustering data in the [release 6 to 9](https://www.ebi.ac.uk/gxa/sc/release-notes.html){:target="_blank"} of [Single Cell Expression Atlas](https://www.ebi.ac.uk/gxa/sc/home){:target="_blank"}
 [EBI Single Cell Expression Atlas Tertiary Analysis Rel 10](https://humancellatlas.usegalaxy.eu/u/pmoreno/w/ebi-sc-expression-atlas-release-10-analysis-pipeline-scanpy-143){:target="_blank"} | Workflow used for clustering data in the [release 10](https://www.ebi.ac.uk/gxa/sc/release-notes.html){:target="_blank"} of [Single Cell Expression Atlas](https://www.ebi.ac.uk/gxa/sc/home){:target="_blank"}
-[EBI Single Cell Expression Atlas Tertiary Analysis Rel 11](https://humancellatlas.usegalaxy.eu/u/pmoreno/w/ebi-sc-expression-atlas-release-11-analysis-pipeline){:target="_blank"} | Workflow used for clustering data in the [release 11](https://www.ebi.ac.uk/gxa/sc/release-notes.html){:target="_blank"} of [Single Cell Expression Atlas](https://www.ebi.ac.uk/gxa/sc/home){:target="_blank"}
+[EBI Single Cell Expression Atlas Tertiary Analysis Rel 11](https://humancellatlas.usegalaxy.eu/u/pmoreno/w/ebi-sc-expression-atlas-release-11-analysis-pipeline){:target="_blank"} | Workflow used for clustering data in the [releases 11 and 12](https://www.ebi.ac.uk/gxa/sc/release-notes.html){:target="_blank"} of [Single Cell Expression Atlas](https://www.ebi.ac.uk/gxa/sc/home){:target="_blank"}
+[EBI Single Cell Expression Atlas Tertiary Analysis Rel 13](https://humancellatlas.usegalaxy.eu/u/pmoreno/w/ebi-sc-expression-atlas-release-13-analysis-pipeline-scanpy-160---harmony-batch-correction){:target="_blank"} | Workflow used for downstream analysis in the [releases 13 to 15](https://www.ebi.ac.uk/gxa/sc/release-notes.html){:target="_blank"} of [Single Cell Expression Atlas](https://www.ebi.ac.uk/gxa/sc/home){:target="_blank"}.
 {: .table.table-striped .tooltable}
 
 
@@ -154,6 +155,7 @@ Tool | Description | Reference
 - [Pablo Moreno](https://github.com/pcm32)
 - [Ni Huang](https://github.com/nh3)
 - [Jonathan Manning](https://github.com/pinin4fjords)
+- [Andrey Solovyev](https://github.com/a-solovyev12)
 - [Carlos Talavera-Lopez](https://github.com/cartal)
 - [Suhaib Mohammed](https://github.com/suhaibMo)
 - [Irene Papatheodorou](https://twitter.com/irenepapatheodo)
