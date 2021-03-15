@@ -19,7 +19,7 @@ ingestion from 10x/loom, filtering (by cells or genes), scaling, normalisation,
 clustering, marker genes, and dimensionality reduction, among others. In the short
 term we expect to have interoperability between these tools through the Loom exchange format.
 Additionally, we provide specialised viewers for single cell clustering data:
-UCSC CellBrowser (currently active) and cellxgene (coming up soon).
+UCSC CellBrowser and cellxgene interactive tool (contributed by the great Galaxy community).
 
 Tools available under HCA-Single Cell section were mainly brought to Galaxy by
 the [Gene Expression Team](https://www.ebi.ac.uk/about/people/irene-papatheodorou){:target="_blank"}
