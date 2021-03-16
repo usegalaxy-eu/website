@@ -7,13 +7,13 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #
 
-- title: Short downtime on the 16.03.2021
-  class: warning # one of [success, info, warning, danger]
-  site: freiburg # Your site
-  messages:
-      - message: |
-           On March 16th, we plan to update Usegalaxy.eu's codebase to the 21.01 Galaxy release. 
-           We expect a short downtime during the day that might prevent you to submit new jobs. Please take it into account in your job schedule.
+#- title: Short downtime on the 16.03.2021
+#  class: warning # one of [success, info, warning, danger]
+#  site: freiburg # Your site
+#  messages:
+#      - message: |
+#           On March 16th, we plan to update Usegalaxy.eu's codebase to the 21.01 Galaxy release. 
+#           We expect a short downtime during the day that might prevent you to submit new jobs. Please take it into account in your job schedule.
 
 #- title: Interactive tools are working again [11/01/2021] 
 #  class: info # one of [success, info, warning, danger]
