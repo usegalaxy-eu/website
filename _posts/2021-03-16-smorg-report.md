@@ -1,6 +1,6 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-title: "GTN Smörgåsbord Report (Spoiler: it was awesome.)"
+title: "GTN Smörgåsbord Report (Spoiler: it was awesome)"
 tags: 
 - galaxy
 - training
