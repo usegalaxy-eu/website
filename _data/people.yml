@@ -7,6 +7,7 @@ freiburg:
         location: "Build.: 079, Room: -1006"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: bgruening
+        matrix: "@bgruening:matrix.org"
         twitter: bjoerngruening
         linkedin: bjorn-grüning-2b84a895
         orcid: 0000-0002-3079-6586
@@ -46,7 +47,7 @@ freiburg:
         phone: +49(0) 761 - 203 54133
         location: "Build.: 079, Room: -1005a"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        gitter: wm75
+        matrix: "@wm75:matrix.org"
         bio:
 
     hexylena:
@@ -106,6 +107,7 @@ freiburg:
         location: "Build.: 079, Room: -1015"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: gmauro
+        matrix: "@gmauro:matrix.org"
         orcid: 0000-0002-5335-545X
 
     simonbray:
