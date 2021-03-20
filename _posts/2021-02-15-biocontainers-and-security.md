@@ -21,11 +21,11 @@ security issues.
 The last missing piece in the puzzle is to switch to those more reproducible and secure containers by default for all tools included in the European Galaxy server.
 And this is what we want to tackle during this year. Our plan is to do this in 2 steps:
 
-- Step one: We take a centOS Singularity container, mount our current conda environments into the container, and run the tool inside this container. This provides a secure
+- Step one: We take a CentOS Singularity container, mount our current conda environments into the container, and run the tool inside this container. This provides a secure
 environment and gives us a proven fallback for step 2.
 
 - Step two: We mount all the previously created 50,000 Singularity containers using our community-built CVMFS repository into the cluster and share those containers with
 all nodes. Galaxy will then attempt to find a native container for every Galaxy tool. If such a container does not exist, which is unlikely, Galaxy will fallback to Step one and
 run the tool in a secure Container environment using Conda packages.
 
-If you have any questions, please do not hesitate to contact the BioContainers community or the European Galaxy Project.
+If you have any questions, please do not hesitate to contact the [BioContainers community](https://gitter.im/biocontainers/Lobby) or the European Galaxy Project.
