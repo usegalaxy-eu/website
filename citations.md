@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Galaxy Europe citations
+# Scientific research using & citing the European Galaxy server
 
 <br>
 This is the list of scientific publications that cited the European Galaxy instance sorted by year.
