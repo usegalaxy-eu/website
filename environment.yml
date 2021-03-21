@@ -37,8 +37,8 @@ dependencies:
   - rb-jekyll-compose=0.11.0
   - rb-jekyll-feed=0.12.1
   - rb-jekyll-sass-converter=2.0.1
-  - rb-jekyll-scholar=6.6.0
-  - rb-jekyll-twitter-plugin=2.0.0
+  - rb-jekyll-scholar=6.8.0
+  - rb-jekyll-twitter-plugin=2.1.0
   - rb-jekyll-watch=2.2.1
   - rb-kramdown=2.1.0
   - rb-kramdown-parser-gfm=1.1.0
@@ -52,7 +52,7 @@ dependencies:
   - rb-nokogiri=1.10.8
   - rb-parallel=1.18.0
   - rb-pathutil=0.16.2
-  - rb-public_suffix=4.0.1
+  - rb-public_suffix=4.0.6
   - rb-rainbow=3.0.0
   - rb-rb-fsevent=0.10.3
   - rb-rb-inotify=0.10.0
@@ -69,11 +69,11 @@ dependencies:
   - rb-tzinfo-data=1.2019.3
   - rb-unicode-display_width=1.6.0
   - rb-yell=2.2.2
-  - readline=8.0
-  - ruby=2.6.5
-  - tk=8.6.10
-  - xz=5.2.4
-  - yaml=0.1.7
-  - zlib=1.2.11
+  - readline=8
+  - ruby=2.6
+  - tk
+  - xz
+  - yaml
+  - zlib
 prefix: /home/bag/miniconda3/envs/usegalaxy-eu-website
 
