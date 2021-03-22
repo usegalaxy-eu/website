@@ -152,4 +152,11 @@ make run
 
 ## Deploying
 
-The scripts `.build.sh` and `.deploy.sh` are what are run by our Jenkins bot.
+Our Jenkins bot deploy the website using 
+
+```console
+make install
+make build
+```
+and the script `.deploy.sh`.
+
