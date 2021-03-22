@@ -13,7 +13,7 @@ However, as we already discussed in _["Practical Computational Reproducibility i
 adjustable and a tradeoff involving useability and cost. If you require a higher level of reproducibility and security, you might want
 to run your tools in a Container - Docker and Singularity are the most prominent container technologies today. For that reason, we have created, over the years, __[50,000 containers](https://doi.org/10.1021/acs.jproteome.0c00904) for all 8,000 Bioconda packages__ and some other containers for specific communities.
 
-Thanks to ELIXIR and the BioContainers community, we have implemented last year __automatic security checks__ for those containers, to detect whether the included software has known security issues.
+Thanks to ELIXIR and the BioContainers community, we have implemented last year __automatic security checks__ for those containers, to detect whether the included software has known security issues. On container creation, the continuous integration automatically adds the containers to a vulnerability scan tool [anchore](https://anchore.com/opensource/) that will create reports available in BioContainers web site for each tool. With this report, users or admins can have a view on known CVEs on embeded operating system or libraries. After analysis, we decided however not to sign containers. Balance between technical constraints versus benefits led us not to implement it for the moment.
 
 The last missing piece in the puzzle is to switch to those __more reproducible and secure containers by default for all tools included in the European Galaxy server__.
 And this is what we want to tackle during this year. Our plan is to do this in two steps:
