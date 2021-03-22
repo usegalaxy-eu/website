@@ -40,7 +40,7 @@ dependencies:
   - rb-jekyll-scholar=6.8.0
   - rb-jekyll-twitter-plugin=2.1.0
   - rb-jekyll-watch=2.2.1
-  - rb-kramdown=2.3.1
+  - rb-kramdown=2.3.0
   - rb-kramdown-parser-gfm=1.1.0
   - rb-latex-decode=0.3.1
   - rb-liquid=4.0.3
@@ -49,7 +49,7 @@ dependencies:
   - rb-mini_portile2=2.4.0
   - rb-minitest=5.12.2
   - rb-namae=1.0.1
-  - rb-nokogiri=1.11.1
+  - rb-nokogiri=1.10.8
   - rb-parallel=1.18.0
   - rb-pathutil=0.16.2
   - rb-public_suffix=4.0.6
