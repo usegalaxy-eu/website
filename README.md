@@ -106,6 +106,7 @@ and can easily get directions to it.
 - COVID-19
 - data
 - devops
+- FAQ
 - galaxy
 - GCC
 - grants
