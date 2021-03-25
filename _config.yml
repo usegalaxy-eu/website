@@ -44,7 +44,7 @@ plugins:
   - jekyll-feed
   - jekyll/scholar
   - jekyll-twitter-plugin
-  - jekyll-analytics
+#  - jekyll-analytics
 
 scholar:
   style: bioinformatics
