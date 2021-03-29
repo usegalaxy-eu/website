@@ -5,8 +5,6 @@ doi: "10.1371/journal.pone.0147101"
 tags:
 - paper
 - tools
-- serotyping
-- WGS
 ---
 
 
