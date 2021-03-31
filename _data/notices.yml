@@ -48,14 +48,18 @@
 #           
 #           Sorry for the inconvenience.
            
-# - title: Restricted compute capacity on the 30.01.2021 
-#   class: info # one of [success, info, warning, danger]
-#   site: freiburg # Your site
-#   messages:
-#       - message: |
-#           Due to upgrade work to our peta-storage we need to shutdown large parts of our compute infrastructure on the
-#           30.01.2021. We are hopeful to keep the webserver running and accept jobs and workflows, but there will be a delay
-#           in processing them.
+ - title: Limited computing capacity on next March 14th and 15th, 2021
+   class: info # one of [success, info, warning, danger]
+   site: freiburg # Your site
+   messages:
+       - message: |
+           Due to upgrade work to the deNBI cloud infrastructure, we need to shut down mostly all of our computing resources next March 14th and 15th, 2021. 
+           The shut-down will start at <b>17:00 of March 14th</b> and, everything should return to normal operation by the end of the next day.
+           We will keep the webserver running, accepting jobs and workflows, but there will be a delay in processing them.
+           The running jobs, at that date, will be interrupted and rescheduled for a new start (from scratch, no intermediate results can be saved) as soon as the cloud will be available again.
+           Please take it into account in your job schedule.
+           
+           Sorry for the inconvenience
 
 #- title: Enough talking - time to act!
 #  class: danger # one of [success, info, warning, danger]
