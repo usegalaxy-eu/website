@@ -59,7 +59,7 @@
            The running jobs, at that date, will be interrupted and rescheduled for a new start (from scratch, no intermediate results can be saved) as soon as the cloud is available again.
            Please take it into account in your job schedule.
            
-           Sorry for the inconvenience
+           Sorry for the inconvenience.
 
 #- title: Enough talking - time to act!
 #  class: danger # one of [success, info, warning, danger]
