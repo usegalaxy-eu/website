@@ -39,7 +39,7 @@ install: create-env ## create usegalaxy-eu-website conda environment
 .PHONY: install
 
 build: ## Build the site once and exit
-	$(ACTIVATE_ENV) && jekyll build
+	$(ACTIVATE_ENV) && jekyll build --trace
 .PHONY: build
 
 freeze-env:
