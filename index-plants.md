@@ -31,11 +31,17 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 # Training and Workshops
 
-**Want to learn more about plant analysis? Check out the following hands-on tutorials from [the Galaxy Training Network](https://galaxyproject.github.io/training-material/){:target=_"blank"}**, or come to one of our workshops.
-
 We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
 
-We will be hosting a Plant Analysis Workshop [this April](https://usegalaxy-eu.github.io/event/XXXXX/plain.html). Please register whilst spots are still open!
+## Tutorials
+
+Some relevant tutorials for the analysis of plant-related data are:
+
+- [Chloroplast genome assembly](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html)
+
+## Workshops
+
+We will be hosting a [Plant Transcriptome Analysis Workshop](https://docs.google.com/document/d/1Y5MqYmMxFCy7PDImYYuHLhgCKVV7MjoGMr22G2U68Ec/preview#) from the 19th to the 23rd of April. Please [register](https://docs.google.com/forms/d/e/1FAIpQLSdZZ0-_8BhZgcOdUm1jPZNpGPjN9tFlBfrd-sMptO24nXkS-Q/viewform) whilst spots are still open!
 
 ## Material
 
