@@ -19,18 +19,61 @@ layout: default
 </section>
 
 {% if key_length == 0 %}
-  {% assign posts = site.events | sort:"starts" | reverse %}
+  {% assign posts_descending = site.events | sort:"starts" | reverse %}
+  {% assign posts_ascending = site.events | sort:"starts" %}
 {% else %}
   {% if site.team_sites[key].private_news == false or key == "galaxy" %}
-    {% assign posts = site.events | sort:"starts" | reverse %}
+    {% assign posts_descending = site.events | sort:"starts" | reverse %}
+    {% assign posts_ascending = site.events | sort:"starts"  %}
   {% else %}
-    {% assign posts = site.events | where:'site', key | sort:"starts" | reverse %}
+    {% assign posts_descending = site.events | where:'site', key | sort:"starts" | reverse %}
+    {% assign posts_ascending = site.events | where:'site', key | sort:"starts" %}
   {% endif %}
 {% endif %}
 
+
+<script>
+  const load = () => {
+    let recent = $("#recent-events");
+    let passed = $("#passed-events");
+    let div;
+    let date;
+    let today = new Date();
+    // ignore time (at least for now)
+    today.setHours(0,0,0,0)
+    const createDiv = ()=>{
+
+    }
+    {% for post in posts_descending %}
+        if (new Date(`{{ post.starts | date: "%-d %b %Y" }}`) <= today) {
+            div = `
+                {% include event.html post=post date_format=date_format %}
+            `
+            passed.append(div)
+          }
+    {% endfor %}
+
+    {% for post in posts_ascending %}
+          if (new Date(`{{ post.starts | date: "%-d %b %Y" }}`) >= today) {
+            div = `
+                {% include event.html post=post date_format=date_format %}
+            `
+            recent.append(div)
+          }
+    {% endfor %}
+  }
+  window.onload = load;
+</script>
+
+
+
+
+{% for i in (1..2) %}
+
+
 <section class="section-content">
   <div class="col-md-12">
-    <table class="table table-striped">
+    <table class="table panel-default">
       <thead>
         <tr>
           {% if key_length == 0 or site.team_sites[key].private_news == false or key == "galaxy" %}
@@ -42,42 +85,28 @@ layout: default
           <th>Location</th>
         </tr>
       </thead>
-      <tbody>
-        {% for post in posts %}
-          <tr class="{% if key_length == 0 or site.team_sites[key].private_news == false or key == "galaxy" %}border-{{ post.site }}{% endif %}">
-            {% if key_length == 0 or site.team_sites[key].private_news == false or key == "galaxy" %}
-            <td>
-                <div>{{ site.team_sites[post.site].name }}</div>
-            </td>
-            {% endif %}
-            <td>
-              <h4>
-                {% if post.external %}
-                  <a href="{{ post.external }}" target="_blank" rel="noopener">
-                {% else %}
-                  <a href="{{ post.url }}">
-                {% endif %}
-                {{ post.title | escape }}
-                </a>
-                <span>{% include article_icons.html post=post %}</span>
-              </h4>
-              <div>{{ post.excerpt }}</div>
-            </td>
-            <td>
-            <span class="text-nowrap">{{ post.starts | date: date_format }}</span>
-            </td>
-            <td>
-            <span class="text-nowrap">{{ post.ends   | date: date_format }}</span>
-            </td>
-            <td>
-              {% if post.location.city %}
-              {{ post.location.city }},
+      <tbody
+              {% if i==1 %}
+              id="recent-events">
+              {% else %}
+              id="passed-events">
               {% endif %}
-              {{ post.location.country }}
-            </td>
-          </tr>
-        {% endfor %}
       </tbody>
     </table>
   </div>
 </section>
+<div class="alert
+{% if i==1 %}
+  alert-success" role="alert">
+  <div class="text-center">Incoming</div>
+{% else %}
+    alert-warning" role="alert">
+  <div class="text-center">Passed</div>
+{% endif %}
+</div>
+
+{% endfor %}
+
+
+
+

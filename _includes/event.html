@@ -1,0 +1,32 @@
+<tr class="{% if key_length == 0 or site.team_sites[key].private_news == false or key == "galaxy" %}border-{{ post.site }}{% endif %}">
+  {% if key_length == 0 or site.team_sites[key].private_news == false or key == "galaxy" %}
+  <td>
+      <div>{{ site.team_sites[include.post.site].name }}</div>
+  </td>
+  {% endif %}
+  <td>
+    <h4>
+      {% if include.post.external %}
+        <a href="{{ include.post.external }}" target="_blank" rel="noopener">
+      {% else %}
+        <a href="{{ include.post.url }}">
+      {% endif %}
+      {{ include.post.title | escape }}
+      </a>
+      <span>{% include article_icons.html post=include.post %}</span>
+    </h4>
+    <div>{{ include.post.excerpt }}</div>
+  </td>
+  <td>
+  <span class="text-nowrap">{{ include.post.starts | date: include.date_format }}</span>
+  </td>
+  <td>
+  <span class="text-nowrap">{{ include.post.ends   | date: include.date_format }}</span>
+  </td>
+  <td>
+    {% if include.post.location.city %}
+    {{ include.post.location.city }},
+    {% endif %}
+    {{ include.post.location.country }}
+  </td>
+</tr>
