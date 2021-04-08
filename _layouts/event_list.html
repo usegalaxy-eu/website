@@ -69,12 +69,21 @@ layout: default
 
 
 {% for i in (1..2) %}
-
-
+{% if i==1 %}
+<h3 class="text-center"><span class="label label-success">Incoming</span></h3>
+{% else %}
+<h3 class="text-center"><span class="label label-warning">Passed</span></h3>
+{% endif %}
 <section class="section-content">
   <div class="col-md-12">
-    <table class="table panel-default">
-      <thead>
+    <table class="table table-striped">
+      <thead
+              {% if i==1 %}
+              class="list-group-item-success"
+              {% else %}
+              class="list-group-item-warning"
+              {% endif %}
+      >
         <tr>
           {% if key_length == 0 or site.team_sites[key].private_news == false or key == "galaxy" %}
           <th>Site</th>
@@ -95,15 +104,6 @@ layout: default
     </table>
   </div>
 </section>
-<div class="alert
-{% if i==1 %}
-  alert-success" role="alert">
-  <div class="text-center">Incoming</div>
-{% else %}
-    alert-warning" role="alert">
-  <div class="text-center">Passed</div>
-{% endif %}
-</div>
 
 {% endfor %}
 
