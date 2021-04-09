@@ -45,7 +45,7 @@ layout: default
 
     }
     {% for post in posts_descending %}
-        if (new Date(`{{ post.starts | date: "%-d %b %Y" }}`) <= today) {
+        if (new Date(`{{ post.ends | date: "%-d %b %Y" }}`) <= today) {
             div = `
                 {% include event.html post=post date_format=date_format %}
             `
@@ -54,7 +54,7 @@ layout: default
     {% endfor %}
 
     {% for post in posts_ascending %}
-          if (new Date(`{{ post.starts | date: "%-d %b %Y" }}`) >= today) {
+          if (new Date(`{{ post.ends | date: "%-d %b %Y" }}`) >= today) {
             div = `
                 {% include event.html post=post date_format=date_format %}
             `
