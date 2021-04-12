@@ -3,7 +3,7 @@
     {% if include.logo %}
     <img src="/assets/media/galaxy-eu.svg" style="padding: 0.5em; height: 5em;"/>
     {% endif %}
-    {% assign items1 = site.events | sort:"starts" | reverse %}
+    {% assign items1 = site.events | sort:"starts" %}
 
     {% if include.site and site.team_sites[include.site].private_news %}
     {% assign items = items1 | where:'site', include.site %}
@@ -19,7 +19,12 @@
     {% assign url_ext = 'plain.html' %}
     {% endif %}
 
-    {% for post in items limit:6 %}
+    {% capture currentDate %}{{ site.time | date: '%F' }}{% endcapture %}
+    {% assign events_counter = 0%}
+
+    {% for post in items %}
+     {% capture postDate %}{{ post.starts | date: '%F' }}{% endcapture %}
+     {% if postDate > currentDate %}
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       {% if post.external %}
         {% assign url = post.external %}
@@ -41,6 +46,11 @@
           {{ post.title | escape }}
         </h4>
       </a>
+      {% assign events_counter = events_counter | plus:1 %}
+      {%  if events_counter == 6 %}
+         {% break %}
+      {% endif %}
+     {% endif %}
     {% endfor %}
   </div>
 </div>
