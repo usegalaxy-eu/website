@@ -26,7 +26,6 @@ The server is part if the European Galaxy server and is maintained by the [RNA B
 # Get started
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
-Some relevant materials prior to the analysis of plant-related data is the analysis of [Chloroplast genome assembly](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html).
 
 
 # Training and Workshops
@@ -38,6 +37,8 @@ We are passionate about training. So we are working in close collaboration with 
 We will be hosting a [Plant Transcriptome Analysis Workshop](https://docs.google.com/document/d/1Y5MqYmMxFCy7PDImYYuHLhgCKVV7MjoGMr22G2U68Ec/preview#) from the 19th to the 23rd of April. Please [register](https://docs.google.com/forms/d/e/1FAIpQLSdZZ0-_8BhZgcOdUm1jPZNpGPjN9tFlBfrd-sMptO24nXkS-Q/viewform) whilst spots are still open!
 
 ## Material
+
+All relevant materials for [plant-related data analysis](https://training.galaxyproject.org/training-material/search?query=plant) can also be found within the Galaxy Training Network.
 
 Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy History 
 --- | --- | --- | --- | --- | --- 
