@@ -23,7 +23,7 @@
     {% assign events_counter = 0%}
 
     {% for post in items %}
-     {% capture postDate %}{{ post.starts | date: '%F' }}{% endcapture %}
+     {% capture postDate %}{{ post.ends | date: '%F' }}{% endcapture %}
      {% if postDate > currentDate %}
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       {% if post.external %}
