@@ -64,15 +64,19 @@ Analysis of plant scRNA-Seq data using ScanPy |  | [<i class="fa fa-laptop" aria
 <img alt="DataPLANT" src="/assets/media/DataPLANT_logo_colour.svg" />
 </td>
 <td with="2%"></td>
-<td width="20%">
+<td width="18%">
 <img alt="BioDATEN" src="/assets/media/biodaten_logo.png" />
 </td>
 <td with="2%"></td>
-<td width="20%">
+<td width="18%">
 <img alt="VIB" src="/assets/media/vib_rf_plant_systems_biology_rgb_pos.png" />
 </td>
 <td with="2%"></td>
-<td width="20%">
+<td width="18%">
+<img alt="Technische Universität Kaiserslautern" src="/assets/media/tu_kaiserslautern.svg" />
+</td>
+<td with="2%"></td>
+<td width="18%">
 <img alt="IPK" src="/assets/media/ipklogo.png" />
 </td></tr></table>
 
