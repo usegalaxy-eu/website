@@ -13,9 +13,7 @@ gitter: usegalaxy-eu/Lobby
 The Plant Anaylsis Workbench is a comprehensive set of analysis tools and consolidated workflows. The workbench is based on the [Galaxy framework](https://galaxyproject.org){:target="_blank"},
 which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
-The current version comprises more than XX  bioinformatics tools dedicated to different research areas of single cell biology.
-
-This service is a joint project between different groups from the [XXXXX](http://www.test.ac.uk){:target="_blank"}, the [XXXXX](http://www.test.ac.uk){:target="_blank"}, [XXXXX](http://www.test.ac.uk){:target="_blank"}, and the [University of Freiburg](https://galaxyproject.eu/freiburg/){:target="_blank"}.
+This service is a joint project between different groups from the [DataPLANT](https://nfdi4plants.github.io/){:target="_blank"}, the [BioDATEN](https://portal.biodaten.info/){:target="_blank"}, [VIB](https://vib.be/vib-ugent-center-plant-systems-biology){:target="_blank"}, [IPK](https://www.ipk-gatersleben.de/){:target="_blank"}, and the [University of Freiburg](https://galaxyproject.eu/freiburg/){:target="_blank"}.
 The server is part if the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
 
 
@@ -60,8 +58,12 @@ Clustering 3K PBMCs with ScanPy | . | [<i class="fa fa-laptop" aria-hidden="true
 Analysis of plant scRNA-Seq data using ScanPy | . | . | . | . | .
 {:.table.table-striped}
 
+# Partners
 
-# Available tools
+![DataPlANT]({{{ page.website }}}/assets/media/DataPLANT_logo_colour.svg)
+![BioDATEN]({{{ page.website }}}/assets/media/biodaten_logo.png)
+![VIB]({{{ page.website }}}/assets/media/vib_rf_plant_systems_biology_rgb_pos.png)
+![IPK]({{{ page.website }}}/assets/media/ipklogo.png)
 
 # Citation
 
