@@ -80,11 +80,4 @@ Analysis of plant scRNA-Seq data using ScanPy |  | [<i class="fa fa-laptop" aria
 <img alt="IPK" src="/assets/media/ipklogo.png" />
 </td></tr></table>
 
-# Citation
 
-Please add the following when using the [plants.usegalaxy.eu](https://plants.usegalaxy.eu) Galaxy portal:
-
-*The Galaxy server that was used for some calculations is in part funded by Collaborative Research Centre 992 Medical Epigenetics (DFG grant SFB 992/1 2012) and
-German Federal Ministry of Education and Research (BMBF grants 031 A538A/A538C RBC, 031L0101B/031L0101C de.NBI-epi, 031L0106 de.STAIR (de.NBI)).*
-
-More information on [how to cite Galaxy](https://galaxyproject.org/citing-galaxy/).
