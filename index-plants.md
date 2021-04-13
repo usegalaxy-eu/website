@@ -5,7 +5,7 @@ subdomain: plants
 gitter: usegalaxy-eu/Lobby
 ---
 
-![Plant Analysis on Galaxy](/assets/media/logo_plants.svg){:.sc-intro-left}
+![Plant Analysis on Galaxy](/assets/media/logo_plants.png){:.sc-intro-left}
 
 # Welcome to Galaxy for Plant Biology
 {:.no_toc}
