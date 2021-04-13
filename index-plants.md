@@ -60,10 +60,21 @@ Analysis of plant scRNA-Seq data using ScanPy |  | [<i class="fa fa-laptop" aria
 
 # Partners
 
-![DataPlANT]({{{ page.website }}}/assets/media/DataPLANT_logo_colour.svg)
-![BioDATEN]({{{ page.website }}}/assets/media/biodaten_logo.png)
-![VIB]({{{ page.website }}}/assets/media/vib_rf_plant_systems_biology_rgb_pos.png)
-![IPK]({{{ page.website }}}/assets/media/ipklogo.png)
+<table border="0"><tr><td width="20%">
+<img alt="DataPLANT" src="/assets/media/DataPLANT_logo_colour.svg" />
+</td>
+<td with="2%"></td>
+<td width="20%">
+<img alt="BioDATEN" src="/assets/media/biodaten_logo.png" />
+</td>
+<td with="2%"></td>
+<td width="20%">
+<img alt="VIB" src="/assets/media/vib_rf_plant_systems_biology_rgb_pos.png" />
+</td>
+<td with="2%"></td>
+<td width="20%">
+<img alt="IPK" src="/assets/media/ipklogo.png" />
+</td></tr></table>
 
 # Citation
 
