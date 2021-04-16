@@ -13,8 +13,8 @@ gitter: usegalaxy-eu/Lobby
 The Plant Anaylsis Workbench is a comprehensive set of analysis tools and consolidated workflows. The workbench is based on the [Galaxy framework](https://galaxyproject.org){:target="_blank"},
 which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
-This service is a joint project between different groups from the [DataPLANT](https://nfdi4plants.github.io/){:target="_blank"}, the [BioDATEN](https://portal.biodaten.info/){:target="_blank"}, [VIB](https://vib.be/vib-ugent-center-plant-systems-biology){:target="_blank"}, [IPK](https://www.ipk-gatersleben.de/){:target="_blank"}, and the [University of Freiburg](https://galaxyproject.eu/freiburg/){:target="_blank"}.
-The server is part if the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
+This service is a joint project between different groups from the [DataPLANT Consortium](https://nfdi4plants.github.io/){:target="_blank"}, the [BioDATEN project](https://portal.biodaten.info/){:target="_blank"}, [VIB](https://vib.be/vib-ugent-center-plant-systems-biology){:target="_blank"}, [IPK](https://www.ipk-gatersleben.de/){:target="_blank"}, and the [University of Freiburg](https://galaxyproject.eu/freiburg/){:target="_blank"}.
+The service is part of the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
 
 
 # Content
@@ -30,7 +30,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 # Training and Workshops
 
-We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
+We are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
 
 ## Workshops
 
