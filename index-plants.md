@@ -31,19 +31,19 @@ We are working in close collaboration with the [__Galaxy Training Network (GTN)_
 
 <br>
 
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/lDqWxzWNk1k" 
-title="YouTube video player" 
-frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/lDqWxzWNk1k"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen>
 </iframe>
 
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/-1MPdxmRs8U" 
-title="YouTube video player" 
-frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/-1MPdxmRs8U"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 <br>
@@ -58,13 +58,13 @@ allowfullscreen></iframe>
 
 All relevant materials for [plant-related data analysis](https://training.galaxyproject.org/training-material/search?query=plant) can also be found within the GTN.
 
-Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy History 
---- | --- | --- | --- | --- | --- 
+Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy History
+--- | --- | --- | --- | --- | ---
 Welcome and introduction to Galaxy | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/videos/watch.html?v=introduction/tutorials/galaxy-intro-short/slides){:target="_blank"} | | | |
 An Introduction to Transcriptomics | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/qKkS_tztw_Q){:target="_blank"} | | | |
 Quality Control | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/BWonTPS4zB8){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/QJRlX2hWDKM){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://doi.org/10.5281/zenodo.61771){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/workflows/){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/gallardoalba/h/quality-control){:target="_blank"}
 Mapping | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/7FhHb8EV3EU){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/1wm-62E2NkY){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://doi.org/10.5281/zenodo.1324070){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/workflows/){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/gallardoalba/h/mapping){:target="_blank"}
-miRNA data analysis | [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=1kiUaJBVnlo){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=TyWCXxzHZak){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/4606701#.YHrzd66xWV4){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/workflows/){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/gallardoalba/h/mirna-data-analysis){:target="_blank"}
+miRNA data analysis | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/videos/watch.html?v=transcriptomics/tutorials/mirna-target-finder/slides){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=TyWCXxzHZak){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/4606701#.YHrzd66xWV4){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/workflows/){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/gallardoalba/h/mirna-data-analysis){:target="_blank"}
 mRNA data analysis and miRNA target prediction |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html#mrna-data-analysis){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=4Xpd25T6ziw){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/4606701#.YHrzd66xWV4){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/workflows/){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/videmp/h/arabidopsis-transcriptome-analysis){:target="_blank"}
 An introduction to single-cell RNA-seq data analysis | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/scrna-intro/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=D3qvYWZMFa0){:target="_blank"} | | | |
 Understanding Barcodes | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/videos/watch.html?v=transcriptomics/tutorials/scrna-plates-batches-barcodes/slides){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=AJ17BicjmYU){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/2573177){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/workflows/run?id=d7aa4c258e2edc95){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/mehmet-tekman/h/understanding-barcodes){:target="_blank"}
@@ -103,5 +103,4 @@ The service is part of the European Galaxy server and is maintained by the [RNA 
 <td width="15%">
 <img alt="IPK" src="/assets/media/ipklogo.png" />
 </td></tr></table>
-
 
