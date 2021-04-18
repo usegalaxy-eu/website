@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Galaxy Europe"
 description: The European Galaxy Instance
-email: galaxy@informatik.uni-freiburg.de
+email: contact@usegalaxy.eu
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://galaxyproject.eu" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: galaxyproject
@@ -67,7 +67,7 @@ team_sites:
     freiburg:
       name: Freiburg
       url: /freiburg/
-      email: galaxy@informatik.uni-freiburg.de
+      email: contact@usegalaxy.eu
       twitter_username: galaxyproject
       github_username: usegalaxy-eu
       private_news: true
