@@ -40,9 +40,10 @@ get the results from:
 * Galaxy via shared/public histories
 * via the CRG FTP server
 
-and visualize them on the Viral Beacon (probably a few days later).
+and visualize them on the [Viral Beacon](https://covid19beacon.crg.eu) (probably a few days later).
 
-We think this makes it even easier to analyze virus sequences for people that don't want to run their own workflows, but are still interested in specific samples.
+We think this makes it even easier to analyze virus sequences for people that don't want to run their own workflows,
+but are still interested in specific samples.
 
 
 ## Interactive ObservableHQ dashboard
@@ -50,6 +51,7 @@ We think this makes it even easier to analyze virus sequences for people that do
 Furthermore, all data that we process is summarized in an [ObservableHQ dashboard](https://observablehq.com/@spond/sars-cov-2-cog-uk). Anyone can access, play around with the data in JavaScript and JSON and push any new plots they create back to us.
 
 Since it's a notebook, you can also filter the data with real-time queries. At the lower end, under "variants of concern", you can for example select your favorite lineage and see how often
-its signature mutations are identified. As in most countries, the South African and the Brazilian variants aren't really taking off in the UK. The Bloom DMS Escape variants also aren't seen much. These are variants that have been demonstrated in lab experiments to cause immune escape. So good news for the UK - what about the other European countries? Well, for this we need your Galaxy instances to analyze the other data - and maybe more importantly, we need more OPEN DATA!
+its signature mutations are identified. As in most countries, the South African and the Brazilian variants aren't really taking off in the UK. The Bloom DMS Escape variants also aren't seen much. These are variants that have been demonstrated in lab experiments to cause immune escape. So good news for the UK - what about the other European countries? Well, for this we need your Galaxy instances to analyze the other data - and maybe more importantly, 
+we need more [OPEN DATA](https://www.covid19dataportal.org/support-data-sharing-covid19)!
 
 
