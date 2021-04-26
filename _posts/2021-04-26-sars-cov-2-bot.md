@@ -16,8 +16,8 @@ Every three hours, newly published COG-UK samples are processed to produce:
 
 * a public Galaxy history, which provides full data provenance
 * variants in VCF format
-* BAM files
-* consensus sequences
+* alignment files in BAM format
+* consensus sequences in FASTA format
 
 These are subsequently pushed back to a public FTP server hosted by [CRG/BSC](ftp://xfer13.crg.eu). CRG then takes this data and integrates it into the [Viral Beacon](https://covid19beacon.crg.eu/).
 
@@ -32,7 +32,7 @@ If you want to process samples from your country, please get in touch with us an
 
 In addition, we wanted to make this resource useful for everyone, including non-Galaxy users. Therefore, we have opened up contribution via a simple GitHub repository: [https://github.com/usegalaxy-eu/sars-cov-2-processing-requests](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests). The idea is very simple; you just submit a file with URLs (ENA URLs for example) as a single file. This file makes up one batch of processing requests.
 
-One of the European Galaxy Team will check your contribution and approve it, after which Galaxy will pick those files up and process them with our standard pipeline.
+One of the European Galaxy Team will check your contribution and approve it, after which Galaxy will pick those files up and process them with our standard pipelines.
 
 Just as for the automated COG-UK data, all files are pushed back to the CRG FTP server. So in the end, after a few hours, (depending on the amount of URLs and the load on our servers) the user can either
 get the results from:
