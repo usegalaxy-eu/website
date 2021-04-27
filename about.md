@@ -74,7 +74,7 @@ The thousands of tools are available with fixed versions and are managed by [Bio
 
 ---
 
-# Supported communities with it's own subdomain
+# Supported communities with their own subdomain
 
  * [ecology.usegalaxy.eu](https://ecology.usegalaxy.eu)
  * [hicexplorer.usegalaxy.eu](https://hicexplorer.usegalaxy.eu)
