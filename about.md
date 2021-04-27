@@ -74,13 +74,6 @@ The thousands of tools are available with fixed versions and are managed by [Bio
 
 ---
 
-# Supported projects
-
-{% include home_carousel_supported_projects.html %}
-
-
----
-
 # Supported communities with own it's own subdomain
 
  * [ecology.usegalaxy.eu](https://ecology.usegalaxy.eu)
