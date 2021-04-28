@@ -1,13 +1,15 @@
 ---
 site: freiburg
 tags: [data, COVID-19]
-title: 
+title: SARS-CoV-2 monitoring of raw open data for disease surveillance
 supporters:
 - denbi
 - elixir
 ---
 
-Recently, we started a large-scale project on the European Galaxy server for automatically collecting, processing and publishing COG-UK and other SARS-CoV-2 sequencing data. We aim to make all these steps fully open and accessible, so you too can contribute data, wait for it to be processed, and visualize the results.
+Recently, we started a large-scale project on the European Galaxy server for automatically collecting,
+processing and publishing COG-UK and other SARS-CoV-2 sequencing data. We aim to make all these steps fully open and accessible,
+so you too can contribute data, wait for it to be processed, and visualize the results.
 
 
 ## Automated variant calling workflows
@@ -19,7 +21,8 @@ Every three hours, newly published COG-UK samples are processed to produce:
 * alignment files in BAM format
 * consensus sequences in FASTA format
 
-These are subsequently pushed back to a public FTP server hosted by [CRG/BSC](ftp://xfer13.crg.eu). CRG then takes this data and integrates it into the [Viral Beacon](https://covid19beacon.crg.eu/).
+These are subsequently pushed back to a public FTP server hosted by [CRG/BSC](ftp://xfer13.crg.eu). CRG then takes this data and
+integrates it into the [Viral Beacon](https://covid19beacon.crg.eu/).
 
 The scripts for the workflow automation are [publicly available](https://github.com/usegalaxy-eu/ena-cog-uk-wfs) together with [documentation](https://github.com/usegalaxy-eu/ena-cog-uk-wfs/blob/main/docs/manual.md). The analysis is based on [public, validated workflows](https://www.biorxiv.org/content/10.1101/2021.03.25.437046v1) that are available via [workflowhub.eu](https://workflowhub.eu/).
 
