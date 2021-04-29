@@ -45,10 +45,10 @@ In addition, we wanted to make this automated resource useful for everyone, incl
 
 Members of the European Galaxy Team will check your contribution and approve it, after which Galaxy will pick those files up and process them with our standard pipelines.
 
-Just as for the automated COG-UK data analysis, all files are pushed back to the CRG FTP server. So in the end, after a few hours (depending on the amount of URLs and the load on our servers), you can access the results through either:
+Just as for the automated COG-UK data analysis, all files are pushed back to the [CRG FTP server](ftp://xfer13.crg.eu/). So in the end, after a few hours (depending on the amount of URLs and the load on our servers), you can access the results through either:
 
-* Galaxy via shared/public histories
-* via the CRG FTP server
+* Galaxy via [shared/public histories](https://covid19.galaxyproject.org/genomics/global_platform/#processed-cog-uk-data)
+* via the [CRG FTP server](ftp://xfer13.crg.eu/)
 
 and see them visualized on the [Viral Beacon](https://covid19beacon.crg.eu) dashboard (with a delay of probably a few days).
 
