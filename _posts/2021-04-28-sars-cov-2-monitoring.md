@@ -30,6 +30,15 @@ Special care was taken to run this analysis on scale without disrupting normal G
 If you want us to process samples from your country, too, please get in touch with us and we will help you get things running!
 
 
+## Interactive ObservableHQ dashboard
+
+Furthermore, all data that we process is summarized in an [ObservableHQ dashboard](https://observablehq.com/@spond/sars-cov-2-cog-uk). Anyone can access, play around with the data in JavaScript and JSON and push any new plots they create back to us.
+
+Since it's a notebook, you can also filter the data with real-time queries. At the lower end, under "variants of concern", you can for example select your favorite lineage and see how often
+its signature mutations are identified. As in most countries, the South African and the Brazilian variants aren't really taking off in the UK. The Bloom DMS Escape variants also aren't seen much. These are variants that have been demonstrated in lab experiments to cause immune escape. So good news for the UK - what about the other European countries? Well, for this we need your Galaxy instances to analyze the other data - and maybe more importantly, 
+we need more [OPEN DATA](https://www.covid19dataportal.org/support-data-sharing-covid19)!
+
+
 ## Request processing of your samples of interest
 
 In addition, we wanted to make this automated resource useful for everyone, including non-Galaxy users. To this end, we have opened up an on-demand analysis service via a simple GitHub repository: [https://github.com/usegalaxy-eu/sars-cov-2-processing-requests](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests). The idea is very simple; you just submit a file with URLs (ENA URLs for example) as a single file. This file makes up one batch of processing requests.
@@ -45,15 +54,6 @@ and see them visualized on the [Viral Beacon](https://covid19beacon.crg.eu) dash
 
 This should make it even easier to analyze viral sequences with Galaxy, in particular, for people who don't want to run their own workflows,
 but are still interested in specific batches of samples not covered by our automated monitoring efforts.
-
-
-## Interactive ObservableHQ dashboard
-
-Furthermore, all data that we process is summarized in an [ObservableHQ dashboard](https://observablehq.com/@spond/sars-cov-2-cog-uk). Anyone can access, play around with the data in JavaScript and JSON and push any new plots they create back to us.
-
-Since it's a notebook, you can also filter the data with real-time queries. At the lower end, under "variants of concern", you can for example select your favorite lineage and see how often
-its signature mutations are identified. As in most countries, the South African and the Brazilian variants aren't really taking off in the UK. The Bloom DMS Escape variants also aren't seen much. These are variants that have been demonstrated in lab experiments to cause immune escape. So good news for the UK - what about the other European countries? Well, for this we need your Galaxy instances to analyze the other data - and maybe more importantly, 
-we need more [OPEN DATA](https://www.covid19dataportal.org/support-data-sharing-covid19)!
 
 
 ![COVID monitoring](/assets/media/2021-04-29-covid-monitoring.png)
