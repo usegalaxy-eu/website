@@ -1,22 +1,21 @@
 ---
 site: freiburg
 tags: [data, COVID-19]
-title: SARS-CoV-2 monitoring of raw open data for disease surveillance
+title: Monitoring of raw open data for SARS-CoV-2 genome surveillance
 supporters:
 - denbi
 - elixir
 ---
 
 Recently, we started a large-scale project on the European Galaxy server for automatically collecting,
-processing and publishing COG-UK and other SARS-CoV-2 sequencing data. We aim to make all these steps fully open and accessible,
-so you too can contribute data, wait for it to be processed, and visualize the results.
+and analyzing raw sequencing data published by COG-UK and, potentially, other large-scale SARS-CoV-2 sequencing projects. As a unique feature, we aim to make all analysis steps leading from sequenced reads to lists of genomic variants and consensus sequences fully open and accessible.
 
 
 ## Automated variant calling workflows
 
 Every three hours, newly published COG-UK samples are processed to produce:
 
-* a public Galaxy history, which provides full data provenance
+* public Galaxy histories, which provide full data provenance
 * variants in VCF format
 * alignment files in BAM format
 * consensus sequences in FASTA format
@@ -26,27 +25,26 @@ integrates it into the [Viral Beacon](https://covid19beacon.crg.eu/).
 
 The scripts for the workflow automation are [publicly available](https://github.com/usegalaxy-eu/ena-cog-uk-wfs) together with [documentation](https://github.com/usegalaxy-eu/ena-cog-uk-wfs/blob/main/docs/manual.md). The analysis is based on [public, validated workflows](https://www.biorxiv.org/content/10.1101/2021.03.25.437046v1) that are available via [workflowhub.eu](https://workflowhub.eu/).
 
-Special care was taken to run this analysis on scale without disrupting normal Galaxy usage. In other words, we can monitor samples, while at the same time still run trainings and serve hundreds of other Galaxy users simultaneously.
+Special care was taken to run this analysis on scale without disrupting normal Galaxy usage. In other words, we can monitor samples, and at the same time still run trainings and serve hundreds of other Galaxy users simultaneously.
 
-If you want to process samples from your country, please get in touch with us and we will help you get things running!
+If you want us to process samples from your country, too, please get in touch with us and we will help you get things running!
 
 
-## Request processing of your own samples
+## Request processing of your samples of interest
 
-In addition, we wanted to make this resource useful for everyone, including non-Galaxy users. Therefore, we have opened up contribution via a simple GitHub repository: [https://github.com/usegalaxy-eu/sars-cov-2-processing-requests](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests). The idea is very simple; you just submit a file with URLs (ENA URLs for example) as a single file. This file makes up one batch of processing requests.
+In addition, we wanted to make this automated resource useful for everyone, including non-Galaxy users. To this end, we have opened up an on-demand analysis service via a simple GitHub repository: [https://github.com/usegalaxy-eu/sars-cov-2-processing-requests](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests). The idea is very simple; you just submit a file with URLs (ENA URLs for example) as a single file. This file makes up one batch of processing requests.
 
-One of the European Galaxy Team will check your contribution and approve it, after which Galaxy will pick those files up and process them with our standard pipelines.
+Members of the European Galaxy Team will check your contribution and approve it, after which Galaxy will pick those files up and process them with our standard pipelines.
 
-Just as for the automated COG-UK data, all files are pushed back to the CRG FTP server. So in the end, after a few hours, (depending on the amount of URLs and the load on our servers) the user can either
-get the results from:
+Just as for the automated COG-UK data analysis, all files are pushed back to the CRG FTP server. So in the end, after a few hours (depending on the amount of URLs and the load on our servers), you can access the results through either:
 
 * Galaxy via shared/public histories
 * via the CRG FTP server
 
-and visualize them on the [Viral Beacon](https://covid19beacon.crg.eu) (probably a few days later).
+and see them visualized on the [Viral Beacon](https://covid19beacon.crg.eu) dashboard (with a delay of probably a few days).
 
-We think this makes it even easier to analyze virus sequences for people that don't want to run their own workflows,
-but are still interested in specific samples.
+This should make it even easier to analyze viral sequences with Galaxy, in particular, for people who don't want to run their own workflows,
+but are still interested in specific batches of samples not covered by our automated monitoring efforts.
 
 
 ## Interactive ObservableHQ dashboard
