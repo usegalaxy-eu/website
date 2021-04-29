@@ -8,7 +8,7 @@ supporters:
 ---
 
 Recently, we started a large-scale project on the European Galaxy server for automatically collecting,
-and analyzing raw sequencing data published by COG-UK and, potentially, other large-scale SARS-CoV-2 sequencing projects. As a unique feature, we aim to make all analysis steps leading from sequenced reads to lists of genomic variants and consensus sequences fully open and accessible.
+and analyzing raw sequencing data published by the [COVID-19 Genomics UK Consortium (COG-UK)](https://www.cogconsortium.uk/) and, potentially, other large-scale SARS-CoV-2 sequencing projects. As a unique feature, we aim to make all analysis steps leading from sequenced reads to lists of genomic variants and consensus sequences fully open and accessible.
 
 ![COVID monitoring](/assets/media/2021-04-29-covid-monitoring.png)
 
