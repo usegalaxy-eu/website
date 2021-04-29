@@ -58,3 +58,4 @@ its signature mutations are identified. As in most countries, the South African 
 we need more [OPEN DATA](https://www.covid19dataportal.org/support-data-sharing-covid19)!
 
 
+![COVID monitoring](/assets/media/2021-04-29-covid-monitoring.png)
