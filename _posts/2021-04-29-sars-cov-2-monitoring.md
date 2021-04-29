@@ -10,6 +10,8 @@ supporters:
 Recently, we started a large-scale project on the European Galaxy server for automatically collecting,
 and analyzing raw sequencing data published by COG-UK and, potentially, other large-scale SARS-CoV-2 sequencing projects. As a unique feature, we aim to make all analysis steps leading from sequenced reads to lists of genomic variants and consensus sequences fully open and accessible.
 
+![COVID monitoring](/assets/media/2021-04-29-covid-monitoring.png)
+
 
 ## Automated variant calling workflows
 
@@ -56,4 +58,3 @@ This should make it even easier to analyze viral sequences with Galaxy, in parti
 but are still interested in specific batches of samples not covered by our automated monitoring efforts.
 
 
-![COVID monitoring](/assets/media/2021-04-29-covid-monitoring.png)
