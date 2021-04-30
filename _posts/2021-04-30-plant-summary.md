@@ -4,7 +4,7 @@ starts: 2021-04-30
 ends: 2021-04-30
 tags:
 - training
-title: "Plant Transcriptomics Workshop: A Summary"
+title: "Plant Transcriptome Analysis using Galaxy: A Summary"
 supporters:
 - dataplant
 - biodaten
