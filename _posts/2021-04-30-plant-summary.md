@@ -23,4 +23,4 @@ The response so far has been overwhelmingly positive, with feedback snippets suc
 
 The workshop was primarily hosted from European timezones, but active training participation from volunteers all over the world enabled us to host the event as a worldwide workshop:
 
-![](../assets/media/2021-04-30-worldstats.svg)
+![Participation by country](/assets/media/2021-04-30-worldstats.svg)
