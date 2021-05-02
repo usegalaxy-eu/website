@@ -35,9 +35,7 @@ Participants attended from __all over the globe__, enabled by the flexible learn
 
 ![Participation by country](/assets/media/plant_workshop/worldstats.png)
 
-The registration was over 460 participants and close to 200 join the chat platform. Out of 462 participants, 236 were females and 223 males.
-
-The __career stage__ by country indicates enrichment in postgraduates, master and PhD students.
+The registration was over 460 participants and close to 200 join the chat platform. The __career stage__ by country indicates enrichment in postgraduates, master and PhD students.
 
 ![Career stage by country](/assets/media/plant_workshop/career_stage.png)
 
