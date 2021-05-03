@@ -1,5 +1,5 @@
 ---
-site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+site: [pasteur, belgium, genouest]
 tags:
 - training
 title: "Traitement de données de séquences par Galaxy"
