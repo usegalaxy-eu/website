@@ -8,7 +8,4 @@ ends: 2021-06-11
 external: http://repeatexplorer.org/?page_id=14
 ---
 
-
-
-
 Theoretical and practical aspects of using next generation sequencing (NGS) data for analyzing repeat composition of plant genomes.
