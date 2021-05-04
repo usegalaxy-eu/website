@@ -1,11 +1,13 @@
 ---
 layout: subsite-galaxy
+website: https://imaging.usegalaxy.eu
 subdomain: imaging
+gitter: usegalaxy-eu/Lobby
 ---
 
 
 <br/>
-<img src="/assets/media/imaging.png" height="100px" alt="Cheminformatics"/>
+<img src="/assets/media/imaging.png" height="100px" alt="Imaging"/>
 
 Welcome to our **Imaging** flavour of UseGalaxy.eu -- a webserver to process and analyse (biomedical) images.
 
