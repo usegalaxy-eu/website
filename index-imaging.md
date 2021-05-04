@@ -9,7 +9,9 @@ gitter: usegalaxy-eu/Lobby
 <br/>
 <img src="/assets/media/imaging.png" height="100px" alt="Imaging"/>
 
-Welcome to our **Imaging** flavour of UseGalaxy.eu -- a webserver to process and analyse (biomedical) images.
+# Welcome to the Imaging flavour of UseGalaxy.eu
+
+The imaging flavor is a webserver to process and analyse (biomedical) images.
 
 
 1. TOC
@@ -20,11 +22,14 @@ Welcome to our **Imaging** flavour of UseGalaxy.eu -- a webserver to process and
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://imaging.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
-Want to learn about imaging? Check our [tutorials](#tutorials) or take one of our guided tour:
+# Training 
 
-TODO
+## Workshops
+## Tutorials
+### Segmentation
 
-Check also the standard but customizable [workflows](#workflows) available there.
+### Object tracking
+
 
 # Tools
 
@@ -48,16 +53,9 @@ ToDo
    * {% include tool.html id="cardinal_segmentation" label="msi segmentation" %}
    * {% include tool.html id="cardinal_classification" label="msi classification" %}
 
-
-# Tutorials
-
-ToDo
-
 # Workflows
 
-To orchestrate tools and help users with their analyses, several workflows are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).
-
-The workflows are available in the [Shared Workflows](https://imaging.usegalaxy.eu/workflows/list_published), with the label "***imaging***".
+To orchestrate tools and help users with their analyses, several workflows are available in the [Workflow Hub](https://workflowhub.eu/search?utf8=%E2%9C%93&q=imaging).
 
 # Contributors
 
@@ -67,7 +65,27 @@ The workflows are available in the [Shared Workflows](https://imaging.usegalaxy.
   * [Melanie Föll](https://github.com/foellmelanie/)
   * [Björn Grüning](https://github.com/bgruening)
 
+# Partners
 
-# References
 
-{% bibliography --cited --prefix index-metagenomics --group_by none %}
+The imaging flavour of Galaxy is a joint effort between X, Y, and the [University of Freiburg](https://galaxyproject.eu/freiburg/){:target="_blank"}.
+The service is part of the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
+
+
+<table border="0"><tr>
+<td width="15%">
+<img alt="EOSC-Life" src="/assets/media/EOSC_logo.png" />
+</td>
+<td with="2%"></td>
+<td width="20%">
+<img alt="Galaxy Freiburg" src="/assets/media/freiburg-galaxy.svg" />
+</td>
+<td with="2%"></td>
+<td width="35%">
+<img alt="Euro-Bioimaging" src="/assets/media/eubi_logo.png" />
+</td>
+<td with="2%"></td>
+<td width="15%">
+<img alt="IDR" src="/assets/media/idr_logo.png" />
+</td>
+</tr></table>
