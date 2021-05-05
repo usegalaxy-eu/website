@@ -8,7 +8,7 @@ gitter: usegalaxy-eu/Lobby
 # Welcome to the Imaging flavour of Galaxy
 {:.no_toc}
 
-The imaging flavor offers a set of training materials, tools and workflows to perform image analysis.
+The imaging flavor of Galaxy offers a set of training materials and tools that you can assemble into workflows to perform image analysis.
 
 
 1. TOC
@@ -35,7 +35,7 @@ allowfullscreen>
 
 <br>
 
-## Introduction to Galaxy & Image Analysis
+## Introduction to Galaxy & Image analysis
 
 Topic | Slides | Hands-on | Input dataset | Workflows
 --- | --- | --- | --- | --- | ---
@@ -44,7 +44,7 @@ Introduction to image analysis using Galaxy  | | [<i class="fa fa-laptop" aria-h
 {:.table.table-striped}
 
 
-## Segmentation and Feature Extraction
+## Segmentation & Feature extraction
 
 Topic | Slides | Hands-on | Input dataset | Workflows
 --- | --- | --- | --- | --- | ---
@@ -54,70 +54,76 @@ Object tracking using CellProfiler   |  | [<i class="fa fa-laptop" aria-hidden="
 {:.table.table-striped}
 
 
-# Tools
+# Available tools
 
-## Image Analysis
+## Data access
 
-#### Data access
+To access your image data, you can always upload it to your history. However, since the images are usually heavy, there are connectors to existing public databases that will bring the data that you need into Galaxy.
 
-- IDR/OMERO Download
-   - Access to public images at the IDR
-   - [Allow access to private data](https://galaxyproject.eu/posts/2020/11/23/OMERO-post/)
 
-#### Segmentation & Feature extraction
+TOOL | DESCRIPTION
+--- | ---
+**IDR/OMERO Download Tool** | Access to public images at the [IDR](https://idr.openmicroscopy.org/). This tool allows [access to image data in private OMERO instances](https://galaxyproject.eu/posts/2020/11/23/OMERO-post/).
+{: .table.table-striped}
 
-- CellProfiler 3.1.9. Suite: The most common modules of CellProfiler are integrated into Galaxy. Every workflow needs to have, as the last tool, the [Galaxy CellProfiler Tool](toolshed.g2.bx.psu.edu/repos/bgruening/cp_cellprofiler/cp_cellprofiler/3.1.9+galaxy0). It takes two inputs: a CellProfiler pipeline and an image collection.
+## Segmentation & Feature extraction
 
-- ImageJ Suite: Several plugins are available in Galaxy.
+There are many tools organised into suites to segment and extract features from your images. 
+
+TOOL | DESCRIPTION
+--- | ---
+**CellProfiler Suite** | CellProfiler modules available: Starting Modules (Images, Metadata, NamesAndTypes, Groups), IdentifyPrimaryObjects, OverlayOutlines, ImageMath, TrackObjects, DisplayDataOnImage, ColorToGray, GrayToColor, Tile, ConvertObjectsToImage, RelateObjects, MeasureImageIntensity, MeasureObjectIntensity, MeasureGranularity, MeasureTexture, MeasureImageAreaOccupied, MeasureImageQuality, MaskImage, MeasureObjectSizeShape,  Export to Spreadsheet, EnhanceOrSuppressFeatures, SaveImages. **Every workflow needs to start by _Starting Modules_ and end by _CellProfiler_**. The last tool takes two inputs: an image collection and a CellProfiler pipeline (assembled in previous steps of the workflow).
+**ImageJ Suite** | Several plugins are available in Galaxy: Add shadow effect, Analyze skeleton, Watershed segmentation, Adjust threshold, Convert binary image to EDM, Skeletonize, Analyze particles, Operate on pixels, Add or remove noise, Find maxima, Convert to binary, Enhance contrast, Create new image, Sharpen, Find edges, Smooth. 
+**bUnwarpJ (ImageJ)** | Apply raw transformation, Convert elastic transformation to raw, Apply elastic transformation, Compare elastic and raw deformation, Align two images, Compare opposite elastic deformations, Compose two raw transformations, Compare two raw deformations, Compose two elastic transformations, Compose a raw and an elastic transformation, Adapt an elastic transformation.
+{: .table.table-striped}
 
 ## Mass Spectrometry Imaging
-Several tools are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of chemical data:
-#### Data preprocessing
 
-* {% include tool.html id="MALDIquant_preprocessing" label="MALDIquant preprocessing" %}
-* {% include tool.html id="MALDIquant_peak_detection" label="MALDIquant peak detection" %}
-* {% include tool.html id="cardinal_preprocessing" label="msi preprocessing" %}
+TOOL | DESCRIPTION
+--- | ---
+**MALDIquant Suite** |  Pre-processing, peak detection, alignment and filtering of mass spectrometry imaging data.
+**Cardinal Suite** | filtering, combining, raw data exporting, quality report, ion images, spectra plots, segmentation and classification of mass spectrometry imaging data.
+{: .table.table-striped}
 
-#### Data manipulation
+## Biological Oscillations Analysis
 
-* {% include tool.html id="cardinal_filtering" label="msi filtering" %}
-* {% include tool.html id="cardinal_combine" label="msi combine" %}
-* {% include tool.html id="cardinal_data exporter" label="msi data exporter" %}
+TOOL | DESCRIPTION
+--- | ---
+**SpyBOAT** | Wavelet analysis of spatially extended oscillatory systems, represented as 3D-image stacks.
+{: .table.table-striped}
+## Utilities
 
-#### Data visualization
+TOOL | DESCRIPTION
+--- | ---
+**Convert image** | Tool to convert image formats.
+{: .table.table-striped}
 
-* {% include tool.html id="cardinal_quality_report" label="msi qualitycontrol" %}
-* {% include tool.html id="cardinal_mz_images" label="msi mz images" %}
-* {% include tool.html id="cardinal_spectra_plot" label="msi spectra plot" %}
-
-#### Statistical tools
-
-   * {% include tool.html id="cardinal_segmentation" label="msi segmentation" %}
-   * {% include tool.html id="cardinal_classification" label="msi classification" %}
+<br><br>
 
 # Partners
 
-The imaging flavour of Galaxy is a joint effort between X, Y, and the [University of Freiburg](https://galaxyproject.eu/freiburg/){:target="_blank"}.
+The imaging flavour of Galaxy is a joint effort between different partners including EOSC-Life and its associated Research Infrasctuctures ([Euro-Bioimaging](https://www.eurobioimaging.eu/), [ELIXIR](https://elixir-europe.org/)), and the [University of Freiburg](https://galaxyproject.eu/freiburg/){:target="_blank"}.
+
 The service is part of the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
 
 <table border="0"><tr>
-<td width="15%">
+<td width="12%">
 <img alt="EOSC-Life" src="/assets/media/EOSC_logo.png" />
 </td>
-<td with="2%"></td>
-<td width="15%">
+<td with="8%"></td>
+<td width="14%">
 <img alt="Galaxy Freiburg" src="/assets/media/freiburg-galaxy.svg" />
 </td>
-<td with="2%"></td>
+<td with="1%"></td>
 <td width="35%">
 <img alt="Euro-Bioimaging" src="/assets/media/eubi_logo.png" />
 </td>
-<td with="2%"></td>
-<td width="13%">
+<td with="1%"></td>
+<td width="12%">
 <img alt="ELIXIR" src="/assets/media/elixir_logo.png" />
 </td>
-<td with="2%"></td>
-<td width="15%">
+<td with="3%"></td>
+<td width="13%">
 <img alt="IDR" src="/assets/media/idr_logo.png" />
 </td>
 </tr></table>
