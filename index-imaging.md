@@ -5,10 +5,6 @@ subdomain: imaging
 gitter: usegalaxy-eu/Lobby
 ---
 
-
-<br/>
-<img src="/assets/media/imaging.png" height="100px" alt="Imaging"/>
-
 # Welcome to the Imaging flavour of Galaxy
 {:.no_toc}
 
@@ -25,9 +21,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 # Training 
 
-We are working in close collaboration with the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"} to develop training materials of data analyses based on Galaxy. There are [several image analysis tutorials](https://training.galaxyproject.org/training-material/topics/imaging/) avalable in the GTN...
-
-If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
+[Several image analysis tutorials](https://training.galaxyproject.org/training-material/topics/imaging/){:target="_blank"} avalable in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"}. If you want to know more about the GTN, check the video below!
 
 <br>
 
@@ -38,13 +32,6 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen>
 </iframe>
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/-1MPdxmRs8U"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
 
 <br>
 
@@ -66,37 +53,61 @@ Nucleoli segmentation and feature extraction using CellProfiler  | [<i class="fa
 Object tracking using CellProfiler   |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/object-tracking-using-cell-profiler/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](http://doi.org/10.5281/zenodo.4567084){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/object-tracking-using-cell-profiler/workflows/){:target="_blank"} |
 {:.table.table-striped}
 
+
 # Tools
 
+## Image Analysis
+
+#### Data access
+
+- IDR/OMERO Download
+   - Access to public images at the IDR
+   - [Allow access to private data](https://galaxyproject.eu/posts/2020/11/23/OMERO-post/)
+
+#### Segmentation & Feature extraction
+
+- CellProfiler 3.1.9. Suite: The most common modules of CellProfiler are integrated into Galaxy. Every workflow needs to have, as the last tool, the [Galaxy CellProfiler Tool](toolshed.g2.bx.psu.edu/repos/bgruening/cp_cellprofiler/cp_cellprofiler/3.1.9+galaxy0). It takes two inputs: a CellProfiler pipeline and an image collection.
+
+- ImageJ Suite: Several plugins are available in Galaxy.
+
+#### Interactive Downstream Analysis
+
+- live.usegalaxy.eu
+
+#### Machine Learning
+
+- https://ml.usegalaxy.eu/
+
+
+## Mass Spectrometry Imaging
 Several tools are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of chemical data:
-## Data access:
+#### Data preprocessing
 
-## Data preprocessing:
+* {% include tool.html id="MALDIquant_preprocessing" label="MALDIquant preprocessing" %}
+* {% include tool.html id="MALDIquant_peak_detection" label="MALDIquant peak detection" %}
+* {% include tool.html id="cardinal_preprocessing" label="msi preprocessing" %}
 
-   * {% include tool.html id="MALDIquant_preprocessing" label="MALDIquant preprocessing" %}
-   * {% include tool.html id="MALDIquant_peak_detection" label="MALDIquant peak detection" %}
-   * {% include tool.html id="cardinal_preprocessing" label="msi preprocessing" %}
+#### Data manipulation
 
-## Data visualization:
+* {% include tool.html id="cardinal_filtering" label="msi filtering" %}
+* {% include tool.html id="cardinal_combine" label="msi combine" %}
+* {% include tool.html id="cardinal_data exporter" label="msi data exporter" %}
 
-   * {% include tool.html id="cardinal_quality_report" label="msi qualitycontrol" %}
-   * {% include tool.html id="cardinal_mz_images" label="msi mz images" %}
-   * {% include tool.html id="cardinal_spectra_plot" label="msi spectra plot" %}
+#### Data visualization
 
-## Data manipulation:
+* {% include tool.html id="cardinal_quality_report" label="msi qualitycontrol" %}
+* {% include tool.html id="cardinal_mz_images" label="msi mz images" %}
+* {% include tool.html id="cardinal_spectra_plot" label="msi spectra plot" %}
 
-   * {% include tool.html id="cardinal_filtering" label="msi filtering" %}
-   * {% include tool.html id="cardinal_combine" label="msi combine" %}
-   * {% include tool.html id="cardinal_data exporter" label="msi data exporter" %}
-
-## Statistical tools:
+#### Statistical tools
 
    * {% include tool.html id="cardinal_segmentation" label="msi segmentation" %}
    * {% include tool.html id="cardinal_classification" label="msi classification" %}
 
+
 # Workflows
 
-To orchestrate tools and help users with their analyses, several workflows are available in the [Workflow Hub](https://workflowhub.eu/search?utf8=%E2%9C%93&q=imaging).
+To orchestrate tools and help users with their analyses, imaging workflows are available in the [Workflow Hub](https://workflowhub.eu/search?utf8=%E2%9C%93&q=imaging){:target="_blank"}.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eU1753h6NIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
