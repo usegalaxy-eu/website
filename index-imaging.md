@@ -70,15 +70,6 @@ Object tracking using CellProfiler   |  | [<i class="fa fa-laptop" aria-hidden="
 
 - ImageJ Suite: Several plugins are available in Galaxy.
 
-#### Interactive Downstream Analysis
-
-- live.usegalaxy.eu
-
-#### Machine Learning
-
-- https://ml.usegalaxy.eu/
-
-
 ## Mass Spectrometry Imaging
 Several tools are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of chemical data:
 #### Data preprocessing
@@ -104,31 +95,26 @@ Several tools are integrated in this custom Galaxy instance. They were chosen fo
    * {% include tool.html id="cardinal_segmentation" label="msi segmentation" %}
    * {% include tool.html id="cardinal_classification" label="msi classification" %}
 
-
-# Workflows
-
-To orchestrate tools and help users with their analyses, imaging workflows are available in the [Workflow Hub](https://workflowhub.eu/search?utf8=%E2%9C%93&q=imaging){:target="_blank"}.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eU1753h6NIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 # Partners
-
 
 The imaging flavour of Galaxy is a joint effort between X, Y, and the [University of Freiburg](https://galaxyproject.eu/freiburg/){:target="_blank"}.
 The service is part of the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
-
 
 <table border="0"><tr>
 <td width="15%">
 <img alt="EOSC-Life" src="/assets/media/EOSC_logo.png" />
 </td>
 <td with="2%"></td>
-<td width="20%">
+<td width="15%">
 <img alt="Galaxy Freiburg" src="/assets/media/freiburg-galaxy.svg" />
 </td>
 <td with="2%"></td>
 <td width="35%">
 <img alt="Euro-Bioimaging" src="/assets/media/eubi_logo.png" />
+</td>
+<td with="2%"></td>
+<td width="13%">
+<img alt="ELIXIR" src="/assets/media/elixir_logo.png" />
 </td>
 <td with="2%"></td>
 <td width="15%">
