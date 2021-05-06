@@ -19,6 +19,7 @@ The imaging flavor of Galaxy offers a set of training materials and tools that y
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://imaging.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
+<br>
 # Training 
 
 [Several image analysis tutorials](https://training.galaxyproject.org/training-material/topics/imaging/){:target="_blank"} avalable in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"}. If you want to know more about the GTN, check the video below!
@@ -112,23 +113,27 @@ The imaging flavour of Galaxy is a joint effort between different partners inclu
 The service is part of the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
 
 <table border="0"><tr>
-<td width="12%">
+<td width="10%">
 <img alt="EOSC-Life" src="/assets/media/EOSC_logo.png" />
 </td>
 <td with="8%"></td>
-<td width="14%">
+<td width="12%">
 <img alt="Galaxy Freiburg" src="/assets/media/freiburg-galaxy.svg" />
 </td>
-<td with="1%"></td>
-<td width="35%">
+<td with="0%"></td>
+<td width="30%">
 <img alt="Euro-Bioimaging" src="/assets/media/eubi_logo.png" />
 </td>
-<td with="1%"></td>
-<td width="12%">
+<td with="0%"></td>
+<td width="10%">
 <img alt="ELIXIR" src="/assets/media/elixir_logo.png" />
 </td>
-<td with="3%"></td>
+<td with="1%"></td>
 <td width="13%">
+<img alt="EMBL" src="/assets/media/logo_EMBL.png" />
+</td>
+<td with="3%"></td>
+<td width="10%">
 <img alt="IDR" src="/assets/media/idr_logo.png" />
 </td>
 </tr></table>
