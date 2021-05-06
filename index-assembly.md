@@ -1,16 +1,17 @@
 ---
 layout: subsite-galaxy
-website: https://plants.usegalaxy.eu
-subdomain: plants
+website: https://assembly.usegalaxy.eu
+subdomain: assembly
 gitter: usegalaxy-eu/Lobby
 ---
 
 ![Plant Analysis on Galaxy](/assets/media/logo_plants.png){:.sc-intro-left}
 
-# Welcome to Galaxy for Plant Biology
+# Welcome to Galaxy for Genome Assembly
 {:.no_toc}
 <br>
-The __Plant Anaylsis Workbench__ is a comprehensive set of analysis tools and consolidated workflows. The workbench is based on the [Galaxy framework](https://galaxyproject.org){:target="_blank"},
+The __Genome Assembly Workbench__ is a comprehensive set of analysis tools and consolidated workflows to assist in Genome Assembly.
+The workbench is based on the [Galaxy framework](https://galaxyproject.org){:target="_blank"},
 which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
 <br>
@@ -48,15 +49,9 @@ allowfullscreen></iframe>
 
 <br>
 
-## Workshops
-
-- [__Plant Transcriptome Analysis Workshop__](https://docs.google.com/document/d/1Y5MqYmMxFCy7PDImYYuHLhgCKVV7MjoGMr22G2U68Ec/preview#), April 19-23, 2021.
-
-<br>
-
 ## Training material
 
-All relevant materials for [plant-related data analysis](https://training.galaxyproject.org/training-material/search?query=plant) can also be found within the GTN.
+All relevant materials for [assembly-related data analysis](https://training.galaxyproject.org/training-material/search?query=assembly) can also be found within the GTN.
 
 Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy History
 --- | --- | --- | --- | --- | ---
@@ -75,32 +70,22 @@ Analysis of plant scRNA-Seq data using ScanPy |  | [<i class="fa fa-laptop" aria
 
 # Partners
 
-
-This service is a joint project between different groups from the [DataPLANT Consortium](https://nfdi4plants.github.io/){:target="_blank"}, the [BioDATEN project](https://portal.biodaten.info/){:target="_blank"}, [VIB](https://vib.be/vib-ugent-center-plant-systems-biology){:target="_blank"}, [IPK](https://www.ipk-gatersleben.de/){:target="_blank"}, and the [University of Freiburg](https://galaxyproject.eu/freiburg/){:target="_blank"}.
+This service is a joint project between different groups from the [Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org){:target="_blank"}, the [European Reference Genome Atlas project](https://vertebrategenomesproject.org/erga){:target="_blank"}, and the [Galaxy project](https://galaxyproject.org){:target="_blank"}.
 The service is part of the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
 
-
-<table border="0"><tr><td width="20%">
-<img alt="DataPLANT" src="/assets/media/DataPLANT_logo_colour.svg" />
-</td>
-<td with="2%"></td>
-<td width="15%">
-<img alt="BioDATEN" src="/assets/media/biodaten_logo.png" />
-</td>
-<td with="2%"></td>
-<td width="15%">
-<img alt="VIB" src="/assets/media/vib_rf_plant_systems_biology_rgb_pos.png" />
-</td>
-<td with="2%"></td>
-<td width="15%">
-<img alt="Technische Universität Kaiserslautern" src="/assets/media/tu_kaiserslautern.svg" />
-</td>
-<td with="2%"></td>
-<td width="15%">
-<img alt="Forschungszentrum Jülich" src="/assets/media/juelich_logo.svg" />
-</td>
-<td with="2%"></td>
-<td width="15%">
-<img alt="IPK" src="/assets/media/ipklogo.png" />
-</td></tr></table>
+<div align="center">
+<table border="0">
+<tr>
+<td with="10%"></td>
+    <td width="20%">
+        <img alt="VGP" src="/assets/media/vgp_logo.png" />
+    </td>
+<td with="40%"></td>
+    <td width="20%">
+        <img alt="ERGA" src="/assets/media/erga_logo.jpg" />
+    </td>
+<td with="10%"></td>
+</tr>
+</table>
+</div>
 
