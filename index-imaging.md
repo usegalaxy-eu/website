@@ -19,6 +19,7 @@ The imaging flavor of Galaxy offers a set of training materials and tools that y
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://imaging.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
+<br>
 # Training 
 
 [Several image analysis tutorials](https://training.galaxyproject.org/training-material/topics/imaging/){:target="_blank"} avalable in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"}. If you want to know more about the GTN, check the video below!
@@ -53,7 +54,16 @@ Nucleoli segmentation and feature extraction using CellProfiler  | [<i class="fa
 Object tracking using CellProfiler   |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/object-tracking-using-cell-profiler/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](http://doi.org/10.5281/zenodo.4567084){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/object-tracking-using-cell-profiler/workflows/){:target="_blank"} |
 {:.table.table-striped}
 
+## Mass Spectrometry Imaging
 
+Topic | Slides | Hands-on | Input dataset | Workflows
+--- | --- | --- | --- | --- | ---
+Mass spectrometry imaging: Loading and exploring MSI data | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/proteomics/slides/introduction.html#1){:target="_blank"}  |  [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/mass-spectrometry-imaging-loading-exploring-data/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](http://doi.org/10.5281/zenodo.1560646){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/mass-spectrometry-imaging-loading-exploring-data/workflows/){:target="_blank"} |
+Mass spectrometry imaging: Examining the spatial distribution of analytes  | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metabolomics/slides/introduction.html#1){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](http://doi.org/10.5281/zenodo.484496){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/workflows/){:target="_blank"} |
+Mass spectrometry imaging: Finding differential analytes | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metabolomics/slides/introduction.html#1){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](http://doi.org/10.5281/zenodo.484496){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/workflows/){:target="_blank"} |
+{:.table.table-striped}
+
+<br>
 # Available tools
 
 ## Data access
@@ -64,6 +74,7 @@ To access your image data, you can always upload it to your history. However, si
 TOOL | DESCRIPTION
 --- | ---
 **IDR/OMERO Download Tool** | Access to public images at the [IDR](https://idr.openmicroscopy.org/). This tool allows [access to image data in private OMERO instances](https://galaxyproject.eu/posts/2020/11/23/OMERO-post/).
+**Convert image** | Tool to convert image formats.
 {: .table.table-striped}
 
 ## Segmentation & Feature extraction
@@ -91,12 +102,7 @@ TOOL | DESCRIPTION
 --- | ---
 **SpyBOAT** | Wavelet analysis of spatially extended oscillatory systems, represented as 3D-image stacks.
 {: .table.table-striped}
-## Utilities
 
-TOOL | DESCRIPTION
---- | ---
-**Convert image** | Tool to convert image formats.
-{: .table.table-striped}
 
 <br><br>
 
@@ -107,23 +113,27 @@ The imaging flavour of Galaxy is a joint effort between different partners inclu
 The service is part of the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
 
 <table border="0"><tr>
-<td width="12%">
+<td width="10%">
 <img alt="EOSC-Life" src="/assets/media/EOSC_logo.png" />
 </td>
 <td with="8%"></td>
-<td width="14%">
+<td width="12%">
 <img alt="Galaxy Freiburg" src="/assets/media/freiburg-galaxy.svg" />
 </td>
-<td with="1%"></td>
-<td width="35%">
+<td with="0%"></td>
+<td width="30%">
 <img alt="Euro-Bioimaging" src="/assets/media/eubi_logo.png" />
 </td>
-<td with="1%"></td>
-<td width="12%">
+<td with="0%"></td>
+<td width="10%">
 <img alt="ELIXIR" src="/assets/media/elixir_logo.png" />
 </td>
-<td with="3%"></td>
+<td with="1%"></td>
 <td width="13%">
+<img alt="EMBL" src="/assets/media/logo_EMBL.png" />
+</td>
+<td with="3%"></td>
+<td width="10%">
 <img alt="IDR" src="/assets/media/idr_logo.png" />
 </td>
 </tr></table>
