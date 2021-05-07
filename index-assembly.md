@@ -5,7 +5,7 @@ subdomain: assembly
 gitter: usegalaxy-eu/Lobby
 ---
 
-![Plant Analysis on Galaxy](/assets/media/logo_plants.png){:.sc-intro-left}
+![Genome Assembly in Galaxy](/assets/media/logo_assembly.png){:.sc-intro-left}
 
 # Welcome to Galaxy for Genome Assembly
 {:.no_toc}
@@ -16,7 +16,7 @@ which guarantees simple access, easy extension, flexible adaption to personal an
 
 ## Vertebrate Genome Project
 <br>
-This workbench is also optimized to include all data, tools, and workflows associated with the __[Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org/)__. All raw data published by the VGP is available from the remote data repository __Genome Ark__ in the data uploader. The VGP assembly workflows are available from the __Workflow__ tab on the masthead. As new assemblies are generated, they will appear in __shared histories__  in the __Shared Data__ tab.
+This workbench is also optimized to include all data, tools, and workflows associated with the __[Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org/)__. All raw data published by the VGP is available from the remote data repository __Genome Ark__ in the data uploader. The VGP assembly workflows are available from the __Workflows__ tab within __Shared Data__ As new assemblies are generated, they will appear in __Histories__  in the __Shared Data__ tab.
 
 
 <br>
@@ -76,6 +76,8 @@ SARS-CoV-2 assembly with removing human reads | [<i class="fa fa-laptop" aria-hi
 
 This service is a joint project between different groups from the [Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org){:target="_blank"}, the [European Reference Genome Atlas project](https://vertebrategenomesproject.org/erga){:target="_blank"}, and the [Galaxy project](https://galaxyproject.org){:target="_blank"}.
 The service is part of the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
+
+Anna's hummingbird photo courtesy of [VJAnderson](https://commons.wikimedia.org/wiki/File:Anna%27s_Hummingbird,_Washington_State_03.jpg).
 
 <div align="center">
 <table border="0">
