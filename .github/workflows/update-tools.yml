@@ -1,0 +1,25 @@
+name: Update Tools Report
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '00 23 * * 0'
+
+jobs:
+  update-tools:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Run update script
+      - run: python update_tools.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+            token: ${{ secrets.PAT }}
+            commit-message: Update tools
+            title: Update Tools Report
+            body: |
+              This is an auto-generated PR with the updated inventory of tools available at [Galaxy EU](https://usegalaxy.eu)
+            branch: update-tools-report
