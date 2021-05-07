@@ -8,18 +8,24 @@ jobs:
   update-tools:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@v2
+      - name: Checkout Branch
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
         with:
           python-version: '3.9'
+      - name: Install dependencies
+        run: |
+          python -m pip install requests
       - name: Run update script
-      - run: python update_tools.py
+        run: python update_tools.py
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-            token: ${{ secrets.PAT }}
             commit-message: Update tools
             title: Update Tools Report
             body: |
               This is an auto-generated PR with the updated inventory of tools available at [Galaxy EU](https://usegalaxy.eu)
             branch: update-tools-report
+            delete-branch: true
