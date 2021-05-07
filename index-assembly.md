@@ -14,6 +14,11 @@ The __Genome Assembly Workbench__ is a comprehensive set of analysis tools and c
 The workbench is based on the [Galaxy framework](https://galaxyproject.org){:target="_blank"},
 which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
+## Vertebrate Genome Project
+<br>
+This workbench is also optimized to include all data, tools, and workflows associated with the __[Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org/)__. All raw data published by the VGP is available from the remote data repository __Genome Ark__ in the data uploader. The VGP assembly workflows are available from the __Workflow__ tab on the masthead. As new assemblies are generated, they will appear in __shared histories__  in the __Shared Data__ tab.
+
+
 <br>
 # Content
 {:.no_toc}
@@ -24,8 +29,6 @@ which guarantees simple access, easy extension, flexible adaption to personal an
 # Get started
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take a [__guided tour__]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
-
-
 # Training
 
 We are working in close collaboration with the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"} to develop training materials of data analyses based on Galaxy. If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
