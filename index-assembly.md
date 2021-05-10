@@ -16,7 +16,7 @@ which guarantees simple access, easy extension, flexible adaption to personal an
 
 ## Vertebrate Genome Project
 <br>
-This workbench is also optimized to include all data, tools, and workflows associated with the __[Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org/)__. All raw data published by the VGP is available from the remote data repository __Genome Ark__ in the data uploader. The VGP assembly workflows are available from the __Workflows__ tab within __Shared Data__ As new assemblies are generated, they will appear in __Histories__  in the __Shared Data__ tab.
+This workbench is also optimized to include all data, tools, and workflows associated with the __[Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org/)__. All raw data published by the VGP is available from the remote data repository __Genome Ark__ in the data uploader. The VGP assembly workflows are available from the __Workflows__ tab within __Shared Data__. As new assemblies are generated, they will appear in __Histories__  in the __Shared Data__ tab.
 
 
 <br>
