@@ -94,9 +94,4 @@ Anna's hummingbird photo courtesy of [VJAnderson](https://commons.wikimedia.org/
 </tr>
 </table>
 </div>
-<script>
-$( document ).ready(function() {
-    console.log( "ready!" );
-    parent.document.title = "Galaxy | Assembly"
-});
-</script>
+
