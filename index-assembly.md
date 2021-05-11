@@ -5,7 +5,7 @@ subdomain: assembly
 gitter: usegalaxy-eu/Lobby
 ---
 
-![Genome Assembly in Galaxy](/assets/media/logo_assembly.png){:.sc-intro-left}
+![Anna's hummingbird photo courtesy of [VJAnderson](https://commons.wikimedia.org/wiki/File:Anna%27s_Hummingbird,_Washington_State_03.jpg)](/assets/media/logo_assembly.png){:.sc-intro-left}
 
 # Welcome to Galaxy for Genome Assembly
 {:.no_toc}
@@ -76,8 +76,6 @@ SARS-CoV-2 assembly with removing human reads | [<i class="fa fa-laptop" aria-hi
 
 This service is a joint project between different groups from the [Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org){:target="_blank"}, the [European Reference Genome Atlas project](https://vertebrategenomesproject.org/erga){:target="_blank"}, and the [Galaxy project](https://galaxyproject.org){:target="_blank"}.
 The service is part of the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
-
-Anna's hummingbird photo courtesy of [VJAnderson](https://commons.wikimedia.org/wiki/File:Anna%27s_Hummingbird,_Washington_State_03.jpg).
 
 <div align="center">
 <table border="0">
