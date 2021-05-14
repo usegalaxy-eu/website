@@ -4,7 +4,6 @@ title: 'New Paper "Novel insights into the electrophysiology of murine cardiac m
 doi: "10.1093/cvr/cvab126"
 tags:
 - paper
-- tools
 ---
 
 
