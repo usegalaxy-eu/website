@@ -1,5 +1,5 @@
 ---
-site: freiburg
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'Two New Teaching Papers using Galaxy'
 tags:
 - paper
@@ -24,4 +24,7 @@ The [second manuscript](https://journals.plos.org/ploscompbiol/article?id=10.137
 
 <br>
 
-Read them both to get some practical tips for your next training!
+Since the beginning of the pandemic, the Galaxy community has organised several massive and highly successful workshops: [Machine Learning](https://galaxyproject.eu/posts/2020/09/15/ML-lessons-learned/), [Galaxy Admin Training](https://gallantries.github.io/posts/2021/02/01/gat/), [GTN Smörgåsbord](https://gallantries.github.io/posts/2021/03/01/sm%C3%B6rg%C3%A5sbord/) and [Plant Transcriptome Analsis using Galaxy](https://galaxyproject.eu/posts/2021/05/03/plant-summary/).
+
+
+Read our experiences and both manuscripts to get some practical tips for your next training!
