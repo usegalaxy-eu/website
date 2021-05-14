@@ -6,8 +6,14 @@ tags:
 - paper
 ---
 
+Ana Simon-Chica and colleagues from SFB 1452 have published a paper using Galaxy to analyse the sequencing data. Congratulations and thanks for using Galaxy!
 
-_Abstract_ - Macrophages (MΦ), known for immunological roles such as phagocytosis and antigen presentation, have been found to electrotonically couple to cardiomyocytes (CM) of the atrio-ventricular node via Cx43, affecting cardiac conduction in isolated mouse hearts. Here, we characterise passive and active electrophysiological properties of murine cardiac resident MΦ, and model their potential electrophysiological relevance for CM.
+_Abstract_ 
+
+
+__Aims__
+
+Macrophages (MΦ), known for immunological roles such as phagocytosis and antigen presentation, have been found to electrotonically couple to cardiomyocytes (CM) of the atrio-ventricular node via Cx43, affecting cardiac conduction in isolated mouse hearts. Here, we characterise passive and active electrophysiological properties of murine cardiac resident MΦ, and model their potential electrophysiological relevance for CM.
 
 __Methods and Results__
 
