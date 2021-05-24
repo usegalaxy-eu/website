@@ -69,7 +69,7 @@ freiburg:
         location: "Build.: 079, Room: -1005"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         bio:
-
+        
     mtekman:
         name: Mehmet Tekman
         title: Ph.D., Researcher
@@ -201,7 +201,17 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: davelopez
         matrix: "@davel0pez:matrix.org"
-
+            
+    engynasr:
+        name: Engy Nasr
+        title: M.Sc. Inf., Researcher
+        website: http://research.bebatut.fr
+        email: nasr@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: engynasr
+        orcid: 0000-0001-9047-4215
+        
 
 erasmusmc:
     andrew-emc:
