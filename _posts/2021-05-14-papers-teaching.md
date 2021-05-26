@@ -5,6 +5,7 @@ tags:
 - paper
 - training
 - TIaaS
+- COVID-19
 ---
 
 <br>
