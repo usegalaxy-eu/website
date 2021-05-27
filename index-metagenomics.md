@@ -56,6 +56,7 @@ Quality Control | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://
 16S Microbial analysis with Nanopore data | | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/4274812){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/metagenomics/tutorials/nanopore-16S-metagenomics/workflows/){:target="_blank"} |
 Analyses of metagenomics data - The global picture  | | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/metagenomics/tutorials/general-tutorial/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://doi.org/10.5281/zenodo.815875){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/metagenomics/tutorials/general-tutorial/workflows/){:target="_blank"} |
 Metatranscriptomics analysis using microbiome RNA-seq data | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/slides.html){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>Short](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics-short/tutorial.html){:target="_blank"} / [<i class="fa fa-laptop" aria-hidden="true"></i>Extended](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/4776250){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics-short/workflows/){:target="_blank"} |
+Metaproteomics introduction | | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be//3_yaPp-RCFw){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://doi.org/10.5281/zenodo.839701){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/workflows/){:target="_blank"} |
 {:.table.table-striped}
 
 # Tools
@@ -76,11 +77,12 @@ More than **200 tools** are avalaible for microbiome data analysis in this custo
 - **Microbiota dedicated tools**
     - **Microbial**: Scoary, Prokka, Roary
     - **Metagenomics data manipulation**: VSearch, Nonpareil, DADA2
-    - **Assembly**: MEGAHIT, metaSPAdes, metaQUAST, VALET
+    - **Assembly**: MEGAHIT, metaSPAdes, metaQUAST, VALET, Bandage, MaxBin2
     - **Metataxonomic sequence analysis**: Mothur, QIIME, Vegan
     - **Taxonomy assignation**: MetaPhlAn, Kraken, CAT/BAT
     - **Metabolism assignation**: HUMAnN, PICRUST, InterProScan
     - **Visualization**: Export2graphlan, GraPhlAn, KRONA
+    - **Metaproteomics**: MaxQuant, SearchGUI, PeptideShaker, Unipept
 
 # Workflows
 
@@ -146,6 +148,26 @@ The workflow is divided into 4 parts:
 2. **Taxonomy Quantitation** - Assignment of taxonomy along with abundance values and visualization.
 3. **Functional Quantitation** - metabolic assignment of identified functions and gene and pathway abundance annotation.
 4. **Taxonomy-Function Quantitation** - combine taxonomy and functional quantitation values into relative abundance values at different levels such as e.g. the abundance of a pathway between phyla.
+
+## Integrative meta-omics analysis - Metagenomics, Metatranscriptomics, Metaproteomics
+
+The combination of metagenomics, -transcriptomics and -proteomics can provide a detailed understanding of which organisms occupy specific metabolic niches, how they interact, and how they utilize environmental nutrients. Commonly used omics tools spanning metagenomics, -transcriptomics and -proteomics has been adapted into an integrated meta-omics analysis pipeline:
+
+- **Metagenomics**
+
+    ![Magnus metagenomics workflow](/assets/media/magnus/metagenomics.png)
+
+- **Metatranscriptomics**
+
+    ![Magnus metatranscriptomics workflow](/assets/media/magnus/metatranscriptomics.png){: width="75%"}
+
+- **Metaproteomics**
+
+    ![Magnus metaproteomics workflow](/assets/media/magnus/metaproteomics.png){: width="50%"}
+
+- Integration of omics data using R
+
+This pipeline has been applied to [deconvolute a highly efficient cellulose-degrading minimal consortium isolated and enriched from a biogas reactor in Fredrikstad, Norway]({% link _posts/2020-04-14-integrative-meta-omics.md %})
 
 # References
 
