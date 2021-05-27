@@ -2,12 +2,16 @@
 layout: subsite-galaxy
 ---
 
+![Plant Analysis on Galaxy](/assets/media/asaim_logo.png){:.sc-intro-left}
 
-<br/>
-<img src="/assets/media/asaim_logo.png" height="100px" alt="ASaiM logo"/>
+# Welcome to Galaxy for Microbiome
+{:.no_toc}
+<br>
+**Galaxy for Microbiome** ([ASaiM](https://asaim.readthedocs.io/en/latest/){:target="_blank"}) is a webserver to process, analyse and visualize microbiome data in general. It is based on the [Galaxy framework](https://galaxyproject.org){:target="_blank"}, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
-Welcome to **Galaxy Metagenomics** ([ASaiM](https://asaim.readthedocs.io/en/latest/){:target="_blank"}) -- a webserver to process, analyse and visualize Metagenomic and Microbiota data in general.
-
+<br>
+# Content
+{:.no_toc}
 
 1. TOC
 {:toc}
@@ -15,68 +19,82 @@ Welcome to **Galaxy Metagenomics** ([ASaiM](https://asaim.readthedocs.io/en/late
 
 # Get started
 
-Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
+Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take a [__guided tour__]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
-Want to learn about metagenomics analyses? Check our [tutorials](#tutorials) or take one of our guided tour:
 
-- [Introduction of amplicon data analyses using mothur tool suite](https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-amplicon){:target="_blank"}
-- [Introduction to shotgun metagenomics data analyses](https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-shotgun){:target="_blank"}
-- [16S Microbial Analysis with Mothur MiSeq SOP](https://metagenomics.usegalaxy.eu/tours/mothur-miseq-sop){:target="_blank"}
+# Training
 
-Check also the standard but customizable [workflows](#workflows) available there.
+We are working in close collaboration with the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"} to develop training materials of data analyses based on Galaxy. If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/lDqWxzWNk1k"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/-1MPdxmRs8U"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+
+<br><br>
+
+**Training material**
+
+All relevant materials for [microbiome data analysis](https://training.galaxyproject.org/topics/metagenomics) can also be found within the GTN.
+
+Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy History
+--- | --- | --- | --- | --- | ---
+Welcome and introduction to Galaxy | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-short/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://training.galaxyproject.org/videos/watch.html?v=introduction/tutorials/galaxy-intro-short/slides){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://doi.org/10.5281/zenodo.582600){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/workflows/){:target="_blank"} |
+An Introduction to Metagenomics | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/metagenomics/slides/introduction.html#1){:target="_blank"} | | | |
+Quality Control | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/BWonTPS4zB8){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/QJRlX2hWDKM){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://doi.org/10.5281/zenodo.61771){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/workflows/){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/gallardoalba/h/quality-control){:target="_blank"}
+16S Microbial Analysis with mothur | [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=9OY1mklWuK0){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>Short](https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html){:target="_blank"} / [<i class="fa fa-laptop" aria-hidden="true"></i>Extended](https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be//mto4Nl-q7Kk){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://doi.org/10.5281/zenodo.800651){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/){:target="_blank"} |
+16S Microbial analysis with Nanopore data | | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/4274812){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/metagenomics/tutorials/nanopore-16S-metagenomics/workflows/){:target="_blank"} |
+Analyses of metagenomics data - The global picture  | | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/metagenomics/tutorials/general-tutorial/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://doi.org/10.5281/zenodo.815875){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/topics/metagenomics/tutorials/general-tutorial/workflows/){:target="_blank"} |
+Metatranscriptomics analysis using microbiome RNA-seq data | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/slides.html){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>Short](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics-short/tutorial.html){:target="_blank"} / [<i class="fa fa-laptop" aria-hidden="true"></i>Extended](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://zenodo.org/record/4776250){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics-short/workflows/){:target="_blank"} |
+Metaproteomics introduction | | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be//3_yaPp-RCFw){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://doi.org/10.5281/zenodo.839701){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/workflows/){:target="_blank"} |
+{:.table.table-striped}
 
 # Tools
 
-More than [200 tools](https://asaim.readthedocs.io/en/latest/tools/index.html){:target="_blank"} are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of microbiota data:
+More than **200 tools** are avalaible for microbiome data analysis in this custom Galaxy instance:
 
-- [**General tools**](https://asaim.readthedocs.io/en/latest/tools/file_meta_tools.html){:target="_blank"}
+- **General tools**
     - **Data retrieval**: EBISearch, ENASearch, SRA Tools
     - **BAM/SAM file manipulation**: SAM tools
     - **BIOM file manipulation**: BIOM-Format tools
-- [**Genomics tools**](https://asaim.readthedocs.io/en/latest/tools/genomics.html){:target="_blank"}
-    - **Quality control**: FastQC, PRINSEQ, Trim Galore! , Trimmomatic, MultiQC
+- **Genomics tools**
+    - **Quality control**: FastQC, PRINSEQ, Cutadapt, fastp, Trimmomatic, MultiQC
     - **Clustering**: CD-Hit
     - **Sorting and prediction**: SortMeRNA, FragGeneScan
     - **Mapping**: BWA, Bowtie
     - **Similarity search**: NCBI Blast+, Diamond
     - **Alignment**: HMMER3
-- [**Microbiota dedicated tools**](https://asaim.readthedocs.io/en/latest/tools/microbiota.html){:target="_blank"}
-    - **Metagenomics data manipulation**: VSEARCH, Nonpareil
-    - **Assembly**: MEGAHIT, metaSPAdes, metaQUAST, VALET
-    - **Metataxonomic sequence analysis**: Mothur, QIIME
-    - **Taxonomy assignation on WGS sequences**: MetaPhlAn2, Format MetaPhlan2, Kraken
-    - **Metabolism assignation**: HUMAnN2, Group HUMAnN2 to GO slim terms, Compare HUMAnN2 outputs, PICRUST, InterProScan
-    - **Combination of functional and taxonomic results**
+- **Microbiota dedicated tools**
+    - **Microbial**: Scoary, Prokka, Roary
+    - **Metagenomics data manipulation**: VSearch, Nonpareil, DADA2
+    - **Assembly**: MEGAHIT, metaSPAdes, metaQUAST, VALET, Bandage, MaxBin2
+    - **Metataxonomic sequence analysis**: Mothur, QIIME, Vegan
+    - **Taxonomy assignation**: MetaPhlAn, Kraken, CAT/BAT
+    - **Metabolism assignation**: HUMAnN, PICRUST, InterProScan
     - **Visualization**: Export2graphlan, GraPhlAn, KRONA
-
-# Tutorials
-
-We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
-
-We then developed [several tutorials](https://galaxyproject.github.io/training-material/topics/metagenomics/){:target="_blank"} and more will come:
-
-- [Analyses of metagenomics data - The global picture](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html){:target="_blank"}
-
-    This tutorial introduces the amplicon and shotgun data analyses with the general principles behind and the differences.
-
-- [16S Microbial Analysis with Mothur](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html){:target="_blank"}
-
-    In this tutorial the Standard Operating Procedure (SOP) for MiSeq data, developed by the creators of the Mothur software package, is perfomed within Galaxy.
-
-- [Metatranscriptomics analysis using microbiome RNA-seq data](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html)
-  Metatranscriptomics analysis enables understanding of how the microbiome responds to the environment by studying the functional analysis of genes expressed by the microbiome. In this tutorial, we will analyze time-series data from a microbial community inside a bioreactor.
+    - **Metaproteomics**: MaxQuant, SearchGUI, PeptideShaker, Unipept
 
 # Workflows
 
 To orchestrate tools and help users with their analyses, several [workflows](https://asaim.readthedocs.io/en/latest/workflows.html){:target="_blank"} are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).
 
-The workflows are available in the [Shared Workflows](https://metagenomics.usegalaxy.eu/workflows/list_published), with the label "***asaim***".
+The workflows are available in the [Shared Workflows]({{ page.website }}/workflows/list_published), with the label "***asaim***".
 
-## Analysis of raw metagenomic or metatranscriptomic shotgun data
+## Taxonomic and functional community profiling of raw metagenomic shotgun data
 
-The workflow quickly produces, from raw metagenomic or metatranscriptomic shotgun data, accurate and precise taxonomic assignations, wide extended functional results and taxonomically related metabolism information
+The workflow quickly produces, from raw metagenomic shotgun data, accurate and precise taxonomic assignations, wide extended functional results and taxonomically related metabolism information
 
-![ASaiM main workflow](/assets/media/2018-01-17-asaim_main_workflow.png)
+![ASaiM main workflow](/assets/media/2018-01-17-asaim_main_workflow.png){: width="75%"}
 
 This workflow consists of
 
@@ -87,8 +105,8 @@ This workflow consists of
 
 It is available with 4 versions, given the input
 
-1. Simple files: [Single-end](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-shotgun-workflow) or [paired-end](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim---shotgun-workflow-for-paired-end-data)
-2. Collection input files: [Single-end](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-shotgun-workflow-se-collection) or [paired-end](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim---shotgun-workflow-for-paired-end-data-collection)
+1. Simple files: [Single-end]({{ page.website }}/u/berenice/w/asaim-shotgun-workflow) or [paired-end]({{ page.website }}/u/berenice/w/asaim---shotgun-workflow-for-paired-end-data)
+2. Collection input files: [Single-end]({{ page.website }}/u/berenice/w/asaim-shotgun-workflow-se-collection) or [paired-end]({{ page.website }}/u/berenice/w/asaim---shotgun-workflow-for-paired-end-data-collection)
 
 ## Assembly of metagenomic data
 
@@ -96,11 +114,11 @@ To reconstruct genomes or to get longer sequences for further analysis, microbio
 
 To help in this task, two workflows have been developed using two different well-performing assemblers:
 
-- [MEGAHIT](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-megahit)
+- [MEGAHIT]({{ page.website }}/u/berenice/w/asaim-metagenomic-assembly-with-megahit)
 
     It is currently the most efficent computationally assembler: it has the lowest memory and time consumption {% cite van2017assembling awad2017evaluating sczyrba2017critical %}. It produced some of the best assemblies (irrespective of sequencing coverage) with the fewest structural errors {% cite olson2017metagenomic %} and outperforms in recovering the genomes of closely related strains {% cite awad2017evaluating %}, but has a bias towards relatively low coverage genomes leading to a suboptimal assembly of high abundant community member genomes in very large datasets {% cite vollmers2017comparing %}
 
-- [MetaSPAdes](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-metaspades)
+- [MetaSPAdes]({{ page.website }}/u/berenice/w/asaim-metagenomic-assembly-with-metaspades)
 
     It is particularly optimal for high-coverage metagenomes {% cite van2017assembling %} with the best contig metrics {% cite greenwald2017utilization %} and produces few under-collapsed/over-collapsed repeats {% cite olson2017metagenomic %}
 
@@ -112,20 +130,14 @@ Both workflows consists of
 4. Identification of potential assembly error signature with **VALET**
 5. Determination of percentage of unmapped reads with **Bowtie2** combined with **MultiQC** to aggregate the results.
 
+![ASaiM assembly workflows](/assets/media/microbiome_assembly_wf.png){: width="75%"}
 
 ## Analysis of metataxonomic data
 
 To analyze amplicon data, the **Mothur** and **QIIME** tool suites are available there. We implemented the workflows described in tutorials of Mothur and QIIME websites, as example of amplicon data analyses as well as support for the training material. These workflows, as any workflows available there, can be adapted for a specific analysis or used as subworkflows by the users.
 
-## Running as in EBI metagenomics
-
-The tools used in the EBI Metagenomics pipeline are also available here and can be run as a [workflow](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-ebi-metagenomics-workflow-30){:target="_blank"} with the same steps as the [EBI Metagenomics pipeline (3.0)](https://www.ebi.ac.uk/metagenomics/pipelines/3.0){:target="_blank"}.
-
-![EBI Metagenomics Workflow](/assets/media/asaim/ebi_metagenomics_workflow.png)
-
-However, the parameters must be adjusted by the user as we could not find them in the EBI Metagenomics documentation.
-
 ## ASaiM-MT: Optimized workflow for metatranscriptomics data analysis
+
 While the shotgun workflow is suitable for both metagenomics and metatranscriptomics datasets, we also offer an enhanced workflow aimed specifically at metatranscriptomics data.
 
 ![ASaiM-MT workflow](/assets/media/asaim/asaim-mt_workflow.png){: width="50%"}
@@ -137,7 +149,25 @@ The workflow is divided into 4 parts:
 3. **Functional Quantitation** - metabolic assignment of identified functions and gene and pathway abundance annotation.
 4. **Taxonomy-Function Quantitation** - combine taxonomy and functional quantitation values into relative abundance values at different levels such as e.g. the abundance of a pathway between phyla.
 
+## Integrative meta-omics analysis - Metagenomics, Metatranscriptomics, Metaproteomics
 
+The combination of metagenomics, -transcriptomics and -proteomics can provide a detailed understanding of which organisms occupy specific metabolic niches, how they interact, and how they utilize environmental nutrients. Commonly used omics tools spanning metagenomics, -transcriptomics and -proteomics has been adapted into an integrated meta-omics analysis pipeline:
+
+- **Metagenomics**
+
+    ![Magnus metagenomics workflow](/assets/media/magnus/metagenomics.png)
+
+- **Metatranscriptomics**
+
+    ![Magnus metatranscriptomics workflow](/assets/media/magnus/metatranscriptomics.png){: width="75%"}
+
+- **Metaproteomics**
+
+    ![Magnus metaproteomics workflow](/assets/media/magnus/metaproteomics.png){: width="50%"}
+
+- Integration of omics data using R
+
+This pipeline has been applied to [deconvolute a highly efficient cellulose-degrading minimal consortium isolated and enriched from a biogas reactor in Fredrikstad, Norway]({% link _posts/2020-04-14-integrative-meta-omics.md %})
 
 # References
 
