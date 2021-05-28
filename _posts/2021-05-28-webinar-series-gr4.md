@@ -1,6 +1,6 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-title: 'Webinars: Galaxy Resources for...'
+title: 'Webinars: Galaxy Resources for ...'
 tags:
 - talk
 ---
@@ -27,10 +27,11 @@ During the third webinar, Dan Blankenberg covered the resources for making __too
 
 <br>
 
-Finally, Gianmauro Cuccuru and Lucille Delisle showed the differences when __administering__ a public instance with thousands of registered users versus a local instance at a server.
+Finally, Gianmauro Cuccuru and Lucille Delisle showed the differences when __administering__ a public instance with thousands of registered users versus
+a lab-local adminstrated Galaxy instance.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vx2icgaU_h0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
-We would like to thank all the speakers for their time and effort that resulted in an engaged audience and lots of views on YouTube. 
+We would like to thank all the speakers for their time and effort that resulted in an engaged audience and lots of views on [YouTube](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA). 
