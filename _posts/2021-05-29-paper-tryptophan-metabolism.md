@@ -6,7 +6,7 @@ tags:
 - paper
 ---
 
-Mirco Friedrich, Roman Sankowski, Lukas Bunse and colleagues from the University of Freiburg und the German Cancer Research Center (DKFZ), have published a new mauscript about the influence of Tryptophan metabolism on IDH-mutant gliomas. Congratulations and thanks for using Galaxy!
+Mirco Friedrich, Roman Sankowski, Lukas Bunse and colleagues from the University of Freiburg and the German Cancer Research Center (DKFZ), have published a new manuscript about the influence of Tryptophan metabolism on IDH-mutant gliomas. Congratulations and thanks for using Galaxy!
 
 _Abstract_ 
 
