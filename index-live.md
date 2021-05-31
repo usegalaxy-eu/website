@@ -89,7 +89,7 @@ margin: auto;
       <p class="textcard">Jupyter lab for Python, R and Julia</p>
     </a>
 	
-    <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_ml_tool_jupyter_notebook" target="_top">
+    <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_ml_jupyter_notebook" target="_top">
       <img class="card-img-top" src="https://jupyter.org/assets/main-logo.svg" title="GPU enabled JupyterLab for deep learning using Tensorflow" />
       <p class="textcard">GPU enabled JupyterLab for deep learning using Tensorflow</p>
     </a>
