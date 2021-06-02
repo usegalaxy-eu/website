@@ -62,8 +62,10 @@
                   <span class="date">
                     {{ post.date | date: date_format }}
                   </span>
+                  {% if site.team_sites[post.site].name %}
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag={{ site.team_sites[post.site].name }}'"
                   class="btn btn-success btn-xs tag-element" role="button">{{ site.team_sites[post.site].name }}</a>
+                  {% endif %}
                   {% include article_tags.html post=post exclude_icons=true %}
                 </div>
                 <div class="news-content">
