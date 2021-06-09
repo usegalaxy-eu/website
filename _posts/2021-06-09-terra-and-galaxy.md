@@ -5,7 +5,7 @@ tags: []
 ---
 
 
-The Broad Institute of MIT and Harvard, Verily, an Alphabet company, and Microsoft Corp. are developing the [Terra platform]( Terra platform)
+The Broad Institute of MIT and Harvard, Verily, an Alphabet company, and Microsoft Corp. are developing the [Terra platform](https://terra.bio/)
 to accelerate new innovations in biomedicine. Read more about how Terra and Galaxy aligns beautifully in the new blog post entitled
 "A Galaxy of tools at your fingertips".
 
