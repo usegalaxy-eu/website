@@ -4,7 +4,7 @@ title: 'Training Infrastructure Feedback from Abdus Salam'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-author: Dr. Tuan Leng Tay
+author: Abdus Salam
 ---
 
 TIaaS feedback from Abdus Salam:
