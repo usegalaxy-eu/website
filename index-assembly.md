@@ -14,7 +14,7 @@ The __Genome Assembly Workbench__ is a comprehensive set of analysis tools and c
 The workbench is based on the [Galaxy framework](https://galaxyproject.org){:target="_blank"},
 which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
-## Vertebrate Genome Project
+## Vertebrate Genomes Project
 <br>
 This workbench is also optimized to include all data, tools, and workflows associated with the __[Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org/)__. All raw data published by the VGP is available from the remote data repository __Genome Ark__ in the data uploader. The VGP assembly workflows are available from the __Workflows__ tab within __Shared Data__. As new assemblies are generated, they will appear in __Histories__  in the __Shared Data__ tab.
 
@@ -97,7 +97,7 @@ The service is part of the European Galaxy server and is maintained by the [RNA 
     </td>
 <td with="40%"></td>
     <td width="20%">
-        <img alt="ERGA" src="/assets/media/erga_logo.jpg" />
+        <img alt="ERGA" src="/assets/media/erga_logo.png" />
     </td>
 <td with="10%"></td>
 </tr>
