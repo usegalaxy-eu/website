@@ -213,9 +213,21 @@
             <a href="https://ec.europa.eu/programmes/erasmus-plus/node_en" target="_blank">
               <img alt="Gallantries" src="/assets/media/erasmus+.jpg" class="img-responsive eu-image" />
             </a>
-            {% elsif supporter_lower == "australian_biocommons" %}
+          {% elsif supporter_lower == "australian_biocommons" %}
             <a href="https://www.biocommons.org.au/" target="_blank">
               <img alt="Gallantries" src="/assets/media/australian_biocommons.png" class="img-responsive eu-image" />
+            </a>
+          {% elsif supporter_lower == "pari" %}
+            <a href="https://neic.no/pari/" target="_blank">
+              <img alt="PaRI" src="/assets/media/pari-logo.png" class="img-responsive eu-image" />
+            </a>
+          {% elsif supporter_lower == "neic" %}
+            <a href="https://neic.no/" target="_blank">
+              <img alt="neic" src="/assets/media/neic-logo.png" class="img-responsive eu-image" />
+            </a>
+          {% elsif supporter_lower == "converge" %}
+            <a href="https://elixir-europe.org/about-us/how-funded/eu-projects/converge" target="_blank">
+              <img alt="neic" src="/assets/media/converge-logo.png" class="img-responsive eu-image" />
             </a>
           {% else %}
               {{ supporter }}

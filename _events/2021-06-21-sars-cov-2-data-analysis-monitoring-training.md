@@ -9,7 +9,6 @@ ends: 2021-08-12
 organiser:
 location: online
 supporters: 
- - elixir
  - denbi
  - galaxy-europe
  - galaxy-australia
@@ -18,6 +17,7 @@ supporters:
  - australian_biocommons
  - pari
  - neic
+ - converge
 ---
 
 The goal of this workshop is to build capacity in SARS-CoV-2 data analysis and data management, including data submission to ENA. After the workshop, all participants will be able to upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments.
