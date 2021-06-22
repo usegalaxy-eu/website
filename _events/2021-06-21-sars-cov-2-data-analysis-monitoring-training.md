@@ -96,7 +96,7 @@ Variant calling, reporting, consensus building (with Galaxy CLI) | Simon Bray | 
 
 Both sessions will be in parallel. The first session is intended for wet-lab scientists and the second for people more familiar with a CLI.
 
-### Day 4 (12.8.2021) - Visualisation & Data Export
+## Day 4 (12.8.2021) - Visualisation & Data Export
 
 Topic | Speaker | Material | Duration
 --- | --- | --- | ---
