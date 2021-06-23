@@ -52,7 +52,7 @@ Before users can join a specific training, they need to be __logged into the [Eu
 To __import data__:
 
 - If you are using the [GTN material](training.galaxyproject.org/) for
-your workshop, then all the [training data is already mirrored into Galaxy](https://usegalaxy.eu/library/folders/Fa21272e5bd712216).
+your workshop, then all the [training data is already mirrored into Galaxy](https://usegalaxy.eu/libraries/folders/Fa21272e5bd712216).
 
 - If you are using your own data, you can upload it to your account
 into a history. Later, you can [make it accessible](https://usegalaxy.eu/histories/sharing) to your trainees (do not
