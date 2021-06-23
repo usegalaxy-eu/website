@@ -144,6 +144,13 @@ margin: auto;
       <p class="textcard">Model niches and distributions of species</p>
     </a>
 
+
+    <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_radiant" target="_top">
+      <img class="card-img-top" src="/assets/media/interactive/radiant.png" title="Data analytics using Radiant R Shiny app" />
+      <h2>Wallace</h2>
+      <p class="textcard">Data analytics using Radiant R Shiny app</p>
+    </a>
+
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_wilson" target="_top">
       <img class="card-img-top" src="/assets/media/interactive/wilson.png" title="Webbased Interactive Omics visualizatioN" />
       <p class="textcard">Webbased Interactive Omics visualizatioN</p>
