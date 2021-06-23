@@ -1,11 +1,11 @@
 ---
-site: [Universitätklinikum Erlangen, CUBiDA, FAU, Erlangen, Germany]
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 - Talk
 - Tutorial
 title: "Introduction to Galaxy - a web-based platform for bioinformatics analysis"
-starts: 2021-06-23
-ends: 2021-06-23
+starts: 2021-06-24
+ends: 2021-06-24
 organiser: Pilot Core Unit Bioinformatics, Data Integration and Analysis, Universitätklinikum Erlangen
 location: online (https://uk-erlangen.webex.com/uk-erlangen/j.php?MTID=mfa8088026974da77de04e981fb3b7abd)
 supporters: 
