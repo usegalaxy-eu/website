@@ -10,8 +10,8 @@ organiser: Pilot Core Unit Bioinformatics, Data Integration and Analysis, Univer
 location: online (https://uk-erlangen.webex.com/uk-erlangen/j.php?MTID=mfa8088026974da77de04e981fb3b7abd)
 supporters: 
  - galaxy-europe
- - galaxy team freiburg
  - Life@FAU
+ - miracum
 ---
 The 'Pilot Core Unit for Bioinformatics, Data Integration und Analysis (CUBiDA)' organizes a monthly colloquium with an aim of facilitating the exchange of scientific knowledge in the area of molecular and clinical data analysis. At the same time, these seminars provide a platform for networking among researchers from different disciplines within UKER/FAU. This colloquium is also supported by the graduate program Life@FAU (https://www.life.fau.eu/). The next talk will be on Thursday, 24.06.2021 at 15:30 hrs:
 
