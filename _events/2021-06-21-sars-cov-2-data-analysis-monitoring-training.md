@@ -157,5 +157,8 @@ Wolgang Maier | Germany
 Anton Nekrutenko | USA
 Peter van Heusden | South Africa
 Simon Bray | Germany
-Florian Heyl | Germany
+Erik Hjerde | Norway
+Annbjørg Barbakken | Norway
+Kjell Petersen | Norway
+
 {:.table.table-striped}
