@@ -14,6 +14,7 @@ supporters:
  - galaxy-australia
  - gallantries
  - erasmus+
+ - eosc
  - australian_biocommons
  - pari
  - neic
