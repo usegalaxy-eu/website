@@ -161,5 +161,4 @@ Simon Bray | Germany
 Erik Hjerde | Norway
 Annbjørg Barbakken | Norway
 Kjell Petersen | Norway
-
 {:.table.table-striped}
