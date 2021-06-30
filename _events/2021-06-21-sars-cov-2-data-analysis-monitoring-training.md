@@ -81,9 +81,9 @@ Data cleaning workflow | | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camer
 Topic | Speaker | Material | Duration
 --- | --- | --- | ---
 Variant calling, reporting, consensus building (with Galaxy GUI) | | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camera} Lecture  |
- | | [](){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History |
+ | | [](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History |
 Variant calling, reporting, consensus building (with Galaxy CLI) | Simon Bray | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camera} Lecture  |
- | Simon Bray | [](){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History | 
+ | Simon Bray | [](https://training.galaxyproject.org/training-material//topics/galaxy-interface/tutorials/workflow-automation/tutorial.html){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History | 
 **Real-Time Q&A session (16.00 CEST)** | All experts | | 1h
 {:.table.table-striped}
 
