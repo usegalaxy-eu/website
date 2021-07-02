@@ -23,7 +23,7 @@ layout: galaxy
     </div>
 
 </div>
-</br>
+<br>
 
 
 {% include home_quote.html %}

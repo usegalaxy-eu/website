@@ -22,7 +22,7 @@ layout: home
     </div>
 
 </div>
-</br>
+<br>
 
 <div class="home">
   {% include home_carousel.html %}
