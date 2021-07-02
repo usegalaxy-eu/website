@@ -14,6 +14,7 @@ supporters:
  - galaxy-australia
  - gallantries
  - erasmus+
+ - eosc
  - australian_biocommons
  - pari
  - neic
@@ -25,30 +26,22 @@ The goal of this workshop is to build capacity in SARS-CoV-2 data analysis and d
 It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance. During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions.
 <br>
 
-<table border="0">
-<tr>
-    <td width="49%">
-        <ul>
-        <li><b>WHEN</b>: August 9-12, 2021</li>
-        <li><b>WHO</b>: Open for everybody, but the target audience is <b>clinicians</b> and <b>researchers</b> that deal with SARS-CoV-2 sequencing data.</li>
-        <li><b>COST</b>: Free.</li>
-        <li><b>FORMAT</b>: Virtual and asynchronous. All training <b>sessions will be pre-recorded and provided in advance</b>.</li>
-        <li><b>SUPPORT</b>:
-            <ul>
-            <li> <b>Live support in chat</b> (Slack Channel), in which experts will answer questions on a peer-to-peer basis.</li>
-            <li> <b>Real-Time Q&A session</b> (every day at 16.00 CEST).</li>
-            </ul>
-        </li>
-        <li><b>INFRASTRUCTURE</b>: <a href="https://usegalaxy.eu" target="_blank">European Galaxy server</a> and the <a href="https://training.galaxyproject.org" target="_blank">Galaxy Training Material</a>. Both will stay accessible and open after the training.</li>
-        <li><a href="mailto:contact@usegalaxy.eu"><b>Contact us</b></a> if you have questions.</li>
-        </ul>
-    </td>
-    <td with="2%"></td>
-    <td width="49%">
-    <img alt="sars-cov-2-workshop" src="/assets/media/2021-06-21-sars-cov-2-data-analysis-monitoring-training.png" />
-    </td>
-</tr>
-</table>
+<div class="row">
+<div class="col-md-6" markdown="1">
+- **WHEN**: August 9-12, 2021
+- **WHO**: Open for everybody, but the target audience is **clinicians** and **researchers** that deal with SARS-CoV-2 sequencing data.
+- **COST**: Free.
+- **FORMAT**: Virtual and asynchronous. All training **sessions will be pre-recorded and provided in advance**.
+- **SUPPORT**:
+    - **Live support in chat** (Slack Channel), in which experts will answer questions on a peer-to-peer basis.
+    - **Real-Time Q&A session** (every day at 16.00 CEST).
+- **INFRASTRUCTURE**: [European Galaxy server](https://usegalaxy.eu){:target="_blank"} and the [Galaxy Training Material](https://training.galaxyproject.org){:target="_blank"}. Both will stay accessible and open after the training.
+- [**Contact us**](mailto:contact@usegalaxy.eu) if you have questions.
+</div>
+<div class="col-md-6" markdown="1">
+![sars-cov-2-workshop](/assets/media/2021-06-21-sars-cov-2-data-analysis-monitoring-training.png)
+</div>
+</div>
 
 <br>
 
@@ -88,15 +81,15 @@ Data cleaning workflow | | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camer
 Topic | Speaker | Material | Duration
 --- | --- | --- | ---
 Variant calling, reporting, consensus building (with Galaxy GUI) | | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camera} Lecture  |
- | | [](){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History |
+ | | [](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History |
 Variant calling, reporting, consensus building (with Galaxy CLI) | Simon Bray | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camera} Lecture  |
- | Simon Bray | [](){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History | 
+ | Simon Bray | [](https://training.galaxyproject.org/training-material//topics/galaxy-interface/tutorials/workflow-automation/tutorial.html){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History | 
 **Real-Time Q&A session (16.00 CEST)** | All experts | | 1h
 {:.table.table-striped}
 
 Both sessions will be in parallel. The first session is intended for wet-lab scientists and the second for people more familiar with a CLI.
 
-### Day 4 (12.8.2021) - Visualisation & Data Export
+## Day 4 (12.8.2021) - Visualisation & Data Export
 
 Topic | Speaker | Material | Duration
 --- | --- | --- | ---
@@ -157,5 +150,7 @@ Wolgang Maier | Germany
 Anton Nekrutenko | USA
 Peter van Heusden | South Africa
 Simon Bray | Germany
-Florian Heyl | Germany
+Erik Hjerde | Norway
+Annbjørg Barbakken | Norway
+Kjell Petersen | Norway
 {:.table.table-striped}

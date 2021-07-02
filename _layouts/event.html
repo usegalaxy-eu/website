@@ -83,23 +83,18 @@ layout: default
 {% if page.hidefooter %}
 {% else %}
 <div class="row">
-	<div class="col-md-2 col-sm-6">
-		{% if page.organiser %}
-		<h3>Organiser</h3>
+  {% if page.organiser %}
+		<h1>Organiser</h1>
 		{{ page.organiser.name }}<br/>
 		<a href="mailto:{{ page.organiser.email }}">
 		<i class="fa fa-envelope"></i> Email
 		</a>
-		{% endif %}
-	</div>
+	{% endif %}
 
-	<div class="col-md-2 col-sm-6">
-{% include map.html location=page.location %}
-	</div>
-{% if page.supporters.size > 0 %}
-	<div class="col-md-8 col-sm-12">
-{% include sponsors.html supporters=page.supporters %}
-	</div>
-{% endif %}
+  {% include map.html location=page.location %}
+	
+  {% if page.supporters.size > 0 %}
+    {% include sponsors.html supporters=page.supporters %}
+  {% endif %}
 </div>
 {% endif %}
