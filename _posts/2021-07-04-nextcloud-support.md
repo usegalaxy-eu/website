@@ -19,10 +19,19 @@ In all cases you need to go User → Preferences → [Manage Information](https:
 ![](/assets/media/b2drop_access.png)
 
 
-For example to get access to the [B2Drop service of EUDAT](https://eudat.eu/services/b2drop). You can configure your settings like:
-    Server Domain: https://b2drop.bsc.es
-    Server Path: /remote.php/webdav
-    Username: <your username> (e.g. your email)
-    Password: <your password>
+Once configured you will find an option called "Choose remote files" in the normal Galaxy upload box.
+Choose "Nextcloud/ownCloud" and select your files you want to import.
+
+
+For example to get access to the [B2Drop service of EUDAT](https://eudat.eu/services/b2drop).
+You can configure your settings like:
+
+>  Server Domain: `https://b2drop.bsc.es`
+>
+>  Server Path: `/remote.php/webdav`
+>
+>  Username: `<your username>` (e.g. your email)
+>
+>  Password: `<your password>`
 
 For the CRC1452 you ...
