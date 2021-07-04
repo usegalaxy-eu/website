@@ -52,4 +52,4 @@ As a member of the [CRC1425](https://www.sfb1425.uni-freiburg.de) ("The heteroce
 >
 >  Password: `<your password>`
 
-And don't forget you can also export files back to your cloud storage.
+And don't forget that you can also export files back to your cloud storage.
