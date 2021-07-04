@@ -36,7 +36,8 @@ You can configure your settings like:
 >
 >  Password: `<your password>`
 
-For the CRC1425, you...
+As a member of the [CRC1425](https://www.sfb1425.uni-freiburg.de) ("The heterocellular nature of cardiac lesions: Identities, interactions, implications")
+you can use settings like:
 
 >  Server Domain: `https://nxc-1425.imbi.uni-freiburg.de`
 >
