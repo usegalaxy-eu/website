@@ -21,7 +21,7 @@ In all cases you need to go User → Preferences → [Manage Information](https:
 ![](/assets/media/b2drop_access.png)
 
 
-Once configured you will find an option called "Choose remote files" in the normal Galaxy upload box.
+Once configured you will find an option called "Choose remote files" in the normal Galaxy upload dialog.
 Choose "Nextcloud/ownCloud" and select your files you want to import.
 
 
