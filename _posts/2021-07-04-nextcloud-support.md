@@ -9,7 +9,7 @@ supporters:
 ---
 
 So-called cloud storages are becoming more and more popular in academic research. The most prominent one is probably [Dropbox](https://www.dropbox.com), which 
-you can already use in Galaxy. Today we would like to introduce you to the support of free and open source alternatives.
+you can already use in Galaxy. Today, we would like to introduce you to the support of free and open-source alternatives.
 [ownCloud](https://owncloud.com/) and [Nextcloud](https://nextcloud.com/) are free software solutions for the storage and management of data.
 Many universities are offering their own Nextcloud instances where researchers can store and share data in a GDPR compliant way.
 
