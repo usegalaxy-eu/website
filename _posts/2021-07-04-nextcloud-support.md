@@ -36,4 +36,15 @@ You can configure your settings like:
 >
 >  Password: `<your password>`
 
-For the CRC1452, you...
+For the CRC1425, you...
+
+>  Server Domain: `https://nxc-1425.imbi.uni-freiburg.de`
+>
+>  Server Path: `/remote.php/webdav`
+>
+>  Username: `<your username>` (e.g. your email)
+>
+>  Password: `<your password>`
+
+
+
