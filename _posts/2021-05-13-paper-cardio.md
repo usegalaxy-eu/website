@@ -4,6 +4,8 @@ title: 'New Paper "Novel insights into the electrophysiology of murine cardiac m
 doi: "10.1093/cvr/cvab126"
 tags:
 - paper
+supporters:
+- crc1425
 ---
 
 Ana Simon-Chica and colleagues from SFB 1452 have published a paper using Galaxy to analyse the sequencing data. Congratulations and thanks for using Galaxy!
