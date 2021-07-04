@@ -32,8 +32,7 @@ Choose "Nextcloud/ownCloud" and select your files you want to import.
 
 ## Example configurations
 
-For example to get access to the [B2Drop service of EUDAT](https://eudat.eu/services/b2drop).
-You can configure your settings like:
+For example, to get access to the [B2Drop service of EUDAT](https://eudat.eu/services/b2drop), you can configure your settings like:
 
 >  Server Domain: `https://b2drop.bsc.es`
 >
