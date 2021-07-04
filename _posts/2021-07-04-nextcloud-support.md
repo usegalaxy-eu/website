@@ -5,6 +5,7 @@ title: ownCloud and Nextcloud integration for your private data
 supporters:
 - denbi
 - elixir
+- crc1425
 ---
 
 So called cloud storages are becoming more and more popular in academic research. The most prominent one is probably [Dropbox](https://www.dropbox.com), which 
@@ -26,6 +27,10 @@ In all cases you need to go User → Preferences → [Manage Information](https:
 Once configured you will find an option called "Choose remote files" in the normal Galaxy upload dialog.
 Choose "Nextcloud/ownCloud" and select your files you want to import.
 
+![](/assets/media/nextcloud_file_picker.png)
+
+
+## Example configurations
 
 For example to get access to the [B2Drop service of EUDAT](https://eudat.eu/services/b2drop).
 You can configure your settings like:
