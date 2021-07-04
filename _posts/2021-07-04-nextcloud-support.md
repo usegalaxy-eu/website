@@ -42,8 +42,7 @@ For example, to get access to the [B2Drop service of EUDAT](https://eudat.eu/ser
 >
 >  Password: `<your password>`
 
-As a member of the [CRC1425](https://www.sfb1425.uni-freiburg.de) ("The heterocellular nature of cardiac lesions: Identities, interactions, implications")
-you can use settings like:
+As a member of the [CRC1425](https://www.sfb1425.uni-freiburg.de) ("The heterocellular nature of cardiac lesions: Identities, interactions, implications"), you can use settings like:
 
 >  Server Domain: `https://nxc-1425.imbi.uni-freiburg.de`
 >
