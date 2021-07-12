@@ -51,40 +51,45 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 <br>
 
 # Program
+
+*Some material is still in preparation (WIP)*
+
 ## Day 1 (9.8.2021) - Introduction to Galaxy
 
 Topic | Speaker | Material | Duration
 --- | --- | --- | ---
-A very short introduction to Galaxy | Anton Nekrutenko | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camera} Lecture | 
-Galaxy 101 | |  [](){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History | 
-Demo | Anton Nekrutenko | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camera} Lecture |
- | Anton Nekrutenko | [](){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History |
+A very short introduction to Galaxy | Anton Nekrutenko | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture | 
+Galaxy 101 | |  *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | 
+Demo | Anton Nekrutenko | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture |
+ | Anton Nekrutenko | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
 {:.table.table-striped}
 
 ## Day 2 (10.8.2021) - Data Upload & Quality Control
 
 Topic | Speaker | Material | Duration
 --- | --- | --- | ---
+**Real-Time QA session (9am CEST)** | All experts | | 1h
 Quality control of reads | Florian Heyl | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/slides.html){:.fa .fa-slideshare} / [](https://youtu.be/BWonTPS4zB8){:.fa .fa-video-camera} Lecture | 40m
- | Florian Heyl | [](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html){:.fa .fa-laptop} / [](https://youtu.be/QJRlX2hWDKM){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History | 1h 10m
+ | Florian Heyl | [](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html){:.fa .fa-laptop} / [](https://youtu.be/QJRlX2hWDKM){:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | 1h 10m
 Mapping of reads | Peter van Heusden | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html){:.fa .fa-slideshare} / [](https://youtu.be/7FhHb8EV3EU){:.fa .fa-video-camera} Lecture | 10m
- | Peter van Heusden | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html){:.fa .fa-laptop} / [](https://youtu.be/1wm-62E2NkY){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History | 20m
-Using dataset collections | Anton Nekrutenko | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camera} Lecture |
- | Anton Nekrutenko | [](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History |
-Data cleaning workflow | | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camera} Lecture  |
- | | [](){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutoria <br> [](){:.fa .fa-list-ul} History |
-**Real-Time QA session (16.00 CEST)** | All experts | | 1h
+ | Peter van Heusden | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html){:.fa .fa-laptop} / [](https://youtu.be/1wm-62E2NkY){:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | 20m
+Using dataset collections | Anton Nekrutenko | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture |
+ | Anton Nekrutenko | [](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html){:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
+Data cleaning workflow | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
+ | | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutoria <br> *WIP*{:.fa .fa-list-ul} History |
+**Real-Time QA session (4pm CEST)** | All experts | | 1h
 {:.table.table-striped}
 
 ## Day 3 (11.8.2021) - SARS-CoV-2 Data Analysis on Public Datasets
 
 Topic | Speaker | Material | Duration
 --- | --- | --- | ---
-Variant calling, reporting, consensus building (with Galaxy GUI) | | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camera} Lecture  |
- | | [](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History |
-Variant calling, reporting, consensus building (with Galaxy CLI) | Simon Bray | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camera} Lecture  |
- | Simon Bray | [](https://training.galaxyproject.org/training-material//topics/galaxy-interface/tutorials/workflow-automation/tutorial.html){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History | 
-**Real-Time Q&A session (16.00 CEST)** | All experts | | 1h
+**Real-Time QA session (9am CEST)** | All experts | | 1h
+Variant calling, reporting, consensus building (with Galaxy GUI) | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
+ | | [](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html){:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
+Variant calling, reporting, consensus building (with Galaxy CLI) | Simon Bray | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
+ | Simon Bray | [](https://training.galaxyproject.org/training-material//topics/galaxy-interface/tutorials/workflow-automation/tutorial.html){:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | 
+**Real-Time QA session (4pm CEST)** | All experts | | 1h
 {:.table.table-striped}
 
 Both sessions will be in parallel. The first session is intended for wet-lab scientists and the second for people more familiar with a CLI.
@@ -93,15 +98,16 @@ Both sessions will be in parallel. The first session is intended for wet-lab sci
 
 Topic | Speaker | Material | Duration
 --- | --- | --- | ---
-Upload data to ENA | | [](){:.fa .fa-slideshare} / [](https://www.youtube.com/watch?v=POiQG-7O7rw){:.fa .fa-video-camera} Lecture  |
- | | [](){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History |
-Upload data to a local datastore | | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camera} Lecture  |
- | | [](){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial <br> [](){:.fa .fa-list-ul} History |
-Introduction to viral Beacon | | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camera} Lecture  |
- | | [](){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial |
-Using and Customising ObservableHQ | | [](){:.fa .fa-slideshare} / [](){:.fa .fa-video-camera} Lecture  |
- |  | [](){:.fa .fa-laptop} / [](){:.fa .fa-video-camera} Hands-on tutorial |
-**Real-Time Q&A session (16.00 CEST)** | All experts | | 1h
+**Real-Time QA session (9am CEST)** | All experts | | 1h
+Upload data to ENA | | *WIP*{:.fa .fa-slideshare} / [](https://www.youtube.com/watch?v=POiQG-7O7rw){:.fa .fa-video-camera} Lecture  |
+ | | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
+Upload data to a local datastore | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
+ | | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
+Introduction to viral Beacon | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
+ | | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial |
+Using and Customising ObservableHQ | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
+ |  | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial |
+**Real-Time QA session (4pm CEST)** | All experts | | 1h
 {:.table.table-striped}
 
 # Logistics
