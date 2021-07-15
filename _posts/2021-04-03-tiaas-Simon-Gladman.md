@@ -4,6 +4,7 @@ title: 'Training Infrastructure Feedback from Simon Gladman'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
+- eosc
 author: Simon Gladman
 ---
 

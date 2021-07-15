@@ -4,6 +4,7 @@ title: 'Training Infrastructure Feedback from Abdus Salam'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
+- eosc
 author: Abdus Salam
 ---
 
