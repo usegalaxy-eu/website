@@ -4,8 +4,8 @@ tags:
 - Talk
 - Tutorial
 title: "Introduction to Galaxy - a web-based platform for bioinformatics analysis"
-starts: 2021-07-29
-ends: 2021-07-29
+starts: 2021-06-24
+ends: 2021-06-24
 organiser: Pilot Core Unit Bioinformatics, Data Integration and Analysis, Universitätklinikum Erlangen
 location: online (https://uk-erlangen.webex.com/uk-erlangen/j.php?MTID=mfa8088026974da77de04e981fb3b7abd)
 supporters: 
