@@ -2,250 +2,266 @@
 <div id="supported">
     {% if include.hidetitle %}
     {% else %}
-  <h1>Supported by</h1>
+    <h1>Supported by</h1>
     {% endif %}
     <div class="row eu-image-box">
-      {% assign count = 0 %}
-      {% for supporter in include.supporters %}
+        {% assign count = 0 %}
+        {% for supporter in include.supporters %}
         {% if count > 5 %}
     </div>
     <div class="row eu-image-box">
-          {% assign count = 0 %}
+        {% assign count = 0 %}
         {% else %}
-          {% assign count = count | plus: 1 %}
+        {% assign count = count | plus: 1 %}
         {% endif %}
-      <div class="col-md-6">
-        {% assign supporter_lower = supporter | downcase %}
-        {% if supporter_lower == "denbi" %}
-          <a href="https://www.denbi.de" target="_blank">
-            <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb.png" class="img-responsive eu-image"/>
-          </a>
-        {% elsif supporter_lower == "denbi-color" %}
-          <a href="https://www.denbi.de" target="_blank">
-            <img alt="de.NBI logo" src="/assets/media/denbi-logo-color.svg" class="img-responsive eu-image"/>
-          </a>
-        {% elsif supporter_lower == "miracum" %}
-          <a href="https://www.miracum.org/" target="_blank">
-            <img alt="Miracum" src="/assets/media/miracum.png" class="img-responsive eu-image"/>
-          </a>
-        {% elsif supporter_lower == "datamonkey" %}
-          <a href="https://datamonkey.org/" target="_blank">
-            <img alt="DataMonkey logo" src="/assets/media/datamonkey.svg" class="img-responsive eu-image"/>
-          </a>
-        {% elsif supporter_lower == "bpa" %}
-          <a href="https://bioplatforms.com" target="_blank">
-            <img alt="BioPlatforms logo" src="/assets/media/bpa_logo.png" class="img-responsive eu-image"/>
-          </a>
-        {% elsif supporter_lower == "bioconda" %}
-          <a href="https://bioconda.org" target="_blank">
-            <img alt="BioConda logo" src="/assets/media/bioconda_logo.png" class="img-responsive eu-image"/>
-          </a>
-        {% elsif supporter_lower == "ardc" %}
-          <a href="https://ardc.ed.au" target="_blank">
-            <img alt="ARDC logo" src="/assets/media/ardc_logo.png" class="img-responsive eu-image"/>
-          </a>
-        {% elsif supporter_lower == "eubi" %}
-          <a href="https://www.eurobioimaging.eu" target="_blank">
-            <img alt="EuBI logo" src="/assets/media/eubi_logo.png" class="img-responsive eu-image"/>
-          </a>
-        {% elsif supporter_lower == "corbel" %}
-          <a href="https://www.corbel-project.eu" target="_blank">
-            <img alt="CORBEL logo" src="/assets/media/corbel_logo.png" class="img-responsive eu-image"/>
-          </a>
-        {% elsif supporter_lower == "idr" %}
-          <a href="https://idr.openmicroscopy.org/" target="_blank">
-            <img alt="IDR logo" src="/assets/media/idr_logo.png" class="img-responsive eu-image"/>
-          </a>
-        {% elsif supporter_lower == "elixir" %}
-          <a href="https://www.elixir-europe.org" target="_blank">
-            <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "elixir-belgium" %}
-          <a href="https://www.elixir-belgium.org/" target="_blank">
-            <img alt="ELIXIR Belgium logo" src="/assets/media/elixir-belgium-logo.jpg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "vice" %}
-          <a href="https://www.alwr-bw.de/kooperationen/vice/" target="_blank">
-            <img alt="ViCE logo" src="/assets/media/Logo_VICE.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "dzlacademy" %}
-          <a href="https://www.dzl.de/index.php/de/karriere-de/dzl-academy" target="_blank">
-            <img alt="DZL Academy" src="/assets/media/DZL_Academy_LOGO_breit_kl_web.jpg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "dzl" %}
-          <a href="https://www.dzl.de" target="_blank">
-            <img alt="DZL" src="/assets/media/dzl.jpg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "unifreiburg" %}
-          <a href="http://uni-freiburg.de/" target="_blank">
-            <img alt="University of Freiburg Logo" src="/assets/media/Logo_Uni_Freiburg.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "backofenlab" %}
-          <a href="http://bioinf.uni-freiburg.de/" target="_blank">
-            <img alt="Backofen Lab Logo" src="/assets/media/bioinf-fr-logo-blau.jpg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "crc992" %}
-          <a href="http://www.sfb992.uni-freiburg.de/" target="_blank">
-            <img alt="CRC 992 Logo" src="/assets/media/crc992.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "crc1425" %}
-          <a href="https://www.sfb1425.uni-freiburg.de/" target="_blank">
-            <img alt="CRC 1425 Logo" src="/assets/media/crc1425.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "galaxy-freiburg" %}
-          <a href="https://usegalaxy.eu/freiburg" target="_blank">
-            <img alt="Freiburg Galaxy Team Logo" src="/assets/media/freiburg-galaxy.svg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "galaxy-europe" %}
-          <a href="https://usegalaxy-eu.github.io" target="_blank">
-            <img alt="European Galaxy Team Logo" src="/assets/media/galaxy-eu.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "galaxy-australia" %}
-          <a href="https://usegalaxy.org.au" target="_blank">
-            <img alt="Australian Galaxy Team Logo" src="/assets/media/galaxy_australia.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "bmbf" %}
-          <a href="https://www.bmbf.de/en/" target="_blank">
-            <img alt="BMBF" src="/assets/media/bmbf_en.jpg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "mpi" %}
-          <a href="https://www.ie-freiburg.mpg.de/" target="_blank">
-            <img alt="MPI Logo" src="/assets/media/mpi.jpg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "ifb" %}
-          <a href="https://www.france-bioinformatique.fr/" target="_blank">
-            <img alt="IFB Logo" src="/assets/media/ifb-logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "igem" %}
-          <a href="https://igem.temple.edu/" target="_blank">
-            <img alt="IGEM Logo" src="/assets/media/igem_logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "tiaas" %}
-          <a href="https://galaxyproject.eu/tiaas" target="_blank">
-            <img alt="TIaaS Logo" src="/assets/media/tiaas-logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "eosc" %}
-          <a href="https://www.eosc-life.eu/" target="_blank">
-            <img alt="EOSC Logo" src="/assets/media/EOSC_logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "aws" %}
-          <a href="https://aws.amazon.com/" target="_blank">
-            <img alt="AWS Logo" src="/assets/media/aws-logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "fmi" %}
-          <a href="https://www.fmi.ch" target="_blank">
-            <img alt="FMI Logo" src="/assets/media/fmi-logo.svg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "illumina" %}
-          <a href="https://www.illumina.com/" target="_blank">
-            <img alt="Illumina Logo" src="/assets/media/illumina-logo.svg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "sciex" %}
-          <a href="https://sciex.com/" target="_blank">
-            <img alt="SCIEX Logo" src="/assets/media/sciex-logo.jpg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "thermofisher" %}
-          <a href="https://sciex.com/" target="_blank">
-            <img alt="ThermoFisher Logo" src="/assets/media/thermofisher-logo.svg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "vib" %}
-          <a href="http://www.vib.be/" target="_blank">
-            <img alt="VIB" src="/assets/media/vib_rf_plant_systems_biology_rgb_pos.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "vib-general" %}
-          <a href="http://www.vib.be/" target="_blank">
-            <img alt="VIB" src="/assets/media/vib_tagline_pos_rgb.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "vsc" %}
-          <a href="https://www.vscentrum.be" target="_blank">
-            <img alt="VSC logo" src="/assets/media/VSC-logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "ncgas" %}
-          <a href="https://ncgas.org/" target="_blank">
-            <img alt="NCGAS Logo" src="/assets/media/ncgas-logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "tacc" %}
-          <a href="https://www.tacc.utexas.edu/" target="_blank">
-            <img alt="NCGAS Logo" src="/assets/media/tacc_logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "psc" %}
-          <a href="https://www.psc.edu/" target="_blank">
-            <img alt="PSC Logo" src="/assets/media/psc_logo.jpg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "pennstate" %}
-          <a href="https://science.psu.edu/" target="_blank">
-            <img alt="PennState Logo" src="/assets/media/pennstate.svg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "bmb" %}
-          <a href="https://science.psu.edu/bmb" target="_blank">
-            <!-- same as penn state -->
-            <img alt="PennState Logo" src="/assets/media/pennstate.svg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "iu" %}
-          <a href="https://www.iu.edu" target="_blank">
-            <img alt="IU Logo" src="/assets/media/iu_logo.jpg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "sfb1425" %}
-          <a href="https://www.sfb1425.uni-freiburg.de" target="_blank">
-            <img alt="SFB 1425 Logo" src="/assets/media/sfb_1425.svg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "xsede" %}
-          <a href="https://www.xsede.org/" target="_blank">
-            <img alt="XSEDE Logo" src="/assets/media/xsede_logo.jpg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "biodaten" %}
-          <a href="http://www.biodaten.info/" target="_blank">
-            <img alt="BioDATEN Logo" src="/assets/media/biodaten_logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "dataplant" %}
-          <a href="https://nfdi4plants.de/" target="_blank">
-            <img alt="DataPLANT Logo" src="/assets/media/DataPLANT_logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "egi" %}
-          <a href="https://www.egi.eu/" target="_blank">
-            <img alt="EGI Logo" src="/assets/media/egi_logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "dfg" %}
-          <a href="https://www.dfg.de/" target="_blank">
-            <img alt="DFG Logo" src="/assets/media/dfg_logo.svg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "healthycloud" %}
-          <a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/sc1-hcc-10-2020" target="_blank">
-            <img alt="Health Research and Innovation Cloud Logo" src="/assets/media/healthycloud-logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "gallantries" %}
-          <a href="https://gallantries.github.io/" target="_blank">
-            <img alt="Gallantries" src="/assets/media/gallantries.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "erasmus+" %}
-          <a href="https://ec.europa.eu/programmes/erasmus-plus/node_en" target="_blank">
-            <img alt="Gallantries" src="/assets/media/erasmus+.jpg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "erasmus+" %}
-          <a href="https://ec.europa.eu/programmes/erasmus-plus/node_en" target="_blank">
-            <img alt="Gallantries" src="/assets/media/erasmus+.jpg" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "australian_biocommons" %}
-          <a href="https://www.biocommons.org.au/" target="_blank">
-            <img alt="Gallantries" src="/assets/media/australian_biocommons.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "pari" %}
-          <a href="https://neic.no/pari/" target="_blank">
-            <img alt="PaRI" src="/assets/media/pari-logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "neic" %}
-          <a href="https://neic.no/" target="_blank">
-            <img alt="neic" src="/assets/media/neic-logo.png" class="img-responsive eu-image" />
-          </a>
-        {% elsif supporter_lower == "converge" %}
-          <a href="https://elixir-europe.org/about-us/how-funded/eu-projects/converge" target="_blank">
-            <img alt="neic" src="/assets/media/converge-logo.png" class="img-responsive eu-image" />
-          </a>
-        {% else %}
+        <div class="col-md-6">
+            {% assign supporter_lower = supporter | downcase %}
+            {% if supporter_lower == "denbi" %}
+            <a href="https://www.denbi.de" target="_blank">
+                <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "denbi-color" %}
+            <a href="https://www.denbi.de" target="_blank">
+                <img alt="de.NBI logo" src="/assets/media/denbi-logo-color.svg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "miracum" %}
+            <a href="https://www.miracum.org/" target="_blank">
+                <img alt="Miracum" src="/assets/media/miracum.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "datamonkey" %}
+            <a href="https://datamonkey.org/" target="_blank">
+                <img alt="DataMonkey logo" src="/assets/media/datamonkey.svg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "bpa" %}
+            <a href="https://bioplatforms.com" target="_blank">
+                <img alt="BioPlatforms logo" src="/assets/media/bpa_logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "bioconda" %}
+            <a href="https://bioconda.org" target="_blank">
+                <img alt="BioConda logo" src="/assets/media/bioconda_logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "ardc" %}
+            <a href="https://ardc.ed.au" target="_blank">
+                <img alt="ARDC logo" src="/assets/media/ardc_logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "eubi" %}
+            <a href="https://www.eurobioimaging.eu" target="_blank">
+                <img alt="EuBI logo" src="/assets/media/eubi_logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "corbel" %}
+            <a href="https://www.corbel-project.eu" target="_blank">
+                <img alt="CORBEL logo" src="/assets/media/corbel_logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "idr" %}
+            <a href="https://idr.openmicroscopy.org/" target="_blank">
+                <img alt="IDR logo" src="/assets/media/idr_logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "elixir" %}
+            <a href="https://www.elixir-europe.org" target="_blank">
+                <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "elixir-belgium" %}
+            <a href="https://www.elixir-belgium.org/" target="_blank">
+                <img alt="ELIXIR Belgium logo" src="/assets/media/elixir-belgium-logo.jpg"
+                    class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "vice" %}
+            <a href="https://www.alwr-bw.de/kooperationen/vice/" target="_blank">
+                <img alt="ViCE logo" src="/assets/media/Logo_VICE.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "dzlacademy" %}
+            <a href="https://www.dzl.de/index.php/de/karriere-de/dzl-academy" target="_blank">
+                <img alt="DZL Academy" src="/assets/media/DZL_Academy_LOGO_breit_kl_web.jpg"
+                    class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "dzl" %}
+            <a href="https://www.dzl.de" target="_blank">
+                <img alt="DZL" src="/assets/media/dzl.jpg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "unifreiburg" %}
+            <a href="http://uni-freiburg.de/" target="_blank">
+                <img alt="University of Freiburg Logo" src="/assets/media/Logo_Uni_Freiburg.png"
+                    class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "backofenlab" %}
+            <a href="http://bioinf.uni-freiburg.de/" target="_blank">
+                <img alt="Backofen Lab Logo" src="/assets/media/bioinf-fr-logo-blau.jpg"
+                    class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "crc992" %}
+            <a href="http://www.sfb992.uni-freiburg.de/" target="_blank">
+                <img alt="CRC 992 Logo" src="/assets/media/crc992.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "crc1425" %}
+            <a href="https://www.sfb1425.uni-freiburg.de/" target="_blank">
+                <img alt="CRC 1425 Logo" src="/assets/media/crc1425.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "galaxy-freiburg" %}
+            <a href="https://usegalaxy.eu/freiburg" target="_blank">
+                <img alt="Freiburg Galaxy Team Logo" src="/assets/media/freiburg-galaxy.svg"
+                    class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "galaxy-europe" %}
+            <a href="https://usegalaxy-eu.github.io" target="_blank">
+                <img alt="European Galaxy Team Logo" src="/assets/media/galaxy-eu.png"
+                    class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "galaxy-australia" %}
+            <a href="https://usegalaxy.org.au" target="_blank">
+                <img alt="Australian Galaxy Team Logo" src="/assets/media/galaxy_australia.png"
+                    class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "bmbf" %}
+            <a href="https://www.bmbf.de/en/" target="_blank">
+                <img alt="BMBF" src="/assets/media/bmbf_en.jpg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "mpi" %}
+            <a href="https://www.ie-freiburg.mpg.de/" target="_blank">
+                <img alt="MPI Logo" src="/assets/media/mpi.jpg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "ifb" %}
+            <a href="https://www.france-bioinformatique.fr/" target="_blank">
+                <img alt="IFB Logo" src="/assets/media/ifb-logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "igem" %}
+            <a href="https://igem.temple.edu/" target="_blank">
+                <img alt="IGEM Logo" src="/assets/media/igem_logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "tiaas" %}
+            <a href="https://galaxyproject.eu/tiaas" target="_blank">
+                <img alt="TIaaS Logo" src="/assets/media/tiaas-logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "eosc" %}
+            <a href="https://www.eosc-life.eu/" target="_blank">
+                <img alt="EOSC Logo" src="/assets/media/EOSC_logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "aws" %}
+            <a href="https://aws.amazon.com/" target="_blank">
+                <img alt="AWS Logo" src="/assets/media/aws-logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "fmi" %}
+            <a href="https://www.fmi.ch" target="_blank">
+                <img alt="FMI Logo" src="/assets/media/fmi-logo.svg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "illumina" %}
+            <a href="https://www.illumina.com/" target="_blank">
+                <img alt="Illumina Logo" src="/assets/media/illumina-logo.svg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "sciex" %}
+            <a href="https://sciex.com/" target="_blank">
+                <img alt="SCIEX Logo" src="/assets/media/sciex-logo.jpg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "thermofisher" %}
+            <a href="https://sciex.com/" target="_blank">
+                <img alt="ThermoFisher Logo" src="/assets/media/thermofisher-logo.svg"
+                    class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "vib" %}
+            <a href="http://www.vib.be/" target="_blank">
+                <img alt="VIB" src="/assets/media/vib_rf_plant_systems_biology_rgb_pos.png"
+                    class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "vib-general" %}
+            <a href="http://www.vib.be/" target="_blank">
+                <img alt="VIB" src="/assets/media/vib_tagline_pos_rgb.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "vsc" %}
+            <a href="https://www.vscentrum.be" target="_blank">
+                <img alt="VSC logo" src="/assets/media/VSC-logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "ncgas" %}
+            <a href="https://ncgas.org/" target="_blank">
+                <img alt="NCGAS Logo" src="/assets/media/ncgas-logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "tacc" %}
+            <a href="https://www.tacc.utexas.edu/" target="_blank">
+                <img alt="NCGAS Logo" src="/assets/media/tacc_logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "psc" %}
+            <a href="https://www.psc.edu/" target="_blank">
+                <img alt="PSC Logo" src="/assets/media/psc_logo.jpg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "pennstate" %}
+            <a href="https://science.psu.edu/" target="_blank">
+                <img alt="PennState Logo" src="/assets/media/pennstate.svg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "bmb" %}
+            <a href="https://science.psu.edu/bmb" target="_blank">
+                <!-- same as penn state -->
+                <img alt="PennState Logo" src="/assets/media/pennstate.svg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "iu" %}
+            <a href="https://www.iu.edu" target="_blank">
+                <img alt="IU Logo" src="/assets/media/iu_logo.jpg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "sfb1425" %}
+            <a href="https://www.sfb1425.uni-freiburg.de" target="_blank">
+                <img alt="SFB 1425 Logo" src="/assets/media/sfb_1425.svg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "xsede" %}
+            <a href="https://www.xsede.org/" target="_blank">
+                <img alt="XSEDE Logo" src="/assets/media/xsede_logo.jpg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "biodaten" %}
+            <a href="http://www.biodaten.info/" target="_blank">
+                <img alt="BioDATEN Logo" src="/assets/media/biodaten_logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "dataplant" %}
+            <a href="https://nfdi4plants.de/" target="_blank">
+                <img alt="DataPLANT Logo" src="/assets/media/DataPLANT_logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "dataplant" %}
+            <a href="https://nfdi4bioimage.de" target="_blank">
+                <img alt="Data4BioImaging Logo" src="/assets/media/NFDI4BIOIMAGE_logo.png"
+                    class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "egi" %}
+            <a href="https://www.egi.eu/" target="_blank">
+                <img alt="EGI Logo" src="/assets/media/egi_logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "dfg" %}
+            <a href="https://www.dfg.de/" target="_blank">
+                <img alt="DFG Logo" src="/assets/media/dfg_logo.svg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "healthycloud" %}
+            <a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/sc1-hcc-10-2020"
+                target="_blank">
+                <img alt="Health Research and Innovation Cloud Logo" src="/assets/media/healthycloud-logo.png"
+                    class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "gallantries" %}
+            <a href="https://gallantries.github.io/" target="_blank">
+                <img alt="Gallantries" src="/assets/media/gallantries.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "erasmus+" %}
+            <a href="https://ec.europa.eu/programmes/erasmus-plus/node_en" target="_blank">
+                <img alt="Gallantries" src="/assets/media/erasmus+.jpg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "erasmus+" %}
+            <a href="https://ec.europa.eu/programmes/erasmus-plus/node_en" target="_blank">
+                <img alt="Gallantries" src="/assets/media/erasmus+.jpg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "australian_biocommons" %}
+            <a href="https://www.biocommons.org.au/" target="_blank">
+                <img alt="Gallantries" src="/assets/media/australian_biocommons.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "pari" %}
+            <a href="https://neic.no/pari/" target="_blank">
+                <img alt="PaRI" src="/assets/media/pari-logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "neic" %}
+            <a href="https://neic.no/" target="_blank">
+                <img alt="neic" src="/assets/media/neic-logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "converge" %}
+            <a href="https://elixir-europe.org/about-us/how-funded/eu-projects/converge" target="_blank">
+                <img alt="neic" src="/assets/media/converge-logo.png" class="img-responsive eu-image" />
+            </a>
+            {% else %}
             {{ supporter }}
-        {% endif %}
-      </div>
-      {% endfor %}
+            {% endif %}
+        </div>
+        {% endfor %}
     </div>
 </div>
 {% endif %}
