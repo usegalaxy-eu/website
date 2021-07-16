@@ -167,5 +167,4 @@ Anna Syme | Australia
 Igor Makunin | Australia
 Valentine Murigneux | Australia
 Michael Thang | Australia
-
 {:.table.table-striped}
