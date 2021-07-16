@@ -15,10 +15,12 @@ supporters:
  - gallantries
  - erasmus+
  - eosc
- - australian_biocommons
+ - converge
  - pari
  - neic
- - converge
+ - australian_biocommons
+ - qfab
+ - melbbioinfo
 ---
 
 The goal of this workshop is to build capacity in SARS-CoV-2 data analysis and data management, including data submission to ENA. After the workshop, all participants will be able to upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments.
