@@ -15,10 +15,12 @@ supporters:
  - gallantries
  - erasmus+
  - eosc
- - australian_biocommons
+ - converge
  - pari
  - neic
- - converge
+ - australian_biocommons
+ - qfab
+ - melbbioinfo
 ---
 
 The goal of this workshop is to build capacity in SARS-CoV-2 data analysis and data management, including data submission to ENA. After the workshop, all participants will be able to upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments.
@@ -68,7 +70,7 @@ Demo | Anton Nekrutenko | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-came
 
 Topic | Speaker | Material | Duration
 --- | --- | --- | ---
-**Real-Time QA session (9 am CEST)** | All experts | | 1h
+**Real-Time Q&A session (9 am CEST)** | All experts | | 1h
 Quality control of reads | Florian Heyl | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/slides.html){:.fa .fa-slideshare} / [](https://youtu.be/BWonTPS4zB8){:.fa .fa-video-camera} Lecture | 40m
  | Florian Heyl | [](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html){:.fa .fa-laptop} / [](https://youtu.be/QJRlX2hWDKM){:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | 1h 10m
 Mapping of reads | Peter van Heusden | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html){:.fa .fa-slideshare} / [](https://youtu.be/7FhHb8EV3EU){:.fa .fa-video-camera} Lecture | 10m
@@ -77,19 +79,19 @@ Using dataset collections | Anton Nekrutenko | *WIP*{:.fa .fa-slideshare} / *WIP
  | Anton Nekrutenko | [](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html){:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
 Data cleaning workflow | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
  | | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutoria <br> *WIP*{:.fa .fa-list-ul} History |
-**Real-Time QA session (4 pm CEST)** | All experts | | 1h
+**Real-Time Q&A session (4 pm CEST)** | All experts | | 1h
 {:.table.table-striped}
 
 ## Day 3 (11.8.2021) - SARS-CoV-2 Data Analysis on Public Datasets
 
 Topic | Speaker | Material | Duration
 --- | --- | --- | ---
-**Real-Time QA session (9 am CEST)** | All experts | | 1h
+**Real-Time Q&A session (9 am CEST)** | All experts | | 1h
 Variant calling, reporting, consensus building (with Galaxy GUI) | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
  | | [](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html){:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
 Variant calling, reporting, consensus building (with Galaxy CLI) | Simon Bray | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
  | Simon Bray | [](https://training.galaxyproject.org/training-material//topics/galaxy-interface/tutorials/workflow-automation/tutorial.html){:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | 
-**Real-Time QA session (4pm CEST)** | All experts | | 1h
+**Real-Time Q&A session (4pm CEST)** | All experts | | 1h
 {:.table.table-striped}
 
 Both sessions will be in parallel. The first session is intended for wet-lab scientists and the second for people more familiar with a CLI.
@@ -98,7 +100,7 @@ Both sessions will be in parallel. The first session is intended for wet-lab sci
 
 Topic | Speaker | Material | Duration
 --- | --- | --- | ---
-**Real-Time QA session (9 am CEST)** | All experts | | 1h
+**Real-Time Q&A session (9 am CEST)** | All experts | | 1h
 Upload data to ENA | | *WIP*{:.fa .fa-slideshare} / [](https://www.youtube.com/watch?v=POiQG-7O7rw){:.fa .fa-video-camera} Lecture  |
  | | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
 Upload data to a local datastore | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
@@ -107,7 +109,7 @@ Introduction to viral Beacon | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-vid
  | | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial |
 Using and Customising ObservableHQ | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
  |  | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial |
-**Real-Time QA session (4 pm CEST)** | All experts | | 1h
+**Real-Time Q&A session (4 pm CEST)** | All experts | | 1h
 {:.table.table-striped}
 
 # Logistics
@@ -159,4 +161,10 @@ Simon Bray | Germany
 Erik Hjerde | Norway
 Annbjørg Barbakken | Norway
 Kjell Petersen | Norway
+Steven Morgan | Australia
+Gareth Price | Australia
+Anna Syme | Australia
+Igor Makunin | Australia
+Valentine Murigneux | Australia
+Michael Thang | Australia
 {:.table.table-striped}
