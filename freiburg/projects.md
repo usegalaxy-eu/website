@@ -32,7 +32,7 @@ Spending valuable time in compilation/installation should not be a problem nowad
 
 Bioconda is a channel for the conda package manager specializing in bioinformatics with around 8,000 bioinformatics packages ready to use with `conda install`. 
 
-BioContainers is an open source and community-driven framework which provides system-agnostic executable environments for bioinformatics software, with around 200,000 containers ready to use.
+BioContainers is an open source and community-driven framework which provides system-agnostic executable environments for bioinformatics software, with around 70,000 containers ready to use.
 
 ---
 <a name="infrastructure"></a>
