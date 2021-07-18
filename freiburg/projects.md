@@ -142,7 +142,7 @@ Plants are vital to human life and health and are essential to mitigate the effe
 ### deepTools
 
 [deepTools](https://deeptools.readthedocs.io) is a suite of python tools particularly developed for the efficient analysis of high-throughput sequencing data, such as ChIP-seq, RNA-seq or MNase-seq. deepTools is the Swiss Army Knife of NGS processing and is cited
-more than 3000 times. It is of course part of the European Galaxy server and was used more than 230.000 times.
+more than 3,000 times. It is of course part of the European Galaxy server and was used more than 230,000 times.
 
 
 ---
