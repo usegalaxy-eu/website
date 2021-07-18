@@ -127,6 +127,23 @@ As part of the [Collaborative Research Centre 992 - "Medical Epigenetics"](https
 
 Plants are vital to human life and health and are essential to mitigate the effects of climate change. In this COST Action for [Impact of Nuclear Domains On Gene Expression and Plant Traits](http://www.cost.eu/COST_Actions/ca/CA16212), the Freiburg Galaxy team is helping to connect the European plant community and foster FAIR data principles.
 
+---
+<a name="software"></a>
+# Software Projects
+---
+
+
+<a name="hicexploer"></a>
+### HiCExplorer
+
+[HiCExplorer](https://hicexplorer.readthedocs.io/en/documentation/) is a set of programs to process, normalize, analyze and visualize Hi-C data. It addresses the common tasks of Hi-C analysis from processing to visualization. The Freiburg Galaxy team is involved in the maintenance and new development of HiCExplorer. You can access HiCExplorer via [https://hicexplorer.usegalaxy.eu](https://hicexplorer.usegalaxy.eu).
+
+<a name="deeptools"></a>
+### deepTools
+
+[deepTools](https://deeptools.readthedocs.io) is a suite of python tools particularly developed for the efficient analysis of high-throughput sequencing data, such as ChIP-seq, RNA-seq or MNase-seq. deepTools is the Swiss Army Knife of NGS processing and is cited
+more than 3000 times. It is of course part of the European Galaxy server and was used more than 230.000 times.
+
 
 ---
 <a name="capacity-building"></a>
@@ -139,3 +156,13 @@ Plants are vital to human life and health and are essential to mitigate the effe
 The [Galantries](https://gallantries.github.io/) project aims to increase bioinformatics and core data analysis skills in the field of life sciences across Europe. 
 
 
+### Open Life Science <img src="/assets/media/ols_logo.png" width="50px" alt="OLS logo" />
+
+[Open Life Science (OLS)](https://openlifesci.org) is a 16-week long mentoring & training program for Open Science ambassadors. Currently the call for the
+4th round - OLS-4 - is running.
+
+### StreetScience Project
+
+In the [Street Science community](https://streetscience.community/), we want to make science tangible & accessible by bringing it to the
+“street” via open science workshops. These workshops are an excuse to meet, discuss, educate and develop ideas in a neutral, open,
+noncompetitive and not-for-profit environment.
