@@ -5,6 +5,7 @@ title: "¿Hablas español?: The first curated tutorial in Spanish!"
 supporters:
 - denbi
 - elixir
+- gallantries
 external: 'https://training.galaxyproject.org/training-material/news/2021/05/20/spanish_project_begins.html'
 ---
 

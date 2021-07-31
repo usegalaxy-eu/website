@@ -5,6 +5,7 @@ title: "New Feature: Easy Abbreviation"
 supporters:
 - denbi
 - elixir
+- gallantries
 external: 'https://training.galaxyproject.org/training-material/news/2021/05/25/abbreviations-tag.html'
 ---
 

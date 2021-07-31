@@ -17,6 +17,7 @@ title: "{feed_title}"
 supporters:
 - denbi
 - elixir
+- gallantries
 external: '{feed_link}'
 ---
 

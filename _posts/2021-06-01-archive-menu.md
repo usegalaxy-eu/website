@@ -5,6 +5,7 @@ title: "Oh no, it changed! Quick, to the archive menu."
 supporters:
 - denbi
 - elixir
+- gallantries
 external: 'https://training.galaxyproject.org/training-material/news/2021/06/01/archive-menu.html'
 ---
 

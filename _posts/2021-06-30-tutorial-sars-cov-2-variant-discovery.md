@@ -5,6 +5,7 @@ title: "New Tutorial: Mutation calling, viral genome reconstruction and lineage/
 supporters:
 - denbi
 - elixir
+- gallantries
 external: 'https://training.galaxyproject.org/training-material/news/2021/06/30/tutorial-sars-cov-2-variant-discovery.html'
 ---
 

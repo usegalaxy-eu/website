@@ -5,6 +5,7 @@ title: "Contributing to BioBlend as a developer"
 supporters:
 - denbi
 - elixir
+- gallantries
 external: 'https://training.galaxyproject.org/training-material/news/2021/05/25/new-dev-tutorial.html'
 ---
 
