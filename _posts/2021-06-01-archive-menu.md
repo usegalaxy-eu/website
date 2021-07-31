@@ -3,8 +3,8 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training, gtn-news]
 title: "Oh no, it changed! Quick, to the archive menu."
 supporters:
-    -denbi
-    -elixir
+- denbi
+- elixir
 external: 'https://training.galaxyproject.org/training-material/news/2021/06/01/archive-menu.html'
 ---
 

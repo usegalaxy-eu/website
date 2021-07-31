@@ -3,14 +3,14 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training, gtn-news]
 title: "New Feature: Easy Abbreviation"
 supporters:
-    -denbi
-    -elixir
+- denbi
+- elixir
 external: 'https://training.galaxyproject.org/training-material/news/2021/05/25/abbreviations-tag.html'
 ---
 
-<p>Thanks to the great tutorial developed by first time contributor <a class="contributor-badge" href="https://training.galaxyproject.org/training-material/hall-of-fame/rikeshi/"><img alt="Avatar" src="https://avatars.githubusercontent.com/rikeshi" />Erik Schill</a> and edited by <a class="contributor-badge" href="https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/"><img alt="Avatar" src="https://avatars.githubusercontent.com/simonbray" />Simon Bray</a>, we noticed that they defined a number of abbreviations and re-used those throughout their tutorial.</p>
+<p>Thanks to the great tutorial developed by first time contributor Erik Schill and edited by Simon Bray, we noticed that they defined a number of abbreviations and re-used those throughout their tutorial.</p>
 
-<p>As the GTN is intended to be easy for contributors and easy for learners, we wanted to make use of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr"><code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code></a> tag which allows you to define commonly re-used terms in your HTML. However this is a bit clumsy to write every time, so we’ve implemented a tag and some metadata which permits easily defining and referencing abbreviations throughout your text.</p>
+<p>As the GTN is intended to be easy for contributors and easy for learners, we wanted to make use of the <code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code> tag which allows you to define commonly re-used terms in your HTML. However this is a bit clumsy to write every time, so we’ve implemented a tag and some metadata which permits easily defining and referencing abbreviations throughout your text.</p>
 
 <p>In your tutorial metadata you can add an abbreviations section like:</p>
 
