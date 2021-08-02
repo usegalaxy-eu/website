@@ -36,7 +36,7 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 - **FORMAT**: Virtual and asynchronous. All training **sessions will be pre-recorded and provided in advance**.
 - **SUPPORT**:
     - **Live support in chat** (Slack Channel), in which experts will answer questions on a peer-to-peer basis.
-    - **Real-Time Q&A sessions** on days 3 and 4 (9 am and 4 pm CEST).
+    - **Real-Time Q&A sessions** on days 2, 3 and 4 (9 am and 4 pm CEST).
 - **INFRASTRUCTURE**: [European Galaxy server](https://usegalaxy.eu){:target="_blank"} and the [Galaxy Training Material](https://training.galaxyproject.org){:target="_blank"}. Both will stay accessible and open after the training.
 - [**Contact us**](mailto:contact@usegalaxy.eu) if you have questions.
 </div>
