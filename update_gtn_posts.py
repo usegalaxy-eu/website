@@ -7,7 +7,7 @@ feedparser.sanitizer._HTMLSanitizer.acceptable_elements.remove('img')
 feeds = feedparser.parse('https://training.galaxyproject.org/training-material/feed.xml')
 
 for entry in feeds.entries:
-    feed_title = entry['title']
+    feed_title = f'[GTN news] {entry['title']}'
     feed_link = entry['link']
     feed_blurb = entry['summary']
     TEMPLATE = f"""---
