@@ -54,7 +54,7 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 
 # Program
 
-*Some material is still in preparation (WIP). Most of the material have been developed by a community of people via the [Galaxy Training Network](training.galaxyproject.org/). Some videos were recorded for different previous events, e.g. [GTN Smorgsboard]() or [GCC2021 Training Week](https://galaxyproject.org/events/gcc2021/training/), and were subtitled by several people.*
+*Some material is still in preparation (WIP). Most of the material have been developed by a community of people via the [Galaxy Training Network](training.galaxyproject.org/). Some videos were recorded for different previous events, e.g. [GTN Smörgåsbord](https://shiltemann.github.io/global-galaxy-course/) or [GCC2021 Training Week](https://galaxyproject.org/events/gcc2021/training/), and were captioned by several community members.*
 
 ## Day 1 (9.8.2021) - Introduction to Galaxy
 
