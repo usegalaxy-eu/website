@@ -54,63 +54,70 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 
 # Program
 
-*Some material is still in preparation (WIP)*
+*Some material is still in preparation (WIP). Most of the material have been developed by a community of people via the [Galaxy Training Network](training.galaxyproject.org/). Some videos were recorded for different previous events, e.g. [GTN Smorgsboard]() or [GCC2021 Training Week](https://galaxyproject.org/events/gcc2021/training/), and were subtitled by several people.*
 
 ## Day 1 (9.8.2021) - Introduction to Galaxy
 
-Topic | Speaker | Material | Duration
+Topic | Speaker | Material | Description | Duration
 --- | --- | --- | ---
-A very short introduction to Galaxy | Anton Nekrutenko | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture | 
-Galaxy 101 | |  *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | 
-Demo | Anton Nekrutenko | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture |
- | Anton Nekrutenko | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
+A very short introduction to Galaxy | Anton Nekrutenko | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture | | 
+Galaxy 101 | |  *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | | 
+Demo | Anton Nekrutenko | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture | |
+ | Anton Nekrutenko | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History| |
 {:.table.table-striped}
 
 ## Day 2 (10.8.2021) - Data Upload & Quality Control
 
-Topic | Speaker | Material | Duration
---- | --- | --- | ---
-**Real-Time Q&A session (9 am CEST)** | All experts | | 1h
-Quality control of reads | Florian Heyl | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/slides.html){:.fa .fa-slideshare} / [](https://youtu.be/BWonTPS4zB8){:.fa .fa-video-camera} Lecture | 40m
- | Florian Heyl | [](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html){:.fa .fa-laptop} / [](https://youtu.be/QJRlX2hWDKM){:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | 1h 10m
-Mapping of reads | Peter van Heusden | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html){:.fa .fa-slideshare} / [](https://youtu.be/7FhHb8EV3EU){:.fa .fa-video-camera} Lecture | 10m
- | Peter van Heusden | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html){:.fa .fa-laptop} / [](https://youtu.be/1wm-62E2NkY){:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | 20m
+Topic | Speaker | Material | Description | Duration
+--- | --- | --- | --- | ---
+ | All experts | | **Real-Time Q&A session (9 am CEST)** | 1h
+Quality control of reads | Florian Heyl | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-slideshare} / [](https://youtu.be/BWonTPS4zB8){:.fa .fa-video-camera} Lecture | *This lecture goes over the concepts involved in assessing the quality of your sequencing data*{: .small} | 40m | 
+ | Florian Heyl | [](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop} / [](https://youtu.be/QJRlX2hWDKM){:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | *In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data*{: .small} | 1h 10m
+Mapping of reads | Peter van Heusden | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-slideshare} / [](https://youtu.be/7FhHb8EV3EU){:.fa .fa-video-camera} Lecture | *This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.*{: .small} | 10m
+ | Peter van Heusden | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop} / [](https://youtu.be/1wm-62E2NkY){:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | *In this tutorial you will map sequencing data to a reference genome, and explore the mapped reads in a genome browser.*{: .small} |20m
 Using dataset collections | Anton Nekrutenko | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture |
- | Anton Nekrutenko | [](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html){:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
-Data cleaning workflow | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
- | | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutoria <br> *WIP*{:.fa .fa-list-ul} History |
-**Real-Time Q&A session (4 pm CEST)** | All experts | | 1h
+ | Anton Nekrutenko | [](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
+Data cleaning workflow | BE | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
+ | All experts | | **Real-Time Q&A session (4 pm CEST)** | 1h
 {:.table.table-striped}
 
 ## Day 3 (11.8.2021) - SARS-CoV-2 Data Analysis on Public Datasets
 
-Topic | Speaker | Material | Duration
+Topic | Speaker | Material | Description | Duration
 --- | --- | --- | ---
-**Real-Time Q&A session (9 am CEST)** | All experts | | 1h
-Variant calling, reporting, consensus building (with Galaxy GUI) | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
- | | [](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html){:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
-Variant calling, reporting, consensus building (with Galaxy CLI) | Simon Bray | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
- | Simon Bray | [](https://training.galaxyproject.org/training-material//topics/galaxy-interface/tutorials/workflow-automation/tutorial.html){:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | 
-**Real-Time Q&A session (4pm CEST)** | All experts | | 1h
+ | All experts | | **Real-Time Q&A session (9 am CEST)** | 1h
+SARS-CoV-2 genome surveillance with Galaxy | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture | |
+Variant calling, reporting, consensus building (with Galaxy GUI) | Wolfgang Maeir | [](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History | | 
+Variant calling, reporting, consensus building (with Galaxy CLI) | Simon Bray | [](https://training.galaxyproject.org/training-material//topics/galaxy-interface/tutorials/workflow-automation/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop} / [](https://www.youtube.com/watch?v=o39QjVnLG68){:.fa .fa-video-camera} Hands-on tutorial | | 
+ | All experts | | **Real-Time Q&A session (4pm CEST)** | 1h
 {:.table.table-striped}
 
 Both sessions will be in parallel. The first session is intended for wet-lab scientists and the second for people more familiar with a CLI.
 
 ## Day 4 (12.8.2021) - Visualisation & Data Export
 
-Topic | Speaker | Material | Duration
+Topic | Speaker | Material | Description | Duration
 --- | --- | --- | ---
-**Real-Time Q&A session (9 am CEST)** | All experts | | 1h
-Upload data to ENA | | *WIP*{:.fa .fa-slideshare} / [](https://www.youtube.com/watch?v=POiQG-7O7rw){:.fa .fa-video-camera} Lecture  |
- | | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
-Upload data to a local datastore | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
- | | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul} History |
-Introduction to viral Beacon | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
- | | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial |
-Using and Customising ObservableHQ | | *WIP*{:.fa .fa-slideshare} / *WIP*{:.fa .fa-video-camera} Lecture  |
- |  | *WIP*{:.fa .fa-laptop} / *WIP*{:.fa .fa-video-camera} Hands-on tutorial |
-**Real-Time Q&A session (4 pm CEST)** | All experts | | 1h
+| All experts | | **Real-Time Q&A session (9 am CEST)**  | 1h
+Upload data to ENA | Miguel Roncoroni | [](https://www.youtube.com/watch?v=POiQG-7O7rw){:.fa .fa-video-camera} Demo
+Upload data to a local datastore | Wolgang Maier | *WIP*{:.fa .fa-video-camera} Demo | |
+Introduction to viral Beacon | Wolgang Maier | *WIP*{:.fa .fa-video-camera} Demo |
+Using and Customising ObservableHQ |  | *WIP*{:.fa .fa-video-camera} Demo | |
+ | All experts | | **Real-Time Q&A session (4 pm CEST)** | 1h
 {:.table.table-striped}
+
+## Optional extra training
+
+Topic | Speaker | Material | Description | Duration
+--- | --- | --- | ---
+SRA Aligned Read Formats to Speed Up SARS-CoV-2 data Analysis | Jonathan Trow | [](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/ncbi-sarf/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-slideshare} / [](https://www.youtube.com/watch?v=siLP71B9gm4){:.fa .fa-video-camera} Lecture | *This lecture will introduce the SRA Aligned Read format available in the cloud from SRA, as well as some accompanying metadata that can help you search and filter the data. This sessions is aimed specifically at SARS-CoV-2 runs in SRA.*{: .small} | 15m
+ | Jonathan Trow | [](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop} / [](https://www.youtube.com/watch?v=ogu-NBTP-DM){:.fa .fa-video-camera} Hands-on tutorial | *This tutorials will walk you through accessing and using SRA Aligned read format in Galaxy.*{: .small} | 40m
+Assembly: Unicycler assembly of SARS-CoV-2 genome | Cristóbal Gallardo | [](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop} Lecture  | |
+ | Cristóbal Gallardo | [](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop} / [](https://www.youtube.com/watch?v=jNFLYhjgJPs){:.fa .fa-video-camera} Hands-on tutorial | | 25m
+Pandemics Research using Mass Spectrometry | Timothy J. Griffin, Subina Mehta, Andrew Rajczewski, Pratik Jagtap | [](https://drive.google.com/file/d/1anBPmGRWEVp9pBLZ_JInWV7iWrBpyCDs/view?usp=sharing?utm_source=smorgasbord&utm_medium=website&utm_campaign=gcc2021){:.fa .fa-laptop} / [](https://www.youtube.com/watch?v=CI35gTmZoqM){:.fa .fa-video-camera} Demo | | 35m
+Scripting Galaxy using the API and BioBlend | | [](https://training.galaxyproject.org/training-material/topics/dev/tutorials/bioblend-api/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-slideshare} | |
+{:.table.table-striped}
+
 
 # Logistics
 
