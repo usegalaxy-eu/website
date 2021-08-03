@@ -95,7 +95,7 @@ Topic | Speaker | Material | Description | Duration
 Galaxy for SARS-CoV-2 genome surveillance projects | Wolfgang Maier | *WIP*{:.fa .fa-slideshare target="_blank"} / *WIP*{:.fa .fa-video-camera target="_blank"} Lecture | *Get an overview of what day 3 has to offer: production-ready Galaxy workflows for SARS-CoV-2 sequencing data, tools you should know to automate workflow execution, and how you combine all of it to turn Galaxy into a platform for genome-surveillance*{: .small } |
 Variant calling, reporting, consensus building (with Galaxy GUI) | Wolfgang Maier | [](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / *WIP*{:.fa .fa-video-camera target="_blank"} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul target="_blank"} History | *Illumina or ONT, ampliconic or WGS data? Learn how to combine the right set of Galaxy workflows to analyze the type of SRAS-CoV-2 sequencing data of your choice.*{: .small } | 
 Variant calling, reporting, consensus building (with Galaxy CLI) | Simon Bray | [](https://training.galaxyproject.org/training-material//topics/galaxy-interface/tutorials/workflow-automation/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / [](https://www.youtube.com/watch?v=o39QjVnLG68){:.fa .fa-video-camera target="_blank"} Hands-on tutorial | *Learn how to use the command line to upload your SARS-CoV-2 data to a Galaxy-server and launch workflows for its analysis. Note: This first step towards automation requires the command line tool Planemo for interacting with Galaxy if you want to follow along*{: .small } |
-The usegalaxy.eu SARS-CoV-2 bot in action | Wolfgang Maier | *WIP*{:.fa .fa-video-camera target="_blank"} Demo | *See in this demo how, on usegalaxy.eu, we've used planemo and bioblend to build and operate an automated SARS-CoV-2 genome surveillance system based on the Galaxy workflows for variant calling, consensus building and reporting*{: .small } |
+The usegalaxy.eu SARS-CoV-2 bot in action | Wolfgang Maier | *WIP*{:.fa .fa-video-camera target="_blank"} Demo | *See in this demo how, on usegalaxy.eu, we've used Planemo and Bioblend to build and operate an automated SARS-CoV-2 genome surveillance system based on the Galaxy workflows for variant calling, consensus building and reporting*{: .small } |
  | All experts | [](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing){:.fa .fa-info-circle target="_blank"} Info & Zoom link | **Real-Time Q&A session (4 pm CEST)** | 1h
 {:.table.table-striped}
 
@@ -106,7 +106,7 @@ Both sessions will be in parallel. The first session is intended for wet-lab sci
 Topic | Speaker | Material | Description | Duration
 --- | --- | --- | ---
 | All experts | [](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing){:.fa .fa-info-circle target="_blank"} Info & Zoom link | **Real-Time Q&A session (9 am CEST)**  | 1h
-Upload data to ENA | Miguel Roncoroni | [](https://www.youtube.com/watch?v=POiQG-7O7rw){:.fa .fa-video-camera target="_blank"} Demo | Learn how to submit your sequencing data to the ENA directly from Galaxy | 1m40
+Upload data to ENA | Miguel Roncoroni | [](https://www.youtube.com/watch?v=POiQG-7O7rw){:.fa .fa-video-camera target="_blank"} Demo | *Learn how to submit your sequencing data to the ENA directly from Galaxy*{: .small } | 1m40
 Upload data to a local datastore | Wolgang Maier | *WIP*{:.fa .fa-video-camera target="_blank"} Demo | *So you've used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.*{: .small } |
 Introduction to viral Beacon | Wolgang Maier | *WIP*{:.fa .fa-video-camera target="_blank"} Demo | *How to visualize tens of thousands of SARS-CoV-2 analysis results? Learn about the Viral Beacon project's solution!*{: .small } |
 Using and Customising ObservableHQ |  | *WIP*{:.fa .fa-video-camera target="_blank"} Demo | *In this demo you will get to know the ObservableHQ platform for interactive data visualization. You will see how covid19.galaxyproject.org uses it to build a dashboard for their SARS-CoV-2 analysis efforts and will learn how to customize this solution to fit your own purposes.*{: .small } |
@@ -139,15 +139,22 @@ This is a global workshop delivered asynchronously. In practice, this means that
     Most of the tutorials are developed by the [Galaxy Training Networkf](http://training.galaxyproject.org/){:target="_blank"}. A feedback form is available at the bottom of each tutorial page. Please feel it, it helps us to value and improve the tutorials.
 
 - **Histories**: shared Galaxy history ([](){:.fa .fa-list-ul}), on the [European Galaxy server](https://usegalaxy.eu){:target="_blank"}, with all that you need to reproduce what is shown in the hands-on part.
-- **Demo**: pre-recorded videos ([](){:.fa .fa-video-camera}) demonstrating 
+- **Demo**: pre-recorded videos ([](){:.fa .fa-video-camera}) demonstrating a technical point or a nice feature
+
+Most of the material is available already, and they will all stay **available after the workshop**. Most of the material have been developed by a community of people via the [Galaxy Training Network](training.galaxyproject.org/){:target="_blank"}. Some videos were recorded for different previous events, e.g. [GTN Smörgåsbord](https://shiltemann.github.io/global-galaxy-course/){:target="_blank"} or [GCC2021 Training Week](https://galaxyproject.org/events/gcc2021/training/){:target="_blank"}, and the captions were manually-curated by several community members.
 
 Whenever you're ready to get started, you can access the material by clicking in the program on the different icons!
 
-To run the tutorials, we recommend you to:
-- Register and use [European Galaxy server](https://usegalaxy.eu){:target="_blank"}
-- Join the [training event group](https://usegalaxy.eu/join-training/sars_cov2_2021/)! It makes your jobs go faster
+## Doing the tutorials - Technical requirements
 
-Some material is still in preparation (WIP). Most of the material have been developed by a community of people via the [Galaxy Training Network](training.galaxyproject.org/){:target="_blank"}. Some videos were recorded for different previous events, e.g. [GTN Smörgåsbord](https://shiltemann.github.io/global-galaxy-course/){:target="_blank"} or [GCC2021 Training Week](https://galaxyproject.org/events/gcc2021/training/){:target="_blank"}, and the captions were manually-curated by several community members.
+Some of you have asked about the technical requirements. You don't need a specific operating system or software installed, all you need is a browser and internet connection.
+
+To run the tutorials, you will need a **Galaxy account**. We recommend you to:
+
+- Register and use [European Galaxy server](https://usegalaxy.eu){:target="_blank"}
+
+    You will receive an email to confirm your account before you can start using Galaxy.
+- Join the [training event group](https://usegalaxy.eu/join-training/sars_cov2_2021/)! It makes your jobs go faster
 
 ## Support & Communication channels
 
@@ -169,14 +176,6 @@ When asking a question:
 During the week of the workshop, the instructors will be there to reply to your questions. Please be aware of the **time zones**, the instructors are scattered all over the world and sometimes you may have to be patient to get a reply.
 
 Real-time Q&A sessions will be run on days 2, 3 and 4 (9 am and 4 pm CEST). Register for them and see the details to join these sessions in the [dedicated document](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing).
-
-## Technical requirements
-
-You don't need a specific operating system or software installed, all you need is a browser and internet connection.
-
-To do the hands-on on your own, you will need a **Galaxy account**. Please register at [https://usegalaxy.eu](https://usegalaxy.eu).
-
-You will receive an email to confirm your account before you can start using Galaxy.
 
 ## Certificates
 
