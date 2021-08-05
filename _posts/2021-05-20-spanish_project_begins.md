@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training, gtn-news]
-title: "¿Hablas español?: The first curated tutorial in Spanish!"
+title: "[GTN news] ¿Hablas español?: The first curated tutorial in Spanish!"
 supporters:
 - denbi
 - elixir

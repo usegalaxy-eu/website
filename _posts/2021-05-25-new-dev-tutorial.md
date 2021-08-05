@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training, gtn-news]
-title: "Contributing to BioBlend as a developer"
+title: "[GTN news] Contributing to BioBlend as a developer"
 supporters:
 - denbi
 - elixir

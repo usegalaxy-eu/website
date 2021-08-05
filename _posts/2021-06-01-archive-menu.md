@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training, gtn-news]
-title: "Oh no, it changed! Quick, to the archive menu."
+title: "[GTN news] Oh no, it changed! Quick, to the archive menu."
 supporters:
 - denbi
 - elixir

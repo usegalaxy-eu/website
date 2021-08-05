@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training, gtn-news]
-title: "New Tutorial: Visualization of RNA-Seq results with Volcano Plot in R"
+title: "[GTN news] New Tutorial: Visualization of RNA-Seq results with Volcano Plot in R"
 supporters:
 - denbi
 - elixir

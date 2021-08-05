@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training, gtn-news]
-title: "New Feature: Easy Abbreviation"
+title: "[GTN news] New Feature: Easy Abbreviation"
 supporters:
 - denbi
 - elixir
