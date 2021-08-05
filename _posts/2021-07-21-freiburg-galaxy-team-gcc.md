@@ -40,8 +40,6 @@ With Anton Nekrutenko; Sergei Pon; the [covid19.galaxyproject.org](http://covid1
 
 ![](https://github.com/OlegZharkov.png){: .profile-img } Oleg Zharkov
 
-With ![](https://github.com/bgruening.png){: .profile-img } Björn Grüning
-
 [Abstract](https://static.sched.com/hosted_files/gcc2021/c1/abstract93.pdf){:.fa .fa-external-link}, [Slides](https://doi.org/10.7490/f1000research.1118606.1){:.fa .fa-slideshare}
 </div>
 </div>
@@ -351,5 +349,3 @@ With ![](https://github.com/wm75.png){: .profile-img } Wolgang Maier
 
 </div>
 </div>
-
-Captions
