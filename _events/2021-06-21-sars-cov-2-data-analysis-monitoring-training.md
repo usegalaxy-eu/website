@@ -108,7 +108,7 @@ The usegalaxy.eu SARS-CoV-2 bot in action | Wolfgang Maier | [](https://www.yout
 Topic | Speaker | Material | Description | Duration
 --- | --- | --- | ---
 | All experts | [](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing){:.fa .fa-info-circle target="_blank"} Info & Zoom link | **Real-Time Q&A session (9 am CEST)**  | 1h
-Accelerating Research Through Data Sharing | Carla Cummins | [WIP](){:.fa .fa-video-camera target="_blank"} | __Lecture:__ *Accelerating Research Through Data Sharing*{: .small} | 10m
+Accelerating Research Through Data Sharing | Carla Cummins | [WIP](){:.fa .fa-video-camera target="_blank"} | __Lecture:__ *Accelerating Research Through Data Sharing*{: .small} | 30m
 Upload data to ENA | Miguel Roncoroni | [](https://www.youtube.com/watch?v=POiQG-7O7rw){:.fa .fa-video-camera target="_blank"} | __Demo:__ *Learn how to submit your sequencing data to the ENA directly from Galaxy.*{: .small } | 14m
 Upload data to a local datastore | Wolfgang Maier | [](https://www.youtube.com/watch?v=-5U0sINjoig){:.fa .fa-video-camera target="_blank"} | __Demo:__ *So you've used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.*{: .small } |
 Introduction to viral Beacon | Babita Singh | [](https://youtu.be/R_4yUMPk7eY ){:.fa .fa-video-camera target="_blank"} / [](https://drive.google.com/file/d/1yCHOi1EGKpkH-3XpKTKNKpFjwYAWKSVx/preview){:.fa .fa-slideshare target="_blank"} | __Demo:__ *How to visualize tens of thousands of SARS-CoV-2 analysis results? Learn about the Viral Beacon project's solution!*{: .small } | 24m
