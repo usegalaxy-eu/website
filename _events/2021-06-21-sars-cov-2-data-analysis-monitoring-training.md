@@ -58,7 +58,7 @@ This workshop is virtual and asynchronous. Training sessions are pre-recorded an
 
 Whenever you're ready to get started, you can access the material by clicking in the program on the different icons:
 - [](){:.fa .fa-slideshare} for **slide** deck for a lecture
-- [](){:.fa .fa-laptop} for **hands-on tutorial** (on the [Galaxy Training Material](training.galaxyproject.org/){:target="_blank"})
+- [](){:.fa .fa-laptop} for **hands-on tutorial** (on the [Galaxy Training Material](https://training.galaxyproject.org/){:target="_blank"})
 - [](){:.fa .fa-video-camera} for **video** (accompanying a lecture, a tutorial or a demo)
 - [](){:.fa .fa-list-ul} for **shared Galaxy history** (on the [European Galaxy server](https://usegalaxy.eu){:target="_blank"})
 
