@@ -23,10 +23,16 @@ supporters:
  - melbbioinfo
 ---
 
-The goal of this workshop is to build capacity in SARS-CoV-2 data analysis and data management, including data submission to ENA. After the workshop, all participants will be able to upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments.
+The goal of this workshop is to build capacity in SARS-CoV-2 data analysis and data management, including data submission to ENA. After the workshop,
+all participants will be able to upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments.
 
-It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance. During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions.
+It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance.
+During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions.
 <br>
+
+<div align="center" width="100%"><a href="https://covid19.galaxyproject.org/"><button type="button" class="btn btn-primary btn-lg">More Galaxy COVID projects!</button></a></div>
+
+<br><br>
 
 <div class="row">
 <div class="col-md-6" markdown="1">
@@ -92,8 +98,8 @@ Topic | Speaker | Material | Description | Duration
  | All experts | [](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing){:.fa .fa-info-circle target="_blank"} Info & Zoom link | **Real-Time Q&A session (9 am CEST)** | 1h
 Galaxy for SARS-CoV-2 genome surveillance projects | Wolfgang Maier | *WIP*{:.fa .fa-slideshare target="_blank"} / *WIP*{:.fa .fa-video-camera target="_blank"} Lecture | *Get an overview of what day 3 has to offer: production-ready Galaxy workflows for SARS-CoV-2 sequencing data, tools you should know to automate workflow execution, and how you combine all of it to turn Galaxy into a platform for genome-surveillance.*{: .small } |
 Variant calling, reporting, consensus building (with Galaxy GUI) | Wolfgang Maier | [](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / [](https://www.youtube.com/watch?v=vnFQ2fR_fzw){:.fa .fa-video-camera target="_blank"} Hands-on tutorial <br> *WIP*{:.fa .fa-list-ul target="_blank"} History | *Illumina or ONT, ampliconic or WGS data? Learn how to combine the right set of Galaxy workflows to analyze the type of SARS-CoV-2 sequencing data of your choice.*{: .small } | 
-Variant calling, reporting, consensus building (with Galaxy CLI) | Simon Bray | [](https://training.galaxyproject.org/training-material//topics/galaxy-interface/tutorials/workflow-automation/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / [](https://www.youtube.com/watch?v=o39QjVnLG68){:.fa .fa-video-camera target="_blank"} Hands-on tutorial | *Learn how to use the command line to upload your SARS-CoV-2 data to a Galaxy-server and launch workflows for its analysis. Note: This first step towards automation requires the command line tool Planemo for interacting with Galaxy if you want to follow along.*{: .small } |
-The usegalaxy.eu SARS-CoV-2 bot in action | Wolfgang Maier | *WIP*{:.fa .fa-video-camera target="_blank"} Demo | *See in this demo how, on usegalaxy.eu, we've used Planemo and Bioblend to build and operate an automated SARS-CoV-2 genome surveillance system based on the Galaxy workflows for variant calling, consensus building and reporting.*{: .small } |
+Variant calling, reporting, consensus building (with Galaxy CLI) | Simon Bray | [](https://training.galaxyproject.org/training-material//topics/galaxy-interface/tutorials/workflow-automation/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / [](https://www.youtube.com/watch?v=o39QjVnLG68){:.fa .fa-video-camera target="_blank"} Hands-on tutorial | *Learn how to use the command line to upload your SARS-CoV-2 data to a Galaxy-server and launch workflows for its analysis. Note: This first step towards automation requires the command line tool [Planemo](https://planemo.readthedocs.io/en/latest/) for interacting with Galaxy if you want to follow along.*{: .small } |
+The usegalaxy.eu SARS-CoV-2 bot in action | Wolfgang Maier | *WIP*{:.fa .fa-video-camera target="_blank"} Demo | *See in this demo how, on usegalaxy.*, we've used Planemo and Bioblend to build and operate an automated SARS-CoV-2 genome surveillance system based on the Galaxy workflows for variant calling, consensus building and reporting.*{: .small } |
  | All experts | [](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing){:.fa .fa-info-circle target="_blank"} Info & Zoom link | **Real-Time Q&A session (4 pm CEST)** | 1h
 {:.table.table-striped}
 
@@ -102,9 +108,9 @@ The usegalaxy.eu SARS-CoV-2 bot in action | Wolfgang Maier | *WIP*{:.fa .fa-vide
 Topic | Speaker | Material | Description | Duration
 --- | --- | --- | ---
 | All experts | [](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing){:.fa .fa-info-circle target="_blank"} Info & Zoom link | **Real-Time Q&A session (9 am CEST)**  | 1h
-Upload data to ENA | Miguel Roncoroni | [](https://www.youtube.com/watch?v=POiQG-7O7rw){:.fa .fa-video-camera target="_blank"} Demo | *Learn how to submit your sequencing data to the ENA directly from Galaxy.*{: .small } | 14m
+Upload data to ENA | Miguel Roncoroni | [Demo](https://www.youtube.com/watch?v=POiQG-7O7rw){:.fa .fa-video-camera target="_blank"} | *Learn how to submit your sequencing data to the ENA directly from Galaxy.*{: .small } | 14m
 Upload data to a local datastore | Wolfgang Maier | *WIP*{:.fa .fa-video-camera target="_blank"} Demo | *So you've used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.*{: .small } |
-Introduction to viral Beacon | Babita Singh | [](https://youtu.be/R_4yUMPk7eY ){:.fa .fa-video-camera target="_blank"} Demo | *How to visualize tens of thousands of SARS-CoV-2 analysis results? Learn about the Viral Beacon project's solution!*{: .small } | 24m
+Introduction to viral Beacon | Babita Singh | [Demo](https://youtu.be/R_4yUMPk7eY ){:.fa .fa-video-camera target="_blank"} / [Slides](https://drive.google.com/file/d/1yCHOi1EGKpkH-3XpKTKNKpFjwYAWKSVx/preview){:.fa .fa-slideshare target="_blank"} | *How to visualize tens of thousands of SARS-CoV-2 analysis results? Learn about the Viral Beacon project's solution!*{: .small } | 24m
 Using and Customising ObservableHQ | TBC | *WIP*{:.fa .fa-video-camera target="_blank"} Demo | *In this demo you will get to know the ObservableHQ platform for interactive data visualization. You will see how covid19.galaxyproject.org uses it to build a dashboard for their SARS-CoV-2 analysis efforts and will learn how to customize this solution to fit your own purposes.*{: .small } |
  | All experts | [](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing){:.fa .fa-info-circle target="_blank"} Info & Zoom link | **Real-Time Q&A session (4 pm CEST)** | 1h
 {:.table.table-striped}
@@ -118,7 +124,6 @@ SRA Aligned Read Formats to Speed Up SARS-CoV-2 data Analysis  | Jonathan Trow |
 Assembly: Unicycler assembly of SARS-CoV-2 genome | Cristóbal Gallardo | [](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} Lecture  | |
 Assembly: Unicycler assembly of SARS-CoV-2 genome | Cristóbal Gallardo | [](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / [](https://www.youtube.com/watch?v=jNFLYhjgJPs){:.fa .fa-video-camera target="_blank"} Hands-on tutorial | | 25m
 Pandemics Research using Mass Spectrometry | Timothy J. Griffin, Subina Mehta, Andrew Rajczewski, Pratik Jagtap | [](https://drive.google.com/file/d/1anBPmGRWEVp9pBLZ_JInWV7iWrBpyCDs/view?usp=sharing?utm_source=smorgasbord&utm_medium=website&utm_campaign=gcc2021){:.fa .fa-laptop target="_blank"} / [](https://www.youtube.com/watch?v=CI35gTmZoqM){:.fa .fa-video-camera target="_blank"} Demo | | 35m
-Running Workflows from the Command Line using Planemo | Simon Bray | [](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / [](https://www.youtube.com/watch?v=o39QjVnLG68){:.fa .fa-video-camera target="_blank"} Hands-on tutorial | *This is a more technical tutorial which will teach you how to run workflows from the command line and scale your analyses. If you are on Windows, you will need WSL/WSL2 setup before this session.*{: .small} | 30m
 Scripting Galaxy using the API and BioBlend | TBC | [](https://training.galaxyproject.org/training-material/topics/dev/tutorials/bioblend-api/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-slideshare target="_blank"} | |
 What you can do with SARS-COV-2 data: Case studies | Andrew Page | [](https://www.youtube.com/watch?v=R4EoTEiAQNE){:.fa .fa-video-camera target="_blank"} | | 37m
 {:.table.table-striped}
@@ -186,8 +191,13 @@ Everyone is expected to abide by the [Code of Conduct (CoC)](https://galaxyproje
 
 Name | Location
 --- | ---
-Björn Grüning | Germany
 Wolfgang Maier | Germany
+Bérénice Batut | Germany
+Beatriz Serrano-Solano | Germany
+Engy Nasr | Germany
+Simon Bray | Germany
+Florian Heyl | Germany
+Björn Grüning | Germany
 Anton Nekrutenko | USA
 Andrew Page | UK
 Peter van Heusden | South Africa
