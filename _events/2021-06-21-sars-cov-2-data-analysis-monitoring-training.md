@@ -30,7 +30,14 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions.
 <br>
 
-<div align="center" width="100%"><a href="https://covid19.galaxyproject.org/"><button type="button" class="btn btn-primary btn-lg">More Galaxy COVID projects!</button></a></div>
+<div align="center" width="100%">
+    <a href="https://covid19.galaxyproject.org/">
+        <button type="button" class="btn btn-primary btn-lg">More Galaxy COVID projects!</button>
+    </a><br><br>
+    <a href="https://www.youtube.com/watch?v=jOlTfKUUZS4">
+        <button type="button" class="btn btn-primary btn-lg">Galaxy introduction video for the Arabic speaking community</button>
+    </a>
+</div>
 
 <br><br>
 
@@ -83,7 +90,7 @@ Topic | Speaker | Material | Description | Duration
 --- | --- | --- | --- | ---
  | All experts | [](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing){:.fa .fa-info-circle target="_blank"} Info & Zoom link | **Real-Time Q&A session (9 am CEST)** | 1h
 Quality control of reads | Florian Heyl | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-slideshare target="_blank"} / [](https://youtu.be/BWonTPS4zB8){:.fa .fa-video-camera target="_blank"} | __Lecture:__ *This lecture goes over the concepts involved in assessing the quality of your sequencing data.*{: .small} | 40m | 
-Quality control of reads | Florian Heyl | [](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / [](https://youtu.be/QJRlX2hWDKM){:.fa .fa-video-camera target="_blank"} <br> *WIP*{:.fa .fa-list-ul target="_blank"} | __Hands-on:__ *In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data.*{: .small} | 1h 10m
+Quality control of reads | Florian Heyl | [](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / [](https://youtu.be/QJRlX2hWDKM){:.fa .fa-video-camera target="_blank"} | __Hands-on:__ *In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data.*{: .small} | 1h 10m
 Mapping of reads | Peter van Heusden | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-slideshare target="_blank"} / [](https://youtu.be/7FhHb8EV3EU){:.fa .fa-video-camera target="_blank"} | __Lecture:__ *This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.*{: .small} | 10m
 Mapping of reads | Peter van Heusden | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / [](https://youtu.be/1wm-62E2NkY){:.fa .fa-video-camera target="_blank"} <br> [](https://usegalaxy.eu/u/pvanheus/h/mapping-tutorial){:.fa .fa-list-ul target="_blank"} | __Hands-on:__ *In this tutorial you will map sequencing data to a reference genome, and explore the mapped reads in a genome browser.*{: .small} |20m
 Using dataset collections | Anton Nekrutenko | [](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / [](https://youtu.be/uZUt9XIHUQo){:.fa .fa-video-camera target="_blank"} <br> [](https://usegalaxy.eu/u/bgruening/h/using-dataset-collections---tutorial){:.fa .fa-list-ul target="_blank"} | __Hands-on:__ *How to manipulate large numbers of datasets at once? This will be needed to process 100 of SARS-CoV-2 samples in one go.*{: .small} | 30m
