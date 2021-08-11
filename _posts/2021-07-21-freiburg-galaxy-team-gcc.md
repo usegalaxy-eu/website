@@ -4,7 +4,7 @@ title: 'Freiburg Galaxy Team at the Galaxy Community Conference 2021'
 tags: [GCC]
 ---
 
-The Freiburg Galaxy Team participated to the [Galaxy Community Conference 2021](https://gcc2021.sched.com/) with:
+The Freiburg Galaxy Team participated in the [Galaxy Community Conference 2021](https://gcc2021.sched.com/) with:
 
 - [Talks](#talks)
 - [Posters/Demos](#posters--demos)
@@ -21,11 +21,11 @@ The Freiburg Galaxy Team participated to the [Galaxy Community Conference 2021](
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/qzNjh9_CL0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <div class="col-md-6" markdown="1">
-### [**Galaxy as a global platform for the analysis of SARS CoV 2 sequence variants**](https://gcc2021.sched.com/event/jm5Y/galaxy-as-a-global-platform-for-the-analysis-of-sars-cov-2-sequence-variants) 
+### [**Galaxy as a global platform for the analysis of SARS-CoV-2 sequence variants**](https://gcc2021.sched.com/event/jm5Y/galaxy-as-a-global-platform-for-the-analysis-of-sars-cov-2-sequence-variants) 
 
-![](https://github.com/wm75.png){: .profile-img } Wolgang Maier
+![](https://github.com/wm75.png){: .profile-img } Wolfgang Maier
 
-With Anton Nekrutenko; Sergei Pon; the [covid19.galaxyproject.org](http://covid19.galaxyproject.org/); [covid19.datamonkey.org](http://covid19.datamonkey.org/) and Viral Beacon 
+With Anton Nekrutenko; Sergei Pond; the [covid19.galaxyproject.org](http://covid19.galaxyproject.org/); [covid19.datamonkey.org](http://covid19.datamonkey.org/) and Viral Beacon 
 
 [Abstract](https://static.sched.com/hosted_files/gcc2021/ed/abstract58.pdf){:.fa .fa-external-link}
 </div>
@@ -136,11 +136,11 @@ With Lorraine Coelho; ![](https://github.com/bgruening.png){: .profile-img } Bj√
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/qzNjh9_CL0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <div class="col-md-6" markdown="1">
-### [**Galaxy as a global platform for the analysis of SARS CoV 2 sequence variants**](https://gcc2021.sched.com/event/jm5Y/galaxy-as-a-global-platform-for-the-analysis-of-sars-cov-2-sequence-variants) 
+### [**Galaxy as a global platform for the analysis of SARS-CoV-2 sequence variants**](https://gcc2021.sched.com/event/jm5Y/galaxy-as-a-global-platform-for-the-analysis-of-sars-cov-2-sequence-variants) 
 
-![](https://github.com/wm75.png){: .profile-img } Wolgang Maier
+![](https://github.com/wm75.png){: .profile-img } Wolfgang Maier
 
-With Anton Nekrutenko; Sergei Pon; the [covid19.galaxyproject.org](http://covid19.galaxyproject.org/); [covid19.datamonkey.org](http://covid19.datamonkey.org/) and Viral Beacon 
+With Anton Nekrutenko; Sergei Pond; the [covid19.galaxyproject.org](http://covid19.galaxyproject.org/); [covid19.datamonkey.org](http://covid19.datamonkey.org/) and Viral Beacon 
 
 [Abstract](https://static.sched.com/hosted_files/gcc2021/ed/abstract58.pdf){:.fa .fa-external-link}
 </div>
@@ -174,9 +174,9 @@ Discussions on using Galaxy for training / teaching and the Galaxy Training Netw
 
 ## CoFest
 
-GCC ends by two days gathering community members who are interested in contributing to Galaxy's code base, available tool set, documentation, training materials, and anywhere else that expands the Galaxy ecosystem.
+GCC ends with two days gathering community members who are interested in contributing to Galaxy's code base, available tool set, documentation, training materials, and anywhere else that expands the Galaxy ecosystem.
 
-The Freiburg Galaxy team participated with several projects
+The Freiburg Galaxy team participated in several projects
 
 - Microbial & Microbiome tool integration and update
 - Community Directory
@@ -198,7 +198,7 @@ The Freiburg Galaxy team supported the [GCC2021 Training Week](https://galaxypro
 
 ![](https://github.com/simonbray.png){: .profile-img } Simon Bray
 
-With ![](https://github.com/wm75.png){: .profile-img } Wolgang Maier
+With ![](https://github.com/wm75.png){: .profile-img } Wolfgang Maier
 
 **Material** 
 - [](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html){:.fa .fa-laptop target="_blank"} Tutorial
