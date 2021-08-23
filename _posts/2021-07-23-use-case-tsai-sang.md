@@ -14,3 +14,4 @@ I have been using Galaxy to perform DNA mutation detection, bulk-RNA sequencing,
 In addition, the Galaxy team is very supportive and always inform the users regarding any server updates and potential slow-down of the server, which helped me plan my experiments.
 I highly recommend the Galaxy platform to those who are interested in programming but do not yet have much experience. For those who can program, Galaxy can also provide opportunities to explore different tools/topics you are not aware of as well as speed up your project.
 
+Thank you Tsai-sang for using Galaxy and sharing your experience with us!
