@@ -8,3 +8,5 @@ organiser: DataPLANT project
 location: Kaiserslautern
 supporters: dataplant
 ---
+
+![hackathon-arc](/assets/media/2021-08-26-hackathon-arc.png)
