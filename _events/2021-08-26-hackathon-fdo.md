@@ -7,5 +7,4 @@ ends: 2021-09-08
 organiser: DataPLANT project
 location: Kaiserslautern
 supporters: dataplant
-external: https://nfdi4plants.de/news
 ---
