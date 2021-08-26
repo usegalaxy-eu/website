@@ -1,5 +1,5 @@
 ---
-site: [freiburg]
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 starts: 2021-04-30
 ends: 2021-04-30
 tags:
