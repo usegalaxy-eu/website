@@ -20,11 +20,16 @@ supporters:
  - melbbioinfo
 ---
 
-The Galaxy community has recently organised a workshop on [__SARS-CoV-2 Data Analysis and Monitoring with Galaxy__](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/). The goal was to build capacity, both in the analysis and data management sides of SARS-CoV-2, based on the acquired expertise since the beginning of the pandemic. On a broader scope, sharing the experience in SARS-CoV-2 data analysis, and fostering the principles of __open data, open science and open infrastructure__ are key aspects in the current public health global situation.
+The Galaxy community has recently organised a workshop on [__SARS-CoV-2 Data Analysis and Monitoring with Galaxy__](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/). 
+The goal was to build capacity, both in the analysis and data management sides of SARS-CoV-2, based on the acquired expertise since the beginning
+of the pandemic. On a broader scope, sharing the experience in SARS-CoV-2 data analysis, and fostering the principles of __open data, open science and open infrastructure__ are key aspects in the current public health global situation.
 
-For 4 days, experts from Africa, Europe, the USA and Australia covered topics from a general introduction to Galaxy --for those not familiar with the platform-- to more specific ones like data upload, quality control, analysis of public datasets (variant calling, consensus building, reporting), visualisation and data export to public and open archives. Many other additional training materials were provided as well for those eager to learn more.
+For 4 days, experts from Africa, Europe, the USA and Australia covered topics from a general introduction to
+Galaxy --for those not familiar with the platform-- to more specific ones like data upload, quality control,
+analysis of public datasets (variant calling, consensus building, reporting), visualisation and data export
+to public and open archives. Many other additional training materials were provided as well for those eager to learn more.
 
-![sars-cov-2-workshop](/assets/media/2021-06-21-sars-cov-2-data-analysis-monitoring-training.png)
+[![sars-cov-2-workshop](/assets/media/2021-06-21-sars-cov-2-data-analysis-monitoring-training.png)](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/)
 
 
 # Format
