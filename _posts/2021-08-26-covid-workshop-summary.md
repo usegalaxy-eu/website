@@ -25,11 +25,7 @@ The Galaxy community has recently organised a workshop on [__SARS-CoV-2 Data Ana
 The goal was to build capacity, both in the analysis and data management sides of SARS-CoV-2, based on the acquired expertise since the beginning
 of the pandemic. On a broader scope, sharing the experience in SARS-CoV-2 data analysis, and fostering the principles of __open data, open science and open infrastructure__ are key aspects in the current public health global situation.
 
-In 4 days, 25 sessions (Demo, Hands-on, Lecture), 7h pre-recoded videos, 6h live QA sessions, and with experts from Africa, Europe,
-the USA and Australia topics from a general introduction to
-Galaxy --for those not familiar with the platform-- to more specific ones like data upload, quality control,
-analysis of public datasets (variant calling, consensus building, reporting), visualisation and data export
-to public and open archives have been covered. Many other additional training materials were provided as well for those eager to learn more.
+For 4 days, experts from Africa, Europe, the USA and Australia covered topics from a general introduction to Galaxy --for those not familiar with the platform-- to more specific ones like data upload, quality control, analysis of public datasets (variant calling, consensus building, reporting), visualisation and data export to public and open archives. Many other additional training materials were provided as well for those eager to learn more. In total, 25 sessions were delivered in 7 hours of pre-recoded videos (including lectures, demos and hands-on) and 6 hours of live Q&A sessions. 
 
 [![sars-cov-2-workshop](/assets/media/2021-06-21-sars-cov-2-data-analysis-monitoring-training.png)](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/)
 
