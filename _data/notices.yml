@@ -61,15 +61,15 @@
 #            
 #            Sorry for the inconvenience.
 
-- title: Limited computing capacity on next September 17th, 2021
-  class: info # one of [success, info, warning, danger]
-  site: freiburg # Your site
-  messages:
-      - message: |
-            On September 17th, our cluster capacity will be temporarily reduced to allow some maintenance operations. 
-            It could be jobs wait times might be higher than normal. Please take it into account in your job schedule.
-            
-            Sorry for the inconvenience.
+#- title: Limited computing capacity on next September 17th, 2021
+#  class: info # one of [success, info, warning, danger]
+#  site: freiburg # Your site
+#  messages:
+#      - message: |
+#            On September 17th, our cluster capacity will be temporarily reduced to allow some maintenance operations. 
+#            It could be jobs wait times might be higher than normal. Please take it into account in your job schedule.
+#            
+#            Sorry for the inconvenience.
 
 #- title: Enough talking - time to act!
 #  class: danger # one of [success, info, warning, danger]
