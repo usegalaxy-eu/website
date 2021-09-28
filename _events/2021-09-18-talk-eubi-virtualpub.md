@@ -5,6 +5,7 @@ tags:
 title: "How Galaxy Imaging makes cloud-based image analysis possible"
 starts: 2021-10-22
 ends: 2021-10-22
+organiser: Euro-BioImaging
 external: https://www.eurobioimaging.eu/about-us/virtual-pub
 ---
 
