@@ -20,7 +20,7 @@ layout: subsite-galaxy
 {:toc}
 
 
-# Join the microGalaxy Community
+# Join the μGalaxy Community
 
 Anybody interested in microbiology in Galaxy is welcome to join our microGalaxy interest group! <strong>Everybody is Welcome!</strong>
 
@@ -38,7 +38,7 @@ Analysis | Sequencing | GTN Tutorial | Workflow | Notes
 --- | --- | --- | --- | --- | ---
 Taxonomic Profiling |16S, short reads  | [View Tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html)             | [View Workflow](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/workflows/) | mothur SOP
 Taxonomic Profiling | 16S, long reads |  [View Tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html) |  [View Workflow](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/nanopore-16S-metagenomics/workflows/) | Nanopore
-Taxonomic Profiling, Functional Analysis | shotgun, short reads | | [View Workflows](https://asaim.readthedocs.io/en/latest/workflows.html) | ASaiM {% cite batut2018asaim %}
+Taxonomic Profiling, Functional Analysis | Shotgun, short reads | | [View Workflows](https://asaim.readthedocs.io/en/latest/workflows.html) | ASaiM {% cite batut2018asaim %}
 AMR detection | Shotgun, plasmids, long reads | [View Tutorial]()  |
 Functional Analysis | Transcriptomics | [View Tutorial]() | [View Workflow]() | ASaiM-MT {% cite mehta_asaim-mt_2021 %}
 {:.table.table-striped}
@@ -82,9 +82,9 @@ More than **200 tools** are avalaible for microbiome data analysis in this custo
 
 # Resources
 
-Resource | Description | Website
+Resource | Description | Links
 --- | --- | ---
-![](https://www.jpiamr.eu/app/uploads/2021/09/JPIAMR-logo-no-tagline.png){:width="100px"} | JPIAMR: Global Coordination of Antimicrobial Resistance Research | [link](https://www.jpiamr.eu/)
+![](https://www.jpiamr.eu/app/uploads/2021/09/JPIAMR-logo-no-tagline.png){:width="100px"} | JPIAMR: Global Coordination of Antimicrobial Resistance Research | [Website](https://www.jpiamr.eu/)
 {:.table.table-striped}
 
 # Acknowledgements
