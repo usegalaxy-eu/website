@@ -16,9 +16,16 @@
    inkscape:export-filename="/home/saskia/microgalaxy.png"
    inkscape:export-xdpi="95.800003"
    inkscape:export-ydpi="95.800003"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="microgalaxy-logo.svg">
   <defs
      id="defs2">
+    <rect
+       x="5.2916667"
+       y="23.8125"
+       width="111.125"
+       height="108.47917"
+       id="rect2087" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient1868">
@@ -122,11 +129,11 @@
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1">
+     inkscape:window-width="948"
+     inkscape:window-height="1000"
+     inkscape:window-x="964"
+     inkscape:window-y="35"
+     inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
        id="grid1330" />
@@ -139,7 +146,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -267,7 +274,7 @@
        inkscape:export-ydpi="95.800003" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:19.7556px;line-height:0.85;font-family:sans-serif;fill:#58585a;fill-opacity:1;stroke:none;stroke-width:0.248375"
+       style="font-style:normal;font-weight:normal;font-size:14.1111px;line-height:0.85;font-family:sans-serif;fill:#58585a;fill-opacity:1;stroke:none;stroke-width:0.248375"
        x="16.221508"
        y="119.26303"
        id="text1874"
@@ -278,6 +285,12 @@
          id="tspan1872"
          x="16.221508"
          y="119.26303"
-         style="font-weight:bold;font-size:19.7556px;fill:#58585a;fill-opacity:1;stroke-width:0.248375">μGalaxy</tspan></text>
+         style="font-weight:bold;font-size:14.1111px;fill:#58585a;fill-opacity:1;stroke-width:0.248375">microGalaxy</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text2085"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333px;white-space:pre;shape-inside:url(#rect2087);"
+       inkscape:export-xdpi="95.800003"
+       inkscape:export-ydpi="95.800003" />
   </g>
 </svg>
