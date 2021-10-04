@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
-- training
+- talk
 title: "How Galaxy Imaging makes cloud-based image analysis possible"
 starts: 2021-10-22
 ends: 2021-10-22
