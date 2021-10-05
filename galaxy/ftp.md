@@ -10,7 +10,7 @@ permalink: /ftp/
 
 Server                   | Port | Properties
 -----------------------  | ---- | ----
-`ftp.usegalaxy.eu` | 21   | Insecure connections only, no support for tls.
+`ftp.usegalaxy.eu` | 21   | Secure connections only (TLS).
 {:.table.table-striped}
 
 ## Upload multiple files via curl
