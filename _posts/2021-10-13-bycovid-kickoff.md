@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'BY-COVID: A new EU project for pandemic preparedness'
-tags: [covid]
+tags: [COVID-19]
 supporters:
 - bycovid
 ---
