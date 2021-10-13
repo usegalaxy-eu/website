@@ -11,4 +11,4 @@ Der 5. NRZ-Authent Expertinnen- und Expertenworkshop widmet sich den Projekten i
 verschiedenen Forschungseinrichtungen sowie dem Schwerpunktthema Datenbanken. Das Galaxy Team wird eine Präsentation 
 über den integrativen Omics-Aspekt von Galaxy geben, mit speziellem Fokus auf Metabolomics, Proteomics und Genomics.
 
-Die Teilnahme ist kostenfrei. Anmeldung (bis 12.11.2021); Rückfragen per E-Mail an NRZ@mri.bund.de.
+Die Teilnahme ist kostenfrei und Anmeldung ist bis 12.11.2021 offen.
