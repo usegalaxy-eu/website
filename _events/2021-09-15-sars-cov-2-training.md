@@ -51,7 +51,7 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
 # Program & Material
 
 
-This workshop is has both live and virtual/asynchronous components. Training sessions are pre-recorded with most materials provided in advance in the program below.
+This workshop has both live and virtual/asynchronous components. Training sessions are pre-recorded with most materials provided in advance in the program below.
 
 Whenever you're ready to get started, you can access training material by clicking in the program on the different icons:
 - [](){:.fa .fa-slideshare} for **slide** deck for a lecture
