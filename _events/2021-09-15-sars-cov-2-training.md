@@ -14,7 +14,7 @@ supporters:
  - galaxy-us
 ---
 
-The goal of this workshop is to enable groups doing SARS-CoV-2 sequencing using amplicon methods (like ARTICv3, ARTICv4, NEBNext VarSkip, Midnight, ...) to quickly learn how to use pre-built workflows to generate consensus sequences. After the workshop, participants will be able to upload viral sequencing data from Illumina and ONT sequencers, call variants, create consensus sequences appropriate for submission to public databases, and produce quality and lineage reports.
+The goal of this workshop is to enable groups doing SARS-CoV-2 sequencing using amplicon methods (like ARTICv3, ARTICv4, NEBNext VarSkip, Midnight, ...) to learn how to use pre-built workflows to quickly generate consensus sequences. After the workshop, participants will be able to upload viral sequencing data from Illumina and ONT sequencers, call variants, create consensus sequences appropriate for submission to public databases, and produce quality and lineage reports.
 
 It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. People who are new to Galaxy can use existing Galaxy training materials to prepare ahead of the workshop. During the workshop, there will be live support in chat and live Q&A sessions, in which experts from NEB and the Galaxy community will answer questions.
 
@@ -40,6 +40,9 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
 - **INFRASTRUCTURE**: [European Galaxy server](https://usegalaxy.eu){:target="_blank"} and the [Galaxy Training Material](https://training.galaxyproject.org){:target="_blank"}. Both will stay accessible and open after the training.
 - [**Contact us**](mailto:contact@usegalaxy.eu) if you have questions.
 </div>
+</div>
+<div class="col-md-6" markdown="1">
+![sars-cov-2-workshop](/assets/media/2021-10-20-sars-cov-2-data-analysis-training.png)
 </div>
 
 <br>
