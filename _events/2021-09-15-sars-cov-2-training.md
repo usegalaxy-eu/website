@@ -47,7 +47,7 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
 
 <br>
 
-[**Registration still not open**](){:.btn .btn-primary style="color: white; width: 100%; background-color: #3a3566;"}
+[**Registration is now open**](https://docs.google.com/forms/d/e/1FAIpQLScRcalYlC85-zQCOB1Vqc2lXGpZX7XqPdq-C-n5AVVwDyp5iQ/viewform?usp=sf_link){:.btn .btn-primary style="color: white; width: 100%; background-color: #3a3566;"}
 
 <br>
 
