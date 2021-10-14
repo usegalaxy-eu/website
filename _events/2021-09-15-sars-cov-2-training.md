@@ -16,7 +16,7 @@ supporters:
 
 The goal of this workshop is to enable groups doing SARS-CoV-2 sequencing using amplicon methods (like ARTICv3, ARTICv4, NEBNext VarSkip, Midnight, ...) to quickly learn how to use pre-built workflows to gnerate consensus sequences. After the workshop, participants will be able to upload viral sequencing data from illumina an d ONT sequencers, call variants, create consensus sequences appropriate for submission to public databases, and produce quality and lineage reports.
 
-It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. People who are new to galaxy can use existing galaxy training materials to prepare ahead of the workshop. During the workshop, there will be live support in chat and live Q&A sessions, in which experts from NEB and the Galaxy community will answer questions.
+It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. People who are new to Galaxy can use existing Galaxy training materials to prepare ahead of the workshop. During the workshop, there will be live support in chat and live Q&A sessions, in which experts from NEB and the Galaxy community will answer questions.
 
 <br>
 
