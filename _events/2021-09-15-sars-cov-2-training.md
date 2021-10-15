@@ -4,8 +4,8 @@ tags:
 - training
 - COVID-19
 title: "SARS-CoV-2 Data Analysis and Monitoring with Galaxy"
-starts: 2021-10-20
-ends: 2021-10-20
+starts: 2021-11-03
+ends: 2021-11-03
 organiser:
 location: online
 supporters: 
@@ -30,7 +30,7 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
 
 <div class="row">
 <div class="col-md-6" markdown="1">
-- **WHEN**: October 20, 2021
+- **WHEN**: November 3, 2021
 - **WHO**: Open for everybody, but the target audience is **clinicians** and **researchers** that deal with SARS-CoV-2 sequencing data.
 - **COST**: Free.
 - **FORMAT**: Virtual and asynchronous. All training **sessions will be pre-recorded and provided in advance**.
@@ -42,7 +42,7 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
 </div>
 </div>
 <div class="col-md-6" markdown="1">
-![sars-cov-2-workshop](/assets/media/2021-10-20-sars-cov-2-data-analysis-training.png)
+![sars-cov-2-workshop](/assets/media/2021-11-03-sars-cov-2-data-analysis-training.png)
 </div>
 
 <br>
