@@ -30,6 +30,7 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
 
 <div class="row">
 <div class="col-md-6" markdown="1">
+<br>
 - **WHEN**: December 1, 2021
 - **WHO**: Open for everybody, but the target audience is **clinicians** and **researchers** that deal with SARS-CoV-2 sequencing data.
 - **COST**: Free.
@@ -40,9 +41,9 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
 - **INFRASTRUCTURE**: [European Galaxy server](https://usegalaxy.eu){:target="_blank"} and the [Galaxy Training Material](https://training.galaxyproject.org){:target="_blank"}. Both will stay accessible and open after the training.
 - [**Contact us**](mailto:contact@usegalaxy.eu) if you have questions.
 </div>
+<div class="col-md-5" markdown="1">
+![sars-cov-2-workshop](/assets/media/2021-12-01-sars-cov-2-data-analysis-training.png)
 </div>
-<div class="col-md-6" markdown="1">
-![sars-cov-2-workshop](/assets/media/2021-11-03-sars-cov-2-data-analysis-training.png)
 </div>
 
 <br>
