@@ -4,8 +4,8 @@ tags:
 - training
 - COVID-19
 title: "SARS-CoV-2 Data Analysis and Monitoring with Galaxy"
-starts: 2021-11-03
-ends: 2021-11-03
+starts: 2021-12-01
+ends: 2021-12-01
 organiser:
 location: online
 supporters: 
@@ -30,7 +30,7 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
 
 <div class="row">
 <div class="col-md-6" markdown="1">
-- **WHEN**: November 3, 2021
+- **WHEN**: December 1, 2021
 - **WHO**: Open for everybody, but the target audience is **clinicians** and **researchers** that deal with SARS-CoV-2 sequencing data.
 - **COST**: Free.
 - **FORMAT**: Virtual and asynchronous. All training **sessions will be pre-recorded and provided in advance**.
@@ -79,7 +79,7 @@ Using dataset collections | Anton Nekrutenko | [](https://training.galaxyproject
 Data cleaning workflow | Wolfgang Maier | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html){:.fa .fa-laptop target="_blank"} <br> [](https://usegalaxy.eu/u/wolfgang-maier/h/removal-of-human-reads-from-sars-cov-2-sequencing-data){:.fa .fa-list-ul target="_blank"} | __Hands-on:__ *As a first exercise in actual SARS-CoV-2 data analysis with Galaxy, this tutorial will let you perform the steps necessary to remove contaminating human reads from sequencing data of SARS-CoV-2 isolates.*{: .small } | 1h
 {:.table.table-striped}
 
-## Workshop Day (2021-10-20) - SARS-CoV-2 Data Analysis on Public Datasets
+## Workshop Day (2021-12-01) - SARS-CoV-2 Data Analysis on Public Datasets
 
 Topic | Speaker | Material | Description | Duration
 --- | --- | --- | ---
