@@ -14,6 +14,8 @@ supporters:
  - galaxy-us
 ---
 
+<br>
+
 The goal of this workshop is to enable groups doing SARS-CoV-2 sequencing using amplicon methods (like ARTICv3, ARTICv4, NEBNext VarSkip, Midnight, ...) to learn how to use pre-built workflows to quickly generate consensus sequences. After the workshop, participants will be able to upload viral sequencing data from Illumina and ONT sequencers, call variants, create consensus sequences appropriate for submission to public databases, and produce quality and lineage reports.
 
 It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. People who are new to Galaxy can use existing Galaxy training materials to prepare ahead of the workshop. During the workshop, there will be live support in chat and live Q&A sessions, in which experts from NEB and the Galaxy community will answer questions.
@@ -29,8 +31,8 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
 <br><br>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
-<br>
+<div class="col-md-7" markdown="1">
+<br><br><br><br>
 - **WHEN**: December 1, 2021
 - **WHO**: Open for everybody, but the target audience is **clinicians** and **researchers** that deal with SARS-CoV-2 sequencing data.
 - **COST**: Free.
@@ -39,7 +41,7 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
     - **Live support in chat** (Slack Channel), in which experts will answer questions on a peer-to-peer basis.
     - **Real-Time Q&A sessions**.
 - **INFRASTRUCTURE**: [European Galaxy server](https://usegalaxy.eu){:target="_blank"} and the [Galaxy Training Material](https://training.galaxyproject.org){:target="_blank"}. Both will stay accessible and open after the training.
-- [**Contact us**](mailto:contact@usegalaxy.eu) if you have questions.
+- **CONTACT**: [**Get in touch**](mailto:contact@usegalaxy.eu) if you have questions.
 </div>
 <div class="col-md-5" markdown="1">
 ![sars-cov-2-workshop](/assets/media/2021-12-01-sars-cov-2-data-analysis-training.png)
@@ -48,23 +50,22 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
 
 <br>
 
-[**Registration is now open**](https://docs.google.com/forms/d/e/1FAIpQLScRcalYlC85-zQCOB1Vqc2lXGpZX7XqPdq-C-n5AVVwDyp5iQ/viewform?usp=sf_link){:.btn .btn-primary style="color: white; width: 100%; background-color: #3a3566;"}
+[**Registration is now open**](https://docs.google.com/forms/d/e/1FAIpQLScRcalYlC85-zQCOB1Vqc2lXGpZX7XqPdq-C-n5AVVwDyp5iQ/viewform?usp=sf_link){:.btn .btn-primary style="color: white; border-color: #5da996; width: 100%; background-color: #5da996;"}
 
 <br>
 
 # Program & Material
 
-
 This workshop has both live and virtual/asynchronous components. Training sessions are pre-recorded with most materials provided in advance in the program below.
 
 Whenever you're ready to get started, you can access training material by clicking in the program on the different icons:
-- [](){:.fa .fa-slideshare} for **slide** deck for a lecture
+- [](){:.fa .fa-slideshare} for **slide deck** for a lecture
 - [](){:.fa .fa-laptop} for **hands-on tutorial** (on the [Galaxy Training Material](https://training.galaxyproject.org/){:target="_blank"})
 - [](){:.fa .fa-video-camera} for **video** (accompanying a lecture, a tutorial or a demo)
 - [](){:.fa .fa-list-ul} for **shared Galaxy history** (on the [European Galaxy server](https://usegalaxy.eu){:target="_blank"})
 
 
-## Ahead of the workshop / Prerequisites - Introduction to Galaxy
+## Ahead of the workshop - Introduction to Galaxy
 
 Topic | Speaker | Material | Description | Duration
 --- | --- | --- | --- | ---
