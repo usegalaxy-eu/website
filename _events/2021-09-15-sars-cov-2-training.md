@@ -11,8 +11,9 @@ location: online
 supporters: 
  - denbi
  - galaxy-europe
- - galaxy-us
 ---
+
+<br>
 
 The goal of this workshop is to enable groups doing SARS-CoV-2 sequencing using amplicon methods (like ARTICv3, ARTICv4, NEBNext VarSkip, Midnight, ...) to learn how to use pre-built workflows to quickly generate consensus sequences. After the workshop, participants will be able to upload viral sequencing data from Illumina and ONT sequencers, call variants, create consensus sequences appropriate for submission to public databases, and produce quality and lineage reports.
 
@@ -29,7 +30,8 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
 <br><br>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-7" markdown="1">
+<br><br><br><br>
 - **WHEN**: December 1, 2021
 - **WHO**: Open for everybody, but the target audience is **clinicians** and **researchers** that deal with SARS-CoV-2 sequencing data.
 - **COST**: Free.
@@ -38,39 +40,37 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
     - **Live support in chat** (Slack Channel), in which experts will answer questions on a peer-to-peer basis.
     - **Real-Time Q&A sessions**.
 - **INFRASTRUCTURE**: [European Galaxy server](https://usegalaxy.eu){:target="_blank"} and the [Galaxy Training Material](https://training.galaxyproject.org){:target="_blank"}. Both will stay accessible and open after the training.
-- [**Contact us**](mailto:contact@usegalaxy.eu) if you have questions.
+- **CONTACT**: [**Get in touch**](mailto:contact@usegalaxy.eu) if you have questions.
 </div>
+<div class="col-md-5" markdown="1">
+![sars-cov-2-workshop](/assets/media/2021-12-01-sars-cov-2-data-analysis-training.png)
 </div>
-<div class="col-md-6" markdown="1">
-![sars-cov-2-workshop](/assets/media/2021-11-03-sars-cov-2-data-analysis-training.png)
 </div>
 
 <br>
 
-[**Registration is now open**](https://docs.google.com/forms/d/e/1FAIpQLScRcalYlC85-zQCOB1Vqc2lXGpZX7XqPdq-C-n5AVVwDyp5iQ/viewform?usp=sf_link){:.btn .btn-primary style="color: white; width: 100%; background-color: #3a3566;"}
+[**Registration is now open**](https://docs.google.com/forms/d/e/1FAIpQLScRcalYlC85-zQCOB1Vqc2lXGpZX7XqPdq-C-n5AVVwDyp5iQ/viewform?usp=sf_link){:.btn .btn-primary style="color: white; border-color: #5da996; width: 100%; background-color: #5da996;"}
 
 <br>
 
 # Program & Material
 
-
 This workshop has both live and virtual/asynchronous components. Training sessions are pre-recorded with most materials provided in advance in the program below.
 
 Whenever you're ready to get started, you can access training material by clicking in the program on the different icons:
-- [](){:.fa .fa-slideshare} for **slide** deck for a lecture
+- [](){:.fa .fa-slideshare} for **slide deck** for a lecture
 - [](){:.fa .fa-laptop} for **hands-on tutorial** (on the [Galaxy Training Material](https://training.galaxyproject.org/){:target="_blank"})
 - [](){:.fa .fa-video-camera} for **video** (accompanying a lecture, a tutorial or a demo)
 - [](){:.fa .fa-list-ul} for **shared Galaxy history** (on the [European Galaxy server](https://usegalaxy.eu){:target="_blank"})
 
 
-## Ahead of the workshop / Prerequisites - Introduction to Galaxy
+## Ahead of the workshop - Introduction to Galaxy
 
 Topic | Speaker | Material | Description | Duration
 --- | --- | --- | --- | ---
 A very short introduction to Galaxy | Anton Nekrutenko | [](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-slideshare target="_blank"} / [](https://youtu.be/VZoz3k5EehI){:.fa .fa-video-camera target="_blank"} | __Lecture:__ *This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.*{: .small} | 10m
 Galaxy 101 | Anton Nekrutenko |  [](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html){:.fa .fa-laptop target="_blank"} / [](https://youtu.be/D5HgJWdfOWw){:.fa .fa-video-camera target="_blank"} <br> [](https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101){:.fa .fa-list-ul target="_blank"} |  __Hands-on:__ *This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days.*{: .small} | 1h / 13m
 NGS data logistics | Anton Nekrutenko | [](https://training.galaxyproject.org/training-material//topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html){:.fa .fa-laptop target="_blank"} / [](https://youtu.be/9mIL0tIfZ_o){:.fa .fa-video-camera target="_blank"} <br> [](https://usegalaxy.eu/u/wolfgang-maier/h/ngs-data-logistics){:.fa .fa-list-ul target="_blank"} |  __Hands-on:__ *Learn how to manipulate and process NGS data data derived from patients infected with SARS-CoV-2. Get familiar with quality control, mapping and NGS filetypes.*{: .small} | 1h 30m / 12m
-{:.table.table-striped}
 Quality control of reads | Florian Heyl | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-slideshare target="_blank"} / [](https://youtu.be/BWonTPS4zB8){:.fa .fa-video-camera target="_blank"} | __Lecture:__ *This lecture goes over the concepts involved in assessing the quality of your sequencing data.*{: .small} | 38m |
 Quality control of reads | Florian Heyl | [](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / [](https://youtu.be/QJRlX2hWDKM){:.fa .fa-video-camera target="_blank"} | __Hands-on:__ *In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data.*{: .small} | 1h 30m / 1h 10m
 Mapping of reads | Peter van Heusden | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-slideshare target="_blank"} / [](https://youtu.be/7FhHb8EV3EU){:.fa .fa-video-camera target="_blank"} | __Lecture:__ *This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.*{: .small} | 10m
@@ -135,13 +135,13 @@ Most of the material is available already, and they will all stay **available af
 
 Whenever you're ready to get started, you can access the material by clicking on the different icons in the program!
 
-## Doing the tutorials - Technical requirements
+## Following the tutorials - Technical requirements
 
 Some of you have asked about the technical requirements. You don't need a specific operating system or software installed, all you need is a browser and internet connection.
 
 To run the tutorials, you will need a **Galaxy account**. We recommend you to:
 
-- Register and use [European Galaxy server](https://usegalaxy.eu){:target="_blank"}
+- Register and use [European Galaxy server](https://usegalaxy.eu){:target="_blank"}.
 
     You will receive an email to confirm your account before you can start using Galaxy.
 - Join the [training event group](https://usegalaxy.eu/join-training/sars_cov2_2021/), it will make your jobs go faster!
@@ -153,10 +153,10 @@ Should you have any questions, the instructors will be available in chat. We wil
 Once you are in, you will see different channels (#general #random, #social), pass by and say hi to your colleagues! 
 
 When asking a question:
-- Ask in the appropriate channel
+- Ask in the appropriate channel.
 - Use threads.
 - Say which server you're using.
-- Share all of the details (What did the tool say? What was the error? Did you see more information in the bug-report icon?)
+- Share all of the details (What did the tool say? What was the error? Did you see more information in the bug-report icon?).
 
 During the workshop, the instructors will be there to reply to your questions. 
 
