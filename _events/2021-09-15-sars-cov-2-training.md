@@ -11,7 +11,6 @@ location: online
 supporters: 
  - denbi
  - galaxy-europe
- - galaxy-us
 ---
 
 <br>
@@ -72,7 +71,6 @@ Topic | Speaker | Material | Description | Duration
 A very short introduction to Galaxy | Anton Nekrutenko | [](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-slideshare target="_blank"} / [](https://youtu.be/VZoz3k5EehI){:.fa .fa-video-camera target="_blank"} | __Lecture:__ *This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.*{: .small} | 10m
 Galaxy 101 | Anton Nekrutenko |  [](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html){:.fa .fa-laptop target="_blank"} / [](https://youtu.be/D5HgJWdfOWw){:.fa .fa-video-camera target="_blank"} <br> [](https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101){:.fa .fa-list-ul target="_blank"} |  __Hands-on:__ *This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days.*{: .small} | 1h / 13m
 NGS data logistics | Anton Nekrutenko | [](https://training.galaxyproject.org/training-material//topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html){:.fa .fa-laptop target="_blank"} / [](https://youtu.be/9mIL0tIfZ_o){:.fa .fa-video-camera target="_blank"} <br> [](https://usegalaxy.eu/u/wolfgang-maier/h/ngs-data-logistics){:.fa .fa-list-ul target="_blank"} |  __Hands-on:__ *Learn how to manipulate and process NGS data data derived from patients infected with SARS-CoV-2. Get familiar with quality control, mapping and NGS filetypes.*{: .small} | 1h 30m / 12m
-{:.table.table-striped}
 Quality control of reads | Florian Heyl | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-slideshare target="_blank"} / [](https://youtu.be/BWonTPS4zB8){:.fa .fa-video-camera target="_blank"} | __Lecture:__ *This lecture goes over the concepts involved in assessing the quality of your sequencing data.*{: .small} | 38m |
 Quality control of reads | Florian Heyl | [](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / [](https://youtu.be/QJRlX2hWDKM){:.fa .fa-video-camera target="_blank"} | __Hands-on:__ *In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data.*{: .small} | 1h 30m / 1h 10m
 Mapping of reads | Peter van Heusden | [](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-slideshare target="_blank"} / [](https://youtu.be/7FhHb8EV3EU){:.fa .fa-video-camera target="_blank"} | __Lecture:__ *This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.*{: .small} | 10m
@@ -137,13 +135,13 @@ Most of the material is available already, and they will all stay **available af
 
 Whenever you're ready to get started, you can access the material by clicking on the different icons in the program!
 
-## Doing the tutorials - Technical requirements
+## Following the tutorials - Technical requirements
 
 Some of you have asked about the technical requirements. You don't need a specific operating system or software installed, all you need is a browser and internet connection.
 
 To run the tutorials, you will need a **Galaxy account**. We recommend you to:
 
-- Register and use [European Galaxy server](https://usegalaxy.eu){:target="_blank"}
+- Register and use [European Galaxy server](https://usegalaxy.eu){:target="_blank"}.
 
     You will receive an email to confirm your account before you can start using Galaxy.
 - Join the [training event group](https://usegalaxy.eu/join-training/sars_cov2_2021/), it will make your jobs go faster!
@@ -155,10 +153,10 @@ Should you have any questions, the instructors will be available in chat. We wil
 Once you are in, you will see different channels (#general #random, #social), pass by and say hi to your colleagues! 
 
 When asking a question:
-- Ask in the appropriate channel
+- Ask in the appropriate channel.
 - Use threads.
 - Say which server you're using.
-- Share all of the details (What did the tool say? What was the error? Did you see more information in the bug-report icon?)
+- Share all of the details (What did the tool say? What was the error? Did you see more information in the bug-report icon?).
 
 During the workshop, the instructors will be there to reply to your questions. 
 
