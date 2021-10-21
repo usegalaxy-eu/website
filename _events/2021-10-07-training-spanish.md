@@ -6,7 +6,7 @@ tags:
 title: "Spanscriptomics: Análisis de células únicas con Galaxy"
 starts: 2021-11-29
 ends: 2021-11-30
-external: 
+external: https://gallantries.github.io/galaxy-workshop/events/spanscriptomics/
 ---
 
 Curso de análisis de células únicas con Galaxy en español. 
