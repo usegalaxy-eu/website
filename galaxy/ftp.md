@@ -1,6 +1,6 @@
 ---
 layout: default-galaxy
-title: FTP Configuration
+title: FTP service instructions
 permalink: /ftp/
 ---
 
@@ -13,15 +13,44 @@ Server                   | Port | Properties
 `ftp.usegalaxy.eu` | 21   | Secure connections only (TLS).
 {:.table.table-striped}
 
+## Credentials
+
+Use the same email address and password that you are using to log in to [usegalaxy.eu](https://usegalaxy.eu)
+
+## Service policies
+
+Any user data uploaded to our FTP server should be imported into Galaxy as soon as possible. Data left in FTP folders for more than 3 months, will be deleted. 
+
+# Howto
+
+## Upload multiple files using a desktop application
+
+This is intended for regular users who want to access the service through a desktop client.
+
+We suggest installing and trying a simple application like [Filezilla](https://filezilla-project.org/download.php?type=client), available for Windows, MacOs and Linux operating systems.
+
+All default settings should work fine. At the top:
+* type in the `ftp.usegalaxy.eu` URL 
+* type in your email + password (same as used to log into Galaxy at that server)  
+* click on the button for “quick connect” 
+* review and accept the certificate pop-ups 
+
+Then it is as simple as navigating to the files on your computer on the left side and dragging them over to the server on the right side. The transfer status will be reported in the bottom tabs.
+
+__Don’t quit out__ of the application or let your computer __sleep__ until the full data transfer is completed. Should a connection drop or a file partially transfer occur:
+* click on quick-connect again
+* review and accept server certificate pop-ups, if requested
+* then click on “resume transfer”
+
+
 ## Upload multiple files via curl
+
+This is intended for expert users who want to access the service through a command line.
 
 `curl -T {"file1,file2"} --user user@name.de --ssl ftp://ftp.usegalaxy.eu`
 
 The comma-separated list of files needs to be quoted and must not contain spaces: `{"file1,file2"}`
 
-## Credentials
-
-Use the same email address and password that you use to log in to [usegalaxy.eu](https://usegalaxy.eu)
 
 ## More Information
 
