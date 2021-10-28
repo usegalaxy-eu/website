@@ -42,7 +42,6 @@ __Don’t quit out__ of the application or let your computer __sleep__ until the
 * review and accept server certificate pop-ups, if requested
 * then click on “resume transfer”
 
-
 ## Upload multiple files via curl
 
 This is intended for expert users who want to access the service through a command line.
@@ -51,7 +50,9 @@ This is intended for expert users who want to access the service through a comma
 
 The comma-separated list of files needs to be quoted and must not contain spaces: `{"file1,file2"}`
 
+## Troubleshooting
 
+If you are experiencing a __"Connection timed out after 20 seconds of inactivity"__, try the suggestions shown on this [page](https://help.galaxyproject.org/t/error-while-connecting-to-usegalaxy-eu-server/6815)
 ## More Information
 
 For more information on using FTP with Galaxy, please see the [official
