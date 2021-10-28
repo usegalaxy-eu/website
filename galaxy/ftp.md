@@ -15,7 +15,7 @@ Server                   | Port | Properties
 
 ## Credentials
 
-Use the same email address and password that you are using to log in to [usegalaxy.eu](https://usegalaxy.eu)
+Use __the same email address and password__ that you are using to log in to __[usegalaxy.eu](https://usegalaxy.eu)__
 
 ## Service policies
 
