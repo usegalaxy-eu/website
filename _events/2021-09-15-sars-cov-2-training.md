@@ -64,7 +64,7 @@ Whenever you're ready to get started, you can access training material by clicki
 - [](){:.fa .fa-list-ul} for **shared Galaxy history** (on the [European Galaxy server](https://usegalaxy.eu){:target="_blank"})
 
 
-## Ahead of the workshop - Introduction to Galaxy
+## Ahead of the Workshop - Introduction to Galaxy
 
 Topic | Speaker | Material | Description | Duration
 --- | --- | --- | --- | ---
@@ -83,13 +83,13 @@ Data cleaning workflow | Wolfgang Maier | [](https://training.galaxyproject.org/
 
 Topic | Speaker | Material | Description | Duration
 --- | --- | --- | ---
- | All experts | [](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing){:.fa .fa-info-circle target="_blank"} Info & Zoom link | **Real-Time Q&A session (9 am CEST)** | 1h
+Q & A | All experts | [](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing){:.fa .fa-info-circle target="_blank"} Info & Zoom link | **Real-Time Q&A session (9 am CET)** | 1h
 Galaxy for SARS-CoV-2 genome surveillance projects | Wolfgang Maier | [](https://docs.google.com/presentation/d/17m2ztR1VBqKE470EyAhJqoiXgnX5fgX4pW1Nstxhklk/edit?usp=sharing){:.fa .fa-slideshare target="_blank"} / [](https://www.youtube.com/watch?v=luxFraFJTc4){:.fa .fa-video-camera target="_blank"} | __Lecture:__ *Get an overview of the workshop: production-ready Galaxy workflows for SARS-CoV-2 sequencing data, tools you should know to automate workflow execution, and how you combine all of it to turn Galaxy into a platform for genome-surveillance.*{: .small } | 14m
 Variant calling, reporting, consensus building (with Galaxy GUI) | Wolfgang Maier | [](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021){:.fa .fa-laptop target="_blank"} / [](https://www.youtube.com/watch?v=vnFQ2fR_fzw){:.fa .fa-video-camera target="_blank"} <br> [Part I](https://usegalaxy.eu/u/wolfgang-maier/h/sars-cov-2-variant-analysis-demo---part-1){:.fa .fa-list-ul target="_blank"} / [Complete](https://usegalaxy.eu/u/wolfgang-maier/h/sars-cov-2-variant-analysis-demo---complete){:.fa .fa-list-ul target="_blank"} | __Hands-on:__ *Illumina or ONT, ampliconic or WGS data? Learn how to combine the right set of Galaxy workflows to analyze the type of SARS-CoV-2 sequencing data of your choice.*{: .small } | 3h / 1h 30m
- | All experts | [](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing){:.fa .fa-info-circle target="_blank"} Info & Zoom link | **Real-Time Q&A session (4 pm CEST)** | 1h
+Q & A | All experts | [](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing){:.fa .fa-info-circle target="_blank"} Info & Zoom link | **Real-Time Q&A session (4 pm CET)** | 1h
 {:.table.table-striped}
 
-## After the workshop - Scale up, Automation and Database submission
+## After the Workshop - Scale up, Automation and Database Submission
 
 Topic | Speaker | Material | Description | Duration
 --- | --- | --- | ---
@@ -100,7 +100,6 @@ Upload data to ENA | Miguel Roncoroni | [](https://training.galaxyproject.org/tr
 Upload data to a local datastore | Wolfgang Maier | [](https://www.youtube.com/watch?v=-5U0sINjoig){:.fa .fa-video-camera target="_blank"} | __Demo:__ *So you've used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.*{: .small } | 10m
 Introduction to viral Beacon | Babita Singh | [](https://youtu.be/R_4yUMPk7eY ){:.fa .fa-video-camera target="_blank"} / [](https://drive.google.com/file/d/1yCHOi1EGKpkH-3XpKTKNKpFjwYAWKSVx/preview){:.fa .fa-slideshare target="_blank"} | __Demo:__ *How to visualize tens of thousands of SARS-CoV-2 analysis results? Learn about the Viral Beacon project's solution!*{: .small } | 24m
 Using and Customising ObservableHQ | Sergei Pond | [](https://www.youtube.com/watch?v=oeqPestqdAw){:.fa .fa-video-camera target="_blank"} | __Demo:__ *In this demo you will get to know the ObservableHQ platform for interactive data visualization. You will see how covid19.galaxyproject.org uses it to build a dashboard for their SARS-CoV-2 analysis efforts and will learn how to customize this solution to fit your own purposes.*{: .small } | 15m
- | All experts | [](https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing){:.fa .fa-info-circle target="_blank"} Info & Zoom link | **Real-Time Q&A session (4 pm CEST)** | 1h
 {:.table.table-striped}
 
 ## Optional extra training
