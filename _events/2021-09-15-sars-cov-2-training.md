@@ -11,6 +11,10 @@ location: online
 supporters: 
  - denbi
  - galaxy-europe
+ - gallantries
+ - erasmus+
+ - eosc
+ - converge
 ---
 
 <br>
