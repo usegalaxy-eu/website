@@ -15,6 +15,7 @@ supporters:
  - erasmus+
  - eosc
  - converge
+ - bycovid
 ---
 
 <br>
