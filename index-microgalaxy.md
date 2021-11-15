@@ -80,6 +80,19 @@ More than **200 tools** are avalaible for microbiome data analysis in this custo
     - **Visualization**: Export2graphlan, GraPhlAn, KRONA
     - **Metaproteomics**: MaxQuant, SearchGUI, PeptideShaker, Unipept
 
+
+# Projects
+
+Below is a list of projects that members of this community are involved in (feel free to add your own!)
+
+Project | Description | Links
+--- | --- | ---
+![](https://irida.ca/assets/images/IRIDA-logo-news.png){:width="100px"}    | IRIDA: The Integrated Rapid Infectious Disease Analysis | [Website](https://irida.ca/)
+![](https://www.chalmers.se/SiteCollectionImages/Institutioner/MV/Nyheter/Seq4AMRLogo200x.png){:width="100px"} | Seq4AMR: Fighting antibiotic resistance with new diagnostics | [Website](https://www.jpiamr.eu/projects/seq4amr/)
+{:.table.table-striped}
+
+If you would like to know more about any of these projects or get involved, please contact us know on the [microGalaxy Gitter channel](https://gitter.im/galaxyproject/microGalaxy).
+
 # Resources
 
 Resource | Description | Links
@@ -87,10 +100,10 @@ Resource | Description | Links
 ![](https://www.jpiamr.eu/app/uploads/2021/09/JPIAMR-logo-no-tagline.png){:width="100px"} | JPIAMR: Global Coordination of Antimicrobial Resistance Research | [Website](https://www.jpiamr.eu/)
 {:.table.table-striped}
 
+<!--
 # Acknowledgements
-
-
 
 # References
 
 {% bibliography --cited --prefix index-metagenomics --group_by none %}
+-->
