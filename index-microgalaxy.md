@@ -88,7 +88,7 @@ Below is a list of projects that members of this community are involved in (feel
 Project | Description | Links
 --- | --- | ---
 ![](https://irida.ca/assets/images/IRIDA-logo-news.png){:width="100px"}    | IRIDA: The Integrated Rapid Infectious Disease Analysis | [Website](https://irida.ca/)
-![](https://www.chalmers.se/SiteCollectionImages/Institutioner/MV/Nyheter/Seq4AMRLogo200x.png){:width="100px"} | Seq4AMR: Fighting antibiotic resistance with new diagnostics | [Website](https://www.jpiamr.eu/projects/seq4amr/)
+![](https://www.chalmers.se/SiteCollectionImages/Institutioner/MV/Nyheter/Seq4AMRLogo200x.png){:width="100px"} | Seq4AMR: JPIAMR Network for Integrating Microbial Sequencing and Platforms for Antimicrobial Resistance | [Website](https://www.jpiamr.eu/projects/seq4amr/)
 {:.table.table-striped}
 
 If you would like to know more about any of these projects or get involved, please contact us on the [microGalaxy Gitter channel](https://gitter.im/galaxyproject/microGalaxy).
