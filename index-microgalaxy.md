@@ -91,7 +91,7 @@ Project | Description | Links
 ![](https://www.chalmers.se/SiteCollectionImages/Institutioner/MV/Nyheter/Seq4AMRLogo200x.png){:width="100px"} | Seq4AMR: Fighting antibiotic resistance with new diagnostics | [Website](https://www.jpiamr.eu/projects/seq4amr/)
 {:.table.table-striped}
 
-If you would like to know more about any of these projects or get involved, please contact us know on the [microGalaxy Gitter channel](https://gitter.im/galaxyproject/microGalaxy).
+If you would like to know more about any of these projects or get involved, please contact us on the [microGalaxy Gitter channel](https://gitter.im/galaxyproject/microGalaxy).
 
 # Resources
 
