@@ -7,7 +7,7 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #
 
-- title: [UPDATE] 24 hours downtime starting from November 24th, 2021 at 17:45 pm CET
+- title: -- UPDATE -- 24 hours downtime starting from November 24th, 2021 at 17:45 pm CET
   class: warning # one of [success, info, warning, danger]
   site: freiburg # Your site
   messages:
