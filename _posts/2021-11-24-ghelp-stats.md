@@ -6,13 +6,12 @@ supporters:
 - galaxy-europe
 ---
 
-As part of the Galaxy Community, you probably have visited the [Galaxy Help Forum](https://help.galaxyproject.org/). This website is, together with the different Gitter channels, one of the primary meeting places where Galaxy users turn to in search of aswers. Since November 2018, when it was put into service, more than 3.000 users have been registrated, and around 9.3000 posts have been written. Currently, the average number of daily visits is around 800 (fig. 1), having reached its peak in May 2021, with 2.800 visits in a single day.
+As part of the Galaxy Community, you probably have visited the [Galaxy Help Forum](https://help.galaxyproject.org/). This website, together with the different Gitter channels, is one of the primary meeting places where Galaxy users turn to in search of aswers. Since November 2018, when it was put into service, more than 3.000 users have been registrated, and around 9.3000 posts have been written. Currently, the average number of daily visits is around 800 (fig. 1), having reached its peak in May 2021, with 2.800 visits in a single day.
 
 ![Visits last months](/assets/media/ghelp_stats/visits_two_months.png)
     
 *Figure 1. Daily number of visits in the period between October and November 2021.*
 
-    
 The analysis of the records since 2019 shows that the average number of visits per year has risen from 464 to 822 visits in 2021 (fig. 2). A remarkable aspect of the trend in the increase in visits is the sharp spike that occurred in April 2020, coinciding with the origin of the pandemic (fig. 3). During this period, the average number of visits increased from around 600 to more than 800 visits per month. One of the factors that undoubtedly determined this increase was the growing interest of researchers in bioinformatics tools linked to COVID-19 research.
 
 ![Visits boxplot](/assets/media/ghelp_stats/visits_box.png)
