@@ -1,12 +1,14 @@
 ---
-site: [ghelp, galaxy, statistics]
+site: [freiburg,elixir-it]
 title: 'An overview on the Galaxy Help Forum'
-tags: [GOATS]
+tags: [galaxy,data,society,report]
 supporters:
 - galaxy-europe
 ---
 
-As part of the Galaxy Community, you probably have visited the [Galaxy Help Forum](https://help.galaxyproject.org/). This website, together with the different Gitter channels, is one of the primary meeting places where Galaxy users turn to in search of aswers. Since November 2018, when it was put into service, more than 3.000 users have been registrated, and around 9.3000 posts have been written. Currently, the average number of daily visits is around 800 (fig. 1), having reached its peak in May 2021, with 2.800 visits in a single day.
+As part of the Galaxy Community, you probably have visited the [Galaxy Help Forum](https://help.galaxyproject.org/) (GHF). This website, together with the different Gitter channels, is one of the primary meeting places where Galaxy users turn to in search of aswers. From the Galaxy Help supporting group, we thank you for the trust you place in us every day.
+
+Since November 2018, when it was put into service, more than 3.000 users have been registrated, and around 9.3000 posts have been written. Currently, the average number of daily visits is around 800 (fig. 1), having reached its peak in May 2021, with 2.800 visits in a single day.
 
 ![Visits last months](/assets/media/ghelp_stats/visits_two_months.png)
     
@@ -30,6 +32,6 @@ Regarding the number of posts, the average number of new publications per month 
     
 *Figure 4. Description of the number of posts from 2019 to 2021.*
 
-From the Galaxy Help supporting group, we thank you for the trust you place in us every day, and we encourage you to continue contributing with your knowledge and support in the Galaxy Help Forum.
+To conclude this post, we would like to encourage all members of the community to participate in the Galaxy Help Forum. It is unquestionable that Science is a collective enterprise; the complexity of nature makes it unmanageable for a single man or generation, since the diversity of knowledge transcends any defined limit. 
 
 > The mutual-aid tendency in man has so remote an origin, and is so deeply interwoven with all the past evolution of the human race, that is has been maintained by mankind up to the present time, notwithstanding all vicissitudes of history. ― Peter Kropotkin
