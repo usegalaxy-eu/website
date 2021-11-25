@@ -8,7 +8,7 @@ supporters:
 
 As part of the Galaxy Community, you have probably visited the [Galaxy Help Forum](https://help.galaxyproject.org/) (GHelp). This website, together with the different Gitter channels, is one of the primary meeting places where Galaxy users turn to searching for answers. From the GHelp supporting group, we thank you for the trust you place in us every day.
 
-Since November 2018, when it was put into service, more than 3.000 users have been registrated, and around 9.3000 posts have been written. Currently, the average number of daily visits is around 800 (fig. 1), having reached its peak in May 2021, with 2.800 visits in a single day.
+Since November 2018, when it was put into service, more than 3.000 users have been registrated, and around 9.300 posts have been written. Currently, the average number of daily visits is around 800 (fig. 1), having reached its peak in May 2021, with 2.800 visits in a single day.
 
 ![Visits last months](/assets/media/ghelp_stats/visits_two_months.png)
     
@@ -26,12 +26,12 @@ Since then, the monthly number of visits has been around 800 users, peaking in M
     
 *Figure 3. Total number of visits from 2019 to 2021.*
 
-Regarding the number of posts, the average number of new publications per month since 2019 is above 200, peaking in May 2019, when 370 new entries were published (fig. 4). In the year 2021, from January 1th to November 23th, 2895 new entries have been published.
+Regarding the number of posts, the average number of new publications per month since 2019 is above 200, peaking in May 2019, when 370 new entries were published (fig. 4). In the year 2021, from January 1th to November 23th, 2.895 new entries have been published.
     
 ![Posts boxplot](/assets/media/ghelp_stats/posts_box.png)
     
 *Figure 4. Description of the number of posts from 2019 to 2021.*
 
-To conclude this post, we would like to encourage all members of the Galaxy Community to participate in [GHelp](https://help.galaxyproject.org/). It is unquestionable that Science is a collective enterprise; the complexity of nature makes it unmanageable for a single man or generation, since the diversity of knowledge transcends any defined limit. 
+To conclude this post, we would like to encourage all members of the Galaxy Community to participate in [GHelp](https://help.galaxyproject.org/). It is unquestionable that Science is a collective enterprise; the complexity of Nature makes it unmanageable for a single man or generation, since the diversity of Knowledge transcends any defined limit. 
 
 > The mutual-aid tendency in man has so remote an origin, and is so deeply interwoven with all the past evolution of the human race, that is has been maintained by mankind up to the present time, notwithstanding all vicissitudes of history. ― Peter Kropotkin
