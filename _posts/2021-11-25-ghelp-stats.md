@@ -1,7 +1,7 @@
 ---
 site: [freiburg,elixir-it]
 title: 'An overview on the Galaxy Help Forum'
-tags: [galaxy,support,data,society,report]
+tags: [galaxy, support, society, report]
 supporters:
 - galaxy-europe
 ---
