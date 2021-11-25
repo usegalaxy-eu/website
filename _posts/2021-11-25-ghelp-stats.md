@@ -6,7 +6,7 @@ supporters:
 - galaxy-europe
 ---
 
-As part of the Galaxy Community, you probably have visited the [Galaxy Help Forum](https://help.galaxyproject.org/) (GHelp). This website, together with the different Gitter channels, is one of the primary meeting places where Galaxy users turn to in search of aswers. From the GHelp supporting group, we thank you for the trust you place in us every day.
+As part of the Galaxy Community, you have probably visited the [Galaxy Help Forum](https://help.galaxyproject.org/) (GHelp). This website, together with the different Gitter channels, is one of the primary meeting places where Galaxy users turn to searching for answers. From the GHelp supporting group, we thank you for the trust you place in us every day.
 
 Since November 2018, when it was put into service, more than 3.000 users have been registrated, and around 9.3000 posts have been written. Currently, the average number of daily visits is around 800 (fig. 1), having reached its peak in May 2021, with 2.800 visits in a single day.
 
