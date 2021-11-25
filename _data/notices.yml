@@ -7,17 +7,17 @@
 #           Here you can write some message for your users, [markdown](#asdf) is permitted.
 #
 
-- title: -- UPDATE -- 24 hours downtime starting from November 24th, 2021 at 17:45 pm CET
-  class: warning # one of [success, info, warning, danger]
-  site: freiburg # Your site
-  messages:
-      - message: |
-           On November 24th, 2021 at 17:45 pm CET and for the next 24 hours, we have scheduled a maintenance task on the Usegalaxy.eu infrastructure. 
-            All services will be shut down and running jobs at that time terminated.
-            
-            During this time we will be upgrading Galaxy to the latest version (21.09), migrating/upgrading the DB server and performing other maintenance.
-            
-            Please take it into account in your job schedule. 
+#- title: -- UPDATE -- 24 hours downtime starting from November 24th, 2021 at 17:45 pm CET
+#  class: warning # one of [success, info, warning, danger]
+#  site: freiburg # Your site
+#  messages:
+#      - message: |
+#           On November 24th, 2021 at 17:45 pm CET and for the next 24 hours, we have scheduled a maintenance task on the Usegalaxy.eu infrastructure. 
+#            All services will be shut down and running jobs at that time terminated.
+#            
+#            During this time we will be upgrading Galaxy to the latest version (21.09), migrating/upgrading the DB server and performing other maintenance.
+#            
+#            Please take it into account in your job schedule. 
 
 
 #- title: Short downtime on the 16.03.2021
