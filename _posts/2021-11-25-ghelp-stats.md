@@ -6,7 +6,7 @@ supporters:
 - galaxy-europe
 ---
 
-As part of the Galaxy Community, you probably have visited the [Galaxy Help Forum](https://help.galaxyproject.org/) (GHF). This website, together with the different Gitter channels, is one of the primary meeting places where Galaxy users turn to in search of aswers. From the Galaxy Help supporting group, we thank you for the trust you place in us every day.
+As part of the Galaxy Community, you probably have visited the [Galaxy Help Forum](https://help.galaxyproject.org/) (GHelp). This website, together with the different Gitter channels, is one of the primary meeting places where Galaxy users turn to in search of aswers. From the GHelp supporting group, we thank you for the trust you place in us every day.
 
 Since November 2018, when it was put into service, more than 3.000 users have been registrated, and around 9.3000 posts have been written. Currently, the average number of daily visits is around 800 (fig. 1), having reached its peak in May 2021, with 2.800 visits in a single day.
 
@@ -32,6 +32,6 @@ Regarding the number of posts, the average number of new publications per month 
     
 *Figure 4. Description of the number of posts from 2019 to 2021.*
 
-To conclude this post, we would like to encourage all members of the Galaxy Community to participate in the [Galaxy Help Forum](https://help.galaxyproject.org/). It is unquestionable that Science is a collective enterprise; the complexity of nature makes it unmanageable for a single man or generation, since the diversity of knowledge transcends any defined limit. 
+To conclude this post, we would like to encourage all members of the Galaxy Community to participate in the [GHelp Forum](https://help.galaxyproject.org/). It is unquestionable that Science is a collective enterprise; the complexity of nature makes it unmanageable for a single man or generation, since the diversity of knowledge transcends any defined limit. 
 
 > The mutual-aid tendency in man has so remote an origin, and is so deeply interwoven with all the past evolution of the human race, that is has been maintained by mankind up to the present time, notwithstanding all vicissitudes of history. ― Peter Kropotkin
