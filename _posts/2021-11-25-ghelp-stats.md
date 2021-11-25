@@ -1,5 +1,5 @@
 ---
-site: [freiburg,elixir-it]
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'An overview on the Galaxy Help Forum'
 tags: [galaxy, support, society, report]
 supporters:
