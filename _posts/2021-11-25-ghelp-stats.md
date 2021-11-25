@@ -1,7 +1,7 @@
 ---
 site: [freiburg,elixir-it]
 title: 'An overview on the Galaxy Help Forum'
-tags: [galaxy,data,society,report]
+tags: [galaxy,support,data,society,report]
 supporters:
 - galaxy-europe
 ---
@@ -32,6 +32,6 @@ Regarding the number of posts, the average number of new publications per month 
     
 *Figure 4. Description of the number of posts from 2019 to 2021.*
 
-To conclude this post, we would like to encourage all members of the community to participate in the Galaxy Help Forum. It is unquestionable that Science is a collective enterprise; the complexity of nature makes it unmanageable for a single man or generation, since the diversity of knowledge transcends any defined limit. 
+To conclude this post, we would like to encourage all members of the Galaxy Community to participate in the Galaxy Help Forum. It is unquestionable that Science is a collective enterprise; the complexity of nature makes it unmanageable for a single man or generation, since the diversity of knowledge transcends any defined limit. 
 
 > The mutual-aid tendency in man has so remote an origin, and is so deeply interwoven with all the past evolution of the human race, that is has been maintained by mankind up to the present time, notwithstanding all vicissitudes of history. ― Peter Kropotkin
