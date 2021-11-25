@@ -20,7 +20,7 @@ The analysis of the records since 2019 shows that the average number of visits p
     
 *Figure 2. Description of the number of visits from 2019 to 2021.*
     
-Since then, the monthly number of visits has been around 800 users, peaking in May 2020. With respect to the total number of visits, between the period from January 1st to November 23st, the values recorded in 2019, 2020 and 2021 were 152.002, 264.426 and 268.793 respectively.
+Since then, the monthly number of visits has been around 800 users, peaking in May 2020. With respect to the total number of visits, between the period from January 1st to November 23st, the values recorded in 2019, 2020 and 2021 were 152,002, 264,426 and 268,793 respectively.
 
 ![Visits median](/assets/media/ghelp_stats/visits_median.png)
     
