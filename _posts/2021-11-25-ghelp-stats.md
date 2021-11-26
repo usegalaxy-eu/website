@@ -32,6 +32,6 @@ Regarding the number of posts, the average number of new publications per month 
     
 *Figure 4. Description of the number of posts from 2019 to 2021.*
 
-To conclude this post, we would like to encourage all members of the Galaxy Community to participate in [GHelp](https://help.galaxyproject.org/). It is unquestionable that Science is a collective enterprise; the complexity of Nature makes it unmanageable for a single person or generation, since the diversity of Knowledge transcends any defined limit. 
+To conclude this post, we would like to encourage all members of the Galaxy Community to participate in [GHelp](https://help.galaxyproject.org/).
 
 > The mutual-aid tendency in man has so remote an origin, and is so deeply interwoven with all the past evolution of the human race, that is has been maintained by mankind up to the present time, notwithstanding all vicissitudes of history. ― Peter Kropotkin
