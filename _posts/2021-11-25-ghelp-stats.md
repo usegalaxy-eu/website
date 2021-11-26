@@ -26,7 +26,7 @@ Since then, the monthly number of visits has been around 800 users, peaking in M
     
 *Figure 3. Total number of visits from 2019 to 2021.*
 
-Regarding the number of posts, the average number of new publications per month since 2019 is above 200, peaking in May 2019, when 370 new entries were published (fig. 4). In the year 2021, from January 1th to November 23th, 2.895 new entries have been published.
+Regarding the number of posts, the average number of new publications per month since 2019 is above 200, peaking in May 2019, when 370 new entries were published (fig. 4). In 2021, from January 1st to November 23rd, 2,895 new entries have been published.
     
 ![Posts boxplot](/assets/media/ghelp_stats/posts_box.png)
     
