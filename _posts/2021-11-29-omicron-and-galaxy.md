@@ -10,7 +10,7 @@ supporters:
 The newly reported SARS-CoV-2 lineage B.1.1.529 made the headlines last week.
 On Friday then, the [WHO declared the lineage a variant of concern (VOC)](https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529)-sars-cov-2-variant-of-concern) asking countries to, among other things, *enhance surveillance and sequencing efforts to better understand circulating SARS-CoV-2 variants*.
 
-Since several months, the Galaxy Project has kept running a free, public genome surveillance program based on raw sequencing data deposited in the public databases of the [ENA](https://www.ebi.ac.uk/ena/browser/) and the [SRA](https://www.ncbi.nlm.nih.gov/sra).
+For several months, the Galaxy Project has kept running a free, public genome surveillance program based on raw sequencing data deposited in the public databases of the [ENA](https://www.ebi.ac.uk/ena/browser/) and the [SRA](https://www.ncbi.nlm.nih.gov/sra).
 Among the countries we have been collaborating with to ensure high-quality analysis of their national SARS-CoV-2 genome sequencing efforts has been South Africa, which we included recently in our public dashboard at https://covid19.galaxyproject.org/dashboard.
 With the first reports of B.1.1.529 appearing last week, we ran our analysis workflows on one of their latest batches of data, and can offer now a first view of the Omicron lineage's mutational pattern derived transparently and fully reproducibly from raw sequencing reads.
 
