@@ -23,7 +23,7 @@ For the impatient, here's the summary plot of the variant spectrum of the batch 
 
 ![Omicron seen through Galaxy](/assets/media/2021-11-29-omicron-variant-plot.png)
 
-The reported, unprecedentedly high number of mutations in the spike protein (delineated by the narrow violet bar at the top of the plot) of the VOC can clearly be seen (and the full analysis confirms all key mutations that have been publically reported).
+The reported, unprecedentedly high number of mutations in the spike protein (delineated by the narrow violet bar at the top of the plot) of the VOC can be identified clearly. The full analysis confirms all key mutations that have been publically reported.
 
 A huge thank you goes to the [KwaZulu-Natal Research Innovation and Sequencing Platform](https://www.krisp.org.za/) (KRISP) for submitting raw sequencing data of South African samples in an extremely timely manner under NCBI Bioproject [PRJNA636748](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA636748/). It is open sharing of data of this kind that enables scientific insight (even if the information gathered is as unpleasant as a new VOC)!
 
