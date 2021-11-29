@@ -5,6 +5,9 @@ title: Omicron and SARS-CoV-2 genome surveillance
 supporters:
 - denbi
 - elixir
+- converge
+- bycovid
+- eosc
 ---
 
 The newly reported SARS-CoV-2 lineage B.1.1.529 made the headlines last week.
