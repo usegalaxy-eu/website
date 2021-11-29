@@ -33,5 +33,5 @@ In case you want to understand better how viral variant calling and lineage assi
 ------
 
 Further readings:
-* https://covid19.galaxyproject.org
-* https://galaxyproject.eu/news?tag=COVID-19
+* [https://covid19.galaxyproject.org](https://covid19.galaxyproject.org)
+* [https://galaxyproject.eu/news?tag=COVID-19](https://galaxyproject.eu/news?tag=COVID-19)
