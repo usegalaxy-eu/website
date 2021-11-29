@@ -14,7 +14,7 @@ Since November 2018, when it was put into service, more than 3,000 users have be
     
 *Figure 1. Daily number of visits in the period between October and November 2021.*
 
-The analysis of the records since 2019 shows that the average number of visits per year has risen from 464 to 822 visits in 2021 (fig. 2). A remarkable aspect of the trend in the increase in visits is the sharp spike that occurred in April 2020, coinciding with the origin of the pandemic (fig. 3). During this period, the average number of visits increased from around 600 to more than 800 visits per month. One of the factors that undoubtedly determined this increase was the growing interest of researchers in bioinformatics tools linked to COVID-19 research.
+The analysis of the records since 2019 shows that the average number of daily visits has risen from 464 in 2019 to 822 visits in 2021 (fig. 2). A remarkable aspect of the trend in the increase in visits is the sharp spike that occurred in April 2020, coinciding with the origin of the pandemic (fig. 3). During this period, the average number of visits increased from around 600 to more than 800 visits per month. One of the factors that undoubtedly determined this increase was the growing interest of researchers in bioinformatics tools linked to COVID-19 research.
 
 ![Visits boxplot](/assets/media/ghelp_stats/visits_box.png)
     
