@@ -29,3 +29,9 @@ A huge thank you goes to the [KwaZulu-Natal Research Innovation and Sequencing P
 
 
 In case you want to understand better how viral variant calling and lineage assignment work and even want to try things yourself, we have prepared a [starting history with just the raw data and required accessory datasets](https://usegalaxy.eu/u/sars-cov2-requests-bot/h/b11529-try-your-own-analysis) for you to experiment with. Use it in conjunction with our [dedicated training material](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html) to familiarize yourself with an aspect of science that has and, unfortunately, will continue to have a huge impact on our daily lives.
+
+------
+
+Further readings:
+* https://covid19.galaxyproject.org
+* https://galaxyproject.eu/news?tag=COVID-19
