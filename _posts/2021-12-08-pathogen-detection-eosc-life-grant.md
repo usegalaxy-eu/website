@@ -3,7 +3,7 @@ site: freiburg
 tags:
 title:
   Accessible and scalable detection and identification of foodborne pathogens, a
-  project with Biolytix, a swiss company, and funded by EOSC-Life
+  project with Biolytix and funded by EOSC-Life
 supporters:
   - eosc
   - biolytix
