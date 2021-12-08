@@ -32,13 +32,13 @@ In case you want to understand better how viral variant calling and lineage assi
 
 ### Update 2021-12-05
 
-* We published our first selection analysis results on virological.org with the title ["Selection analysis identifies significant mutational changes in Omicron that are likely to influence both antibody neutralization and Spike function"](https://virological.org/t/selection-analysis-identifies-significant-mutational-changes-in-omicron-that-are-likely-to-influence-both-antibody-neutralization-and-spike-function-part-1-of-2)
+* We published the first selection analysis results about Omicron on virological.org: ["Selection analysis identifies significant mutational changes in Omicron that are likely to influence both antibody neutralization and Spike function"](https://virological.org/t/selection-analysis-identifies-significant-mutational-changes-in-omicron-that-are-likely-to-influence-both-antibody-neutralization-and-spike-function-part-1-of-2)
 
 ### Update 2021-12-08
 
 New analysis results are available from both ONT and Illumina data:
-* https://usegalaxy.eu/u/sars-cov2-requests-bot/h/omicron-ont-midnight-batch-1 (141 ONT runs, 130 assigned to B.1.1.529)
-* https://usegalaxy.eu/u/sars-cov2-requests-bot/h/omicron-illumina-articv4-batch-1 (70 Illumina runs, 66 assigned to B.1.1.529)
+* [Galaxy History - omicron-ont-midnight-batch-1](https://usegalaxy.eu/u/sars-cov2-requests-bot/h/omicron-ont-midnight-batch-1) (141 ONT runs, 130 assigned to B.1.1.529)
+* [Galaxy History - omicron-illumina-articv4-batch-1](https://usegalaxy.eu/u/sars-cov2-requests-bot/h/omicron-illumina-articv4-batch-1) (70 Illumina runs, 66 assigned to B.1.1.529)
 
 
 ------
