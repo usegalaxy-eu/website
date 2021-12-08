@@ -30,6 +30,17 @@ A huge thank you goes to the [KwaZulu-Natal Research Innovation and Sequencing P
 
 In case you want to understand better how viral variant calling and lineage assignment work and even want to try things yourself, we have prepared a [starting history with just the raw data and required accessory datasets](https://usegalaxy.eu/u/sars-cov2-requests-bot/h/b11529-try-your-own-analysis) for you to experiment with. Use it in conjunction with our [dedicated training material](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html) to familiarize yourself with an aspect of science that has and, unfortunately, will continue to have a huge impact on our daily lives.
 
+### Update 2021-12-05
+
+* We published our first selection analysis results on virological.org with the title ["Selection analysis identifies significant mutational changes in Omicron that are likely to influence both antibody neutralization and Spike function"](https://virological.org/t/selection-analysis-identifies-significant-mutational-changes-in-omicron-that-are-likely-to-influence-both-antibody-neutralization-and-spike-function-part-1-of-2)
+
+### Update 2021-12-08
+
+New analysis results are available from both ONT and Illumina data:
+* https://usegalaxy.eu/u/sars-cov2-requests-bot/h/omicron-ont-midnight-batch-1 (141 ONT runs, 130 assigned to B.1.1.529)
+* https://usegalaxy.eu/u/sars-cov2-requests-bot/h/omicron-illumina-articv4-batch-1 (70 Illumina runs, 66 assigned to B.1.1.529)
+
+
 ------
 
 Further readings:
