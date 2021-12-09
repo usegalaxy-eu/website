@@ -34,6 +34,13 @@ In case you want to understand better how viral variant calling and lineage assi
 
 * We published the first selection analysis results about Omicron on virological.org: ["Selection analysis identifies significant mutational changes in Omicron that are likely to influence both antibody neutralization and Spike function"](https://virological.org/t/selection-analysis-identifies-significant-mutational-changes-in-omicron-that-are-likely-to-influence-both-antibody-neutralization-and-spike-function-part-1-of-2)
 
+![Intra-host allelic variation](/assets/media/sars/omicron_intro-host-allelic-variation.png)
+
+* You can see above the intra-host allelic variation seen at Omicron amino acid mutation sites in a subset of SARS-CoV-2 raw sequencing data since March 2020 analyzed using the Galaxy variant calling pipeline
+* As you can see in the image, many Omicron mutations have been seen in subconsensus frequencies long before identification of Omicron.
+* Conclusion: Intermediate frequency data is critical for early detection and you can get this data in a high quality from [us](ftp://xfer13.crg.eu/). Happy research!
+
+
 ### Update 2021-12-08
 
 New analysis results are available from both ONT and Illumina data:
