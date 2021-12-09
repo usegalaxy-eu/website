@@ -211,7 +211,16 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: engynasr
         orcid: 0000-0001-9047-4215
-        
+
+    pavanvidem:
+        name: Engy Nasr
+        title: Dr. rer. nat., Researcher
+        email: videmp@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: pavanvidem
+        orcid: 0000-0002-5192-126X
+      
 
 erasmusmc:
     andrew-emc:
