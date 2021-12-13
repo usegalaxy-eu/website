@@ -153,7 +153,7 @@ more than 3,000 times. It is of course part of the European Galaxy server and wa
 <a name="gallantries"></a>
 ### Gallantries
 
-The [Galantries](https://gallantries.github.io/) project aims to increase bioinformatics and core data analysis skills in the field of life sciences across Europe. 
+The [Gallantries](https://gallantries.github.io/) project aims to increase bioinformatics and core data analysis skills in the field of life sciences across Europe. 
 
 
 ### Open Life Science <img src="/assets/media/ols_logo.png" width="50px" alt="OLS logo" />
