@@ -50,13 +50,11 @@
             
             If you need help submitting your data to public archives, like ENA, please [get in touch](mailto:contact@usegalaxy.eu). We will support you in sharing your data.
 
-- title: Urgent storage maintenance on the 25.02.2021
+- title: Holiday season
   class: info # one of [success, info, warning, danger]
   site: freiburg # Your site
   messages:
       - message: |
-            Holiday season
-
             Galaxy Europe will continue to operate over the holiday season however, with reduced support capacity. This period will run from 24th December 2021 until the 4th of January 2022.
             During this time:
                 No new tools or reference data will be installed
