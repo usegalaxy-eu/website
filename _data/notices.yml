@@ -55,7 +55,7 @@
   site: freiburg # Your site
   messages:
       - message: |
-            Galaxy Europe will continue to operate over the holiday season however, with reduced support capacity. This period will run from 24th December 2021 until the 4th of January 2022.
+            Galaxy Europe will continue to operate over the holiday season although with reduced support capacity. This period will run from 24th December 2021 until the 4th of January 2022.
             During this time:
                 No new tools or reference data will be installed
                 No requests for disk space will be actioned
