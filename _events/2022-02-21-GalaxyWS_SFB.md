@@ -7,7 +7,7 @@ starts: 2022-02-21
 ends: 2022-02-25
 organiser:
   name: Freiburg Galaxy Team
-  email: galaxy@informatik.uni-freiburg.de
+  email: contact@usegalaxy.eu
 location: online
 supporters:
 - crc1425
