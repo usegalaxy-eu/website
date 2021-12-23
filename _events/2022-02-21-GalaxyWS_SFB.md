@@ -27,15 +27,15 @@ Online
 
 # Important notes
 
-1. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis. Participants from the     
+1. Please create an account in the [European Galaxy server](https://usegalaxy.eu) to perform the analysis. Participants from the     
    MPI Freiburg, please note that the European Galaxy server is different from the MPI Galaxy server. You will need to 
    have an account on [https://usegalaxy.eu](https://usegalaxy.eu]) as well.
 2. For the workshop, all you need is a computer with a latest web browser.
 3. The workshop is free of charge.
 
-## Program:
+## Program
 
-Every day the workshop will run from 10:00-15:00 (give or take, depending on questions at the end). If the times will change, it will be announced during the workshop.
+Every day, the workshop will run from 10:00-15:00 CET (give or take, depending on questions at the end). If the times will change, it will be announced during the workshop.
 
 Schedule:
 
@@ -65,7 +65,7 @@ to go through the following two Galaxy interactive tours before beginning the
 - [Galaxy UI](https://usegalaxy.eu/tours/core.galaxy_ui)
 - [History Introduction](https://usegalaxy.eu/tours/core.history)
 
-If you have any questions, please do not hesitate to [contact us](mailto:galaxy@informatik.uni-freiburg.de)
+If you have any questions, please do not hesitate to [contact us](mailto:contact@usegalaxy.eu).
 
 ## Organizers
 
