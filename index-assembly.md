@@ -33,8 +33,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 # VGP assembly training
 
-We are working in close collaboration with the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"} to
-develop training materials of data analyses based on Galaxy. 
+We are working on a training with the objetive of explaining how to execute the VGP genome assembly pipeline in Galaxy. You can find a draft in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org/training-material//topics/assembly/tutorials/vgp_genome_assembly/tutorial.html){:target="_blank"}.
 
 <div align="center">
 <a href="https://assembly.usegalaxy.eu/u/delphine-l/h/vgp---phased-assembly---yeast-example"><button type="button" class="btn btn-primary btn-lg">Open example history</button></a>
@@ -67,6 +66,7 @@ SARS-CoV-2 assembly with removing human reads | [<i class="fa fa-laptop" aria-hi
 <br>
 
 If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
+
     
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/lDqWxzWNk1k"
@@ -82,6 +82,9 @@ title="YouTube video player"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
+
+<br>
+
 
     
 # Partners
