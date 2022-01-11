@@ -33,9 +33,8 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 # Training
 
-We are working in close collaboration with the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"} to
-develop training materials of data analyses based on Galaxy. If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
-
+We are working on a training with the objetive of explaining how to execute the VGP genome assembly pipeline in Galaxy. You can find a draft in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org/training-material//topics/assembly/tutorials/vgp_genome_assembly/tutorial.html){:target="_blank"}. If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
+   
 <div align="center">
 <a href="https://usegalaxy.eu/u/delphine-l/w/vgp-chicken"><button type="button" class="btn btn-primary btn-lg">Run workflow</button></a>
 <a href="https://assembly.usegalaxy.eu/u/delphine-l/h/vgp-chicken"><button type="button" class="btn btn-primary btn-lg">Open example history</button></a>
