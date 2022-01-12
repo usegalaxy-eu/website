@@ -2,7 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: training
 title: "Introduction to metabolomics analysis"
-starts: 2021-05-24
+starts: 2022-05-24
 ends: 2021-05-27
 organiser: "Ajay Mishra, Claire O'Donovan, Thomas Payne, Pamela Pruski"
 location: "EMBL-EBI, Online, Hinxton, United Kingdom"
