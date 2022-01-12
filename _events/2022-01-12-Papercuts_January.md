@@ -2,8 +2,8 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags:
 title: "Galaxy Papercuts CoFest Day"
-starts: 2021-05-20
-ends: 2021-05-20
+starts: 2022-01-20
+ends: 2022-01-20
 organiser:
 location: online
 supporters: 
