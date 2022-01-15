@@ -79,7 +79,7 @@
 #           
 #           Sorry for the inconvenience.
            
-- title: [UPDATE] Limited computing capacity on next 25-26.01.2022
+- title: UPDATE - Limited computing capacity on next 25-26.01.2022
   class: info # one of [success, info, warning, danger]
   site: freiburg # Your site
   messages:
