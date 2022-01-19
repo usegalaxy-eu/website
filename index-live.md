@@ -144,6 +144,11 @@ margin: auto;
       <p class="textcard">Model niches and distributions of species</p>
     </a>
 
+    <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_isee" target="_top">
+      <img class="card-img-top" src="https://raw.githubusercontent.com/iSEE/iSEE/master/inst/www/iSEE.png" title="iSEE - SummarizedExperiment Explorer" />
+      <p class="textcard">iSEE - SummarizedExperiment Explorer</p>
+    </a>
+	
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_wilson" target="_top">
       <img class="card-img-top" src="/assets/media/interactive/wilson.png" title="Webbased Interactive Omics visualizatioN" />
       <p class="textcard">Webbased Interactive Omics visualization</p>
