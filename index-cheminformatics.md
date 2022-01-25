@@ -129,16 +129,16 @@ Workflow | Description
 [Cheminformatics-ML](https://cheminformatics.usegalaxy.eu/u/sbray/w/cheminformatics-ml) | Machine learning for predicting small molecule protein interactions
 [GROMACS](https://cheminformatics.usegalaxy.eu/u/simonbray/w/molecular-dynamics-1) | Molecular dynamics simulation with GROMACS
 [Bio3D](https://cheminformatics.usegalaxy.eu/u/tsenapathi/w/md-analysis-using-bio3d) | Molecular dynamics analysis with Bio3D
-{:.table.table-striped}
 [Zauberkugel](https://usegalaxy.eu/u/aurelien_moumbock/w/zauberkugel) | Target prediction of a bioactive ligand using Align-it and ePharmaLib
+{:.table.table-striped}
 
 # Contributors
 
   * [Simon Bray](https://github.com/simonbray)
-  * [Aurélien F. A. Moumbock](https://github.com/aurelienmoumbock)
   * [Tharindu Senapathi](https://github.com/tsenapathi)
   * [Chris Barnett](https://github.com/chrisbarnettster)
   * [Anup Kumar](https://github.com/anuprulez)
+  * [Aurélien F. A. Moumbock](https://github.com/aurelienmoumbock)
   * Xavier Lucas
   * [Björn Grüning](https://github.com/bgruening)
 
