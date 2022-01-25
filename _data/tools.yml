@@ -46,6 +46,7 @@ NSPDK_candidateClusters: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/N
 NSPDK_sparseVect: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/nspdk_sparse
 Nanoplot: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot
 Nanopolish: toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_variants/nanopolish_variants
+Open3DALIGN: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_o3dalign/ctb_im_o3dalign
 PARalyzer: toolshed.g2.bx.psu.edu/repos/rnateam/paralyzer/paralyzer
 PGMA_locarna: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_cmfinder/cmFinder
 PIPmiR: toolshed.g2.bx.psu.edu/repos/rnateam/pipmir/pipmir
@@ -79,6 +80,7 @@ TrimGalore: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore
 Trinity: toolshed.g2.bx.psu.edu/repos/iuc/trinity/trinity
 Unicycler: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler
 Wtdbg2: toolshed.g2.bx.psu.edu/repos/bgruening/wtdbg/wtdbg/
+alignit: toolshed.g2.bx.psu.edu/repos/bgruening/align_it/ctb_alignit
 antaRNA: toolshed.g2.bx.psu.edu/repos/rnateam/antarna/antarna
 anndata_export: toolshed.g2.bx.psu.edu/repos/iuc/anndata_export/anndata_export
 anndata_import: toolshed.g2.bx.psu.edu/repos/iuc/anndata_import/anndata_import
@@ -98,7 +100,6 @@ cardinal_quality_report: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_quality_r
 cardinal_segmentation: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_segmentations/cardinal_segmentations/
 cardinal_spectra_plot: toolshed.g2.bx.psu.edu/repos/galaxyp/cardinal_spectra_plots/cardinal_spectra_plots/
 cds_essential_variability: toolshed.g2.bx.psu.edu/repos/climate/cds_essential_variability/cds_essential_variability
-ctb_alignit: toolshed.g2.bx.psu.edu/repos/bgruening/align_it/ctb_alignit
 datamash_ops: toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops
 datamash_transpose: toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose
 changTitle: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title
