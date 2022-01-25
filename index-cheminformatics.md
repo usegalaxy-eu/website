@@ -130,12 +130,12 @@ Workflow | Description
 [GROMACS](https://cheminformatics.usegalaxy.eu/u/simonbray/w/molecular-dynamics-1) | Molecular dynamics simulation with GROMACS
 [Bio3D](https://cheminformatics.usegalaxy.eu/u/tsenapathi/w/md-analysis-using-bio3d) | Molecular dynamics analysis with Bio3D
 {:.table.table-striped}
-[Zauberkugel] (https://usegalaxy.eu/u/aurelien_moumbock/w/zauberkugel) | Target prediction of a bioactive ligand using Align-it and ePharmaLib
+[Zauberkugel](https://usegalaxy.eu/u/aurelien_moumbock/w/zauberkugel) | Target prediction of a bioactive ligand using Align-it and ePharmaLib
 
 # Contributors
 
   * [Simon Bray](https://github.com/simonbray)
-  * [Aurélien F. A. Moumbock] (https://github.com/aurelienmoumbock)
+  * [Aurélien F. A. Moumbock](https://github.com/aurelienmoumbock)
   * [Tharindu Senapathi](https://github.com/tsenapathi)
   * [Chris Barnett](https://github.com/chrisbarnettster)
   * [Anup Kumar](https://github.com/anuprulez)
