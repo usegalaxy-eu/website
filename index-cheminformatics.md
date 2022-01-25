@@ -62,8 +62,7 @@ Tool | Description | Reference
 {% include tool.html id="nxnClust" %} | NXN clustering | [Dalke, 2013](https://doi.org/10.1186/1758-2946-5-s1-p36){:target="_blank"}
 {:.table.table-striped}
 
-
-## Docking
+## Pharmacophore aligment
 
 Tool | Description | Reference
 --- | --- | ---
@@ -129,7 +128,7 @@ Workflow | Description
 [Cheminformatics-ML](https://cheminformatics.usegalaxy.eu/u/sbray/w/cheminformatics-ml) | Machine learning for predicting small molecule protein interactions
 [GROMACS](https://cheminformatics.usegalaxy.eu/u/simonbray/w/molecular-dynamics-1) | Molecular dynamics simulation with GROMACS
 [Bio3D](https://cheminformatics.usegalaxy.eu/u/tsenapathi/w/md-analysis-using-bio3d) | Molecular dynamics analysis with Bio3D
-[Zauberkugel](https://usegalaxy.eu/u/aurelien_moumbock/w/zauberkugel) | Target prediction of a bioactive ligand using Align-it and ePharmaLib
+[Zauberkugel](https://usegalaxy.eu/u/aurelien_moumbock/w/zauberkugel) | Pharmacophore-based target prediction of a bioactive ligand using Align-it and ePharmaLib
 {:.table.table-striped}
 
 # Contributors
