@@ -77,8 +77,9 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="ctb_alignit" %} | Feature alignment with Align-it | [Taminau et al., 2008](https://doi.org/10.1016/j.jmgm.2008.04.003){:target="_blank"}
+{% include tool.html id="alignit" %} | Feature alignment using Align-it | [Taminau et al., 2008](https://doi.org/10.1016/j.jmgm.2008.04.003){:target="_blank"}
 {% include tool.html id="sucos_clustering" %} | Feature clustering using SuCOS | [Leung et al., 2019](https://doi.org/10.26434/chemrxiv.8100203.v1){:target="_blank"}
+{% include tool.html id="o3dalign" %} | Unsupervised molecular alignment using RDKit | [Tosco et al., 2011](https://doi.org/10.1007/s10822-011-9462-9){:target="_blank"}
 {:.table.table-striped}
 
 
