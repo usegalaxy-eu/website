@@ -66,10 +66,7 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="vina" %} | Docking with AutoDock Vina | [Trott et al., 2009](https://doi.org/10.1002/jcc.21334){:target="_blank"}
-{% include tool.html id="rbdock" %} | Docking with rDock | [Ruiz-Carmona et al., 2014](https://doi.org/10.1371/journal.pcbi.1003571){:target="_blank"}
-{% include tool.html id="sucos" %} | Score docked poses using SuCOS | [Leung et al., 2019](https://doi.org/10.26434/chemrxiv.8100203.v1){:target="_blank"}
-{% include tool.html id="fpocket" %} | Search a protein for potential binding sites | [Schmitdke et al., 2010](https://doi.org/10.1093/nar/gkq383){:target="_blank"}
+{% include tool.html id="alignit" %} | Docking with AutoDock Vina | [Trott et al., 2009](https://doi.org/10.1002/jcc.21334){:target="_blank"}
 {:.table.table-striped}
 
 
