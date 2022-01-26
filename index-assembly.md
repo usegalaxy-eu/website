@@ -33,7 +33,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 # VGP assembly training
 
-We are working on a training with the objetive of explaining how to execute the VGP genome assembly pipeline in Galaxy. You can find a draft in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org/training-material//topics/assembly/tutorials/vgp_genome_assembly/tutorial.html){:target="_blank"}.
+We are working on a training with the objective of explaining how to execute the VGP genome assembly pipeline in Galaxy. You can find a draft in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org/training-material//topics/assembly/tutorials/vgp_genome_assembly/tutorial.html){:target="_blank"}.
 
 <div align="center">
 <a href="https://training.galaxyproject.org/training-material//topics/assembly/tutorials/vgp_genome_assembly/tutorial.html" target="_blank"><button type="button" class="btn btn-primary btn-lg">VGP Training</button></a>&nbsp;&nbsp;&nbsp;
