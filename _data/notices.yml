@@ -79,13 +79,13 @@
 #           
 #           Sorry for the inconvenience.
            
-- title: UPDATE 2 - Not any more limited computing capacity on next 25-26.01.2022
-  class: info # one of [success, info, warning, danger]
-  site: freiburg # Your site
-  messages:
-      - message: |
-            The planned maintenance activity on next 25-26.01.2022, has been postponed to a later date. 
-            We will update you as soon as we have more information.
+#- title: UPDATE 2 - Not any more limited computing capacity on next 25-26.01.2022
+#  class: info # one of [success, info, warning, danger]
+#  site: freiburg # Your site
+#  messages:
+#      - message: |
+#            The planned maintenance activity on next 25-26.01.2022, has been postponed to a later date. 
+#            We will update you as soon as we have more information.
 
 #- title: Limited computing capacity on next September 17th, 2021
 #  class: info # one of [success, info, warning, danger]
