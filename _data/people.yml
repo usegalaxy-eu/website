@@ -61,23 +61,23 @@ freiburg:
         orcid: 0000-0001-9760-8992
         galaxyadmin: true
 
-    joachimwolff:
-        name: Joachim Wolff
-        title: M.Sc. Inf., Researcher
-        email: wolffj@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54132
-        location: "Build.: 079, Room: -1005"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        bio:
+    # joachimwolff:
+      #  name: Joachim Wolff
+      #  title: M.Sc. Inf., Researcher
+      #  email: wolffj@informatik.uni-freiburg.de
+      #  phone: +49(0) 761 - 203 54132
+      #  location: "Build.: 079, Room: -1005"
+      #  location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+      #  bio:
         
-    mtekman:
-        name: Mehmet Tekman
-        title: Ph.D., Researcher
-        email: tekman@informatik.uni-freiburg.de
-        matrix: "@mtekman:matrix.org"
-        location: "Build.: 079, Room: -1005"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        bio:
+  #  mtekman:
+      #  name: Mehmet Tekman
+      #  title: Ph.D., Researcher
+      #  email: tekman@informatik.uni-freiburg.de
+      #  matrix: "@mtekman:matrix.org"
+      #  location: "Build.: 079, Room: -1005"
+      #  location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+      #  bio:
 
     anuprulez:
         name: Anup Kumar
@@ -88,16 +88,16 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         bio:
 
-    stephanflemming:
-        name: Stephan Flemming
-        title: Dr. rer. nat., Researcher
-        email: flemming@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54127
-        location: "Build.: 079, Room: -1015"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        gitter: stephanflemming
-        orcid:  0000-0002-4632-3863
-        bio:
+   # stephanflemming:
+      #  name: Stephan Flemming
+      #  title: Dr. rer. nat., Researcher
+      #  email: flemming@informatik.uni-freiburg.de
+      #  phone: +49(0) 761 - 203 54127
+      #  location: "Build.: 079, Room: -1015"
+      #  location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+      #  gitter: stephanflemming
+      #  orcid:  0000-0002-4632-3863
+      #  bio:
 
     gmauro:
         name: Gianmauro Cuccuru
@@ -122,17 +122,17 @@ freiburg:
         orcid: 0000-0002-0621-6705
         bio:
 
-    khanteymoori:
-        name: Alireza Khanteymoori
-        title: Ph.D., Researcher
-        email: alireza@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54127
-        location: "Build.: 079, Room: -1015"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        orcid: 0000-0001-6811-9196
-        google-scholar: VAyELgcAAAAJ&hl
-        researchgate: Ali_Khanteymoori2
-        bio:
+   # khanteymoori:
+      #  name: Alireza Khanteymoori
+      #  title: Ph.D., Researcher
+      #  email: alireza@informatik.uni-freiburg.de
+      #  phone: +49(0) 761 - 203 54127
+      #  location: "Build.: 079, Room: -1015"
+      #  location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+      #  orcid: 0000-0001-6811-9196
+      #  google-scholar: VAyELgcAAAAJ&hl
+      #  researchgate: Ali_Khanteymoori2
+      #  bio:
 
     rolfbackofen:
         name: Rolf Backofen
@@ -147,17 +147,17 @@ freiburg:
         researchgate: Rolf_Backofen
         bio:
 
-    olegzharkov:
-        name: Oleg Zharkov
-        title: M.Sc. Inf., Researcher, Developer
-        email: oleg.zharkov@rz.uni-freiburg.de
-        location: "Build.: 079, Room: -1005"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        gitter: OlegZharkov
-        matrix: "@oleg.zharkov:matrix.org"
-        linkedin: oleg-zharkov-370b99138
-        orcid: 0000-0001-7537-4400
-        bio:
+    # olegzharkov:
+      #  name: Oleg Zharkov
+      #  title: M.Sc. Inf., Researcher, Developer
+      #  email: oleg.zharkov@rz.uni-freiburg.de
+      #  location: "Build.: 079, Room: -1005"
+      #  location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+      #  gitter: OlegZharkov
+      #  matrix: "@oleg.zharkov:matrix.org"
+      #  linkedin: oleg-zharkov-370b99138
+      #  orcid: 0000-0001-7537-4400
+      #  bio:
 
     janleendertse:
         name: Jan Leendertse
