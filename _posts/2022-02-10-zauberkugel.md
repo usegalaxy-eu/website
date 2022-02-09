@@ -17,8 +17,7 @@ To learn more on how to use the Zauberkugel workflow, please refer to the [Galax
 
 ## Credit
 
-**ePharmaLib: A Versatile Library of e-Pharmacophores to Address Small-Molecule (Poly-)Pharmacology**
-
-Aurélien F. A. Moumbock, Jianyu Li, Hoai T. T. Tran, Rahel Hinkelmann, Evelyn Lamy, Henning J. Jessen, and Stefan Günther
-*Journal of Chemical Information and Modeling* **2021**, *61*(7), 3659-3666.
+**ePharmaLib: A Versatile Library of e-Pharmacophores to Address Small-Molecule (Poly-)Pharmacology**\
+Aurélien F. A. Moumbock, Jianyu Li, Hoai T. T. Tran, Rahel Hinkelmann, Evelyn Lamy, Henning J. Jessen, and Stefan Günther.\
+*Journal of Chemical Information and Modeling* **2021**, *61*(7), 3659-3666.\
 https://doi.org/10.1021/acs.jcim.1c00135
