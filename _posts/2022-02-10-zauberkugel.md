@@ -12,7 +12,7 @@ We therefore developed [Zauberkugel](https://usegalaxy.eu/u/aurelien_moumbock/w/
 
 ![zauberkugel](/assets/media/2022-02-10-zauberkugel.png)
 
-To learn more about how to use the Zauberkugel workflow, please refer the [Galaxy training material](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/zauberkugel/tutorial.html).
+To learn more on how to use the Zauberkugel workflow, please refer to the [Galaxy training material](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/zauberkugel/tutorial.html).
 
 
 ## Credit
