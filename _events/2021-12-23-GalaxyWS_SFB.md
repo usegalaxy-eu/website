@@ -23,7 +23,7 @@ online course and is limited to the members CRC 1425, CRC 992 and MeInBio.
 
 ## Venue
 
-Online
+[Online](https://usegalaxy.eu/join-training/fr-feb-2022)
 
 ## Program
 
@@ -43,6 +43,11 @@ Fri     | Advanced Galaxy features, discussions, bring your own data.
 
 ## Links
 
+* Zoom meeting room for Galaxy traning and Q&A sessions: [https://uni-freiburg.zoom.us/j/62060189065?pwd=Vmg4MElrWkl4M2xyLy9lSGY2bm9nUT09](https://uni-freiburg.zoom.us/j/62060189065?pwd=Vmg4MElrWkl4M2xyLy9lSGY2bm9nUT09)
+    - Topic: Galaxy Workshop February 2022
+    - Meeting ID: 620 6018 9065
+    - Passcode: aPE9j8WXi
+* Slack channel for discussions during the hands-on: [link](https://app.slack.com/accept-shared-channel/T032SC3N5GE/I0319JJBQHZ/enQtMzA0MzYzMDM5ODYxMS05NTViYTcyODUxZGUxZmY0N2QwMGY2NGE3YzA4YmMwOTMwNGNhYmE1MTA3NWIyNzE1M2Q2ZGFjYmVkMDI4NzA3)
 * [Galaxy tips and tricks](https://github.com/bgruening/galaxy-tricks)
 * [Galaxy training network](http://training.galaxyproject.org)
 
@@ -53,15 +58,15 @@ Fri     | Advanced Galaxy features, discussions, bring your own data.
 to perform the analysis. Participants from the MPI Freiburg, please note that 
 the European Galaxy server is different from the MPI Galaxy server. You will need 
 to have an account on [https://usegalaxy.eu](https://usegalaxy.eu]) as well.
-2. For the workshop, all you need is a computer with a latest web browser.
-3. Galaxy interactive tours guide you stepwise through the Galaxy user interface
+2. Please join the [slack channel](https://app.slack.com/accept-shared-channel/T032SC3N5GE/I0319JJBQHZ/enQtMzA0MzYzMDM5ODYxMS05NTViYTcyODUxZGUxZmY0N2QwMGY2NGE3YzA4YmMwOTMwNGNhYmE1MTA3NWIyNzE1M2Q2ZGFjYmVkMDI4NzA3) for discussions.
+3. For the workshop, all you need is a computer with a latest web browser.
+4. Galaxy interactive tours guide you stepwise through the Galaxy user interface
 and the history. They will help you to follow the Galaxy introduction, and
 ensure everyone has a basic understanding of how Galaxy works. It is recommended
 to go through the following two Galaxy interactive tours before beginning the
  training, but it is not mandatory.
-
-- [Galaxy UI](https://usegalaxy.eu/tours/core.galaxy_ui)
-- [History Introduction](https://usegalaxy.eu/tours/core.history)
+    - [Galaxy UI](https://usegalaxy.eu/tours/core.galaxy_ui)
+    - [History Introduction](https://usegalaxy.eu/tours/core.history)
 
 If you have any questions, please do not hesitate to [contact us](mailto:contact@usegalaxy.eu).
 
