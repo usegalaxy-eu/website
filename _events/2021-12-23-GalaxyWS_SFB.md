@@ -23,7 +23,7 @@ online course and is limited to the members CRC 1425, CRC 992 and MeInBio.
 
 ## Venue
 
-[Online](https://usegalaxy.eu/join-training/fr-feb-2022)
+Online
 
 ## Program
 
@@ -41,24 +41,30 @@ Thu     | RNA-Seq data analysis part II
 Fri     | Advanced Galaxy features, discussions, bring your own data.
 {:.table.table-striped}
 
+### Agenda
+Each day is divided in to 3 sessions:
+* **Training session** is a zoom meeting where tutors will present the basic idea of the topic and demonstrate the data analysis on Galaxy and explain each analysis step. It is a popcorn session. Participants should relax and watch, ask questions but don't touch the keyboard.  
+* **Hands-on session** is the work-session. Participants will perform the analysis that they have learned during the training session. The training material and supporting hands-on videos are provided. All the questions during the hands-on session will be answered by the tutors in a slack channel. All the workshop information, training material and tutorial videos will stay online even after the workshop.
+* **Q&A session**: Day ends with an extended live discussion on zoom where we all can discuss any remaining questions about the topic. This session will start at 16:30.
+
 ## Links
 
-* Zoom meeting room for Galaxy traning and Q&A sessions: [https://uni-freiburg.zoom.us/j/62060189065?pwd=Vmg4MElrWkl4M2xyLy9lSGY2bm9nUT09](https://uni-freiburg.zoom.us/j/62060189065?pwd=Vmg4MElrWkl4M2xyLy9lSGY2bm9nUT09)
-    - Topic: Galaxy Workshop February 2022
-    - Meeting ID: 620 6018 9065
-    - Passcode: aPE9j8WXi
-* Slack channel for discussions during the hands-on: [link](https://app.slack.com/accept-shared-channel/T032SC3N5GE/I0319JJBQHZ/enQtMzA0MzYzMDM5ODYxMS05NTViYTcyODUxZGUxZmY0N2QwMGY2NGE3YzA4YmMwOTMwNGNhYmE1MTA3NWIyNzE1M2Q2ZGFjYmVkMDI4NzA3)
+* Slack channel for discussions during the hands-on: [link](https://app.slack.com/client/T01EL3YJPC2/C031N6QA6P3)
 * [Galaxy tips and tricks](https://github.com/bgruening/galaxy-tricks)
 * [Galaxy training network](http://training.galaxyproject.org)
 
 
 ## Preparation
+Some important steps to consider before joining the workshop:
 
 1. Please create an account in the [European Galaxy server](https://usegalaxy.eu) 
 to perform the analysis. Participants from the MPI Freiburg, please note that 
 the European Galaxy server is different from the MPI Galaxy server. You will need 
 to have an account on [https://usegalaxy.eu](https://usegalaxy.eu]) as well.
-2. Please join the [slack channel](https://app.slack.com/accept-shared-channel/T032SC3N5GE/I0319JJBQHZ/enQtMzA0MzYzMDM5ODYxMS05NTViYTcyODUxZGUxZmY0N2QwMGY2NGE3YzA4YmMwOTMwNGNhYmE1MTA3NWIyNzE1M2Q2ZGFjYmVkMDI4NzA3) for discussions.
+2. We use Slack for the discussions during the hands-on session. Please follow these two steps in order to join us in Slack:
+    - First, please register at the Galaxy training network Slack space: [https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ](https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ)
+    - Once you are in, join our workshop channel named freiburg-galaxy-workshop-2022 by following this link: [https://app.slack.com/client/T01EL3YJPC2/C031N6QA6P3](https://app.slack.com/client/T01EL3YJPC2/C031N6QA6P3)
+    - Finally, feel free to say hello to other participants.
 3. For the workshop, all you need is a computer with a latest web browser.
 4. Galaxy interactive tours guide you stepwise through the Galaxy user interface
 and the history. They will help you to follow the Galaxy introduction, and
