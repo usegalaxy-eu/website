@@ -8,7 +8,7 @@ author: aurelienmoumbock
 
 Bioactive compounds oftentimes bind to several target proteins, thereby exhibiting polypharmacology. Experimentally determining these interactions is however laborious, and structure-based virtual screening of bioactive compounds could expedite drug discovery by prioritizing hits for experimental validation. 
 
-We therefore developed [Zauberkugel](https://usegalaxy.eu/u/aurelien_moumbock/w/zauberkugel), a workflow for pharmacophore-based protein target prediction of a bioactive ligand with the tool [Align-it](https://doi.org/10.1016/j.jmgm.2008.04.003) and the recently reported pharmacophore dataset [ePharmaLib](https://doi.org/10.1021/acs.jcim.1c00135). The Zauberkugel workflow requires only two inputs; the ligand structure file (SMI format) and the ePharmaLib dataset (PHAR format). The latter can be retrieved from [Zenodo](https://zenodo.org/record/5898113).
+We therefore developed [Zauberkugel](https://usegalaxy.eu/u/aurelien_moumbock/w/zauberkugel), a workflow for pharmacophore-based protein target prediction of a bioactive ligand with the tool [Align-it](https://doi.org/10.1016/j.jmgm.2008.04.003) and the recently reported pharmacophore dataset [ePharmaLib](https://doi.org/10.1021/acs.jcim.1c00135). The Zauberkugel workflow requires only two inputs; the ligand structure file (SMI format) and the ePharmaLib dataset (PHAR format). The latter can be retrieved from [Zenodo](https://zenodo.org/record/6055897).
 
 ![zauberkugel](/assets/media/2022-02-10-zauberkugel.png)
 
