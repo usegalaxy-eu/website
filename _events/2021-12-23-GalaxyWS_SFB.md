@@ -40,13 +40,13 @@ on questions at the end). If the times will change, it will be announced during 
 
 Schedule:
 
-Day     | Topics | Training material | Hands-on video
+Day     | Topics | Slides | Training material | Hands-on video
 ------- | -------------------------------------------
-Mon     | Introduction to Galaxy | [](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html){:.fa .fa-laptop target="_blank"} | [](https://www.youtube.com/watch?v=1UPCrQxGwcU){:.fa .fa-video-camera target="_blank"}
-Tue     | ATAC-Seq data analysis | [](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html){:.fa .fa-laptop target="_blank"} | 
-Wed     | RNA-Seq data analysis part I | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html){:.fa .fa-laptop target="_blank"} | 
-Thu     | RNA-Seq data analysis part II | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html#analysis-of-the-differential-gene-expression){:.fa .fa-laptop target="_blank"} | 
-Fri     | Advanced Galaxy features, discussions, bring your own data | | 
+Mon     | Introduction to Galaxy | [](https://docs.google.com/presentation/d/1ZscmajwHI02nI3bLkDRDbLelMELOfnrT3JF0vxCowbQ/edit?usp=sharing){:.fa .fa-slideshare target="_blank"} | [](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html){:.fa .fa-laptop target="_blank"} | [](https://www.youtube.com/watch?v=1UPCrQxGwcU){:.fa .fa-video-camera target="_blank"}
+Tue     | ATAC-Seq data analysis | | [](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html){:.fa .fa-laptop target="_blank"} | 
+Wed     | RNA-Seq data analysis part I | | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html){:.fa .fa-laptop target="_blank"} | 
+Thu     | RNA-Seq data analysis part II | | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html#analysis-of-the-differential-gene-expression){:.fa .fa-laptop target="_blank"} | 
+Fri     | Advanced Galaxy features, discussions, bring your own data | | |
 {:.table.table-striped}
 
 ### Agenda
