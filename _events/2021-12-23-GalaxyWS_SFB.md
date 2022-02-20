@@ -21,24 +21,32 @@ hidefooter: true
 We are offering a Galaxy workshop on high-throughput data analysis. This is an 
 online course and is limited to the members CRC 1425, CRC 992 and MeInBio.
 
+
+<div align="center" width="100%">
+    <a href="https://usegalaxy.eu/join-training/fr-feb-2022">
+        <button type="button" class="btn btn-primary btn-lg">Start here!</button>
+    </a><br><br>
+</div>
+Note: This is a special link created for the workshop only. After the workshop, you can directly access the Galaxy service from here: [https://usegalaxy.eu](https://usegalaxy.eu)
+  
 ## Venue
 
 Online
 
 ## Program
 
-Every day, the workshop will run from 10:00-15:00 CET (give or take, depending 
+Every day, the workshop will run from 10:00-17:00 CET (give or take, depending 
 on questions at the end). If the times will change, it will be announced during the workshop.
 
 Schedule:
 
-Day     | Topics
-------- | --------
-Mon     | HTS and Galaxy presentations and introduction
-Tue     | ATAC-Seq data analysis
-Wed     | RNA-Seq data analysis part I
-Thu     | RNA-Seq data analysis part II
-Fri     | Advanced Galaxy features, discussions, bring your own data.
+Day     | Topics | Training material | Hands-on video
+------- | -------------------------------------------
+Mon     | Introduction to Galaxy | [](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html){:.fa .fa-laptop target="_blank"} | [](https://www.youtube.com/watch?v=1UPCrQxGwcU){:.fa .fa-video-camera target="_blank"}
+Tue     | ATAC-Seq data analysis | [](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html){:.fa .fa-laptop target="_blank"} | 
+Wed     | RNA-Seq data analysis part I | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html){:.fa .fa-laptop target="_blank"} | 
+Thu     | RNA-Seq data analysis part II | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html#analysis-of-the-differential-gene-expression){:.fa .fa-laptop target="_blank"} | 
+Fri     | Advanced Galaxy features, discussions, bring your own data | | 
 {:.table.table-striped}
 
 ### Agenda
@@ -49,7 +57,8 @@ Each day is divided in to 3 sessions:
 
 ## Links
 
-* Slack channel for discussions during the hands-on: [link](https://app.slack.com/client/T01EL3YJPC2/C031N6QA6P3)
+* Zoom meeting for training and Q&A sessions: <a href="https://uni-freiburg.zoom.us/j/62060189065?pwd=Vmg4MElrWkl4M2xyLy9lSGY2bm9nUT09" target="_blank"><button type="button" class="btn btn-primary btn-lg">Zoom</button></a>
+* Slack channel for discussions during the hands-on: <a href="https://app.slack.com/client/T01EL3YJPC2/C031N6QA6P3" target="_blank"><button type="button" class="btn btn-primary btn-lg">Slack</button></a>
 * [Galaxy tips and tricks](https://github.com/bgruening/galaxy-tricks)
 * [Galaxy training network](http://training.galaxyproject.org)
 
