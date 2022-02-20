@@ -13,7 +13,7 @@ supporters:
 
 ![Graphical Abstract](/assets/media/bhlogolo.png)
 
-Last week we had the BioHackathon Europe 2021 in Barcelona, as a hybrid event and with participants from all over the world.
+Last week we had the [BioHackathon Europe](https://elixir-europe.org/events/biohackathon-europe) 2021 in Barcelona, as a hybrid event and with participants from all over the world.
 The Biohackathon had 38 [projects in total](https://biohackathon-europe.org/projects.html). The Galaxy community has participated in several projects:
 
 
