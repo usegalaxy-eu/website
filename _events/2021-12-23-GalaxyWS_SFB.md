@@ -57,7 +57,6 @@ Each day is divided in to 3 sessions:
 
 ## Links
 
-* Zoom meeting for training and Q&A sessions: <a href="https://uni-freiburg.zoom.us/j/62060189065?pwd=Vmg4MElrWkl4M2xyLy9lSGY2bm9nUT09" target="_blank"><button type="button" class="btn btn-primary btn-lg">Zoom</button></a>
 * Slack channel for discussions during the hands-on: <a href="https://app.slack.com/client/T01EL3YJPC2/C031N6QA6P3" target="_blank"><button type="button" class="btn btn-primary btn-lg">Slack</button></a>
 * [Galaxy tips and tricks](https://github.com/bgruening/galaxy-tricks)
 * [Galaxy training network](http://training.galaxyproject.org)
