@@ -43,7 +43,7 @@ Schedule:
 Day     | Topics | Slides | Training material | Hands-on video
 ------- | -------------------------------------------
 Mon     | Introduction to Galaxy | [](https://docs.google.com/presentation/d/1ZscmajwHI02nI3bLkDRDbLelMELOfnrT3JF0vxCowbQ/edit?usp=sharing){:.fa .fa-slideshare target="_blank"} | [](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html){:.fa .fa-laptop target="_blank"} | [](https://www.youtube.com/watch?v=1UPCrQxGwcU){:.fa .fa-video-camera target="_blank"}
-Tue     | ATAC-Seq data analysis | | [](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html){:.fa .fa-laptop target="_blank"} | 
+Tue     | ATAC-Seq data analysis | [](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/slides.html){:.fa .fa-slideshare target="_blank"}  | [](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html){:.fa .fa-laptop target="_blank"} | [](https://www.youtube.com/watch?v=Zc-bl6ZfcX4){:.fa .fa-video-camera target="_blank"}
 Wed     | RNA-Seq data analysis part I | | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html){:.fa .fa-laptop target="_blank"} | 
 Thu     | RNA-Seq data analysis part II | | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html#analysis-of-the-differential-gene-expression){:.fa .fa-laptop target="_blank"} | 
 Fri     | Advanced Galaxy features, discussions, bring your own data | | |
@@ -51,7 +51,7 @@ Fri     | Advanced Galaxy features, discussions, bring your own data | | |
 
 ### Agenda
 Each day is divided in to 3 sessions:
-* **Training session** is a zoom meeting where tutors will present the basic idea of the topic and demonstrate the data analysis on Galaxy and explain each analysis step. It is a popcorn session. Participants should relax and watch, ask questions but don't touch the keyboard.  
+* **Training session** is a zoom meeting where tutors will present the basic idea of the topic and demonstrate the data analysis on Galaxy and explain each analysis step. It is a popcorn session. Participants should relax and watch, ask questions but don't touch the keyboard.
 * **Hands-on session** is the work-session. Participants will perform the analysis that they have learned during the training session. The training material and supporting hands-on videos are provided. All the questions during the hands-on session will be answered by the tutors in a slack channel. All the workshop information, training material and tutorial videos will stay online even after the workshop.
 * **Q&A session**: Day ends with an extended live discussion on zoom where we all can discuss any remaining questions about the topic. This session will start at 16:30.
 
