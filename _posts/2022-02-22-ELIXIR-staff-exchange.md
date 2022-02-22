@@ -1,6 +1,6 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-title: 'ELIXIR staff exchange between German and Italian Elixir nodes'
+title: 'ELIXIR staff exchange between the German and Italian ELIXIR nodes'
 tags: [galaxy, devops]
 supporters:
 - ELIXIR
