@@ -46,7 +46,7 @@ Mon     | Introduction to Galaxy | [](https://docs.google.com/presentation/d/1Zs
 Tue     | ATAC-Seq data analysis | [](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/slides.html){:.fa .fa-slideshare target="_blank"}  | [](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html){:.fa .fa-laptop target="_blank"} | [](https://www.youtube.com/watch?v=Zc-bl6ZfcX4){:.fa .fa-video-camera target="_blank"}
 Wed     | RNA-Seq data analysis part I | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/slides/introduction.html){:.fa .fa-slideshare target="_blank"} | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html){:.fa .fa-laptop target="_blank"} | [](https://www.youtube.com/watch?v=j4onRSN650A){:.fa .fa-video-camera target="_blank"}
 Thu     | RNA-Seq data analysis part II | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/slides/introduction.html#21){:.fa .fa-slideshare target="_blank"} | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html#analysis-of-the-differential-gene-expression){:.fa .fa-laptop target="_blank"} | [](https://www.youtube.com/watch?v=j4onRSN650A&t=3960s){:.fa .fa-video-camera target="_blank"}
-Fri     | Advanced Galaxy features, discussions, bring your own data | | |
+Fri     | Advanced Galaxy features, discussions, bring your own data | [](https://docs.google.com/presentation/d/1VwZC3-CfF2AOA8mEELhE7jYmBopjGAJudgpOStxvkv0){:.fa .fa-slideshare target="_blank"} | |
 {:.table.table-striped}
 
 ### Agenda
@@ -58,6 +58,8 @@ Each day is divided in to 3 sessions:
 ## Links
 
 * Slack channel for discussions during the hands-on: <a href="https://app.slack.com/client/T01EL3YJPC2/C031N6QA6P3" target="_blank"><button type="button" class="btn btn-primary btn-lg">Slack</button></a>
+* [Self-evaluation](https://docs.google.com/forms/d/e/1FAIpQLSeVIT0juD13oggey3jJ8-2Eopf4kjbSCUzAf37NRVTectnf0A/viewform)
+* [Post-event survey](https://docs.google.com/forms/d/e/1FAIpQLSfUB9zJ1EmP8c8qLwOaR7wqd42oAPguo_1_dE0BP_qvgi4zpw/viewform)
 * [Galaxy tips and tricks](https://github.com/bgruening/galaxy-tricks)
 * [Galaxy training network](http://training.galaxyproject.org)
 
