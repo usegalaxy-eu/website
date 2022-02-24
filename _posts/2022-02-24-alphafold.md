@@ -23,7 +23,7 @@ as well as for the proteins of 20 other important organisms were made freely ava
 
 Understanding a protein’s structure helps us to understand their function, and is traditionally achieved through slow, laborious experimentation. Painstaking effort over many years has determined the structures of around 100,000 unique proteins, but this represents just a tiny fraction of the billions of known protein sequences. Using computational approaches to enable large-scale structural bioinformatics to predict protein structures now promises to fast track our understanding of protein structure.
 
-The Galaxy community, spearheaded by [Galaxy Astralia](https://www.biocommons.org.au/galaxy-australia), saw an opportunity to further democratise access
+The Galaxy community, spearheaded by [Galaxy Australia](https://www.biocommons.org.au/galaxy-australia), saw an opportunity to further democratise access
 to this useful tool by making AlphaFold 2.0 available in Galaxy.
 The Galaxy project provides researchers access to a rich catalogue of computational resources and now includes the GPU clusters required to power AlphaFold 2.0.
 Life scientists can now easily visualise the consequences of DNA variants at the protein level, accelerating understanding of protein-protein interactions, activation or inhibition studies and drug design as examples.
@@ -38,4 +38,4 @@ The AlphaFold Service is now taking amino acid sequences from the user, and all 
 <a href="https://usegalaxy.eu/?tool_id=alphafold"><button type="button" class="btn btn-primary btn-lg">Start AlphaFold now</button></a>
 </div><br>
 
-Thanks especially to [Australian BioCommons](https://www.biocommons.org.au/) for this great collaboration.
+Thanks especially to [Australian BioCommons](https://www.biocommons.org.au/) for this [great collaboration](https://www.biocommons.org.au/news/alphafold-galaxy-au).
