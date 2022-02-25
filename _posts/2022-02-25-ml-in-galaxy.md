@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [videos]
-title: "Machine learning in Galaxy Europe" 
+title: "Machine learning in Galaxy" 
 supporters:
 - galaxy-europe
 - denbi
