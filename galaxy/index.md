@@ -2,6 +2,7 @@
 layout: galaxy
 ---
 
+<img src="/assets/media/tapas-banner.svg" />
 {% include home_quote.html %}
 {% include home_news_events-galaxy.html %}
 {% include jobs_graph.html %}
