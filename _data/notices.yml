@@ -37,18 +37,18 @@
 #          Interactive tools are working properly now, but all previously running IT jobs have been stopped, so you will need to restart them. 
 #          Sorry for the inconvenience.
 
-- title: COVID-19 Research!
-  class: success # one of [success, info, warning, danger]
-  site: freiburg # Your site
-  messages:
-      - message: |
-            Want to learn the best practices for the analysis of SARS-CoV-2 data using Galaxy?
-            Visit the [Galaxy SARS-CoV-2 portal](https://covid19.galaxyproject.org).
-            We mirror <b>all public SARS-CoV-2 data</b> from [ENA](https://www.ebi.ac.uk/ena/browser/home) in a [Galaxy data library](https://bit.ly/usegalaxy-eu-covid19-data) for your convenience.
-            The Galaxy community has created [COVID-19 dedicated training materials](https://training.galaxyproject.org/search?query=covid19).
-            Please check our [recent activities](https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUMZ0hnGtePZplv-lK0rYzx8L-vo/preview#) for more details.
-            
-            If you need help submitting your data to public archives, like ENA, please [get in touch](mailto:contact@usegalaxy.eu). We will support you in sharing your data.
+#- title: COVID-19 Research!
+#  class: success # one of [success, info, warning, danger]
+#  site: freiburg # Your site
+#  messages:
+#      - message: |
+#            Want to learn the best practices for the analysis of SARS-CoV-2 data using Galaxy?
+#            Visit the [Galaxy SARS-CoV-2 portal](https://covid19.galaxyproject.org).
+#            We mirror <b>all public SARS-CoV-2 data</b> from [ENA](https://www.ebi.ac.uk/ena/browser/home) in a [Galaxy data library](https://bit.ly/usegalaxy-eu-covid19-data) for your convenience.
+#            The Galaxy community has created [COVID-19 dedicated training materials](https://training.galaxyproject.org/search?query=covid19).
+#            Please check our [recent activities](https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUMZ0hnGtePZplv-lK0rYzx8L-vo/preview#) for more details.
+#            
+#            If you need help submitting your data to public archives, like ENA, please [get in touch](mailto:contact@usegalaxy.eu). We will support you in sharing your data.
 
 #
 #- title: Holiday season
@@ -110,6 +110,13 @@
 #          The Freiburg Galaxy team will be striking on 25.09.2020. No new jobs will be processed on that Friday!
 #          For more information please see our [blog post](https://usegalaxy-eu.github.io/posts/2020/09/11/we-are-striking-really/plain.html).
 
+- title: Peace to Ukraine!
+  class: danger # one of [success, info, warning, danger]
+  site: freiburg # Your site
+  messages:
+      - message: |
+          🇺🇦 If your lab can help Ukrainian scientists as they make their way to safety please add your name [here](https://docs.google.com/spreadsheets/d/1jGFCqP2kj1ZAN6xy6EoRN1bozaggk9VEsbzYaIkkYcQ/edit). German organisations are organising accommodation [here](https://elinor.network/gastfreundschaft-ukraine/). 🇺🇦
+        
 #- title: Enough talking - time to act!
 #  class: danger # one of [success, info, warning, danger]
 #  site: freiburg # Your site
