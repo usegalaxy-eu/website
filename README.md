@@ -121,13 +121,14 @@ and can easily get directions to it.
 - poster
 - release
 - report
+- society
+- streetscience
+- support
+- s4f
 - talk
 - TIaaS
 - tools
 - training
-- streetscience
-- society
-- s4f
 - video
 
 ## Adding new member sites

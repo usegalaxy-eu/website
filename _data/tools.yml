@@ -46,6 +46,7 @@ NSPDK_candidateClusters: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/N
 NSPDK_sparseVect: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/nspdk_sparse
 Nanoplot: toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot
 Nanopolish: toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_variants/nanopolish_variants
+Open3DALIGN: toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_o3dalign/ctb_im_o3dalign
 PARalyzer: toolshed.g2.bx.psu.edu/repos/rnateam/paralyzer/paralyzer
 PGMA_locarna: toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_cmfinder/cmFinder
 PIPmiR: toolshed.g2.bx.psu.edu/repos/rnateam/pipmir/pipmir
@@ -79,6 +80,7 @@ TrimGalore: toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore
 Trinity: toolshed.g2.bx.psu.edu/repos/iuc/trinity/trinity
 Unicycler: toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler
 Wtdbg2: toolshed.g2.bx.psu.edu/repos/bgruening/wtdbg/wtdbg/
+alignit: toolshed.g2.bx.psu.edu/repos/bgruening/align_it/ctb_alignit
 antaRNA: toolshed.g2.bx.psu.edu/repos/rnateam/antarna/antarna
 anndata_export: toolshed.g2.bx.psu.edu/repos/iuc/anndata_export/anndata_export
 anndata_import: toolshed.g2.bx.psu.edu/repos/iuc/anndata_import/anndata_import
@@ -204,6 +206,7 @@ scater_plot_exprs_freq: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_exprs_freq/
 scater_plot_dist_scatter: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_dist_scatter/scater_plot_dist_scatter
 scater_plot_pca: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_pca/scater_plot_pca
 scater_plot_tsne: toolshed.g2.bx.psu.edu/repos/iuc/scater_plot_tsne/scater_plot_tsne
+sucos_clustering: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_clustering/sucos_clustering
 ucsc_cell_browser: toolshed.g2.bx.psu.edu/repos/ebi-gxa/ucsc_cell_browser/ucsc_cell_browser
 umi_tools_count: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_count/umi_tools_count
 umi_tools_dedup: toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_dedup/umi_tools_dedup

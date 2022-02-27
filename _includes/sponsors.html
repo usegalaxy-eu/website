@@ -20,6 +20,10 @@
             <a href="https://www.denbi.de" target="_blank">
                 <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb.png" class="img-responsive eu-image" />
             </a>
+            {% elsif supporter_lower == "bycovid" %}
+            <a href="https://by-covid.org" target="_blank">
+                <img alt="BY-COVID logo" src="/assets/media/BYCOVID_logo.png" class="img-responsive eu-image" />
+            </a>
             {% elsif supporter_lower == "denbi-color" %}
             <a href="https://www.denbi.de" target="_blank">
                 <img alt="de.NBI logo" src="/assets/media/denbi-logo-color.svg" class="img-responsive eu-image" />
@@ -194,10 +198,6 @@
             <a href="https://www.iu.edu" target="_blank">
                 <img alt="IU Logo" src="/assets/media/iu_logo.jpg" class="img-responsive eu-image" />
             </a>
-            {% elsif supporter_lower == "sfb1425" %}
-            <a href="https://www.sfb1425.uni-freiburg.de" target="_blank">
-                <img alt="SFB 1425 Logo" src="/assets/media/sfb_1425.svg" class="img-responsive eu-image" />
-            </a>
             {% elsif supporter_lower == "xsede" %}
             <a href="https://www.xsede.org/" target="_blank">
                 <img alt="XSEDE Logo" src="/assets/media/xsede_logo.jpg" class="img-responsive eu-image" />
@@ -213,6 +213,11 @@
             {% elsif supporter_lower == "NFDI4BI" %}
             <a href="https://nfdi4bioimage.de" target="_blank">
                 <img alt="Data4BioImaging Logo" src="/assets/media/NFDI4BIOIMAGE_logo.png"
+                    class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "Methods4NFDI" %}
+            <a href="https://methods-nfdi.org" target="_blank">
+                <img alt="Methods4NFDI Logo" src="/assets/media/methods-nfdi-logo.png"
                     class="img-responsive eu-image" />
             </a>
             {% elsif supporter_lower == "egi" %}
@@ -254,12 +259,24 @@
                 <img alt="ELIXIR-Converge" src="/assets/media/converge-logo.png" class="img-responsive eu-image" />
             </a>
             {% elsif supporter_lower == "qfab" %}
-            <a href="https://elixir-europe.org/about-us/how-funded/eu-projects/converge" target="_blank">
+            <a href="https://qfab.org/" target="_blank">
                 <img alt="QFAB" src="/assets/media/qfab-logo.png" class="img-responsive eu-image" />
             </a>
+            {% elsif supporter_lower == "sanbi" %}
+            <a href="https://www.sanbi.org/" target="_blank">
+                <img alt="SANBI" src="/assets/media/sanbi_logo.webp" class="img-responsive eu-image" />
+            </a>
             {% elsif supporter_lower == "melbbioinfo" %}
-            <a href="https://elixir-europe.org/about-us/how-funded/eu-projects/converge" target="_blank">
+            <a href="https://www.melbournebioinformatics.org.au/" target="_blank">
                 <img alt="Melbourne Bioinformatics" src="/assets/media/melbbioinfo-logo.png" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "biolytix" %}
+            <a href="https://www.biolytix.ch/en/" target="_blank">
+                <img alt="Biolytix" src="/assets/media/biolytix_logo.svg" class="img-responsive eu-image" />
+            </a>
+            {% elsif supporter_lower == "meinbio" %}
+            <a href="https://www.meinbio.uni-freiburg.de/" target="_blank">
+                <img alt="meinbio" src="/assets/media/meinbio.jpg" class="img-responsive eu-image" />
             </a>
             {% else %}
             {{ supporter }}

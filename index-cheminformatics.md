@@ -63,7 +63,7 @@ Tool | Description | Reference
 {:.table.table-striped}
 
 
-## Docking
+## Molecular docking
 
 Tool | Description | Reference
 --- | --- | ---
@@ -71,6 +71,15 @@ Tool | Description | Reference
 {% include tool.html id="rbdock" %} | Docking with rDock | [Ruiz-Carmona et al., 2014](https://doi.org/10.1371/journal.pcbi.1003571){:target="_blank"}
 {% include tool.html id="sucos" %} | Score docked poses using SuCOS | [Leung et al., 2019](https://doi.org/10.26434/chemrxiv.8100203.v1){:target="_blank"}
 {% include tool.html id="fpocket" %} | Search a protein for potential binding sites | [Schmitdke et al., 2010](https://doi.org/10.1093/nar/gkq383){:target="_blank"}
+{:.table.table-striped}
+
+## Pharmacophore alignment
+
+Tool | Description | Reference
+--- | --- | ---
+{% include tool.html id="alignit" %} | Feature alignment using Align-it | [Taminau et al., 2008](https://doi.org/10.1016/j.jmgm.2008.04.003){:target="_blank"}
+{% include tool.html id="sucos_clustering" %} | Feature clustering using SuCOS | [Leung et al., 2019](https://doi.org/10.26434/chemrxiv.8100203.v1){:target="_blank"}
+{% include tool.html id="Open3DALIGN" %} | Unsupervised molecular alignment using RDKit | [Tosco et al., 2011](https://doi.org/10.1007/s10822-011-9462-9){:target="_blank"}
 {:.table.table-striped}
 
 
@@ -129,6 +138,7 @@ Workflow | Description
 [Cheminformatics-ML](https://cheminformatics.usegalaxy.eu/u/sbray/w/cheminformatics-ml) | Machine learning for predicting small molecule protein interactions
 [GROMACS](https://cheminformatics.usegalaxy.eu/u/simonbray/w/molecular-dynamics-1) | Molecular dynamics simulation with GROMACS
 [Bio3D](https://cheminformatics.usegalaxy.eu/u/tsenapathi/w/md-analysis-using-bio3d) | Molecular dynamics analysis with Bio3D
+[Zauberkugel](https://usegalaxy.eu/u/aurelien_moumbock/w/zauberkugel) | Pharmacophore-based target prediction of a bioactive ligand using Align-it
 {:.table.table-striped}
 
 # Contributors
@@ -137,6 +147,7 @@ Workflow | Description
   * [Tharindu Senapathi](https://github.com/tsenapathi)
   * [Chris Barnett](https://github.com/chrisbarnettster)
   * [Anup Kumar](https://github.com/anuprulez)
+  * [Aurélien F. A. Moumbock](https://github.com/aurelienmoumbock)
   * Xavier Lucas
   * [Björn Grüning](https://github.com/bgruening)
 

@@ -31,18 +31,44 @@ This workbench is also optimized to include all data, tools, and workflows assoc
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take a
 [__guided tour__]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
-# Training
+# VGP assembly training
 
-We are working in close collaboration with the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"} to
-develop training materials of data analyses based on Galaxy. If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
+We are working on a training with the objective of explaining how to execute the VGP genome assembly pipeline in Galaxy. You can find a draft in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org/training-material//topics/assembly/tutorials/vgp_genome_assembly/tutorial.html){:target="_blank"}.
 
 <div align="center">
-<a href="https://usegalaxy.eu/u/delphine-l/w/vgp-chicken"><button type="button" class="btn btn-primary btn-lg">Run workflow</button></a>
-<a href="https://assembly.usegalaxy.eu/u/delphine-l/h/vgp-chicken"><button type="button" class="btn btn-primary btn-lg">Open example history</button></a>
+<a href="https://training.galaxyproject.org/training-material//topics/assembly/tutorials/vgp_genome_assembly/tutorial.html" target="_blank"><button type="button" class="btn btn-primary btn-lg">VGP Training</button></a>&nbsp;&nbsp;&nbsp;
+<a href="https://assembly.usegalaxy.eu/u/delphine-l/h/vgp---phased-assembly---yeast-example"><button type="button" class="btn btn-primary btn-lg">Open example history</button></a>
 </div>
 
 <br>
 
+## Additional training material
+
+All relevant materials for [assembly-related data analysis](https://training.galaxyproject.org/training-material/search?query=assembly) can also be found within the GTN.
+
+Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy History
+--- | --- | --- | --- | --- | ---
+Welcome and introduction to Galaxy | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/videos/watch.html?v=introduction/tutorials/galaxy-intro-short/slides){:target="_blank"} | | | |
+An Introduction to Genome Assembly | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/general-introduction/tutorial.html){:target="_blank"} | | | |
+A deeper look into Genome Assembly algorithms | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/algorithms-introduction/slides.html){:target="_blank"} | | | |
+Quality Control | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/BWonTPS4zB8){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/QJRlX2hWDKM){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://doi.org/10.5281/zenodo.61771){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/workflows/){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/gallardoalba/h/quality-control){:target="_blank"}
+Mapping | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/7FhHb8EV3EU){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/1wm-62E2NkY){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://doi.org/10.5281/zenodo.1324070){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/workflows/){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/gallardoalba/h/mapping){:target="_blank"}
+K-mer coverage | | | | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/u/delphine-l/w/kcov){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/delphine-l/h/kcov-1){:target="_blank"}
+Salsa Scaffolding | | | | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/u/delphine-l/w/salsa-scaffolding){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/delphine-l/h/salsa-scaffolding){:target="_blank"}
+Chloroplast genome assembly | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html){:target="_blank"} | | | |
+De Bruijn Graph Assembly | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/debruijn-graph-assembly/tutorial.html){:target="_blank"} | | | |
+Genome Assembly of MRSA using Illumina MiSeq Data | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-illumina/tutorial.html){:target="_blank"} | | | |
+Genome Assembly of MRSA using Oxford Nanopore MinION Data | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-nanopore/tutorial.html){:target="_blank"} | | | |
+Making sense of a newly assembled genome | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/ecoli_comparison/tutorial.html){:target="_blank"} | | | |
+Unicycler Assembly | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/unicycler-assembly/tutorial.html){:target="_blank"} | | | |
+SARS-CoV-2 assembly with removing human reads | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html){:target="_blank"} | | | |
+{:.table.table-striped}
+
+<br>
+
+If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
+
+    
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/lDqWxzWNk1k"
 title="YouTube video player"
@@ -60,29 +86,8 @@ allowfullscreen></iframe>
 
 <br>
 
-## Training material
 
-All relevant materials for [assembly-related data analysis](https://training.galaxyproject.org/training-material/search?query=assembly) can also be found within the GTN.
-
-Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy History
---- | --- | --- | --- | --- | ---
-Welcome and introduction to Galaxy | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/videos/watch.html?v=introduction/tutorials/galaxy-intro-short/slides){:target="_blank"} | | | |
-An Introduction to Genome Assembly | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/general-introduction/tutorial.html){:target="_blank"} | | | |
-A deeper look into Genome Assembly algorithms | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/algorithms-introduction/slides.html){:target="_blank"} | | | |
-Quality Control | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/BWonTPS4zB8){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/QJRlX2hWDKM){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://doi.org/10.5281/zenodo.61771){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/workflows/){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/gallardoalba/h/quality-control){:target="_blank"}
-Mapping | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/7FhHb8EV3EU){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html){:target="_blank"} / [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://youtu.be/1wm-62E2NkY){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](https://doi.org/10.5281/zenodo.1324070){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/workflows/){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/gallardoalba/h/mapping){:target="_blank"}
-kmer coverage | | | | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/u/delphine-l/w/kcov){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/delphine-l/h/kcov-1){:target="_blank"}
-VGP chicken | | | | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/u/delphine-l/w/vgp-chicken){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/delphine-l/h/vgp-chicken){:target="_blank"}
-Salsa Scaffolding | | | | [<i class="fa fa-share-alt" aria-hidden="true"></i>]({{ page.website }}/u/delphine-l/w/salsa-scaffolding){:target="_blank"} | [<i class="fa fa-list-ul" aria-hidden="true"></i>]({{ page.website }}/u/delphine-l/h/salsa-scaffolding){:target="_blank"}
-Chloroplast genome assembly | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html){:target="_blank"} | | | |
-De Bruijn Graph Assembly | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/debruijn-graph-assembly/tutorial.html){:target="_blank"} | | | |
-Genome Assembly of MRSA using Illumina MiSeq Data | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-illumina/tutorial.html){:target="_blank"} | | | |
-Genome Assembly of MRSA using Oxford Nanopore MinION Data | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-nanopore/tutorial.html){:target="_blank"} | | | |
-Making sense of a newly assembled genome | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/ecoli_comparison/tutorial.html){:target="_blank"} | | | |
-Unicycler Assembly | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/unicycler-assembly/tutorial.html){:target="_blank"} | | | |
-SARS-CoV-2 assembly with removing human reads | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html){:target="_blank"} | | | |
-{:.table.table-striped}
-
+    
 # Partners
 
 This service is a joint project between different groups from the [Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org){:target="_blank"}, the [European Reference Genome Atlas project](https://vertebrategenomesproject.org/erga){:target="_blank"}, and the [Galaxy project](https://galaxyproject.org){:target="_blank"}.
