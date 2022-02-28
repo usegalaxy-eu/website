@@ -79,6 +79,18 @@
 #           
 #           Sorry for the inconvenience.
 
+- title: Peace to Ukraine!
+  class: danger # one of [success, info, warning, danger]
+  site: freiburg # Your site
+  messages:
+      - message: |
+          🇺🇦 The global community (@pastramimachine) has created a continuously updated [list of laboratories](https://docs.google.com/spreadsheets/d/1jGFCqP2kj1ZAN6xy6EoRN1bozaggk9VEsbzYaIkkYcQ/edit?usp=sharing) that can host Ukrainian scientists at all career levels. This list is here. If your lab can host a scientist -- add your name to the list. In addition, Galaxy Project has a number of positions at its EU and US sites. Contact us at ukraine@galaxyproject.org. German organisations are organising accommodation [here](https://elinor.network/gastfreundschaft-ukraine/).
+
+          Наукове суспільство (@pastramimachine) створило постійно відновлюємий [список лабораторій](https://docs.google.com/spreadsheets/d/1jGFCqP2kj1ZAN6xy6EoRN1bozaggk9VEsbzYaIkkYcQ/edit?usp=sharing), які можуть прийняти українських вчених (включаючи аспірантів). Додатково, Galaxy Project має відкриті позиції на своīх європейських та американських сайтах. Контактуйте нас використовуя ukraine@galaxyproject.org
+
+          Научное сообщество (@pastramimachine) создало постоянно обновляемый [список лабораторий](https://docs.google.com/spreadsheets/d/1jGFCqP2kj1ZAN6xy6EoRN1bozaggk9VEsbzYaIkkYcQ/edit?usp=sharing), которые могут принять украинских ученых (включая аспирантов). К тому же, Galaxy Project имеет открытые позиции на своих европейских и американских сайтах.  Контактируйте нас используя ukraine@galaxyproject.org 🇺🇦
+
+
 - title: Limited computing capacity on next 01.03.2022
   class: info # one of [success, info, warning, danger]
   site: freiburg # Your site
@@ -110,13 +122,6 @@
 #          The Freiburg Galaxy team will be striking on 25.09.2020. No new jobs will be processed on that Friday!
 #          For more information please see our [blog post](https://usegalaxy-eu.github.io/posts/2020/09/11/we-are-striking-really/plain.html).
 
-- title: Peace to Ukraine!
-  class: danger # one of [success, info, warning, danger]
-  site: freiburg # Your site
-  messages:
-      - message: |
-          🇺🇦 If your lab can help Ukrainian scientists as they make their way to safety please add your name [here](https://docs.google.com/spreadsheets/d/1jGFCqP2kj1ZAN6xy6EoRN1bozaggk9VEsbzYaIkkYcQ/edit). German organisations are organising accommodation [here](https://elinor.network/gastfreundschaft-ukraine/). 🇺🇦
-        
 #- title: Enough talking - time to act!
 #  class: danger # one of [success, info, warning, danger]
 #  site: freiburg # Your site
