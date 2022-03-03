@@ -96,6 +96,8 @@
   site: freiburg # Your site
   messages:
       - message: |
+            UPDATE 03.03.2022 11:00 CET, Usegalaxy.eu is still without compute capacity. We hope to return to normal operation soon.
+            
             On March 1st, bwCloud will undergo a scheduled maintenance, and we have to shut down most of our computing resources.
             We will keep the web server running, accepting jobs and workflows, but there will be a delay in processing them.
             The running jobs, at that date, will be interrupted and rescheduled for a new start (from scratch, no intermediate results can be saved) 
