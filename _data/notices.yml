@@ -96,6 +96,8 @@
   site: freiburg # Your site
   messages:
       - message: |
+            UPDATE 05.03.2022 09:00 CET, There are still some issues preventing to release bwCloud for normal activities. bwCloud operating group is working to fix them.
+      
             UPDATE 04.03.2022 09:00 CET, bwCloud maintenace is still on going.
       
             UPDATE 03.03.2022 11:00 CET, Usegalaxy.eu is still without compute capacity. We hope to return to normal operation soon.
