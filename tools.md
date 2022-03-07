@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# European Galaxy tools (2820 and counting)
+# European Galaxy tools (2821 and counting)
 <hr/>
 <h3>Get Data</h3>
 <a href="https://usegalaxy.eu/root?tool_id=fasterq_dump" title="format from NCBI SRA"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Faster Download and Extract Reads in FASTQ</button></a>
@@ -962,10 +962,10 @@ layout: default
 <h3>RNA-Seq</h3>
 <a href="https://usegalaxy.eu/root?tool_id=blockbuster" title="detects blocks of overlapping reads using a gaussian-distribution approach"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">blockbuster</button></a>
 <h3>RNA Analysis</h3>
+<a href="https://usegalaxy.eu/root?tool_id=limma_voom" title="Perform differential expression with limma-voom or limma-trend"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">limma</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=trinity_gene_to_trans_map" title="for Trinity assembly"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Generate gene to transcript map</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=trinotate" title="functional transcript annotation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Trinotate</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=edger" title="Perform differential expression of count data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">edgeR</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=limma_voom" title="Perform differential expression with limma-voom or limma-trend"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">limma</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=chira_quantify" title="quantify aligned loci to score the alignments"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ChiRA qauntify</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=chira_merge" title="merge aligned positions"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ChiRA merge</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=chira_map" title="map reads to trascriptome"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ChiRA map</button></a>
@@ -1191,9 +1191,9 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=epicseg_segment" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">EpiCSeg - Chromatin segmentation</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=hicup_mapper" title="aligns paired reads independently to a reference genome and retains reads where both partners align."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Hicup Mapper</button></a>
 <h3>Phylogenetics</h3>
+<a href="https://usegalaxy.eu/root?tool_id=nextclade" title="Viral genome clade assignment, mutation calling, and sequence quality checks"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Nextclade</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=pangolin" title="Phylogenetic Assignment of Outbreak Lineages"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Pangolin</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=nextalign" title="Viral genome sequence alignment"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">NextAlign</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=nextclade" title="Viral genome clade assignment, mutation calling, and sequence quality checks"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Nextclade</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=hyphy_busted" title="Branch-site Unrestricted Statistical Test for Episodic Diversification"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">HyPhy-BUSTED</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=hyphy_absrel" title="adaptive Branch Site Random Effects Likelihood"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">HyPhy-aBSREL</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=snp_dists" title="Compute distance in SNPs between all sequences in a FASTA file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">SNP distance matrix</button></a>
@@ -2678,11 +2678,13 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=list_organism" title="in Apollo"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">List Organisms</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=delete_features" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Delete all annotations from an Apollo record</button></a>
 <h3>Imaging</h3>
+<a href="https://usegalaxy.eu/root?tool_id=ip_projective_transformation" title="of 2D images"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Projective Transformation</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=ip_image_registration" title="based on intensity information"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Image Registration</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=ip_overlay_images" title="for visualization"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Overlay Images</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_landmark_registration_ls" title="using least squares"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Landmark Registration</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_localthreshold" title="applies a local threshold algorithm to an image"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Local Threshold</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_threshold" title="applies a standard thresholding algorithm to an image"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Auto Threshold</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_projective_transformation_points" title="of ROIs defined by pixel (point) coordinates"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Projective Transformation</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=ip_projective_transformation" title="of 2D images"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Projective Transformation</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=idr_download_by_ids" title="- download images from any OMERO instance using image IDs"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">IDR/OMERO Download</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_spot_detection_2d" title="in a 2D image (sequence)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Spot Detection</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_points_association_nn" title="in consecutive frames (slices) using the nearest neighbor algorithm"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Association of points</button></a>
@@ -2691,7 +2693,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=cp_common" title="load images and metadata into CellProfiler (Images, Metadata, NamesAndTypes, Groups)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Starting Modules</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=cp_color_to_gray" title="converts color and channel-stacked images to grayscale"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ColorToGray</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=cp_tile" title="tiles images together to form large montage images"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Tile</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=ip_image_registration" title="based on intensity information"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Image Registration</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=cp_track_objects" title="tracking objects throughout sequential frames of a series of images"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">TrackObjects</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_landmark_registration" title="estimates the affine transformation matrix"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Landmark Registration</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=cp_overlay_outlines" title="places outlines of objects over a desired image."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">OverlayOutlines</button></a>
