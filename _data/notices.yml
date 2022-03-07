@@ -96,6 +96,8 @@
   site: freiburg # Your site
   messages:
       - message: |
+            UPDATE 07.03.2022 17:30 CET, We are slowly returning to normal operation. Not all services are fully functional yet.
+      
             UPDATE 05.03.2022 09:00 CET, There are still some issues preventing to release bwCloud for normal activities. bwCloud operating group is working to fix them.
       
             UPDATE 04.03.2022 09:00 CET, bwCloud maintenace is still on going.
