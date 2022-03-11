@@ -91,25 +91,13 @@
           Научное сообщество создало постоянно обновляемый [список лабораторий](https://bit.ly/ua-table){:target="_blank"}, которые могут принять украинских ученых (включая аспирантов). К тому же, Galaxy Project имеет открытые позиции на своих европейских и американских сайтах.  Контактируйте нас используя <a href= "mailto:ukraine@galaxyproject.org">ukraine@galaxyproject.org</a> 🇺🇦
 
 
-- title: Limited computing capacity on next 01.03.2022
+- title: FTP service unavailable - 11.03.2022
   class: info # one of [success, info, warning, danger]
   site: freiburg # Your site
   messages:
       - message: |
-            UPDATE 07.03.2022 17:30 CET, We are slowly returning to normal operation. Not all services are fully functional yet.
-      
-            UPDATE 05.03.2022 09:00 CET, There are still some issues preventing to release bwCloud for normal activities. bwCloud operating group is working to fix them.
-      
-            UPDATE 04.03.2022 09:00 CET, bwCloud maintenace is still on going.
-      
-            UPDATE 03.03.2022 11:00 CET, Usegalaxy.eu is still without compute capacity. We hope to return to normal operation soon.
-            
-            On March 1st, bwCloud will undergo a scheduled maintenance, and we have to shut down most of our computing resources.
-            We will keep the web server running, accepting jobs and workflows, but there will be a delay in processing them.
-            The running jobs, at that date, will be interrupted and rescheduled for a new start (from scratch, no intermediate results can be saved) 
-            as soon as the cloud is available again.
-            Please take it into account in your job schedule.
-            
+            The FTP service is currently unavailable. We are working to recover it as soon as possible.
+                        
             Sorry for the inconvenience.
 
 #- title: Limited computing capacity on next September 17th, 2021
