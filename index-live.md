@@ -139,7 +139,7 @@ margin: auto;
     </a>
 
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_metashark" target="_top">
-      <img class="card-img-top" src="/assets/media/interactive/Metashark2.jpg" title="MetaShARK (Metadata Shiny Automated Resources and Knowledge) is a tool designed to generate, notably through automatic inference, metadata through Ecological Metadata Language standard" />
+      <img class="card-img-top" src="/assets/media/interactive/Metashark2.png" title="MetaShARK (Metadata Shiny Automated Resources and Knowledge) is a tool designed to generate, notably through automatic inference, metadata through Ecological Metadata Language standard" />
       <h2>MetaShARK</h2>
       <p class="textcard">Generate Metadata from data using EML standard</p>
     </a>
