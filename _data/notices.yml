@@ -115,7 +115,7 @@
 #  messages:
 #      - message: |
 #          The Freiburg Galaxy team will be striking on 25.09.2020. No new jobs will be processed on that Friday!
-#          For more information please see our [blog post](https://usegalaxy-eu.github.io/posts/2020/09/11/we-are-striking-really/plain.html).
+#          For more information, please see our [blog post](https://usegalaxy-eu.github.io/posts/2020/09/11/we-are-striking-really/plain.html).
 
 #- title: Enough talking - time to act!
 #  class: danger # one of [success, info, warning, danger]
@@ -123,12 +123,12 @@
 #  messages:
 #      - message: |
 #          The Freiburg Galaxy team will be striking on 24.09.2021. No new jobs will be processed on that Friday!
-#          For more information please see our [blog post](https://usegalaxy-eu.github.io/posts/2021/09/17/we-are-striking-really/plain.html).
+#          For more information, please see our [blog post](https://usegalaxy-eu.github.io/posts/2021/09/17/we-are-striking-really/plain.html).
 
 - title: Enough talking - time to act!
   class: danger # one of [success, info, warning, danger]
   site: freiburg
   messages:
       - message: |
-          The Freiburg Galaxy team will be striking on 25.03.2021. No new jobs will be processed on that Friday!
-          For more information please see our [blog post](https://usegalaxy-eu.github.io/posts/2022/03/23/we-are-striking-really/plain.html).
+          The Freiburg Galaxy team will be striking on 25.03.2021. 
+          For more information, please see our [blog post](https://usegalaxy-eu.github.io/posts/2022/03/23/we-are-striking-really/plain.html).
