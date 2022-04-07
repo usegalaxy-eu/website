@@ -18,7 +18,7 @@ The T2T-CHM13v2.0 reference genome, generated primarily by long-read sequencing,
 
 Compared to the latest version of the human reference genome GRCh38, it adds nearly 200 million base pairs of novel DNA sequences, revealing 2,880 genes with not assined ortologs in GRCh38 and nearly 2,000 candidate new genes. The filled gaps include the entire short arms of five human chromosomes and cover some of the most complex regions of the genome. In addition, it corrects thousands of structural errors, including the complete structure of the Y chromosome for the first time.
 
-This genome is now available as built-in indexed genome in the wide collection of mapping tools that Galaxy puts at your disposal (e.g. RNASTAR, HISAT2, BWA-MEM). Enjoy your research!
+This genome is now available as built-in indexed genome in the wide collection of mapping tools that Galaxy puts at your disposal (e.g. [RNASTAR](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.8a+galaxy0), [HISAT2](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy0), [BWA-MEM](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2)). Enjoy your research!
         
 <br>
 
