@@ -35,5 +35,5 @@ decide about their preferred quota limits, the level of data backup policies and
 
 The system is very flexible and we could enable research networks, like the German CRCs, in the same way the participation in the European Galaxy project
 and offer sustainable storage solutions for their researchers. It is to be noted that this covers the technical aspect of storage infrastructure but
-is only a small aspect of RDM - for which NFDI and Galaxy provide additional solutions. Please get in contact with us if you want to learn more about RDM.
+is only a small aspect of RDM - for which NFDI and Galaxy provide additional solutions. Please [get in contact](mailto:contact@usegalaxy.eu) with us if you want to learn more about RDM.
 
