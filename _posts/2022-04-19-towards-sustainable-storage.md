@@ -11,7 +11,7 @@ supporters:
 - elixir
 ---
 
-tl;dr: Research groups and networks can include their own storage into the Europan Galaxy server and decide about quota and data policies.
+tl;dr: Research groups and networks can include their own storage into the European Galaxy server and decide about quota and data policies.
 
 <hr/>
 
