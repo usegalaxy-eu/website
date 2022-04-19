@@ -27,11 +27,7 @@ very generous in extending the user storage via our quota-request form - and we 
 Going forward, we have [enabled](https://github.com/usegalaxy-eu/sorting-hat/pull/9/) an additional strategy that makes it possible to
 <b>include storage provided by partner consortia in a very transparent way into the European Galaxy Server</b> to increase quota to all consortia members.
 
-Demonstrator: The [NFDI](https://www.nfdi.de) (National research Data Infrastructure) is building Research Data Management (RDM) communities in Germany and one of them
-is [DataPLANT](https://nfdi4plants.de). DataPLANT has access to the [bwSFS](https://www.alwr-bw.de/bwsfs/), a state funded storage for scientists
-and in this case in particular for fundamental plant research. In cooperation with DataPLANT we have included part of this storage into Galaxy
-and have configured Galaxy to store data from users associated with DataPLANT on this particular storage only. This enables DataPLANT now to
-decide about their preferred quota limits, the level of data backup policies and fosters the participation of NFDI with the Galaxy project.
+An exemplary use case is the [DataPLANT](https://nfdi4plants.de) consortium, part of [NFDI](https://www.nfdi.de) (National Research Data Infrastructure), which builds Research Data Management (RDM) communities in Germany. DataPLANT focuses on fundamental plant research and has access to the [bwSFS](https://www.alwr-bw.de/bwsfs/), a state-funded storage for scientists. In cooperation with DataPLANT, we have included part of this storage into Galaxy and configured it so that users associated with DataPLANT store data on this particular storage only. This enables DataPLANT to decide on their preferred quota limits and manage the level of data backup policies. It also enhances the collaboration of NFDI consortia with the Galaxy project.
 
 The system is very flexible and we could enable research networks, like the German CRCs, in the same way the participation in the European Galaxy project
 and offer sustainable storage solutions for their researchers. It is to be noted that this covers the technical aspect of storage infrastructure but
