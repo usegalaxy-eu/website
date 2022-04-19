@@ -19,7 +19,7 @@ If people ask us what do they need to run a Galaxy service, one of our answers i
 "Storage is always the bottleneck. Try to get your hands on enough storage, this provides your users freedom to play around with their data."
 The European Galaxy server, thanks to the de.NBI cloud and the Uni-Freiburg compute center, manages 2 PB of data as of today (2022/04).
 Users do use this storage for free, public institutions are paying for the freedom of science and against being locked in into some commercial system.
-Everyone gets a fair share of the storage, on the [EU Galaxy server](https://usegalaxy.eu) those are 250GB for every user.
+Everyone gets a fair share of the storage, on the [EU Galaxy server](https://usegalaxy.eu) those are 250 GB for every user.
 This system works and has served us well for many years. However, different user groups have different needs and a
 few user groups provide funding to the global infrastructure in one way or the other. Our solution until now was to be
 very generous in extending the user storage via our quota-request form - and we will try to do so as much as we can increase our storage capacity with future grants.
