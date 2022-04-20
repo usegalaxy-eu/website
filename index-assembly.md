@@ -36,8 +36,8 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 We are working on a training with the objective of explaining how to execute the VGP genome assembly pipeline in Galaxy. You can find a draft in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org/training-material//topics/assembly/tutorials/vgp_genome_assembly/tutorial.html){:target="_blank"}.
 
 <div align="center">
-<a href="https://training.galaxyproject.org/training-material//topics/assembly/tutorials/vgp_genome_assembly/tutorial.html" target="_blank"><button type="button" class="btn btn-primary btn-lg">VGP Training</button></a>&nbsp;&nbsp;&nbsp;
-<a href="https://assembly.usegalaxy.eu/u/delphine-l/h/vgp---phased-assembly---yeast-example"><button type="button" class="btn btn-primary btn-lg">Open example history</button></a>
+<a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_workflow_training/tutorial.html" target="_blank"><button type="button" class="btn btn-primary btn-lg">VGP Training</button></a>&nbsp;&nbsp;&nbsp;
+<a href="https://assembly.usegalaxy.eu/u/gallardoalba/h/vgp-example-history"><button type="button" class="btn btn-primary btn-lg">Open example history</button></a>
 </div>
 
 <br>
