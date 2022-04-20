@@ -29,6 +29,8 @@ Take [a guided tour]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} 
 
 ## MCMICRO core tools
 
+All of the Galaxy tools for MCMICRO have been developed by the [Goecks lab](https://www.ohsu.edu/people/jeremy-goecks-phd) at the [Oregon Health and Science University Computational Biology](https://github.com/ohsu-comp-bio).
+
 Tool | Description | Reference
 --- | --- | ---
 {% include tool.html id="basic_illumination" %} | BaSiC shading correction for use with Ashlar| [Peng et al. 2017](https://www.nature.com/articles/ncomms14836){:target="_blank"}
