@@ -7,8 +7,6 @@ subdomain: spatialomics
 # Welcome to the Spatial OMICS Galaxy subdomain server
 {:.no_toc}
 
-![](/assets/media/spatial_omics_logo.png){:.rna-intro-right}
-
 The SpatialOMICS Galaxy subdomain serves as a hub for all tools related to the analysis of highly-multiplexed image analysis. This server currently features the individual components of the [MCMICRO](https://mcmicro.org/) pipeline, including [BaSiC](https://github.com/ohsu-comp-bio/basic-illumination) for illumination correction, [ASHLAR](https://github.com/ohsu-comp-bio/ashlar) for stitching and registration, [Coreograph](https://github.com/ohsu-comp-bio/UNetCoreograph) to dearray tissue microarrays (TMAs), [UnMICST](https://github.com/ohsu-comp-bio/UnMicst) to create cell or nucleai probability maps, [S3segmenter](https://github.com/ohsu-comp-bio/S3segmenter) for nucleai and cell segmentation and [MCQuant](https://github.com/ohsu-comp-bio/quantification) for feature quantification. More tools for image analysis outside the MCMICRO ecosystem will be added in the future.
 
 This subdomain is a collaborative effort and we welcome any suggestions or requests for making tools related to spatia OMICS analysis available on this server. We also welcome contributions to the development of new tools, workflows or trainings!
