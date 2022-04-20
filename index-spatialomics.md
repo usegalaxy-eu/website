@@ -55,5 +55,5 @@ Two workflows are currently available to process your samples using the MCMICRO 
 - [Denis Schapiro](https://github.com/DenisSch)
 - [Bjoern Gruening](https://github.com/bgruening)
 - [Jeremy Goecks](https://github.com/jgoecks)
-- Cameron Watson
+- [Cameron Watson](https://github.com/CameronFRWatson)
 - [Allison Creason](https://github.com/alliecreason)
