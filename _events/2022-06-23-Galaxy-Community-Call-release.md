@@ -1,5 +1,5 @@
 ---
-site: 
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: 
 title: "Galaxy Community Call: Release 22.05"
 starts: 2022-06-23
