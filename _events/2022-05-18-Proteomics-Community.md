@@ -1,5 +1,5 @@
 ---
-site: 
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest] 
 tags: 
 title: "International Galaxy Proteomics community meeting"
 starts: 2022-05-18
