@@ -16,7 +16,7 @@ which guarantees simple access, easy extension, flexible adaption to personal an
 
 ## Vertebrate Genomes Project
 <br>
-This workbench is also optimized to include all data, tools, and workflows associated with the __[Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org/)__. All raw data published by the VGP is available from the remote data repository __Genome Ark__ in the data uploader. The VGP assembly workflows are available from the __Workflows__ tab within __Shared Data__. As new assemblies are generated, they will appear in __Histories__  in the __Shared Data__ tab.
+This workbench is also optimized to include all data, tools, and workflows associated with the __[Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org/)__. All raw data published by the VGP is available from the remote data repository __Genome Ark__ in the data uploader. The VGP assembly workflows are available from the __Workflows__ tab within __Shared Data__. As new assemblies are generated, they will appear in __Histories__  in the __Shared Data__ tab. Currently, we have assembled **<b>19</b>** genomes.
 
 
 <br>
@@ -68,7 +68,7 @@ SARS-CoV-2 assembly with removing human reads | [<i class="fa fa-laptop" aria-hi
 
 If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
 
-    
+
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/lDqWxzWNk1k"
 title="YouTube video player"
@@ -87,7 +87,7 @@ allowfullscreen></iframe>
 <br>
 
 
-    
+
 # Partners
 
 This service is a joint project between different groups from the [Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org){:target="_blank"}, the [European Reference Genome Atlas project](https://vertebrategenomesproject.org/erga){:target="_blank"}, and the [Galaxy project](https://galaxyproject.org){:target="_blank"}.
