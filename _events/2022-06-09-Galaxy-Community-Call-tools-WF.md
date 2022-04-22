@@ -1,5 +1,5 @@
 ---
-site: 
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: 
 title: "Galaxy Community Call: Automatic updates of Galaxy tools and workflows"
 starts: 2022-06-09
