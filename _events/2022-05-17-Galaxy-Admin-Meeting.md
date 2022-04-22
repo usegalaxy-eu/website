@@ -10,3 +10,4 @@ supporters:
 external: "https://galaxyproject.org/events/2022-05-small-scale/"
 ---
 
+The Galaxy Small Scale Galaxy Admins Meeting are organised by the "Small Scale Servers" subcommittee of the Global Galaxy Steering Committee, and are taking place every two months.
