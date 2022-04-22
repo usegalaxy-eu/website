@@ -1,5 +1,5 @@
 ---
-site: 
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: training
 title: "Introduction to metabolomics analysis"
 starts: 2022-05-24
