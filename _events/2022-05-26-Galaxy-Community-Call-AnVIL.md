@@ -1,5 +1,5 @@
 ---
-site: 
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest] 
 tags: 
 title: "Galaxy Community Call: Galaxy on AnVIL"
 starts: 2022-05-26
