@@ -1,5 +1,5 @@
 ---
-site: 
+site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: training
 title: "Summer School in Bioinformatics"
 starts: 2022-06-13
