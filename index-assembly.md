@@ -33,11 +33,12 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 # VGP assembly training
 
-We are working on a training with the objective of explaining how to execute the VGP genome assembly pipeline in Galaxy. You can find a draft in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org/training-material//topics/assembly/tutorials/vgp_genome_assembly/tutorial.html){:target="_blank"}.
+As a result of a collaboration with the VGP team, the Galaxy Training Network has made available two trainings which goal is to describe the VGP pipeline through two complementary approaches: a step-by-step version, and a workflow-focused short version. In the extended version, each of the steps required to run the VGP pipeline is descussed in detail, with particular attention to the algorithms and parameters. On the other hand, the short version provides a quick walkthrough on how the workflows can be used to rapidly assemble a genome using the VGP pipeline with the Galaxy Workflow System.
 
 <div align="center">
-<a href="https://training.galaxyproject.org/training-material//topics/assembly/tutorials/vgp_genome_assembly/tutorial.html" target="_blank"><button type="button" class="btn btn-primary btn-lg">VGP Training</button></a>&nbsp;&nbsp;&nbsp;
-<a href="https://assembly.usegalaxy.eu/u/delphine-l/h/vgp---phased-assembly---yeast-example"><button type="button" class="btn btn-primary btn-lg">Open example history</button></a>
+<a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html" target="_blank"><button type="button" class="btn btn-primary btn-lg">VGP Step-by-Step Training</button></a>&nbsp;&nbsp;&nbsp;
+<a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_workflow_training/tutorial.html" target="_blank"><button type="button" class="btn btn-primary btn-lg">VGP Workflow-Focused Training</button></a>&nbsp;&nbsp;&nbsp;
+<a href="https://assembly.usegalaxy.eu/u/gallardoalba/h/vgp-example-history"><button type="button" class="btn btn-primary btn-lg">Open example history</button></a>
 </div>
 
 <br>
