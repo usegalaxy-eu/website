@@ -24,7 +24,7 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
             commit-message: Update VGP Genome count
-            title: Update VGB Genome count
+            title: Update VGP Genome count
             body: |
               This is an auto-generated PR with the updated `genome count` of the [Galaxy Assembly](https://assembly.usegalaxy.eu) site.
             branch: update-genome-count
