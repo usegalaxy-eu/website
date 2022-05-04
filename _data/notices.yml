@@ -91,12 +91,12 @@
           Научное сообщество создало постоянно обновляемый [список лабораторий](https://bit.ly/ua-table){:target="_blank"}, которые могут принять украинских ученых (включая аспирантов). К тому же, Galaxy Project имеет открытые позиции на своих европейских и американских сайтах.  Контактируйте нас используя <a href= "mailto:ukraine@galaxyproject.org">ukraine@galaxyproject.org</a> 🇺🇦
 
 
-- title: Galaxy server upgrade
-  class: info # one of [success, info, warning, danger]
-  site: freiburg # Your site
-  messages:
-      - message: |
-            On May 4th, we will upgrade the Galaxy server to the new release. Some short service interruptions could happen throughout the day.
+#- title: Galaxy server upgrade
+#  class: info # one of [success, info, warning, danger]
+#  site: freiburg # Your site
+#  messages:
+#      - message: |
+#            On May 4th, we will upgrade the Galaxy server to the new release. Some short service interruptions could happen throughout the day.
 
 
 #- title: Limited computing capacity on next September 17th, 2021
