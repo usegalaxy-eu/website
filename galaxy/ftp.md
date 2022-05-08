@@ -10,7 +10,7 @@ permalink: /ftp/
 
 We integrated a new way to upload data into Galaxy based on the [tus.io](https://tus.io/). This will enable our users to upload
 large amounts of data via the web-interface in a more reliable way and with resumable file upload support. This also means that the 1GB limit
-for uploads via your browser does __not__ exist anmore ✨ . If this scales well over the next month and you are happy, we would like to retire
+for uploads via your browser does __not__ exist anymore ✨ . If this scales well over the next month and you are happy, we would like to retire
 the FTP server and encourage all our users to use the normal upload tool in Galaxy.
 
 Try our the new upload and [let us know how it goes]](mailto:galaxy@informatik.uni-freiburg.de?subject=Tus.io+feedback).
