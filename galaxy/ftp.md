@@ -4,9 +4,21 @@ title: FTP service instructions
 permalink: /ftp/
 ---
 
-# UseGalaxy.eu FTP Server
+-------
 
-## Servers
+## We need your help and feedback ✨ 
+
+We integrated a new way to upload data into Galaxy based on the [tus.io](https://tus.io/). This will enable our users to upload
+large amounts of data via the web-interface in a more reliable way and with resumable file upload support. This also means that the 1GB limit
+for uploads via your browser does __not__ exist anymore ✨ . If this scales well over the next month and you are happy, we would like to retire
+the FTP server and encourage all our users to use the normal upload tool in Galaxy.
+
+Try our the new upload and [let us know how it goes]](mailto:contact@informatik.uni-freiburg.de?subject=Tus.io+feedback).
+
+-------
+
+
+# UseGalaxy.eu FTP Server
 
 Server                   | Port | Properties
 -----------------------  | ---- | ----
@@ -58,5 +70,5 @@ If you are experiencing a __"Connection timed out after 20 seconds of inactivity
 For more information on using FTP with Galaxy, please see the [official
 documentation](https://galaxyproject.org/ftp-upload/). As always, don't
 hesitate to send us an
-[Email](mailto:galaxy@informatik.uni-freiburg.de?subject=FTP+Issue) if you
+[Email](mailto:contact@informatik.uni-freiburg.de?subject=FTP+Issue) if you
 have any issues.
