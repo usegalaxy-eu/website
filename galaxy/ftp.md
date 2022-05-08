@@ -13,7 +13,7 @@ large amounts of data via the web-interface in a more reliable way and with resu
 for uploads via your browser does __not__ exist anymore ✨ . If this scales well over the next month and you are happy, we would like to retire
 the FTP server and encourage all our users to use the normal upload tool in Galaxy.
 
-Try our the new upload and [let us know how it goes]](mailto:galaxy@informatik.uni-freiburg.de?subject=Tus.io+feedback).
+Try our the new upload and [let us know how it goes]](mailto:contact@informatik.uni-freiburg.de?subject=Tus.io+feedback).
 
 -------
 
