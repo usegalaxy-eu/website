@@ -70,5 +70,5 @@ If you are experiencing a __"Connection timed out after 20 seconds of inactivity
 For more information on using FTP with Galaxy, please see the [official
 documentation](https://galaxyproject.org/ftp-upload/). As always, don't
 hesitate to send us an
-[Email](mailto:galaxy@informatik.uni-freiburg.de?subject=FTP+Issue) if you
+[Email](mailto:contact@informatik.uni-freiburg.de?subject=FTP+Issue) if you
 have any issues.
