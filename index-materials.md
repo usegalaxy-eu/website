@@ -33,13 +33,22 @@ Anybody interested in materials science in Galaxy is welcome to join our Materia
 
 - Join the Discussion! [Matrix Chat](https://matrix.to/#/#galaxyproject_materials-science:matrix.org)
 
-
 ## Tools
+
+Coming soon!
+
+<!-- coming soon to the tool shed
+
 Many tools are available for materials analysis in this custom Galaxy instance, including:
 
 - **Muon spectroscopy tools**
     - **Stopping site analysis**: pymuon-suite
     - **Muon experiment spin dynamics**: muspinsim
+-->
+
+## Workflows
+
+Coming soon!
 
 ## Tutorials
 
