@@ -25,6 +25,27 @@
   {% endif %}
 {% endif %}
 
+{% if key_length == 0 %}
+  {% comment %}
+    We're on the main page, not a member site. The key has a length of 0 and renders as "", but it doesn't equal "".
+  {% endcomment %}
+  {% assign subsite = "eu" %}
+{% else %}
+  {% assign subsite = key %}
+{% endif %}
+
+<div class="alert alert-danger" style="margin-top: 0.5em">
+	<h4>Galaxy News is moving!</h4>
+	<div>
+    <p>
+      You can find new updates at
+      <a target="_blank" href="https://galaxyproject.org/{{ subsite }}/news/"
+        >https://galaxyproject.org/{{ subsite }}/news/</a>.
+    </p>
+    <p>This page will no longer be updated.</p>
+  </div>
+</div>
+
 <script>
   const load = () => {
     const urlParams = new URLSearchParams(window.location.search);
