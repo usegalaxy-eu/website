@@ -10,4 +10,4 @@ supporters:
 external: "https://galaxyproject.org/events/2022-08-04-community-call"
 ---
 
-
+A forum to share updates and discuss community-wide topics.
