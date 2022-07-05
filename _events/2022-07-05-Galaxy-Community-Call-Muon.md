@@ -9,4 +9,4 @@ location:  online
 external: "https://galaxyproject.org/events/2022-10-13-community-call"
 ---
 
-A forum to share updates and discuss community-wide topics
+A forum to share updates and discuss community-wide topics.
