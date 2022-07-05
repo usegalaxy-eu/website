@@ -10,4 +10,4 @@ supporters:
 external: "https://galaxyproject.org/events/2022-11-b-h2022"
 ---
 
-BioHackathon activities are driven by practical sessions where people gather, discuss, and implement ideas and projects during intensive and productive coding sessions 
+BioHackathon activities are driven by practical sessions where people gather, discuss, and implement ideas and projects during intensive and productive coding sessions.
