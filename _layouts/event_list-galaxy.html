@@ -14,18 +14,8 @@ layout: default-galaxy
 {% else %}
   {% assign subsite = key %}
 {% endif %}
-
-<div class="alert alert-danger" style="margin-top: 0.5em">
-	<h4>Galaxy Events is moving!</h4>
-	<div>
-    <p>
-      You can find new updates at
-      <a target="_blank" href="https://galaxyproject.org/{{ subsite }}/events/"
-        >https://galaxyproject.org/{{ subsite }}/events/</a>.
-    </p>
-    <p>This page will no longer be updated.</p>
-  </div>
-</div>
+{% assign redirect = "https://galaxyproject.org/" | append: subsite | append: "/events/" %}
+{% include deprecation_notice.html name="Galaxy Events" redirect=redirect %}
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 <section class="page-header">
