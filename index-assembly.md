@@ -9,17 +9,16 @@ gitter: usegalaxy-eu/Lobby
 
 # Welcome to Galaxy for Genome Assembly
 {:.no_toc}
-<br>
 The __Genome Assembly Workbench__ is a comprehensive set of analysis tools and consolidated workflows to assist in Genome Assembly.
 The workbench is based on the [Galaxy framework](https://galaxyproject.org){:target="_blank"},
 which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
 ## Vertebrate Genomes Project
-<br>
-This workbench is also optimized to include all data, tools, and workflows associated with the __[Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org/)__. All raw data published by the VGP is available from the remote data repository __Genome Ark__ in the data uploader. The VGP assembly workflows are available from the __Workflows__ tab within __Shared Data__. As new assemblies are generated, they will appear in __Histories__  in the __Shared Data__ tab. Currently, we have assembled **<b>23</b>** genomes.
+The workbench is optimized to include all data, tools, and workflows associated with the __[Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org/)__. All raw data published by the VGP is available from the remote data repository __Genome Ark__ in the data uploader. The VGP assembly workflows are available from the __Workflows__ tab within __Shared Data__. As new assemblies are generated, they will appear in __Histories__  in the __Shared Data__ tab. Currently, we have assembled **<b>23</b>** genomes.
 
+## Human Pangenome Reference Project
+The workbench has partnered with the __[Human Pangenome Reference Consortium (HPRC)](https://humanpangenome.org/)__ to provide the latest genome assembly resources for the generation of high-quality diploid reference genomes. High-quality human datasets are available through the consortium, including multiple datatypes for the [HG002](https://github.com/human-pangenomics/HG002_Data_Freeze_v1.0) benchmark and dozens of individuals from the [1000 Genomes Project](https://github.com/human-pangenomics/HPP_Year1_Assemblies). All data can directly be imported in Galaxy as input to the workflows.
 
-<br>
 # Content
 {:.no_toc}
 
@@ -87,11 +86,8 @@ allowfullscreen></iframe>
 
 <br>
 
-
-
 # Partners
-
-This service is a joint project between different groups from the [Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org){:target="_blank"}, the [European Reference Genome Atlas project](https://vertebrategenomesproject.org/erga){:target="_blank"}, and the [Galaxy project](https://galaxyproject.org){:target="_blank"}.
+This service is a joint project between different groups from the [Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org){:target="_blank"}, the [European Reference Genome Atlas project](https://vertebrategenomesproject.org/erga){:target="_blank"}, the [Human Pangenome Reference Consortium (HPRC)](https://humanpangenome.org/), and the [Galaxy project](https://galaxyproject.org){:target="_blank"}.
 The service is part of the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
 
 <div align="center">
@@ -102,8 +98,12 @@ The service is part of the European Galaxy server and is maintained by the [RNA 
         <img alt="VGP" src="/assets/media/vgp_logo.png" />
     </td>
 <td with="40%"></td>
-    <td width="20%">
+    <td width="16%">
         <img alt="ERGA" src="/assets/media/erga_logo.png" />
+    </td>
+<td with="40%"></td>
+    <td width="20%">
+        <img alt="HPRC" src="/assets/media/hprc_logo.png" />
     </td>
 <td with="10%"></td>
 </tr>
