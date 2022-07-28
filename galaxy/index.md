@@ -2,9 +2,6 @@
 layout: galaxy
 ---
 
-<a href="https://galaxyproject.org/events/gcc2022/">
-  <img src="/assets/media/gcc2022-schedule-glance.png" width="50%" />
-</a>
 {% include home_quote.html %}
 {% include home_news_events-galaxy.html %}
 {% include jobs_graph.html %}
