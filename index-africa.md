@@ -48,4 +48,5 @@ Machine learning
   
 # Appreciation
 We sincerely appreciate the efforts of all individuals and their organizations for supporting the African Galaxy Instance. Join the community [here](https://gitter.im/GalaxyAfrica/community)
+
 {% bibliography --cited --prefix index-africa --group_by none %}
