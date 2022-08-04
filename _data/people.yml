@@ -235,6 +235,18 @@ freiburg:
         researchgate: Sanjay-Kumar-Srikakulam
         galaxyadmin: true
 
+    itisAliRH:
+        name: Alireza Heidari
+        title: B.Sc. Computer Science, Engineer, UI/UX
+        email: alirh@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: itisAliRH
+        matrix: "@itisAliRH:matrix.org"
+        twitter: itisAliRH
+        linkedin: itisAliRH
+        
+
 erasmusmc:
     andrew-emc:
         name: Andrew Stubbs
