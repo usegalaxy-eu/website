@@ -8,7 +8,7 @@ organiser:
   name: Penn State University
   email: galaxy@informatik.uni-freiburg.de
 location:
-  city: Penn State
+  city: fr
   region: Pennsylvania
   country: USA
 supporters:
