@@ -1,3 +1,4 @@
+---
 site: freiburg
 tags: [conference]
 title: "EuroScienceGateway Kick-off Meeting"
