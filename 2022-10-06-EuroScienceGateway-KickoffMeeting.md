@@ -19,7 +19,7 @@ supporters:
 ---
 
 Within the **European Galaxy Days**, the **EuroScienceGateway consortium of 18 partners** will get together in Freiburg, Germany, 
-for a **2-day Kick-off Meeting**, organized by the coordinators of the project, **Albert-Ludwigs-University Freiburg**. 
+for a **2-day Kick-off Meeting**, organized by the coordinator of the project, **Albert-Ludwigs-University Freiburg**. 
 The partners will have the opportunity to plan together the next steps in the project, with the purpose of achieving the expected 
 outcomes of the project and deliver the results on each Work Package in a timely and effective manner.
 
@@ -31,4 +31,4 @@ The EuroScienceGateway project consists of **5 Work Packages**, on the following
 *WP5: Community engagement, adoption and onboarding*
  
 Following this meeting, the partners, universities and research centers from all across Europe, will be guided in their actions towards the achievement of the results by the work package leaders and the coordinators of the action. The overall objective of the 36-month EuroScienceGateway project, is to achieve a shared vision of an open collaborative digital space for European scientists.
-For more information about the event, please access: [European Galaxy Days (EGD) - Galaxy Community Hub](https://www.galaxyproject.org) 
+For more information about the event, please access: [European Galaxy Days (EGD) - Galaxy Community Hub]( https://galaxyproject.org/events/2022-10-egd/) 
