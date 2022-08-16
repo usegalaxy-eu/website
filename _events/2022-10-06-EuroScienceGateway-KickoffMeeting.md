@@ -31,4 +31,4 @@ The EuroScienceGateway project consists of **5 Work Packages**, on the following
 *WP5: Community engagement, adoption and onboarding*
  
 Following this meeting, the partners, universities and research centers from all across Europe, will be guided in their actions towards the achievement of the results by the work package leaders and the coordinators of the action. The overall objective of the 36-month EuroScienceGateway project, is to achieve a shared vision of an open collaborative digital space for European scientists.
-For more information about the event, please access: [European Galaxy Days (EGD) - Galaxy Community Hub]( https://galaxyproject.org/events/2022-10-egd/) 
+For more information about the event, please access: [European Galaxy Days (EGD) - Galaxy Community Hub](https://galaxyproject.org/events/2022-10-egd/) 
