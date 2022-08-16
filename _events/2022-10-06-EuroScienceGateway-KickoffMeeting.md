@@ -14,7 +14,7 @@ location:
   region: Baden-Württemberg
   country: Germany
 supporters:
-- european commission
+- eu
 - elixir
 ---
 
