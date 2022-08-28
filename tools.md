@@ -2,11 +2,11 @@
 layout: default
 ---
 
-# European Galaxy tools (2909 and counting)
+# European Galaxy tools (2910 and counting)
 <hr/>
 <h3>Get Data</h3>
-<a href="https://usegalaxy.eu/root?tool_id=upload1" title="from your computer"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Upload File</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=datasets_download_genome" title="download genome sequence, annotation and metadata"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">NCBI Datasets Genomes</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=upload1" title="from your computer"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Upload File</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ucsc_table_direct1" title="table browser"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">UCSC Main</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ucsc_table_direct_archaea1" title="table browser"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">UCSC Archaea</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ncbi_datasets_source" title="import data from the NCBI Datasets Genomes page"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">NCBI Datasets Genomes</button></a>
@@ -578,6 +578,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=fraggenescan" title="for finding (fragmented) genes in short reads"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">FragGeneScan</button></a>
 <hr/><h2>Genomics Analysis</h2>
 <h3>Annotation</h3>
+<a href="https://usegalaxy.eu/root?tool_id=gubbins" title="Recombination detection in Bacteria"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Gubbins</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=orthofinder_onlygroups" title="finds orthogroups in a set of proteomes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">OrthoFinder</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=annotatemyids" title="annotate a generic set of identifiers"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">annotateMyIDs</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=interproscan" title="functional annotation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">InterProScan</button></a>
@@ -668,7 +669,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=smf_utils_filter-by-energy" title="Split entries over two files based on the estimated energy"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">filter-by-energy</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=smf_utils_extract-boxed-sequences" title="Extracts boxed sequences from bed_input_file which has to be created with 'find-box', part of this utility"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">extract-boxed-sequences</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=segmentation_fold" title="RNA-Folding including predefined segments including K-turns"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">segmentation-fold</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=gubbins" title="Recombination detection in Bacteria"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Gubbins</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=Probmetab" title="Wrapper function for ProbMetab R package."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ProbMetab Tool</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=lcmsmatching" title="Annotation of MS peaks using matching on a spectra database."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">LC/MS matching</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=Nucleosome" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Nucleosome Predictions</button></a>
@@ -850,6 +850,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=bwa_mem2" title="- map medium and long reads (> 100 bp) against reference genome"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BWA-MEM2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bbtools_bbmap" title="short-read aligner"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BBTools: BBMap</button></a>
 <h3>Variant Calling</h3>
+<a href="https://usegalaxy.eu/root?tool_id=gatk4_mutect2" title="- Call somatic SNVs and indels via local assembly of haplotypes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GATK4 Mutect2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bcftools_isec" title="Create intersections, unions and complements of VCF files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">bcftools isec</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bcftools_mpileup" title="Generate VCF or BCF containing genotype likelihoods for one or multiple alignment (BAM or CRAM) files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">bcftools mpileup</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=snpEff_build_gb" title="database from Genbank or GFF record"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">SnpEff build:</button></a>
@@ -888,7 +889,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=sniffles" title="Structural variation caller using third generation sequencing"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">sniffles</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=vardict_java" title="calls SNVs and indels for tumor-normal pairs"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">VarDict</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=control_freec" title="detects copy-number changes and allelic imbalances"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Control-FREEC</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=gatk4_mutect2" title="- Call somatic SNVs and indels via local assembly of haplotypes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GATK4 Mutect2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bcftools_concat" title="Concatenate or combine VCF/BCF files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">bcftools concat</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=snpeff_sars_cov_2" title="annotate variants for SARS-CoV-2"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">SnpEff eff:</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=lofreq_viterbi" title="with LoFreq viterbi"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Realign reads</button></a>
@@ -992,6 +992,8 @@ layout: default
 <h3>RNA-Seq</h3>
 <a href="https://usegalaxy.eu/root?tool_id=blockbuster" title="detects blocks of overlapping reads using a gaussian-distribution approach"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">blockbuster</button></a>
 <h3>RNA Analysis</h3>
+<a href="https://usegalaxy.eu/root?tool_id=circexplorer2" title="circular RNA analysis"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">CIRCexplorer2</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=deseq2" title="Determines differentially expressed features from count tables"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">DESeq2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=arriba" title="detect gene fusions from STAR aligned RNA-Seq data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Arriba</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=arriba_get_filters" title="to history"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Arriba Get Filters</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=arriba_draw_fusions" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Arriba Draw Fusions</button></a>
@@ -1026,7 +1028,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=cummeRbund" title="visualize Cuffdiff output"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">cummeRbund</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=htseq_count" title="- Count aligned reads in a BAM file that overlap features in a GFF file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">htseq-count</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=salmon" title="Perform dual-phase, reads or mapping-based estimation of transcript abundance from RNA-seq reads"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Salmon quant</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=deseq2" title="Determines differentially expressed features from count tables"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">DESeq2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=stringtie" title="transcript assembly and quantification"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">StringTie</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=stringtie_merge" title="transcripts"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">StringTie merge</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=trinity_align_and_estimate_abundance" title="on a de novo assembly of RNA-Seq data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Align reads and estimate abundance</button></a>
@@ -1288,6 +1289,11 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=hgv_lps" title="LASSO-Patternsearch algorithm"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">LPS</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=master2pgSnp" title="Convert from MasterVar to pgSnp format"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MasterVar to pgSnp</button></a>
 <h3>Single-cell</h3>
+<a href="https://usegalaxy.eu/root?tool_id=raceid_inspecttrajectory" title="inspects branches of a lineage tree"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Lineage Branch Analysis using StemID</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=raceid_trajectory" title="generates lineage from prior clustering"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Lineage computation using StemID</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=raceid_clustering" title="performs clustering, outlier detection, dimensional reduction"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Clustering using RaceID</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=raceid_filtnormconf" title="performs filtering, normalisation, and confounder removal to generate a normalised and filtered count matrix of single-cell RNA data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Initial processing using RaceID</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=raceid_inspectclusters" title="examines gene expression within clusters"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Cluster Inspection using RaceID</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=anndata_inspect" title="object"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Inspect AnnData</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=anndata_manipulate" title="object"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Manipulate AnnData</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=anndata_export" title="Interconvert AnnData and Loom formats"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Export AnnData and loom files</button></a>
@@ -1317,11 +1323,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=scater_normalize" title="Compute normalised expression values for SCE"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Scater: normalize SCE</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=scater_filter" title="with user-defined parameters or PCA"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Scater: filter SCE</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=scater_create_qcmetric_ready_sce" title="from single-cell expression matrix"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Scater: calculate QC metrics</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=raceid_inspectclusters" title="examines gene expression within clusters"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Cluster Inspection using RaceID</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=raceid_filtnormconf" title="performs filtering, normalisation, and confounder removal to generate a normalised and filtered count matrix of single-cell RNA data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Initial processing using RaceID</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=raceid_clustering" title="performs clustering, outlier detection, dimensional reduction"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Clustering using RaceID</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=raceid_trajectory" title="generates lineage from prior clustering"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Lineage computation using StemID</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=raceid_inspecttrajectory" title="inspects branches of a lineage tree"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Lineage Branch Analysis using StemID</button></a>
 <hr/><h2>Genomics Toolkits</h2>
 <h3>Picard</h3>
 <a href="https://usegalaxy.eu/root?tool_id=picard_MarkDuplicatesWithMateCigar" title="examine aligned records in BAM datasets to locate duplicate molecules"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MarkDuplicatesWithMateCigar</button></a>
@@ -1332,6 +1333,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=picard_QualityScoreDistribution" title="chart quality score distribution"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">QualityScoreDistribution</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=picard_CleanSam" title="perform SAM/BAM grooming"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">CleanSam</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=picard_MeanQualityByCycle" title="chart distribution of base qualities"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MeanQualityByCycle</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=picard_artifact_metrics" title="Collect metrics to quantify single-base sequencing artifacts"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Picard Collect Sequencing Artifact Metrics</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=picard_CollectBaseDistributionByCycle" title="charts the nucleotide distribution per cycle in a SAM or BAM dataset"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">CollectBaseDistributionByCycle</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=picard_NormalizeFasta" title="normalize fasta datasets"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">NormalizeFasta</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=picard_EstimateLibraryComplexity" title="assess sequence library complexity from read sequences"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">EstimateLibraryComplexity</button></a>
@@ -1360,7 +1362,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=PicardInsertSize" title="for PAIRED data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Insertion size metrics</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=rgPicFixMate" title="for paired data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Paired Read Mate Fixer</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=picard_CollectHsMetrics" title="compute metrics about datasets generated through hybrid-selection (e.g. exome)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">CollectHsMetrics</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=picard_artifact_metrics" title="Collect metrics to quantify single-base sequencing artifacts"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Picard Collect Sequencing Artifact Metrics</button></a>
 <h3>deepTools</h3>
 <a href="https://usegalaxy.eu/root?tool_id=deeptools_bam_compare" title="normalizes and compares two BAM or CRAM files to obtain the ratio, log2ratio or difference between them"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">bamCompare</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=deeptools_bam_coverage" title="generates a coverage bigWig file from a given BAM or CRAM file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">bamCoverage</button></a>
@@ -1658,6 +1659,9 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=mimodd_sort" title="takes a SAM/BAM dataset and generates a coordinate/name-sorted copy"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MiModD Sort</button></a>
 <hr/><h2>Metagenomics</h2>
 <h3>Metagenomic Analysis</h3>
+<a href="https://usegalaxy.eu/root?tool_id=recentrifuge" title="Robust comparative analysis and contamination removal for metagenomics"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Recentrifuge</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=est_abundance" title="Bayesian Reestimation of Abundance with Kraken"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Estimate Abundance at Taxonomic Level</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=srst2" title="Short Read Sequence Typing for Bacterial Pathogens"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">SRST2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=metabat2" title="metagenome binning"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MetaBAT2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=metabat2_jgi_summarize_bam_contig_depths" title="for MetaBAT2"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Calculate contig depths</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=concoct_merge_cut_up_clustering" title="and assign concensus clusters for the original contigs"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">CONCOCT: Merge cut clusters</button></a>
@@ -1716,8 +1720,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=humann2_genefamilies_genus_level" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Create a genus level gene families file</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=das_tool" title="for genome resolved metagenomics"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">DAS Tool</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=Fasta_to_Contig2Bin" title="to scaffolds-to-bin table"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Converts genome bins in fasta format</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=recentrifuge" title="Robust comparative analysis and contamination removal for metagenomics"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Recentrifuge</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=est_abundance" title="Bayesian Reestimation of Abundance with KrakEN"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Estimate Abundance at Taxonomic Level</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ancombc" title="differential abundance analysis"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ANCOM-BC</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=humann2_reduce_table" title="a HUMAnN2 generated table"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Reduce</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=humann2_regroup_table" title="a HUMAnN2 generated table by features"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Regroup</button></a>
@@ -2235,7 +2237,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=quantwiz_iq" title="Isobaric Quantitation using QuantWiz-IQ"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">QuantWiz-IQ</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=peptide_genomic_coordinate" title="Get Peptide's genomic coordinate using mzsqlite DB and genomic mapping sqlite DB"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Peptide Genomic Coordinate</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=reactome_pathwaymatcher" title="PathwayMatcher is a software tool to search for pathways related to a list of proteins in Reactome."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Pathway Matcher</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=maxquant_mqpar" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MaxQuant (using mqpar.xml)</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=peptide_shaker" title="Perform protein identification using various search engines based on results from SearchGUI"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Peptide Shaker</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=rawtools" title="Perform scan data parsing, quantification and quality control analysis of Thermo Orbitrap raw mass spectrometer files."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Raw Tools</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=dia_umpire_se" title="DIA signal extraction"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">DIA_Umpire_SE</button></a>
