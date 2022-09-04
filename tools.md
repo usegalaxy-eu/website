@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# European Galaxy tools (2910 and counting)
+# European Galaxy tools (2912 and counting)
 <hr/>
 <h3>Get Data</h3>
 <a href="https://usegalaxy.eu/root?tool_id=datasets_download_genome" title="download genome sequence, annotation and metadata"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">NCBI Datasets Genomes</button></a>
@@ -694,7 +694,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=bg_find_subsequences" title="providing regions in BED format"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Nucleotide subsequence search</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=rbc_gotohscan" title="Find subsequences in db"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GotohScan</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=CryptoGenotyper" title="classifies Cryptosporidium species subtypes based on SSU rRNA and gp60 gene markers from Sanger sequencing data."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">CryptoGenotyper</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=interproscan" title="Interproscan functional predictions of ORFs"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Interproscan functional predictions of ORFs</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=dgidb_annotator" title="database info"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Annotate with DGI</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=dgidb_annotate" title="database info"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Annotate with DGI</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=hhsearch" title="detecting remote homologues of proteins"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">HHsearch</button></a>
@@ -850,6 +849,8 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=bwa_mem2" title="- map medium and long reads (> 100 bp) against reference genome"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BWA-MEM2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bbtools_bbmap" title="short-read aligner"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BBTools: BBMap</button></a>
 <h3>Variant Calling</h3>
+<a href="https://usegalaxy.eu/root?tool_id=bcftools_plugin_setgt" title="plugin Sets genotypes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">bcftools setGT</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=deepvariant" title="deep learning-based variant caller"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">DeepVariant</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=gatk4_mutect2" title="- Call somatic SNVs and indels via local assembly of haplotypes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GATK4 Mutect2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bcftools_isec" title="Create intersections, unions and complements of VCF files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">bcftools isec</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bcftools_mpileup" title="Generate VCF or BCF containing genotype likelihoods for one or multiple alignment (BAM or CRAM) files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">bcftools mpileup</button></a>
@@ -976,7 +977,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=bcftools_convert_from_vcf" title="Converts VCF/BCF to IMPUTE2/SHAPEIT formats"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">bcftools convert from vcf</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bcftools_annotate" title="Annotate and edit VCF/BCF files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">bcftools annotate</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=beagle" title="phasing genotypes and imputing ungenotyped markers"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Beagle</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=deepvariant" title="deep learning-based variant caller"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">DeepVariant</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=artic_guppyplex" title="Filter Nanopore reads by read length and (optionally) quality"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ARTIC guppyplex</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=varscan_mpileup" title="for variant detection"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">VarScan mpileup</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bbtools_callvariants" title="in aligned Bam files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BBTools: call variants</button></a>
@@ -1659,6 +1659,8 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=mimodd_sort" title="takes a SAM/BAM dataset and generates a coordinate/name-sorted copy"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MiModD Sort</button></a>
 <hr/><h2>Metagenomics</h2>
 <h3>Metagenomic Analysis</h3>
+<a href="https://usegalaxy.eu/root?tool_id=vapor" title="Classify Influenza samples from raw short read sequence data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">VAPOR</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=kraken_biom" title="Create BIOM-format tables from kraken output"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Kraken-biom</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=recentrifuge" title="Robust comparative analysis and contamination removal for metagenomics"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Recentrifuge</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=est_abundance" title="Bayesian Reestimation of Abundance with Kraken"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Estimate Abundance at Taxonomic Level</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=srst2" title="Short Read Sequence Typing for Bacterial Pathogens"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">SRST2</button></a>
@@ -2879,7 +2881,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=regionalgam_plot_trend" title="with trend line"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Plot abundance</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=regionalgam_ab_index" title="computation across species, sites and years"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Abundance index</button></a>
 <h3>Interactive tools</h3>
-<a href="https://usegalaxy.eu/root?tool_id=interactive_tool_jupyter_notebook" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Interactive Jupyter Notebook</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=interactive_tool_jupyter_notebook" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Interactive JupyTool and notebook</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_ml_jupyter_notebook" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GPU enabled Interactive Jupyter Notebook for Machine Learning</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_climate_notebook" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Interactive Climate Notebook</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_pangeo_notebook" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Interactive Pangeo Notebook</button></a>
