@@ -4,7 +4,7 @@ layout: subsite-galaxy
 
 Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize ecological data
 
-<img src="/assets/media//Galaxy-E-concarneau-team-2018-logo.gif" height="150px" alt="PNDB french Biodiversity e-infrastructure"/>
+<img src="/assets/media//Galaxy-E-concarneau-team-2018-logo.gif" height="225px" alt="PNDB french Biodiversity e-infrastructure"/>
 
 
 1. TOC
