@@ -1,6 +1,6 @@
 ---
 site: freiburg
-tags: [talk, training]
+tags: [training]
 title: "2022 Galaxy Admin Training"
 starts: 2022-07-04
 ends: 2022-07-08
