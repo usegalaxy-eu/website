@@ -18,7 +18,7 @@ supporters:
 - european commission
 ---
 
-**[Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training)** will be organized from the **4th to the 8th of July 2022** at the **Albert Ludwig University of Freiburg**, where the **Galaxy Project** is running. 
+**A new [Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training)** will be organized from the **4th to the 8th of July 2022** at the **Albert Ludwig University of Freiburg**. 
 The workshop has two parts: [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [2 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). The registration can be done for either one or both sessions.
 
 This workshop will cover [basic](https://github.com/galaxyproject/dagobah-training#basic-sessions)
