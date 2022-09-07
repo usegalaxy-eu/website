@@ -1,7 +1,7 @@
 ---
 site: freiburg
 tags: [training]
-title: "2022 Galaxy Admin Training"
+title: "2022 Galaxy Admin Training in Freiburg"
 starts: 2022-07-04
 ends: 2022-07-08
 organiser:
