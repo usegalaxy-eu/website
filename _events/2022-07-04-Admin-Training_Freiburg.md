@@ -33,6 +33,6 @@ performing well, and being used by your community.
 large and small organizations around the world and used in a broad range of biomedical research domains,
 and across the tree of life.**
 
-For more information please visit the [Galaxy hub](https://galaxyproject.org/events/2019-admin-training/).
+
 
 
