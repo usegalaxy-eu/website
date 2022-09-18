@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# European Galaxy tools (2913 and counting)
+# European Galaxy tools (2915 and counting)
 <hr/>
 <h3>Get Data</h3>
 <a href="https://usegalaxy.eu/root?tool_id=datasets_download_genome" title="download genome sequence, annotation and metadata"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">NCBI Datasets Genomes</button></a>
@@ -578,10 +578,11 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=fraggenescan" title="for finding (fragmented) genes in short reads"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">FragGeneScan</button></a>
 <hr/><h2>Genomics Analysis</h2>
 <h3>Annotation</h3>
+<a href="https://usegalaxy.eu/root?tool_id=annotatemyids" title="annotate a generic set of identifiers"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">annotateMyIDs</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=bakta" title="genome annotation via alignment-free sequence identification"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Bakta</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=isescan" title="Insertion Sequence Elements detection in prokaryotic genomes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ISEScan</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=gubbins" title="Recombination detection in Bacteria"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Gubbins</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=orthofinder_onlygroups" title="finds orthogroups in a set of proteomes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">OrthoFinder</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=annotatemyids" title="annotate a generic set of identifiers"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">annotateMyIDs</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=interproscan" title="functional annotation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">InterProScan</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=busco" title="assess genome assembly and annotation completeness"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Busco</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=optitype" title="HLA genotyping predictions from NGS data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">OptiType</button></a>
@@ -722,8 +723,8 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=gecco" title="is a fast and scalable method for identifying putative novel Biosynthetic Gene Clusters (BGCs) in genomic and metagenomic data using Conditional Random Fields (CRFs)."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GECCO</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=legsta" title="Legionella pneumophila sequence based typing"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">legsta</button></a>
 <h3>Multiple Alignments</h3>
-<a href="https://usegalaxy.eu/root?tool_id=chromeister" title="ultra-fast pairwise genome comparisons"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Chromeister</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=clustalw" title="multiple sequence alignment program for DNA or proteins"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ClustalW</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=chromeister" title="ultra-fast pairwise genome comparisons"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Chromeister</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=kc-align" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Kc-Align</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=sina" title="reference based multiple sequence alignment"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">SINA</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=gecko" title="Ungapped genome comparison"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Gecko</button></a>
@@ -1660,6 +1661,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=mimodd_sort" title="takes a SAM/BAM dataset and generates a coordinate/name-sorted copy"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MiModD Sort</button></a>
 <hr/><h2>Metagenomics</h2>
 <h3>Metagenomic Analysis</h3>
+<a href="https://usegalaxy.eu/root?tool_id=kleborate" title="screen genome assemblies of Klebsiella pneumoniae"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Kleborate</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=srst2" title="Short Read Sequence Typing for Bacterial Pathogens"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">SRST2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=kraken_biom" title="Create BIOM-format tables from kraken output"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Kraken-biom</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=vapor" title="Classify Influenza samples from raw short read sequence data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">VAPOR</button></a>
@@ -2769,6 +2771,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=feat_from_gff3" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GFF3 to Apollo Annotations</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=fetch_jbrowse" title="for an organism, from Apollo"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Retrieve JBrowse</button></a>
 <h3>Imaging</h3>
+<a href="https://usegalaxy.eu/root?tool_id=ip_convertimage" title="Convert image"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert image</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_landmark_registration" title="estimates the affine transformation matrix or performs piecewise affine transformation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Landmark Registration</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=spyboat" title="wavelet analyzes image stacks"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">SpyBOAT</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_points_association_nn" title="in consecutive frames (slices) using the nearest neighbor algorithm"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Association of points</button></a>
@@ -2836,7 +2839,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=ip_localthreshold" title="applies a local threshold algorithm to an image"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Local Threshold</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_threshold" title="applies a standard thresholding algorithm to an image"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Auto Threshold</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_histogram_equalization" title="automatic histogram equalization"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Histogram equalization</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=ip_convertimage" title="Convert image"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert image</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_2d_feature_extraction" title="Feature Extraction"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">2D Feature Extraction</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_permutate_axis" title="along an axis"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Permutate image</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_labelimage_to_points" title="Converts label image to points"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Label to Points</button></a>
