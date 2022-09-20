@@ -2,6 +2,7 @@
 site: freiburg
 tags: [tools]
 title: Use the power of pandas / numpy to transform tabular datasets in a myriad of ways with our new Table Compute tool
+author: bgruening
 ---
 
 With [Table Compute](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/0.9.2){:target="_top"}

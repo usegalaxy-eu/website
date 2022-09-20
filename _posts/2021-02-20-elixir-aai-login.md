@@ -5,6 +5,7 @@ title: Login via ELIXIR-AAI, Google, LinkedIn, or your ORCID iD
 supporters:
 - denbi
 - elixir
+author: bgruening
 ---
 
 The [ELIXIR Authentication and Authorisation Infrastructure (AAI)](https://elixir-europe.org/services/compute/aai)

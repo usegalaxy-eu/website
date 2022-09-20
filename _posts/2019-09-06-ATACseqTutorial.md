@@ -6,6 +6,7 @@ supporters:
   - galaxy-europe
   - elixir
   - denbi
+author: erxleben
 ---
 
 Many people are waiting for it! We are proud to present the first Galaxy training material on [ATACseq](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html) data analysis. 

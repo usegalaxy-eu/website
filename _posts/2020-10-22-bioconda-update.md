@@ -6,6 +6,7 @@ supporters:
 - bioconda
 - elixir
 - denbi
+author: beatrizserrano
 ---
 
 Good news to the Bioconda community!

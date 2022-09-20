@@ -3,6 +3,7 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [devops, TIaaS]
 title: TIaaS Queue Status Update
 location: Freiburg, Germany
+author: hexylena
 ---
 
 We've seen the [TIaaS Queue Status](https://galaxyproject.eu/tiaas) receive a lot of positive feedback. We've added two new features to support trainers using this service:

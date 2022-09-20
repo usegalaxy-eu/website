@@ -3,6 +3,7 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [training]
 title: "Massive open online education party: GTN Smörgåsbord"
 location: online
+author: beatrizserrano
 ---
 
 This week, starting from Monday the 15th of February, the [Galaxy Training Network (GTN)](training.galaxyproject.org/) is running a global Galaxy online course: [__GTN Smörgåsbord__](https://shiltemann.github.io/global-galaxy-course/)[^1].

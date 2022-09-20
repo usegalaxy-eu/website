@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'UseGalaxy.eu Use Case: Food safety research'
 tags: [UseCase]
+author: Carol Verheecke-Vaessen
 ---
 
 [__Carol Verheecke-Vaessen__](https://www.cranfield.ac.uk/people/dr-carol-verheecke-15579761) is using Galaxy at the [Cranfield University (UK)](https://www.cranfield.ac.uk/) for food safety research. Thank you Carol for sharing such an interesting project and using Galaxy!

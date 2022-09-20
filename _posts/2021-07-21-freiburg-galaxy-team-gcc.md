@@ -2,6 +2,7 @@
 site: [freiburg]
 title: 'Freiburg Galaxy Team at the Galaxy Community Conference 2021'
 tags: [GCC]
+author: bebatut
 ---
 
 The Freiburg Galaxy Team participated in the [Galaxy Community Conference 2021](https://gcc2021.sched.com/) with:

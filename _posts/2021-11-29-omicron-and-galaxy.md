@@ -8,6 +8,7 @@ supporters:
 - converge
 - bycovid
 - eosc
+author: wm75
 ---
 
 The newly reported SARS-CoV-2 lineage B.1.1.529 made the headlines last week.

@@ -1,6 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'Complete human genome T2T-CHM13v2.0 available in Galaxy'
+author: gallardoalba
 ---
 
 While the first version of an improved human genome resulting from the Telomere-to-Telomere (T2T) Consortium efforts got reported in 2020, it has taken two years of additional work to achieve something that the scientific community has been eagerly awaiting since: the first complete, gap-free sequence for all 24 human chromosomes (including Y).

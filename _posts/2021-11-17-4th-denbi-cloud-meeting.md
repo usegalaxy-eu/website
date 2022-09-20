@@ -5,6 +5,7 @@ tags: [training]
 location: Online
 supporters:
 - denbi
+author: gmauro
 ---
 The [4th de.NBI Cloud User meeting](https://events.denbi.de/event/1/) took place from 12th to 24th of November 2021.
 

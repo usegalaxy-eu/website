@@ -3,6 +3,7 @@ site: freiburg
 tags: [devops, downtime]
 title: Queue cleared
 location: Galaxy Europe
+author: hexylena
 ---
 
 We had to clear the queue due to an emergency today. We had noticed that a

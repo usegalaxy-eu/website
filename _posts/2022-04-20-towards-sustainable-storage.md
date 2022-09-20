@@ -10,6 +10,7 @@ supporters:
 - crc992
 - denbi
 - elixir
+author: bgruening
 ---
 
 tl;dr: Research groups and networks can include their own storage into the European Galaxy server and decide about quota and data policies.

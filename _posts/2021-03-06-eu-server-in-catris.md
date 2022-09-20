@@ -3,7 +3,7 @@ site: [freiburg, elixir-cz]
 title: "European Galaxy Server part of CatRIS"
 tags: 
 - galaxy
-
+author: beatrizserrano
 ---
 
 

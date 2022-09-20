@@ -6,6 +6,7 @@ location: Galaxy Europe
 supporters:
 - galaxy-europe
 - TIaaS
+author: Nevena Veljkovic
 ---
 
 This semester, the [Faculty of Biology at the University of Belgrade](http://bg.ac.rs/en/members/faculties/FB.php){:target="_blank"} offered for the first time

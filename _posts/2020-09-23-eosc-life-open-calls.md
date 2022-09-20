@@ -5,6 +5,7 @@ tags:
 title: EOSC-Life Open Calls
 supporters:
 - eosc
+author: beatrizserrano
 ---
 
 Two funding opportunities are now open in [EOSC-Life](https://www.eosc-life.eu/). We encourage the different Galaxy communities to apply!

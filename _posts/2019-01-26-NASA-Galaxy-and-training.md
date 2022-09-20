@@ -3,6 +3,7 @@ site: freiburg
 tags: [training]
 title: Learn how the NASA uses Galaxy!
 external: https://www.jove.com/video/58447/exploring-effects-spaceflight-on-mouse-physiology-using-open-access
+author: bgruening
 ---
 
 [Dave B](https://galaxyproject.org/people/dave-bouvier/) pointed us to this nice article about

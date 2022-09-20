@@ -6,6 +6,7 @@ location: Galaxy Europe
 supporters:
  - denbi
  - bmbf
+author: beatrizserrano
 ---
 
 The __[de.NBI-Cloud](https://www.denbi.de/cloud) has extended the support to the European Galaxy Server__ by providing new computational infrastructure.

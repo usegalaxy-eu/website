@@ -6,6 +6,7 @@ tags:
 title: The first Paper Cuts Community Fest was a success!
 supporters:
 - galaxy-europe
+author: beatrizserrano
 ---
 
 Last week we had the first Paper Cuts Community Collaboration fest. We got the engagement not only of the usual contributors but also newcomers that wanted to help to fix small bugs in Galaxy.

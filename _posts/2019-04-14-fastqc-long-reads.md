@@ -3,6 +3,7 @@ site: freiburg
 tags: [devops, tools]
 title: FASTQC jobs and very long reads
 location: Galaxy Europe
+author: bgruening
 ---
 
 Over the past few weeks we saw many [FASTQC](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72){:target="_blank"} jobs running for days or even longer, which is not normal.

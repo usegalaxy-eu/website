@@ -6,6 +6,7 @@ location: Galaxy Europe
 supporters:
  - denbi
  - bmbf
+author: bgruening
 ---
 
 Last week we got a request from on of our users with a tricky question:

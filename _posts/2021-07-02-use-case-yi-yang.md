@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'UseGalaxy.eu Use Case: Genomics, evolution, and ecology of organohalide-respiring bacteria'
 tags: [UseCase]
+author: Yi Yang
 ---
 
 [__Yi Yang, PhD__](https://orcid.org/0000-0002-1131-6196) has shared with us how Galaxy is used at the [Institute of Applied Ecology, Chinese Academy of Sciences (China)](http://english.iae.cas.cn/). 

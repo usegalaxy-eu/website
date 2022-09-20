@@ -4,7 +4,7 @@ title: 'Training Infrastructure Feedback from the Gallantries Project'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-author: erasche
+author: hexylena
 ---
 
 The [Gallantries Project](https://galaxy-carpentries.github.io/gallantries/) recently had their final meeting in Thessaloniki, Greece!

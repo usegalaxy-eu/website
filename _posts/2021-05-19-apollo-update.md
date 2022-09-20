@@ -5,6 +5,7 @@ title: UseGalaxy.eu Apollo Update
 supporters:
 - denbi
 - elixir
+author: hexylena
 ---
 
 The [GGA](https://github.com/galaxy-genome-annotation/) team has updated UseGalaxy.eu's Apollo (collaborative genome annotation editor) to 2.6.3 from 2.5.0. Check out the changelog copied below.

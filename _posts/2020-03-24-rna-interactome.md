@@ -2,6 +2,7 @@
 site: freiburg
 tags: [tools]
 title: ChiRA tool suite - an integrated framework for Chimeric Read Analysis from RNA-RNA interactome data
+author: pavanvidem
 ---
 
 ChiRA is a set of tools to analyze RNA-RNA interactome experimental data such as CLASH, CLEAR-CLIP, PARIS, LIGR-Seq, etc.

@@ -5,5 +5,6 @@ tags:
 - galaxy
 - newsletter
 external: https://galaxyproject.org/news/2021-05-gcc-extended/
+author: tnabtaf
 ---
 Several deadlines for the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) have been extended.

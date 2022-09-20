@@ -4,6 +4,7 @@ title: 'Training Infrastructure Feedback from Denny Popp'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
+author: Denny Popp
 ---
 
 For a 1-day course on long read sequencing for (meta)genomics I was looking for a powerful, easy-to-use computational infrastructure. 

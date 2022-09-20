@@ -4,6 +4,7 @@ tags: [training, hackathon]
 title: Biohackathon Europe 2020
 supporters: elixir
 location: Barcelona (online)
+author: beatrizserrano
 ---
 
 

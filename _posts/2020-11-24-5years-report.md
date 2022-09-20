@@ -18,6 +18,7 @@ supporters:
 - bmbf
 - dfg
 - egi
+author: beatrizserrano
 ---
 
 Since the Galaxy project was started in Freiburg in 2010, it has evolved in such a way that it has become a crucial infrastructure that serves more than __22,000 researchers__, with more than __12 million jobs run__. In terms of training, around __150 workshops__ have run, and more than __5,000 trainees__ trained using TIaaS.

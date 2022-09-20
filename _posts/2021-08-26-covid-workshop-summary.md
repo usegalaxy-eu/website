@@ -19,6 +19,7 @@ supporters:
  - qfab
  - melbbioinfo
  - sanbi
+author: beatrizserrano
 ---
 
 The Galaxy community has recently organised a workshop on [__SARS-CoV-2 Data Analysis and Monitoring with Galaxy__](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/). 
