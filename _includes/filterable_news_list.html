@@ -35,7 +35,7 @@
   {% assign subsite = key %}
 {% endif %}
 {% assign redirect = "https://galaxyproject.org/" | append: subsite | append: "/news/" %}
-{% include deprecation_notice.html name="Galaxy News" redirect=redirect %}
+{% include page_deprecation_notice.html name="Galaxy News" redirect=redirect %}
 
 <script>
   const load = () => {

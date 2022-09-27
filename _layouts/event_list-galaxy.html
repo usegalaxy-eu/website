@@ -15,7 +15,7 @@ layout: default-galaxy
   {% assign subsite = key %}
 {% endif %}
 {% assign redirect = "https://galaxyproject.org/" | append: subsite | append: "/events/" %}
-{% include deprecation_notice.html name="Galaxy Events" redirect=redirect %}
+{% include page_deprecation_notice.html name="Galaxy Events" redirect=redirect %}
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 <section class="page-header">
