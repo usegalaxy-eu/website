@@ -5,7 +5,7 @@ tags:
   - galaxy
   - laniakea
 external: https://marketplace.eosc-portal.eu/services/laniakea-recas
-author: mtangaro
+author_github: mtangaro
 ---
 
 [Laniakea@ReCaS](https://laniakea-elixir-it.github.io/) is now a European Open Science Cloud provider, thus opening the service to all EOSC users.

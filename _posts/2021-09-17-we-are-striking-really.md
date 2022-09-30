@@ -2,7 +2,7 @@
 site: freiburg
 title: Enough talking - time to act!
 tags: [s4f, society]
-author: bgruening
+author_github: bgruening
 ---
 
 September the 24th will see the next global climate strike! 

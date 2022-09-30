@@ -6,7 +6,7 @@ tags:
 - talk
 supporters:
 - elixir
-author: beatrizserrano
+author_github: beatrizserrano
 ---
 
 <br>

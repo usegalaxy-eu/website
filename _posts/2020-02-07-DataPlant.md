@@ -3,7 +3,7 @@ site: freiburg
 title: Galaxy provides support as an NFDI
 tags:
 - data
-author: erxleben
+author_github: erxleben
 ---
 
 Germany wants to build a national research data infrastructure [NFDI](https://www.dfg.de/foerderung/programme/nfdi)

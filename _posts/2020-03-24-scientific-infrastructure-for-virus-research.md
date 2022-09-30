@@ -5,7 +5,7 @@ tags:
  - COVID-19
  - data
 external: https://www.pr.uni-freiburg.de/pm-en/press-releases-2020/scientific-infrastructure-for-virus-research?set_language=en
-author: bgruening
+author_github: bgruening
 ---
 
 

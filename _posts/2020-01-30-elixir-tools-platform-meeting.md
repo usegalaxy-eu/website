@@ -5,7 +5,7 @@ title: ELIXIR tools platform meeting and Container SIS meeting in Paris
 supporters:
 - denbi
 - elixir
-author: bgruening
+author_github: bgruening
 ---
 
 This week we joined the [ELIXIR tools platform](https://elixir-europe.org/platforms/tools) meeting in Paris.

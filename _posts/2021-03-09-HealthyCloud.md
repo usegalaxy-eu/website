@@ -5,7 +5,7 @@ tags:
 - data
 supporters:
 - healthycloud
-author: beatrizserrano
+author_github: beatrizserrano
 ---
 
 <br>

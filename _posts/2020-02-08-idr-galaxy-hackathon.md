@@ -9,7 +9,7 @@ supporters:
 - idr
 - eosc
 - eubi
-author: beatrizserrano
+author_github: beatrizserrano
 ---
 
 

@@ -9,7 +9,7 @@ supporters:
 - crc992
 - denbi
 - elixir
-author: bgruening
+author_github: bgruening
 ---
 
 ![Graphical Abstract](/assets/media/bhlogolo.png)

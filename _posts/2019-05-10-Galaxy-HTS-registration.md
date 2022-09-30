@@ -5,7 +5,7 @@ title: Galaxy Workshop registration open!
 location: Freiburg, Germany
 supporters:
  - denbi
-author: erxleben
+author_github: erxleben
 ---
 
 The registration for our next Galaxy Workshop on HTS data analysis from 23-27 September 2019 in Freiburg is open.

@@ -4,7 +4,7 @@ tags: [training, TIaaS]
 title: Training Infrastructure as a Service (TIaaS) is sponsored by EOSC-Life
 supporters:
 - eosc
-author: beatrizserrano
+author_github: beatrizserrano
 ---
 
 <div class="row">

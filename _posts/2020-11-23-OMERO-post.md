@@ -4,7 +4,7 @@ title: Images stored in local OMERO instances are now available from Galaxy
 tags:
   - data
   - tools
-author: beatrizserrano
+author_github: beatrizserrano
 ---
 
 

@@ -4,7 +4,7 @@ title: 'Training Infrastructure Feedback from Charles Girardot'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-author: Jelle Scholtalbers and Charles Girardot
+author_name: [Jelle Scholtalbers, Charles Girardot]
 ---
 
 

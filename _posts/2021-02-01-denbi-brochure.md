@@ -4,7 +4,7 @@ title: "Three articles related to COVID-19 research using Galaxy in the de.NBI b
 tags: [article, COVID-19]
 supporters:
  - denbi
-author: beatrizserrano
+author_github: beatrizserrano
 ---
 
 <br>

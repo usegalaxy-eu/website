@@ -6,7 +6,7 @@ location: Galaxy Europe
 supporters:
  - denbi
  - bmbf
-author: bgruening
+author_github: bgruening
 ---
 
 The [CernVM File System (CVMFS)](https://cernvm.cern.ch/portal/filesystem){:target="_blank"} provides a scalable, reliable and softare and data distribution service.

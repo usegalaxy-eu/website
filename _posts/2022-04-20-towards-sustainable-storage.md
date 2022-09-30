@@ -3,14 +3,13 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: Towards a sustainable storage, enabling co-financing of public infrastructure
 tags:
 - citations
-author: bgruening
 supporters:
 - crc1425
 - dataplant
 - crc992
 - denbi
 - elixir
-author: bgruening
+author_github: bgruening
 ---
 
 tl;dr: Research groups and networks can include their own storage into the European Galaxy server and decide about quota and data policies.

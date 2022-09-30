@@ -3,7 +3,7 @@ site: freiburg
 title: Open collaborative infrastructure to tackle public health emergencies
 tags: [COVID-19]
 external: https://elixir-europe.org/news/COVID-19-data-open-analysis
-author: bgruening
+author_github: bgruening
 ---
 
 

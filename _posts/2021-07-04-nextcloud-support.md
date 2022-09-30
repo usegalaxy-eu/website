@@ -6,7 +6,7 @@ supporters:
 - denbi
 - elixir
 - crc1425
-author: bgruening
+author_github: bgruening
 ---
 
 So-called cloud storages are becoming more and more popular in academic research. The most prominent one is probably [Dropbox](https://www.dropbox.com), which 

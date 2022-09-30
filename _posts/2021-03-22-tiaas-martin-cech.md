@@ -4,7 +4,7 @@ title: 'Training Infrastructure Feedback from Martin Čech'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-author: martenson
+author_github: martenson
 ---
 
 

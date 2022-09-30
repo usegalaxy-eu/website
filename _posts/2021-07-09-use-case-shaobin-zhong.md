@@ -2,7 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'UseGalaxy.eu Use Case: Plant genomics'
 tags: [UseCase]
-author: Shaobin Zhong
+author_name: Shaobin Zhong
 ---
 
 [__Shaobin Zhong__](https://www.ag.ndsu.edu/plantpath/faculty/shaobin-zhong) is using Galaxy at the [North Dakota State University, Plant Pathology (USA)](https://www.ag.ndsu.edu/plantpath/plant-pathology-department) for plant genomics and has shared some details with us. Thank you Shaobin!

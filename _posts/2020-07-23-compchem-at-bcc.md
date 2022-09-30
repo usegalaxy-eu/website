@@ -6,7 +6,7 @@ tags:
 supporters:
  - galaxy-europe
  - eosc
-author: simonbray
+author_github: simonbray
 ---
 
 Several sessions were related to computational chemistry during this year's BCC. On July 18th we ran a successful introductory tutorial on 'Intuitive, reproducible high-throughput molecular dynamics in Galaxy'. The online training was led jointly by representatives from the European Galaxy Team (Simon Bray) and the University of Cape Town (Chris Barnett, Tharindu Senapathi).

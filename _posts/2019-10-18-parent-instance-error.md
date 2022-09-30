@@ -3,7 +3,7 @@ site: freiburg
 tags: [devops, bug]
 title: Parent instance error
 location: Freiburg, Germany
-author: gmauro
+author_github: gmauro
 ---
 
 UseGalaxy.eu is currently facing some issues with tools execution and it may take us a while to find a solution.  

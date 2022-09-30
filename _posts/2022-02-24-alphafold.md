@@ -7,7 +7,7 @@ supporters:
 - denbi
 - unifreiburg
 - australian_biocommons
-author: bgruening
+author_github: bgruening
 ---
 
 

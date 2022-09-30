@@ -8,7 +8,7 @@ supporters:
 - elixir
 - eosc
 - biodaten
-author: beatrizserrano
+author_github: beatrizserrano
 ---
 <br>
 The [COVID-19 Data Portal](https://www.covid19dataportal.org) emerged as an effort to coordinate data sharing to speed up the coronavirus research. It brings together relevant datasets submitted to EMBL-EBI and other major centres for biomedical data and constitutes an updated resource to which scientist can upload access and analyse reference data. 

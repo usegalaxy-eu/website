@@ -6,7 +6,7 @@ supporters:
 - denbi
 - elixir
 - vib
-author: erxleben
+author_github: erxleben
 ---
 
 In cooperation with our ELIXIR partner in Belgium, the VIB, we have recently added more than 100 new plant reference genomes and transcriptomes

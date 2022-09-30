@@ -3,7 +3,7 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'UseGalaxy – a bioinformatic shopping mall from Sivakumar Prakash'
 supporters:
 - galaxy-europe
-author: erxleben
+author_github: erxleben
 ---
 
 Sivarkumar is working at the [Centre for Cellular and Molecular Biology (CCMB)](https://www.ccmb.res.in) on *de novo* genome assembly of Capparis urophylla. We received his feedback and want to share it with you. Thanks a lot for using Galaxy, Sivakumar!

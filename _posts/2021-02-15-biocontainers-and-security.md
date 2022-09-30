@@ -4,7 +4,7 @@ title: Using secure BioContainers to run Galaxy tools
 tags:
   - data
   - tools
-author: bgruening
+author_github: bgruening
 ---
 
 The Galaxy community has heavily invested in the [Bioconda](https://doi.org/10.1038/s41592-018-0046-7)-[BioContainer](https://doi.org/10.1093/bioinformatics/btx192)

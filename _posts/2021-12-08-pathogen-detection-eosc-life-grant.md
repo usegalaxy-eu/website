@@ -7,7 +7,7 @@ supporters:
   - biolytix
   - elixir
   - denbi
-author: bebatut
+author_github: bebatut
 ---
 
 **TLDR**: Thanks to funding from [EOSC-Life](https://www.eosc-life.eu/), the

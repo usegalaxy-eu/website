@@ -6,7 +6,7 @@ supporters:
 - denbi
 - elixir
 - eosc
-author: bgruening
+author_github: bgruening
 ---
 
 Since a few days, the European Galaxy server is part of the [European Open Science Cloud marketplace](https://marketplace.eosc-portal.eu/services/european-galaxy-server).

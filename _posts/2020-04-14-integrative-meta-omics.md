@@ -5,7 +5,7 @@ title: Integrative meta-omics analysis - Metagenomics, Metatranscriptomics, Meta
 supporters:
  - denbi
  - elixir
-author: Magnus Ø. Arntzen
+author_name: Magnus Ø. Arntzen
 ---
 
 

@@ -4,7 +4,7 @@ tags: [newsletter]
 title: The EOSC-Life newsletter is out!
 supporters:
 - eosc
-author: beatrizserrano
+author_github: beatrizserrano
 ---
 
 Check out the news in the EOSC-Life [external newsletter](https://mailchi.mp/eosc-life/newsletter-2020oct)!

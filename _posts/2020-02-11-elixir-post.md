@@ -5,7 +5,7 @@ tags:
   - galaxy
   - report
 external: https://elixir-europe.org/news/galaxy-europe-2020
-author: bgruening
+author_github: bgruening
 ---
 
 ELIXIR has published a progress report about the ELIXIR Galaxy community in 2020!

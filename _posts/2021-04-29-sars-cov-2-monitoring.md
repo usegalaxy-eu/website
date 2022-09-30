@@ -5,7 +5,7 @@ title: Monitoring of raw open data for SARS-CoV-2 genome surveillance
 supporters:
 - denbi
 - elixir
-author: simonbray
+author_github: simonbray
 ---
 
 Recently, we started a large-scale project on the European Galaxy server for automatically collecting,

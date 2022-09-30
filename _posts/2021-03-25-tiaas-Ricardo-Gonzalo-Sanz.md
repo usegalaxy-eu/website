@@ -4,7 +4,7 @@ title: 'Training Infrastructure Feedback from Dr. Ricardo Gonzalo Sanz'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-author: Dr. Ricardo Gonzalo Sanz
+author_name: Dr. Ricardo Gonzalo Sanz
 ---
 
 

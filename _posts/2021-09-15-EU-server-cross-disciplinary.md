@@ -3,7 +3,7 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: "UseGalaxy.eu as a cross-disciplinary platform for European researchers"
 tags: report
 external: 
-author: beatrizserrano
+author_github: beatrizserrano
 ---
 
 Galaxy is nowadays well-known to be a __cross-discipline platform that connects researchers all over the world__. Many different communities use it and several projects at different levels are supporting the [European Galaxy server](https://usegalaxy.eu/). 

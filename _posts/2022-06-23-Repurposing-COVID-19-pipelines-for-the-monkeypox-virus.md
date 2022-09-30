@@ -9,7 +9,7 @@ supporters:
 - denbi
 - elixir
 - eosc
-author: bgruening
+author_github: bgruening
 ---
 
 One aim of the BY-COVID project is to build a framework enabling data from newly emerging infectious disease threats to be made

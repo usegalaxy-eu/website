@@ -2,7 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'Updates from the ELIXIR Galaxy Community'
 tags: [galaxy, training, COVID-19]
-author: beatrizserrano
+author_github: beatrizserrano
 ---
 
 The [__ELIXIR Galaxy Community__](https://elixir-europe.org/communities/galaxy) started in 2018 from the Galaxy Working Group, founded in 2015. Since then, the community has expanded a lot and we have updated the ELIXIR website including the __goals__ (we outgrown the old ones!) with a special emphasis on the interactions with the __local, domain-specific and global communities__. Of course, providing __infrastructure__, constant improvement of __tools__ and easy __access to data__ has always been a must! 

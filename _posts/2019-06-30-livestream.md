@@ -2,7 +2,7 @@
 site: freiburg
 tags: [talk, video, GCC]
 title: GCC2019 will be livestreamed
-author: hexylena
+author_github: hexylena
 ---
 
 This year's GCC is live streamed! If you couldn't make it to Germany, come check out some of the talks and trainings taking place in Freiburg this week.

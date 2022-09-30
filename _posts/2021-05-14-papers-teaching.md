@@ -6,7 +6,7 @@ tags:
 - training
 - TIaaS
 - COVID-19
-author: beatrizserrano
+author_github: beatrizserrano
 ---
 
 <br>

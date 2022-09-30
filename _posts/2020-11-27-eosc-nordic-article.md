@@ -10,7 +10,7 @@ supporters:
 - elixir
 - eosc
 external: https://www.eosc-nordic.eu/insights-from-the-first-cross-training-between-eosc-life-and-eosc-nordic/
-author: annefou
+author_github: annefou
 ---
 
 Anne Fouilloux has written an article for EOSC-Nordic describing her experience with the training on FATES (Functionally Assembled Terrestrial Ecosystem Simulator) using Galaxy and TIaaS and funded by EOSC-Life WP9.

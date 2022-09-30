@@ -5,7 +5,7 @@ title: "Convert mass spectrometry data file formats with msconvert"
 location: Galaxy Europe
 supporters:
  - ELIXIR
-author: bgruening
+author_github: bgruening
 ---
 
 [msconvert](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.0){:target="_blank"} is a tool to

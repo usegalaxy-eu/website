@@ -4,7 +4,7 @@ title: 'Training Infrastructure Feedback from Ambre Jousselin'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-author: gmauro
+author_github: gmauro
 ---
 
 At the end of November, we organized a 2-day workshop (reads quality, short and long reads genome assembly, reads mapping and RNAseq differential gene expression) for 12 master students.

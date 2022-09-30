@@ -7,7 +7,7 @@ supporters:
 - denbi
 - unifreiburg
 - elixir
-author: anuprulez
+author_github: anuprulez
 ---
 
 Artificial intelligence (machine learning and deep learning) algorithms are being increasingly applied in several fields of Bioinformatics such as drug-response 

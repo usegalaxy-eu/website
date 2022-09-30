@@ -4,7 +4,7 @@ tags: [training]
 title: Workshop on Workflow Management Systems
 location: Online
 supporters: eosc
-author: beatrizserrano
+author_github: beatrizserrano
 ---
 
 The [workshop on Workflow Management Systems](https://docs.google.com/document/d/1Od0JzTduih7DIlaIoYS-MnfFUl1UVmy6DprqhBlqAV8) organised by [EOSC-Life](https://www.eosc-life.eu/) WP2 took place on the 2nd and 3rd of April 2020.

@@ -5,7 +5,7 @@ tags: [tools]
 supporters:
   - galaxy-europe
   - miracum
-author: wm75
+author_github: wm75
 ---
 
 <table><tr><td>

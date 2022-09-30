@@ -4,7 +4,7 @@ tags: [devops, hardware]
 title: UseGalaxy.eu FTP Server Update 
 supporters:
 - denbi
-author: gmauro
+author_github: gmauro
 ---
 
 On 2021-10-06, the FTP server accessible through the domain __ftp.usegalaxy.eu__, will be upgraded with a new hardware and a new configuration.

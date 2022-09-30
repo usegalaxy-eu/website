@@ -4,7 +4,7 @@ title: RADseq data analysis (on mobile phone while baby is sleeping)
 tags:
   - data
   - tools
-author: bgruening
+author_github: bgruening
 ---
 
 [Yvan Le Bras](https://twitter.com/Yvan2935) reminded us today that everyone can analyse RADseq data in Galaxy.

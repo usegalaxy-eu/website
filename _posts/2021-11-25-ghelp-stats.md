@@ -4,7 +4,7 @@ title: 'An overview and statistics on the Galaxy Help Forum'
 tags: [galaxy, support, society, report]
 supporters:
 - galaxy-europe
-author: gallardoalba
+author_github: gallardoalba
 ---
 
 As part of the Galaxy Community, you have probably visited the [Galaxy Help Forum](https://help.galaxyproject.org/) (GHelp). This website, together with the different Gitter channels, is one of the primary meeting places where Galaxy users turn to searching for answers. From the GHelp supporting group, we thank you for the trust you place in us every day.

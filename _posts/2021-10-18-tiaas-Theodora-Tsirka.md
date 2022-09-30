@@ -5,7 +5,7 @@ tags: [training, TIaaS]
 supporters:
 - galaxy-europe
 - eosc
-author: Theodora Tsirka
+author_name: Theodora Tsirka
 ---
  
 We have received feedback about TIaaS from Dr. Theodora Tsirka, during the Training School on Microbiome Sequencing and Data Analysis, in the context of OMIC-Engine Research infrastructure.

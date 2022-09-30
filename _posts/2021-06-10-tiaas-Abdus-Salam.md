@@ -5,7 +5,7 @@ tags: [training, TIaaS]
 supporters:
 - galaxy-europe
 - eosc
-author: Abdus Salam
+author_name: Abdus Salam
 ---
 
 We have received some feedback about TIaaS from Abdus Salam:

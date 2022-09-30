@@ -6,7 +6,7 @@ supporters:
 - galaxy-europe
 - denbi
 - elixir
-author: hexylena
+author_github: hexylena
 ---
 
 
