@@ -4,7 +4,7 @@ title: 'Training Infrastructure Feedback from Rodrigo Ortega Polo'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-author: Rodrigo Ortega Polo
+author_name: Rodrigo Ortega Polo
 ---
 
 An introductory workshop to bacterial whole-genome sequence analysis was delivered from December 9-12, 2019 in the [Lethbridge Research and Development Centre](https://www.agr.gc.ca)

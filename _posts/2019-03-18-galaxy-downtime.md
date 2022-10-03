@@ -3,7 +3,7 @@ site: freiburg
 tags: [devops, downtime]
 title: UseGalaxy.eu Downtime on 18th March
 location: UseGalaxy.eu
-author: hexylena
+author_github: hexylena
 ---
 
 A normal upgrade went awry and we had to restore some data from backup. We had a total downtime of around 20 hours.

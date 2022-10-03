@@ -4,7 +4,7 @@ title: 'Training Infrastructure Feedback from Dr. Tuan Leng Tay'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-author: Dr. Tuan Leng Tay
+author_name: Dr. Tuan Leng Tay
 ---
 
 

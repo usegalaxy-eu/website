@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'UseGalaxy.eu Use Case: Genetics research on dairy cattle'
 tags: [UseCase]
+author_github: TKlingstrom
 ---
 
 [__Tomas Klingström__](https://www.slu.se/cv/tomas-klingstrom/) has sent us the context of his research in the [Swedish University of Agricultural Sciences](https://www.slu.se/). Thank you Tomas for sharing it with us!

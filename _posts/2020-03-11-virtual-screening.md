@@ -4,7 +4,7 @@ title: Virtual screening against SARS-CoV-2 main protease
 tags: [tools, COVID-19]
 supporters:
 - eosc
-author: simonbray
+author_github: simonbray
 ---
 
 Thanks to some amazing work done at the Diamond Light Source in the UK, protein structures of SARS-CoV-2 main protease in complex with a number of different fragments have recently been published. 

@@ -3,6 +3,7 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [devops]
 title: TIaaS Calendar and Stats site
 location: Freiburg, Germany
+author_github: bgruening
 ---
 
 We've seen the [TIaaS Queue Status](https://galaxyproject.eu/tiaas) receive a lot of positive feedback.

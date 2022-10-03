@@ -2,7 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'GCC2022: Registration open for Webinar mode'
 tags: [galaxy]
-author: beatrizserrano
+author_github: beatrizserrano
 ---
 
 As you may know, the [Galaxy Community Conference (GCC2022)](https://galaxyproject.org/events/gcc2022/) will take place in Minnesota this year. For those that won't attend in person, the GCC Organizing Committee is happy to announce a **virtual webinar-like option**.

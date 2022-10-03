@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'UseGalaxy.eu Use Case: Circadian research'
 tags: [UseCase]
+author_name: Akanksha Bafna
 ---
 
 __Akanksha Bafna__ from the [MRC Harwell Institute, Neurobehavioural Genetics, Oxfordshire, United Kingdom](https://www.har.mrc.ac.uk/) uses Galaxy for Circadian research. Thanks Akanksha!

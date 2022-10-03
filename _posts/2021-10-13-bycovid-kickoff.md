@@ -4,6 +4,7 @@ title: 'BY-COVID: A new EU project for pandemic preparedness'
 tags: [COVID-19]
 supporters:
 - bycovid
+author_github: bgruening
 ---
 
 

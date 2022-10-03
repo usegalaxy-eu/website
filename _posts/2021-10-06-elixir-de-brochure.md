@@ -4,6 +4,7 @@ title: "New brochure from ELIXIR Germany"
 tags: [COVID-19]
 supporters:
  - denbi
+author_github: bgruening
 ---
 
 ELIXIR Germany has published the handout "ELIXIR GERMANY - Shaping the Bioinformatics Infrastructure for Life Sciences in Europe". 

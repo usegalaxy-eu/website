@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'UseGalaxy.eu Use Case: Zika virus effects on brain and brain tumours'
 tags: [UseCase]
+author_name: Harry Bulstrode
 ---
 
 [__Harry Bulstrode__](https://www.stemcells.cam.ac.uk/directory/harry-bulstrode) from the [Wellcome Stem Cell Institute at the University of Cambridge (UK)](https://www.stemcells.cam.ac.uk/) has kindly described for us his research topic: __Zika virus effects on brain and brain tumours__. 

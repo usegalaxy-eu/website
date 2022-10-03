@@ -4,7 +4,7 @@ title: 'Training Infrastructure Feedback from Mali Salmon-Divon'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-author: Mali Salmon-Divon
+author_name: Mali Salmon-Divon
 ---
 
 During January 2021, I led two Galaxy workshops; the first was for 20 Graduate students and lasted for five days from 9 am-2 pm. The students learned how to use the Galaxy platform to perform basic text processing and RNA-seq analysis. Their final project was to use Galaxy to analyze RNA-seq data related to their research.

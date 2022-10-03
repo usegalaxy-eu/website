@@ -4,6 +4,7 @@ title: 'Teaching bioinformatics through blood, mucus and tears'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
+author_github: TKlingstrom
 ---
 
 _"Dad, I am bleeding!"_ are words no parent wish to hear. 

@@ -5,6 +5,7 @@ tags:
 - data
 supporters:
 - dataplant
+author_github: beatrizserrano
 ---
 
 Starting in October 2020 until September 2025, the European Galaxy team in Freiburg will participate in the consortium DataPLANT for

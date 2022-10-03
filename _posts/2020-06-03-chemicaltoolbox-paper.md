@@ -5,6 +5,7 @@ tags: [paper]
 doi: "10.1186/s13321-020-00442-7"
 supporters:
  - eosc
+author_github: simonbray
 ---
 
 We are happy to announce a new publication, '[The ChemicalToolbox: reproducible, user-friendly cheminformatics

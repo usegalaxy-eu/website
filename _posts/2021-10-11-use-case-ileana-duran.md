@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'UseGalaxy.eu Use Case: microRNAs in heart disease'
 tags: [UseCase]
+author_name: Ileana Duran Fernandez
 ---
 
 __Ileana Duran Fernandez__ from the [School of Medicine of the Technical University of Munich](https://www.ipt.med.tum.de/en) works on heart disease. Thank you Ileana and good luck with your project!

@@ -5,7 +5,7 @@ tags: [training, TIaaS]
 supporters:
 - galaxy-europe
 - eosc
-author: Anne Fouilloux
+author_github: annefou
 ---
 
 

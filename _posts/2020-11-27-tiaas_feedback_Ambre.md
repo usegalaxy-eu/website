@@ -4,7 +4,7 @@ title: 'Training Infrastructure Feedback from Ambre Jousselin'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-author: Ambre Jousselin
+author_name: Ambre Jousselin
 ---
 
 The past 23-25 Nov, I run a 2-day Microbial Genomics workshop for 16 master students. It covered reads inspection to genome assembly, annotation and reads mapping.

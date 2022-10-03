@@ -7,6 +7,7 @@ supporters:
 - elixir
 - dataplant
 - unifreiburg
+author_github: [bgruening, davelopez]
 ---
 
 In this blog post, we will explain how you can get your software tool into a Galaxy server and with this, exposed to thousands of researchers.

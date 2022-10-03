@@ -9,6 +9,7 @@ supporters:
 - dataplant
 - biodaten
 - denbi
+author_github: [mtekman, beatrizserrano]
 ---
 
 We thank everyone for their support during the [__Plant Transcriptome Analysis using Galaxy__](https://docs.google.com/document/d/1Y5MqYmMxFCy7PDImYYuHLhgCKVV7MjoGMr22G2U68Ec/preview) workshop that took place online in the week of the 19th of April. The workshop offered a complete crash course in Galaxy and built towards __miRNA and single-cell RNA topics__ that were tailored for _Arabidopsis_ genomes.

@@ -8,6 +8,7 @@ supporters:
 - crc992
 - denbi
 - elixir
+author_github: bgruening
 ---
 
 ![Workflow Community initiative](/assets/media/workflows-community-logo.png)

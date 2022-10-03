@@ -4,6 +4,7 @@ title: 'Webinars: Galaxy Resources for ...'
 tags:
 - talk
 - training
+author_github: beatrizserrano
 ---
 
 The Galaxy ecosystem is very broad in scope and reaches many audiences, each one with different needs. To provide those different profiles with the resources available, four webinars have taken place during April and May for researchers, trainers & educators, tool developers and admins & infrastructure providers.

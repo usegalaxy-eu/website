@@ -6,6 +6,7 @@ external: https://goo.gl/forms/lcPoMt4iZ8hwcdM12
 supporters:
  - elixir
  - denbi
+author_github: bebatut
 ---
 
 The Galaxy Community Conference starts with training but also continues with training throughout the conference.

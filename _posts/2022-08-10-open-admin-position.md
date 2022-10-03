@@ -3,6 +3,7 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: The European Galaxy Team is hiring!
 location: Freiburg, Germany
 tags: [jobs]
+author_github: erxleben
 ---
 
 The **Freiburg Galaxy Team** is looking for a **Systems Engineer/DevOps Engineer**!

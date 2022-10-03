@@ -3,6 +3,7 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [galaxy]
 title: "Meet & Join the Galaxy Community"
 location: online
+author_github: beatrizserrano
 ---
 
 The Galaxy community is broad and diverse. Contributors to the main code, admins, tool developers, trainers, students... we are spread all over the world!  

@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'UseGalaxy.eu Use Case: Antibody responses following vaccination'
 tags: [UseCase]
+author_name: Carolyn Nielsen
 ---
 
 [__Carolyn Nielsen__](https://www.ndm.ox.ac.uk/team/carolyn-nielsen) works on clinical immunology at the [University of Oxford (UK)](https://www.ox.ac.uk/).

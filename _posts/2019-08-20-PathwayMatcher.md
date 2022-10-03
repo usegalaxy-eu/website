@@ -2,6 +2,7 @@
 site: freiburg
 tags: [tools]
 title: PathwayMatcher published and running on usegalaxy.eu
+author_github: bgruening
 ---
 
 [PathwayMatcher](https://doi.org/10.1093/gigascience/giz088) builds a protein-protein interaction network from the Reactome pathway database.

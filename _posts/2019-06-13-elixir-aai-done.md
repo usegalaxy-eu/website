@@ -5,6 +5,7 @@ title: Native support for Elixir-AAI in Galaxy v.19.05
 supporters:
  - elixir
  - denbi
+author_github: bgruening
 ---
 
 As of Galaxy version 19.05 released last month, Galaxy can easily be configured to use Elixir-AAI service for authenticating users! As the first publicly available Galaxy instance, the [European Galaxy Server](https://usegalaxy.eu/) hosted by Elixir Germany is now ready to accept logins from users using their Elixir AAI identity for authentication.

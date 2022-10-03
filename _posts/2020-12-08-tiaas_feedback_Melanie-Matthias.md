@@ -4,7 +4,7 @@ title: 'Training Infrastructure Feedback on the ELIXIR Belgium workshop “DDA a
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
-author: Matthias Fahrner & Melanie Föll
+author_github: [Matthias313, foellmelanie]
 ---
 
 On December 3 and 4, we ran a 2-day Galaxy Proteomics data analysis workshop organized by ELIXIR Belgium. Therefore, most of the 20 participants were from Belgium, but others were from all around Europe, the US and Australia. 

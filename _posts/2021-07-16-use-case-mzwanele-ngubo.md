@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'UseGalaxy.eu Use Case: Epigenomics and transcriptomics in cancer'
 tags: [UseCase]
+author_name: Mzwanele Ngubo
 ---
 
 __Mzwanele Ngubo__ uses Galaxy for cancer research at [The Ottawa Hospital Research Institute, Regenerative Medicine, Ottawa (Canada)](http://www.ohri.ca/programs/regenerative_medicine/default.asp). Thanks Mzwanele!

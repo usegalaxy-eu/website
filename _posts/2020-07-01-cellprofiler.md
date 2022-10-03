@@ -8,6 +8,7 @@ supporters:
  - elixir
  - idr
  - galaxy-europe
+author_github: beatrizserrano
 ---
 
 <br><br>

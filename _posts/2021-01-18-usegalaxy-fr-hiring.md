@@ -2,6 +2,7 @@
 site: [ifb, genouest]
 title: 'UseGalaxy.fr is hiring'
 tags: [jobs, devops, galaxy]
+author_github: lecorguille
 ---
 
 <br>

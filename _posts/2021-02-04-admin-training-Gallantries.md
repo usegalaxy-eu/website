@@ -7,7 +7,7 @@ supporters:
 - denbi
 - elixir
 - gallantries
-author: Helena Rasche
+author_github: hexylena
 external: https://gallantries.github.io/posts/2021/02/01/gat/
 ---
 

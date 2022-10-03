@@ -2,7 +2,7 @@
 site: freiburg
 tags: [training, tools]
 title: "Protein target prediction of a bioactive ligand with Align-it and ePharmaLib"
-author: aurelienmoumbock
+author_github: aurelienmoumbock
 ---
 
 

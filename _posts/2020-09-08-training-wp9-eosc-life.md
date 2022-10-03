@@ -4,6 +4,7 @@ title: EOSC-Life has awarded two training projects to the European Galaxy team
 tags:
 - training
 - grants
+author_github: beatrizserrano
 ---
 
 Within the 1st [EOSC-Life](https://www.eosc-portal.eu/eosc-life) Training Open Call, two out of four proposals have been awarded to the

@@ -1,6 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: Open Source Software Strategy approved by the European Commission
+author_github: beatrizserrano
 ---
 
 

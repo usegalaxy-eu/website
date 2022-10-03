@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'UseGalaxy.eu Use Case: cellular specification, differentiation and morphogenesis of the mucociliary epithelium'
 tags: [UseCase]
+author_name: Sarah Bowden
 ---
 
 __Sarah Bowden__ from the [Innere Medizin IV (Nephrologie und Allgemeinmedizin) and

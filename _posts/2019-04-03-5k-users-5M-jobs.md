@@ -5,6 +5,7 @@ title: "We passed the 5,000,000th job and 5,000 users!"
 supporters:
  - denbi
  - elixir
+author_github: bgruening
 ---
 
 This week [we](/freiburg/people) are celebrating 5 million jobs and 5 thousand users.

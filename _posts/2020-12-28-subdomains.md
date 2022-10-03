@@ -3,6 +3,7 @@ site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: European Galaxy Flavours
 tags: [FAQ]
 supporters:
+author_github: beatrizserrano
 ---
 
 [UseGalaxy.eu](https://usegalaxy.eu/) hosts several domain-specific versions of the usegalaxy.eu server. 

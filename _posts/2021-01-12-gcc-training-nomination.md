@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: 'Nominate a training for the 2021 Galaxy Community Conference (GCC2021)'
 tags: [training, GCC]
+author_github: beatrizserrano
 ---
 
 <br>

@@ -3,6 +3,7 @@ site: freiburg
 title: A(nother) successful Galaxy HTS data analysis workshop in Freiburg
 location: Freiburg, Germany
 tags: [training]
+author_github: bebatut
 ---
 
 Last week, the Freiburg Galaxy team taught a 5-day workshop on HTS data analysis in Freiburg!

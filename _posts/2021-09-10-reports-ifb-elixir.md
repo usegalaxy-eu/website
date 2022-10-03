@@ -2,6 +2,7 @@
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 title: "Annual reports 2020: ELIXIR and IFB"
 tags: report
+author_github: beatrizserrano
 ---
 
 The [ELIXIR](https://elixir-europe.org/sites/default/files/documents/annual-report-2020.pdf) and [IFB](https://www.france-bioinformatique.fr/en/activity-reports/) annual reports for 2020 are out. 
