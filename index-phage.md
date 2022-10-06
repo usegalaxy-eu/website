@@ -4,8 +4,7 @@ layout: subsite-galaxy
 
 
 # Welcome to the Phage Galaxy!
-{:.no_toc}
-<br>
-**Phage Galaxy**
-Under construction!
+
+**Phage Galaxy** is under construction!
+
 Contact jason.gill@tamu.edu for more information.
