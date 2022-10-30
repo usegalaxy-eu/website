@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# European Galaxy tools (2959 and counting)
+# European Galaxy tools (2962 and counting)
 <hr/>
 <h3>Get Data</h3>
 <a href="https://usegalaxy.eu/root?tool_id=datasets_download_genome" title="download genome sequence, annotation and metadata"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">NCBI Datasets Genomes</button></a>
@@ -362,6 +362,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=qualimap_counts" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">QualiMap Counts QC</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=fastq_info" title="validates single or paired fastq files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">FASTQ info</button></a>
 <h3>SAM/BAM</h3>
+<a href="https://usegalaxy.eu/root?tool_id=revertR2orientationInBam" title="Revert the mapped orientation of R2 mates in a bam."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">revertR2orientationInBam</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=samtools_view" title="- reformat, filter, or subsample SAM, BAM or CRAM"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Samtools view</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=samtools_depth" title="compute the depth at each position or region"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Samtools depth</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=samtools_split" title="BAM dataset on readgroups"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Samtools split</button></a>
@@ -2381,10 +2382,11 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=abims_xcms_refine" title="Remove or merge chromatographic peaks based on specific criteria."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">xcms refineChromPeaks (refine)</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=isoplot" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Isoplot: Generate plots from isocor output</button></a>
 <h3>ChemicalToolBox</h3>
+<a href="https://usegalaxy.eu/root?tool_id=gmx_rmsd" title="of molecular structures"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GROMACS RMSD calculation</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=gmx_trj" title="using trjconv and trjcat"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Modify/convert and concatate GROMACS trajectories</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=alphafold" title="- AI-guided 3D structural prediction of proteins"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Alphafold 2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=gmx_check" title="to provide information about GROMACS input files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GROMACS check</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=gmx_sim" title="for system equilibration or data collection"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GROMACS simulation</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=gmx_trj" title="using trjconv and trjcat"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Modify/convert GROMACS trajectories</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ambertools_acpype" title="using acpype"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Generate MD topologies for small molecules</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=chembl" title="for compounds which are similar to a SMILES string"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Search ChEMBL database</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ambertools_antechamber" title="- Amber's molecular input file processor"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">AnteChamber</button></a>
@@ -2464,6 +2466,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=ctb_im_rxn_maker" title="using RDKit"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Reaction maker</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ctb_im_screen" title="a compound against a library using RDKit"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Screen</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ctb_im_xcos" title="scoring"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">XCos</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=gmx_rmsf" title="of molecular structures"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GROMACS RMSF calculation</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=featurestein" title="feature overlay scoring"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">'FeatureStein' fragment overlay scoring</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=gmx_merge_topology_files" title="and GRO files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Merge GROMACS topologies</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=openduck_chunk" title="for dynamic undocking"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">OpenDUck chunk</button></a>
