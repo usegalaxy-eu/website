@@ -94,6 +94,11 @@ margin: auto;
       <p class="textcard">RStudio with basic R packages</p>
     </a>
 
+    <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_mgnify_notebook" target="_top">
+      <img class="card-img-top" src="/assets/media/interactive/mgnify.png" title="Jupyter Notebooks for the MGnify API"/>
+      <p class="textcard">Jupyter Notebooks for the MGnify API</p>
+    </a>
+	
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_askomics" target="_top">
       <img class="card-img-top" src="/assets/media/interactive/askomics.png" title="AskOmics is a visual SPARQL query interface supporting both intuitive data integration and querying while shielding the user from most of the technical difficulties underlying RDF and SPARQL."/>
       <p class="textcard">SPARQL query interface</p>
