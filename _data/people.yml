@@ -242,6 +242,7 @@ freiburg:
         location: "Build.: 079, Room: -1015"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         matrix: "@mira_miracoli:matrix.org"
+        orcid: 0000-0003-4302-5091
         galaxyadmin: true
 
     itisAliRH:
