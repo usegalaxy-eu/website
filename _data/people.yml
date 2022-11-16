@@ -235,6 +235,15 @@ freiburg:
         researchgate: Sanjay-Kumar-Srikakulam
         galaxyadmin: true
 
+    mira-miracoli:
+        name: Mira Kuntz
+        title: B.Sc. Beverage Technology, System Administrator, DevOps
+        email: kuntzm@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@mira_miracoli:matrix.org"
+        galaxyadmin: true
+
     itisAliRH:
         name: Alireza Heidari
         title: B.Sc. Computer Science, Engineer, UI/UX
