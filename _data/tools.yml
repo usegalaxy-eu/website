@@ -262,3 +262,10 @@ sucos: toolshed.g2.bx.psu.edu/repos/bgruening/sucos_docking_scoring/sucos_dockin
 fpocket: toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket
 antechamber: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_antechamber/ambertools_antechamber
 acpype: toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype
+basic_illumination: toolshed.g2.bx.psu.edu/repos/perssond/basic_illumination/basic_illumination/
+ashlar: toolshed.g2.bx.psu.edu/repos/perssond/ashlar/ashlar/
+coreograph: toolshed.g2.bx.psu.edu/repos/perssond/coreograph/unet_coreograph/
+unmicst: toolshed.g2.bx.psu.edu/repos/perssond/unmicst/unmicst/
+s3segmenter: toolshed.g2.bx.psu.edu/repos/perssond/s3segmenter/s3segmenter/
+quantification: toolshed.g2.bx.psu.edu/repos/perssond/quantification/quantification/
+
