@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# European Galaxy tools (2978 and counting)
+# European Galaxy tools (2982 and counting)
 <hr/>
 <h3>Get Data</h3>
 <a href="https://usegalaxy.eu/root?tool_id=datasets_download_genome" title="download genome sequence, annotation and metadata"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">NCBI Datasets Genomes</button></a>
@@ -2574,6 +2574,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=Heatmap" title="Heatmap of the dataMatrix"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Heatmap</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=rgcca" title="performs multiblock data analysis of several sets of variables (blocks) observed on the same group of individuals."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">RGCCA</button></a>
 <h3>Machine Learning</h3>
+<a href="https://usegalaxy.eu/root?tool_id=virhunter" title="Deep learning method to identify viruses in sequencing datasets.."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">virhunter</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_to_categorical" title="Converts a class vector (integers) to binary class matrix"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">To categorical</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=keras_train_and_eval" title="conduct deep training and evaluation either implicitly or explicitly"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Deep learning training and evaluation</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ml_visualization_ex" title="includes several types of plotting for machine learning"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Machine Learning Visualization Extension</button></a>
@@ -2608,6 +2609,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=scipy_sparse" title="for manipulating 2-D Scipy sparse numeric data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Sparse Matrix Functions</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=create_tool_recommendation_model" title="using deep learning"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Create a model to recommend tools</button></a>
 <h3>Graph/Display Data</h3>
+<a href="https://usegalaxy.eu/root?tool_id=ggplot2_pca" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">PCA plot w ggplot2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ggplot2_histogram" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Histogram with ggplot2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ggplot2_violin" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Violin plot w ggplot2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bandage_image" title="visualize de novo assembly graphs"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Bandage Image</button></a>
@@ -2639,7 +2641,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=circos_gc_skew" title="calculates skew over genomic sequences"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GC Skew</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=circos_wiggle_to_stacked" title="reformats for use in Circos stacked histogram plots"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Circos: Stack bigWigs as Histogram</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=circos_bundlelinks" title="reduce numbers of links in datasets before plotting"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Circos: Bundle Links</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=ggplot2_pca" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">PCA plot w ggplot2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ggplot2_heatmap" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Heatmap w ggplot</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ggplot2_point" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Scatterplot with ggplot2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=plotly_ml_performance_plots" title="of tabular data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Plot confusion matrix, precision, recall and ROC and AUC curves</button></a>
@@ -2927,6 +2928,9 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=ip_binaryimage_to_points" title="Converts Binary Image to Points"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Binary To Points</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_slice_image" title="into smaller patches"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Slice Image</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_split_labelmap" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Split Labelmap</button></a>
+<h3>Compute indicators for turnover boulders fields</h3>
+<a href="https://usegalaxy.eu/root?tool_id=cb_dissim" title="indicator"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Dissimilarity</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=cb_ivr" title="indicator"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">IVR</button></a>
 <h3>Species abundance</h3>
 <a href="https://usegalaxy.eu/root?tool_id=pampa_glmsp" title="Compute a GLM of your choice on population data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Compute GLM on population data</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=pampa_glmcomm" title="Compute a GLM of your choice on community data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Compute GLM on community data</button></a>
@@ -2948,6 +2952,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=regionalgam_plot_trend" title="with trend line"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Plot abundance</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=regionalgam_ab_index" title="computation across species, sites and years"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Abundance index</button></a>
 <h3>Interactive tools</h3>
+<a href="https://usegalaxy.eu/root?tool_id=interactive_tool_pavian" title="Interactive analysis of metagenomics data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Pavian</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_mgnify_notebook" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Interactive MGnify Notebook</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_jupyter_notebook" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Interactive JupyTool and notebook</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_ml_jupyter_notebook" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GPU enabled Interactive Jupyter Notebook for Machine Learning</button></a>
