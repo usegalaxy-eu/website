@@ -369,12 +369,18 @@ body.location-elixir-it {
 }
 
 .rna-intro-right {
-    width: 35%;
     min-width: 100px;
     max-height: 200px;
     float: right;
     padding-left: 20px;
     padding-bottom: 10px;
+}
+
+.rna-intro-left {
+    min-width: 10px;
+    max-height: 150px;
+    float: left;
+    padding-right: 20px;
 }
 
 .sc-intro-left {
