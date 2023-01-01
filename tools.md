@@ -207,8 +207,8 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=gops_subtract_1" title="the intervals of two datasets"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Subtract</button></a>
 <hr/><h2>Genomic File Manipulation</h2>
 <h3>Convert Formats</h3>
-<a href="https://usegalaxy.eu/root?tool_id=Interval2Maf1" title="given a set of genomic intervals"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Extract MAF blocks</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=biom_convert" title="between BIOM table formats"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=Interval2Maf1" title="given a set of genomic intervals"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Extract MAF blocks</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=samtools_bam_to_cram" title="convert BAM alignments to CRAM format"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">samtools BAM to CRAM</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=tab2fasta" title="converts tabular file to FASTA format"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Tabular-to-FASTA</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=fasta2tab" title="converter"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">FASTA-to-Tabular</button></a>
@@ -584,6 +584,8 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=fraggenescan" title="for finding (fragmented) genes in short reads"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">FragGeneScan</button></a>
 <hr/><h2>Genomics Analysis</h2>
 <h3>Annotation</h3>
+<a href="https://usegalaxy.eu/root?tool_id=tb_profiler_profile" title="Infer strain types and drug resistance markers from sequences"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">TB-Profiler Profile</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=tb_variant_filter" title="M. tuberculosis H37Rv VCF filter"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">TB Variant Filter</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=blast2go" title="Maps BLAST results to GO annotation terms"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Blast2GO</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=red" title="repeat masking"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Red</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=plasmidfinder" title="Plasmid identification in bacteria."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">PlasmidFinder</button></a>
@@ -600,7 +602,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=optitype" title="HLA genotyping predictions from NGS data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">OptiType</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=prokka" title="Prokaryotic genome annotation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Prokka</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=roary" title="the pangenome pipeline - Quickly generate a core gene alignment from gff3 files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Roary</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=tb_profiler_profile" title="Infer strain types and drug resistance markers from sequences"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">TB-Profiler Profile</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_nhmmer" title="search a DNA model or alignment against a DNA database (BLASTN-like)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">nhmmer</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_hmmbuild" title="Build a profile HMM from an input multiple alignment"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">hmmbuild</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_hmmscan" title="search protein sequence(s) against a protein profile database"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">hmmscan</button></a>
@@ -717,7 +718,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=glimmer_knowledge_based" title="Predict ORFs in prokaryotic genomes (knowlegde-based)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Glimmer3</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=glimmer_not_knowledge_based" title="Predict ORFs in prokaryotic genomes (not knowlegde-based)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Glimmer3</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=tbvcfreport" title="- generate HTML report from SnpEff annotated M.tb VCF(s)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">TB Variant Report</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=tb_variant_filter" title="M. tuberculosis H37Rv VCF filter"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">TB Variant Filter</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=lorikeet_spoligotype" title="M. tuberculosis DNA fingerprinting"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">lorikeet spoligotyping</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=spotyping" title="fast and accurate in silico Mycobacterium spoligotyping from sequence reads"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">SpoTyping</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=repeatmodeler" title="Model repetitive DNA"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">RepeatModeler</button></a>
@@ -1698,6 +1698,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=mimodd_sort" title="takes a SAM/BAM dataset and generates a coordinate/name-sorted copy"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MiModD Sort</button></a>
 <hr/><h2>Metagenomics</h2>
 <h3>Metagenomic Analysis</h3>
+<a href="https://usegalaxy.eu/root?tool_id=das_tool" title="for genome resolved metagenomics"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">DAS Tool</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=dram_neighborhoods" title="around genes of interest"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">DRAM find neighborhoods</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=dram_annotate" title="metagenome-assembled-genomes (MAGs)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">DRAM annotate</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=dram_distill" title="metagenome-assembled-genomes (MAGs)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">DRAM distill</button></a>
@@ -1719,7 +1720,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=vapor" title="Classify Influenza samples from short reads sequence data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">VAPOR</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=recentrifuge" title="Robust comparative analysis and contamination removal for metagenomics"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Recentrifuge</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=Fasta_to_Contig2Bin" title="to scaffolds-to-bin table"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Converts genome bins in fasta format</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=das_tool" title="for genome resolved metagenomics"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">DAS Tool</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=format_metaphlan2_output" title="output to extract abundance at different taxonomic levels"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Format MetaPhlAn2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=format_cd_hit_output" title="to rename representative sequences with cluster name and/or extract distribution inside clusters given a mapping file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Format cd-hit outputs</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=compare_humann2_output" title="and extract similar and specific information"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Compare outputs of HUMAnN2 for several samples</button></a>
