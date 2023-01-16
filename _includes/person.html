@@ -44,6 +44,9 @@
             {% if include.data[1].twitter %}
               <a href="https://twitter.com/{{ include.data[1].twitter }}" title="Twitter"><i class="fa fa-twitter"></i></a>
             {% endif %}
+            {% if include.data[1].mastodon %}
+              <a href="https://{{ include.data[1].mastodon }}" title="Mastodon"><i class="fab fa-mastodon"></i></a>
+            {% endif %}
             {% if include.data[1].linkedin %}
               <a href="https://www.linkedin.com/in/{{ include.data[1].linkedin }}" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
             {% endif %}
