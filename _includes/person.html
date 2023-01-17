@@ -45,7 +45,7 @@
               <a href="https://twitter.com/{{ include.data[1].twitter }}" title="Twitter"><i class="fa fa-twitter"></i></a>
             {% endif %}
             {% if include.data[1].mastodon %}
-              <a href="https://{{ include.data[1].mastodon }}" title="Mastodon"><i class="fab fa-mastodon"></i></a>
+              <a rel="me" href="https://{{ include.data[1].mastodon }}" title="Mastodon"><img src="../assets/media/mastodon.svg" style="width:18px;height:18px;padding-right:4px;" class="fa-mastodon"></a>
             {% endif %}
             {% if include.data[1].linkedin %}
               <a href="https://www.linkedin.com/in/{{ include.data[1].linkedin }}" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
