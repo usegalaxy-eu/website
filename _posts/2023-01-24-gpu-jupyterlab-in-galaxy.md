@@ -1,7 +1,7 @@
 ---
 site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [tools, galaxy]
-title: "GPU-enabled JupyterLab in Galaxy Europe" 
+title: "GPU-enabled JupyterLab in Galaxy Europe for AI" 
 supporters:
 - galaxy-europe
 - denbi
@@ -16,7 +16,7 @@ Artificial intelligence (AI) algorithms are being increasingly applied in severa
 prediction, imputing missing data in single-cell gene expression, image segmentation using biomedical images and many more. AI algorithms that train on a large amount of scientific data require powerful compute infrastructure consisting of several CPUs, GPUs and a large storage. [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) provides an excellent framework for developing AI programs but it needs to be hosted on such a powerful infrastructure. To bridge this gap an open-source, Docker-based, and GPU-enabled JupyterLab notebook infrastructure has been developed that runs on the public compute infrastructure of Galaxy Europe for rapid prototyping and developing end-to-end AI projects. Using such an infrastructure, long-running AI model training programs can be executed remotely. Trained models, represented in a standard [open neural network exchange](https://github.com/onnx/onnx) (ONNX) format and other resulting datasets are created in a Galaxy history. Other features include GPU support for faster training, support for machine learning packages such as [TensorFlow](https://www.tensorflow.org/) and [Scikit-learn](https://scikit-learn.org/stable/), Git integration for version control, the option of creating and executing pipelines of notebooks, the availability of multiple dashboards for monitoring compute resources and visualizations using [Bokeh](https://docs.bokeh.org/en/latest/), [Seaborn](https://seaborn.pydata.org/), [Matplotlib](https://matplotlib.org/), [Bqplots](https://github.com/bqplot/bqplot), [Voila](https://github.com/voila-dashboards/voila). In addition, the JupyterLab tool can also be used as a regular Galaxy tool in a [workflow](https://usegalaxy.eu/u/kumara/w/gpujupytool-imported-from-uploaded-file). These features make the JupyterLab notebook highly suitable for creating and managing AI projects.
 
 
-![GPU-enabled JupyterLab in Galaxy Europe](https://raw.githubusercontent.com/anuprulez/gpu_jupyterlab_paper_images/master/jupyterlab_ai.png)
+![GPU-enabled JupyterLab in Galaxy Europe for AI](https://raw.githubusercontent.com/anuprulez/gpu_jupyterlab_paper_images/master/jupyterlab_ai.png)
 
 
 ### Comparison with Google Colab and Kaggle Kernels
@@ -30,7 +30,7 @@ A Docker container is created that installs several packages such as JupyterLab,
 
 
 ### Use-cases
-A recent scientific publication that predicts infected regions of COVID-19 CT scan images is reproduced using multiple features of JupyterLab. In addition, colabfold, a faster implementation of alphafold2, can also be accessed in this notebook to predict the 3D structure of protein sequences. JupyterLab notebook is accessible in two ways - first as an interactive Galaxy tool and second by running the underlying docker container. In both ways, long-running training can be executed on Galaxy’s compute infrastructure.
+A recent scientific publication that predicts infected regions of [COVID-19 CT scan images](https://www.sciencedirect.com/science/article/pii/S2666990021000069) is reproduced using multiple features of JupyterLab. In addition, [ColabFold](https://github.com/sokrypton/ColabFold), a faster implementation of [AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2), can also be accessed in this notebook to predict the 3D structure of protein sequences. JupyterLab notebook is accessible in two ways - first as an interactive Galaxy tool and second by running the underlying docker container. In both ways, long-running training can be executed on Galaxy’s compute infrastructure.
 
 
 ### How to apply for this resource
