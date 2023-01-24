@@ -60,6 +60,8 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: hexylena
         orcid: 0000-0001-9760-8992
+        matrix: "@hexylena:matrix.org"
+        mastodon: "tech.lgbt/@hexylena"
         galaxyadmin: true
 
     # joachimwolff:
