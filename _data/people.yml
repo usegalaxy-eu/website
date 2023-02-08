@@ -64,6 +64,20 @@ freiburg:
         mastodon: "tech.lgbt/@hexylena"
         galaxyadmin: true
 
+    paulzierep:
+        name: Paul Zierep
+        title: Dr. rer. nat., Researcher
+        email: zierep@informatik.uni-freiburg.de 
+        phone: +49(0) 761 - 203 54130
+        location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@paulzierep:matrix.org"
+        linkedin: zierep-paul-180543157
+        orcid: 0000-0003-2982-388X
+        google-scholar: DYIa8mUAAAAJ&hl
+        researchgate: Paul-Zierep
+        bio:
+
     # joachimwolff:
       #  name: Joachim Wolff
       #  title: M.Sc. Inf., Researcher
