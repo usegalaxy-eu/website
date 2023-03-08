@@ -2,7 +2,7 @@
 layout: subsite-galaxy
 ---
 
-![Fair-Ease on Galaxy](/logo_fair_ease.png){:.sc-intro-left}
+![Fair-Ease on Galaxy](/assets/media/logo_fair_ease.png){:.sc-intro-left}
 
 # Welcome to Galaxy for Fair-Ease
 {:.no_toc}
