@@ -123,8 +123,14 @@ The NFDI [DataPLANT](https://nfdi4plants.de/) consortium provides services to co
 <a name="NFDI4Bioimage"></a>
 ### NFDI4Bioimage
 
-The [NFDI4Bioimage](https://nfdi4bioimage.de/en/start) is a consortium of the National Research Data Infrastructure (Nationale Forschungsdateninfrastruktur, NFDI) in Germany. The focus is on all steps of the research data life cycle for microscopy and bioimage analysis. The NFDI4Bioimage consortium started in November 2022. The Galaxy Team is involved in WP
+The [NFDI4Bioimage](https://nfdi4bioimage.de/en/start) is a consortium of the National Research Data Infrastructure (Nationale Forschungsdateninfrastruktur, NFDI) in Germany. The focus is on all steps of the research data life cycle for microscopy and bioimage analysis. The NFDI4Bioimage consortium started in November 2022. The Galaxy Team is involved in TA2 and for it, we provide remote access to powerful compute resources via virtual workstations for analysis, visualization, and training.
 
+<a name="Genome Data Infrastructure (GDI)"></a>
+### Genome Data Infrastructure (GDI)
+
+The Genomic Data Infrastructure (GDI) project brings together national agencies, research organisations, and technology providers in
+22 countries to provide a cross-border federated network of national genome collections, associated with other relevant data, for
+advancing data-driven biomedical research and personalised medicine solutions to benefit citizens of Europe. The Galaxy Team WP7 (Major contribution on the infection diseases use-case building on the current projects for analysing viral COVID-19 sequencing data) and WP8 (Major technological contributions to the use of innovative approaches for federated discovery, access and learning connected with the European Galaxy platform).
 
 <a name="elixir-converge"></a>
 ### ELIXIR-CONVERGE
