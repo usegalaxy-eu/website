@@ -9,7 +9,7 @@ layout: default
 # Galaxy and its community
 ---
 
-The Freiburg Galaxy team is highly involved in many projects related to the global Galaxy community:
+The [Freiburg Galaxy team](https://usegalaxy-eu.github.io/people) is highly involved in many projects related to the global Galaxy community:
 
 - Galaxy core development and maintenance.
 - Lead of the European Galaxy Server with 2,700 bioinformatics tools and access to large compute infrastructures.
@@ -28,7 +28,7 @@ The Freiburg Galaxy team is highly involved in many projects related to the glob
 <a name="EuroScienceGateway"></a>
 # EuroScienceGateway
 ---
-A successful Horizon grant from the European Commission allows us together with 15 European partners to leverage a federated open access computational infrastructure through Galaxy as a gateway for data resources, tools and applications by the FAIR principle. The project will start in summer 2022 and is the first time a direct funding for the European Galaxy community, which will provide more resources for users (via Galaxy and Coud APIs) to all users in Europe - national Galaxy servers included.
+With the [EuroScienceGateway](https://eurosciencegateway.eu) (ESG) project, the European Galaxy community received a direct funding for the first time from the European Commission through a successful Horizon-Europe grant. Since September 2022, this project allows us together with 15 European partners to leverage a federated open access computational infrastructure through Galaxy as a gateway for data resources, tools and applications by the FAIR principle. It provides more resources for users (via Galaxy and Coud APIs) to all users in Europe - national Galaxy servers included.
 
 ---
 <a name="bioconda-biocontainer"></a>
@@ -73,10 +73,22 @@ The European Open Science Cloud (EOSC), and [EOSC-Life](https://www.eosc-life.eu
 
 Galaxy is a key player in [WP2 on Tools & Workflows](https://www.eosc-life.eu/tools-workflows) and WP7, around [Cloud Deployment](https://www.eosc-life.eu/about/work-packages).
 
+<a name="eosc4cancer"></a>
+### EOSC4Cancer
+
+[EOSC4Cancer](https://eosc4cancer.eu) will make diverse types of cancer data accessible: genomics, imaging, medical, clinical, environmental and socio-economic. It will use and enhance federated and interoperable systems for securely identifying, sharing, processing and reusing FAIR data across borders and offer them via community-driven analysis environments.
+
+Galaxy is a partner in [WP3 Tool Integration & Visualization](https://eosc4cancer.eu/wp-3) and [WP1 FAIR Data](https://eosc4cancer.eu/wp-1).
+
+<a name="BGE"></a>
+### BGE/VGP ERGA
+
+The [Vertebrate Genome Project](https://galaxyproject.org/projects/vgp) is an international collaborative effort by the G10K consortium to generate near error-free genome assemblies for more than 70,000 vertebrate species. Using Galaxy infrasctructure and public instances, this collaboration has generated new, more open methods of genome assembly and access to data.
+
 <a name="agroserv"></a>
 ### AgroServ
 
-AgroServ supports research and innovation by providing customized and integrated RI services in view of achieving a sustainable and resilient agriculture and supporting agroecological transitions. This aim will take place in line with the One-Health approach, with particular regard to threats and risks on agroecosystems and to enhance new agroecological practices and their socio-economic benefits. Through the AgroServ Data Portal, Galaxy tools  and workflows will be provided. The project will start in 2022.
+[AgroServ](https://emphasis.plant-phenotyping.eu/european-infrastructures/cluster-projects/agroserv) supports research and innovation by providing customized and integrated RI services in view of achieving a sustainable and resilient agriculture and supporting agroecological transitions. This aim will take place in line with the One-Health approach, with particular regard to threats and risks on agroecosystems and to enhance new agroecological practices and their socio-economic benefits. Through the AgroServ Data Portal, Galaxy tools  and workflows will be provided. The project started in 2022.
 
 <a name="egi-ace"></a>
 ### EGI-ACE
@@ -103,12 +115,22 @@ The [Pandemic Research Infrastructure (PaRI)](https://neic.no/pari) project brin
 
 The aim of the project [BioDATEN (Bioinformatics DATa ENvironment)](https://portal.biodaten.info) is to provide the foundation of a Science Data Centre in close cooperation with the life science communities such as research groups and infrastructure providers such as libraries and computing centres.
 
-
 <a name="dataplant"></a>
 ### DataPLANT
 
 The NFDI [DataPLANT](https://nfdi4plants.de/) consortium provides services to complement existing infrastructures and focuses on supporting and easing the processes of complete and meaningful research metadata management in plant sciences. 
 
+<a name="NFDI4Bioimage"></a>
+### NFDI4Bioimage
+
+The [NFDI4Bioimage](https://nfdi4bioimage.de/en/start) is a consortium of the National Research Data Infrastructure (Nationale Forschungsdateninfrastruktur, NFDI) in Germany. The focus is on all steps of the research data life cycle for microscopy and bioimage analysis. The NFDI4Bioimage consortium started in November 2022. The Galaxy Team is involved in TA2 and for it, we provide remote access to powerful compute resources via virtual workstations for analysis, visualization, and training.
+
+<a name="Genome Data Infrastructure (GDI)"></a>
+### Genome Data Infrastructure (GDI)
+
+The Genomic Data Infrastructure (GDI) project brings together national agencies, research organisations, and technology providers in
+22 countries to provide a cross-border federated network of national genome collections, associated with other relevant data, for
+advancing data-driven biomedical research and personalised medicine solutions to benefit citizens of Europe. The Galaxy Team WP7 (Major contribution on the infection diseases use-case building on the current projects for analysing viral COVID-19 sequencing data) and WP8 (Major technological contributions to the use of innovative approaches for federated discovery, access and learning connected with the European Galaxy platform).
 
 <a name="elixir-converge"></a>
 ### ELIXIR-CONVERGE
