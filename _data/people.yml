@@ -21,7 +21,6 @@ freiburg:
         website: http://research.bebatut.fr
         email: bebatut@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54126
-        location: "Build.: 079, Room: -1006"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: bebatut
         twitter: bebatut
@@ -56,7 +55,6 @@ freiburg:
         name: Helena Rasche
         title: B.Sc. Biochem., Technician
         email: hxr@informatik.uni-freiburg.de
-        location: "Build.: 079, Room: -1005a"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: hexylena
         orcid: 0000-0001-9760-8992
@@ -193,7 +191,6 @@ freiburg:
         title: M.A., Certification, Organisation
         email: jan.leendertse@rz.uni-freiburg.de
         phone: +49(0) 761 - 203 54126
-        location: "Build.: 079, Room: -1005a"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: JanLeendertse
         orcid: 0000-0001-5676-493X
