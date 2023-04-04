@@ -97,7 +97,7 @@ freiburg:
       #  location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
       #  bio:
 
-  #  mtekman:
+    #  mtekman:
       #  name: Mehmet Tekman
       #  title: Ph.D., Researcher
       #  email: tekman@informatik.uni-freiburg.de
@@ -115,7 +115,7 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         bio:
 
-   # stephanflemming:
+    # stephanflemming:
       #  name: Stephan Flemming
       #  title: Dr. rer. nat., Researcher
       #  email: flemming@informatik.uni-freiburg.de
@@ -126,28 +126,28 @@ freiburg:
       #  orcid:  0000-0002-4632-3863
       #  bio:
 
-    gmauro:
-        name: Gianmauro Cuccuru
-        title: M.Sc. Electronic Eng., Researcher
-        email: gmauro@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54132
-        location: "Build.: 079, Room: -1005"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        linkedin: gianmaurocuccuru
-        matrix: "@gmauro:matrix.org"
-        orcid: 0000-0002-5335-545X
-        galaxyadmin: true
+    # gmauro:
+        # name: Gianmauro Cuccuru
+        # title: M.Sc. Electronic Eng., Researcher
+        # email: gmauro@informatik.uni-freiburg.de
+        # phone: +49(0) 761 - 203 54132
+        # location: "Build.: 079, Room: -1005"
+        # location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        # linkedin: gianmaurocuccuru
+        # matrix: "@gmauro:matrix.org"
+        # orcid: 0000-0002-5335-545X
+        # galaxyadmin: true
 
-    simonbray:
-        name: Simon Bray
-        title: M.Sc. Biochem. Biophys., Researcher
-        email: sbray@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54127
-        location: "Build.: 079, Room: -1015"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        gitter: simonbray
-        orcid: 0000-0002-0621-6705
-        bio:
+    # simonbray:
+        # name: Simon Bray
+        # title: M.Sc. Biochem. Biophys., Researcher
+        # email: sbray@informatik.uni-freiburg.de
+        # phone: +49(0) 761 - 203 54127
+        # location: "Build.: 079, Room: -1015"
+        # location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        # gitter: simonbray
+        # orcid: 0000-0002-0621-6705
+        # bio:
 
    # khanteymoori:
       #  name: Alireza Khanteymoori
@@ -198,18 +198,18 @@ freiburg:
         linkedin: JanLeendertse
         researchgate: JanLeendertse
 
-    beatrizserrano:
-        name: Beatriz Serrano-Solano
-        title: Ph.D., Researcher
-        email: serranob@informatik.uni-freiburg.de
-        location: "Build.: 079, Room: -1005a"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        gitter: beatrizserrano
-        matrix: "@beatrizserrano:matrix.org"
-        twitter: Birthae
-        linkedin: beatriz-serrano
-        orcid: 0000-0002-5862-6132
-        researchgate: Beatriz_Serrano-Solano
+    # beatrizserrano:
+        # name: Beatriz Serrano-Solano
+        # title: Ph.D., Researcher
+        # email: serranob@informatik.uni-freiburg.de
+        # location: "Build.: 079, Room: -1005a"
+        # location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        # gitter: beatrizserrano
+        # matrix: "@beatrizserrano:matrix.org"
+        # twitter: Birthae
+        # linkedin: beatriz-serrano
+        # orcid: 0000-0002-5862-6132
+        # researchgate: Beatriz_Serrano-Solano
 
     gallardoalba:
         name: Cristóbal Gallardo Alba
