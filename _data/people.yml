@@ -4,7 +4,7 @@ freiburg:
         title: Dr. rer. nat., Researcher, Head of the Team
         email: gruening@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54130
-        location: "Build.: 079, Room: -1005a"
+        location: "Build.: 079, Room: -1006"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: bgruening
         matrix: "@bgruening:matrix.org"
@@ -36,7 +36,7 @@ freiburg:
         title: Dr. rer. nat., Researcher
         email: erxleben@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54129
-        location: "Build.: 079, Room: -1005a"
+        location: "Build.: 079, Room: -1006"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         bio:
 
@@ -45,7 +45,7 @@ freiburg:
         title: Dr. phil. nat., Researcher
         email: maierw@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54126
-        location: "Build.: 079, Room: -1006"
+        location: "Build.: 079, Room: -1005a"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         matrix: "@wm75:matrix.org"
         orcid: 0000-0002-9464-6640
@@ -67,7 +67,7 @@ freiburg:
     paulzierep:
         name: Paul Zierep
         title: Dr. rer. nat., Researcher
-        email: zierep@informatik.uni-freiburg.de 
+        email: zierep@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54130
         location: "Build.: 079, Room: -1005a"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
@@ -98,7 +98,7 @@ freiburg:
       #  location: "Build.: 079, Room: -1005"
       #  location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
       #  bio:
-        
+
   #  mtekman:
       #  name: Mehmet Tekman
       #  title: Ph.D., Researcher
@@ -231,12 +231,12 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: davelopez
         matrix: "@davel0pez:matrix.org"
-            
+
     engynasr:
         name: Engy Nasr
         title: M.Sc. Inf., Researcher
         email: nasr@informatik.uni-freiburg.de
-        location: "Build.: 079, Room: -1015"
+        location: "Build.: 079, Room: -1005a"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: engynasr
         orcid: 0000-0001-9047-4215
@@ -284,7 +284,7 @@ freiburg:
         matrix: "@itisAliRH:matrix.org"
         twitter: itisAliRH
         linkedin: itisAliRH
-    
+
     ElectronicBlueberry:
         name: Laila Los
         title: Software Developer
@@ -293,7 +293,7 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: ElectronicBlueberry
         matrix: "@electronic_blueberry:matrix.org"
-        
+
 
 erasmusmc:
     andrew-emc:
