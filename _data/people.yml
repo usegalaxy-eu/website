@@ -78,6 +78,18 @@ freiburg:
         researchgate: Paul-Zierep
         bio:
 
+    josedominguez:
+        name: José Manuel Domínguez
+        title: M.Sc. Math., Researcher
+        email: dominguj@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@jdom:matrix.org"
+        linkedin: josdombeg
+        orcid: 0000-0002-1063-6032
+        galaxyadmin: true
+        bio:
+
     # joachimwolff:
       #  name: Joachim Wolff
       #  title: M.Sc. Inf., Researcher
