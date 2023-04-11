@@ -39,7 +39,7 @@ A collection of best practice and popular tools are integrated (and are expandin
     <div align="center">
         <b>Polishing, QC and preprocessing</b><br/>
         <br/>
-        {% include tool.html id="Porechop" %}, {% include tool.html id="Filtlong" %}, {% include tool.html id="Nanopolish" %},  {% include tool.html id="Poretools" %}
+        {% include tool.html id="Porechop" %}, {% include tool.html id="Filtlong" %}, {% include tool.html id="Nanopolish" %},  {% include tool.html id="Poretools" %},
         {% include tool.html id="Medaka" %}, {% include tool.html id="MultiQC" %}
     </div>
     </th>
