@@ -8,4 +8,7 @@ dependencies:
   - pyzotero=1
   - bibtexparser=1
   - ruby=2.6
+  - python-frontmatter=1
+  - pandas=2
+  - requests=2
 
