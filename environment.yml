@@ -5,7 +5,7 @@ channels:
   - defaults
 dependencies:
   - ca-certificates
-  - pyzotero
-  - bibtexparser
+  - pyzotero=1
+  - bibtexparser=1
   - ruby=2.6
 
