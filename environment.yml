@@ -7,19 +7,5 @@ dependencies:
   - ca-certificates
   - pyzotero
   - bibtexparser
-  - gdbm=1.18
-  - gmp=6.2.0
-  - icu=64.2
-  - libffi=3.2.1
-  - libiconv=1.15
-  - libxml2=2.9.10
-  - libxslt=1.1.33
-  - ncurses=6.1
-  - openssl=1.1.1d
-  - readline=8
   - ruby=2.6
-  - tk
-  - xz
-  - yaml
-  - zlib
 
