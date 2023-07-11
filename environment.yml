@@ -7,7 +7,7 @@ dependencies:
   - ca-certificates
   - pyzotero=1
   - bibtexparser=1
-  - ruby=2.6
+  - ruby>=3.2,<4
   - python-frontmatter=1
   - pandas=2
   - requests=2
