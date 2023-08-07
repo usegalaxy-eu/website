@@ -76,6 +76,17 @@ freiburg:
         researchgate: Paul-Zierep
         bio:
 
+    sebastian-schaaf:
+        name: Sebastian Schaaf
+        title: Dr. rer. nat., Researcher, ELIXIR-DE Officer for Galaxy
+        email: schaaf@informatik.uni-freiburg.de
+        location: "External - Forschungszentrum Jülich, Cologne area"
+        #location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@sschaaf:matrix.org"
+        orcid: 0000-0001-8193-0151
+        researchgate: Sebastian-Schaaf
+        bio:
+
     kysrpex:
         name: José Manuel Domínguez
         title: M.Sc. Math., SysAdmin, DevOps
