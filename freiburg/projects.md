@@ -191,7 +191,7 @@ more than 3,000 times. It is of course part of the European Galaxy server and wa
 
 ---
 <a name="capacity-building"></a>
-# Capacity Building Projects
+# Capacity Building and Training Projects
 ---
 
 <a name="gallantries"></a>
@@ -210,3 +210,7 @@ The [Gallantries](https://gallantries.github.io/) project aims to increase bioin
 In the [Street Science community](https://streetscience.community/), we want to make science tangible & accessible by bringing it to the
 “street” via open science workshops. These workshops are an excuse to meet, discuss, educate and develop ideas in a neutral, open,
 noncompetitive and not-for-profit environment.
+
+### BioNT
+
+BioNT, the [BIO Network for Training](http://biont-training.eu/), is a consortium project aiming at delivering bioinformatics training across sectors, including training for Industry employees and job seekers.
