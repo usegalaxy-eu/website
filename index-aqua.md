@@ -6,8 +6,6 @@ subdomain: aqua
 
 # Welcome to Aqua's Galaxy
 
-![aqua](https://github.com/MarkusKonk/website/assets/2863409/8e5afe32-11aa-4611-8170-65b5e4503bae)
-
 The Aqua Galaxy instance is a virtual research environment developed as part of the [AquaInfra](https://aquainfra.eu/) project. It is composed of a set of tools to analyse FAIR multi-disciplinary data and services to 
 support marine and freshwater scientists and stakeholders restoring healthy oceans, seas, coastal and inland waters. The virtual environment will enable the target stakeholders to store, share, access, 
 analyse and process research data and other research digital objects from their own discipline, across research infrastructures, disciplines and national borders leveraging on EOSC and the other existing operational dataspaces.
