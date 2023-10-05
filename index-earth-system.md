@@ -56,14 +56,17 @@ Welcome and introduction to Galaxy | [<i class="fa fa-slideshare" aria-hidden="t
 Multiple tools on Earth System, Environment and Biodiversity data analysis will be available in this custom Galaxy instance:
 
 - **General tools**
-    - Interactive tools : Jupyterlab
-    - Data viewer : WebODV
-- **Ocean tools**
-    - Source and DIVAnd
-- **Bio_geo chemical dedicated tools**
-- **Etmo BON (biodiversity) tools**
-- **EAZ earth analytical zone tools** on desertification
-- **Volcanic plume dedicated tools**
+    - QGIS
+    - HDFviewer
+- **Coastal Water Dynamics tools**
+    - Data viewer : ODV
+    - DIVAnd
+    - Source
+- **Bio-GeoChemical tools**
+    - Scoop Argo
+- **Marine omics tools**
+- **Earth critical zone tools** on land degradation
+- **Volcano tools**
 
 # Workflows
 
