@@ -7,6 +7,12 @@ Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and
 <img src="/assets/media//Galaxy-E-concarneau-team-2018-logo.gif" height="225px" alt="PNDB french Biodiversity e-infrastructure"/>
 
 
+<div align="center">
+    <a href="https://usegalaxy.eu/gapars-experiment/" target="_blank">
+        <button type="button" class="btn btn-primary btn-lg">Citizen science on marmalade hoverflies</button>
+    </a>
+</div>
+
 1. TOC
 {:toc}
 

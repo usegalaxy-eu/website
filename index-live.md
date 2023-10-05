@@ -127,6 +127,12 @@ margin: auto;
       <p class="textcard">A web spreadsheet</p>
     </a>
 
+    <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_blobtoolkit" target="_top">
+      <img class="card-img-top" src="/assets/media/interactive/blobtoolkit.png" title="BlobToolKit Viewer is a genome-scale dataset visualistion" />
+      <h2>BlobToolKit</h2>
+      <p class="textcard">Genome-scale dataset visualistion</p>
+    </a>
+
     <!--a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_paraview" target="_top">
       <img class="card-img-top" src="/assets/media/interactive/paraview.svg" title="ParaView is an open-source, multi-platform data analysis and visualization application." />
       <h2>Paraview</h2>
