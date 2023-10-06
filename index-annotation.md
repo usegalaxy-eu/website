@@ -45,15 +45,11 @@ GGA was also [presented at ISMB/ECCB 2019!](https://docs.google.com/presentation
 <div class="row">
 <div class="col-md-6 col-sm-12">
 <h3>Eukaryotic Training</h3>
-<iframe src="https://training.galaxyproject.org/training-material/tags/eukaryotic/embed.html" height="300px" width="100%" class="gtn-embed" frameborder="0"></iframe>
+<iframe src="https://training.galaxyproject.org/training-material/tags/eukaryote/embed.html" height="300px" width="100%" class="gtn-embed" frameborder="0"></iframe>
 </div>
 
 <div class="col-md-6 col-sm-12">
 <h3>Prokaryotic Training</h3>
-<iframe src="https://training.galaxyproject.org/training-material/tags/prokaryotic/embed.html" height="300px" width="100%" class="gtn-embed" frameborder="0"></iframe>
+<iframe src="https://training.galaxyproject.org/training-material/tags/prokaryote/embed.html" height="300px" width="100%" class="gtn-embed" frameborder="0"></iframe>
 </div>
 </div>
-
-<script>
-document.querySelectorAll("iframe.gtn-embed").forEach(e => { e.height = e.contentWindow.document.body.scrollHeight + 60 });
-</script>
