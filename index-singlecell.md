@@ -6,14 +6,16 @@ subdomain: singlecell
 ---
 
 ![single cell Galaxy](/assets/media/logo_single_cell.svg){:width="25%"}
-![#singlecell](/assets/media/single_cell_tag.png){:width="25%"}
 ![Human Cell Atlas](/assets/media/hca.png){:width="50%"}
 
-# Welcome to the Single Cell Omics Galaxy Instance!
+# Welcome to the world of Single Cell Omics
 {:.no_toc}
 
 
-The Single Cell Omics and [The Human Cell Atlas](https://www.humancellatlas.org){:target="_blank"} Galaxy enthusiasts have combined forces to bring you a single cell focused Galaxy instance to make your analysis even easier. This resource is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
+The Single Cell Omics and Human Cell Atlas Galaxy enthusiasts have combined forces to bring you a single cell focused Galaxy subdomain to make your analysis even easier. This instance is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
+
+
+[The Human Cell Atlas](https://www.humancellatlas.org){:target="_blank"} Galaxy setup comprises of analysis tools and workflows for the analysis of Single Cell RNA-Seq data. It includes a module that connects to the Matrix Service API of the HCA’s Data Coordination Platform that enables retrieval of gene expression matrices from any data sets in the Human Cell Atlas. 
 
 This service is a joint project between different groups from the [Earlham Institute](http://www.earlham.ac.uk){:target="_blank"}, the [Gene Expression Team](https://www.ebi.ac.uk/about/people/irene-papatheodorou) at [EMBL-EBI](https://www.ebi.ac.uk/), the [Teichmann Team](https://www.sanger.ac.uk/science/groups/teichmann-group) at the [Wellcome Sanger Institute](https://www.sanger.ac.uk/), [EMBL](https://gbcs.embl.de/) the [Sorbonne University](http://artbio.fr/), [Peter MacCallum Cancer Centre](https://www.petermac.org/) and the [University of Freiburg](https://galaxyproject.eu/freiburg/).
 
@@ -26,36 +28,27 @@ The server is part if the European Galaxy server and is maintained by the [RNA B
 {:toc}
 
 
-# Get started with #singlecell
+# Get started with
 
-Are you new to Galaxy, or returning after a long time, and looking for help to get started?
+Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
-You may be interested in the following resources:
+Hello user! You will be interested in the following resources:
 
-<i class="fa fa-location-arrow" aria-hidden="true"></i> [Guided tour]({{ page.website }}/tours/core.galaxy_ui) through Galaxy's user interface.\
-<i class="fa fa-mortar-board" aria-hidden="true"></i> [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)\
-<i class="fa fa-book" aria-hidden="true"></i> [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)\
-<i class="fa fa-comments-o" aria-hidden="true"></i> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)\
-<i class="fa fa-commenting-o" aria-hidden="true"></i> [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
+- <i class="fa fa-mortar-board" aria-hidden="true"></i> [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
+- <i class="fa fa-book" aria-hidden="true"></i> [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)
+- <i class="fa fa-comments-o" aria-hidden="true"></i> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)
+- <i class="fa fa-commenting-o" aria-hidden="true"></i> [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 
 
-# Training
+# Training and Workshops
 
-Want to learn even more about single cell analyses? You can check out our single cell training page within the wider Galaxy Training Network.
-
-<i class="fa fa-road" aria-hidden="true"></i> [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)\
-<i class="fa fa-mortar-board" aria-hidden="true"></i> [the Galaxy Training Network](https://galaxyproject.github.io/training-material/)
+**Want to learn more about single cell analyses? After completing our introductory** [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html), you can explore our plethora of [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/) as part of [the Galaxy Training Network](https://galaxyproject.github.io/training-material/).
 
 <iframe src="https://training.galaxyproject.org/training-material/tags/single-cell/embed.html" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
 
 # Workflows
 
-In addition to our fantastic training materials, we encourage users to share their workflows!
-
-[Tag your workflows](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_annotate.html) with **#usegalaxy** and share publicly with other users!
-   {: .alert.alert-success}
-
-You can see shared workflows below.
+In addition to our fantastic training materials, we encourage users to share their workflows! [Tag your workflows](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_annotate.html) with #usegalaxy and share publicly with other users! You can see shared workflows below
 
 <iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?query=single-cell" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
 
@@ -69,14 +62,12 @@ Are you stuck? Galaxy is community driven, so we have a lot of resources to try 
 5. [Usegalaxy.org chat](https://matrix.to/#/#galaxyproject_Lobby:gitter.im )
 
 # Asking for tools
-Our Single Cell Community of Practice welcomes tool requests. We’re an open source, community-driven group, so we can’t guarantee everything, but we can certainly try to get the tools users need most into Galaxy! You can request tools at the following link:
-
-[<i class="fa fa-wrench" aria-hidden="true"></i> Tool Requests from Users](https://docs.google.com/spreadsheets/d/15hqgqA-RMDhXR-ylKhRF-Dab9Ij2arYSKiEVoPl2df4/edit?usp=sharing)\
+Our Single Cell Community of Practice welcomes tool requests. We’re an open source, community-driven group, so we can’t guarantee everything, but we can certainly try to get the tools users need most into Galaxy! You can request tools at the following link: [<i class="fa fa-wrench" aria-hidden="true"></i> Tool Requests from Users](https://docs.google.com/spreadsheets/d/15hqgqA-RMDhXR-ylKhRF-Dab9Ij2arYSKiEVoPl2df4/edit?usp=sharing)
 
 # Join the Single Cell Community of Practice
-Want to talk with trainers and developers on how to improve single cell analysis in Galaxy? Join the Community of Practice - we’re a nice bunch!
+Want to talk with trainers and developers on how to improve single cell analysis in Galaxy? What would you want to be able to do? What would you change? Join the Community of Practice - we’re a nice bunch!
 
-<i class="fa fa-hand-o-right" aria-hidden="true"></i> Go to our [Community of Practice site](https://galaxyproject.org/projects/singlecell/) to read more and join us!
+<i class="fa fa-hand-o-right" aria-hidden="true"></i> Go to our [Community of Practice site](https://galaxyproject.org/projects/singlecell/) to read more and join us! 
 
 
 <!-- # Events and Workshops -->
@@ -85,5 +76,29 @@ Want to talk with trainers and developers on how to improve single cell analysis
 
 # Contributors
 
-| <ul><li>[Pablo Moreno](https://github.com/pcm32) </li><li>[Mehmet Tekman](https://github.com/mtekman) </li><li>[Pavankumar Videm](https://github.com/pavanvidem) </li><li>[Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/) </li><li>[José Domínguez](https://github.com/kysrpex) </li><li>[Alex Ostrovsky](https://github.com/astrovsky01) </li><li>[Andrey Solovyev](https://github.com/a-solovyev12) </li><li>[Bérénice Batut](https://github.com/bebatut) </li><li>[Bjoern Gruening](https://github.com/bgruening) </li><li>[Carlos Talavera-Lopez](https://github.com/cartal) </li><li>[Charles Girardot](https://github.com/cgirardot) </li><li>[Christophe Antoniewski](https://github.com/drosofff) </li><li>[Daniel Blankenberg](https://github.com/blankenberg) | <ul><li>[Fidel Ramirez](https://github.com/fidelram) </li><li>[Graham Etherington](https://github.com/ethering) </li><li>[Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/) </li><li>[Irene Papatheodorou](https://twitter.com/irenepapatheodo) </li><li>[James Taylor](https://github.com/jxtx) </li><li>[Jelle Scholtalbers](https://github.com/scholtalbers) </li><li>[Jonathan Manning](https://github.com/pinin4fjords) </li><li>[Krzysztof Polanski](https://github.com/ktpolanski) </li><li>[Lea Bellenger](https://github.com/bellenger-l) </li><li>[Maria Doyle](https://github.com/mblue9) </li><li>[Ni Huang](https://github.com/nh3) </li><li>[Nicola Soranzo](https://github.com/nsoranzo) </li><li>[Suhaib Mohammed](https://github.com/suhaibMo) |
-| :------------- |:-------------|
+- [Pablo Moreno](https://github.com/pcm32)
+- [Mehmet Tekman](https://github.com/mtekman)
+- [Pavankumar Videm](https://github.com/pavanvidem)
+- [Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/)
+- [José Domínguez](https://github.com/kysrpex)
+- [Alex Ostrovsky](https://github.com/astrovsky01)
+- [Andrey Solovyev](https://github.com/a-solovyev12)
+- [Bérénice Batut](https://github.com/bebatut)
+- [Bjoern Gruening](https://github.com/bgruening)
+- [Carlos Talavera-Lopez](https://github.com/cartal)
+- [Charles Girardot](https://github.com/cgirardot)
+- [Christophe Antoniewski](https://github.com/drosofff)
+- [Daniel Blankenberg](https://github.com/blankenberg)
+- [Fidel Ramirez](https://github.com/fidelram)
+- [Graham Etherington](https://github.com/ethering)
+- [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/)
+- [Irene Papatheodorou](https://twitter.com/irenepapatheodo)
+- [James Taylor](https://github.com/jxtx)
+- [Jelle Scholtalbers](https://github.com/scholtalbers)
+- [Jonathan Manning](https://github.com/pinin4fjords)
+- [Krzysztof Polanski](https://github.com/ktpolanski)
+- [Lea Bellenger](https://github.com/bellenger-l)
+- [Maria Doyle](https://github.com/mblue9)
+- [Ni Huang](https://github.com/nh3)
+- [Nicola Soranzo](https://github.com/nsoranzo)
+- [Suhaib Mohammed](https://github.com/suhaibMo)
