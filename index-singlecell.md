@@ -34,10 +34,10 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 Hello user! You will be interested in the following resources:
 
-- <i class="fa fa-mortar-board" aria-hidden="true"></i>[Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
-- <i class="fa fa-book" aria-hidden="true"></i>[Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)
-- <i class="fa fa-comments-o" aria-hidden="true"></i>[Single cell help forum](https://help.galaxyproject.org/tag/scrna)
-- <i class="fa fa-commenting-o" aria-hidden="true"></i>[Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
+- <i class="fa fa-mortar-board" aria-hidden="true"></i> [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
+- <i class="fa fa-book" aria-hidden="true"></i> [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)
+- <i class="fa fa-comments-o" aria-hidden="true"></i> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)
+- <i class="fa fa-commenting-o" aria-hidden="true"></i> [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 
 
 # Training and Workshops
@@ -55,19 +55,19 @@ In addition to our fantastic training materials, we encourage users to share the
 
 # Asking for help
 Are you stuck? Galaxy is community driven, so we have a lot of resources to try and help you. In order, we suggest trying the following to get help!
-- [General help forum](https://help.galaxyproject.org/c/usegalaxy-eu-support/6) or for single-cell specific questions, [Single cell help forum](scrna)
-- [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
-- [Galaxy Training Community chat](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im)
-- [Usegalaxy.eu chat](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im )
-- [Usegalaxy.org chat](https://matrix.to/#/#galaxyproject_Lobby:gitter.im )
+1. [General help forum](https://help.galaxyproject.org/c/usegalaxy-eu-support/6) or for single-cell specific questions, [Single cell help forum](scrna)
+2. [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
+3. [Galaxy Training Community chat](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im)
+4. [Usegalaxy.eu chat](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im )
+5. [Usegalaxy.org chat](https://matrix.to/#/#galaxyproject_Lobby:gitter.im )
 
 # Asking for tools
-Our Single Cell Community of Practice welcomes tool requests. We’re an open source, community-driven group, so we can’t guarantee everything, but we can certainly try to get the tools users need most into Galaxy! You can request tools at the following link: [Tool Requests from Users](https://docs.google.com/spreadsheets/d/15hqgqA-RMDhXR-ylKhRF-Dab9Ij2arYSKiEVoPl2df4/edit?usp=sharing)
+Our Single Cell Community of Practice welcomes tool requests. We’re an open source, community-driven group, so we can’t guarantee everything, but we can certainly try to get the tools users need most into Galaxy! You can request tools at the following link: [<i class="fa fa-wrench" aria-hidden="true"></i> Tool Requests from Users](https://docs.google.com/spreadsheets/d/15hqgqA-RMDhXR-ylKhRF-Dab9Ij2arYSKiEVoPl2df4/edit?usp=sharing)
 
 # Join the Single Cell Community of Practice
 Want to talk with trainers and developers on how to improve single cell analysis in Galaxy? What would you want to be able to do? What would you change? Join the Community of Practice - we’re a nice bunch!
 
-<i class="fa fa-hand-o-right" aria-hidden="true"></i>Go to our [Community of Practice site](https://galaxyproject.org/projects/singlecell/) to read more and join us! 
+<i class="fa fa-hand-o-right" aria-hidden="true"></i> Go to our [Community of Practice site](https://galaxyproject.org/projects/singlecell/) to read more and join us! 
 
 
 <!-- # Events and Workshops -->
