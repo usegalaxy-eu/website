@@ -442,7 +442,18 @@ ifb:
         twitter: julozi
         gitter: julozi
         galaxyadmin: true
-    davidchristiany:
-        name: David Christiany
-        title: Engineer developer - CNRS / IFB
+    tchaussepiedifb:
+        name: Thomas Chaussepied
+        title: Engineer, sysadmin of UseGalaxy.fr - CNRS / IFB
+        matrix: "@tchaussepied:matrix.org"
+        galaxyadmin: true
+    merciereva:
+        name: Eva Mercier
+        title: Engineer, EuroScienceGateway (WP3, Pulsar deployment) - CNRS / GenOuest
+        matrix: "@eva_mercier:matrix.org"
+    rlibouba:
+        name: Romane Libouban
+        title: Engineer, EuroScienceGateway (WP5, Genome Annotation use case) - CNRS / GenOuest
+        matrix: "@rlibouban:matrix.org"
+        galaxyadmin: true
 
