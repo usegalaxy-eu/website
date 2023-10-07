@@ -4,7 +4,10 @@ tags: training
 title: "Galaxy Community Call: Testing infrastructure for Galaxy's data model and database migrations"
 starts: 2022-09-15
 ends: 2022-09-15
-organiser: John Davis
+organiser: John Davis 
 location:  online
-supporters:
-external: "https://galaxyproject.org/events/2022-09-15-community-call"---
+supporters: 
+external: "https://galaxyproject.org/events/2022-09-15-community-call"
+---
+
+A forum to share updates and discuss community-wide topics.

@@ -32,18 +32,17 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 You may be interested in the following resources:
 
-<i class="fa fa-location-arrow" aria-hidden="true"></i> [Guided tour]({{ page.website }}/tours/core.galaxy_ui) through Galaxy's user interface.\
-<i class="fa fa-mortar-board" aria-hidden="true"></i> [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)\
-<i class="fa fa-book" aria-hidden="true"></i> [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)\
-<i class="fa fa-comments-o" aria-hidden="true"></i> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)\
-<i class="fa fa-commenting-o" aria-hidden="true"></i> [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
+<i class="fa fa-map" aria-hidden="true"></i> [Guided tour]({{ page.website }}/tours/core.galaxy_ui) through Galaxy's user interface.\
+<i class="fa fa-road" aria-hidden="true"></i> [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)\
+<i class="fa fa-question-circle-o" aria-hidden="true"></i> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)\
+<i class="fa fa-comments-o" aria-hidden="true"></i> [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 
 
 # Training
 
 Want to learn even more about single cell analyses? You can check out our single cell training page within the wider Galaxy Training Network.
 
-<i class="fa fa-road" aria-hidden="true"></i> [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)\
+<i class="fa fa-book" aria-hidden="true"></i> [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)\
 <i class="fa fa-mortar-board" aria-hidden="true"></i> [the Galaxy Training Network](https://galaxyproject.github.io/training-material/)
 
 <iframe src="https://training.galaxyproject.org/training-material/tags/single-cell/embed.html" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
