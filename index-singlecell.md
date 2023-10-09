@@ -6,7 +6,6 @@ subdomain: singlecell
 ---
 
 ![single cell Galaxy](/assets/media/logo_single_cell.svg){:width="25%"}
-![#singlecell](/assets/media/single_cell_tag.png){:width="25%"}
 ![Human Cell Atlas](/assets/media/hca.png){:width="50%"}
 
 # Welcome to the Single Cell Omics Galaxy Instance!
@@ -51,7 +50,7 @@ Want to learn even more about single cell analyses? You can check out our single
 
 In addition to our fantastic training materials, we encourage users to share their workflows!
 
-[Tag your workflows](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_annotate.html) with **#usegalaxy** and share publicly with other users!
+[Tag your workflows](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_annotate.html) with **#singlecell** and share publicly with other users!
    {: .alert.alert-success}
 
 You can see shared workflows below.
@@ -70,7 +69,7 @@ Are you stuck? Galaxy is community driven, so we have a lot of resources to try 
 # Asking for tools
 Our Single Cell Community of Practice welcomes tool requests. We’re an open source, community-driven group, so we can’t guarantee everything, but we can certainly try to get the tools users need most into Galaxy! You can request tools at the following link:
 
-[<i class="fa fa-wrench" aria-hidden="true"></i> Tool Requests from Users](https://docs.google.com/spreadsheets/d/15hqgqA-RMDhXR-ylKhRF-Dab9Ij2arYSKiEVoPl2df4/edit?usp=sharing)\
+[<i class="fa fa-wrench" aria-hidden="true"></i> Tool Requests from Users](https://docs.google.com/spreadsheets/d/15hqgqA-RMDhXR-ylKhRF-Dab9Ij2arYSKiEVoPl2df4/edit?usp=sharing)
 
 # Join the Single Cell Community of Practice
 Want to talk with trainers and developers on how to improve single cell analysis in Galaxy? Join the Community of Practice - we’re a nice bunch!
@@ -84,5 +83,29 @@ Want to talk with trainers and developers on how to improve single cell analysis
 
 # Contributors
 
-| <ul><li>[Pablo Moreno](https://github.com/pcm32) </li><li>[Mehmet Tekman](https://github.com/mtekman) </li><li>[Pavankumar Videm](https://github.com/pavanvidem) </li><li>[Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/) </li><li>[José Domínguez](https://github.com/kysrpex) </li><li>[Alex Ostrovsky](https://github.com/astrovsky01) </li><li>[Andrey Solovyev](https://github.com/a-solovyev12) </li><li>[Bérénice Batut](https://github.com/bebatut) </li><li>[Bjoern Gruening](https://github.com/bgruening) </li><li>[Carlos Talavera-Lopez](https://github.com/cartal) </li><li>[Charles Girardot](https://github.com/cgirardot) </li><li>[Christophe Antoniewski](https://github.com/drosofff) </li><li>[Daniel Blankenberg](https://github.com/blankenberg) | <ul><li>[Fidel Ramirez](https://github.com/fidelram) </li><li>[Graham Etherington](https://github.com/ethering) </li><li>[Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/) </li><li>[Irene Papatheodorou](https://twitter.com/irenepapatheodo) </li><li>[James Taylor](https://github.com/jxtx) </li><li>[Jelle Scholtalbers](https://github.com/scholtalbers) </li><li>[Jonathan Manning](https://github.com/pinin4fjords) </li><li>[Krzysztof Polanski](https://github.com/ktpolanski) </li><li>[Lea Bellenger](https://github.com/bellenger-l) </li><li>[Maria Doyle](https://github.com/mblue9) </li><li>[Ni Huang](https://github.com/nh3) </li><li>[Nicola Soranzo](https://github.com/nsoranzo) </li><li>[Suhaib Mohammed](https://github.com/suhaibMo) |
-| :------------- |:-------------|
+- [Pablo Moreno](https://github.com/pcm32)
+- [Mehmet Tekman](https://github.com/mtekman)
+- [Pavankumar Videm](https://github.com/pavanvidem)
+- [Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/)
+- [José Domínguez](https://github.com/kysrpex)
+- [Alex Ostrovsky](https://github.com/astrovsky01)
+- [Andrey Solovyev](https://github.com/a-solovyev12)
+- [Bérénice Batut](https://github.com/bebatut)
+- [Bjoern Gruening](https://github.com/bgruening)
+- [Carlos Talavera-Lopez](https://github.com/cartal)
+- [Charles Girardot](https://github.com/cgirardot)
+- [Christophe Antoniewski](https://github.com/drosofff)
+- [Daniel Blankenberg](https://github.com/blankenberg)
+- [Fidel Ramirez](https://github.com/fidelram)
+- [Graham Etherington](https://github.com/ethering)
+- [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/)
+- [Irene Papatheodorou](https://twitter.com/irenepapatheodo)
+- [James Taylor](https://github.com/jxtx)
+- [Jelle Scholtalbers](https://github.com/scholtalbers)
+- [Jonathan Manning](https://github.com/pinin4fjords)
+- [Krzysztof Polanski](https://github.com/ktpolanski)
+- [Lea Bellenger](https://github.com/bellenger-l)
+- [Maria Doyle](https://github.com/mblue9)
+- [Ni Huang](https://github.com/nh3)
+- [Nicola Soranzo](https://github.com/nsoranzo)
+- [Suhaib Mohammed](https://github.com/suhaibMo)
