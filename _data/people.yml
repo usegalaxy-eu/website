@@ -303,6 +303,15 @@ freiburg:
         matrix: "@electronic_blueberry:matrix.org"
         orcid: 0000-0002-2362-9720
 
+    PlushZ:
+        name: Polina Polunina
+        title: M.Sc. Inf., Researcher
+        email: polunina@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: PlushZ
+        orcid: 0000-0002-0507-4602
+
 
 erasmusmc:
     andrew-emc:
