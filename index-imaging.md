@@ -57,6 +57,10 @@ The service is part of the European Galaxy server and is maintained by the [RNA 
 <td width="30%">
 <img alt="Euro-Bioimaging" src="/assets/media/eubi_logo.png" />
 </td>
+<td with="1%"></td>
+<td width="13%">
+<img alt="BMCV" src="/assets/media/logo_BMCV.png" />
+</td>
 <td with="0%"></td>
 <td width="10%">
 <img alt="ELIXIR" src="/assets/media/elixir_logo.png" />
@@ -64,10 +68,6 @@ The service is part of the European Galaxy server and is maintained by the [RNA 
 <td with="1%"></td>
 <td width="13%">
 <img alt="EMBL" src="/assets/media/logo_EMBL.png" />
-</td>
-<td with="1%"></td>
-<td width="13%">
-<img alt="BMCV" src="/assets/media/logo_BMCV.png" />
 </td>
 <td with="3%"></td>
 <td width="10%">
