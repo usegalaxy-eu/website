@@ -63,48 +63,7 @@ Mass spectrometry imaging: Examining the spatial distribution of analytes  | [<i
 Mass spectrometry imaging: Finding differential analytes | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metabolomics/slides/introduction.html#1){:target="_blank"} | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/tutorial.html){:target="_blank"} | [<i class="fa fa-files-o" aria-hidden="true"></i>](http://doi.org/10.5281/zenodo.484496){:target="_blank"} | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/workflows/){:target="_blank"} |
 {:.table.table-striped}
 
-<br>
-# Available tools
 
-## Data access
-
-To access your image data, you can always upload it to your history. However, since the images are usually heavy, there are connectors to existing public databases that will bring the data that you need into Galaxy.
-
-
-TOOL | DESCRIPTION
---- | ---
-**IDR/OMERO Download Tool** | Access to public images at the [IDR](https://idr.openmicroscopy.org/). This tool allows [access to image data in private OMERO instances](https://galaxyproject.eu/posts/2020/11/23/OMERO-post/).
-**Convert image** | Tool to convert image formats.
-{: .table.table-striped}
-
-## Segmentation & Feature extraction
-
-There are many tools organised into suites to segment and extract features from your images. 
-
-TOOL | DESCRIPTION
---- | ---
-**CellProfiler Suite** | CellProfiler modules available: Starting Modules (Images, Metadata, NamesAndTypes, Groups), IdentifyPrimaryObjects, OverlayOutlines, ImageMath, TrackObjects, DisplayDataOnImage, ColorToGray, GrayToColor, Tile, ConvertObjectsToImage, RelateObjects, MeasureImageIntensity, MeasureObjectIntensity, MeasureGranularity, MeasureTexture, MeasureImageAreaOccupied, MeasureImageQuality, MaskImage, MeasureObjectSizeShape,  Export to Spreadsheet, EnhanceOrSuppressFeatures, SaveImages. **Every workflow needs to start by _Starting Modules_ and end by _CellProfiler_**. The last tool takes two inputs: an image collection and a CellProfiler pipeline (assembled in previous steps of the workflow).
-**ImageJ Suite** | Several plugins are available in Galaxy: Add shadow effect, Analyze skeleton, Watershed segmentation, Adjust threshold, Convert binary image to EDM, Skeletonize, Analyze particles, Operate on pixels, Add or remove noise, Find maxima, Convert to binary, Enhance contrast, Create new image, Sharpen, Find edges, Smooth. 
-**bUnwarpJ (ImageJ)** | Apply raw transformation, Convert elastic transformation to raw, Apply elastic transformation, Compare elastic and raw deformation, Align two images, Compare opposite elastic deformations, Compose two raw transformations, Compare two raw deformations, Compose two elastic transformations, Compose a raw and an elastic transformation, Adapt an elastic transformation.
-{: .table.table-striped}
-
-## Mass Spectrometry Imaging
-
-TOOL | DESCRIPTION
---- | ---
-**MALDIquant Suite** |  Pre-processing, peak detection, alignment and filtering of mass spectrometry imaging data.
-**Cardinal Suite** | filtering, combining, raw data exporting, quality report, ion images, spectra plots, segmentation and classification of mass spectrometry imaging data.
-{: .table.table-striped}
-
-## Biological Oscillations Analysis
-
-TOOL | DESCRIPTION
---- | ---
-**SpyBOAT** | Wavelet analysis of spatially extended oscillatory systems, represented as 3D-image stacks.
-{: .table.table-striped}
-
-
-<br><br>
 
 # Partners
 
