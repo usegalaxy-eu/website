@@ -21,7 +21,11 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 <br>
 # Training
 
-[Several image analysis tutorials](https://training.galaxyproject.org/training-material/topics/imaging/){:target="_blank"} avalable in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"}. To know more about the GTN, check the video below!
+[Several image analysis tutorials](https://training.galaxyproject.org/training-material/topics/imaging/){:target="_blank"} avalable in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"}:
+
+<iframe src="https://training.galaxyproject.org/training-material/tags/imaging/embed.html" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe> 
+
+To know more about the GTN, check the video below!
 
 <br>
 
