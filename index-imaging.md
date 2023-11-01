@@ -41,7 +41,7 @@ allowfullscreen>
 
 # Partners
 
-The imaging flavour of Galaxy is a joint effort between different partners including EOSC-Life and its associated Research Infrasctuctures ([Euro-Bioimaging](https://www.eurobioimaging.eu/), [ELIXIR](https://elixir-europe.org/)), and the [University of Freiburg](https://galaxyproject.eu/freiburg/){:target="_blank"}.
+The imaging flavour of Galaxy is a joint effort between different partners including EOSC-Life and its associated Research Infrastructures ([Euro-Bioimaging](https://www.eurobioimaging.eu/){:target="_blank"}, [ELIXIR](https://elixir-europe.org/){:target="_blank"}), [BMCV (Heidelberg University)](http://www.bioquant.uni-heidelberg.de/research/groups/biomedical_computer_vision.html){:target="_blank"} and the [University of Freiburg](https://galaxyproject.eu/freiburg/){:target="_blank"}.
 
 The service is part of the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc){:target="_blank"} as part of [de.NBI](https://www.denbi.de){:target="_blank"} and [ELIXIR](http://elixir-europe.org){:target="_blank"}.
 
@@ -64,6 +64,10 @@ The service is part of the European Galaxy server and is maintained by the [RNA 
 <td with="1%"></td>
 <td width="13%">
 <img alt="EMBL" src="/assets/media/logo_EMBL.png" />
+</td>
+<td with="1%"></td>
+<td width="13%">
+<img alt="BMCV" src="/assets/media/logo_BMCV.png" />
 </td>
 <td with="3%"></td>
 <td width="10%">
