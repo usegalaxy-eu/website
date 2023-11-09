@@ -114,7 +114,7 @@ Foodborne pathogen detection | | Metagenomics | Long reads | | Bérénice Batut,
 |----------|-------------|-----------------|
 | [Seq4AMR](https://www.jpiamr.eu/projects/seq4amr/) | [JPIAMR]() Network for Integrating Microbial Sequencing and Platforms for Antimicrobial Resistance | Saskia Hilteman
 | [ELIXIR Emerging Microbiome Community](https://elixir-europe.org/communities/marine-metagenomics) | | Bérénice Batut
-| µbioinfo Slack | |
+| µbioinfo Slack | | [microbial-bioinfo](https://microbial-bioinfo.slack.com)
 {:.table.table-striped}
 
 If you would like to know more about any of these projects or get involved, please contact us on the [microGalaxy Gitter channel](https://gitter.im/galaxyproject/microGalaxy).
