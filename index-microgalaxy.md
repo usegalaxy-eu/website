@@ -23,22 +23,32 @@ Whether you are analysing microbiome samples or bacterial isolates, long reads o
 
 Anybody interested in microbiology in Galaxy is welcome to join our microGalaxy interest group! <strong>Everybody is Welcome!</strong>
 
-- Join the Discussion! [Gitter Chat](https://gitter.im/galaxyproject/microGalaxy) (also available via [Matrix]())
+- Join the Discussion! [Gitter Chat](https://gitter.im/galaxyproject/microGalaxy) (also available via [Matrix](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im))
 - Join our quarterly meetings! [Agenda and minutes](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#)
 
+
+# Training
+
+Want to learn even more about microbial analysis? You can check out our various microbial dedicated training page within the wider Galaxy Training Network.
+
+* <i class="fa fa-book" aria-hidden="true"></i> [Metagenomic learning paths](https://training.galaxyproject.org/training-material/learning-pathways/metagenomics.html\)
+* <i class="fa fa-book" aria-hidden="true"></i> [Metabolomics](https://training.galaxyproject.org/training-material/topics/metabolomics/)
+* <i class="fa fa-book" aria-hidden="true"></i> [Genome Annotation](https://training.galaxyproject.org/training-material/topics/genome-annotation/)
+* <i class="fa fa-book" aria-hidden="true"></i> [Tuberculosis evolution](https://training.galaxyproject.org/training-material/topics/evolution/)
+* <i class="fa fa-book" aria-hidden="true"></i> [Microbial Variant Calling](https://training.galaxyproject.org/training-material/topics/variant-analysis/)
+
+## Galaxy Training Network Toturials tagged with Metagenomics
+
+<!-- tag all trainings with microGalaxy and update the link -->
+<iframe src="https://training.galaxyproject.org/training-material/tags/metagenomics/embed.html" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
 
 # Workflows
 
 Below are a list of curated Galaxy workflows for different kinds of microbial analysis. Many of these are accompanied by comprehensive [GTN Tutorials](https://training.galaxyproject.org) that will guide you through the analysis step by step.
-Want to include your workflow here? All you need to do is to make your workflow publicly available via usegalaxy.eu (or any of the subdomains) and tag the workflow with **#microGalaxy** and **#microbiome** or **#isolates**.
-## Microbiome
+Want to include your workflow here? All you need to do is to make your workflow publicly available via `usegalaxy.eu/.org/.org.au.` (or any of the subdomains) and tag the workflow with **#microGalaxy**.
+## MicroGalaxy Workflows
 
 <iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?query=microGalaxy+microbiome" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
-
-## Bacterial Isolates
-
-<iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?query=microGalaxy+isolates" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
-
 
 # Tools
 More than **200 tools** are available for microbiome data analysis in this custom Galaxy instance, major tools to highlight are:
@@ -64,7 +74,9 @@ More than **200 tools** are available for microbiome data analysis in this custo
     - **Visualization**: Export2graphlan, GraPhlAn, KRONA
     - **Metaproteomics**: MaxQuant, SearchGUI, PeptideShaker, Unipept
 
-The complete curated list of all the tools is constantly updated and available here:
+## Curated community tool list
+
+The complete curated list of all the tools is weekly updated and available here:
 
 <iframe
   id="inlineFrameExample"
