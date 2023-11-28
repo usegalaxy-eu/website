@@ -37,10 +37,10 @@ Want to learn even more about microbial analysis? You can check out our various 
 * <i class="fa fa-book" aria-hidden="true"></i> [Tuberculosis evolution](https://training.galaxyproject.org/training-material/topics/evolution/)
 * <i class="fa fa-book" aria-hidden="true"></i> [Microbial Variant Calling](https://training.galaxyproject.org/training-material/topics/variant-analysis/)
 
-## Galaxy Training Network Toturials tagged with Metagenomics
+## Galaxy Training Network Tutorials tagged with **#microGalaxy**
 
 <!-- tag all trainings with microGalaxy and update the link -->
-<iframe src="https://training.galaxyproject.org/training-material/tags/metagenomics/embed.html" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
+<iframe src="https://training.galaxyproject.org/training-material/tags/microgalaxy/embed.html" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
 
 # Workflows
 
@@ -48,7 +48,7 @@ Below are a list of curated Galaxy workflows for different kinds of microbial an
 Want to include your workflow here? All you need to do is to make your workflow publicly available via `usegalaxy.eu/.org/.org.au.` (or any of the subdomains) and tag the workflow with **#microGalaxy**.
 ## MicroGalaxy Workflows
 
-<iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?query=microGalaxy+microbiome" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
+<iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?query=microgalaxy" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
 
 # Tools
 More than **200 tools** are available for microbiome data analysis in this custom Galaxy instance, major tools to highlight are:
@@ -84,7 +84,7 @@ The complete curated list of all the tools is weekly updated and available here:
   width="100%"
   height="600"
   frameBorder="0"
-  src="https://galaxyproject.github.io/galaxy_tool_extractor/microgalaxy/">
+  src="https://galaxyproject.github.io/galaxy_tool_metadata_extractor/microgalaxy/">
 </iframe>
 
 Want to know how this list is created and maintained have a look at the dedicated [github project](https://github.com/galaxyproject/galaxy_tool_extractor). If tools are missing or information is not up-to-date in the list, please help us! Contact Saskia, [Paul](mailto:zierep@informatik.uni-freiburg.de) or [Bérénice](mailto:berenice.batut@gmail.com) about it.
