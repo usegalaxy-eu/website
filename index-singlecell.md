@@ -25,7 +25,7 @@ The server is part if the European Galaxy server and is maintained by the [RNA B
 {:toc}
 
 
-# Get started with #singlecell
+# Get started with #single-cell
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started?
 
@@ -39,7 +39,7 @@ You may be interested in the following resources:
 
 # Training
 
-Want to learn even more about single cell analyses? You can check out our single cell training page within the wider Galaxy Training Network.
+Want to learn even more about #single-cell analyses? You can check out our single cell training page within the wider Galaxy Training Network.
 
 <i class="fa fa-book" aria-hidden="true"></i> [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)\
 <i class="fa fa-mortar-board" aria-hidden="true"></i> [the Galaxy Training Network](https://galaxyproject.github.io/training-material/)
@@ -50,7 +50,7 @@ Want to learn even more about single cell analyses? You can check out our single
 
 In addition to our fantastic training materials, we encourage users to share their workflows!
 
-[Tag your workflows](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_annotate.html) with **#singlecell** and share publicly with other users!
+[Tag your workflows](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_annotate.html) with **#single-cell** and share publicly with other users!
    {: .alert.alert-success}
 
 You can see shared workflows below.
