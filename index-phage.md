@@ -24,7 +24,7 @@ Our training material in Galaxy Tranining Network format are tailored specifical
 
 <div align="center">
     <a href="https://cpt.tamu.edu/training-material/" target="_blank">
-        <button type="button" class="btn btn-primary btn-lg">CPT Training TutorialsYouTube channel</button>
+        <button type="button" class="btn btn-primary btn-lg">CPT Training Tutorials</button>
     </a>
 </div>
 
