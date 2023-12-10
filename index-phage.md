@@ -22,6 +22,12 @@ The latest robust structural annotation workflow and functional annotation workf
 ## Tutorials list
 Our training material in Galaxy Tranining Network format are tailored specifically to phage analysis, including identification of introns and lysis genes. We also have a user FAQ that answers questions about Galaxy and Apollo usage for phage annotation.
 
+<div align="center">
+    <a href="https://cpt.tamu.edu/training-material/" target="_blank">
+        <button type="button" class="btn btn-primary btn-lg">CPT Training TutorialsYouTube channel</button>
+    </a>
+</div>
+
 ## Video help
 <div align="center">
     <a href="https://www.youtube.com/channel/UCSg8OW817LvhnjU3grTgRNQ" target="_blank">
