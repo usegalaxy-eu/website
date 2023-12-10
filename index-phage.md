@@ -36,6 +36,5 @@ Ramsey J, Rasche H, Maughmer C, Criscione A, Mijalis E, Liu M, Hu JC, Young R, G
 
 Individual tools may also have additional citations listed.
 
-Links to CPT Training, CPT Videos on YouTube,  User FAQ, Published Workflows for Phage Annotation
-
-Contact jason.gill@tamu.edu for more information.
+# Contact
+For more information contact jason.gill@tamu.edu.
