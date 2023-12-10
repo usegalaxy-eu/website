@@ -1,7 +1,7 @@
 ---
 layout: subsite-galaxy
 ---
-
+<img src="/assets/media//phage-CPT-TAMU-Maroon-1200x300.jpeg" height="225px" alt="phage capsid blended with Galaxy logo"/>
 # Welcome to the Phage Galaxy!
 
 <img src="/assets/media//phage-CPT-Galaxy-logo-tail.jpeg" height="225px" alt="phage capsid blended with Galaxy logo"/>
