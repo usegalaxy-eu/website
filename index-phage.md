@@ -2,14 +2,12 @@
 layout: subsite-galaxy
 ---
 <img src="/assets/media//phage-CPT-TAMU-Maroon-1200x300.jpeg" height="225px" alt="phage capsid blended with Galaxy logo"/>
+
 # Welcome to the Phage Galaxy!
 
 <img src="/assets/media//phage-CPT-Galaxy-logo-tail.jpeg" height="225px" alt="phage capsid blended with Galaxy logo"/>
 
 **Phage Galaxy** is still under construction! 
-
-1. TOC
-{:toc}
 
 # Getting Started
 **Phage Galaxy** is  a web platform to analyze phage data. This includes tools useful for next-generation sequence assembly, annotation pipelines, comparative analyses, and genome visualization. Here you will find all the software produced by the Center for Phage Technology at Texas A&M University. To get started, visit our tutorials below.
@@ -18,6 +16,9 @@ layout: subsite-galaxy
 
 ## Phage Annotation Pipeline
 The latest robust structural annotation workflow and functional annotation workflow are available under Shared Data > Workflows. 
+
+## Apollo annotator
+The Phage Galaxy is connected to Apollo via the Apollo Bridge tools, which allow Galaxy to read and write data in the Apollo instance that is also hosted by usegalaxy.eu. Apollo can be accessed from within Galaxy or directly via <a href="https://usegalaxy.eu/apollo">this link</a>. You must be logged in to usegalaxy.eu to use Apollo.
 
 ## Tutorials list
 Our training material in Galaxy Tranining Network format are tailored specifically to phage analysis, including identification of introns and lysis genes. We also have a user FAQ that answers questions about Galaxy and Apollo usage for phage annotation.
