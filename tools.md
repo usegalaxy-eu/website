@@ -2,9 +2,10 @@
 layout: default
 ---
 
-# European Galaxy tools (3314 and counting)
+# European Galaxy tools (3319 and counting)
 <hr/>
 <h3>Get Data</h3>
+<a href="https://usegalaxy.eu/root?tool_id=mavedb_importer" title="import MAVE data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MaveDB</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=fasterq_dump" title="format from NCBI SRA"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Faster Download and Extract Reads in FASTQ</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=fastq_dump" title="format from NCBI SRA"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Download and Extract Reads in FASTQ</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=sam_dump" title="format from NCBI SRA"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Download and Extract Reads in BAM</button></a>
@@ -210,6 +211,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=Grouping1" title="data by a column and perform aggregate operation on other columns."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Group</button></a>
 <hr/><h2>Genomic File Manipulation</h2>
 <h3>Convert Formats</h3>
+<a href="https://usegalaxy.eu/root?tool_id=gffread" title="Filters and/or converts GFF3/GTF2 records"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">gffread</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=graphicsmagick_image_convert" title="with GraphicsMagick"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert image format</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=biom_convert" title="between BIOM table formats"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=idpquery" title="Creates text reports from idpDB files."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">idpQuery</button></a>
@@ -231,7 +233,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=gffcompare_to_bed" title="for StringTie results"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert gffCompare annotated GTF to BED</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=map_peptides_to_bed" title="for viewing in a genome browser"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Map peptides to a bed file</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=resize_coordinate_window" title="of GFF data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Resize coordinate window</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=gffread" title="Filters and/or converts GFF3/GTF2 records"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">gffread</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=msms_extractor" title="Extract MS/MS scans from the mzML file(s) based on PSM report"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">msms_extractor</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bax2bam" title="converts PacBio basecall format (bax.h5) into BAM"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">bax2bam</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=graphicsmagick_image_montage" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Image Montage</button></a>
@@ -271,6 +272,21 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=bed_to_bigBed" title="converter"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BED-to-bigBed</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=liftOver1" title="between assemblies and genomes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert genome coordinates</button></a>
 <h3>FASTA/FASTQ</h3>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_comp" title="get the nucleotide composition of FASTA/Q"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_comp</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_cutN" title="cut sequence at long N"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_cutN</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_dropse" title="drop unpaired from interleaved Paired End FASTA/Q"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_dropse</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_fqchk" title="fastq QC (base/quality summary)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_fqchk</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_hety" title="regional heterozygosity"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_hety</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_listhet" title="extract the position of each het"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_listhet</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_mergefa" title="merge two FASTA/Q files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_mergefa</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_mergepe" title="interleave two unpaired FASTA/Q files for a paired-end file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_mergepe</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_mutfa" title="point mutate FASTA at specified positions"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_mutfa</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_randbase" title="choose a random base from hets"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_randbase</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_sample" title="random subsample of fasta or fastq sequences"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_sample</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_seq" title="common transformation of FASTA/Q"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_seq</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_subseq" title="extract subsequences from FASTA/Q files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_subseq</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_telo" title="find telomeres"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_telo</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=seqtk_trimfq" title="trim FASTQ using the Phred algorithm"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_trimfq</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=seq_filter_by_mapping" title="from SAM/BAM file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Filter sequences by mapping</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=prinseq" title="to process quality of sequences"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">PRINSEQ</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bbtools_bbduk" title="decontamination using kmers"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BBTools: BBduk</button></a>
@@ -316,23 +332,9 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=umi_tools_count" title="performs quantification of UMIs from BAM files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">UMI-tools count</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=umi_tools_extract" title="Extract UMI from fastq files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">UMI-tools extract</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=sickle" title="windowed adaptive trimming of FASTQ data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Sickle</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_sample" title="random subsample of fasta or fastq sequences"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_sample</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=umi_tools_group" title="Extract UMI from fastq files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">UMI-tools group</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=umi_tools_whitelist" title="Extract cell barcodes from FASTQ files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">UMI-tools whitelist</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=flash" title="adjust length of short reads"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">FLASH</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_comp" title="get the nucleotide composition of FASTA/Q"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_comp</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_mutfa" title="point mutate FASTA at specified positions"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_mutfa</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_hety" title="regional heterozygosity"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_hety</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_cutN" title="cut sequence at long N"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_cutN</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_mergefa" title="merge two FASTA/Q files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_mergefa</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_trimfq" title="trim FASTQ using the Phred algorithm"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_trimfq</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_fqchk" title="fastq QC (base/quality summary)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_fqchk</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_randbase" title="choose a random base from hets"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_randbase</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_subseq" title="extract subsequences from FASTA/Q files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_subseq</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_dropse" title="drop unpaired from interleaved Paired End FASTA/Q"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_dropse</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_mergepe" title="interleave two unpaired FASTA/Q files for a paired-end file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_mergepe</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_seq" title="common transformation of FASTA/Q"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_seq</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=seqtk_listhet" title="extract the position of each het"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_listhet</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=mqc" title="quality control of ribosome profiling mapping results"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">mQC</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=fasta-stats" title="display summary statistics for a FASTA file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Fasta Statistics</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=filtlong" title="Filtering long reads by quality"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">filtlong</button></a>
@@ -585,6 +587,9 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=MAF_filter" title="by specified attributes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Filter MAF</button></a>
 <hr/><h2>Genomics Analysis</h2>
 <h3>Annotation</h3>
+<a href="https://usegalaxy.eu/root?tool_id=funannotate_compare" title="annotations"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Funannotate compare</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=windowmasker_mkcounts" title="Construct WindowMasker unit counts table"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">WindowMasker mkcounts</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=windowmasker_ustat" title="Mask sequences using a WindowMasker unit counts table"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">WindowMasker ustat</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=genenotebook_build" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Build a GeneNoteBook</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=busco" title="assess genome assembly and annotation completeness"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Busco</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_nhmmer" title="search a DNA model or alignment against a DNA database (BLASTN-like)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">nhmmer</button></a>
@@ -595,7 +600,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=repeatexplorer_clustering" title="repeat discovery and characterization using graph-based sequence clustering"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">RepeatExplorer (clustering)</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=funannotate_predict" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Funannotate predict annotation</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=braker3" title="genome annotation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BRAKER3</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=funannotate_compare" title="annotations"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Funannotate compare</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=optitype" title="HLA genotyping predictions from NGS data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">OptiType</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=prokka" title="Prokaryotic genome annotation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Prokka</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=roary" title="the pangenome pipeline - Quickly generate a core gene alignment from gff3 files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Roary</button></a>
@@ -2441,6 +2445,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=eggnog_mapper_annotate" title="annotation phase"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">eggNOG Mapper</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=eggnog_mapper_search" title="search phase"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">eggNOG Mapper</button></a>
 <h3>Metabolomics</h3>
+<a href="https://usegalaxy.eu/root?tool_id=matchms_filtering" title="filter and normalize mass spectrometry data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">matchms filtering</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=matchms_formatter" title="reformat scores object of matchms to long format table"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">matchms scores formatter</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=matchms_metadata_merge" title="Merge metadata csv into MSP by a specified column"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">matchms metadata merge</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=matchms_metadata_export" title="extract all metadata from mass spectra file to tabular format"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">matchms metadata export</button></a>
@@ -2450,7 +2455,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=biosigner" title="Molecular signature discovery from omics data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Biosigner</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=Univariate" title="Univariate statistics"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Univariate</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=mzmine_batch" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MZMine batch</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=matchms_filtering" title="filter and normalize mass spectrometry data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">matchms filtering</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=dimspy_align_samples" title="- Align peaks across Peaklists"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Align Samples</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=dimspy_replicate_filter" title="- Remove peaks that fail to appear in at least x-out-of-n (technical) replicates"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Replicate Filter</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=dimspy_process_scans" title="- Read, filter and average MS scans"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Process Scans (and SIM-Stitch)</button></a>
@@ -3163,6 +3167,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_audiolabeler" title="Nature+Energy Audio Labeller audio data annotation tool"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">NEAL</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_genenotebook" title="viewer"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">GeneNoteBook</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_holoviz" title="High-level tools to simplify visualization in Python"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Holoviz</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=interactive_tool_copernicus_notebook" title="sample notebooks to access and discover data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Copernicus Data Space Ecosystem</button></a>
 <h3>OBO Ontology manipulation</h3>
 <a href="https://usegalaxy.eu/root?tool_id=onto_tk_get_ancestor_terms" title="Collects the ancestor terms from a given term in the given OBO ontology"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Get the ancestor terms of a given OBO term</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=onto_tk_get_relationship_types" title="from the given OBO ontology"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Get all the relationship types</button></a>
