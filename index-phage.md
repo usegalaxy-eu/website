@@ -1,17 +1,13 @@
 ---
 layout: subsite-galaxy
 ---
-<img src="/assets/media//phage-CPT-TAMU-Maroon-1200x300.jpeg" height="225px" alt="phage capsid blended with Galaxy logo"/>
-
-<img src="/assets/media//phage-CPT-Galaxy-logo-tail.jpeg" height="225px" alt="phage capsid blended with Galaxy logo"/>
-
+<img src="/assets/media//phage_usegalaxy_banner_1.png" alt="phage galaxy banner"/>
 
 # Welcome to the Phage Galaxy!
 
-**Phage Galaxy** is still under construction! 
+**Phage Galaxy** is  a web platform to analyze phage data. This includes tools useful for next-generation sequence assembly, annotation pipelines, comparative analyses, and genome visualization. Here you will find all the software produced by the <a href="https://cpt.tamu.edu">Center for Phage Technology at Texas A&M University</a>. To get started, visit our tutorials below.
 
-# Getting Started
-**Phage Galaxy** is  a web platform to analyze phage data. This includes tools useful for next-generation sequence assembly, annotation pipelines, comparative analyses, and genome visualization. Here you will find all the software produced by the Center for Phage Technology at Texas A&M University. To get started, visit our tutorials below.
+**Phage Galaxy** is still under construction!
 
 # Resources
 
