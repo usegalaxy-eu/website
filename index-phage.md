@@ -7,7 +7,7 @@ layout: subsite-galaxy
 
 **Phage Galaxy** is  a web platform to analyze phage data. This includes tools useful for next-generation sequence assembly, annotation pipelines, comparative analyses, and genome visualization. Here you will find all the software produced by the <a href="https://cpt.tamu.edu">Center for Phage Technology at Texas A&M University</a>. To get started, visit our tutorials below.
 
-**Phage Galaxy** is still under construction!
+**Phage Galaxy** is still under development! Links to our annotation workflows will be made avalable once they are fully functional.
 
 # Resources
 
@@ -27,6 +27,8 @@ Our training material in Galaxy Tranining Network format are tailored specifical
 </div>
 
 ## Video help
+We have also made a number of videos that describe some of our tools and workflows. These are available at our YouTube channel below.
+
 <div align="center">
     <a href="https://www.youtube.com/channel/UCSg8OW817LvhnjU3grTgRNQ" target="_blank">
         <button type="button" class="btn btn-primary btn-lg">CPT YouTube channel</button>
@@ -41,4 +43,4 @@ Ramsey J, Rasche H, Maughmer C, Criscione A, Mijalis E, Liu M, Hu JC, Young R, G
 Individual tools may also have additional citations listed.
 
 # Contact
-For more information contact jason.gill@tamu.edu.
+This phage tools and workflows on Phage Galaxy are maintained by the <a href="https://cpt.tamu.edu">Center for Phage Technology</a>. For more information contact jason.gill@tamu.edu.
