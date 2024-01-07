@@ -2,9 +2,10 @@
 layout: default
 ---
 
-# European Galaxy tools (3325 and counting)
+# European Galaxy tools (3326 and counting)
 <hr/>
 <h3>Get Data</h3>
+<a href="https://usegalaxy.eu/root?tool_id=argo_getdata" title="for global ocean in situ observing system"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Argo data access</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=mavedb_importer" title="import MAVE data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MaveDB</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=fasterq_dump" title="format from NCBI SRA"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Faster Download and Extract Reads in FASTQ</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=fastq_dump" title="format from NCBI SRA"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Download and Extract Reads in FASTQ</button></a>
@@ -273,6 +274,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=bed_to_bigBed" title="converter"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BED-to-bigBed</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=liftOver1" title="between assemblies and genomes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert genome coordinates</button></a>
 <h3>FASTA/FASTQ</h3>
+<a href="https://usegalaxy.eu/root?tool_id=cutadapt" title="Remove adapter sequences from FASTQ/FASTA"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Cutadapt</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=seqtk_comp" title="get the nucleotide composition of FASTA/Q"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_comp</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=seqtk_cutN" title="cut sequence at long N"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_cutN</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=seqtk_dropse" title="drop unpaired from interleaved Paired End FASTA/Q"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">seqtk_dropse</button></a>
@@ -334,7 +336,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=umi_tools_extract" title="Extract UMI from fastq files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">UMI-tools extract</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=sickle" title="windowed adaptive trimming of FASTQ data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Sickle</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bbtools_tadpole" title="Kmer-based assembler"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BBTools: Tadpole</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=cutadapt" title="Remove adapter sequences from FASTQ/FASTA"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Cutadapt</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=umi_tools_group" title="Extract UMI from fastq files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">UMI-tools group</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=umi_tools_whitelist" title="Extract cell barcodes from FASTQ files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">UMI-tools whitelist</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=flash" title="adjust length of short reads"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">FLASH</button></a>
