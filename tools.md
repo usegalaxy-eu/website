@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# European Galaxy tools (3326 and counting)
+# European Galaxy tools (3328 and counting)
 <hr/>
 <h3>Get Data</h3>
 <a href="https://usegalaxy.eu/root?tool_id=argo_getdata" title="for global ocean in situ observing system"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Argo data access</button></a>
@@ -1783,6 +1783,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=mimodd_sort" title="takes a SAM/BAM dataset and generates a coordinate/name-sorted copy"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MiModD Sort</button></a>
 <hr/><h2>Metagenomics</h2>
 <h3>Metagenomic Analysis</h3>
+<a href="https://usegalaxy.eu/root?tool_id=jellyfish" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">jellyfish</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=ampvis2_alpha_diversity" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ampvis2 alpha diversity</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=maxbin2" title="clusters metagenomic contigs into bins"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MaxBin2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=lotus2" title="fast OTU processing pipeline"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">LotuS2</button></a>
@@ -1859,7 +1860,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=metagenomeseq_normalizaton" title="Cumulative sum scaling"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">metagenomeSeq Normalization</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=Kraken2Tax" title="data to Galaxy taxonomy representation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Kraken</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=scoary" title="calculates the assocations between all genes in the accessory genome and the traits"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Scoary</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=jellyfish" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">jellyfish</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=humann" title="to profile presence/absence and abundance of microbial pathways and gene families"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">HUMAnN</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=humann_associate" title="on HUMAnN generated table"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Perform metadata association</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=humann_barplot" title="stratified HUMAnN features"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Barplot</button></a>
@@ -2895,6 +2895,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=re_he_maldi_image_registration" title="Registration of MALDI and HE Image"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">HE/ MALDI Image Registration</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=netcdf2zarr" title="Rewrite a netCDF to Zarr"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">NetCDF to Zarr</button></a>
 <h3>GIS Data Handling</h3>
+<a href="https://usegalaxy.eu/root?tool_id=interpolation_run_idw_interpolation" title="based on Inverse Distance Weighting (IDW)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Run interpolation</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=xarray_metadata_info" title="summarize content of a Netcdf file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">NetCDF xarray Metadata Info</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=xarray_select" title="extracts variable values with custom conditions on dimensions"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">NetCDF xarray Selection</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=gdal_ogrinfo" title="lists information about an OGR supported data source"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">OGR Informations</button></a>
@@ -3133,6 +3134,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=astropy_fitsinfo" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">astropy fitsinfo</button></a>
 <h3>Interactive tools</h3>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_source" title="Sea Observations Utility for Reprocessing, Calibration and Evaluation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Interactive Source Notebooks</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=interactive_tool_napari" title="cell image analysis software"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">napari</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_tadviewer" title="interactive table viewer with SQL enginer for filtering"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">tadviewer</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_qgis" title="interactive geographic information system (GIS)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">QGIS</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_qupath" title="interactive Open Software for Bioimage Analysis"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">QuPath</button></a>
