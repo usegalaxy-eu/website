@@ -25,7 +25,7 @@ The Phage Galaxy is connected to Apollo via the Apollo Bridge tools, which allow
 
 
 ## Tutorials list
-Our training material in Galaxy Tranining Network format is tailored specifically to phage analysis, including identification of introns and lysis genes. We also have a user FAQ that answers questions about Galaxy and Apollo usage for phage annotation.
+Our training material in Galaxy Tranining Network format is tailored specifically to phage analysis, including identification of introns and lysis genes. Our training modules describe the use of Galaxy, Apollo, and our tools and workflows. We also have a user FAQ that answers questions about Galaxy and Apollo usage for phage annotation.
 
 <div align="center">
     <a href="https://cpt.tamu.edu/training-material/" target="_blank">
