@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# European Galaxy tools (3347 and counting)
+# European Galaxy tools (3350 and counting)
 <hr/>
 <h3>Get Data</h3>
 <a href="https://usegalaxy.eu/root?tool_id=obis_data" title="retrieve data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">OBIS occurences</button></a>
@@ -595,11 +595,12 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=MAF_filter" title="by specified attributes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Filter MAF</button></a>
 <hr/><h2>Genomics Analysis</h2>
 <h3>Annotation</h3>
+<a href="https://usegalaxy.eu/root?tool_id=edu.tamu.cpt.fasta.seq_trans" title="Translate fasta file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Fasta Translate</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=braker3" title="genome annotation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BRAKER3</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=aegean_locuspocus" title="calculate locus coordinates for the given gene annotation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">AEGeAn LocusPocus</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bakta" title="Genome annotation via alignment-free sequence identification"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Bakta</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=agat" title="GTF/GFF analysis toolkit"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">AGAT</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=compleasm" title="completeness of genome assemblies"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">compleasm</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=braker3" title="genome annotation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BRAKER3</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=mitos2" title="de-novo annotation of metazoan mitochondrial genomes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MITOS2</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=genenotebook_build" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Build a GeneNoteBook</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=isescan" title="Insertion Sequence Elements detection in prokaryotic genomes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ISEScan</button></a>
@@ -712,6 +713,8 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=tapscan_classify" title="Detect Transcription Associated Proteins (TAPs)"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">TAPScan Classify</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=aegean_canongff3" title="pre-process GFF3 files, removing all features not directly related to protein-coding genes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">AEGeAn CanonGFF3</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=aegean_parseval" title="compare two sets of gene annotations for the same sequence."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">AEGeAn ParsEval</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=edu.tamu.cpt.gff3.intersect_and_adjacent" title="Outputs nearby top-level GFF features from two GFF3 files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Intersect and Adjacent</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=aegean_gaeval" title="compute coverage and integrity scores for gene models using transcript alignments."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">AEGeAn GAEVAL</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_hmmemit" title="sample sequence(s) from a profile HMM"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">hmmemit</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_hmmfetch" title="retrieve profile HMM(s) from a file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">hmmfetch</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bg_find_subsequences" title="providing regions in BED format"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Nucleotide subsequence search</button></a>
@@ -3269,6 +3272,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=orfipy" title="a versatile ORF finder"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ORFipy</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=b2btools_single_sequence" title="from their amino-acid sequences"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">b2bTools: Biophysical predictors for single sequences</button></a>
 <h3>QIIME 2</h3>
+<a href="https://usegalaxy.eu/root?tool_id=qiime2__deblur__denoise_16S" title="Deblur sequences using a 16S positive filter."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">qiime2 deblur denoise-16S</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=qiime2__longitudinal__first_differences" title="Compute first differences or difference from baseline between sequential states"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">qiime2 longitudinal first-differences</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=qiime2__alignment__mafft" title="De novo multiple sequence alignment with MAFFT"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">qiime2 alignment mafft</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=qiime2__alignment__mafft_add" title="Add sequences to multiple sequence alignment with MAFFT."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">qiime2 alignment mafft-add</button></a>
@@ -3429,7 +3433,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=qiime2__vsearch__uchime_ref" title="Reference-based chimera filtering with vsearch."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">qiime2 vsearch uchime-ref</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=qiime2_core__tools__export" title="Export data from a QIIME 2 artifact"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">qiime2 tools export</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=qiime2_core__tools__import" title="Import data into a QIIME 2 artifact"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">qiime2 tools import</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=qiime2__deblur__denoise_16S" title="Deblur sequences using a 16S positive filter."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">qiime2 deblur denoise-16S</button></a>
 <h3>Metagenomic Analysis</h3>
 <a href="https://usegalaxy.eu/root?tool_id=t2t_report" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Summarize taxonomy</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=Draw_phylogram" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Draw phylogeny</button></a>
