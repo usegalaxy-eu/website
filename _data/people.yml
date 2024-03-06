@@ -282,6 +282,14 @@ freiburg:
         orcid: 0000-0003-4302-5091
         galaxyadmin: true
 
+    Minamehr:
+        name: Mina Hojat Ansari
+        title: Ph.D., Researcher
+        email: mina.hojat.ansari@biologie.uni-freiburg.de
+        location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@mina24:matrix.org"
+
     itisAliRH:
         name: Alireza Heidari
         title: B.Sc. Computer Science, Engineer, UI/UX
