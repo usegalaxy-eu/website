@@ -8,11 +8,11 @@ subdomain: singlecell
 ![single cell Galaxy](/assets/media/logo_single_cell.svg){:width="25%"}
 ![Human Cell Atlas](/assets/media/hca.png){:width="50%"}
 
-# Welcome to the Single Cell Omics Galaxy Instance!
+# Welcome to the Single Cell Omics Lab!
 {:.no_toc}
 
 
-The Single Cell Omics and [The Human Cell Atlas](https://www.humancellatlas.org){:target="_blank"} Galaxy enthusiasts have combined forces to bring you a single cell focused Galaxy instance to make your analysis even easier. This resource is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
+The Single Cell Omics and [The Human Cell Atlas](https://www.humancellatlas.org){:target="_blank"} Galaxy enthusiasts have combined forces to bring you a single cell focused Galaxy Lab to make your analysis even easier. This resource is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
 This service is a joint project between different groups from the [Earlham Institute](http://www.earlham.ac.uk){:target="_blank"}, the [Gene Expression Team](https://www.ebi.ac.uk/about/people/irene-papatheodorou) at [EMBL-EBI](https://www.ebi.ac.uk/), the [Teichmann Team](https://www.sanger.ac.uk/science/groups/teichmann-group) at the [Wellcome Sanger Institute](https://www.sanger.ac.uk/), [EMBL](https://gbcs.embl.de/) the [Sorbonne University](http://artbio.fr/), [Peter MacCallum Cancer Centre](https://www.petermac.org/) and the [University of Freiburg](https://galaxyproject.eu/freiburg/).
 
