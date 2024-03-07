@@ -327,7 +327,7 @@ freiburg:
         phone: +49(0) 761 - 203 54133
         location: "Build.: 079, Room: -1005"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        Matrix: "@nilchia:matrix.org"
+        matrix: "@nilchia:matrix.org"
         linkedin: www.linkedin.com/in/nilchia
         github_username: nilchia
         orcid: 0000-0003-1329-3044
@@ -340,7 +340,7 @@ freiburg:
         email: momins@informatik.uni-freiburg.de
         location: "Build.: 079, Room: -1005"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        Matrix: "@saimmomin:matrix.org"
+        matrix: "@saimmomin:matrix.org"
         linkedin: www.linkedin.com/in/saim-momin
         github_username: mominsaim12
         twitter: SaimMomin12
