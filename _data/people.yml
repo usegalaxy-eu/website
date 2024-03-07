@@ -334,6 +334,17 @@ freiburg:
         google-scholar: schhp?hl=en
         researchgate: Amirhossein Naghsh Nilchi
 
+    mominsaim12:
+        name: Saim Momin
+        title: M.Sc. Bioinformatics, Bioinformatics Developer
+        email: momins@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        Matrix: "@saimmomin:matrix.org"
+        linkedin: www.linkedin.com/in/saim-momin
+        github_username: mominsaim12
+        twitter: SaimMomin12
+        
 erasmusmc:
     andrew-emc:
         name: Andrew Stubbs
