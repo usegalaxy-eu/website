@@ -8,7 +8,7 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: bgruening
         matrix: "@bgruening:matrix.org"
-        twitter: bjoerngruening
+        mastodon: "fosstodon.org/@bgruening"
         linkedin: bjorn-grüning-2b84a895
         orcid: 0000-0002-3079-6586
         google-scholar: lddXduoAAAAJ
@@ -24,6 +24,7 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: bebatut
         twitter: bebatut
+        mastodon: "piaille.fr/@bebatut"
         linkedin: berenicebatut
         orcid: 0000-0001-9852-1987
         google-scholar: q5GpTJYAAAAJ
@@ -373,8 +374,8 @@ erasmusmc:
         email: saskia.hiltemann@gmail.com
         phone: +31(0) 10 70 43235
         location: Ee-1579
-        twitter: shiltemann
         gitter: shiltemann
+        mastodon: "mstdn.science/@shiltemann"
         linkedin: shiltemann
         orcid: 0000-0003-3803-468X
         galaxyadmin: true
@@ -420,6 +421,7 @@ genouest:
         title: INRAE Engineer, BIPAA team leader
         email: anthony.bretaudeau@inrae.fr
         twitter: abretau
+        mastodon: "genomic.social/@abretaud"
         gitter: abretaud
         orcid: 0000-0003-0914-2470
         galaxyadmin: true
@@ -471,6 +473,7 @@ ifb:
         title: INRAE Engineer, BIPAA team leader
         email: anthony.bretaudeau@inrae.fr
         twitter: abretau
+        mastodon: "genomic.social/@abretaud"
         gitter: abretaud
         orcid: 0000-0003-0914-2470
         galaxyadmin: true
