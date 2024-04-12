@@ -45,6 +45,9 @@
                     {% if lsite.twitter_username %}
                       <li><i class="fa fa-twitter"></i><a href="https://twitter.com/{{ lsite.twitter_username }}">{{ lsite.twitter_username }}</a></li>
                     {% endif %}
+                    {% if lsite.mastodon_username %}
+                      <li><img class="fa-mastodon" src="/assets/media/mastodon.svg" style="width:18px;height:18px;padding-right:4px;filter:grayscale(100%);-webkit-filter:grayscale(100%);"/><a href="https://{{ lsite.mastodon_server }}/@{{ lsite.mastodon_username }}">{{ lsite.mastodon_username }}</a></li>
+                    {% endif %}
                       <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
                 </ul>
             </div>
