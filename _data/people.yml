@@ -127,6 +127,21 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         bio:
 
+    schn_da:
+        name: Daniela Schneider
+        title: M.A., Researcher
+        #email: zierep@informatik.uni-freiburg.de
+        #phone: +49(0) 761 - 203 54130
+        location: "Build.: 079, Room: -1006a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@schn_da:matrix.org"
+        #linkedin: zierep-paul-180543157
+        orcid: 0000-0001-9536-5587
+        mastodon: "fedihum.org/@SchnDa"
+        bio:
+
+    
+
     # stephanflemming:
       #  name: Stephan Flemming
       #  title: Dr. rer. nat., Researcher
