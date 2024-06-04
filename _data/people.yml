@@ -32,12 +32,15 @@ freiburg:
         bio:
 
     erxleben:
-        name: Anika Erxleben
+        name: Anika Erxleben-Eggenhofer
         title: Dr. rer. nat., Researcher
         email: erxleben@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54129
+        phone: +49(0) 761 - 203 54130
         location: "Build.: 079, Room: -1006"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@anikaerxleben:matrix.org"
+        linkedin: anika-erxleben-eggenhofer-ba2b52122
+        orcid: 0000-0002-7427-6478
         bio:
 
     wm75:
