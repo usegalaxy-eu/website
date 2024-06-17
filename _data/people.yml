@@ -359,7 +359,7 @@ freiburg:
         linkedin: kadarash
         orcid: 0009-0006-2228-8123
 
-      Sch-Da:
+    Sch-Da:
         name: Daniela Schneider
         title: M.A., Researcher
         email: schneidd@informatik.uni-freiburg.de
@@ -372,7 +372,6 @@ freiburg:
         mastodon: "fedihum.org/@SchnDa"
         bio:
 
-    
 
 erasmusmc:
     andrew-emc:
