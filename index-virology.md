@@ -27,13 +27,13 @@ and sophisticated analyses independent of command-line knowledge.
 The [Galaxy Project](https://usegalaxy.org){:target="_blank"} virology community has prepared full analysis solutions to support genome sequencing questions around several important human and animal viral pathogens. These solutions come as bundles of analysis workflows, data resources and accompanying training material that will allow researchers to get state-of-the-art and scalable sequencing data analysis for their virus of interest running in the shortest possible amount of time with zero installation effort.
 
 <div align="center">
-    <a href="https://virology.usegalaxy.eu/u/wolfgang-maier/p/virology-sars-cov-2">
+    <a href="https://virology.usegalaxy.eu/published/page?id=97bff2c5f4556a3c" target="_top">
         <button type="button" class="btn btn-primary btn-lg">SARS-CoV-2</button>
     </a>
-    <a href="https://virology.usegalaxy.eu/u/wolfgang-maier/p/virology-aiv">
+    <a href="https://virology.usegalaxy.eu/published/page?id=a04ab8d6ecb698fa" target="_top">
         <button type="button" class="btn btn-primary btn-lg">(Avian) Influenza</button>
     </a>
-    <a href="https://virology.usegalaxy.eu/u/wolfgang-maier/p/virology-lsdv">
+    <a href="https://virology.usegalaxy.eu/published/page?id=9172077f52d9d49f" target="_top">
         <button type="button" class="btn btn-primary btn-lg">Lumpy skin disease virus</button>
     </a>
 </div>
@@ -51,11 +51,11 @@ Galaxy Europe is offering ready to use workflows for veterinary laboratories und
 If you are a [VETLAB network](https://www.iaea.org/services/networks/vetlab){:target="_blank"} member, you can jump directly to your workflow of interest.
 
 <div align="center" style="padding-bottom: 10px;">
-    <a href="https://usegalaxy.eu/u/wolfgang-maier/w/aiv-sequence-analysis">
+    <a href="https://virology.usegalaxy.eu/published/workflow?id=bc5ced57e711acf9" target="_top">
         <button type="button" class="btn btn-primary btn-lg"><span>AIV subtyping and consensus genome construction</span><br/><span>from short-reads sequencing data</span></button>
     </a>
     <p></p>
-    <a href="https://usegalaxy.eu/u/wolfgang-maier/w/pox-virus-illumina-amplicon-workflow-from-half-genomes">
+    <a href="https://virology.usegalaxy.eu/published/workflow?id=629e57958afed44c" target="_top">
         <button type="button" class="btn btn-primary btn-lg"><span>LSDV consensus genome construction</span><br/><span>from short-reads sequencing data</span></button>
     </a>
 </div>
