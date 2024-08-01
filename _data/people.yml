@@ -262,6 +262,17 @@ freiburg:
         gitter: pavanvidem
         orcid: 0000-0002-5192-126X
 
+    dianachj:
+        name: Diana Chiang Jurado
+        title: Dr.rer.nat Candidate., Researcher
+        email: 
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        gitter: dianichj
+        matrix: "@dianichj:matrix.org"
+        orcid: 0000-0002-5857-1477
+        researchgate: Diana Chiang Jurado
+
     sanjaysrikakulam:
         name: Sanjay Kumar Srikakulam
         title: M.Sc. Bioinformatics, Researcher, DevOps
