@@ -55,13 +55,13 @@ The service is part of the European Galaxy server and is maintained by the [RNA 
 <td width="10%">
 <img alt="BMCV" src="/assets/media/logo_BMCV.png" />
 </td>
-<td width="10%">
+<td width="11%">
 <img alt="NFDI4BIOIMAGE" src="/assets/media/NFDI4BIOIMAGE_logo.png" />
 </td>
 <td width="12%">
 <img alt="UHD" src="/assets/media/Logo_UHD.png" />
 </td>
-<td width="25%">
+<td width="24%">
 <img alt="Euro-Bioimaging" src="/assets/media/eubi_logo.png" />
 </td>
 <td width="8%">
