@@ -382,6 +382,20 @@ freiburg:
         mastodon: "fedihum.org/@SchnDa"
         bio:
 
+    dadrasarmin:
+        name: Armin Dadras
+        title: Dr. rer. nat., Researcher
+        email: dadras@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54130
+        location: "Build.: 079, Room: -1006"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@armin.dadras:matrix.org"
+        mastodon: "https://mastodon.social/@dadrasarmin"
+        linkedin: armindadras
+        orcid: 0000-0001-7649-2388
+        google-scholar: c3RUlDoAAAAJ
+        researchgate: Armin-Dadras
+        bio:
 
 erasmusmc:
     andrew-emc:
