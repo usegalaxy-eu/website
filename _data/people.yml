@@ -396,6 +396,19 @@ freiburg:
         google-scholar: c3RUlDoAAAAJ
         researchgate: Armin-Dadras
         bio:
+    
+    Deeptivarshney:
+        name: Deepti Varshney
+        title: M.Tech Bioinformatics, Researcher
+        email: varshney@informatik.uni-freiburg.de
+        location: "Build.: 106, Room: 02 012"
+        matrix: "@deepti.varshney:matrix.org"
+        linkedin: deepti-varshney-aa933994
+        orcid: 0000-0003-0419-6832
+        google-scholar: exB6B90AAAAJ
+        researchgate: Deepti-Varshney-2
+        bio:
+
 
 erasmusmc:
     andrew-emc:
