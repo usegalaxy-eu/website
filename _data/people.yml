@@ -553,7 +553,7 @@ ifb:
         name: Bérénice Batut
         title: Research Engineer
         website: http://research.bebatut.fr
-        gitter: bebatut
+        matrix: "@bebatut:matrix.org"
         mastodon: "piaille.fr/@bebatut"
         linkedin: berenicebatut
         orcid: 0000-0001-9852-1987
