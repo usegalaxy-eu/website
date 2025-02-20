@@ -15,22 +15,6 @@ freiburg:
         researchgate: Bjoern_Gruening
         bio:
 
-    bebatut:
-        name: Bérénice Batut
-        title: Ph.D., Researcher
-        website: http://research.bebatut.fr
-        email: bebatut@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54126
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        gitter: bebatut
-        twitter: bebatut
-        mastodon: "piaille.fr/@bebatut"
-        linkedin: berenicebatut
-        orcid: 0000-0001-9852-1987
-        google-scholar: q5GpTJYAAAAJ
-        researchgate: Berenice_Batut
-        bio:
-
     erxleben:
         name: Anika Erxleben-Eggenhofer
         title: Dr. rer. nat., Researcher
@@ -565,4 +549,14 @@ ifb:
         title: Engineer, EuroScienceGateway (WP5, Genome Annotation use case) - CNRS / GenOuest
         matrix: "@rlibouban:matrix.org"
         galaxyadmin: true
-
+    bebatut:
+        name: Bérénice Batut
+        title: Research Engineer
+        website: http://research.bebatut.fr
+        gitter: bebatut
+        mastodon: "piaille.fr/@bebatut"
+        linkedin: berenicebatut
+        orcid: 0000-0001-9852-1987
+        google-scholar: q5GpTJYAAAAJ
+        researchgate: Berenice_Batut
+        galaxyadmin: true
