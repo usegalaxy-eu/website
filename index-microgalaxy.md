@@ -46,6 +46,7 @@ Want to learn even more about microbial analysis? You can check out our various 
 
 Below are a list of curated Galaxy workflows for different kinds of microbial analysis. Many of these are accompanied by comprehensive [GTN Tutorials](https://training.galaxyproject.org) that will guide you through the analysis step by step.
 Want to include your workflow here? All you need to do is to make your workflow publicly available via `usegalaxy.eu/.org/.org.au.` (or any of the subdomains) and tag the workflow with **#microGalaxy**.
+
 ## MicroGalaxy Workflows
 
 <iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?query=microgalaxy" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
@@ -84,10 +85,10 @@ The complete curated list of all the tools is weekly updated and available here:
   width="100%"
   height="600"
   frameBorder="0"
-  src="https://galaxyproject.github.io/galaxy_tool_metadata_extractor/microgalaxy/">
+  src="https://galaxyproject.github.io/galaxy_codex/microgalaxy/">
 </iframe>
 
-Want to know how this list is created and maintained have a look at the dedicated [github project](https://github.com/galaxyproject/galaxy_tool_extractor). If tools are missing or information is not up-to-date in the list, please help us! Contact Saskia, [Paul](mailto:zierep@informatik.uni-freiburg.de) or [Bérénice](mailto:berenice.batut@gmail.com) about it.
+Want to know how this list is created and maintained have a look at the dedicated [GitHub project](https://github.com/galaxyproject/galaxy_codex). If tools are missing or information is not up-to-date in the list, please help us! Contact Saskia, [Paul](mailto:zierep@informatik.uni-freiburg.de) or [Bérénice](mailto:berenice.batut@gmail.com) about it.
 
 # Projects
 

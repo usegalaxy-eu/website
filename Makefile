@@ -31,7 +31,7 @@ create-env: ## create usegalaxy-eu-website conda environment
 	if ${CONDA} env list | grep '^${CONDA_ENV}'; then \
 	    ${CONDA} env update -f environment.yml; \
 	else \
-	    ${CONDA} env create --force -f environment.yml; \
+	    ${CONDA} env create -f environment.yml; \
 	fi
 .PHONY: create-env
 
