@@ -442,23 +442,22 @@ erasmusmc:
         location: Ee-1579
 
 genouest:
-    OlivierCollin:
-        name: Olivier Collin
-        title: GenOuest team leader
-        email: olivier.collin@irisa.fr
-        orcid: 0000-0002-8959-8402
-    osallou:
-        name: Olivier Sallou
-        title: Development engineer leader
-        orcid: 0000-0003-3561-5657
-        email: olivier.sallou@irisa.fr
+    # OlivierCollin:
+    #     name: Olivier Collin
+    #     title: GenOuest team leader
+    #     email: olivier.collin@irisa.fr
+    #     orcid: 0000-0002-8959-8402
+    # osallou:
+    #     name: Olivier Sallou
+    #     title: Development engineer leader
+    #     orcid: 0000-0003-3561-5657
+    #     email: olivier.sallou@irisa.fr
     abretaud:
         name: Anthony Bretaudeau
-        title: INRAE Engineer, BIPAA team leader
-        email: anthony.bretaudeau@inrae.fr
-        twitter: abretau
+        title: CNRS Engineer, GenOuest team leader
+        email: anthony.bretaudeau@irisa.fr
         mastodon: "genomic.social/@abretaud"
-        gitter: abretaud
+        matrix: @abretaud:matrix.org
         orcid: 0000-0003-0914-2470
         galaxyadmin: true
     stephanierobin:
@@ -506,11 +505,10 @@ elixir-it:
 ifb:
     abretaud:
         name: Anthony Bretaudeau
-        title: INRAE Engineer, BIPAA team leader
-        email: anthony.bretaudeau@inrae.fr
-        twitter: abretau
+        title: CNRS Engineer, GenOuest team leader
+        email: anthony.bretaudeau@irisa.fr
         mastodon: "genomic.social/@abretaud"
-        gitter: abretaud
+        matrix: @abretaud:matrix.org
         orcid: 0000-0003-0914-2470
         galaxyadmin: true
     lecorguille:
