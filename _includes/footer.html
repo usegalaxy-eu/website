@@ -35,18 +35,18 @@
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/{{ page.path }}">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/{{ page.path }}" target="_blank">Edit this page on GitHub</a></li>
                     {% if lsite.email %}
                       <li><i class="fa fa-envelope"></i><a href="mailto:{{ lsite.email }}">{{ lsite.email }}</a></li>
                     {% endif %}
                     {% if lsite.github_username %}
-                      <li><i class="fa fa-github"></i><a href="https://github.com/{{ lsite.github_username }}">{{ lsite.github_username }}</a></li>
+                      <li><i class="fa fa-github"></i><a href="https://github.com/{{ lsite.github_username }}" target="_blank">{{ lsite.github_username }}</a></li>
                     {% endif %}
                     {% if lsite.twitter_username %}
-                      <li><i class="fa fa-twitter"></i><a href="https://twitter.com/{{ lsite.twitter_username }}">{{ lsite.twitter_username }}</a></li>
+                      <li><i class="fa fa-twitter"></i><a href="https://twitter.com/{{ lsite.twitter_username }}" target="_blank">{{ lsite.twitter_username }}</a></li>
                     {% endif %}
                     {% if lsite.mastodon_username %}
-                      <li><img class="fa-mastodon" src="/assets/media/mastodon.svg" style="width:18px;height:18px;padding-right:4px;filter:grayscale(100%);-webkit-filter:grayscale(100%);"/><a href="https://{{ lsite.mastodon_server }}/@{{ lsite.mastodon_username }}">{{ lsite.mastodon_username }}</a></li>
+                      <li><img class="fa-mastodon" src="/assets/media/mastodon.svg" style="width:18px;height:18px;padding-right:4px;filter:grayscale(100%);-webkit-filter:grayscale(100%);"/><a href="https://{{ lsite.mastodon_server }}/@{{ lsite.mastodon_username }}" target="_blank">{{ lsite.mastodon_username }}</a></li>
                     {% endif %}
                       <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
                 </ul>
