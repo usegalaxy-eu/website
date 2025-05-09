@@ -59,7 +59,7 @@ into a history. Later, you can [make it accessible](https://usegalaxy.eu/histori
 forget to also share the datasets by clicking `Also make all objects within the History accessible`). Your trainees will then be able to import
 your history and start working with your data.
 
-
+We recommend to use Galaxy's [short-term storage](https://galaxyproject.org/eu/storage/#short-term-storage) during the training. This will help us in cleaning up unused data and offer Galaxy as a more sustainable service. For more information please consult our [storage page](https://galaxyproject.org/eu/storage/).
 
 ### After the training
 
