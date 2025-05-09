@@ -59,7 +59,13 @@ into a history. Later, you can [make it accessible](https://usegalaxy.eu/histori
 forget to also share the datasets by clicking `Also make all objects within the History accessible`). Your trainees will then be able to import
 your history and start working with your data.
 
+We recommend to use Galaxy's [short-term storage](https://galaxyproject.org/eu/storage/#short-term-storage) during the training. This will help us in cleaning up unused data and offer Galaxy as a more sustainable service. For more information please consult our [storage page](https://galaxyproject.org/eu/storage/). To switch to the short-term storage, click on the `Preferred Storage` on the right panel (History panel):
 
+![short-term-storage-history](https://github.com/user-attachments/assets/2c0c549b-5120-4356-9266-c4fd9c635c64)
+
+Then, click on the `Short term storage for e.g. method development` to switch to this type of storage for your training session.
+
+![short-term-storage-option](https://github.com/user-attachments/assets/51aa76ee-c0f9-4c86-a3ef-9bec7407a34e)
 
 ### After the training
 
