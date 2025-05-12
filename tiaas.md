@@ -51,7 +51,7 @@ Before users can join a specific training, they need to be __logged into the [Eu
 
 To __import data__:
 
-- If you are using the [GTN material](training.galaxyproject.org/) for
+- If you are using the [GTN material](https://training.galaxyproject.org/) for
 your workshop, then all the [training data is already mirrored into Galaxy](https://usegalaxy.eu/libraries/folders/Fa21272e5bd712216).
 
 - If you are using your own data, you can upload it to your account
@@ -67,6 +67,8 @@ Then, click on the `Short term storage for e.g. method development` to switch to
 
 ![short-term-storage-option](https://github.com/user-attachments/assets/51aa76ee-c0f9-4c86-a3ef-9bec7407a34e)
 
+You can learn more about managing storage options on the [Galaxy Training Network page](https://training.galaxyproject.org/training-material/faqs/galaxy/manage_your_galaxy_storage.html#tip-what-can-you-do-after-you-connected-a-storage).
+
 ### After the training
 
 Once the training is over, the data will stay available for further use. However, we encourage you to __clean up all the histories__ whenever this data will not be used anymore.
@@ -76,7 +78,7 @@ To keep running this free service for your trainees, __we need your feedback and
 - Write a (short) blog post that we will __publish in our website__. You can find examples [here](/news?tag=TIaaS).
 - Fill out the [__GTN Survey__](https://galaxyproject.org/news/2020-01-training-feedback/).
 - Give feedback about a tutorial on [__GitHub__](https://github.com/galaxyproject/training-material/issues/1452).
-- Tweet about your training tagging [__@galaxyproject__](https://twitter.com/galaxyproject).
+- Post your training experience on social media tagging @galaxyproject or #galaxyproject.
 
 
 
