@@ -25,8 +25,9 @@ for section in r.json():
             tool_count += 1
             out += f'<a href="{link}" title="{elem_desc}"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">{elem_name}</button></a>\n'
     else:
+        anchor = section['text'].replace(' ', '').lower()
         out += '<hr/>'
-        out += f'<h2>%s</h2>\n' % section['text']
+        out += f'<h2 id="{anchor}">%s</h2>\n'
 
 blurb = f"""---
 layout: default
