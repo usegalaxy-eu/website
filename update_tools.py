@@ -8,7 +8,7 @@ out = ""
 for section in r.json():
     if section['model_class'] == "ToolSection":
         anchor = section['name'].replace(' ', '').lower()
-        out += f'<h3 id="{anchor}">{section['name']}</h3>\n'
+        out += f'<h3 id="{anchor}">{section["name"]}</h3>\n'
         for elem in section['elems']:
             if elem['model_class'] != "ToolSectionLabel":
                 try:
