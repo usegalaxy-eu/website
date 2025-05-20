@@ -29,11 +29,13 @@ TODO
 
 ## Tools
 
-TODO
+The tools for astronomy include general-purpose tools to work with the FITS format, an interface to query archives via TAP protocol, tools for the reduction of the data from different observatories, and observation modelling tools.
+For our observatory-specific tools we use [the automated procedure](https://odahub.io/docs/guide-galaxy) to produce [Galaxy tools](https://github.com/esg-epfl-apc/tools-astro) from notebooks.
+ 
 
 ## Workflows
 
-TODO
+The workflows are being published [on workflowhub](https://workflowhub.eu/tags/422#workflows).
 
 ## Tutorials
 
