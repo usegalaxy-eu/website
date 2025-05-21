@@ -25,7 +25,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 ## Join the Astronomical Galaxy Community
 
-TODO
+Please contact [Volodymyr Savchenko](mailto:Volodymyr.Savchenko@epfl.ch?subject=Astro%20Galaxy%20Community) if you want to join.
 
 ## Tools
 
