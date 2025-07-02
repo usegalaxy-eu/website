@@ -27,7 +27,7 @@ for section in r.json():
     else:
         anchor = section['text'].replace(' ', '').lower()
         out += '<hr/>'
-        out += f'\n<hr/><h2 id="{anchor}">{section["text"]}</h2>\n\n'
+        out += f'<h2 id="{anchor}">{section["text"]}</h2>\n\n'
 
 blurb = f"""---
 layout: default
