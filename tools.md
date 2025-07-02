@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# European Galaxy tools (3770 and counting)
+# European Galaxy tools (3771 and counting)
 <hr/>
 <h3 id="getdata">Get Data</h3>
 <a href="https://usegalaxy.eu/root?tool_id=diced_database" title="DICED is a web interface for access to proteolytic peptides"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">DICED Database</button></a>
@@ -115,7 +115,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=calculate_numeric_param" title="from parameters"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Calculate numeric parameter value</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=map_param_value" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Map parameter value</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=param_value_from_file" title="from dataset"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Parse parameter value</button></a>
-<hr/><h2 id="generaltexttools">%s</h2>
+<hr/><h2 id="generaltexttools">General Text Tools</h2>
 <h3 id="textmanipulation">Text Manipulation</h3>
 <a href="https://usegalaxy.eu/root?tool_id=diff" title="analyzes two files and generates an unidiff text file with information about the differences and an optional Html report"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">diff</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=tp_awk_tool" title="with awk"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Text reformatting</button></a>
@@ -230,7 +230,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=join1" title="side by side on a specified field"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Join two Datasets</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=comp1" title="to find common or distinct rows"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Compare two Datasets</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=Grouping1" title="data by a column and perform aggregate operation on other columns."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Group</button></a>
-<hr/><h2 id="genomicfilemanipulation">%s</h2>
+<hr/><h2 id="genomicfilemanipulation">Genomic File Manipulation</h2>
 <h3 id="convertformats">Convert Formats</h3>
 <a href="https://usegalaxy.eu/root?tool_id=ucsc-twobittofa" title="Convert all or part of .2bit file to FASTA"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">twoBitToFa</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bam2fastx" title="PacBio BAM to Fastx"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">PacBio bam2fastx</button></a>
@@ -310,6 +310,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=bed_to_bigBed" title="converter"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BED-to-bigBed</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=liftOver1" title="between assemblies and genomes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert genome coordinates</button></a>
 <h3 id="fasta/fastq">FASTA/FASTQ</h3>
+<a href="https://usegalaxy.eu/root?tool_id=fastplong" title="Filter and trim long reads"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Fastplong</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=fastp" title="fast all-in-one preprocessing for FASTQ files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">fastp</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=seqkit_head" title="Displays N records of a FASTA or FASTQ file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">SeqKit Head</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bbtools_bbduk" title="decontamination using kmers"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">BBTools: BBduk</button></a>
@@ -400,7 +401,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=fasta_concatenate0" title="FASTA alignment by species"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Concatenate</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=fastq_quality_trimmer" title="by sliding window"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">FASTQ Quality Trimmer</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=sickle" title="Windowed adaptive trimming of FASTQ data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Sickle</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=fastplong" title="Filter and trim long reads"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Fastplong</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=fasta_filter_by_length" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Filter sequences by length</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=fasta2tab" title="converter"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">FASTA-to-Tabular</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=tab2fasta" title="converts tabular file to FASTA format"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Tabular-to-FASTA</button></a>
@@ -435,7 +435,9 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=fastq_info" title="validates single or paired fastq files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">FASTQ info</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=sequali" title="Fast sequencing data quality metrics for short and long reads"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">sequali</button></a>
 <h3 id="sam/bam">SAM/BAM</h3>
+<a href="https://usegalaxy.eu/root?tool_id=tasmanian_mismatch" title="Quantify, visualize and summarize mismatches in deep sequencing data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Analysis of artifacts with Tasmanian</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=samtools_slice_bam" title="BAM by genomic regions"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Slice</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=samtools_flagstat" title="tabulate descriptive stats for BAM datset"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Samtools flagstat</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=samtools_coverage" title="Produces a histogram or table of coverage per chromosome"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Samtools coverage</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=sambamba_sort" title="Tool to sort BAM files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Sambamba sort</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=pileup_interval" title="condenses pileup format into ranges of bases"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Pileup-to-Interval</button></a>
@@ -443,7 +445,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=sam2interval" title="to interval"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert SAM</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=sam_merge2" title="merges BAM files together"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Merge BAM Files</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=sam_pileup" title="from BAM dataset"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Generate pileup</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=samtools_flagstat" title="tabulate descriptive stats for BAM datset"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Samtools flagstat</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=samtools_mpileup" title="multi-way pileup of variants"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Samtools mpileup</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=samtools_rmdup" title="remove PCR duplicates"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">RmDup</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=samtools_view" title="- reformat, filter, or subsample SAM, BAM or CRAM"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Samtools view</button></a>
@@ -480,7 +481,6 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=revertR2orientationInBam" title="Revert the mapped orientation of R2 mates in a bam."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">revertR2orientationInBam</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bamtools_split" title="BAM datasets on variety of attributes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Split</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=mosdepth" title="- fast and flexible depth coverage calculation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">mosdepth</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=tasmanian_mismatch" title="Quantify, visualize and summarize mismatches in deep sequencing data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Analysis of artifacts with Tasmanian</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=sambamba_flagstat" title="Retrieving flag statistics from BAM file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Sambamba flagstat</button></a>
 <h3 id="bed">BED</h3>
 <a href="https://usegalaxy.eu/root?tool_id=bedtools_expandbed" title="replicate lines based on lists of values in columns"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">bedtools ExpandBed</button></a>
@@ -597,7 +597,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=poretools_events" title="from a set of sequencing reads"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Extract nanopore events</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=pycoqc" title="quality control for Nanopore sequencing data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Pycoqc</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=m6anet" title="to detect m6A RNA modifications from nanopore data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">m6anet</button></a>
-<hr/><h2 id="commongenomicstools">%s</h2>
+<hr/><h2 id="commongenomicstools">Common Genomics Tools</h2>
 <h3 id="operateongenomicintervals">Operate on Genomic Intervals</h3>
 <a href="https://usegalaxy.eu/root?tool_id=translate_bed_sequences" title="3 frame translation of BED augmented with a sequence column"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Translate BED Sequences</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=filter_bed_on_splice_junctions" title="that are not in a reference bed file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Filter BED on splice junctions</button></a>
@@ -628,7 +628,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=maf_by_block_number1" title="given a set of block numbers and a MAF file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Extract MAF by block number</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=MAF_Reverse_Complement_1" title="a MAF file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Reverse Complement</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=MAF_filter" title="by specified attributes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Filter MAF</button></a>
-<hr/><h2 id="genomicsanalysis">%s</h2>
+<hr/><h2 id="genomicsanalysis">Genomics Analysis</h2>
 <h3 id="annotation">Annotation</h3>
 <a href="https://usegalaxy.eu/root?tool_id=omark" title="proteome quality assessment"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">OMArk</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=funannotate_sort" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Sort assembly</button></a>
@@ -1613,7 +1613,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=unmicst" title="Image segmentation - probability map generation"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">UnMicst</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=s3segmenter" title="single cell (nuclei and cytoplasm) label masks."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">s3segmenter</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=quantification" title="a module for single-cell data extraction"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MCQUANT</button></a>
-<hr/><h2 id="genomicstoolkits">%s</h2>
+<hr/><h2 id="genomicstoolkits">Genomics Toolkits</h2>
 <h3 id="picard">Picard</h3>
 <a href="https://usegalaxy.eu/root?tool_id=picard_MarkDuplicatesWithMateCigar" title="examine aligned records in BAM datasets to locate duplicate molecules"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MarkDuplicatesWithMateCigar</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=picard_ReorderSam" title="reorder reads to match ordering in reference sequences"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ReorderSam</button></a>
@@ -1945,7 +1945,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=mimodd_rebase" title="from a VCF file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MiModD Rebase Sites</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=mimodd_delcall" title="predicts deletions in one or more aligned paired-end read samples based on coverage of the reference genome and on insert sizes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MiModD Deletion Calling (for PE data)</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=mimodd_sort" title="takes a SAM/BAM dataset and generates a coordinate/name-sorted copy"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MiModD Sort</button></a>
-<hr/><h2 id="metagenomics">%s</h2>
+<hr/><h2 id="metagenomics">Metagenomics</h2>
 <h3 id="metagenomicanalysis">Metagenomic Analysis</h3>
 <a href="https://usegalaxy.eu/root?tool_id=checkm_lineage_set" title="Infer lineage-specific marker sets for each bin"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">CheckM lineage_set</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=virannot_otu" title="create viral OTUs based on RPS and Blast annotations"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">virAnnot OTU</button></a>
@@ -2382,7 +2382,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=cooc_tabmut" title="exports co-occurrence results from mutbamscan as a table"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Cojac: tabmut</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=lineagespot" title="identifies SARS-CoV-2 lineages contributing to metagenomic samples from per-sample variant files"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">lineagespot</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=virheat" title="from VCFs as a heatmap and map mutations to respective genes"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">VirHEAT: visualize allele frequencies</button></a>
-<hr/><h2 id="proteomics,metabolomics,chemistry">%s</h2>
+<hr/><h2 id="proteomics,metabolomics,chemistry">Proteomics, Metabolomics, Chemistry</h2>
 <h3 id="proteomics">Proteomics</h3>
 <a href="https://usegalaxy.eu/root?tool_id=proteinortho" title="detects orthologous proteins/genes within different species"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Proteinortho</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=proteinortho_grab_proteins" title="finds genes/proteins in a given fasta file"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Proteinortho grab proteins</button></a>
@@ -2976,7 +2976,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=fragmenter" title="splits a molecule in fragments"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Fragmenter</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=bgchem_fragment_merger" title="fragmented molecules"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Merging</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=chembl_structure_pipeline" title="for curation and standardizing of molecular structures"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">ChEMBL structure pipeline</button></a>
-<hr/><h2 id="statisticsandvisualisation">%s</h2>
+<hr/><h2 id="statisticsandvisualisation">Statistics and Visualisation</h2>
 <h3 id="statistics">Statistics</h3>
 <a href="https://usegalaxy.eu/root?tool_id=maximal_information_based_nonparametric_exploration" title="- Maximal Information-based Nonparametric Exploration"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MINE</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=plot_for_lda_output1" title="on 'Perform LDA' output"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Draw ROC plot</button></a>
@@ -3010,6 +3010,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=Count1" title="occurrences of each record"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Count</button></a>
 <h3 id="machinelearning">Machine Learning</h3>
 <a href="https://usegalaxy.eu/root?tool_id=flexynesis_cbioportal_import" title="and prepare cBioPortal data for Flexynesis analysis"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Flexynesis cBioPortal import</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=flexynesis_plot" title="tool for visualizing flexynesis results"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Flexynesis plot</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=tesseract" title="Optical Character Recognition"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Tesseract</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=flexynesis" title="A deep-learning based multi-omics bulk sequencing data integration suite"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Flexynesis</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=tabpfn" title="with PyTorch"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Tabular data prediction using TabPFN</button></a>
@@ -3047,7 +3048,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=black_forest_labs_flux" title="text-to-image model"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">FLUX</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=cleanlab_issue_handler" title="Detect and optionally clean data issues using Cleanlab"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Cleanlab Issue Handler</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=flexynesis_utils" title="Utility functions for Flexynesis"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Flexynesis utils</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=flexynesis_plot" title="tool for visualizing flexynesis results"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Flexynesis plot</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=whisperx" title="Transcribe audio or video files to text using the OpenAI Whisper and speaker diarization using pyannote audio."><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Speech to Text with Diarization</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_to_categorical" title="Converts a class vector (integers) to binary class matrix"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">To categorical</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=mcl" title="Markov Cluster Algorithm for graphs"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MCL</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=virhunter" title="Deep learning method to identify viruses in sequencing datasets"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">virhunter</button></a>
@@ -3060,12 +3061,12 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=whisper" title="Transcribe audio or video files to text using the OpenAI Whisper"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Speech to Text</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=chatgpt_openai_api" title="Integrating OpenAI's ChatGPT into Galaxy"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">chatGPT</button></a>
 <h3 id="graph/displaydata">Graph/Display Data</h3>
-<a href="https://usegalaxy.eu/root?tool_id=pretext_snapshot" title="image generator for Pretext contact maps"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Pretext Snapshot</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=wordcloud" title="with highly customizable appearance"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Generate a word cloud</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=venn_list" title="from lists"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Venn Diagram</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=jbrowse_to_standalone" title="upgrades the bare data directory to a full JBrowse instance"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">JBrowse - Data Directory to Standalone</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=jbrowse" title="genome browser"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">JBrowse</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=pe_histogram" title="of insert size frequency"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Paired-end histogram</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=pretext_snapshot" title="image generator for Pretext contact maps"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Pretext Snapshot</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=volcanoplot" title="create a volcano plot"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Volcano Plot</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=intervene_pairwise" title="and heatmap for genomic intervals"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Pairwise intersection</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=intervene_upset" title="of intersection of genomic regions or list sets"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">UpSet diagram</button></a>
@@ -3127,7 +3128,7 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=pm_muairss_read" title="run clustering for optimised structures"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">PyMuonSuite AIRSS Cluster</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=muspinsim_combine" title="combine datafiles generated from MuSpinSim"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MuSpinSim Combine</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=mudirac" title="Muonic atom Dirac equation solver"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">MuDirac</button></a>
-<hr/><h2 id="miscellaneoustools">%s</h2>
+<hr/><h2 id="miscellaneoustools">Miscellaneous Tools</h2>
 <h3 id="evolution">Evolution</h3>
 <a href="https://usegalaxy.eu/root?tool_id=revoluzer_crex" title="reconstruct pairwise gene order rearrangement"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">CREx</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=iqtree" title="Phylogenomic / evolutionary tree construction from multiple sequences"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">IQ-TREE</button></a>
@@ -3804,65 +3805,65 @@ layout: default
 <a href="https://usegalaxy.eu/root?tool_id=larch_lcf" title="perform linear combination fit on XAS data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Larch LCF</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=larch_criteria_report" title="generate reports on Artemis fitting from XAFS data"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Larch Criteria Report</button></a>
 <h3 id="built-inconverters">Built-in Converters</h3>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_gff_to_interval_index_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert GFF to Interval Index</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=tabular_to_dbnsfp" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert tabular to dbnsfp</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_neostorezip_to_neostore" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert neostore.zip files to neostore</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_wiggle_to_interval_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Wiggle to Interval</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=lped2fpedconvert" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert lped to fped</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=pbed2ldindepconvert" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert plink pbed to ld reduced format</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bam_to_qname_sorted_bam" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BAM to queryname-sorted BAM</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_fasta_to_tabular" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert FASTA to Tabular</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_fasta_to_bowtie_base_index" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert FASTA to Bowtie base space Index</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_archive_to_directory" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Unpack archive to directory</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=lped2pbedconvert" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert lped to plink pbed</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bam_to_coodinate_sorted_bam" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BAM to coordinate-sorted BAM</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_gff_to_bed_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert GFF to BED</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bed_to_gff_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BED to GFF</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=CONVERTER_fasta_to_2bit" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert FASTA to 2bit</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bed_to_fli_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BED to Feature Location Index</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bedgraph_to_bigwig" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BedGraph to BigWig</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_SMILES_to_MOL" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert SMILES to MOL</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_molecules" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">OpenBabel converter for molecular formats</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_mdconvert" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert XTC, DCD, and TRR</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bcf_uncompressed_to_bcf" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert compressed and uncompressed BCF files</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_smiles_to_smiles" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">SMILES to SMILES</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_fasta_to_len" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert FASTA to len file</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_interval_to_bed12_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Genomic Intervals To Strict BED12</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_sam_to_unsorted_bam" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert SAM to BAM without sorting</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=csv_to_tabular" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert CSV to tabular</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_wig_to_bigwig" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Wiggle to BigWig</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_interval_to_tabix_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Interval to tabix</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_picard_interval_list_to_bed6" title="converter"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Picard Interval List to BED6</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_sam_to_bigwig_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert SAM to BigWig</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=pbed2lpedconvert" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert plink pbed to linkage lped</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=ucsc_bigbedtobed" title="Convert bigBed to BED"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert from bigBed to ascii bed format.</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_inchi_to_mol" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert InChI to MOL</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=CONVERTER_gz_to_uncompressed" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert compressed file to uncompressed.</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_cram_to_bam_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert CRAM to BAM</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bed_gff_or_vcf_to_bigwig_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BED, GFF, or VCF to BigWig</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_fasta_to_bowtie_color_index" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert FASTA to Bowtie color space Index</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_vcf_bgzip_to_tabix_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BGZ VCF to tabix</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_Pdb_to_Gro_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert PDB to GRO</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_uncompressed_to_gz" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert uncompressed file to compressed</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_interval_to_bgzip_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Interval to BGZIP</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_gff_to_fli_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert GFF to Feature Location Index</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_biom" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Biom datasets</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_interval_to_bigwig_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Genomic Intervals To Coverage</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_maf_to_fasta_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert MAF to Fasta</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_maf_to_interval_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert MAF to Genomic Intervals</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_cml_to_smiles" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert CML to SMILES</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bz2_to_uncompressed" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert compressed file to uncompressed.</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_fastq_to_fqtoc0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert FASTQ files to seek locations</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_Bam_Bai_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Bam to Bai</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=tabular_to_csv" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert tabular to CSV</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_ref_to_seq_taxomony" title="converts 2 or 3 column sequence taxonomy file to a 2 column mothur taxonomy_outline format"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Ref taxonomy to Seq Taxonomy</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bam_to_bigwig_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BAM to BigWig</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_fasta_to_fai" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert FASTA to fai file</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_interval_to_bed_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Genomic Intervals To BED</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_interval_to_bed6_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Genomic Intervals To Strict BED6</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_mol2_to_mol" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert MOL2 to MOL</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_len_to_linecount" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Len file to Linecount</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_parquet_to_csv" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Parquet to csv</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_sam_to_unsorted_bam" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert SAM to BAM without sorting</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=CONVERTER_Gro_to_Pdb_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert GRO to PDB</button></a>
-<a href="https://usegalaxy.eu/root?tool_id=bigwigtowig" title="Convert bigWig to wig"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BigWig to Wiggle</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_uncompressed_to_gz" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert uncompressed file to compressed</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bed_gff_or_vcf_to_bigwig_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BED, GFF, or VCF to BigWig</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_molecules" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">OpenBabel converter for molecular formats</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_inchi_to_mol" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert InChI to MOL</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_interval_to_bgzip_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Interval to BGZIP</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_interval_to_tabix_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Interval to tabix</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_fastq_to_fqtoc0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert FASTQ files to seek locations</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_gff_to_fli_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert GFF to Feature Location Index</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_picard_interval_list_to_bed6" title="converter"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Picard Interval List to BED6</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bed_to_fli_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BED to Feature Location Index</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_biom" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Biom datasets</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_archive_to_directory" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Unpack archive to directory</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_interval_to_bed6_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Genomic Intervals To Strict BED6</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_smiles_to_smiles" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">SMILES to SMILES</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_mdconvert" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert XTC, DCD, and TRR</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=tabular_to_csv" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert tabular to CSV</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_fasta_to_fai" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert FASTA to fai file</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bam_to_coodinate_sorted_bam" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BAM to coordinate-sorted BAM</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_sam_to_bigwig_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert SAM to BigWig</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_maf_to_fasta_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert MAF to Fasta</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bed_to_gff_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BED to GFF</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_ref_to_seq_taxomony" title="converts 2 or 3 column sequence taxonomy file to a 2 column mothur taxonomy_outline format"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Ref taxonomy to Seq Taxonomy</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=pbed2lpedconvert" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert plink pbed to linkage lped</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_gff_to_bed_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert GFF to BED</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_cram_to_bam_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert CRAM to BAM</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bam_to_qname_sorted_bam" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BAM to queryname-sorted BAM</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_wiggle_to_interval_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Wiggle to Interval</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bz2_to_uncompressed" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert compressed file to uncompressed.</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bam_to_bigwig_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BAM to BigWig</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_fasta_to_bowtie_color_index" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert FASTA to Bowtie color space Index</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_Pdb_to_Gro_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert PDB to GRO</button></a>
 <a href="https://usegalaxy.eu/root?tool_id=CONVERTER_interval_to_bedstrict_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Genomic Intervals To Strict BED</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_len_to_linecount" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Len file to Linecount</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_mol2_to_mol" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert MOL2 to MOL</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=csv_to_tabular" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert CSV to tabular</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_gff_to_interval_index_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert GFF to Interval Index</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_cml_to_smiles" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert CML to SMILES</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bcf_uncompressed_to_bcf" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert compressed and uncompressed BCF files</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=ucsc_bigbedtobed" title="Convert bigBed to BED"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert from bigBed to ascii bed format.</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_fasta_to_len" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert FASTA to len file</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_interval_to_bigwig_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Genomic Intervals To Coverage</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_SMILES_to_MOL" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert SMILES to MOL</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_fasta_to_bowtie_base_index" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert FASTA to Bowtie base space Index</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_wig_to_bigwig" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Wiggle to BigWig</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_vcf_bgzip_to_tabix_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BGZ VCF to tabix</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=bigwigtowig" title="Convert bigWig to wig"><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BigWig to Wiggle</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=lped2pbedconvert" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert lped to plink pbed</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_interval_to_bed12_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Genomic Intervals To Strict BED12</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_neostorezip_to_neostore" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert neostore.zip files to neostore</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_fasta_to_tabular" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert FASTA to Tabular</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_Bam_Bai_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Bam to Bai</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=pbed2ldindepconvert" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert plink pbed to ld reduced format</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=tabular_to_dbnsfp" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert tabular to dbnsfp</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_maf_to_interval_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert MAF to Genomic Intervals</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_bedgraph_to_bigwig" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert BedGraph to BigWig</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_parquet_to_csv" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Parquet to csv</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=CONVERTER_interval_to_bed_0" title=""><button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-xs" style="margin: 2px">Convert Genomic Intervals To BED</button></a>
