@@ -5,6 +5,13 @@ layout: default
 # OUR PROJECTS
 
 ---
+<a name="overview"></a>
+# Overview
+---
+
+![alt text](project_timeline_2025.png)
+
+---
 <a name="galaxy-community"></a>
 # Galaxy and its community
 ---
@@ -19,7 +26,7 @@ The [Freiburg Galaxy team](https://usegalaxy-eu.github.io/people) is highly invo
 - [Galaxy Training Material](https://galaxyproject.github.io/training-material), a collection of Galaxy-related tutorials and its infrastructure, developed and maintained by the community.
 - [Galaxy Docker](https://github.com/bgruening/docker-galaxy-stable), to provide an easy distributable full-fledged Galaxy installation.
 - Development and maintenance of different [Galaxy flavours](/about).
-- Jupyter integration into Galaxy. 
+- Jupyter integration into Galaxy.
 - [GalaxyP](http://galaxyp.org), a Galaxy community dedicated to developing [tools](https://github.com/galaxyproteomics/tools-galaxyp), workflows and [training material](https://galaxyproject.github.io/training-material/topics/proteomics/) for proteomic research.
 - [Galaxy Genome Annotation (GGA)](https://galaxy-genome-annotation.github.io/), a group of projects focused on supporting genome annotation inside Galaxy.
 
@@ -37,7 +44,7 @@ With the [EuroScienceGateway](https://eurosciencegateway.eu) (ESG) project, the 
 
 Spending valuable time in compilation/installation should not be a problem nowadays. Therefore, the Freiburg Galaxy team is leading the [Bioconda](https://bioconda.github.io) and [BioContainers](https://biocontainers.pro) projects, which together form the best stack for reproducible science ever.
 
-Bioconda is a channel for the conda package manager specializing in bioinformatics with around 9,000 bioinformatics packages ready to use with `conda install`. 
+Bioconda is a channel for the conda package manager specializing in bioinformatics with around 9,000 bioinformatics packages ready to use with `conda install`.
 
 BioContainers is an open source and community-driven framework which provides system-agnostic executable environments for bioinformatics software, with around 70,000 containers ready to use.
 
@@ -98,10 +105,10 @@ The [Vertebrate Genome Project](https://galaxyproject.org/projects/vgp) is an in
 <a name="healthy-cloud"></a>
 ### Healthy-Cloud
 
-The objective of the Horizon 2020 EU project [HealthyCloud](https://healthycloud.eu) is to generate a number of guidelines, recommendations and specifications that will enable distributed health research across Europe in the form of a Ready-to-implement Roadmap. 
+The objective of the Horizon 2020 EU project [HealthyCloud](https://healthycloud.eu) is to generate a number of guidelines, recommendations and specifications that will enable distributed health research across Europe in the form of a Ready-to-implement Roadmap.
 
 <a name="pari"></a>
-### PaRI 
+### PaRI
 
 The [Pandemic Research Infrastructure (PaRI)](https://neic.no/pari) project brings together the needs, interests and resources to create e-infrastructure to support research excellence in the Nordic region.
 
@@ -118,7 +125,7 @@ The aim of the project [BioDATEN (Bioinformatics DATa ENvironment)](https://port
 <a name="dataplant"></a>
 ### DataPLANT
 
-The NFDI [DataPLANT](https://nfdi4plants.de/) consortium provides services to complement existing infrastructures and focuses on supporting and easing the processes of complete and meaningful research metadata management in plant sciences. 
+The NFDI [DataPLANT](https://nfdi4plants.de/) consortium provides services to complement existing infrastructures and focuses on supporting and easing the processes of complete and meaningful research metadata management in plant sciences.
 
 <a name="NFDI4Bioimage"></a>
 ### NFDI4Bioimage
@@ -157,8 +164,8 @@ The [BeYond-COVID](https://by-covid.org) project aims to make COVID-19 data acce
 
 <a name="crc-1425"></a>
 ### CRC 1425
- 
-The [Collaborative Research Centre 1425 - "Heterocellular Nature of Cardiac Lesions: Identities, Interactions, Implications"]((https://www.sfb1425.uni-freiburg.de/)) brings together scientists working in cardiac research. 
+
+The [Collaborative Research Centre 1425 - "Heterocellular Nature of Cardiac Lesions: Identities, Interactions, Implications"]((https://www.sfb1425.uni-freiburg.de/)) brings together scientists working in cardiac research.
 
 
 <a name="crc-992"></a>
@@ -197,7 +204,7 @@ more than 3,000 times. It is of course part of the European Galaxy server and wa
 <a name="gallantries"></a>
 ### Gallantries
 
-The [Gallantries](https://gallantries.github.io/) project aims to increase bioinformatics and core data analysis skills in the field of life sciences across Europe. 
+The [Gallantries](https://gallantries.github.io/) project aims to increase bioinformatics and core data analysis skills in the field of life sciences across Europe.
 
 
 ### Open Life Science <img src="/assets/media/ols_logo.png" width="50px" alt="OLS logo" />
