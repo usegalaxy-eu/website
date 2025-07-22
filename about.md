@@ -10,6 +10,7 @@ With this server, we provide access to:
 - a huge compute and storage resource free of charge,
 - more than 3900 different, well-documented and constantly maintained scientific tools,
 - 250+ GB per user (500 GB for ELIXIR members).
+- We also support numerous additional storage options and you can learn about them [here](https://galaxyproject.org/eu/storage/).
 
 When this effort is combined with our community-maintained workflows and our in-depth training material, it makes up for a truly productive work experience. We believe in enabling everyone to perform reproducible science.
 
