@@ -31,7 +31,7 @@ When this effort is combined with our community-maintained workflows and our in-
 
 # <i class="fa fa-table"></i> Data Analysis for any Scientist
 
-**No programming knowledge** is required to access Galaxy and its tools with a web browser. It provides powerful data analysis and can replace Excel habits.
+**No programming knowledge** is required to access Galaxy and its tools; all you need is a web browser. It provides robust data analysis and can replace Excel habits.
 
 The computation is automatically performed on a **cluster** and on the **de.NBI cloud**. Each user can store **250 GB** (500 GB for ELIXIR members) for analyses (and even more on request).
 
