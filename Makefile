@@ -36,7 +36,7 @@ create-env: ## create usegalaxy-eu-website conda environment
 .PHONY: create-env
 
 install: create-env ## create usegalaxy-eu-website conda environment
-	$(ACTIVATE_ENV) && bundle install --frozen
+	$(ACTIVATE_ENV) && bundle install
 .PHONY: install
 
 build: ## Build the site once and exit

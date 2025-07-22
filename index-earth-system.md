@@ -20,7 +20,26 @@ Galaxy for Earth System and environment was implemented within the project [**Fa
 
 # Get started
 
-Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take a [__guided tour__]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
+Are you new to Galaxy for Earth System sciences, or returning after a long time, and looking for help to get started? Take a [__guided tour__](https://training.galaxyproject.org/training-material/topics/climate/tutorials/earth_system/tutorial.html){:target="_blank"} through a detailed tutorial on the Galaxy Training Network.
+
+# Training
+
+We are working in close collaboration with the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"} to develop training materials of data analyses based on Galaxy. If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
+
+**Training material**
+
+All relevant materials for Earth System, Environment and Biodiversity data analysis will be available within the GTN. You can search for them within the GTN by writing **earth-system** in the search bar or directly acces our full [set of tutorials](https://training.galaxyproject.org/training-material/search2?query=earth-system).
+A sample of the different tutorials that you can find below but many more are available:
+
+- [Welcome and introduction to Galaxy](https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-short/slides.html)
+- [How to study Ocean's variables](https://training.galaxyproject.org/training-material/topics/climate/tutorials/ocean-variables/tutorial.html)
+- [Analyse Ocean data (from Argo)](https://training.galaxyproject.org/training-material/topics/climate/tutorials/argo_pangeo/tutorial.html)
+- [How to use QGIS](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/QGIS_Web_Feature_Services/tutorial.html)
+- [How to study atmospheric volcanic data](https://training.galaxyproject.org/training-material/topics/climate/tutorials/sentinel5_data/tutorial.html)
+- [Get access to vegetation indices](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ndvi_openeo/tutorial.html)
+- [Study Marine biodiversity](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/obisindicators/tutorial.html)
+- [Learn in the Marine Omics domain to identify biosynthetic gene clusters](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/marine_omics_bgc/tutorial.html)
+
 
 # Tools
 
@@ -40,36 +59,6 @@ Multiple tools on Earth System, Environment and Biodiversity data analysis will 
 - **Earth critical zone tools** on land degradation
 - **Volcano tools**
 
-
-# Training
-
-We are working in close collaboration with the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"} to develop training materials of data analyses based on Galaxy. If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/lDqWxzWNk1k"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-</iframe>
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/-1MPdxmRs8U"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-
-<br><br>
-
-**Training material**
-
-All relevant materials for Earth System, Environment and Biodiversity data analysis will be available within the GTN.
-
-- [Welcome and introduction to Galaxy](https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-short/slides.html)
-- [How to use QGIS](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/QGIS_Web_Feature_Services/tutorial.html)
-- [How to use ODv with netcdf files](https://training.galaxyproject.org/training-material/topics/climate/tutorials/ocean-data-view/tutorial.html)
-- [How to use ODV collections](https://training.galaxyproject.org/training-material/topics/climate/tutorials/ocean-variables/tutorial.html)
 
 # Workflows
 

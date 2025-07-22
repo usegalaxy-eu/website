@@ -15,30 +15,17 @@ freiburg:
         researchgate: Bjoern_Gruening
         bio:
 
-    bebatut:
-        name: Bérénice Batut
-        title: Ph.D., Researcher
-        website: http://research.bebatut.fr
-        email: bebatut@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54126
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        gitter: bebatut
-        twitter: bebatut
-        mastodon: "piaille.fr/@bebatut"
-        linkedin: berenicebatut
-        orcid: 0000-0001-9852-1987
-        google-scholar: q5GpTJYAAAAJ
-        researchgate: Berenice_Batut
-        bio:
-
-    erxleben:
-        name: Anika Erxleben
-        title: Dr. rer. nat., Researcher
-        email: erxleben@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54129
-        location: "Build.: 079, Room: -1006"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        bio:
+    #erxleben:
+    #    name: Anika Erxleben-Eggenhofer
+    #    title: Dr. rer. nat., Researcher
+    #    email: erxleben@informatik.uni-freiburg.de
+    #    phone: +49(0) 761 - 203 54130
+    #    location: "Build.: 079, Room: -1006"
+    #    location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+    #    matrix: "@anikaerxleben:matrix.org"
+    #    linkedin: anika-erxleben-eggenhofer-ba2b52122
+    #    orcid: 0000-0002-7427-6478
+    #    bio:
 
     wm75:
         name: Wolfgang Maier
@@ -49,7 +36,7 @@ freiburg:
         location_link: "https://osm.org/go/0DKSQ63QV-?m="
         matrix: "@wm75:matrix.org"
         orcid: 0000-0002-9464-6640
-        mastodon: "scholar.social/@zerodivision"
+        mastodon: "fediscience.org/@zerodivision"
         bio:
 
     hexylena:
@@ -127,7 +114,7 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         bio:
 
-    # stephanflemming:
+      # stephanflemming:
       #  name: Stephan Flemming
       #  title: Dr. rer. nat., Researcher
       #  email: flemming@informatik.uni-freiburg.de
@@ -259,15 +246,23 @@ freiburg:
         gitter: pavanvidem
         orcid: 0000-0002-5192-126X
 
+    dianichj:
+        name: Diana Chiang Jurado
+        title: Dr.rer.nat Candidate., Researcher
+        email: dianachj@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@dianichj:matrix.org"
+        orcid: 0000-0002-5857-1477
+        researchgate: Diana Chiang Jurado
+
     sanjaysrikakulam:
         name: Sanjay Kumar Srikakulam
-        title: M.Sc. Bioinformatics, Researcher, DevOps
+        title: Dr. rer. nat., Researcher, DevOps
         email: srikakus@informatik.uni-freiburg.de
         location: "Build.: 079, Room: -1005"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        gitter: sanjaysrikakulam
         matrix: "@sanjaysrikakulam:matrix.org"
-        twitter: SanjaySrikakul
         orcid: 0000-0002-1752-5060
         google-scholar: YF_dAHMAAAAJ
         researchgate: Sanjay-Kumar-Srikakulam
@@ -299,7 +294,6 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         gitter: itisAliRH
         matrix: "@itisAliRH:matrix.org"
-        twitter: itisAliRH
         linkedin: itisAliRH
 
     ElectronicBlueberry:
@@ -344,7 +338,7 @@ freiburg:
         matrix: "@saimmomin:matrix.org"
         linkedin: www.linkedin.com/in/saim-momin
         github_username: SaimMomin12
-        twitter: SaimMomin12
+
 
     arash77:
         name: Arash Kadkhodaei
@@ -355,6 +349,47 @@ freiburg:
         matrix: "@brilliantarash:matrix.org"
         linkedin: kadarash
         orcid: 0009-0006-2228-8123
+
+    Sch-Da:
+        name: Daniela Schneider
+        title: M.A., Researcher
+        email: schneidd@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54129
+        location: "Build.: 079, Room: -1006a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@schn_da:matrix.org"
+        #linkedin: zierep-paul-180543157
+        orcid: 0000-0001-9536-5587
+        mastodon: "fedihum.org/@SchnDa"
+        bio:
+
+    dadrasarmin:
+        name: Armin Dadras
+        title: Dr. rer. nat., Researcher
+        email: dadras@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54130
+        location: "Build.: 079, Room: -1006"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@armin.dadras:matrix.org"
+        mastodon: "https://mastodon.social/@dadrasarmin"
+        linkedin: armindadras
+        orcid: 0000-0001-7649-2388
+        google-scholar: c3RUlDoAAAAJ
+        researchgate: Armin-Dadras
+        bio:
+    
+    Deeptivarshney:
+        name: Deepti Varshney
+        title: M.Tech Bioinformatics, Researcher
+        email: varshney@informatik.uni-freiburg.de
+        location: "Build.: 106, Room: 02 012"
+        location_link: "https://maps.app.goo.gl/g33Eivx3JdcBaTSV8"
+        matrix: "@deepti.varshney:matrix.org"
+        linkedin: deepti-varshney-aa933994
+        orcid: 0000-0003-0419-6832
+        google-scholar: exB6B90AAAAJ
+        researchgate: Deepti-Varshney-2
+        bio:
 
 
 erasmusmc:
@@ -406,23 +441,22 @@ erasmusmc:
         location: Ee-1579
 
 genouest:
-    OlivierCollin:
-        name: Olivier Collin
-        title: GenOuest team leader
-        email: olivier.collin@irisa.fr
-        orcid: 0000-0002-8959-8402
-    osallou:
-        name: Olivier Sallou
-        title: Development engineer leader
-        orcid: 0000-0003-3561-5657
-        email: olivier.sallou@irisa.fr
+    # OlivierCollin:
+    #     name: Olivier Collin
+    #     title: GenOuest team leader
+    #     email: olivier.collin@irisa.fr
+    #     orcid: 0000-0002-8959-8402
+    # osallou:
+    #     name: Olivier Sallou
+    #     title: Development engineer leader
+    #     orcid: 0000-0003-3561-5657
+    #     email: olivier.sallou@irisa.fr
     abretaud:
         name: Anthony Bretaudeau
-        title: INRAE Engineer, BIPAA team leader
-        email: anthony.bretaudeau@inrae.fr
-        twitter: abretau
+        title: CNRS Engineer, GenOuest team leader
+        email: anthony.bretaudeau@irisa.fr
         mastodon: "genomic.social/@abretaud"
-        gitter: abretaud
+        matrix: "@abretaud:matrix.org"
         orcid: 0000-0003-0914-2470
         galaxyadmin: true
     stephanierobin:
@@ -465,16 +499,13 @@ elixir-it:
         orcid: 0000-0002-2641-9403
         email: marica.antonacci@ba.infn.it
 
-
-
 ifb:
     abretaud:
         name: Anthony Bretaudeau
-        title: INRAE Engineer, BIPAA team leader
-        email: anthony.bretaudeau@inrae.fr
-        twitter: abretau
+        title: CNRS Engineer, GenOuest team leader
+        email: anthony.bretaudeau@irisa.fr
         mastodon: "genomic.social/@abretaud"
-        gitter: abretaud
+        matrix: "@abretaud:matrix.org"
         orcid: 0000-0003-0914-2470
         galaxyadmin: true
     lecorguille:
@@ -511,4 +542,20 @@ ifb:
         title: Engineer, EuroScienceGateway (WP5, Genome Annotation use case) - CNRS / GenOuest
         matrix: "@rlibouban:matrix.org"
         galaxyadmin: true
-
+    bebatut:
+        name: Bérénice Batut
+        title: Research Engineer
+        website: http://research.bebatut.fr
+        matrix: "@bebatut:matrix.org"
+        mastodon: "piaille.fr/@bebatut"
+        linkedin: berenicebatut
+        orcid: 0000-0001-9852-1987
+        google-scholar: q5GpTJYAAAAJ
+        researchgate: Berenice_Batut
+        galaxyadmin: true
+    clsiguret:
+        name: Cléa Siguret
+        title: Research Engineer - IFB / AuBi
+        matrix: "@clsiguret:matrix.org"
+        linkedin: cléa-siguret-58423b107
+        orcid: 0009-0005-6140-0379
