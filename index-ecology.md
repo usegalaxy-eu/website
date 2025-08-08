@@ -1,30 +1,73 @@
 ---
 layout: subsite-galaxy
+website: https://https://ecology.usegalaxy.eu
+subdomain: ecology
 ---
 
-Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize ecological data
+<center><h1>Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize ecological data</h1></center>  
 
-<img src="/assets/media//Galaxy-E-concarneau-team-2018-logo.gif" height="225px" alt="PNDB french Biodiversity e-infrastructure"/>
+<center><img src="./assets/media/Galaxy-E-concarneau-team-2018-logo.gif" height="225px" alt="PNDB french Biodiversity e-infrastructure"/></center>   
 
-
-<div align="center">
-    <a href="https://usegalaxy.eu/gapars-experiment/" target="_blank">
-        <button type="button" class="btn btn-primary btn-lg">Citizen science on marmalade hoverflies</button>
-    </a>
+<div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; justify-content: center;">
+  <div style="flex: 1 1 18rem; max-width: 18rem; border: 1px solid #6c757d; background: #f8f9fa; padding: 1rem; border-radius: 6px; box-sizing: border-box;">
+    <h2 style="margin-top:0; color: #212529;">Guide tour</h2>
+    <p style="margin: .5rem 0;">
+      Are you new to Galaxy, or returning after a long time, and looking for help to get started?
+    </p>
+    <div style="text-align: center; margin-top: auto;">
+      <img src="./assets/media/galaxy-eu.svg"/>
+      <a target="displayhere" href="https://ecology.usegalaxy.eu/tours/core.galaxy_ui" style="display: inline-block; padding: .5rem 1rem; background: #122b7eff; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem;">
+        Take a guide tour through Galaxy’s user interface.
+      </a>
+    </div>
+  </div>
+  <div style="flex: 1 1 18rem; max-width: 18rem; border: 1px solid #6c757d; background: #f8f9fa; padding: 1rem; border-radius: 6px; box-sizing: border-box;">
+    <h2 style="margin-top:0; color: #212529;">Tutorials</h2>
+    <p style="margin: .5rem 0;">
+      Want to learn about ecology analyses?
+    </p>
+    <div style="text-align: center; margin-top: auto;">
+      <img src="./assets/media/gtn_logo.png"/>
+      <a target="displayhere" href="https://training.galaxyproject.org/training-material/topics/ecology/" style="display: inline-block; padding: .5rem 1rem; background: #122b7eff; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem;">
+        Check our tutorials
+      </a>
+    </div>
+  </div>
+  <div style="flex: 1 1 18rem; max-width: 18rem; border: 1px solid #6c757d; background: #f8f9fa; padding: 1rem; border-radius: 6px; box-sizing: border-box;">
+    <h2 style="margin-top:0; color: #212529;">Workflows</h2>
+    <p style="margin: .5rem 0;">
+    </p>
+    <div style="text-align: center; margin-top: auto;">
+      <img src="./assets/media/workflow3.png"/>
+      <a target="displayhere" href="https://ecology.usegalaxy.eu/workflows/list_published" style="display: inline-block; padding: .5rem 1rem; background: #122b7eff; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem;">
+        Access to public workflows
+      </a>
+    </div>
+  </div>
 </div>
 
-1. TOC
-{:toc}
+  <iframe id="displayhere"></iframe>
 
-## Getting started
+## Projects
 
-Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://ecology.usegalaxy.eu/tours/core.galaxy_ui){:target="_top"} through Galaxy's user interface.
+<div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem;">
+  <div style="flex: 1 1 18rem; max-width: 18rem; border: 1px solid #6c757d; background: #f8f9fa; padding: 1rem; border-radius: 6px; box-sizing: border-box;">
+    <h2 style="margin-top:0; color: #212529;">Citizen science on marmalade hoverflies</h2>
+    <p style="margin: .5rem 0;">
+     Want to classify hoverflies pictures?
+    </p>
+    <div style="text-align: center; margin-top: auto;">
+      <img src="./assets/media/Example_image_task.jpg"/>
+      <a target ="displayhere2" href="https://usegalaxy.eu/gapars-experiment/" style="display: inline-block; padding: .5rem 1rem; background: #122b7eff; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem;">
+        Try our crowdsourcing project
+      </a>
+    </div>
+  </div>
+</div>
 
-Want to learn about ecology analyses? Check our [tutorials](#tutorials) or take one of our guided tour:
+<iframe id="displayhere2"></iframe>
 
-- Introduction to species phenology study and abundance index as trends computation.
-
-# Tools
+## Tools
 
 Almost 140 tools are proposed in this custom Galaxy instance. They were chosen for their use in exploitation of ecology data:
 
@@ -54,14 +97,6 @@ Almost 140 tools are proposed in this custom Galaxy instance. They were chosen f
 
 We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/){:target="_blank"} to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org){:target="_blank"}.
 
-We then developed [several tutorials](https://training.galaxyproject.org/training-material/topics/ecology/){:target="_blank"} and more will come:
-
-- Introduction to species phenology study and abundance index as trends computation
-- Introduction to Species Distribution Modeling (SDM) using Wallace R Shiny app
-
-# Workflows
-
-- Phenology study and abundance index as trends computation through regionalGAM
-
 ## References
 {% bibliography --cited --prefix index-metagenomics --group_by none %}
+
