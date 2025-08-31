@@ -256,17 +256,17 @@ freiburg:
         orcid: 0000-0002-5857-1477
         researchgate: Diana Chiang Jurado
 
-    sanjaysrikakulam:
-        name: Sanjay Kumar Srikakulam
-        title: Dr. rer. nat., Researcher, DevOps
-        email: srikakus@informatik.uni-freiburg.de
-        location: "Build.: 079, Room: -1005"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        matrix: "@sanjaysrikakulam:matrix.org"
-        orcid: 0000-0002-1752-5060
-        google-scholar: YF_dAHMAAAAJ
-        researchgate: Sanjay-Kumar-Srikakulam
-        galaxyadmin: true
+    # sanjaysrikakulam:
+    #     name: Sanjay Kumar Srikakulam
+    #     title: Dr. rer. nat., Researcher, DevOps
+    #     email: srikakus@informatik.uni-freiburg.de
+    #     location: "Build.: 079, Room: -1005"
+    #     location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+    #     matrix: "@sanjaysrikakulam:matrix.org"
+    #     orcid: 0000-0002-1752-5060
+    #     google-scholar: YF_dAHMAAAAJ
+    #     researchgate: Sanjay-Kumar-Srikakulam
+    #     galaxyadmin: true
 
     mira-miracoli:
         name: Mira Kuntz
