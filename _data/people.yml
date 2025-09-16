@@ -378,7 +378,7 @@ freiburg:
         google-scholar: c3RUlDoAAAAJ
         researchgate: Armin-Dadras
         bio:
-    
+
     Deeptivarshney:
         name: Deepti Varshney
         title: M.Tech Bioinformatics, Researcher
@@ -391,6 +391,16 @@ freiburg:
         google-scholar: exB6B90AAAAJ
         researchgate: Deepti-Varshney-2
         bio:
+
+    gsaudade:
+        name: Gabriel Saudade
+        title: B.Sc. Computer and Telematics, System Administrator, DevOps
+        email: saudade@tf.uni-freiburg.de
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@gsaudade:matrix.org"
+        orcid: 0009-0000-5458-1144
+        galaxyadmin: true
 
 
 erasmusmc:
