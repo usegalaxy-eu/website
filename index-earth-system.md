@@ -267,12 +267,11 @@ subdomain: earth-system
 </div>
 <br><br>
 <iframe id="displayhere3" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
-
 <br><br>
-<center><img src="./assets/media/partnaire.gif" height="225px" alt="Credits"/></center>
-<br><br>
-<center><img src="./assets/media/baniere.png" height="175px" alt="Galaxy for earth system sciences"/></center>
 
+<center><img src="./assets/media/partenaire.gif" height="225px" alt="Credits"/></center>
+<br><br>
+<center><img src="./assets/media/Baniere.png" height="175px" alt="Galaxy for earth system sciences"/></center>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
