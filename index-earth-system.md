@@ -6,7 +6,7 @@ subdomain: earth-system
 
 # Welcome to **Galaxy for Earth System Sciences** -- a web platform to get, process, analyze and visualize environmental data
 
-<center><img src="./assets/media//welcome_page_logo.png" height="225px" alt="Galaxy for earth system sciences"/></center>
+<center><img src="./assets/media//welcome_page_logo.png" height="250px" alt="Galaxy for earth system sciences"/></center>
 <br><br>
 
 <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch;">
