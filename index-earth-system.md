@@ -277,7 +277,7 @@ subdomain: earth-system
 
 <br><br>
 <div style="display:flex; justify-content:center; margin:1.5rem 0 3rem;">
-    <img src="./assets/media/Baniere.png" height="175px" alt="Galaxy for earth system sciences"/>
+    <img src="./assets/media/baniere.png" height="175px" alt="Galaxy for earth system sciences"/>
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
