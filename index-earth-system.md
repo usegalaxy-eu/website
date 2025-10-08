@@ -259,20 +259,26 @@ subdomain: earth-system
   </div>
 </div>
 
+
 <br><br>
 <iframe id="displayhere2" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
 
 <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch;">
     <a href="https://galaxyproject.org/community/sig/earth/" class="show-iframe" data-target="displayhere3">Earth SIG</a>
 </div>
+
 <br><br>
 <iframe id="displayhere3" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
-<br><br>
 
-<center><img src="./assets/media/partenaire.gif" height="225px" alt="Credits"/></center>
 <br><br>
-<center><img src="./assets/media/Baniere.png" height="175px" alt="Galaxy for earth system sciences"/></center>
+<div style="display:flex; justify-content:center; margin:2rem 0;">
+    <img src="./assets/media/partenaire.gif" height="225px" alt="Credits"/>
+</div>
 
+<br><br>
+<div style="display:flex; justify-content:center; margin:1.5rem 0 3rem;">
+    <img src="./assets/media/Baniere.png" height="175px" alt="Galaxy for earth system sciences"/>
+</div>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Retrieve all links that trigger the display of the iframe
