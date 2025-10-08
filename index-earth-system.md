@@ -32,7 +32,7 @@ subdomain: earth-system
     <div class="card border-secondary bg-light mb-1 mx-1" style="display:flex; flex-direction:column; height:100%;">
       <div class="card-body" style="display:flex; flex-direction:column; flex:1;">
         <h2 class="card-title text-dark" style="margin-top: 0;">Tutorials</h2>
-        <p class="card-text">Want to learn about ecology analyses?</p>
+        <p class="card-text">Want to learn about earth science analyses?</p>
         <img src="./assets/media/gtn_logo.png" style="max-width:100%; height:auto; margin:2rem 0;" />
         <div class="text-center" style="margin-top:auto;">
           <a href="https://training.galaxyproject.org/training-material/search2?query=earth-system" class="show-iframe" data-target="displayhere">
@@ -49,7 +49,7 @@ subdomain: earth-system
       <div class="card-body" style="display:flex; flex-direction:column; flex:1;">
         <h2 class="card-title text-dark" style="margin-top: 0;">Workflows</h2>
         <p class="card-text">Write earth-system in the search !</p>
-        <img src="./assets/media/workflow3.png" style="max-width:100%; height:auto; margin:2rem 0;" />
+        <img src="./assets/media/workflow4.png" style="max-width:100%; height:auto; margin:2rem 0;" />
         <div class="text-center" style="margin-top:auto;">
           <a href="https://earth-system.usegalaxy.eu/workflows/list_published" target="_blank">
             <button type="button" class="btn btn-primary btn-lg" style="white-space:normal; max-width:100%; display:inline-block;">Access public workflows</button>
