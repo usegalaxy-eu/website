@@ -6,7 +6,7 @@ subdomain: earth-system
 
 # Welcome to **Galaxy for Earth System Sciences** -- a web platform to get, process, analyze and visualize environmental data
 
-<center><img src="./assets/media//welcome_page_logo.png" height="250px" alt="Galaxy for earth system sciences"/></center>
+<center><img src="./assets/media/welcome_page_logo.png" alt="Galaxy for earth system sciences"/></center>
 <br><br>
 
 <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch;">
@@ -74,7 +74,7 @@ subdomain: earth-system
         <div class="card-body" style="display: flex; flex-direction: column; flex: 1;">
             <h2 class="card-title text-dark" style="margin-top: 0;">GAIA DATA</h2>
             <div style="margin:0.5rem 0;">
-                <span class="badge" style="background-color:#1f204d; color:white; font-size:0.95rem; padding:0.4em 0.6em;">Equipex+ PIA3</span>
+                <span class="badge" style="background-color:#047263; color:white; font-size:0.95rem; padding:0.4em 0.6em;">Equipex+ PIA3</span>
             </div>
             <a href="https://www.gaia-data.org/" target="_blank">
                 <center><img src="./assets/media/logo-data-gaia_default.png" style="width: 140px; height:auto;"/></center>
@@ -140,10 +140,11 @@ subdomain: earth-system
                     <button type="button" class="btn btn-primary">Voronoi segmentation</button>
                 </a>
                 <a href="https://earth-system.usegalaxy.eu/published/workflow?id=7f8ff64c5ea03a9b" target="_blank">
-                    <button type="button" class="btn btn-primary">Voronoi segmentation with seed generation</button>
+                    <button type="button" class="btn btn-primary" style="white-space:normal; max-width:100%; display:inline-block;">Voronoi segmentation with seed generation</button>
                 </a>
             </div>
         </div>
+      </div>
     </div>
   </div>
   <!-- CARD 3 -->
@@ -158,7 +159,7 @@ subdomain: earth-system
         <div style="margin-top: 1rem;">
             <p class="card-text" style="font-weight: bold;">Hackathon, where it all began</p>
             <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
-                <a href="https://galaxyproject.org/news/2025-04-02-fair-ease-brest-hackathon-2025-news-post/"class="show-iframe" data-target="displayhere2">
+                <a href="https://galaxyproject.org/news/2025-04-02-fair-ease-brest-hackathon-2025-news-post/" class="show-iframe" data-target="displayhere2">
                     <button type="button" class="btn btn-primary">Hunga Tonga Hackathon</button>
                 </a>
             </div>
@@ -180,6 +181,7 @@ subdomain: earth-system
                 <p class="card-text">Several tools corresponding to these usecase can be found in Galaxy's left sidebar in the interactive tools section under the Ocean and Land & soil and the Earth System tools section.</p>
             </div>
         </div>
+      </div>  
     </div>
   </div>
   <!-- CARD 4 -->
@@ -230,18 +232,18 @@ subdomain: earth-system
             </div>
             <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
                 <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/ocean_qcv_analysis/tutorial.html" class="show-iframe" data-target="displayhere2">
-                     <button type="button" class="btn btn-primary">Nitrate DMQC for autonomous platforms such as Argo floats</button>
+                     <button type="button" class="btn btn-primary" style="white-space:normal; max-width:100%; display:inline-block;">Nitrate DMQC for autonomous platforms such as Argo floats</button>
                 </a>
             </div>
             <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
                 <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/marine_omics_bgc/tutorial.html" class="show-iframe" data-target="displayhere2">
-                     <button type="button" class="btn btn-primary">Marine Omics identifying biosynthetic gene clusters</button>
+                     <button type="button" class="btn btn-primary" style="white-space:normal; max-width:100%; display:inline-block;">Marine Omics identifying biosynthetic gene clusters</button>
                 </a>
             </div>
             <p class="card-text" style="font-weight: bold;">Learning Pathway</p>
             <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
                 <a href="https://training.galaxyproject.org/training-material/learning-pathways/dev_tools_training.html" class="show-iframe" data-target="displayhere2">
-                    <button type="button" class="btn btn-primary">Tool development for a nice & shiny subdomain</button>
+                    <button type="button" class="btn btn-primary" style="white-space:normal; max-width:100%; display:inline-block;">Tool development for a nice & shiny subdomain</button>
                 </a>
             </div>
         </div>
@@ -256,7 +258,6 @@ subdomain: earth-system
             </div>
         </div>
     </div>
-  </div>
 </div>
 
 
@@ -279,6 +280,7 @@ subdomain: earth-system
 <div style="display:flex; justify-content:center; margin:1.5rem 0 3rem;">
     <img src="./assets/media/baniere.png" height="175px" alt="Galaxy for earth system sciences"/>
 </div>
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Retrieve all links that trigger the display of the iframe
