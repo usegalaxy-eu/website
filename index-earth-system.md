@@ -173,7 +173,7 @@ subdomain: earth-system
             </div>
         </div>
         <div style="margin-top: 1rem;">
-            <p class="card-text" style="font-weight: bold;">TOOLs</p>
+            <p class="card-text" style="font-weight: bold;">TOOLS</p>
             <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
                 <a href="https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_terriamap" target="_blank">
                     <button type="button" class="btn btn-primary">TerriaMap</button>
