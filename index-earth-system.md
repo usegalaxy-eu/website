@@ -65,7 +65,7 @@ subdomain: earth-system
 <br><br>
 <iframe id="displayhere" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
 
-# Projects
+# Partnerships
 
 <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:1rem; align-items:stretch;">
   <!-- CARD 1 -->
