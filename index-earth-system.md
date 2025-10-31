@@ -19,7 +19,7 @@ subdomain: earth-system
         <p class="card-text">Are you new to Galaxy, or returning after a long time, and looking for help to get started?</p>
         <img src="./assets/media/galaxy-eu.svg" style="max-width:100%; height:auto; margin:2rem 0;" />
         <div class="text-center" style="margin-top:auto;">
-          <a href="https://ecology.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">
+          <a href="https://earth-system.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">
             <button type="button" class="btn btn-primary btn-lg" style="white-space:normal; max-width:100%; display:inline-block;">Take a guide tour through Galaxy’s user interface.</button>
           </a>
         </div>
