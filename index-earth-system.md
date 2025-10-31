@@ -267,19 +267,16 @@ subdomain: earth-system
     </div>
 </div>
 
-
 <br><br>
 <iframe id="displayhere2" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
 
 <br><br>
-<div style="display:flex; justify-content:center; margin:2rem 0;">
-    <img src="./assets/media/partenaire.png" height="225px" alt="Credits"/>
-</div>
+
+# Credits
+<center><img src="./assets/media/partenaire.png" height="225px" alt="Credits"/></center>
 
 <br><br>
-<div style="display:flex; justify-content:center; margin:1.5rem 0 3rem;">
-    <img src="./assets/media/baniere.png" height="175px" alt="Galaxy for earth system sciences"/>
-</div>
+<center><img src="./assets/media/baniere.png" height="175px" alt="Galaxy for earth system sciences"/></center>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
