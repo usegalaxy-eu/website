@@ -91,6 +91,10 @@ subdomain: earth-system
                     <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Ecoregionalization_tutorial/tutorial.html" class="show-iframe" data-target="displayhere2">
                         <button type="button" class="btn btn-primary">Ecoregionalization</button>
                     </a>
+                	<a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/QGIS_Web_Feature_Services/tutorial.html" class="show-iframe" data-target="displayhere2">
+                    	<button type="button" class="btn btn-primary">QGIS Web Feature Services</button>
+                	</a>
+            </div>
                 </div>
             </div>
             <div style="margin-top: 1rem;">
@@ -223,11 +227,6 @@ subdomain: earth-system
             <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
                 <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/sentinel5_data/tutorial.html" class="show-iframe" data-target="displayhere2">
                      <button type="button" class="btn btn-primary">Sentinel 5P data visualisation</button>
-                </a>
-            </div>
-            <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
-                <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/QGIS_Web_Feature_Services/tutorial.html" class="show-iframe" data-target="displayhere2">
-                     <button type="button" class="btn btn-primary">QGIS Web Feature Services</button>
                 </a>
             </div>
             <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
