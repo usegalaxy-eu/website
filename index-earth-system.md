@@ -35,6 +35,9 @@ subdomain: earth-system
         <p class="card-text">Want to learn about earth science analyses?</p>
         <img src="./assets/media/gtn_logo.png" style="max-width:100%; height:auto; margin:2rem 0;" />
         <div class="text-center" style="margin-top:auto;">
+		  <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/earth_system/tutorial.html" class="show-iframe" data-target="displayhere">
+			<button type="button" class="btn btn-primary">Discover Earth data</button>
+		  </a>  
           <a href="https://training.galaxyproject.org/training-material/search2?query=earth-system" class="show-iframe" data-target="displayhere">
             <button type="button" class="btn btn-primary btn-lg" style="white-space:normal; max-width:100%; display:inline-block;">Check our tutorials</button>
           </a>
@@ -65,6 +68,14 @@ subdomain: earth-system
 <br><br>
 <iframe id="displayhere" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
 
+
+<div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch;">
+    <a href="https://galaxyproject.org/community/sig/earth/" class="show-iframe" data-target="displayhere3">Earth SIG</a>
+</div>
+
+<br><br>
+<iframe id="displayhere3" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
+
 # Partnerships
 
 <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:1rem; align-items:stretch;">
@@ -81,10 +92,7 @@ subdomain: earth-system
             </a>
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">TUTORIALS</p>
-                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
-                    <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/earth_system/tutorial.html" class="show-iframe" data-target="displayhere2">
-                        <button type="button" class="btn btn-primary">Earth data</button>
-                    </a>                    
+                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">                  
                     <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/remote-sensing/tutorial.html" class="show-iframe" data-target="displayhere2">
                         <button type="button" class="btn btn-primary">Sentinel 2 for biodiversity</button>
                     </a>
@@ -263,16 +271,9 @@ subdomain: earth-system
 <br><br>
 <iframe id="displayhere2" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
 
-<div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch;">
-    <a href="https://galaxyproject.org/community/sig/earth/" class="show-iframe" data-target="displayhere3">Earth SIG</a>
-</div>
-
-<br><br>
-<iframe id="displayhere3" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
-
 <br><br>
 <div style="display:flex; justify-content:center; margin:2rem 0;">
-    <img src="./assets/media/partenaire.gif" height="225px" alt="Credits"/>
+    <img src="./assets/media/partenaire.png" height="225px" alt="Credits"/>
 </div>
 
 <br><br>
