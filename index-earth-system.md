@@ -37,7 +37,9 @@ subdomain: earth-system
         <div class="text-center" style="margin-top:auto;">
 		  <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/earth_system/tutorial.html" class="show-iframe" data-target="displayhere">
 			<button type="button" class="btn btn-primary">Discover Earth data</button>
-		  </a>  
+		  </a>
+		</div>
+        <div class="text-center" style="margin-top:auto;">		
           <a href="https://training.galaxyproject.org/training-material/search2?query=earth-system" class="show-iframe" data-target="displayhere">
             <button type="button" class="btn btn-primary btn-lg" style="white-space:normal; max-width:100%; display:inline-block;">Check our tutorials</button>
           </a>
