@@ -104,7 +104,6 @@ subdomain: earth-system
                 	<a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/QGIS_Web_Feature_Services/tutorial.html" class="show-iframe" data-target="displayhere2">
                     	<button type="button" class="btn btn-primary">QGIS Web Feature Services</button>
                 	</a>
-            </div>
                 </div>
             </div>
             <div style="margin-top: 1rem;">
