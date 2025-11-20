@@ -4,20 +4,26 @@ on:
   schedule:
     - cron: '00 23 * * 0'
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   update-citations:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.9'
+          python-version: '3.12'
+
       - name: Install dependencies
         ## 1.5.27 does not seem to work
-        run: |
-          python -m pip install bibtexparser Pyzotero==1.5.25
+        run: pip install bibtexparser Pyzotero==1.5.25
+
       - name: Run update script
         run: python update_citations-eu.py
 
