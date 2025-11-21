@@ -30,3 +30,5 @@ gem 'html-proofer'
 gem 'jekyll-twitter-plugin'
 gem "nokogiri", ">= 1.10.8"
 gem "bibtex-ruby", ">= 5.1.0"
+gem "observer"
+gem "logger"

@@ -73,12 +73,14 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.7.0)
     mercenary (0.3.6)
     mini_portile2 (2.8.9)
     namae (1.0.1)
     nokogiri (1.18.10)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
+    observer (0.1.2)
     parallel (1.18.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -111,7 +113,9 @@ DEPENDENCIES
   jekyll-feed (~> 0.17)
   jekyll-scholar
   jekyll-twitter-plugin
+  logger
   nokogiri (>= 1.10.8)
+  observer
   tzinfo-data
 
 BUNDLED WITH
