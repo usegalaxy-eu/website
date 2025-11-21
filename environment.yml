@@ -70,7 +70,7 @@ dependencies:
   - rb-unicode-display_width=1.6.0
   - rb-yell=2.2.2
   - readline=8
-  - ruby=2.6
+  - ruby=3.4
   - tk
   - xz
   - yaml
