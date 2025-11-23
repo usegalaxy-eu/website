@@ -7,9 +7,7 @@ location: Tübingen, Germany
 
 During the [German Conference on Bioinformatics](http://www.gcb2017.de/) in Tübingen, we presented (with [Milad Miladi](http://www.bioinf.uni-freiburg.de/~miladim/)) 3 posters related to Galaxy:
 
-<!--
 {% twitter https://twitter.com/bebatut/status/910135440652500997 %}
--->
 
 - [Building an open, collaborative, online infrastructure for bioinformatics training](https://f1000research.com/posters/6-1694)
 
