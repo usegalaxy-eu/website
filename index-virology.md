@@ -34,8 +34,12 @@ The [Galaxy Project](https://usegalaxy.org){:target="_blank"} virology community
         <button type="button" class="btn btn-primary btn-lg">(Avian) Influenza</button>
     </a>
     <a href="https://virology.usegalaxy.eu/published/page?id=9172077f52d9d49f" target="_top">
-        <button type="button" class="btn btn-primary btn-lg">Lumpy skin disease virus</button>
+        <button type="button" class="btn btn-primary btn-lg">Pox viruses</button>
     </a>
+    <a href="https://virology.usegalaxy.eu/published/page?id=60d1349eb629b6cf" target="_top">
+        <button type="button" class="btn btn-primary btn-lg">Paramyxoviridae</button>
+    </a>
+    <p>Work supported by the <a href="https://gdi.onemilliongenomes.eu/" title="GDI project" target="_blank">Genomic Data Infrastructure (GDI)</a> project.</p>
 </div>
 
 ----
