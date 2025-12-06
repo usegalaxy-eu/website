@@ -39,7 +39,8 @@ allowfullscreen>
 
 # Partners
 
-Add your logo and funders here :)
+<img src="https://nubri.nu.edu.sd/images/logos/nubri-logo.png" width="180">
+
 
 ....
 
