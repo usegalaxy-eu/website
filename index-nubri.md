@@ -7,14 +7,14 @@ gitter: usegalaxy-eu/Lobby
 
 <img src="/assets/media/nubri-galaxy-logo.png" width="180">
 
-# Welcome to Nubri Galaxy
+# Welcome to Galaxy NUBRI
 
 {:.no_toc}
 
 Galaxy NUBRI is a web-based, open platform of the National University Biomedical Research Institute (NUBRI), National University–Sudan, operated with support from usegalaxy.eu. It provides cloud-hosted bioinformatics and genomics tools and workflows that make computational research accessible, reproducible, and transparent for researchers, students, and partner institutions.
 
 1. TOC
-{:toc}
+   {:toc}
 
 # Get started
 
@@ -24,7 +24,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 # Training
 
-[Several tutorials](https://training.galaxyproject.org){:target="_blank"} avalable in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org){:target="_blank"}:
+[Several tutorials](https://training.galaxyproject.org){:target="\_blank"} avalable in the [**Galaxy Training Network (GTN)**](https://training.galaxyproject.org){:target="_blank"}:
 
 To know more about the GTN, check the video below!
 
@@ -51,5 +51,3 @@ To know more about the GTN, check the video below!
     </td>
 </tr>
 </table>
-
-
