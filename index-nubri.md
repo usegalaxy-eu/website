@@ -18,13 +18,13 @@ Galaxy NUBRI is a web-based, open platform of the National University Biomedical
 
 # Get started
 
-Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://nubri.usegalaxy.eu/tours/core.galaxy_ui){:target="\_blank"} through Galaxy's user interface.
+Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://nubri.usegalaxy.eu/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
 <br>
 
 # Training
 
-[Several tutorials](https://training.galaxyproject.org){:target="\_blank"} avalable in the [**Galaxy Training Network (GTN)**](https://training.galaxyproject.org){:target="\_blank"}:
+[Several tutorials](https://training.galaxyproject.org){:target="\_blank"} avalable in the [**Galaxy Training Network (GTN)**](https://training.galaxyproject.org){:target="_blank"}:
 
 To know more about the GTN, check the video below!
 
