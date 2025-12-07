@@ -5,7 +5,8 @@ subdomain: nubri
 gitter: usegalaxy-eu/Lobby
 ---
 # Welcome to Galaxy Nubri 
-<img src="/assets/media/nubri-logo.png" width="180">
+<!-- <img src="/assets/media/nubri-logo.png" width="180"> -->
+<img src="/assets/media/nubri-galaxy.png" width="180">
 <img src="/assets/media/nubri_national_university_sudan.png" width="180">
 
 ---
