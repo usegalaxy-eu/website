@@ -127,7 +127,7 @@ GEM
     mini_portile2 (2.8.9)
     namae (1.2.0)
       racc (~> 1.7)
-    nokogiri (1.18.10)
+    nokogiri (1.19.0)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     observer (0.1.2)
