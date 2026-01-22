@@ -5,6 +5,52 @@ layout: default
 # OUR PROJECTS
 
 ---
+<a name="overview"></a>
+# Overview
+---
+
+The [Freiburg Galaxy team](https://usegalaxy-eu.github.io/people) is involved in numerous national and international projects and grants spanning research infrastructure, data management, and training initiatives. This section provides an overview of their active and completed collaborations supporting the Galaxy community and beyond.
+
+![alt text](project_timeline_2025.png)
+
+| Project name | Start | End |
+| --- | --- | --- |
+| [de.NBI](https://www.denbi.de/) | 01/03/2015 | 31/12/2021 |
+| [EOSC-life](https://cordis.europa.eu/project/id/824087) | 01/03/2019 | 31/08/2023 |
+| [ERASMUS+ Gallantries](https://erasmus-plus.ec.europa.eu/projects/search/details/2020-1-NL01-KA203-064717) | 01/09/2020 | 31/08/2023 |
+| [EGI-ACE](https://cordis.europa.eu/project/id/101017567) | 01/01/2021 | 30/06/2023 |
+| [PaRI](https://neic.no/pari/) | 01/11/2020 | 31/10/2021 |
+| [EOSC4Cancer](https://cordis.europa.eu/project/id/101058427) | 01/09/2022 | 28/02/2025 |
+| [EuroScienceGateway](https://cordis.europa.eu/project/id/101057388) | 01/09/2022 | 31/08/2025 |
+| [ELIXIR Converge](https://cordis.europa.eu/project/id/871075) | 01/04/2021 | 31/07/2023 |
+| [BY-COVID](https://cordis.europa.eu/project/id/101046203) | 01/10/2021 | 30/09/2024 |
+| [GDI](https://gdi.onemilliongenomes.eu/) | 01/11/2022 | 31/10/2026 |
+| [AgroServ](https://cordis.europa.eu/project/id/101058020) | 01/09/2022 | 31/08/2027 |
+| [BGE](https://cordis.europa.eu/project/id/101059492) | 01/09/2022 | 28/02/2026 |
+| [BioNT](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/projects-details/43152860/101100604) | 01/01/2023 | 31/03/2026 |
+| [Healthy Cloud](https://cordis.europa.eu/project/id/965345) | 01/03/2021 | 30/11/2023 |
+| [OSCARS](https://eosc.eu/horizon-europe-projects/oscars/) | 01/04/2024 | 31/12/2027 |
+| [ELIXIR-STEERS](https://elixir-europe.org/about-us/how-funded/eu-projects/steers) | 01/02/2024 | 31/01/2027 |
+| [NFDI4BioImage](https://nfdi4bioimage.de/home/) | 01/03/2023 | 29/02/2028 |
+| [Verbundprojekt Deutsches Kompetenzzentrum Cloud-Technologien für Datenmanagement und -verarbeitung de.KCD](https://datenkompetenz.cloud/) | 01/12/2023 | 30/11/2026 |
+| [CRC1425](https://www.sfb1425.uni-freiburg.de/) | 01/07/2020 | 01/06/2024 |
+| [CRC 992](https://www.sfb992.uni-freiburg.de/) | 01/07/2015 | 01/06/2024 |
+| [NFDI DataPLANT](https://www.nfdi4plants.org/) | 10/01/2020 | 09/01/2025 |
+| [MIRACUM](https://www.miracum.org/) | 01/11/2019 | 01/08/2021 |
+| [BioDATEN](https://portal.biodaten.info/) | 01/07/2019 | 30/06/2023 |
+| de.NBI-epi | 01/11/2016 | 31/12/2021 |
+| [SPP 1738](https://gepris.dfg.de/gepris/projekt/237182749?context=projekt&task=showDetail&id=237182749&) | 01/01/2021 | 01/12/2023 |
+| [eCLASH](https://freidok.uni-freiburg.de/proj/7068) | 01/05/2018 | 30/04/2022 |
+| [SPP 2141 Z-Projekt](https://freidok.uni-freiburg.de/proj/8048) | 01/01/2021 | 31/12/2022 |
+| [SPP 2002 Projekt Z2](https://freidok.uni-freiburg.de/proj/8046) | 01/08/2018 | 28/02/2021 |
+| [CIBSS](https://www.cibss.uni-freiburg.de/) | 01/01/2019 | 01/06/2022 |
+| [Verbundprojekt RNAProNet](https://www.gesundheitsforschung-bmftr.de/de/rnapronet-integration-der-netzwerke-aus-rna-und-proteinbasierender-regulation-9165.php) | 01/04/2019 | 31/12/2022 |
+| [COST Action CA16212 (INDEPTH)](https://www.cost.eu/actions/CA16212/) | 28/11/2017 | 27/11/2021 |
+| [EOSC United](https://cordis.europa.eu/project/id/101215594) | 09/01/2025 | 31/08/2028 |
+| [EOSC Data Commons](https://cordis.europa.eu/project/id/101188179) | 04/01/2025 | 31/03/2028 |
+
+
+---
 <a name="galaxy-community"></a>
 # Galaxy and its community
 ---
@@ -19,7 +65,7 @@ The [Freiburg Galaxy team](https://usegalaxy-eu.github.io/people) is highly invo
 - [Galaxy Training Material](https://galaxyproject.github.io/training-material), a collection of Galaxy-related tutorials and its infrastructure, developed and maintained by the community.
 - [Galaxy Docker](https://github.com/bgruening/docker-galaxy-stable), to provide an easy distributable full-fledged Galaxy installation.
 - Development and maintenance of different [Galaxy flavours](/about).
-- Jupyter integration into Galaxy. 
+- Jupyter integration into Galaxy.
 - [GalaxyP](http://galaxyp.org), a Galaxy community dedicated to developing [tools](https://github.com/galaxyproteomics/tools-galaxyp), workflows and [training material](https://galaxyproject.github.io/training-material/topics/proteomics/) for proteomic research.
 - [Galaxy Genome Annotation (GGA)](https://galaxy-genome-annotation.github.io/), a group of projects focused on supporting genome annotation inside Galaxy.
 
@@ -37,7 +83,7 @@ With the [EuroScienceGateway](https://eurosciencegateway.eu) (ESG) project, the 
 
 Spending valuable time in compilation/installation should not be a problem nowadays. Therefore, the Freiburg Galaxy team is leading the [Bioconda](https://bioconda.github.io) and [BioContainers](https://biocontainers.pro) projects, which together form the best stack for reproducible science ever.
 
-Bioconda is a channel for the conda package manager specializing in bioinformatics with around 9,000 bioinformatics packages ready to use with `conda install`. 
+Bioconda is a channel for the conda package manager specializing in bioinformatics with around 9,000 bioinformatics packages ready to use with `conda install`.
 
 BioContainers is an open source and community-driven framework which provides system-agnostic executable environments for bioinformatics software, with around 70,000 containers ready to use.
 
@@ -98,10 +144,10 @@ The [Vertebrate Genome Project](https://galaxyproject.org/projects/vgp) is an in
 <a name="healthy-cloud"></a>
 ### Healthy-Cloud
 
-The objective of the Horizon 2020 EU project [HealthyCloud](https://healthycloud.eu) is to generate a number of guidelines, recommendations and specifications that will enable distributed health research across Europe in the form of a Ready-to-implement Roadmap. 
+The objective of the Horizon 2020 EU project [HealthyCloud](https://healthycloud.eu) is to generate a number of guidelines, recommendations and specifications that will enable distributed health research across Europe in the form of a Ready-to-implement Roadmap.
 
 <a name="pari"></a>
-### PaRI 
+### PaRI
 
 The [Pandemic Research Infrastructure (PaRI)](https://neic.no/pari) project brings together the needs, interests and resources to create e-infrastructure to support research excellence in the Nordic region.
 
@@ -118,7 +164,7 @@ The aim of the project [BioDATEN (Bioinformatics DATa ENvironment)](https://port
 <a name="dataplant"></a>
 ### DataPLANT
 
-The NFDI [DataPLANT](https://nfdi4plants.de/) consortium provides services to complement existing infrastructures and focuses on supporting and easing the processes of complete and meaningful research metadata management in plant sciences. 
+The NFDI [DataPLANT](https://nfdi4plants.de/) consortium provides services to complement existing infrastructures and focuses on supporting and easing the processes of complete and meaningful research metadata management in plant sciences.
 
 <a name="NFDI4Bioimage"></a>
 ### NFDI4Bioimage
@@ -157,8 +203,8 @@ The [BeYond-COVID](https://by-covid.org) project aims to make COVID-19 data acce
 
 <a name="crc-1425"></a>
 ### CRC 1425
- 
-The [Collaborative Research Centre 1425 - "Heterocellular Nature of Cardiac Lesions: Identities, Interactions, Implications"]((https://www.sfb1425.uni-freiburg.de/)) brings together scientists working in cardiac research. 
+
+The [Collaborative Research Centre 1425 - "Heterocellular Nature of Cardiac Lesions: Identities, Interactions, Implications"]((https://www.sfb1425.uni-freiburg.de/)) brings together scientists working in cardiac research.
 
 
 <a name="crc-992"></a>
@@ -197,7 +243,7 @@ more than 3,000 times. It is of course part of the European Galaxy server and wa
 <a name="gallantries"></a>
 ### Gallantries
 
-The [Gallantries](https://gallantries.github.io/) project aims to increase bioinformatics and core data analysis skills in the field of life sciences across Europe. 
+The [Gallantries](https://gallantries.github.io/) project aims to increase bioinformatics and core data analysis skills in the field of life sciences across Europe.
 
 
 ### Open Life Science <img src="/assets/media/ols_logo.png" width="50px" alt="OLS logo" />
