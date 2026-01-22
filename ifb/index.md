@@ -2,6 +2,9 @@
 layout: home
 title: IFB
 ---
+
+{% include site_deprecation_notice.html redirect="https://galaxyproject.org/ifb/" %}
+
 <div class="home">
     <div class="row eu-image-box">
         <a href="https://elixir-europe.org/about-us/who-we-are/nodes/france" target="_blank">
