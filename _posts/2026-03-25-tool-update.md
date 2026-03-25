@@ -7,8 +7,13 @@ supporters:
 - elixir
 ---
 
-On 2026-03-25, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #571](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#571/)
+On 2026-03-25, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #572](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#572/)
 
+
+## Machine Learning
+
+- aoptk_chemical_identifier was updated to [5668e27d0684](https://toolshed.g2.bx.psu.edu/view/recetox/aoptk_chemical_identifier/5668e27d0684)
+- aoptk_publication_tracker was updated to [0f01dc62c4f3](https://toolshed.g2.bx.psu.edu/view/recetox/aoptk_publication_tracker/0f01dc62c4f3)
 
 ## QIIME 2
 
