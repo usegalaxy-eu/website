@@ -29,6 +29,16 @@ Take [a guided tour]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} 
 
 # Tools available
 
+## SpatialData
+
+The SpatialData datatype and utilities for reading, writing, manipulating and plotting SpatialData objects have been developed as part of [Spatial2Galaxy CMR project](https://elixir-europe.org/how-we-work/scientific-programme/science/cmr/spatial2).
+
+Tool | Description | Reference
+--- | --- | ---
+{% include tool.html id="spatialdata_io" %} | Load common spatial omics formats into SpatialData| [Marconato et al. 2024](https://doi.org/10.1038/s41592-024-02212-x){:target="_blank"}, [spatialdata Github](https://github.com/scverse/spatialdata){:target="_blank"}
+{% include tool.html id="spatialdata_operation" %} | Perform operations on SpatialData objects | [Marconato et al. 2024](https://doi.org/10.1038/s41592-024-02212-x){:target="_blank"},[spatialdata Github](https://github.com/scverse/spatialdata){:target="_blank"}
+{% include tool.html id="spatialdata_plot" %} | Rich static plotting from SpatialData objects | [Marconato et al. 2024](https://doi.org/10.1038/s41592-024-02212-x){:target="_blank"}, [spatialdata-plot Github](https://github.com/scverse/spatialdata-plot){:target="_blank"}
+
 ## MCMICRO core tools
 
 All of the Galaxy tools for MCMICRO have been developed by the [Goecks lab](https://www.ohsu.edu/people/jeremy-goecks-phd) at the [Oregon Health and Science University Computational Biology](https://github.com/ohsu-comp-bio).
