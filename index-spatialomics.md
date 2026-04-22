@@ -4,14 +4,15 @@ website: https://spatialomics.usegalaxy.eu
 subdomain: spatialomics
 ---
 
-# Welcome to the Spatial OMICS Galaxy subdomain server
+# Welcome to the Spatial OMICS Galaxy server
 {:.no_toc}
 
 ![](/assets/media/spatial_omics_banner.jpg)
 
-The SpatialOMICS Galaxy subdomain serves as a hub for all tools related to the analysis of highly-multiplexed image analysis. This server currently features the individual components of the [MCMICRO](https://mcmicro.org/) pipeline, including [BaSiC](https://github.com/ohsu-comp-bio/basic-illumination) for illumination correction, [ASHLAR](https://github.com/ohsu-comp-bio/ashlar) for stitching and registration, [Coreograph](https://github.com/ohsu-comp-bio/UNetCoreograph) to dearray tissue microarrays (TMAs), [UnMICST](https://github.com/ohsu-comp-bio/UnMicst) to create cell or nucleai probability maps, [S3segmenter](https://github.com/ohsu-comp-bio/S3segmenter) for nucleai and cell segmentation and [MCQuant](https://github.com/ohsu-comp-bio/quantification) for feature quantification. More tools for image analysis outside the MCMICRO ecosystem will be added in the future.
+The SpatialOMICS Galaxy server is a hub for all tools related to the analysis of highly multiplexed image-based spatial analysis. This subdomain is a collaborative effort and we welcome any suggestions or requests for making tools related to spatia OMICS analysis available on this server. We also welcome contributions to the development of new tools, workflows or trainings!
 
-This subdomain is a collaborative effort and we welcome any suggestions or requests for making tools related to spatia OMICS analysis available on this server. We also welcome contributions to the development of new tools, workflows or trainings!
+
+This server currently features the individual components of the [MCMICRO](https://mcmicro.org/) pipeline, including [BaSiC](https://github.com/ohsu-comp-bio/basic-illumination) for illumination correction, [ASHLAR](https://github.com/ohsu-comp-bio/ashlar) for stitching and registration, [Coreograph](https://github.com/ohsu-comp-bio/UNetCoreograph) to dearray tissue microarrays (TMAs), [UnMICST](https://github.com/ohsu-comp-bio/UnMicst) to create cell or nucleai probability maps, [S3segmenter](https://github.com/ohsu-comp-bio/S3segmenter) for nucleai and cell segmentation and [MCQuant](https://github.com/ohsu-comp-bio/quantification) for feature quantification. More tools for image analysis outside the MCMICRO ecosystem will be added in the future.
 
 # Content
 {:.no_toc}
@@ -26,6 +27,29 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 Take [a guided tour]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} through Galaxy's user interface.
 
 # Tools available
+
+## Spatial Datatypes and Utilities
+
+The SpatialData datatype and utilities for reading, writing, manipulating and plotting SpatialData objects have been developed as part of [Spatial2Galaxy CMR project](https://elixir-europe.org/how-we-work/scientific-programme/science/cmr/spatial2).
+
+Tool | Description
+--- | ---
+{% include tool.html id="spatialdata_io" %} | Load common spatial omics formats into SpatialData
+{% include tool.html id="spatialdata_operation" %} | Perform operations on SpatialData objects
+{% include tool.html id="seurat_create" %} | Create Seurat objects from Xenium spatial data
+
+## Plotting and Visualization
+
+Tool | Description
+--- | ---
+{% include tool.html id="spatialdata_plot" %} | Rich static plotting from SpatialData objects
+{% include tool.html id="seurat_plot" %} | Visualize spatial clusters and features from Seurat objects
+{% include tool.html id="bellavista_prepare" %} | Prepare large images for bellavista spatial visualizer
+{% include tool.html id="interactive_tool_bellavista" %} | Interactive visualization for imaging-based spatial transcriptomics
+{% include tool.html id="squidpy_scatter" %} | Create spatial scatterplot with Squidpy
+{% include tool.html id="interactive_tool_cellxgene_vip" %} | Interactive CELLxGENE VIP visualization for scRNA-seq, spatial transcriptomics, and multiome data
+{% include tool.html id="interactive_tool_napari" %} | Interactive exploration and annotation of spatial omics data with napari
+
 
 ## MCMICRO core tools
 
@@ -57,3 +81,28 @@ Two workflows are currently available to process your samples using the MCMICRO 
 - [Jeremy Goecks](https://github.com/jgoecks)
 - [Cameron Watson](https://github.com/CameronFRWatson)
 - [Allison Creason](https://github.com/alliecreason)
+- [Amirhossein Nilchi](https://github.com/nilchia)
+- [Khaled Jumah](https://github.com/khaled196)
+- [Pavankumar Videm](https://github.com/pavanvidem)
+
+
+# Spatial2Galaxy Partners
+
+| Partners | Description | People involved |
+|----------|-------------|-----------------|
+| [Erasmus Medical Center](https://www.erasmusmc.nl/en/research/groups/pathology-stubbs) | Example description | Andrew Stubbs
+| [Berlin Institute of Health at Charité](https://www.hidih.org/research/computational-oncology) | Example description | Naveed Ishaque
+| [University of Bradford](https://www.bradford.ac.uk) | Example description |  Krzysztof Poterlowicz
+| [University of Freiburg](https://usegalaxy-eu.github.io/people) | Example description | Björn Grüning
+{:.table.table-striped}
+
+
+# Supporters
+This service is a joint project between different groups from the [Spatial2Galaxy](https://elixir-europe.org/how-we-work/scientific-programme/science/cmr/spatial2){:target="_blank"}, an ELIXIR Cellular and molecular research project, [The Goecks Laboratory](https://www.goeckslab.org/).
+<table border="0"><tr><td width="25%">
+<img alt="Spatial2Galaxy" src="/assets/media/spatial2galaxy.svg" />
+</td>
+<td with="2%"></td>
+<td width="25%">
+<img alt="ELIXIR" src="/assets/media/elixir_logo.png" />
+</td></tr></table>
