@@ -28,15 +28,28 @@ Take [a guided tour]({{ page.website }}/tours/core.galaxy_ui){:target="_blank"} 
 
 # Tools available
 
-## SpatialData
+## Spatial Datatypes and Utilities
 
 The SpatialData datatype and utilities for reading, writing, manipulating and plotting SpatialData objects have been developed as part of [Spatial2Galaxy CMR project](https://elixir-europe.org/how-we-work/scientific-programme/science/cmr/spatial2).
 
-Tool | Description | Reference
---- | --- | ---
-{% include tool.html id="spatialdata_io" %} | Load common spatial omics formats into SpatialData| [Marconato et al. 2024](https://doi.org/10.1038/s41592-024-02212-x){:target="_blank"}, [spatialdata Github](https://github.com/scverse/spatialdata){:target="_blank"}
-{% include tool.html id="spatialdata_operation" %} | Perform operations on SpatialData objects | [Marconato et al. 2024](https://doi.org/10.1038/s41592-024-02212-x){:target="_blank"},[spatialdata Github](https://github.com/scverse/spatialdata){:target="_blank"}
-{% include tool.html id="spatialdata_plot" %} | Rich static plotting from SpatialData objects | [Marconato et al. 2024](https://doi.org/10.1038/s41592-024-02212-x){:target="_blank"}, [spatialdata-plot Github](https://github.com/scverse/spatialdata-plot){:target="_blank"}
+Tool | Description
+--- | ---
+{% include tool.html id="spatialdata_io" %} | Load common spatial omics formats into SpatialData
+{% include tool.html id="spatialdata_operation" %} | Perform operations on SpatialData objects
+{% include tool.html id="seurat_create" %} | Create Seurat objects from Xenium spatial data
+
+## Plotting and Visualization
+
+Tool | Description
+--- | ---
+{% include tool.html id="spatialdata_plot" %} | Rich static plotting from SpatialData objects
+{% include tool.html id="seurat_plot" %} | Visualize spatial clusters and features from Seurat objects
+{% include tool.html id="bellavista_prepare" %} | Prepare large images for bellavista spatial visualizer
+{% include tool.html id="interactive_tool_bellavista" %} | Interactive visualization for imaging-based spatial transcriptomics
+{% include tool.html id="squidpy_scatter" %} | Create spatial scatterplot with Squidpy
+{% include tool.html id="interactive_tool_cellxgene_vip" %} | Interactive CELLxGENE VIP visualization for scRNA-seq, spatial transcriptomics, and multiome data
+{% include tool.html id="interactive_tool_napari" %} | Interactive exploration and annotation of spatial omics data with napari
+
 
 ## MCMICRO core tools
 
@@ -68,6 +81,10 @@ Two workflows are currently available to process your samples using the MCMICRO 
 - [Jeremy Goecks](https://github.com/jgoecks)
 - [Cameron Watson](https://github.com/CameronFRWatson)
 - [Allison Creason](https://github.com/alliecreason)
+- [Amirhossein Nilchi](https://github.com/nilchia)
+- [Khaled Jumah](https://github.com/khaled196)
+- [Pavankumar Videm](https://github.com/pavanvidem)
+
 
 # Spatial2Galaxy Partners
 
@@ -75,8 +92,8 @@ Two workflows are currently available to process your samples using the MCMICRO 
 |----------|-------------|-----------------|
 | [Erasmus Medical Center](https://www.erasmusmc.nl/en/research/groups/pathology-stubbs) | Example description | Andrew Stubbs
 | [Berlin Institute of Health at Charité](https://www.hidih.org/research/computational-oncology) | Example description | Naveed Ishaque
-| [University of Bradford] (https://www.bradford.ac.uk) | Example description |  Krzysztof Poterlowicz
-| [University of Freiburg] (https://usegalaxy-eu.github.io/people) | Example description | Björn Grüning
+| [University of Bradford](https://www.bradford.ac.uk) | Example description |  Krzysztof Poterlowicz
+| [University of Freiburg](https://usegalaxy-eu.github.io/people) | Example description | Björn Grüning
 {:.table.table-striped}
 
 
