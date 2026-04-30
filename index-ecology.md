@@ -4,7 +4,7 @@ website: https://ecology.usegalaxy.eu
 subdomain: ecology
 ---
 
-# Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize ecological data
+# Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize biodiversity data
 
 <center><img src="./assets/media//Galaxy-E-concarneau-team-2018-logo.gif" height="225px" alt="PNDB french Biodiversity e-infrastructure"/></center>
 <br><br>
@@ -250,7 +250,7 @@ subdomain: ecology
 
 # Tools
 
-Galaxy Ecology offers an extensive suite of tools designed for ecological data analysis. With hundreds of tools at your disposal, you can explore and perform a wide variety of tasks, including data manipulation, statistical analysis, ecological data retrieval, and visualization.
+Galaxy Ecology offers an extensive suite of tools designed for biodiversity data analysis. With hundreds of tools at your disposal, you can explore and perform a wide variety of tasks, including data manipulation, statistical analysis, biodiversity and environmental data retrieval, and visualization.
 
 - **General Tools**   
 These tools cover data manipulation, text processing, file conversion, sorting, filtering, and a wide range of data visualization options, including bar charts, scatterplots, heatmaps, and more.
@@ -258,8 +258,8 @@ These tools cover data manipulation, text processing, file conversion, sorting, 
 - **Statistical Tools**  
 A comprehensive set of statistical methods for data preprocessing, hypothesis testing, classification, multivariate analysis, and model-based techniques like regression and machine learning.
 
-- **Ecological Tools**  
-Galaxy Ecology provides specialized tools for ecological data, including species occurrence data retrieval, phenology analysis, acoustic monitoring, and GIS data handling.
+- **Biodiversity data oriented Tools**  
+Galaxy Ecology provides specialized tools for biodiversity data, including species occurrence data retrieval, phenology analysis, acoustic monitoring, and GIS data handling.
 
 Explore the full range of tools by using the Tools Panel on the left side of the interface. There, you’ll find an organized list of categories to help you find exactly what you need for your ecological research.
 
