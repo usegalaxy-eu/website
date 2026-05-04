@@ -10,3 +10,12 @@ Please help us to support this project with your [acknowledgement](/about).
 <br><br>
 
 {% bibliography --file citations-eu --file citations-eu-manual %}
+
+## Patents
+
+{% bibliography --file citations-eu --file citations-eu-manual -q @patent[year>1900] %}
+
+
+
+
+

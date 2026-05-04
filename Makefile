@@ -31,11 +31,12 @@ create-env: ## create usegalaxy-eu-website conda environment
 	if ${CONDA} env list | grep '^${CONDA_ENV}'; then \
 	    ${CONDA} env update -f environment.yml; \
 	else \
-	    ${CONDA} env create --force -f environment.yml; \
+	    ${CONDA} env create -f environment.yml; \
 	fi
 .PHONY: create-env
 
 install: create-env ## create usegalaxy-eu-website conda environment
+	$(ACTIVATE_ENV) && bundle install
 .PHONY: install
 
 build: ## Build the site once and exit

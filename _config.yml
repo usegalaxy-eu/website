@@ -18,8 +18,9 @@ description: The European Galaxy Instance
 email: contact@usegalaxy.eu
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://galaxyproject.eu" # the base hostname & protocol for your site, e.g. https://example.com
-twitter_username: galaxyproject
-github_username:  usegalaxy-eu
+mastodon_server: "bawü.social"
+mastodon_username: "galaxyfreiburg"
+github_username: usegalaxy-eu
 blurb:
     UseGalaxy.eu is maintained largely by the [Freiburg Galaxy
     Team](/freiburg/) but also collectively by groups and individuals from across
@@ -68,7 +69,8 @@ team_sites:
       name: Freiburg
       url: /freiburg/
       email: contact@usegalaxy.eu
-      twitter_username: galaxyproject
+      mastodon_server: "bawü.social"
+      mastodon_username: "galaxyfreiburg"
       github_username: usegalaxy-eu
       private_news: true
       url: "https://usegalaxy.eu/freiburg/"

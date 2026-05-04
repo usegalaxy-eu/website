@@ -32,6 +32,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 Anybody interested in materials science in Galaxy is welcome to join our Materials Galaxy interest group! <strong>Everybody is Welcome!</strong>
 
 - Join the Discussion! [Matrix Chat](https://matrix.to/#/#galaxyproject_materials-science:matrix.org)
+- Join the mailing list! [Materials Galaxy Mailing List](https://lists.galaxyproject.org/lists/materials.lists.galaxyproject.org/)
 
 ## Tools
 
