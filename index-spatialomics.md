@@ -130,7 +130,7 @@ Two workflows are currently available to process your samples using the MCMICRO 
 | [Berlin Institute of Health at Charité](https://www.hidih.org/research/computational-oncology) | Catalogue ST toolset and use cases | Naveed Ishaque
 | [Erasmus Medical Center](https://www.erasmusmc.nl/en/research/groups/pathology-stubbs) | Implementation and validation of ST toolset | Andrew Stubbs
 | [University of Bradford](https://www.bradford.ac.uk) | Develop Spatial2Galaxy tutorial suite and deliver training |  Krzysztof Poterlowicz
-| [University of Freiburg](https://usegalaxy-eu.github.io/people) | Development of Spatial2Galaxy portal, and support tool and workflow development | Björn Grüning
+| [University of Freiburg](https://galaxyproject.org/freiburg/people/) | Development of Spatial2Galaxy portal, and support tool and workflow development | Björn Grüning
 | [Earlham Institute](https://www.earlham.ac.uk/scientific-group/papatheodorou-group) | Develop Galaxy Demonstrator user case | Irene Papatheodorou
 {:.table.table-striped}
 
