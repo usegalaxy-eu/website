@@ -38,6 +38,15 @@ Tool | Description
 {% include tool.html id="spatialdata_operation" %} | Perform operations on SpatialData objects
 {% include tool.html id="seurat_create" %} | Create Seurat objects from Xenium spatial data
 
+## Segmentation and Preprocessing
+
+Several tools for segmenting and pre-processing the spatial transcriptomics data into SpatialData objects have been developed as part of [Spatial2Galaxy CMR project](https://elixir-europe.org/how-we-work/scientific-programme/science/cmr/spatial2).
+
+Tool | Description
+--- | ---
+{% include tool.html id="vpt_segment" %} | Vizgen VPT - Segment cells and refine MERSCOPE experiments
+{% include tool.html id="vpt_extract" %} | Vizgen VPT - Extract image patches
+
 ## Plotting and Visualization
 
 Tool | Description
