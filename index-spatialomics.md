@@ -119,6 +119,7 @@ Two workflows are currently available to process your samples using the MCMICRO 
 - [Allison Creason](https://github.com/alliecreason)
 - [Amirhossein Nilchi](https://github.com/nilchia)
 - [Khaled Jumah](https://github.com/khaled196)
+- [Nicola Soranzo](https://github.com/nsoranzo)
 - [Pavankumar Videm](https://github.com/pavanvidem)
 
 
