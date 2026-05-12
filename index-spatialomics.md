@@ -101,8 +101,6 @@ Tool | Description | Reference
 {% include tool.html id="s3segmenter" %} | S3segmenter: A Matlab-based set of functions that generates single cell (nuclei and cytoplasm) label masks | [S3Segmenter github](https://github.com/HMS-IDAC/S3segmenter){:target="_blank"}
 {% include tool.html id="quantification" %} | MCQuant: Single cell quantification| [MCQUant github](https://github.com/labsyspharm/quantification#single-cell-quantification){:target="_blank"}
 
-## Other  tools
-
 # Workflows available
 
 Two workflows are currently available to process your samples using the MCMICRO Galaxy pipeline:
