@@ -52,7 +52,7 @@ Tool | Description
 
 ## Spatial Downstream Analysis
 
-Tools for spatial transcriptomics downstream analysis
+Tools for spatial transcriptomics downstream analysis:
 
 Tool | Description
 --- | ---
