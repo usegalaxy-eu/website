@@ -31,7 +31,7 @@ Here, we outline all the Galaxy tools that are relevant in the context of spatia
 
 ## Spatial Datatypes and Utilities
 
-The `SpatialData` datatype and utilities for reading, writing, manipulating and plotting SpatialData objects.
+The `SpatialData` datatype and utilities for reading, writing, manipulating and plotting SpatialData objects:
 
 Tool | Description
 --- | ---
