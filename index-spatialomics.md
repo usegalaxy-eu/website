@@ -136,7 +136,7 @@ Two workflows are currently available to process your samples using the MCMICRO 
 
 
 # Supporters
-This service is a joint project between different groups from the [Spatial2Galaxy](https://elixir-europe.org/how-we-work/scientific-programme/science/cmr/spatial2){:target="_blank"}, an ELIXIR Cellular and molecular research project, [The Goecks Laboratory](https://www.goeckslab.org/).
+This Galaxy Lab is a joint project between different groups from the [Spatial2Galaxy ELIXIR Commissioned Service](https://elixir-europe.org/how-we-work/scientific-programme/science/cmr/spatial2){:target="_blank"} and the [Goecks Laboratory](https://www.goeckslab.org/).
 <table border="0"><tr><td width="25%">
 <img alt="Spatial2Galaxy" src="/assets/media/spatial2galaxy.svg" />
 </td>
