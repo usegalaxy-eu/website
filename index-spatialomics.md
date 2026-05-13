@@ -127,11 +127,11 @@ Two workflows are currently available to process your samples using the MCMICRO 
 
 | Partners | Description | People involved |
 |----------|-------------|-----------------|
-| [Erasmus Medical Center](https://www.erasmusmc.nl/en/research/groups/pathology-stubbs) | Implementation and validation of ST toolset | Andrew Stubbs
-| [Berlin Institute of Health at Charité](https://www.hidih.org/research/computational-oncology) | Catalogue ST toolset and use cases | Naveed Ishaque
-| [University of Bradford](https://www.bradford.ac.uk) | Develop Spatial2Galaxy tutorial suite and deliver training |  Krzysztof Poterlowicz
-| [University of Freiburg](https://galaxyproject.org/freiburg/people/) | Development of Spatial2Galaxy portal, and support tool and workflow development | Björn Grüning
-| [Earlham Institute](https://www.earlham.ac.uk/scientific-group/papatheodorou-group) | Develop Galaxy Demonstrator user case | Irene Papatheodorou
+| [Erasmus Medical Center](https://www.erasmusmc.nl/en/research/groups/pathology-stubbs) | Implementation and validation of ST toolset | Andrew Stubbs |
+| [Berlin Institute of Health at Charité](https://www.hidih.org/research/computational-oncology) | Catalogue ST toolset and use cases | Naveed Ishaque | 
+| [University of Bradford](https://www.bradford.ac.uk) | Develop Spatial2Galaxy tutorial suite and deliver training |  Krzysztof Poterlowicz |
+| [University of Freiburg](https://galaxyproject.org/freiburg/people/) | Development of Spatial2Galaxy portal, and support tool and workflow development | Björn Grüning |
+| [Earlham Institute](https://www.earlham.ac.uk/scientific-group/papatheodorou-group) | Develop Galaxy Demonstrator user case | Irene Papatheodorou |
 {:.table.table-striped}
 
 
