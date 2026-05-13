@@ -41,7 +41,7 @@ Tool | Description
 
 ## Segmentation and Preprocessing
 
-Tools for segmenting and pre-processing the spatial transcriptomics data into SpatialData objects.
+Tools for segmenting and pre-processing the spatial transcriptomics data into SpatialData objects:
 
 Tool | Description
 --- | ---
