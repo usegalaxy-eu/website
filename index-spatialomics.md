@@ -67,7 +67,7 @@ Tool | Description
 
 ## Cell Annotation & Feature Selection
 
-Tools for marker gene identification and cell-type annotation
+Tools for marker gene identification and cell-type annotation:
 
 Tool | Description
 --- | ---
