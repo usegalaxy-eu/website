@@ -13,7 +13,7 @@ The Spatial Omics Galaxy Lab is a hub for all tools related to the analysis of h
 
 This server currently features the individual components of the [MCMICRO](https://mcmicro.org/) pipeline, including [BaSiC](https://github.com/ohsu-comp-bio/basic-illumination) for illumination correction, [ASHLAR](https://github.com/ohsu-comp-bio/ashlar) for stitching and registration, [Coreograph](https://github.com/ohsu-comp-bio/UNetCoreograph) to dearray tissue microarrays (TMAs), [UnMICST](https://github.com/ohsu-comp-bio/UnMicst) to create cell or nucleai probability maps, [S3segmenter](https://github.com/ohsu-comp-bio/S3segmenter) for nucleai and cell segmentation and [MCQuant](https://github.com/ohsu-comp-bio/quantification) for feature quantification. More tools for image analysis outside the MCMICRO ecosystem will be added in the future.
 
-Several spatial transcriptomics data formats and analysis tools have been integrated into Galaxy as part of the [Spatial2Galaxy CMR project](https://elixir-europe.org/how-we-work/scientific-programme/science/cmr/spatial2).
+Several spatial transcriptomics data formats and analysis tools have been integrated into Galaxy as part of the [Spatial2Galaxy ELIXIR Commissioned Service](https://elixir-europe.org/how-we-work/scientific-programme/science/cmr/spatial2).
 
 # Content
 {:.no_toc}
