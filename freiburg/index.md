@@ -3,6 +3,8 @@ layout: home
 title: Freiburg
 ---
 
+{% include site_deprecation_notice.html redirect="https://galaxyproject.org/freiburg/" %}
+
 <div class="home">
   {% include carousel_before.html pages=4 %}
     {% include home_carousel_galaxy.html %}

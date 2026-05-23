@@ -3,6 +3,8 @@ layout: home
 title: GenOuest
 ---
 
+{% include site_deprecation_notice.html redirect="https://galaxyproject.org/genouest/" %}
+
 <div class="home">
   {% include carousel_before.html pages=4 %}
     {% include home_carousel_emc_galaxy.html %}
