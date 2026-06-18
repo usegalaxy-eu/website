@@ -3,6 +3,8 @@ layout: home
 title: ELIXIR-Belgium
 ---
 
+{% include site_deprecation_notice.html redirect="https://galaxyproject.org/belgium/" %}
+
 <div class="row eu-image-box">
 	<a href="https://www.elixir-belgium.org/" target="_blank">
 		<img src="/assets/media/ELIXIR_BELGIUM_white_background.png"  class="img-responsive eu-image"/>

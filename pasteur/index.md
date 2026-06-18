@@ -3,6 +3,8 @@ layout: home
 title: Pasteur
 ---
 
+{% include site_deprecation_notice.html redirect="https://galaxyproject.org/pasteur/" %}
+
 <div style='text-align: center; margin-bottom: 1em'>
 <img src="/assets/media/LogoIP-CNRS-C3BI.png" />
 </div>
