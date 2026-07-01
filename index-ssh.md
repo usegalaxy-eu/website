@@ -31,17 +31,17 @@ Anybody interested in Arts, Humanities and Social Sciences in Galaxy is welcome 
 
 ## 🛠️ Tools
 
-Galaxy Europe offers several thousand tools! To costumise them to your needs, you can use the **My Tools**-panel on the left hand side. To see an overview of all tool installed on the platform, click on the button **Discover Tools**. A new page opens in the midel panel. There you can search for tool names, tags and much more. 
-If you do not know, where to start, you can click on [this link](https://usegalaxy.eu/tools/list?tag=Humanities) to get an example of tools that are relevant in the SSH domain. You will see a list of tools, with the tag "Humanities" below. Click on the star to favorite this tag and see all tools tagges with "Humanities" in your own tool panel on the left.
+Galaxy Europe offers several thousand tools! To customise them to your needs, you can use the **My Tools ** panel on the left-hand side. To see an overview of all tools installed on the platform, click on the button **Discover Tools**. A new page opens in the middle panel. There you can search for tool names, tags and much more. 
+If you do not know where to start, you can click on [this link](https://usegalaxy.eu/tools/list?tag=Humanities){:target="_blank"} to get an example of tools that are relevant in the SSH domain. You will see a list of tools, with the tag "Humanities" below. Click on the star to favourite this tag and see all tools tagged with "Humanities" in your own tool panel on the left.
 
 ![Screenshot showing tool panel when searching a tag](/tags.png)
 
-Are you looking for a specific tool? Type in the name, for example, **Open Refine**. The tool also has a little star (in the same line as the tool name) that you can click to add it to your favorites and the costumised tool panel.
+Are you looking for a specific tool? Type in the name, for example, **Open Refine**. The tool also has a little star (in the same line as the tool name) that you can click to add it to your favourites and the customised tool panel.
 
 ![Screenshot showing tool panel when favorising a specific tool](/tool_fav.png)
 
 
-That way you can customise your tool panel to your need. This option is particularly nice if you are working interdisciplinary and want to usw tools from various domains. 
+That way you can customise your tool panel to your needs. This option is particularly nice if you are working in an interdisciplinary field and want to use tools from various domains. 
 
 
 <!-- 
