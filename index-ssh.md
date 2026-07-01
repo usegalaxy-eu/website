@@ -36,7 +36,7 @@ If you do not know, where to start, you can click on [this link](https://usegala
 
 ![Screenshot showing tool panel when searching a tag](/tags.png)
 
-Are you looking for a specific tool? Type in the name, for example, **Open Refine**. The tool also has a little star that you can click to add it to your favorites and the costumised tool panel.
+Are you looking for a specific tool? Type in the name, for example, **Open Refine**. The tool also has a little star (in the same line as the tool name) that you can click to add it to your favorites and the costumised tool panel.
 
 ![Screenshot showing tool panel when favorising a specific tool](/tool_fav.png)
 
