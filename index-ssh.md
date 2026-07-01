@@ -31,7 +31,18 @@ Anybody interested in Arts, Humanities and Social Sciences in Galaxy is welcome 
 
 ## 🛠️ Tools
 
-Galaxy Europe offers more than 4000 tools! That can be a bit overwhelming. 
+Galaxy Europe offers several thousand tools! To costumise them to your needs, you can use the **My Tools**-panel on the left hand side. To see an overview of all tool installed on the platform, click on the button **Discover Tools**. A new page opens in the midel panel. There you can search for tool names, tags and much more. 
+If you do not know, where to start, you can click on [this link](https://usegalaxy.eu/tools/list?tag=Humanities) to get an example of tools that are relevant in the SSH domain. You will see a list of tools, with the tag "Humanities" below. Click on the star to favorite this tag and see all tools tagges with "Humanities" in your own tool panel on the left.
+
+![Screenshot showing tool panel when searching a tag](/tags.png)
+
+Are you looking for a specific tool? Type in the name, for example, **Open Refine**. The tool also has a little star that you can click to add it to your favorites and the costumised tool panel.
+
+![Screenshot showing tool panel when favorising a specific tool](/tool_fav.png)
+
+
+That way you can customise your tool panel to your need. This option is particularly nice if you are working interdisciplinary and want to usw tools from various domains. 
+
 
 <!-- 
 ## Workflows
