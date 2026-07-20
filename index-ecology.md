@@ -170,7 +170,9 @@ subdomain: ecology
     <div class="card border-secondary bg-light mb-1 mx-1" style="display: flex; flex-direction: column; height: 100%;">
         <div class="card-body" style="display: flex; flex-direction: column; flex: 1;">
             <h2 class="card-title text-dark" style="margin-top: 0;">GAIA DATA</h2>
-            <center><img src="./assets/media/logo-data-gaia_default.png" style="width: 140px; height:auto;"/></center>
+            <a href="https://www.gaia-data.org/" target="_blank">
+                <center><img src="./assets/media/logo-data-gaia_default.png" style="width: 140px; height:auto;"/></center>
+            </a>
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">TUTORIALS</p>
                 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
@@ -351,7 +353,7 @@ subdomain: ecology
             </div>
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">RELATED PROJECT</p>
-                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
+                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;  justify-content: center;">
                     <a href="https://www.pepr-forestt.org/" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
                         <img src="./assets/media/pepr_forestt.jpg" style="width: 200px; height:auto;"/>
                         <p class="card-text">PEPR FORESTT</p>
