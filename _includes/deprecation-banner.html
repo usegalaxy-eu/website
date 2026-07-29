@@ -1,0 +1,56 @@
+<!--
+  Site-wide deprecation notice. usegalaxy.eu website content has migrated to the
+  Galaxy Hub (galaxyproject.org). This site stays online for continuity but every
+  page carries this banner directing visitors to the new home.
+
+  Included from _layouts/default.html, _layouts/default-galaxy.html and
+  _layouts/home.html so it appears on every rendered page. Not included in
+  widget.html (iframe embeds) or the .ics feed layouts.
+-->
+<div class="eu-deprecation-banner" role="region" aria-label="Site migration notice">
+  <div class="eu-deprecation-banner__inner">
+    <span class="eu-deprecation-banner__icon" aria-hidden="true">&#9888;</span>
+    <p class="eu-deprecation-banner__text">
+      This site has moved. UseGalaxy.eu pages now live on the
+      <strong>Galaxy Hub</strong>. This copy is kept for reference and is no longer updated.
+    </p>
+    <a class="eu-deprecation-banner__cta" href="https://galaxyproject.org/eu/">
+      Go to the new site &rarr;
+    </a>
+  </div>
+</div>
+
+<style>
+  .eu-deprecation-banner {
+    background: #2c3143;
+    border-bottom: 4px solid #ffd700;
+    color: #fff;
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  .eu-deprecation-banner__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.6rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .eu-deprecation-banner__icon { color: #ffd700; font-size: 1.1rem; line-height: 1; }
+  .eu-deprecation-banner__text { margin: 0; flex: 1 1 260px; font-size: 0.92rem; line-height: 1.4; }
+  .eu-deprecation-banner__cta {
+    flex: 0 0 auto;
+    background: #ffd700;
+    color: #2c3143;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+  .eu-deprecation-banner__cta:hover { background: #e6c200; color: #2c3143; }
+  @media (max-width: 600px) {
+    .eu-deprecation-banner__inner { padding: 0.55rem 0.85rem; }
+    .eu-deprecation-banner__text { font-size: 0.87rem; }
+  }
+</style>
