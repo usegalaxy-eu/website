@@ -7,6 +7,7 @@
     {% assign key_length = key | size %}
 
   <body class="{% if key_length != 0 %}location-{{ key }}{% endif %}">
+    {% include deprecation-banner.html %}
     <div id="wrap">
       <div id="main">
         {% include header.html %}
