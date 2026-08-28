@@ -25,6 +25,18 @@
   {% endif %}
 {% endif %}
 
+{% if key_length == 0 or key == "galaxy" %}
+  {% comment %}
+    We're on the main page, not a member site.
+    The `key` is either "galaxy" or empty (`key_length` of 0, renders as "", but doesn't equal "").
+  {% endcomment %}
+  {% assign subsite = "eu" %}
+{% else %}
+  {% assign subsite = key %}
+{% endif %}
+{% assign redirect = "https://galaxyproject.org/" | append: subsite | append: "/news/" %}
+{% include page_deprecation_notice.html name="Galaxy News" redirect=redirect %}
+
 <script>
   const load = () => {
     const urlParams = new URLSearchParams(window.location.search);

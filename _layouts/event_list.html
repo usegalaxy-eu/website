@@ -5,6 +5,18 @@ layout: default
 {% assign key = page_dir[1] | default: page.site  %}
 {% assign key_length = key | size %}
 
+{% if key_length == 0 or key == "galaxy" %}
+  {% comment %}
+    We're on the main page, not a member site.
+    The `key` is either "galaxy" or empty (`key_length` of 0, renders as "", but doesn't equal "").
+  {% endcomment %}
+  {% assign subsite = "eu" %}
+{% else %}
+  {% assign subsite = key %}
+{% endif %}
+{% assign redirect = "https://galaxyproject.org/" | append: subsite | append: "/events/" %}
+{% include page_deprecation_notice.html name="Galaxy Events" redirect=redirect %}
+
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 <section class="page-header">
   <div class="row">

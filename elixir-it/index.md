@@ -3,6 +3,8 @@ layout: home
 title: elixir-it
 ---
 
+{% include site_deprecation_notice.html redirect="https://galaxyproject.org/elixir-it/" %}
+
 <div class="row eu-image-box">
 	<a href="https://www.elixir-italy.org/" target="_blank">
 		<img src="https://raw.githubusercontent.com/Laniakea-elixir-it/resources/master/logos/elixir_italy_white_background.png"  class="img-responsive eu-image center"/>
